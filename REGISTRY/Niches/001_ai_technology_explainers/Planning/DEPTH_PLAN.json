@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "001",
+  "updated_date": "2026-10-18",
+  "audience": "Adult learners; adjust episode audience explicitly in CONFIG.",
+  "boundary": "General AI literacy; developer agent architecture belongs to 531 and tool tutorials to 007.",
+  "production_handoff": "Provide cited narration, timed scene directions, continuity references and generation prompts for the user's external AI video workflow. No audiovisual generation pilot is required.",
+  "topics": [
+    {
+      "topic_id": "TOP-001-001",
+      "title": "Attention and sequence representation",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "how_it_works"
+      ],
+      "coverage": "Token relationships, representation and a bounded architecture diagram.",
+      "exclusions": "Human cognition claims and implementation tutorials.",
+      "evidence_required": "Original architecture passages and a checked original illustration.",
+      "source_ids": [
+        "SRC-0001",
+        "SRC-0010",
+        "SRC-0011"
+      ],
+      "idea_ids": [
+        "IDEA-001-0001"
+      ],
+      "next_action": "Phase 1 prepared for IDEA-001-0001; complete production-bible decisions before scene drafting. Keep interpretability sources attributed and scope limited."
+    },
+    {
+      "topic_id": "TOP-001-002",
+      "title": "Dataset provenance",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "data_provenance"
+      ],
+      "coverage": "Origin, collection context, consent questions and intended uses.",
+      "exclusions": "Assuming a dataset is representative because documentation exists.",
+      "evidence_required": "Dataset documentation and applicable collection records.",
+      "source_ids": [
+        "SRC-0003"
+      ],
+      "idea_ids": [
+        "IDEA-001-0002"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-001-003",
+      "title": "Evaluation and reporting",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-001-001",
+        "TOP-001-002"
+      ],
+      "angle_slugs": [
+        "evaluation_benchmarks"
+      ],
+      "coverage": "Task, population, metric and intended-use boundaries.",
+      "exclusions": "Product rankings based on incomparable scores.",
+      "evidence_required": "Named benchmark conditions and limitations.",
+      "source_ids": [
+        "SRC-0002"
+      ],
+      "idea_ids": [
+        "IDEA-001-0003"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-001-004",
+      "title": "Failure and uncertainty",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-001-003"
+      ],
+      "angle_slugs": [
+        "myths_vs_facts"
+      ],
+      "coverage": "Failure categories, uncertainty and what an example can demonstrate.",
+      "exclusions": "Universal failure rates inferred from a single demonstration.",
+      "evidence_required": "Versioned evaluations with recorded test conditions.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-001-005",
+      "title": "Human oversight",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-001-003"
+      ],
+      "angle_slugs": [
+        "human_ai_collaboration"
+      ],
+      "coverage": "Decision ownership and a documented review intervention.",
+      "exclusions": "Treating human presence as evidence of effective oversight.",
+      "evidence_required": "Observed workflow, intervention criteria and outcomes.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-001-006",
+      "title": "Safeguards and tradeoffs",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-001-004",
+        "TOP-001-005"
+      ],
+      "angle_slugs": [
+        "safety_tradeoffs"
+      ],
+      "coverage": "One safeguard, its evaluation and its limitations.",
+      "exclusions": "Unsupported claims of complete safety.",
+      "evidence_required": "Threat model and evaluation protocol.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-001-007",
+      "title": "Compute and infrastructure",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-001-001"
+      ],
+      "angle_slugs": [
+        "infrastructure_compute"
+      ],
+      "coverage": "One bounded training or inference resource question.",
+      "exclusions": "Extrapolating a historical system to current industry totals.",
+      "evidence_required": "Versioned hardware, workload and resource measurement.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-001-008",
+      "title": "Technical change over time",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-001-001",
+        "TOP-001-003"
+      ],
+      "angle_slugs": [
+        "history_origins",
+        "technology_innovation"
+      ],
+      "coverage": "Compare an identified constraint across two dated systems.",
+      "exclusions": "Forecasting universal progress from one paper.",
+      "evidence_required": "Original papers with compatible comparison conditions.",
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    }
+  ],
+  "series": [
+    {
+      "series_id": "SER-001-001",
+      "title": "Reading an AI claim",
+      "entry_requirement": "No prior episode required; explain specialist terms on first use.",
+      "learning_outcome": "Distinguish a mechanism explanation, dataset provenance and evaluation evidence.",
+      "ordering_reason": "Mechanism introduces the object; data introduces its inputs; reporting introduces its limits.",
+      "idea_ids": [
+        "IDEA-001-0001",
+        "IDEA-001-0002",
+        "IDEA-001-0003"
+      ]
+    }
+  ]
+}

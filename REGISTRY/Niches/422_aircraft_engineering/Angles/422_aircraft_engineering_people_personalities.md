@@ -1,0 +1,22 @@
+# 422_aircraft_engineering_people_personalities: Aircraft Engineering — A Design Decision in Context
+
+> Subject category: Transport_Engineering
+> CAT: ../CAT_422_aircraft_engineering.md
+> NICHE: ../NICHE_422_aircraft_engineering.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Design Decision in Context
+
+## Editorial scope
+
+**Focus / example question:** Who proposed one aircraft solution and who tested it?
+
+**Coverage:** Use dated team and regulator records.
+
+**Evidence to seek:** FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records
+
+**Limits:** Name aircraft variant, authority, rule edition, flight conditions, and report status. A test or certificate is bounded evidence, not a universal safety promise.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

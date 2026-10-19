@@ -1,0 +1,22 @@
+# 293_banking_historical_policy: Banking — A Banking Policy in Practice
+
+> Subject category: Finance_Banking
+> CAT: ../CAT_293_banking.md
+> NICHE: ../NICHE_293_banking.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Banking Policy in Practice
+
+## Editorial scope
+
+**Focus / example question:** Who gained access after a dated banking policy change?
+
+**Coverage:** Compare official aims, implementation data, and affected groups.
+
+**Evidence to seek:** dated account agreements, bank disclosures, regulator records, legislation, and attributed customer accounts
+
+**Limits:** Specify jurisdiction, date, institution type, and protection limits; avoid individualized financial advice.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

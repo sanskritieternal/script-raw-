@@ -1,0 +1,10 @@
+# NICHE_062_computer_pc - Identity and Planning
+
+Niche ID: 062
+Title: Computer & PC
+Subject category: Computing_Software
+Configuration: [CAT_062_computer_pc.md](./CAT_062_computer_pc.md)
+Angle index: [ALL_TOPICS_BY_NICHE.md](./Angles/ALL_TOPICS_BY_NICHE.md)
+Visual style source: `REGISTRY/MASTER_VISUAL_STYLE.md` row 62
+
+This file records identity and planning links. Q1-Q42 answers live only in the CAT file. Choose an angle and a specific story question before starting an episode.

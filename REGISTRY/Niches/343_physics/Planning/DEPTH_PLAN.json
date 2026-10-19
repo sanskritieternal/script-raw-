@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "343",
+  "updated_date": "2026-10-18",
+  "audience": "Adult learners; adjust episode audience explicitly in CONFIG.",
+  "boundary": "Physical quantities and models; diagrams are illustrations unless supported by real observations.",
+  "production_handoff": "Provide cited narration, timed scene directions, continuity references and generation prompts for the user's external AI video workflow. No audiovisual generation pilot is required.",
+  "topics": [
+    {
+      "topic_id": "TOP-343-001",
+      "title": "Units and definitions",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "beginner_explainers"
+      ],
+      "coverage": "Quantities, units and the difference between definitions and observations.",
+      "exclusions": "Invented experimental confirmation.",
+      "evidence_required": "Pinned authoritative unit reference and exact locators.",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "idea_ids": [
+        "IDEA-343-0001"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-343-002",
+      "title": "Practical realization",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-343-001"
+      ],
+      "angle_slugs": [
+        "measurement_method"
+      ],
+      "coverage": "One chain linking a definition, method and instrument.",
+      "exclusions": "Treating an illustrative apparatus as an actual experiment.",
+      "evidence_required": "Accessible method documentation and instrument limits.",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "idea_ids": [
+        "IDEA-343-0002"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-343-003",
+      "title": "Measurement uncertainty",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-343-001",
+        "TOP-343-002"
+      ],
+      "angle_slugs": [
+        "field_measurement_error"
+      ],
+      "coverage": "Resolution, repeatability, systematic effects and reporting limits.",
+      "exclusions": "Fabricated precision or uncertainty budgets.",
+      "evidence_required": "Authoritative guidance and a checked illustrative example.",
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "idea_ids": [
+        "IDEA-343-0003"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-343-004",
+      "title": "Mechanics and idealization",
+      "level": "foundation",
+      "prerequisites": [
+        "TOP-343-001"
+      ],
+      "angle_slugs": [
+        "field_mathematical_model"
+      ],
+      "coverage": "One motion model, assumptions and domain of validity.",
+      "exclusions": "Presenting a frictionless model as a direct field observation.",
+      "evidence_required": "Derivation and a documented comparison case.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-343-005",
+      "title": "Energy and interacting systems",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-343-004"
+      ],
+      "angle_slugs": [
+        "interacting_systems"
+      ],
+      "coverage": "System boundary, transfers and one mechanism chain.",
+      "exclusions": "Unbounded perpetual-motion or efficiency claims.",
+      "evidence_required": "Defined boundary and a checked energy balance.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-343-006",
+      "title": "Waves and signals",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-343-001",
+        "TOP-343-003"
+      ],
+      "angle_slugs": [
+        "how_it_works"
+      ],
+      "coverage": "Frequency, propagation and a bounded signal illustration.",
+      "exclusions": "Changing time or distance scales without disclosure.",
+      "evidence_required": "Equations, units and original labeled diagrams.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-343-007",
+      "title": "Limits of physical models",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-343-003",
+        "TOP-343-004"
+      ],
+      "angle_slugs": [
+        "advanced_concepts"
+      ],
+      "coverage": "A named approximation and a regime where it fails.",
+      "exclusions": "Claiming the entire theory is disproved by an approximation limit.",
+      "evidence_required": "Original model assumptions and relevant measurements.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-343-008",
+      "title": "Experimental inference",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-343-002",
+        "TOP-343-003"
+      ],
+      "angle_slugs": [
+        "prediction_test",
+        "field_experimental_setup"
+      ],
+      "coverage": "Prediction, apparatus, alternative explanations and a test criterion.",
+      "exclusions": "AI imagery represented as measured laboratory evidence.",
+      "evidence_required": "Actual published protocol, results and uncertainty.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    }
+  ],
+  "series": [
+    {
+      "series_id": "SER-343-001",
+      "title": "From units to measurements",
+      "entry_requirement": "No prior episode required; explain specialist terms on first use.",
+      "learning_outcome": "Distinguish definitions, practical realization and measurement uncertainty.",
+      "ordering_reason": "A definition establishes the reference; a method realizes it; uncertainty qualifies results.",
+      "idea_ids": [
+        "IDEA-343-0001",
+        "IDEA-343-0002",
+        "IDEA-343-0003"
+      ]
+    }
+  ]
+}

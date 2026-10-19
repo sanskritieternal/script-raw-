@@ -1,0 +1,22 @@
+# 331_humanoid_robots_mysteries_unsolved_cases: Humanoid Robots — A Fall in a Demonstration
+
+> Subject category: Robotics_AI
+> CAT: ../CAT_331_humanoid_robots.md
+> NICHE: ../NICHE_331_humanoid_robots.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Fall in a Demonstration
+
+## Editorial scope
+
+**Focus / example question:** Which conditions could explain a documented loss of balance?
+
+**Coverage:** Use video limits, telemetry, and operator account.
+
+**Evidence to seek:** dated product specifications, disclosed demos, independent task trials, safety documentation, maintenance records, and worker accounts
+
+**Limits:** Name model, task, setting, version, and human intervention. Distinguish visual resemblance from general capability and disclose teleoperation.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

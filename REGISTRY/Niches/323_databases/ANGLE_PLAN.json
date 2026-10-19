@@ -1,0 +1,271 @@
+{
+  "niche_id": "323",
+  "status": "editorial_question_reviewed",
+  "purpose": "Databases as versioned systems for data modeling, transaction correctness, querying, operations, recovery, and stewardship.",
+  "generation_basis": "build_remaining_angle_plans.py field lenses v1",
+  "editorial_principles": [
+    "Use a named jurisdiction, population, and date where applicable.",
+    "Present comparisons on equal terms and label illustrative scenarios.",
+    "Verify primary sources and current guidance before production.",
+    "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+  ],
+  "angles": [
+    {
+      "slug": "history_origins",
+      "angle": "A Database Model Emerges",
+      "scope": "Use dated papers, implementations, and workload context.",
+      "question": "What problem did a named data model address?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "famous_examples",
+      "angle": "A Database Migration Revisited",
+      "scope": "Compare schema, workload, failure tests, and migration cost.",
+      "question": "Did one replacement meet its consistency and performance aims?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "hidden_stories",
+      "angle": "People Maintaining the Data",
+      "scope": "Credit operators, stewards, and affected communities.",
+      "question": "Who defines schemas, repairs records, operates backups, and answers users?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "beginner_explainers",
+      "angle": "From Record to Query",
+      "scope": "Trace schema, index, query, permissions, and returned result.",
+      "question": "How does one application store and retrieve a record?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "advanced_concepts",
+      "angle": "Isolation in a Real Transaction",
+      "scope": "Use a named engine, version, workload, and reproducible schedule.",
+      "question": "Which concurrent outcome can a chosen isolation level permit?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "mysteries_unsolved_cases",
+      "angle": "Where Did a Record Go?",
+      "scope": "Protect sensitive data and distinguish deletion from invisibility.",
+      "question": "Which logs, migrations, replicas, or queries explain a missing result?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "technology_innovation",
+      "angle": "A New Database Feature",
+      "scope": "Test latency, write cost, storage, and correctness.",
+      "question": "Did an index or execution change improve the target workload?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "people_personalities",
+      "angle": "A Data Design Choice",
+      "scope": "Read design decisions and consequences for users.",
+      "question": "Who chose a schema or consistency rule and why?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "major_events",
+      "angle": "A Database Incident Timeline",
+      "scope": "Use public postmortem, alerts, and restore evidence.",
+      "question": "What sequence led from first error to recovery?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "how_it_works",
+      "angle": "Commit and Read Back",
+      "scope": "Trace transaction, log, storage, cache, and replica path.",
+      "question": "How does a named engine make a write visible and durable?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "rise_fall",
+      "angle": "A Database Technology's Adoption",
+      "scope": "Separate popularity metrics from suitability and outcomes.",
+      "question": "Which workload and organization choices explain use over time?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "then_vs_now",
+      "angle": "One Query Before and After",
+      "scope": "Control data size, hardware, indexes, concurrency, and version.",
+      "question": "What changed after schema or engine migration?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "future_developments",
+      "angle": "A Proposed Database Capability",
+      "scope": "Define compatibility, correctness, workload, and operational cost.",
+      "question": "What would demonstrate safe usefulness in production?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "myths_vs_facts",
+      "angle": "Replication Is Backup?",
+      "scope": "Test deletion, corruption, restore point, and access controls.",
+      "question": "Which failures can a replica copy but a retained backup recover?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "documentary_stories",
+      "angle": "A Data Recovery Story",
+      "scope": "Use consented records and distinguish recovery claim from test.",
+      "question": "How did operators detect, contain, and restore a loss?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "system_boundary",
+      "angle": "Application Versus Database Guarantee",
+      "scope": "Name transaction settings and failure assumptions.",
+      "question": "Which correctness duties belong to app code, schema, and engine?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "input_output_trace",
+      "angle": "One Query's Path",
+      "scope": "Trace parse, plan, index, access, and response for a named engine.",
+      "question": "What data enters a query and how is the result produced?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "design_tradeoff",
+      "angle": "Index Gains and Write Costs",
+      "scope": "Benchmark a defined mix and data distribution.",
+      "question": "When does an index speed reads while increasing maintenance?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "failure_mode",
+      "angle": "A Failed Commit or Restore",
+      "scope": "Use transaction logs, storage state, and restore test.",
+      "question": "What evidence shows whether data was lost or unavailable?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "testing_limits",
+      "angle": "A Database Benchmark's Blind Spots",
+      "scope": "Specify schema, dataset, read-write mix, concurrency, and durability.",
+      "question": "Does a headline throughput number match the intended application?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "standards_interoperability",
+      "angle": "Moving Data Between Engines",
+      "scope": "Test types, isolation, extensions, and exports.",
+      "question": "Which schema and query semantics survive migration?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "security_threat_model",
+      "angle": "Who Can Read a Record?",
+      "scope": "Define privileges, encryption endpoints, logs, and retention.",
+      "question": "Which identities, services, backups, and operators can access data?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "maintenance_lifecycle",
+      "angle": "Upgrading a Live Database",
+      "scope": "Plan compatibility, backfill, validation, and rollback.",
+      "question": "How can version changes and schema migrations preserve service?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "infrastructure_dependencies",
+      "angle": "Storage Beneath the Database",
+      "scope": "Map failure domains and engine guarantees.",
+      "question": "Which disk, network, clock, and power assumptions affect correctness?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "accessibility_usability",
+      "angle": "Database Tools for Teams",
+      "scope": "Test interfaces, documentation, audit trails, and assistive use.",
+      "question": "Can operators and analysts understand errors and permissions?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "independent_replication",
+      "angle": "Reproducing a Database Claim",
+      "scope": "Publish engine version, settings, data, workload, and method.",
+      "question": "Can another team rerun a performance or correctness test?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "responsible_deployment",
+      "angle": "Data Collection and Retention",
+      "scope": "Check purpose, consent or authority, access, deletion, and harms.",
+      "question": "Which records should exist and who can challenge their use?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "field_software_architecture",
+      "angle": "Database in an Application",
+      "scope": "Map consistency and recovery boundaries.",
+      "question": "Which caches, queues, replicas, and services sit around the source of record?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "field_interface_design",
+      "angle": "A Query Tool's Dangerous Action",
+      "scope": "Test preview, permissions, transaction, and recovery.",
+      "question": "Does the interface reveal scope before update or deletion?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "field_version_changes",
+      "angle": "Engine Upgrade Regression",
+      "scope": "Compare release notes, plans, correctness, and rollback.",
+      "question": "Which queries or behaviors changed after a version upgrade?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "field_open_standards",
+      "angle": "Portable Data and Query?",
+      "scope": "Test specification, export, extensions, and independent tool.",
+      "question": "Can another implementation read the format and reproduce semantics?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    },
+    {
+      "slug": "field_technical_debt",
+      "angle": "A Schema That Cannot Evolve",
+      "scope": "Trace queries, clients, ownership, backfills, and migration path.",
+      "question": "Which undocumented dependencies make a data change risky?",
+      "evidence": "database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems",
+      "boundary": "Name engine, version, isolation settings, schema, and workload. Do not generalize one engine's guarantees or expose production records."
+    }
+  ],
+  "review_note": "All 32 question designs and scopes reviewed for niche fit. Case selection, local applicability, source feasibility, and factual claims remain episode-level tasks."
+}

@@ -1,0 +1,22 @@
+# 186_survival_psychology_major_events: Survival Psychology — A Disaster Changes Support Practice
+
+> Subject category: Mind_Wellness
+> CAT: ../CAT_186_survival_psychology.md
+> NICHE: ../NICHE_186_survival_psychology.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Disaster Changes Support Practice
+
+## Editorial scope
+
+**Focus / example question:** What did an after-action review change about psychosocial support?
+
+**Coverage:** Compare guidance, staffing, access, and follow-up.
+
+**Evidence to seek:** official incident and after-action reports, published crisis-support guidance, ethical field studies, service data, and consented survivor accounts
+
+**Limits:** Avoid diagnosis, victim blame, unsupported panic claims, operational survival instructions, and identifying details. Attribute testimony, verify timelines, and distinguish lab findings from field behavior.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

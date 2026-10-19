@@ -1,0 +1,271 @@
+{
+  "niche_id": "338",
+  "status": "editorial_question_reviewed",
+  "purpose": "Developer AI as code suggestions and agents embedded in repositories, review, testing, deployment, and ongoing maintenance.",
+  "generation_basis": "build_remaining_angle_plans.py field lenses v1",
+  "editorial_principles": [
+    "Use a named jurisdiction, population, and date where applicable.",
+    "Present comparisons on equal terms and label illustrative scenarios.",
+    "Verify primary sources and current guidance before production.",
+    "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+  ],
+  "angles": [
+    {
+      "slug": "history_origins",
+      "angle": "AI in Developer Tools",
+      "scope": "Use dated tools, studies, and task descriptions.",
+      "question": "Which task did an early code-assistance system actually support?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "famous_examples",
+      "angle": "A Coding Assistant Demo Rechecked",
+      "scope": "Compare environment, tests, human edits, and time.",
+      "question": "Does it solve the same task in a real repository?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "hidden_stories",
+      "angle": "People Behind Generated Code",
+      "scope": "Credit maintainers and developers.",
+      "question": "Who curates examples, reviews suggestions, and fixes failures?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "beginner_explainers",
+      "angle": "A Suggestion's Journey",
+      "scope": "Trace context, model, edit, review, test, and commit.",
+      "question": "How does a prompt become code a developer may accept?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "advanced_concepts",
+      "angle": "Correctness Beyond Compilation",
+      "scope": "Test edge cases, dependencies, and maintainability.",
+      "question": "Does generated code preserve behavior and security?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "mysteries_unsolved_cases",
+      "angle": "A Passing Patch That Regressed",
+      "scope": "Trace issue, review, test, and incident evidence.",
+      "question": "Which missed condition explains a generated-code failure?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "technology_innovation",
+      "angle": "A New Coding Agent",
+      "scope": "Compare controlled repositories, success rate, intervention, and cost.",
+      "question": "Did it improve a defined development task?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "people_personalities",
+      "angle": "The Developer's Judgment",
+      "scope": "Use consented workflow study and code review.",
+      "question": "How did a reviewer accept, change, or reject an AI proposal?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "major_events",
+      "angle": "An AI Tool Rollout",
+      "scope": "Compare adoption, defects, review time, and workload.",
+      "question": "What changed after a team introduced it?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "how_it_works",
+      "angle": "AI Edit to Release",
+      "scope": "Map context, diff, tests, review, build, and deployment.",
+      "question": "How does a generated change pass through normal delivery controls?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "rise_fall",
+      "angle": "A Coding Tool Is Retired",
+      "scope": "Compare records and developer feedback.",
+      "question": "Which quality, cost, trust, or workflow issue drove removal?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "then_vs_now",
+      "angle": "One Task With and Without AI",
+      "scope": "Use matched tasks and account for reviewer effort.",
+      "question": "Did time, quality, and comprehension change?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "future_developments",
+      "angle": "A Claimed Autonomous Developer",
+      "scope": "Require scoped tasks, independent tests, security, and accountability.",
+      "question": "What evidence would show reliable end-to-end delivery?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "myths_vs_facts",
+      "angle": "Passing Tests Means Safe Code?",
+      "scope": "Inspect coverage, requirements, dependencies, and review.",
+      "question": "Which untested behavior or vulnerability can remain?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "documentary_stories",
+      "angle": "One AI-Assisted Pull Request",
+      "scope": "Follow diff, tests, comments, and release outcome.",
+      "question": "What did the model propose and what did people verify?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "system_boundary",
+      "angle": "Model, IDE, Repository, and Human",
+      "scope": "Draw permissions and approval boundaries.",
+      "question": "Which system can read, write, or execute code?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "input_output_trace",
+      "angle": "A Repository Prompt to Diff",
+      "scope": "Use redacted logs and consented repository data.",
+      "question": "What context was sent and how did a suggestion change files?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "design_tradeoff",
+      "angle": "Fast Suggestions and Review Load",
+      "scope": "Measure accepted lines, defects, comprehension, and upkeep.",
+      "question": "Does more generated code save or shift work?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "failure_mode",
+      "angle": "A Plausible Wrong Fix",
+      "scope": "Use harmless reproductions and code review evidence.",
+      "question": "Why did a generated patch miss the real bug?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "testing_limits",
+      "angle": "Coding Benchmark Versus Production",
+      "scope": "State task selection and grading limits.",
+      "question": "Which repository, dependency, and team conditions differ?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "standards_interoperability",
+      "angle": "AI Tool Across IDEs",
+      "scope": "Test named versions and permission models.",
+      "question": "Which context, diff, and tool protocols are portable?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "security_threat_model",
+      "angle": "Repository Context Exposure",
+      "scope": "Map data flow, permissions, retention, and defensive controls.",
+      "question": "Who can receive code, secrets, or build access?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "maintenance_lifecycle",
+      "angle": "Maintaining AI-Written Code",
+      "scope": "Track author attribution and review practice.",
+      "question": "Who owns updates, documentation, and future debugging?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "infrastructure_dependencies",
+      "angle": "A Coding Assistant's Supply Chain",
+      "scope": "Map outage and vendor dependencies.",
+      "question": "Which model endpoint, IDE, packages, and build services are required?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "accessibility_usability",
+      "angle": "Developer AI for Different Users",
+      "scope": "Test interfaces, explanations, and assistive workflows.",
+      "question": "Can developers inspect, reject, and edit suggestions accessibly?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "independent_replication",
+      "angle": "Repeating a Productivity Claim",
+      "scope": "Publish task mix, baselines, metrics, model version, and review cost.",
+      "question": "Can another team reproduce a reported gain?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "responsible_deployment",
+      "angle": "AI Code in a Real Product",
+      "scope": "Set review and escalation requirements.",
+      "question": "Who is accountable for defects, licenses, and user harm?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "field_training_or_control_data",
+      "angle": "Code Data and Context",
+      "scope": "Check permissions, leakage, provenance, and exclusions.",
+      "question": "Which repositories or prompts shaped an output?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "field_real_world_testing",
+      "angle": "Assistant in a Real Repository",
+      "scope": "Measure task completion and downstream maintenance.",
+      "question": "Does it handle project constraints and passing tests?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "field_human_oversight",
+      "angle": "Reviewing AI Changes",
+      "scope": "Assess review time, authority, and evidence.",
+      "question": "Can a human understand and reject each proposed diff?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "field_failure_recovery",
+      "angle": "Undoing a Bad AI Edit",
+      "scope": "Test version control, rollback, and incident response.",
+      "question": "Can the team find and reverse a harmful change?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    },
+    {
+      "slug": "field_hardware_dependency",
+      "angle": "Compute Behind Developer AI",
+      "scope": "Measure latency, connectivity, and resource cost.",
+      "question": "How do local device and remote model limits affect usability?",
+      "evidence": "versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance",
+      "boundary": "Name tool and model version, task, repository context, human intervention, and review cost. Treat generated code as untrusted until verified."
+    }
+  ],
+  "review_note": "All 32 question designs and scopes reviewed for niche fit. Case selection, local applicability, source feasibility, and factual claims remain episode-level tasks."
+}

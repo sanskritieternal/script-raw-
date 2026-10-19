@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:script-system:idea-bank:1.0",
+  "title": "Optional niche episode idea bank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "niche_id",
+    "ideas"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "niche_id": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "ideas": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/idea"
+      }
+    }
+  },
+  "$defs": {
+    "idea": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "idea_id",
+        "niche_id",
+        "status",
+        "angle_slug",
+        "topic",
+        "working_title",
+        "story_question",
+        "case",
+        "place_period_version",
+        "intended_audience",
+        "purpose",
+        "created_date",
+        "updated_date",
+        "evidence_gaps",
+        "blocking_gaps",
+        "related_ideas",
+        "readiness_note",
+        "source_candidates"
+      ],
+      "properties": {
+        "idea_id": {
+          "type": "string",
+          "pattern": "^IDEA-[0-9]{3}-[0-9]{4}$"
+        },
+        "niche_id": {
+          "type": "string",
+          "pattern": "^[0-9]{3}$"
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "researching",
+            "ready_for_project",
+            "rejected",
+            "archived"
+          ]
+        },
+        "angle_slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 3
+        },
+        "working_title": {
+          "type": "string",
+          "minLength": 8
+        },
+        "story_question": {
+          "type": "string",
+          "minLength": 15
+        },
+        "case": {
+          "type": "string",
+          "minLength": 10
+        },
+        "place_period_version": {
+          "type": "string",
+          "minLength": 10
+        },
+        "intended_audience": {
+          "type": "string",
+          "minLength": 5
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 10
+        },
+        "created_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "updated_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "blocking_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "related_ideas": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "readiness_note": {
+          "type": "string"
+        },
+        "source_candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "url",
+              "status",
+              "checked_date",
+              "check_note"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https?://"
+              },
+              "status": {
+                "enum": [
+                  "unverified",
+                  "checked"
+                ]
+              },
+              "checked_date": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "check_note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "description": "The Python validator additionally checks registered niche/angle identity, real dates, readiness, duplicate questions and related IDs. Ready means project feasibility, not factual or publication approval."
+}

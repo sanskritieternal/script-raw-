@@ -1,0 +1,5 @@
+# 141 Traditional Skills
+
+Subject category: `Cultural_Heritage`. Niche record: `REGISTRY/Niches/141_traditional_skills/NICHE_141_traditional_skills.md`. Configuration: `REGISTRY/Niches/141_traditional_skills/CAT_141_traditional_skills.md`.
+
+Episode projects are created under this folder by `create_project.py`. This landing folder is not a completed episode.

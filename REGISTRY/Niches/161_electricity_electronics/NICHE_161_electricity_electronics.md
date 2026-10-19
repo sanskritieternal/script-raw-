@@ -1,0 +1,10 @@
+# NICHE_161_electricity_electronics - Identity and Planning
+
+Niche ID: 161
+Title: Electricity & Electronics
+Subject category: Engineering_Inventions
+Configuration: [CAT_161_electricity_electronics.md](./CAT_161_electricity_electronics.md)
+Angle index: [ALL_TOPICS_BY_NICHE.md](./Angles/ALL_TOPICS_BY_NICHE.md)
+Visual style source: `REGISTRY/MASTER_VISUAL_STYLE.md` row 161
+
+This file records identity and planning links. Q1-Q42 answers live only in the CAT file. Choose an angle and a specific story question before starting an episode.

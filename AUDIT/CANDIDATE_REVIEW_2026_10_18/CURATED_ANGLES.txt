@@ -1,0 +1,173 @@
+@@531
+Tool Permission Boundaries|Which actions may one agent perform without a person approving them?|Trace tool schemas, authorization checks and actual permitted actions in a versioned task.
+Planning Versus Execution|Where did an agent's plan diverge from its recorded actions?|Compare a sanitized plan, tool trace and outcome without treating private reasoning as observable evidence.
+Agent Evaluation Sets|Does one evaluation test realistic failures rather than only successful demos?|Inspect task sampling, scoring, retries and unseen cases against a stated use setting.
+Memory And State|What information survives between runs and who can inspect or remove it?|Trace stored state, provenance, retention and reset behavior in one documented implementation.
+Recovery And Escalation|When should a failed tool action trigger retry, rollback or human escalation?|Inspect bounded failure tests and recovery records without executing destructive actions.
+Prompt Injection At Tool Boundaries|Can untrusted retrieved text influence an authorized tool action?|Examine a safe published test, trust boundaries and mitigations; avoid operational abuse instructions.
+Human Oversight Costs|How much review work accompanies a reported agent success rate?|Count intervention definitions, reviewer time and rejected outputs alongside task results.
+Workflow Or Agent|Does a task benefit from dynamic action selection over a fixed workflow?|Compare the same task and permissions using declared quality, latency and cost measures.
+@@532
+Retrieval Grounding|Does retrieved material actually support an application's answer?|Trace a bounded query through retrieval, source passages and answer evaluation.
+Context And Truncation|What relevant information disappears when an application limits context?|Inspect tokenization, input ordering and omitted content at a named version.
+Inference Tradeoffs|Which quality changes accompany a faster or cheaper inference setting?|Compare matched tasks, hardware, decoding settings and repeated runs.
+Model And System Evaluation|Which errors belong to the model and which to retrieval or orchestration?|Separate components and test one controlled change at a time.
+Output Validation|Which structured outputs pass a schema but still fail the user's task?|Compare syntax checks with semantic correctness on declared examples.
+Training Data And Model Cards|What does one model card reveal and leave unknown about training data?|Read disclosed provenance, limitations and evaluation scope without guessing private data.
+Multilingual Behavior|Does one language-model system perform equally across defined languages?|Compare task equivalence, translation choices and language-specific evaluation limitations.
+Deployment Drift|Which behavior changed after a model or application version update?|Retain dated configurations and matched evaluations instead of comparing unrelated demos.
+@@533
+Data Models Without Code|Which hidden assumptions are encoded in a visual app's data schema?|Inspect entities, relationships and validation using one documented application.
+Identity And Access Rules|Can a visual application expose records beyond a user's intended role?|Review authorized test accounts, permissions and documented isolation behavior.
+Integration Failures|What happens when an external service changes or becomes unavailable?|Trace connector versions, error handling and safe recovery in a bounded test.
+Prototype To Service|What work separates a successful prototype from a maintained service?|Compare test coverage, deployment control, accessibility and support responsibilities.
+Platform Exit|Can a team move its data and business rules away from one platform?|Examine export formats, dependencies, licensing and migration effort without universal lock-in claims.
+Citizen Developer Governance|How are changes reviewed when domain specialists build applications?|Trace ownership, approval, rollback and support in one documented team.
+@@534
+Retention Cohorts|How does a business define and measure customer retention?|Inspect cohorts, churn definitions, observation windows and excluded accounts.
+Recurring Revenue Definitions|Do two recurring-revenue figures measure the same thing?|Compare contractual terms, recognition and metric definitions without treating recurring revenue as profit.
+Customer Acquisition Costs|Which costs were omitted from a reported acquisition measure?|Trace a dated cost allocation and customer cohort with clear limitations.
+Onboarding And Activation|Does a reported activation event predict sustained customer use?|Compare event definitions, user behavior and follow-up rather than assuming causality.
+Subscription Contracts|Which renewal, cancellation and data terms change a customer's obligations?|Read a dated contract and jurisdiction with no individualized legal recommendation.
+Reliability And Support|How does a service incident affect customer work and support costs?|Use incident timelines, service commitments and documented customer impact.
+Pricing And Packaging|Who gains or loses access after a pricing change?|Compare actual plans, usage limits and customer cohorts before and after a dated change.
+@@535
+Platform Revenue Splits|What remains after a creator's gross platform receipts are allocated?|Trace platform fees, collaborator pay, costs and taxes using consented or public accounts.
+Audience Ownership|Which audience connections can a creator retain outside one platform?|Examine consent, export rules and dependency without claiming ownership of people.
+Sponsorship Contracts|Which deliverables and editorial restrictions appear in one creator agreement?|Read actual permitted contract material and distinguish disclosure from editorial independence.
+Creator Labor|Whose work is missing from the story of a successful solo creator?|Document editing, moderation, management and unpaid labor without exposing private records.
+Rights And Licensing|Which rights does a creator retain when distributing one work?|Trace composition, image, performance and platform licenses for a named artifact.
+Income Volatility|How do seasonality and platform changes affect a creator's income pattern?|Use dated longitudinal evidence and avoid generalizing from exceptional earners.
+Community And Membership|What duties accompany paid audience membership?|Compare stated promises, moderation work, cancellation terms and actual delivery.
+@@536
+Crawling And Indexing|Why can a reachable page remain absent from a search index?|Inspect declared crawl/index rules and authorized diagnostics without guaranteed inclusion claims.
+Search Intent And Useful Content|Does a page answer the task its search visitors actually have?|Compare query context, content and user outcomes rather than keyword repetition alone.
+Technical Site Changes|Which search changes can be traced to a documented site migration?|Use redirect maps, dates, logs and comparison periods while identifying confounders.
+Measurement And Attribution|Does a traffic increase demonstrate that an SEO change caused it?|Separate seasonal demand, measurement changes and other campaigns from the intervention.
+Structured Data|Does valid structured data establish the truth or display of a search feature?|Distinguish syntax validation, eligibility, factual accuracy and actual display.
+Search Documentation Revisions|What changed between two dated versions of provider guidance?|Compare original documentation and implementation dates rather than rumor about algorithms.
+Accessibility And Discovery|Can a page be discoverable while failing its intended readers?|Assess reading and navigation tasks separately from indexing and ranking measures.
+@@537
+Mental Health Literacy|Does an education program improve understanding without encouraging self-diagnosis?|Inspect validated learning outcomes, participant context and unintended effects.
+Screening And Diagnosis|What does a screening score establish and what requires clinical assessment?|Compare instrument purpose, validation population and referral context without diagnosing a viewer.
+Service Access|Where do people encounter barriers between seeking help and receiving support?|Trace published service pathways, eligibility and consented perspectives without private clinical records.
+Stigma And Language|How does a communication choice affect dignity and willingness to seek support?|Evaluate actual campaign materials, study methods and varied participant responses.
+Treatment Evidence Literacy|What can a published intervention study establish for its defined population?|Review outcomes, comparison, adverse effects and follow-up without personal treatment advice.
+Mental Health At Work|Does a workplace initiative change conditions or only reported awareness?|Compare organizational changes, measured outcomes and confidentiality protections.
+Culture And Measurement|Does a translated mental-health measure retain its intended meaning?|Examine validation, community interpretation and limits of cross-group comparisons.
+Digital Support Claims|What evidence supports one digital mental-health tool's stated purpose?|Inspect intended use, evaluation design, privacy and human support without recommending care.
+@@538
+Measuring Sleep|How do sleep diaries, wearable estimates and laboratory measures differ?|Compare their measured constructs, validation and missing data in a named study.
+Circadian Timing|Which observation distinguishes clock timing from total sleep duration?|Use a defined study protocol and avoid turning a population result into personal scheduling advice.
+Shift Work And Context|Which work and household conditions shape a study's sleep outcomes?|Trace exposure definitions, comparison groups and confounders in a published investigation.
+Sleep Intervention Evidence|Does a sleep intervention improve the outcome its authors intended?|Compare endpoints, control conditions, adherence and follow-up without prescribing a regimen.
+Age And Sleep Studies|Can a finding in one age group be generalized to another?|Inspect recruitment, developmental context and measured outcomes.
+Wearable Claims|Which sleep-related device claims are supported by independent validation?|Compare device/version, reference method and error distributions rather than testimonials.
+Sleep And Performance|Does a measured association establish why performance changed?|Examine study design, task measures and alternative explanations without individual predictions.
+@@539
+Activity Measurement|Do self-reports and devices measure the same activity exposure?|Compare construct definitions, device placement, validation and missing wear time.
+Adaptation And Outcomes|Which measured change follows a defined activity intervention?|Distinguish strength, endurance, function and health outcomes in a published study.
+Dose And Adherence|How does actual participation differ from a study's assigned activity?|Read dose definitions, adherence and analysis rather than providing a personal plan.
+Study Population|Who was excluded from an exercise study and how does that limit interpretation?|Compare eligibility, baseline capacity and outcome measures.
+Recovery And Adverse Events|What does a study report about burden and unwanted outcomes?|Inspect adverse-event definitions, follow-up and missing reporting without clinical instruction.
+Access To Activity|Which environmental barriers shape participation in one program?|Use implementation records and participant experience alongside measured uptake.
+Performance Claims|Does a popular performance claim match the outcome actually tested?|Trace original evidence and avoid extrapolating laboratory measures to every athlete.
+@@540
+Locating A Ramayana Passage|Where does one cited episode occur in a named text and edition?|Record book, passage, recension, translation and neighboring narrative context.
+Versions In Dialogue|How do two named Ramayana traditions frame the same episode differently?|Read each source in its language and cultural setting without selecting a universal correct version.
+Translation Choices|How does one translated term change a reader's interpretation?|Compare original wording, translator notes and alternative readings.
+Character Perspective|What does one episode reveal through a particular character's speech and actions?|Distinguish explicit text, narrator framing and later characterization.
+Commentarial Readings|How do named commentators explain one passage differently?|Attribute each argument and its textual basis rather than blending interpretations.
+Regional Performance|What changes when a passage is performed in a local tradition?|Use consented performance records, adaptation choices and community explanation.
+Text And Historical Inference|Which historical claim can and cannot be supported by a narrative passage?|Separate textual chronology, material evidence and devotional interpretation.
+Manuscript And Edition|What editorial choice explains a variant in a cited passage?|Read apparatus and provenance without presenting editorial reconstruction as the only living text.
+Ramayana In Visual Art|How does an identified artwork select and reinterpret an episode?|Trace object provenance, iconographic context and the cited narrative version.
+Retelling For Children|Which adaptation choices preserve attribution while changing complexity?|Compare the source, audience age and explicit adaptation decisions without substituting animation craft for textual study.
+@@541
+Parvan And Passage|How can a reader verify a quotation's place within the Mahabharata?|Locate parvan, passage, edition, speaker and surrounding narrative.
+Critical Edition And Living Texts|What does a critical edition reconstruct and what does it not replace?|Read editorial aims and apparatus alongside named received traditions.
+Narrative Frames|How does an embedded speaker change the meaning of one account?|Track narration levels and audience rather than collapsing all speech into authorial assertion.
+Dharma In A Specific Dilemma|Which competing duties are explicit in one passage?|Compare named readings without turning narrative conflict into universal personal advice.
+Variant Episodes|What changes across two documented versions of an episode?|State edition, language, transmission and interpretive consequence.
+Genealogy And Chronology|Which relationships and time references are supported within a named edition?|Separate narrative sequencing from claims about external historical dates.
+Commentary And Reception|How did a named commentator or audience read a passage?|Use attributed commentary and reception records without claiming unanimity.
+Gita And Its Narrative Setting|What does the surrounding narrative contribute to a Gita passage?|Study its place in the epic while leaving sustained verse commentary to niche 271.
+Performance And Adaptation|Which elements are transformed in a documented theatrical or visual retelling?|Identify source version, credits, audience and deliberate adaptation.
+Text And Archaeological Claims|What independent evidence would be needed to assess a historical claim about the epic?|Keep narrative, scholarly hypotheses and material evidence separate.
+@@542
+Local Observance|How does one community describe and conduct a named festival?|Use dated records and consented accounts without universalizing practice.
+Vrat Text And Practice|How does a named observance text relate to one community's practice?|Distinguish prescriptive text, commentary and actual observance.
+Calendar Variation|Why do two communities observe a festival on different dates?|Compare specified calendar editions, local conventions and year without publishing unverified date advice.
+Regional Names And Forms|How do regional forms of an observance differ in meaning and practice?|Represent each community's account and documented local history.
+Festival Labor|Whose work sustains preparation, worship and cleanup?|Trace custodians, artisans and service labor with consent and attribution.
+Material Culture|What can one festival object reveal about craft and local meaning?|Use provenanced objects and maker/practitioner records.
+Access And Stewardship|How do organizers balance worship, access and care for a site?|Use actual rules and implementation records without travel or safety certification.
+Changing Observances|Which elements changed in one documented festival over time?|Compare dated evidence and distinguish adaptation from claims of a single original form.
+@@543
+Attribution And Authorship|How secure is a composition's attribution to a named poet or lineage?|Separate traditional attribution, manuscript evidence and modern editorial conclusions.
+Poem In Its Collection|What changes when a verse is read with its surrounding composition?|Cite language, edition, sequence and interpretive context.
+Translation Of Devotional Terms|Which meanings are retained or altered in two translations?|Read originals, translator choices and audience context without flattening theology.
+Stotra Form|How does one named stotra organize praise, imagery and address?|Use a specified edition and explain structure without inventing ritual requirements.
+Song And Performance|How do melody and delivery shape a documented devotional performance?|Credit performers and sources; distinguish interpretation from textual variants.
+Lineage Interpretation|How do named communities interpret the same composition?|Attribute each explanation without deciding devotional legitimacy.
+Manuscript To Recording|What changes across a manuscript, print edition and recorded version?|Trace provenance, rights, omissions and editorial choices.
+Devotional Poetry And Social Context|Which documented setting informs a composition's reception?|Use historical and community records without reducing a poem to a single social explanation.
+@@544
+Object Provenance|What does a museum object's excavation and collection history establish?|Separate ancient use, modern acquisition and remaining uncertainty.
+Reading An Inscription|Which translation choices affect an inscription's interpretation?|Use a named edition, object context and alternative scholarly readings.
+Chronology And Periods|How is one site's date estimated and revised?|Compare stratigraphy, dating evidence and stated error or disagreement.
+Household Life|What do a bounded set of material remains reveal about daily life?|Identify recovery bias and avoid making elite burial evidence representative of everyone.
+State And Labor|Which records support an account of labor or administration at one site?|Compare texts, material evidence and different workers' visibility.
+Religion In Context|How does one object or temple record express a period-specific practice?|Avoid treating Egyptian traditions as unchanged across all periods.
+Conservation And Custodianship|How does preservation affect what can be studied or displayed?|Use actual conservation and collection records with community context.
+@@545
+Tablet Provenance|What is known about a tablet's findspot, ownership and catalog history?|Distinguish excavated context from objects lacking reliable provenance.
+Language And Script|How does identifying language differ from identifying cuneiform signs?|Use a catalogued example, transliteration and named translation.
+An Administrative Archive|What does a bounded set of records reveal about an institution?|Check sample survival, document purpose and accounting conventions.
+Cities And Water|Which evidence connects one settlement's infrastructure with its environment?|Compare archaeological survey, dated texts and uncertainty without a single-cause collapse story.
+Law And Actual Practice|Does a legal text show how a particular dispute was resolved?|Separate normative text, case records and later interpretation.
+Households And Exchange|How can one archive illuminate household labor or trade?|Name polity, period, units and social groups; avoid universal economic models.
+Translation And Restoration|Which parts of a damaged text are read, restored or conjectured?|Preserve scholarly notation and distinguish missing text from confident translation.
+@@546
+Formats And Playing Conditions|Which competition-specific rule changes how a match is played?|Name format, season and official conditions rather than assuming one universal rule set.
+Scorecard Interpretation|What does a scorecard reveal and omit about a performance?|Use official records with format, conditions and denominator context.
+Tactical Decisions|Which evidence supports an explanation of one on-field decision?|Distinguish observable options and outcomes from guessed intentions.
+Officiating And Review|How did an official decision follow the applicable procedure?|Use the correct playing conditions and documented decision sequence.
+Player Pathways|What institutions shape access to a documented cricket pathway?|Compare participation, selection records and consented experience without judging an individual's worth.
+Women And Community Cricket|Which local structures affect participation and recognition?|Use league records and community accounts without treating one program as universal.
+Technology And Measurement|What does one match technology measure and where are its limits?|Read provider or governing-body methods and avoid inferring certainty beyond the system.
+Competition Economics|How are rights, scheduling and resources distributed in one competition?|Use dated agreements and public records; no betting or investment recommendations.
+@@547
+Law And Competition Rules|Which rule applies to a named association-football situation?|Read the applicable IFAB edition and competition provisions; exclude other football codes.
+Tactical Structure|How did one team's shape change across defined phases of a match?|Use licensed or independently described match evidence and avoid unsupported intent claims.
+Match Metrics|Does a statistic measure the performance claim attributed to it?|Name provider, definition, denominator and uncertainty.
+Refereeing And Video Review|Which parts of one decision can be checked against the formal protocol?|Separate available evidence from judgments about an official's motives.
+Player Development|How does a documented pathway select and support players?|Use institutional records and participant perspectives without individual talent prediction.
+Women's And Community Football|Which institutions shape access in a defined competition?|Compare actual provision, participation and historical context.
+Club And Supporter Relations|What obligations and influence do supporters have in one club structure?|Read governance and membership records, not stereotypes about fans.
+Competition And Calendar|How does a scheduling decision affect a defined group of participants?|Use official calendars and documented travel/recovery constraints without personalized health advice.
+@@548
+Typography And Reading|Does a typographic choice improve reading for the intended audience?|Compare actual artifacts, type rights and task-based evidence rather than taste alone.
+Layout And Hierarchy|Which visual cues guide readers through one communication artifact?|Trace brief, composition alternatives and reader interpretation.
+Image And Text|How does combining an image with wording change a message?|Use licensed artifacts and contextual audience evidence.
+Design Brief And Constraint|How did a designer respond to competing requirements in one project?|Compare the original brief, revisions and final credited work.
+Accessible Communication|Can a design communicate without relying on color or fine print alone?|Use defined reader tasks and applicable evaluation methods without claiming universal accessibility.
+Print And Digital Translation|What changes when an artifact moves between print and screen?|Inspect dimensions, color process, typography and actual output behavior.
+Design Credit And Reuse|Which creators and licenses underpin a finished graphic?|Trace images, fonts, templates and commissioned contributions.
+@@549
+Editorial Decision And Meaning|How does a cut change the inference a viewer draws?|Compare an original or permitted source sequence and declared editorial alternatives.
+Media And Timeline Management|Which settings prevent a project's media from drifting out of sync?|Inspect source frame rates, timebases, proxies and a documented project configuration.
+Conform And Relinking|Can a project reliably reconnect its edit to source media?|Use actual identifiers, versions and safe test copies.
+Color And Audio Handoffs|What information must travel between editing and finishing stages?|Trace project interchange, reference renders and reviewer notes.
+Caption And Accessibility Delivery|Do captions match the accepted final audio and visual composition?|Check actual files, numerical text, synchronization and readability.
+Export Verification|Does an exported file meet the project's declared technical specifications?|Measure the real file rather than assuming timeline settings prove delivery quality.
+Revision Provenance|Can a team explain which source and edit produced a published version?|Trace decision logs, project files, approvals and final checksums.
+@@550
+Recording And Signal Path|Where did a sound change between performance and recorded file?|Document the actual chain, settings and controlled comparisons.
+Arrangement And Intent|How do arrangement choices serve a defined musical brief?|Use original or licensed stems and credited decisions rather than universal taste claims.
+Synthesis And Sound Design|Which controlled parameter change explains an audible result?|Use safe listening levels and original or licensed examples without imitating an identifiable performer.
+Editing And Restoration|What does an edit repair and what information can it remove?|Compare permitted before/after audio and disclose processing.
+Mix Translation|Does a mix preserve its intended balance across defined listening conditions?|Use level-matched comparisons, measured output and stated limitations.
+Loudness And Peaks|Do measured loudness and peak values match the declared delivery target?|Name standard/version, meter and actual output; do not treat one target as universal.
+Music And Sample Rights|Which permissions are needed for the material used in one production?|Record actual composition, performance, sample and distribution rights without individual legal advice.
+Session And Delivery Provenance|Can another authorized collaborator reconstruct the accepted audio version?|Track stems, settings, credits, revision notes and file hashes.

@@ -1,0 +1,400 @@
+[
+  {
+    "id": "531",
+    "proposal_ref": "P531",
+    "title": "AI Software Agents",
+    "category": "Robotics_AI",
+    "purpose": "Software agents that select actions and tools under explicit permissions, evaluation and human oversight; physical robotics and generic tool walkthroughs have separate homes.",
+    "case": "a versioned agent handling one bounded task",
+    "metric": "task success, errors and intervention cost",
+    "people": "operators and affected users",
+    "boundary": "Use sanitized traces and explicit permission boundaries; demonstrations do not prove autonomous reliability.",
+    "related": [
+      "001",
+      "007",
+      "330",
+      "338",
+      "485"
+    ],
+    "source_key": "agents",
+    "evidence": "versioned tool schemas, sanitized execution traces, task evaluations and incident records"
+  },
+  {
+    "id": "532",
+    "proposal_ref": "P533",
+    "title": "Large Language Model Systems",
+    "category": "Robotics_AI",
+    "purpose": "Language-model system behavior, retrieval, context, inference and evaluation; research breakthroughs and coding-assistant workflows remain neighboring subjects.",
+    "case": "a versioned language-model application",
+    "metric": "answer quality, latency and groundedness",
+    "people": "developers and end users",
+    "boundary": "Name model, version, dataset and task; do not treat fluent output as verified knowledge.",
+    "related": [
+      "001",
+      "007",
+      "337",
+      "338"
+    ],
+    "source_key": "llm",
+    "evidence": "model cards, versioned inference documentation, evaluation sets and reproducible task outputs"
+  },
+  {
+    "id": "533",
+    "proposal_ref": "P541",
+    "title": "No-Code & Low-Code Development",
+    "category": "Computing_Software",
+    "purpose": "Visual application building, data rules, integrations, deployment and maintenance; general programming and AI-agent behavior are separate scopes.",
+    "case": "a documented low-code application",
+    "metric": "correctness, access and maintenance effort",
+    "people": "builders and service users",
+    "boundary": "Disclose platform version, licensing and permissions; a working prototype is not a secure production service.",
+    "related": [
+      "061",
+      "324",
+      "325",
+      "513"
+    ],
+    "source_key": "lowcode",
+    "evidence": "platform documentation, app schemas, access rules, deployment records and user tests"
+  },
+  {
+    "id": "534",
+    "proposal_ref": "P543",
+    "title": "SaaS Businesses",
+    "category": "Commerce_Industry",
+    "purpose": "Subscription software business operations, customer retention, unit economics and service obligations; software implementation and broad startup biography are separate.",
+    "case": "a named software subscription business",
+    "metric": "cohort retention, service delivery and costs",
+    "people": "customers, founders and support workers",
+    "boundary": "Separate booked revenue, cash, recurring metrics and profit; use dated audited or clearly labelled operational records.",
+    "related": [
+      "302",
+      "303",
+      "308",
+      "322"
+    ],
+    "source_key": "saas",
+    "evidence": "dated contracts, billing definitions, cohort records, financial filings and service incidents"
+  },
+  {
+    "id": "535",
+    "proposal_ref": "P545",
+    "title": "Creator Economy",
+    "category": "Commerce_Industry",
+    "purpose": "Creator business relationships, platform dependence, audience work and rights; content craft and platform tutorials belong to neighboring production niches.",
+    "case": "a documented creator business arrangement",
+    "metric": "net income, rights and workload",
+    "people": "creators, collaborators and audiences",
+    "boundary": "Separate gross platform receipts from take-home income; disclose selection bias and actual contract terms.",
+    "related": [
+      "106",
+      "125",
+      "456",
+      "467",
+      "530"
+    ],
+    "source_key": "creator",
+    "evidence": "creator contracts, platform terms, consented accounts, payment statements and institutional creative-sector data"
+  },
+  {
+    "id": "536",
+    "proposal_ref": "P547",
+    "title": "Search Engine Optimization",
+    "category": "Commerce_Industry",
+    "purpose": "Search discoverability, crawling, indexing and measured site outcomes; broad advertising, creator businesses and interface usability are separate.",
+    "case": "a dated website search change",
+    "metric": "indexed coverage, qualified visits and user outcomes",
+    "people": "site owners and search users",
+    "boundary": "Use dated search documentation and defined metrics; ranking changes do not identify a sole cause or guarantee traffic.",
+    "related": [
+      "106",
+      "307",
+      "318",
+      "513"
+    ],
+    "source_key": "seo",
+    "evidence": "search-provider documentation, sanitized site logs, controlled change records and measurement definitions"
+  },
+  {
+    "id": "537",
+    "proposal_ref": "P555",
+    "title": "Mental Health Education",
+    "category": "Medicine_Healthcare",
+    "purpose": "Evidence literacy about mental-health conditions, support pathways and social context; general behavior, motivation and individual treatment are separate.",
+    "case": "a published mental-health education or service evaluation",
+    "metric": "understanding, access and defined wellbeing outcomes",
+    "people": "people using services and their communities",
+    "boundary": "Educational scope only; no diagnosis, personal treatment plan or identifiable private clinical record; require qualified review for publication.",
+    "related": [
+      "009",
+      "015",
+      "026",
+      "351",
+      "501"
+    ],
+    "source_key": "mental",
+    "evidence": "clinical guidelines, original study methods, validated instruments and consented service-user perspectives"
+  },
+  {
+    "id": "538",
+    "proposal_ref": "P556",
+    "title": "Sleep Science",
+    "category": "Medicine_Healthcare",
+    "purpose": "Human sleep measurement, circadian timing and interpretation of intervention evidence; general lifestyle advice and speculative enhancement are separate.",
+    "case": "a defined sleep study or measurement method",
+    "metric": "sleep timing, measured function and uncertainty",
+    "people": "study participants and shift-working communities",
+    "boundary": "State population, measurement and study design; no individualized sleep or medication prescription.",
+    "related": [
+      "015",
+      "026",
+      "351",
+      "363",
+      "472"
+    ],
+    "source_key": "sleep",
+    "evidence": "sleep-study protocols, instrument validation, circadian experiments and clinical evidence reviews"
+  },
+  {
+    "id": "539",
+    "proposal_ref": "P557",
+    "title": "Exercise Science",
+    "category": "Medicine_Healthcare",
+    "purpose": "Evidence on physical activity, adaptation, measurement and access; sport-specific tactics, bodybuilding instruction and personal medical care are separate.",
+    "case": "a published exercise or activity intervention",
+    "metric": "functional change, adherence and adverse outcomes",
+    "people": "participants with defined capabilities",
+    "boundary": "Specify population, activity and outcome; do not turn study protocols into personal training or rehabilitation prescriptions.",
+    "related": [
+      "044",
+      "077",
+      "117",
+      "502",
+      "505"
+    ],
+    "source_key": "exercise",
+    "evidence": "activity guidelines, original intervention protocols, measurement validity and reported adverse-event data"
+  },
+  {
+    "id": "540",
+    "proposal_ref": "P579",
+    "title": "Ramayana",
+    "category": "Hindu_Traditions",
+    "purpose": "Named Ramayana texts, recensions, episodes, translations and living retellings; cross-text mythology, general philosophy and animation production remain separate.",
+    "case": "one passage or episode in named Ramayana versions",
+    "metric": "textual interpretation and reception",
+    "people": "readers, performers and source communities",
+    "boundary": "Cite text, recension, edition and passage; distinguish devotional interpretation, textual evidence and historical inference.",
+    "related": [
+      "004",
+      "018",
+      "040",
+      "272",
+      "529"
+    ],
+    "source_key": "ramayana",
+    "evidence": "primary text editions, manuscript catalogues, named translations and attributed community performance records"
+  },
+  {
+    "id": "541",
+    "proposal_ref": "P580",
+    "title": "Mahabharata",
+    "category": "Hindu_Traditions",
+    "purpose": "Mahabharata textual structure, episodes, recensions, critical editing and reception; the Gita's sustained verse commentary and cross-text mythology have separate homes.",
+    "case": "one Mahabharata passage in specified editions",
+    "metric": "textual variation and interpretive argument",
+    "people": "readers, scholars and performance communities",
+    "boundary": "State parvan, passage and edition; no single recension represents all traditions or proves a modern historical claim.",
+    "related": [
+      "004",
+      "018",
+      "040",
+      "268",
+      "271"
+    ],
+    "source_key": "mahabharata",
+    "evidence": "critical-edition apparatus, primary passages, manuscript catalogues and named commentaries"
+  },
+  {
+    "id": "542",
+    "proposal_ref": "P582",
+    "title": "Hindu Festivals & Vrat",
+    "category": "Hindu_Traditions",
+    "purpose": "Named Hindu observances, calendars in practice, regional variation and community stewardship; global festival surveys and travel logistics are separate.",
+    "case": "one named observance in a place and period",
+    "metric": "documented practice, meaning and access",
+    "people": "practitioners, custodians and host communities",
+    "boundary": "Attribute tradition and location; do not universalize rituals or publish date-sensitive observance guidance without local calendar verification.",
+    "related": [
+      "243",
+      "244",
+      "245",
+      "275",
+      "276"
+    ],
+    "source_key": "festivals",
+    "evidence": "community records, calendar editions, ritual texts, consented accounts and dated institutional archives"
+  },
+  {
+    "id": "543",
+    "proposal_ref": "P583",
+    "title": "Bhakti Literature & Devotional Poetry",
+    "category": "Hindu_Traditions",
+    "purpose": "Devotional poems, songs, stotras, attribution, translation and performance across named lineages; broad sectarian history and general mantra catalogues are separate.",
+    "case": "one devotional composition and its documented versions",
+    "metric": "meaning, attribution and reception",
+    "people": "poets, performers, translators and communities",
+    "boundary": "Identify language, edition, attribution and performance context; distinguish traditional attribution from independently dated evidence.",
+    "related": [
+      "078",
+      "256",
+      "274",
+      "277",
+      "450",
+      "529"
+    ],
+    "source_key": "bhakti",
+    "evidence": "primary compositions, critical editions, attributed recordings, manuscript descriptions and translation notes"
+  },
+  {
+    "id": "544",
+    "proposal_ref": "P567",
+    "title": "Ancient Egypt",
+    "category": "Ancient_Civilizations",
+    "purpose": "Ancient Egyptian societies through material evidence, texts, chronology and daily institutions; broad mystery formats and travel promotion are separate.",
+    "case": "a provenanced object, site or inscription",
+    "metric": "historical interpretation and evidential limits",
+    "people": "ancient communities and present custodians",
+    "boundary": "Specify period, provenance and uncertainty; distinguish archaeological interpretation from modern myth or sensational lost-technology claims.",
+    "related": [
+      "002",
+      "039",
+      "040",
+      "096",
+      "289"
+    ],
+    "source_key": "egypt",
+    "evidence": "excavation reports, museum accession records, inscription editions and archaeological chronology"
+  },
+  {
+    "id": "545",
+    "proposal_ref": "P568",
+    "title": "Mesopotamian Civilizations",
+    "category": "Ancient_Civilizations",
+    "purpose": "Distinct Mesopotamian societies through cuneiform, settlements, institutions and exchange; general ancient-history surveys and script tutorials are separate.",
+    "case": "a catalogued tablet, settlement or archive",
+    "metric": "historical reconstruction and translation limits",
+    "people": "scribes, households, institutions and custodians",
+    "boundary": "Name polity, period, language and object provenance; avoid treating multiple cultures as one unchanging civilization.",
+    "related": [
+      "039",
+      "040",
+      "041",
+      "096",
+      "528",
+      "529"
+    ],
+    "source_key": "mesopotamia",
+    "evidence": "tablet catalogues, excavation context, transliterations, translations and dated historical scholarship"
+  },
+  {
+    "id": "546",
+    "proposal_ref": "P607",
+    "title": "Cricket",
+    "category": "Sports_Adventure",
+    "purpose": "Cricket's formats, rules, tactics, institutions and participant pathways; general sports history and generic fitness remain neighboring niches.",
+    "case": "a named match, rule edition or competition",
+    "metric": "rule interpretation, performance and access",
+    "people": "players, officials and spectators",
+    "boundary": "Specify format, competition and season; use official records and avoid unsourced allegations or gambling recommendations.",
+    "related": [
+      "044",
+      "045",
+      "252",
+      "253"
+    ],
+    "source_key": "cricket",
+    "evidence": "official playing conditions, scorecards, match reports, competition rules and attributed participant accounts"
+  },
+  {
+    "id": "547",
+    "proposal_ref": "P608",
+    "title": "Football / Soccer",
+    "category": "Sports_Adventure",
+    "purpose": "Association football rules, tactics, competitions and participation; other football codes, generic sports history and conditioning are separate.",
+    "case": "a documented association-football match or rule change",
+    "metric": "tactical outcomes, decisions and access",
+    "people": "players, referees, supporters and organizers",
+    "boundary": "Specify association football, competition, season and applicable law edition; distinguish observations from unsupported intent or blame.",
+    "related": [
+      "044",
+      "117",
+      "252",
+      "253"
+    ],
+    "source_key": "football",
+    "evidence": "IFAB law editions, official competition records, match data and licensed or independently described footage"
+  },
+  {
+    "id": "548",
+    "proposal_ref": "P616",
+    "title": "Graphic Design & Visual Communication",
+    "category": "Visual_Arts_Crafts",
+    "purpose": "Typography, layout, image-text communication and design evaluation across print and digital artifacts; interface task research and brand business history are separate.",
+    "case": "a documented communication-design brief and artifact",
+    "metric": "legibility, meaning and audience interpretation",
+    "people": "designers, clients and readers",
+    "boundary": "Credit creators and asset rights; separate aesthetic preference from tested communication outcomes.",
+    "related": [
+      "042",
+      "079",
+      "126",
+      "305",
+      "513"
+    ],
+    "source_key": "design",
+    "evidence": "original briefs, design files, licensed type specimens, object catalogues and audience studies"
+  },
+  {
+    "id": "549",
+    "proposal_ref": "P620",
+    "title": "Video Editing & Post-Production",
+    "category": "Film_Production",
+    "purpose": "Editing, conform, color/audio handoffs, versioning and delivery from recorded media; screenwriting, capture and visual-effects creation have neighboring homes.",
+    "case": "a consented or original edit project",
+    "metric": "narrative clarity, technical accuracy and delivery quality",
+    "people": "editors, collaborators and viewers",
+    "boundary": "Name software version and media rights; do not present illustrative edits as original documentary evidence.",
+    "related": [
+      "005",
+      "127",
+      "342",
+      "368",
+      "369",
+      "379"
+    ],
+    "source_key": "editing",
+    "evidence": "versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions"
+  },
+  {
+    "id": "550",
+    "proposal_ref": "P621",
+    "title": "Music Production & Sound Design",
+    "category": "Literature_Performance",
+    "purpose": "Recording, arrangement, synthesis, sound design, mixing and delivery; music history, AI-music generation and performance criticism are separate.",
+    "case": "an original or licensed audio production",
+    "metric": "audible intention, technical measurement and translation",
+    "people": "musicians, engineers and listeners",
+    "boundary": "Separate measured audio properties from taste; record performer, sample and composition rights before use.",
+    "related": [
+      "043",
+      "124",
+      "255",
+      "256",
+      "340",
+      "341"
+    ],
+    "source_key": "music",
+    "evidence": "session files, recording documentation, rights records, audio standards and controlled listening comparisons"
+  }
+]

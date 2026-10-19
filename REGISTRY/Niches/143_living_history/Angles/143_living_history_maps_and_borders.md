@@ -1,0 +1,22 @@
+# 143_living_history_maps_and_borders: Living History — The Site Outside the Stage
+
+> Subject category: Historical_People_Cultures
+> CAT: ../CAT_143_living_history.md
+> NICHE: ../NICHE_143_living_history.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** The Site Outside the Stage
+
+## Editorial scope
+
+**Focus / example question:** How did land, borders, and movement shape the portrayed community?
+
+**Coverage:** Use period maps, property records, migration, and present geography.
+
+**Evidence to seek:** dated program scripts and planning records, primary documents and object provenance, interpreter research notes, visitor evaluation, and consented oral histories and community accounts
+
+**Limits:** Name site, period, program, and date. Distinguish documented fact, plausible inference, and performance; secure narrator consent and review rights; avoid portraying a community as a single voice.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

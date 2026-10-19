@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "008",
+  "ideas": [
+    {
+      "idea_id": "IDEA-008-0001",
+      "niche_id": "008",
+      "status": "ready_for_project",
+      "angle_slug": "comparison_method",
+      "topic": "Compounding and assumptions",
+      "working_title": "Same savings example, different compounding",
+      "story_question": "For a fictional deposit with no contributions, how does changing compounding frequency alter the result when the annual rate is held fixed?",
+      "case": "An original worked example aligned to Investor.gov calculator inputs",
+      "place_period_version": "Hypothetical arithmetic; USD illustration, no actual product or promised rate",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Expose assumptions and verify the calculation independently",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [
+        "Choose stated principal, term and rate; independently calculate values and rounding."
+      ],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Source access and a bounded question support starting Phase 1. Evidence gaps below must be resolved before scripting; no claim or publication approval is asserted.",
+      "source_candidates": [
+        {
+          "title": "Compound Interest Calculator",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected input definitions; did not execute the calculator or verify numeric examples."
+        }
+      ]
+    },
+    {
+      "idea_id": "IDEA-008-0002",
+      "niche_id": "008",
+      "status": "ready_for_project",
+      "angle_slug": "fee_effect",
+      "topic": "Fees and net outcomes",
+      "working_title": "Where a fee enters a savings illustration",
+      "story_question": "How does one explicitly modeled annual fee change a hypothetical balance compared with the same assumptions before fees?",
+      "case": "Original two-column calculation using SEC fee education as context",
+      "place_period_version": "US educational context; fixed illustrative assumptions, no product ranking",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Distinguish model assumptions from actual product terms",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [
+        "Define fee timing and rate basis; independently calculate; distinguish simplified model from prospectus charges."
+      ],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Source access and a bounded question support starting Phase 1. Evidence gaps below must be resolved before scripting; no claim or publication approval is asserted.",
+      "source_candidates": [
+        {
+          "title": "Compound Interest Calculator",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected input definitions; did not execute the calculator or verify numeric examples."
+        },
+        {
+          "title": "Mutual Funds",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected explanations of risk and costs for US mutual funds."
+        }
+      ]
+    },
+    {
+      "idea_id": "IDEA-008-0003",
+      "niche_id": "008",
+      "status": "ready_for_project",
+      "angle_slug": "field_risk_disclosure",
+      "topic": "Risk and product conditions",
+      "working_title": "A balance projection is not a promise",
+      "story_question": "Which risks described in the SEC mutual-fund guide are absent from a constant-rate savings illustration?",
+      "case": "Comparison between a hypothetical constant-rate model and SEC educational risk descriptions",
+      "place_period_version": "US mutual-fund education checked on access date; no individual recommendation",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Teach the limits of an illustration without advising a financial decision",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [
+        "Verify selected risk wording and explain why the two examples are different objects."
+      ],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Source access and a bounded question support starting Phase 1. Evidence gaps below must be resolved before scripting; no claim or publication approval is asserted.",
+      "source_candidates": [
+        {
+          "title": "Compound Interest Calculator",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected input definitions; did not execute the calculator or verify numeric examples."
+        },
+        {
+          "title": "Mutual Funds",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected explanations of risk and costs for US mutual funds."
+        }
+      ]
+    }
+  ]
+}

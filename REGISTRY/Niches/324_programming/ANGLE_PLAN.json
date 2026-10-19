@@ -1,0 +1,271 @@
+{
+  "niche_id": "324",
+  "status": "editorial_question_reviewed",
+  "purpose": "Programming as the act of specifying executable behavior, debugging, reasoning about code, and maintaining language and library compatibility.",
+  "generation_basis": "build_remaining_angle_plans.py field lenses v1",
+  "editorial_principles": [
+    "Use a named jurisdiction, population, and date where applicable.",
+    "Present comparisons on equal terms and label illustrative scenarios.",
+    "Verify primary sources and current guidance before production.",
+    "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+  ],
+  "angles": [
+    {
+      "slug": "history_origins",
+      "angle": "A Language Feature's Origin",
+      "scope": "Use dated proposals, specifications, and early programs.",
+      "question": "What problem did a named language feature originally solve?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "famous_examples",
+      "angle": "A Program Reconsidered",
+      "scope": "Run it with a named language version and examine its limits.",
+      "question": "Why is one example taught so often and what does it omit?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "hidden_stories",
+      "angle": "The Maintainers Behind a Library",
+      "scope": "Use public project records and attributed accounts.",
+      "question": "Who reviews changes, answers issues, and keeps compatibility?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "beginner_explainers",
+      "angle": "A Program from Input to Output",
+      "scope": "Trace variables, control flow, errors, and output.",
+      "question": "How does a short program transform one input?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "advanced_concepts",
+      "angle": "What an Abstraction Costs",
+      "scope": "Compare equivalent programs on a bounded task.",
+      "question": "When does a useful abstraction add time, memory, or complexity?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "mysteries_unsolved_cases",
+      "angle": "A Bug That Appears Only Sometimes",
+      "scope": "Reproduce safely with version, input, and environment.",
+      "question": "Which runtime conditions explain a documented intermittent error?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "technology_innovation",
+      "angle": "A New Language Feature Tested",
+      "scope": "Compare readability, correctness, compatibility, and runtime.",
+      "question": "Did it improve a particular programming task?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "people_personalities",
+      "angle": "A Language Design Debate",
+      "scope": "Read dated proposals and decisions, credit contributors.",
+      "question": "Who argued for competing semantics and why?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "major_events",
+      "angle": "A Breaking Language Release",
+      "scope": "Test documented examples across exact versions.",
+      "question": "Which programs changed behavior after one release?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "how_it_works",
+      "angle": "Parsing to Execution",
+      "scope": "Trace parser, representation, runtime, and system calls for one implementation.",
+      "question": "What happens between source text and a result?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "rise_fall",
+      "angle": "Why a Language Gained Users",
+      "scope": "Separate surveys, code counts, and real use.",
+      "question": "Which tasks, tools, institutions, and measures explain adoption?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "then_vs_now",
+      "angle": "One Task Across Versions",
+      "scope": "Use matched code and versioned documentation.",
+      "question": "How did syntax, safety, and performance change?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "future_developments",
+      "angle": "A Proposed Language Change",
+      "scope": "Distinguish proposal from accepted specification and deployed compiler.",
+      "question": "What compatibility and implementation questions remain?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "myths_vs_facts",
+      "angle": "Shorter Code Is Better?",
+      "scope": "Compare comprehension and tests for a defined audience.",
+      "question": "When does brevity help or hide a defect?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "documentary_stories",
+      "angle": "A Bug Fix from Report to Release",
+      "scope": "Follow issue, patch, review, release, and user impact.",
+      "question": "How did a real issue become a tested change?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "system_boundary",
+      "angle": "Where Code Meets Its Environment",
+      "scope": "Name implementation and version for one program.",
+      "question": "Which behavior comes from language, library, OS, or service?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "input_output_trace",
+      "angle": "A Function's Actual Contract",
+      "scope": "Use tests and documentation on one version.",
+      "question": "What inputs, exceptions, side effects, and outputs does it have?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "design_tradeoff",
+      "angle": "Mutable or Immutable State",
+      "scope": "Compare matched tasks and measured outcomes.",
+      "question": "How do two designs affect clarity, performance, and mistakes?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "failure_mode",
+      "angle": "An Error Path Nobody Tested",
+      "scope": "Use a harmless reproduction and avoid exploit instructions.",
+      "question": "What input exposed a failure and how was it handled?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "testing_limits",
+      "angle": "Passing Tests and Missing Bugs",
+      "scope": "Inspect boundaries, properties, platforms, and dependencies.",
+      "question": "Which cases remain outside a program's test suite?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "standards_interoperability",
+      "angle": "Code Across Implementations",
+      "scope": "Run conformance examples across named versions.",
+      "question": "Which specified behavior is portable and which is implementation-specific?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "security_threat_model",
+      "angle": "Trusting Program Input",
+      "scope": "Trace validation, parsing, permissions, and safe failure without payloads.",
+      "question": "What can an untrusted input influence?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "maintenance_lifecycle",
+      "angle": "Keeping Code Usable",
+      "scope": "Follow one project and its release policy.",
+      "question": "How do dependencies, deprecations, and documentation affect maintenance?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "infrastructure_dependencies",
+      "angle": "A Program Needs a Runtime",
+      "scope": "Map dependencies and outage effects.",
+      "question": "Which compiler, package source, OS, and service must work?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "accessibility_usability",
+      "angle": "Programming Tools for Learners",
+      "scope": "Test documentation, language support, and assistive tools.",
+      "question": "Can intended users understand errors and navigate an editor?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "independent_replication",
+      "angle": "Reproducing a Code Claim",
+      "scope": "Publish code, inputs, versions, environment, and test command.",
+      "question": "Can another developer obtain the same output?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "responsible_deployment",
+      "angle": "When Code Reaches Users",
+      "scope": "Check privacy, accessibility, error handling, and rollback.",
+      "question": "Who may be harmed by an untested assumption?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "field_software_architecture",
+      "angle": "Modules Around One Task",
+      "scope": "Draw calls and data flow for a bounded program.",
+      "question": "How are responsibilities divided among functions and packages?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "field_interface_design",
+      "angle": "A Developer API's Clarity",
+      "scope": "Test naming, types, examples, and errors.",
+      "question": "Can a caller infer valid input and failure behavior?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "field_version_changes",
+      "angle": "A Dependency Update",
+      "scope": "Read changelog and run focused regression tests.",
+      "question": "Which behavior changed and which callers must adapt?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "field_open_standards",
+      "angle": "A Portable Language Claim",
+      "scope": "Check conformance and platform differences.",
+      "question": "Does a public specification enable independent implementations?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    },
+    {
+      "slug": "field_technical_debt",
+      "angle": "A Workaround That Stayed",
+      "scope": "Trace issue history, current cost, and migration tests.",
+      "question": "Which earlier constraint created a fragile code path?",
+      "evidence": "language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests",
+      "boundary": "Name language, implementation, version, input, and environment. Distinguish specification from implementation and avoid exposing production data."
+    }
+  ],
+  "review_note": "All 32 question designs and scopes reviewed for niche fit. Case selection, local applicability, source feasibility, and factual claims remain episode-level tasks."
+}

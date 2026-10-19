@@ -1,0 +1,22 @@
+# 166_future_predictions_major_events: Future Predictions — A Shock Outside the Model
+
+> Subject category: Speculative_Stories
+> CAT: ../CAT_166_future_predictions.md
+> NICHE: ../NICHE_166_future_predictions.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Shock Outside the Model
+
+## Editorial scope
+
+**Focus / example question:** How did one unexpected event change an earlier outlook?
+
+**Coverage:** Compare pre-event scenarios, model updates, and decisions.
+
+**Evidence to seek:** archived dated forecasts, model assumptions and version histories, independent validation, physical resource estimates, current policy records, and affected-community perspectives
+
+**Limits:** Name horizon, geography, metric, scenario, and issue date. Distinguish prediction from conditional projection, avoid certainty from a prototype or press release, and test claims against baseline forecasts and real constraints.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

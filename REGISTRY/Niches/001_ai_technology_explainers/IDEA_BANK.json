@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "001",
+  "ideas": [
+    {
+      "idea_id": "IDEA-001-0001",
+      "niche_id": "001",
+      "status": "ready_for_project",
+      "angle_slug": "how_it_works",
+      "topic": "Attention and sequence representation",
+      "working_title": "What attention does in the original Transformer",
+      "story_question": "How does the original Transformer combine token relationships, and where does the attention analogy stop?",
+      "case": "The encoder-decoder architecture in the original Transformer paper",
+      "place_period_version": "Historical research model, arXiv 1706.03762v7; not a current product specification",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Build a limited conceptual model without treating attention as human understanding",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Phase 1 evidence prepared in OUTPUT/001_ai_technology_explainers/001_ai_technology_explainers_how_it_works_original_transformer_attention. Original arithmetic checked and source scope documented; production and human publication review remain incomplete. Existing CONFIG retains its creation-time idea snapshot.",
+      "source_candidates": [
+        {
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/html/1706.03762v7",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Opened full HTML; inspected architecture, self-attention rationale and results headings."
+        },
+        {
+          "title": "Attention is not Explanation",
+          "url": "https://aclanthology.org/N19-1357/",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Read publisher metadata/abstract and PDF passages covering model assumptions and counterfactual attention experiments."
+        },
+        {
+          "title": "Attention is not not Explanation",
+          "url": "https://aclanthology.org/D19-1002/",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Inspected publisher abstract and metadata. PDF listing returned once but subsequent retrieval timed out; full methods were not reviewed."
+        }
+      ]
+    },
+    {
+      "idea_id": "IDEA-001-0002",
+      "niche_id": "001",
+      "status": "ready_for_project",
+      "angle_slug": "data_provenance",
+      "topic": "Dataset provenance",
+      "working_title": "Questions to ask before using a dataset",
+      "story_question": "Which questions in Datasheets for Datasets help a viewer examine how a training dataset was assembled?",
+      "case": "The proposed documentation questions in Datasheets for Datasets",
+      "place_period_version": "Framework paper, arXiv 1803.09010v8; no specific dataset audited",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Help viewers ask traceable provenance questions",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [
+        "Select a small set of questions and verify their exact wording and context; create an original example."
+      ],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Source access and a bounded question support starting Phase 1. Evidence gaps below must be resolved before scripting; no claim or publication approval is asserted.",
+      "source_candidates": [
+        {
+          "title": "Datasheets for Datasets",
+          "url": "https://arxiv.org/html/1803.09010v8",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Opened full HTML; source proposes documentation of collection and intended uses."
+        }
+      ]
+    },
+    {
+      "idea_id": "IDEA-001-0003",
+      "niche_id": "001",
+      "status": "ready_for_project",
+      "angle_slug": "evaluation_benchmarks",
+      "topic": "Evaluation and reporting",
+      "working_title": "What a model card can and cannot establish",
+      "story_question": "How does the Model Cards framework connect intended use to evaluation, and what remains unproven by a completed card?",
+      "case": "The reporting framework and worked examples in Model Cards for Model Reporting",
+      "place_period_version": "Historical framework, arXiv 1810.03993v2",
+      "intended_audience": "General adult viewers seeking source-based understanding",
+      "purpose": "Teach evidence reading without equating disclosure with reliability",
+      "created_date": "2026-10-18",
+      "updated_date": "2026-10-18",
+      "evidence_gaps": [
+        "Read worked examples in full; identify unsupported inferences and qualify evaluation limits."
+      ],
+      "blocking_gaps": [],
+      "related_ideas": [],
+      "readiness_note": "Source access and a bounded question support starting Phase 1. Evidence gaps below must be resolved before scripting; no claim or publication approval is asserted.",
+      "source_candidates": [
+        {
+          "title": "Model Cards for Model Reporting",
+          "url": "https://arxiv.org/html/1810.03993v2",
+          "status": "checked",
+          "checked_date": "2026-10-18",
+          "check_note": "Opened full HTML and abstract identifying the framework and example models."
+        }
+      ]
+    }
+  ]
+}

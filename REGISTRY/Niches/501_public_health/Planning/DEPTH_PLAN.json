@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "501",
+  "updated_date": "2026-10-18",
+  "audience": "Adult learners; adjust episode audience explicitly in CONFIG.",
+  "boundary": "Population-level evidence and systems; exclude individual medical advice.",
+  "production_handoff": "Provide cited narration, timed scene directions, continuity references and generation prompts for the user's external AI video workflow. No audiovisual generation pilot is required.",
+  "topics": [
+    {
+      "topic_id": "TOP-501-001",
+      "title": "Population exposure evidence",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "famous_examples"
+      ],
+      "coverage": "A historical evaluation and its outcome definitions.",
+      "exclusions": "Individual diagnosis or current prevalence estimates.",
+      "evidence_required": "Original methods, tables and inference limits.",
+      "source_ids": [
+        "SRC-0009"
+      ],
+      "idea_ids": [
+        "IDEA-501-0001"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-501-002",
+      "title": "Sampling and representativeness",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-501-001"
+      ],
+      "angle_slugs": [
+        "advanced_concepts"
+      ],
+      "coverage": "Eligibility, recruitment and the target population.",
+      "exclusions": "Generalization beyond the defined sample.",
+      "evidence_required": "Participant flow and denominator checks.",
+      "source_ids": [
+        "SRC-0009"
+      ],
+      "idea_ids": [
+        "IDEA-501-0002"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-501-003",
+      "title": "Measurement and missing data",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-501-001"
+      ],
+      "angle_slugs": [
+        "how_it_works"
+      ],
+      "coverage": "One measurement procedure and handling of incomplete information.",
+      "exclusions": "Invented individual measurements or unperformed reanalysis.",
+      "evidence_required": "Method documentation and explicit assumptions.",
+      "source_ids": [
+        "SRC-0009"
+      ],
+      "idea_ids": [
+        "IDEA-501-0003"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-501-004",
+      "title": "Surveillance and case definitions",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "field_disease_surveillance"
+      ],
+      "coverage": "One reporting system, population and definition version.",
+      "exclusions": "Equating notifications with all underlying cases.",
+      "evidence_required": "Current official technical documentation.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-501-005",
+      "title": "Intervention evaluation",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-501-001",
+        "TOP-501-002",
+        "TOP-501-003"
+      ],
+      "angle_slugs": [
+        "advanced_concepts"
+      ],
+      "coverage": "Comparison design, time trends and alternative explanations.",
+      "exclusions": "Causal certainty from an uncontrolled comparison.",
+      "evidence_required": "Study protocol and appropriate appraisal.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-501-006",
+      "title": "Health communication",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-501-001"
+      ],
+      "angle_slugs": [
+        "field_health_communication"
+      ],
+      "coverage": "Absolute quantities, uncertainty and audience comprehension.",
+      "exclusions": "Alarmist individual predictions.",
+      "evidence_required": "Checked denominators and evidence on interpretation.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-501-007",
+      "title": "Equity and distribution",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-501-002",
+        "TOP-501-006"
+      ],
+      "angle_slugs": [
+        "field_equity_in_outcomes"
+      ],
+      "coverage": "Differences between groups, access and measurement coverage.",
+      "exclusions": "Stereotypes or unexplained aggregate differences.",
+      "evidence_required": "Disaggregated data with collection and disclosure limits.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-501-008",
+      "title": "Community prevention systems",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-501-004",
+        "TOP-501-006"
+      ],
+      "angle_slugs": [
+        "field_community_prevention"
+      ],
+      "coverage": "One documented prevention program and implementation context.",
+      "exclusions": "Medical advice or invented local outcomes.",
+      "evidence_required": "Program documentation, evaluation and community context.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    }
+  ],
+  "series": [
+    {
+      "series_id": "SER-501-001",
+      "title": "Reading a public-health evaluation",
+      "entry_requirement": "No prior episode required; explain specialist terms on first use.",
+      "learning_outcome": "Ask what was measured, who was included and how measurement limits were handled.",
+      "ordering_reason": "First identify the question, then the sample, then the measurement assumptions.",
+      "idea_ids": [
+        "IDEA-501-0001",
+        "IDEA-501-0002",
+        "IDEA-501-0003"
+      ]
+    }
+  ]
+}

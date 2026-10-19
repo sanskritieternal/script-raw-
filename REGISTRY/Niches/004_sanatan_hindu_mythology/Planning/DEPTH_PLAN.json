@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "004",
+  "updated_date": "2026-10-18",
+  "audience": "Adult learners; adjust episode audience explicitly in CONFIG.",
+  "boundary": "Attributed sacred narrative; distinguish text, tradition, commentary and historical evidence.",
+  "production_handoff": "Provide cited narration, timed scene directions, continuity references and generation prompts for the user's external AI video workflow. No audiovisual generation pilot is required.",
+  "topics": [
+    {
+      "topic_id": "TOP-004-001",
+      "title": "Narrator and source attribution",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "source_attribution"
+      ],
+      "coverage": "Text identity, speaker attribution and passage boundaries.",
+      "exclusions": "Treating a popular retelling as an unidentified primary text.",
+      "evidence_required": "Accessible edition, verse locator and named translator.",
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "idea_ids": [
+        "IDEA-004-0001"
+      ],
+      "next_action": "Obtain and inspect identified textual sources before promoting these ideas."
+    },
+    {
+      "topic_id": "TOP-004-002",
+      "title": "Narrative framing and chronology",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-004-001"
+      ],
+      "angle_slugs": [
+        "narration_within_narration",
+        "story_chronology"
+      ],
+      "coverage": "Summary, embedded narration and story order.",
+      "exclusions": "Converting narrative chronology into historical dating.",
+      "evidence_required": "Explicit textual sequence in one identified edition.",
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "idea_ids": [
+        "IDEA-004-0002"
+      ],
+      "next_action": "Obtain and inspect identified textual sources before promoting these ideas."
+    },
+    {
+      "topic_id": "TOP-004-003",
+      "title": "Translation and interpretive context",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-004-001"
+      ],
+      "angle_slugs": [
+        "translation_word_choices"
+      ],
+      "coverage": "Attributed wording choices within a bounded dialogue.",
+      "exclusions": "One interpretation presented as all communities' belief.",
+      "evidence_required": "Two named translations, surrounding verses and permissions.",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "idea_ids": [
+        "IDEA-004-0003"
+      ],
+      "next_action": "Obtain and inspect identified textual sources before promoting these ideas."
+    },
+    {
+      "topic_id": "TOP-004-004",
+      "title": "Ramayana retellings",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-004-001",
+        "TOP-004-002",
+        "TOP-004-003"
+      ],
+      "angle_slugs": [
+        "ramayana_retellings"
+      ],
+      "coverage": "A single episode in two specifically identified tellings.",
+      "exclusions": "An undifferentiated universal version.",
+      "evidence_required": "Two editions with separate provenance and commentary.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-004-005",
+      "title": "Mahabharata narrative dilemmas",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-004-001",
+        "TOP-004-003"
+      ],
+      "angle_slugs": [
+        "mahabharata_retellings",
+        "dharma_dilemmas"
+      ],
+      "coverage": "One decision, its dialogue and consequences within a named telling.",
+      "exclusions": "Modern moral slogans substituted for the textual argument.",
+      "evidence_required": "Passages before and after the selected decision.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-004-006",
+      "title": "Puranic story families",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-004-001",
+        "TOP-004-003"
+      ],
+      "angle_slugs": [
+        "puranic_story_families"
+      ],
+      "coverage": "One attributed narrative across a bounded text family.",
+      "exclusions": "Assuming uniform chronology or agreement among texts.",
+      "evidence_required": "Named text, edition, section and transmission context.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-004-007",
+      "title": "Regional performance and oral telling",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-004-001"
+      ],
+      "angle_slugs": [
+        "regional_oral_versions",
+        "performance_retellings"
+      ],
+      "coverage": "A named community, performance and storyteller context.",
+      "exclusions": "Inventing an oral tradition or using unlicensed recordings.",
+      "evidence_required": "Attributed recordings or field scholarship and consent.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-004-008",
+      "title": "Contested interpretation",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-004-003",
+        "TOP-004-004"
+      ],
+      "angle_slugs": [
+        "contested_interpretations"
+      ],
+      "coverage": "Document the positions and scope of one interpretive disagreement.",
+      "exclusions": "Declaring theological truth or fabricating consensus.",
+      "evidence_required": "Attributed positions with contextual and specialist review.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    }
+  ],
+  "series": [
+    {
+      "series_id": "SER-004-001",
+      "title": "Reading sacred narrative with attribution",
+      "entry_requirement": "No prior episode required; explain specialist terms on first use.",
+      "learning_outcome": "Identify a source and narrator before comparing structure or translation.",
+      "ordering_reason": "Attribution precedes narrative analysis and comparison across translations.",
+      "idea_ids": [
+        "IDEA-004-0001",
+        "IDEA-004-0002",
+        "IDEA-004-0003"
+      ]
+    }
+  ]
+}

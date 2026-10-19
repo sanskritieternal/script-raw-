@@ -1,0 +1,22 @@
+# 368_cinema_field_audience_history: Cinema — A Film's Viewers Over Time
+
+> Subject category: Literature_Performance
+> CAT: ../CAT_368_cinema.md
+> NICHE: ../NICHE_368_cinema.md
+
+This angle supplies Q3 only. All other defaults come from the niche CAT file.
+
+## Q3: Primary Story Angle
+**Default:** A Film's Viewers Over Time
+
+## Editorial scope
+
+**Focus / example question:** How did access and audience response change across releases?
+
+**Coverage:** Distinguish documented viewers from hypothetical audience.
+
+**Evidence to seek:** timecoded films and versions, production records, credits, archive catalogs, dated criticism, exhibition records, and participant accounts
+
+**Limits:** Identify film, version, place, and period. Separate what is visible or documented from interpretation, causal impact, and inferred creator intent.
+
+Before Phase 1, narrow this guidance to a specific case, source or work, and the relevant place, population, version or period. Record that choice in the episode's story question and research summary.

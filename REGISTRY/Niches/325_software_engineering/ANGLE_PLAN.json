@@ -1,0 +1,271 @@
+{
+  "niche_id": "325",
+  "status": "editorial_question_reviewed",
+  "purpose": "Software engineering as requirements, design, delivery, testing, operations, maintenance, and user outcomes across a software lifecycle.",
+  "generation_basis": "build_remaining_angle_plans.py field lenses v1",
+  "editorial_principles": [
+    "Use a named jurisdiction, population, and date where applicable.",
+    "Present comparisons on equal terms and label illustrative scenarios.",
+    "Verify primary sources and current guidance before production.",
+    "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+  ],
+  "angles": [
+    {
+      "slug": "history_origins",
+      "angle": "A Software Process Emerges",
+      "scope": "Use dated reports and distinguish origin from later adoption.",
+      "question": "Which project problem prompted one engineering practice?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "famous_examples",
+      "angle": "A Project Postmortem Rechecked",
+      "scope": "Compare stated goals, delivery evidence, and user outcomes.",
+      "question": "What does one celebrated success or failure actually show?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "hidden_stories",
+      "angle": "Invisible Engineering Work",
+      "scope": "Use team records and consented accounts.",
+      "question": "Who maintains tests, documentation, operations, and accessibility?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "beginner_explainers",
+      "angle": "From Requirement to Release",
+      "scope": "Trace requirement, design, code, test, deployment, and feedback.",
+      "question": "How does a user need become a shipped change?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "advanced_concepts",
+      "angle": "Reliability as a Measured Property",
+      "scope": "Define service, failure, time window, and measurement.",
+      "question": "Which design and operating choices support a target level?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "mysteries_unsolved_cases",
+      "angle": "A Regression That Escaped Review",
+      "scope": "Use issue timeline and safe reproduction evidence.",
+      "question": "Which assumption let a fault reach users?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "technology_innovation",
+      "angle": "A New Engineering Tool",
+      "scope": "Compare matched teams, tasks, and costs.",
+      "question": "Did one tool shorten feedback or improve defect discovery?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "people_personalities",
+      "angle": "A Design Decision in Context",
+      "scope": "Review design records and stakeholder feedback.",
+      "question": "Who had authority and whose needs were represented?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "major_events",
+      "angle": "A Release and Rollback",
+      "scope": "Use dated deployment, monitoring, and incident records.",
+      "question": "What triggered rollback and how was impact limited?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "how_it_works",
+      "angle": "A Change Through a Pipeline",
+      "scope": "Trace source, review, build, tests, artifact, and monitoring.",
+      "question": "Which checks run before and after deployment?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "rise_fall",
+      "angle": "Why a Development Method Spread",
+      "scope": "Separate marketing, measured outcomes, and context.",
+      "question": "What problems did adopters seek to solve?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "then_vs_now",
+      "angle": "One Team Before and After a Practice",
+      "scope": "Match release size, team, users, and measurement period.",
+      "question": "Did delivery quality and workload change?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "future_developments",
+      "angle": "An Engineering Practice Proposal",
+      "scope": "Specify expected outcome, costs, trial, and stop criteria.",
+      "question": "What evidence would justify adoption?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "myths_vs_facts",
+      "angle": "More Tests Mean Quality?",
+      "scope": "Check coverage, assertions, environments, and acceptance.",
+      "question": "Which defects can tests detect and which needs require user evidence?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "documentary_stories",
+      "angle": "An Incident and Its Fix",
+      "scope": "Follow detection, response, root-cause evidence, and follow-up.",
+      "question": "How did a team learn from a production failure?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "system_boundary",
+      "angle": "Who Owns a Software Outcome?",
+      "scope": "Map responsibilities for one service.",
+      "question": "Where do product, development, operations, vendor, and users intersect?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "input_output_trace",
+      "angle": "A Requirement to Observable Behavior",
+      "scope": "Link acceptance criterion, test, telemetry, and user task.",
+      "question": "What evidence shows a promised feature works?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "design_tradeoff",
+      "angle": "Speed of Delivery Versus Change Risk",
+      "scope": "Compare matched releases and failure rates.",
+      "question": "How do batch size and review affect outcomes?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "failure_mode",
+      "angle": "A Dependency Change Breaks Service",
+      "scope": "Trace lockfile, build, staging, and recovery.",
+      "question": "Why did checks miss an incompatible version?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "testing_limits",
+      "angle": "What Staging Cannot Prove",
+      "scope": "List test assumptions and monitoring safeguards.",
+      "question": "Which production load or user condition is absent?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "standards_interoperability",
+      "angle": "An API Contract Across Teams",
+      "scope": "Run consumer and provider tests.",
+      "question": "Which schema and version promises allow integration?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "security_threat_model",
+      "angle": "Security in the Delivery Chain",
+      "scope": "Use a bounded threat model and defensive controls.",
+      "question": "Who can modify source, builds, dependencies, or releases?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "maintenance_lifecycle",
+      "angle": "Support After Launch",
+      "scope": "Read service policy and observed backlog.",
+      "question": "How are bugs, updates, end-of-life, and ownership handled?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "infrastructure_dependencies",
+      "angle": "Software Needs Operations",
+      "scope": "Map failure and recovery dependencies.",
+      "question": "Which registry, build service, network, and runtime can block delivery?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "accessibility_usability",
+      "angle": "A Feature's Real Acceptance",
+      "scope": "Test representative flows and document barriers.",
+      "question": "Can intended users complete the task with assistive tools?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "independent_replication",
+      "angle": "Repeating an Engineering Metric",
+      "scope": "Publish definitions, time window, exclusions, and raw events.",
+      "question": "Can another analyst derive the reported delivery measure?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "responsible_deployment",
+      "angle": "Shipping with Consequences",
+      "scope": "Check privacy, access, support, and staged rollout.",
+      "question": "Who is affected by a change and what rollback exists?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "field_software_architecture",
+      "angle": "A Service's Component Boundaries",
+      "scope": "Draw actual data flow and failure ownership.",
+      "question": "Which modules and dependencies explain behavior?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "field_interface_design",
+      "angle": "A Product Flow Under Test",
+      "scope": "Use observed sessions and accessible prototypes.",
+      "question": "Where do users misunderstand or abandon a task?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "field_version_changes",
+      "angle": "Compatibility During Migration",
+      "scope": "Test old and new versions with rollback plan.",
+      "question": "Which clients and data formats must continue to work?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "field_open_standards",
+      "angle": "Standards in a Product",
+      "scope": "Check spec version, optional features, and integration test.",
+      "question": "Does conformance enable another system to connect?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    },
+    {
+      "slug": "field_technical_debt",
+      "angle": "Debt with a Measured Cost",
+      "scope": "Trace original decision, impact, and proposed remediation.",
+      "question": "Which shortcut now slows changes or increases incidents?",
+      "evidence": "project requirements and design records, versioned artifacts, test and deployment data, incident reports, and user research",
+      "boundary": "Name system, team context, time period, and metric definition. Do not infer causality from a single project or a passing test suite."
+    }
+  ],
+  "review_note": "All 32 question designs and scopes reviewed for niche fit. Case selection, local applicability, source feasibility, and factual claims remain episode-level tasks."
+}

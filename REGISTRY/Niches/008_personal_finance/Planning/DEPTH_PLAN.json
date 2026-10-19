@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "008",
+  "updated_date": "2026-10-18",
+  "audience": "Adult learners; adjust episode audience explicitly in CONFIG.",
+  "boundary": "Household financial literacy; episode jurisdiction must be explicit and advice review retained.",
+  "production_handoff": "Provide cited narration, timed scene directions, continuity references and generation prompts for the user's external AI video workflow. No audiovisual generation pilot is required.",
+  "topics": [
+    {
+      "topic_id": "TOP-008-001",
+      "title": "Cash-flow timing",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "household_cash_flow"
+      ],
+      "coverage": "Income timing, bills, irregular expenses and a fictional household.",
+      "exclusions": "Universal budget percentages or personalized advice.",
+      "evidence_required": "Explicit fictional inputs or consented real records.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-008-002",
+      "title": "Compounding and assumptions",
+      "level": "foundation",
+      "prerequisites": [],
+      "angle_slugs": [
+        "comparison_method"
+      ],
+      "coverage": "Principal, term, rate basis and frequency with stated assumptions.",
+      "exclusions": "Predicted market returns or product recommendations.",
+      "evidence_required": "Authoritative input definitions and independently checked arithmetic.",
+      "source_ids": [
+        "SRC-0006"
+      ],
+      "idea_ids": [
+        "IDEA-008-0001"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-008-003",
+      "title": "Fees and net outcomes",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-008-002"
+      ],
+      "angle_slugs": [
+        "fee_effect"
+      ],
+      "coverage": "One disclosed cost and its timing in an original comparison.",
+      "exclusions": "Hidden product endorsement and unequal comparison assumptions.",
+      "evidence_required": "Fee definitions, model assumptions and independent calculations.",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0007"
+      ],
+      "idea_ids": [
+        "IDEA-008-0002"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-008-004",
+      "title": "Risk and product conditions",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-008-002",
+        "TOP-008-003"
+      ],
+      "angle_slugs": [
+        "field_risk_disclosure"
+      ],
+      "coverage": "How product conditions differ from simplified models.",
+      "exclusions": "Transferring US protections to other jurisdictions.",
+      "evidence_required": "Dated local disclosures and regulator guidance.",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0007"
+      ],
+      "idea_ids": [
+        "IDEA-008-0003"
+      ],
+      "next_action": "Resolve recorded idea gaps in Phase 1 before drafting narration."
+    },
+    {
+      "topic_id": "TOP-008-005",
+      "title": "Debt repayment mechanics",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-008-001",
+        "TOP-008-002"
+      ],
+      "angle_slugs": [
+        "how_it_works"
+      ],
+      "coverage": "Interest basis, minimum payment and repayment schedule.",
+      "exclusions": "Assumed lender terms or advice for an individual.",
+      "evidence_required": "Named agreement and checked repayment arithmetic.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-008-006",
+      "title": "Liquidity and time horizon",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-008-001",
+        "TOP-008-004"
+      ],
+      "angle_slugs": [
+        "risk_and_time"
+      ],
+      "coverage": "Access needs, goal timing and uncertainty scenarios.",
+      "exclusions": "An optimal allocation without household context.",
+      "evidence_required": "Explicit scenarios and current applicable terms.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-008-007",
+      "title": "Inflation and purchasing power",
+      "level": "advanced",
+      "prerequisites": [
+        "TOP-008-002"
+      ],
+      "angle_slugs": [
+        "inflation_effect"
+      ],
+      "coverage": "Nominal and real comparisons with a defined basket and period.",
+      "exclusions": "Current price claims without a dated statistical source.",
+      "evidence_required": "Official local series and comparable units.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    },
+    {
+      "topic_id": "TOP-008-008",
+      "title": "Fraud and complaint routes",
+      "level": "intermediate",
+      "prerequisites": [
+        "TOP-008-004"
+      ],
+      "angle_slugs": [
+        "fraud_warning",
+        "consumer_protection"
+      ],
+      "coverage": "Verification steps for one jurisdiction and offer type.",
+      "exclusions": "Unverified accusations or outdated reporting instructions.",
+      "evidence_required": "Current regulator advisories and verified reporting routes.",
+      "source_ids": [],
+      "idea_ids": [],
+      "next_action": "Choose a bounded case and inspect primary source availability before adding an episode idea."
+    }
+  ],
+  "series": [
+    {
+      "series_id": "SER-008-001",
+      "title": "Reading a money illustration",
+      "entry_requirement": "No prior episode required; explain specialist terms on first use.",
+      "learning_outcome": "Identify assumptions, costs and risks in a bounded educational example.",
+      "ordering_reason": "Start with transparent arithmetic, add costs, then inspect what the model excludes.",
+      "idea_ids": [
+        "IDEA-008-0001",
+        "IDEA-008-0002",
+        "IDEA-008-0003"
+      ]
+    }
+  ]
+}
