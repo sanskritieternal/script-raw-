@@ -20,9 +20,9 @@ Edit the selected entry inside `REGISTRY/Niches/<ID>_<Slug>/ANGLE_PLAN.json`. Gi
 The `Angles/*.md` files are generated views of that plan. They display **Focus / example question**, **Coverage**, **Evidence to seek** and **Limits**. After editing a plan, regenerate and verify its files:
 
 ```powershell
-python populate_niches.py --id 530 --sync-content
-python populate_niches.py --id 530 --verify-content
-python review_angle_plans.py --scope-audit
+python -m Tools.registry.populate_niches --id 530 --sync-content
+python -m Tools.registry.populate_niches --id 530 --verify-content
+python -m Tools.registry.review_angle_plans --scope-audit
 ```
 
 The scope audit checks all plans for complete fields, repeated scopes within a niche and the broad templates used in the original expansion draft. These checks support editorial review; they do not verify sources or factual claims.

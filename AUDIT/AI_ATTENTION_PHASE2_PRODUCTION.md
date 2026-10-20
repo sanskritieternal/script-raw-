@@ -22,7 +22,7 @@ CONFIG human publication review remains Pending because Q10 includes the attribu
 
 ## Verification
 
-`python validate_project.py <episode> --through 2` passed. Twelve additional text/plan checks passed; see AI_ATTENTION_PHASE2_CHECKS.json for boolean results and production-document fingerprints:
+`python -m Tools.validation.validate_project <episode> --through 2` passed. Twelve additional text/plan checks passed; see AI_ATTENTION_PHASE2_CHECKS.json for boolean results and production-document fingerprints:
 
 1. Seventy-five sequential cue/scene slots.
 2. Eight seconds per cue and 600 seconds total.

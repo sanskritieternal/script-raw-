@@ -18,11 +18,11 @@ This is the authoritative routing and handoff contract for the active V6 reposit
 
 Optional topic maps and series plans live inside each niche's `Planning/` directory. Read [DEPTH_PLANNING_GUIDE.md](../../REGISTRY/DEPTH_PLANNING_GUIDE.md); the shared source library records access feasibility, not verified episode claims. These planning references add no Q numbers and do not override CAT defaults, selected angles or CONFIG snapshots. Repository validation checks their references and generated views. Copy relevant coverage/exclusions into Phase 1 deliberately.
 
-Concrete proposals may live in `REGISTRY/Niches/<ID>_<Slug>/IDEA_BANK.json`; the topic remains a field, not another competing registry folder. Use [the idea guide](../../REGISTRY/IDEA_BANK_GUIDE.md) and IDEA_BANK_SCHEMA.json. Banks are optional; status, source leads, gaps and selected angle are checked by idea_bank.py and repository validation.
+Concrete proposals may live in `REGISTRY/Niches/<ID>_<Slug>/IDEA_BANK.json`; the topic remains a field, not another competing registry folder. Use [the idea guide](../../REGISTRY/IDEA_BANK_GUIDE.md) and IDEA_BANK_SCHEMA.json. Banks are optional; status, source leads, gaps and selected angle are checked by `Tools.projects.idea_bank` and repository validation.
 
-`create_project.py --id <ID> --idea-id <IDEA-ID>` requires ready_for_project status, derives angle/story question and rejects conflicting explicit values. CONFIG preserves the full creation-time idea snapshot, bank reference and integrity hash; later bank edits do not change the project. Q1-Q42 meanings and explicit override rules remain intact. Readiness is source feasibility only, not Phase 1 factual verification or human publication approval. Existing direct --angle/--story-question creation remains supported.
+`python -m Tools.projects.create_project --id <ID> --idea-id <IDEA-ID>` requires ready_for_project status, derives angle/story question and rejects conflicting explicit values. CONFIG preserves the full creation-time idea snapshot, bank reference and integrity hash; later bank edits do not change the project. Q1-Q42 meanings and explicit override rules remain intact. Readiness is source feasibility only, not Phase 1 factual verification or human publication approval. Existing direct --angle/--story-question creation remains supported.
 
-`OUTPUT/<ID>_<Slug>/<ID>_<Slug>_<Angle>_<EpisodeSlug>/`
+`<configured output root>/<ID>_<Slug>/<ID>_<Slug>_<Angle>_<EpisodeSlug>/`
 
 The project ID preserves the original niche ID. The episode slug is derived from the specific story question or supplied with `--episode-slug`, so multiple episodes can reuse one niche and angle without collision. CONFIG records a Q3 snapshot; later edits to an angle plan do not rewrite an existing project. `REGISTRY/LEGACY_TOPIC_PATHS.csv` and `REGISTRY/NICHE_HOME_PATHS.csv` map former paths.
 
@@ -30,14 +30,14 @@ The project ID preserves the original niche ID. The episode slug is derived from
 
 | Phase | Directory | Required output and exit condition |
 |---|---|---|
-| 0 Configuration | `01_Phase0_Configuration/` | `CONFIG.md` with all 42 answers, schema version, exact Q14 seconds, Q42 timing, language and review gate. `create_project.py` builds and validates this file. |
+| 0 Configuration | `01_Phase0_Configuration/` | `CONFIG.md` with all 42 answers, schema version, exact Q14 seconds, Q42 timing, language and review gate. `Tools.projects.create_project` builds and validates this file. |
 | 1 Research Bible | `02_Phase1_RESEARCH_BIBLE/` | `Research_Summary.md`, `Facts_Documented.md`, `Financial_Figures_Verified.md` when applicable, `Timeline_Accuracy_Check.md`, `Source_List_with_Links.md`, `MASTER_CONTEXT_v1.md`, and `Claim_Ledger.md`. Mark nonfinancial data `Not applicable` rather than invent figures. Every material scripted claim must have evidence before Phase 2. |
 | 2 Production Bible | `03_Phase2_PRODUCTION_BIBLE/` | The 16 numbered outputs `00_...` through `15_...`. `Visual_Style_Quick_Reference.md` is a source reference, optional as an output. Lock Q3, Q15, Q16 and Q42 after approval. |
-| 3 Scene Breakdown | `04_Phase3_SCENE_BREAKDOWN/` | Numbered batch files, 25 scenes per batch by default, with scene durations summing to Q14 and claim IDs linking to Phase 1. For fixed duration, count is `ceil(Q14 / Q42)` and the last scene may be shorter. |
+| 3 Scene Breakdown | `04_Phase3_SCENE_BREAKDOWN/` | One `Scene_Breakdown.md` containing every numbered scene, with durations summing to Q14 and claim IDs linking to Phase 1. Review scenes 1-25 first in interactive mode. Legacy batch-only episodes remain readable. For fixed duration, count is `ceil(Q14 / Q42)` and the last scene may be shorter. |
 | 4 Production Package | `05_Phase4_PRODUCTION_PACKAGE/` | `Production_Package.md` compiling scenes, narration, visual and audio directions, source references, metadata and unresolved flags. No claim may lose its citation. |
 | 5 Final Audit | `06_Phase5_FINAL_AUDIT/` | `Audit_Report.md` with evidence for each gate. Issue `Completion_Certificate.md` only if no blocking findings remain. A completed text package is not proof that video assets were rendered or published. |
 
-Phase 1, Phase 2 and Phase 4 require explicit approval in interactive and domain preset modes. Phase 3 batch 1 requires approval in interactive mode. Autonomous mode may pass internal gates only after the required evidence is present. Q8 High/Critical, Q41 Strict/Critical, contested Q10/Q31 answers, or explicit risk flags for living-person allegations, medical or financial advice, and contested religious or historical claims require human review before publication status. `create_project.py --risk-flags ...` records those flags. Final certification requires an approved reviewer and date in CONFIG when review is required. A disclaimer does not replace evidence or review.
+Phase 1, Phase 2 and Phase 4 require explicit approval in interactive and domain preset modes. Phase 3 batch 1 requires approval in interactive mode. Autonomous mode may pass internal gates only after the required evidence is present. Q8 High/Critical, Q41 Strict/Critical, contested Q10/Q31 answers, or explicit risk flags for living-person allegations, medical or financial advice, and contested religious or historical claims require human review before publication status. `python -m Tools.projects.create_project --risk-flags ...` records those flags. Final certification requires an approved reviewer and date in CONFIG when review is required. A disclaimer does not replace evidence or review.
 
 ## Handoff checks
 
@@ -49,17 +49,25 @@ Phase 1, Phase 2 and Phase 4 require explicit approval in interactive and domain
 
 ## Validation commands
 
-### Expanded production workflow 1.0
+### Expanded production workflow 1.1
 
-Keep the original 16 numbered Phase 2 files and add ten supporting templates plus PRODUCTION_MANIFEST.json, as defined by `03_Phase2_PRODUCTION_BIBLE/PRODUCTION_WORKFLOW.json`. See [the workflow guide](03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md) for all 26 documents, applicability, mappings, compiler and migration.
+Keep the original 16 numbered Phase 2 files and add sixteen supporting templates plus PRODUCTION_MANIFEST.json, as defined by `03_Phase2_PRODUCTION_BIBLE/PRODUCTION_WORKFLOW.json`. See [the workflow guide](03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md) for all 32 documents, applicability, mappings, compiler and migration.
 
-New CONFIG files are marked `Production workflow version: 1.0`; create_project.py supplies unfinished production scaffolds. Phase 2 requires completed applicable documents and matching locks; permitted Not applicable entries need reasons. Phase 3 checks beat/asset/chapter maps against actual scenes, claims and metadata. Beat count is not fixed. Existing unmarked/un-enrolled episodes keep previous checks; migration is explicit, preview-first and preserves editorial files. OUTPUT/Legacy is excluded.
+New CONFIG files are marked `Production workflow version: 1.1`; `Tools.projects.create_project` supplies unfinished production scaffolds. Phase 2 requires completed applicable documents and matching locks; permitted Not applicable entries need reasons. Phase 3 checks beat/asset/chapter maps against actual scenes, claims and metadata. Beat count is not fixed. Existing unmarked/un-enrolled episodes keep previous checks; migration is explicit, preview-first and preserves editorial files. OUTPUT/Legacy is excluded.
 
-For enrolled episodes, compile Phase 4 with `python production_workflow.py compile <project> --write`. All production documents and scene citations are included; Package_Inputs.json tracks input/output hashes. Changed inputs or manual package edits require recompilation. No command issues human approval or a completion certificate. This production version is separate from question schema 5.0.
+For enrolled episodes, compile Phase 4 with `python -m Tools.projects.production_workflow compile <project> --write`. All production documents and scene citations are included; Package_Inputs.json tracks input/output hashes. Changed inputs or manual package edits require recompilation. No command issues human approval or a completion certificate. This production version is separate from question schema 5.0.
 
-- `python validate_repository.py` validates taxonomy paths, a CAT and NICHE file and output landing folder per registered niche, all base and curated angle files, links and one Phase 0 pilot per subject category.
-- `python create_project.py --id 275 --angle history_origins --dry-run` previews project creation.
+- `python -m Tools.validation.validate_repository` validates taxonomy paths, a CAT and NICHE file and output landing folder per registered niche, all base and curated angle files, links and one Phase 0 pilot per subject category.
+- `python -m Tools.projects.create_project --id 275 --angle history_origins --dry-run` previews project creation.
 - A write requires `--story-question "...?"` with a specific researchable question. Angle choices are candidates, not finished topics.
 - For `Q42: VARIABLE`, pass `--scene-plan plan.json` with positive whole-second durations summing exactly to Q14. The project validator checks each scene against that plan.
-- `python validate_project.py <project-directory> --through 5` checks produced phase files, scene timing, claim IDs and all 70 final-audit rows. It is a structural check; source support and rendered assets require direct review.
-- `python audit_repository.py` refreshes the checkmarked byte-read inventory and structural report.
+- `python -m Tools.validation.validate_project <project-directory> --through 5` checks produced phase files, scene timing, claim IDs and all 70 final-audit rows. It is a structural check; source support and rendered assets require direct review.
+- `python -m Tools.validation.audit_repository` refreshes the checkmarked byte-read inventory and structural report.
+
+## Configurable project output
+
+Read the workspace-root `output.md` before creating a new video project. Its `output_root:` value is the single shared default destination; blank or absent means the system folder's `OUTPUT` directory. The creator resolves it through `Tools.projects.output_location.resolve_output_root`. An explicit destination/`--output-root` overrides it for one project. Relative roots resolve from the system folder. Preserve `<configured root>/<niche ID_slug>/<specific project>/` and all phase subfolders; do not use the niche ID as an episode number.
+
+Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
+
+Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.

@@ -28,11 +28,11 @@ Existing projects were moved to ID-first parents and their CONFIG references wer
 
 ## Rebuild and checks
 
-- `python materialize_niches.py` creates missing CAT, NICHE and output landing files. It never overwrites an edited CAT. `--verify-content` checks identities and landing files; the repository validator checks CAT labels and values.
-- `python populate_niches.py --verify-content` verifies 7,500 Q3 choices and 500 angle indexes. `--create-missing` creates absent files only.
-- `python validate_repository.py` checks counts, stable IDs, taxonomy mapping, CAT structure, angle content, output landings and 46 Phase 0 routing pilots.
-- `python validate_project.py <project> --through 5` checks a project's completed phase structure.
-- `python audit_repository.py` refreshes byte-read verification and the structural audit.
+- `python -m Tools.registry.materialize_niches` creates missing CAT, NICHE and output landing files. It never overwrites an edited CAT. `--verify-content` checks identities and landing files; the repository validator checks CAT labels and values.
+- `python -m Tools.registry.populate_niches --verify-content` verifies 7,500 Q3 choices and 500 angle indexes. `--create-missing` creates absent files only.
+- `python -m Tools.validation.validate_repository` checks counts, stable IDs, taxonomy mapping, CAT structure, angle content, output landings and 46 Phase 0 routing pilots.
+- `python -m Tools.validation.validate_project <project> --through 5` checks a project's completed phase structure.
+- `python -m Tools.validation.audit_repository` refreshes byte-read verification and the structural audit.
 
 The former `reconcile_config_presets.py` and `restructure_categories.py --apply` are historical schema migrations and are guarded against running on schema 5. Earlier audit reports are historical snapshots. The active contract is `CORE/PIPELINE/CONTRACT.md`.
 

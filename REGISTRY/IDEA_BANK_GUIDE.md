@@ -33,15 +33,15 @@ Ready permits project creation only. Phase 1 still requires a verified claim led
 Preview or create an optional empty bank only when needed:
 
 ```powershell
-python idea_bank.py init --id 531
-python idea_bank.py init --id 531 --write
+python -m Tools.projects.idea_bank init --id 531
+python -m Tools.projects.idea_bank init --id 531 --write
 ```
 
 Existing banks are never overwritten by init. To add a concrete idea, prepare a JSON object matching `$defs.idea` in the schema. Its idea_id may be omitted for next-ID allocation; all other required fields must be supplied. Preview then write:
 
 ```powershell
-python idea_bank.py add --id 531 --file idea.json
-python idea_bank.py add --id 531 --file idea.json --write
+python -m Tools.projects.idea_bank add --id 531 --file idea.json
+python -m Tools.projects.idea_bank add --id 531 --file idea.json --write
 ```
 
 Duplicate IDs or normalized duplicate questions inside one bank are rejected. Related IDs must refer to existing ideas and cannot refer to self. A cross-bank exact-question overlap is reported as a review signal, not automatically proof of duplication. Edit an existing bank deliberately to revise a record or status; keep dates and readiness/gaps accurate. Keep retired entries rather than deleting their IDs.
@@ -49,8 +49,8 @@ Duplicate IDs or normalized duplicate questions inside one bank are rejected. Re
 After editing:
 
 ```powershell
-python idea_bank.py build-index
-python idea_bank.py validate
+python -m Tools.projects.idea_bank build-index
+python -m Tools.projects.idea_bank validate
 ```
 
 Repository validation also checks optional banks, related references and index freshness. Older niches without banks remain valid. None of these commands creates an episode.
@@ -58,8 +58,8 @@ Repository validation also checks optional banks, related references and index f
 ## Create an episode from a ready idea
 
 ```powershell
-python create_project.py --id 531 --idea-id IDEA-531-0001 --dry-run
-python create_project.py --id 531 --idea-id IDEA-531-0001 --mode autonomous
+python -m Tools.projects.create_project --id 531 --idea-id IDEA-531-0001 --dry-run
+python -m Tools.projects.create_project --id 531 --idea-id IDEA-531-0001 --mode autonomous
 ```
 
 These example commands will reject the seeded proposed idea until real feasibility work supports its promotion. The selected idea supplies angle and story question. Conflicting explicit --angle or --story-question values are rejected. You may still create an episode through the existing --angle plus --story-question path without using a bank.

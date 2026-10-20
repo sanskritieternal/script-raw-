@@ -2,11 +2,11 @@
 
 > Use `CORE/PIPELINE/CONTRACT.md` for current paths, Q meanings and timing. The financial and tool-specific examples below apply only where relevant. Every material factual scene must cite a Phase 1 claim ID.
 
-This phase turns verified research into production-ready scenes. Every scene must be factually accurate, legally safe, visually specific, and properly sourced. Scenes are written in batches and checked with the Production Safeguards Checklist before approval.
+This phase turns verified research into production-ready scenes. Every scene must be factually accurate, legally safe, visually specific, and properly sourced. Write all scenes in one `Scene_Breakdown.md`; check consecutive 25-scene ranges with the Production Safeguards Checklist.
 
 **Inputs:** `02_Phase1_RESEARCH_BIBLE/` and `03_Phase2_PRODUCTION_BIBLE/`.
-**Outputs:** Batch scene files in `04_Phase3_SCENE_BREAKDOWN/`.
-**Quality Gate:** Batch 1 interactive approval; remaining batches run autonomously with internal checklist per batch.
+**Outputs:** `04_Phase3_SCENE_BREAKDOWN/Scene_Breakdown.md`.
+**Quality Gate:** Interactive approval after scenes 1-25; remaining ranges run autonomously with an internal checklist per range.
 
 ---
 
@@ -14,7 +14,7 @@ This phase turns verified research into production-ready scenes. Every scene mus
 
 1. [Phase 3 Goal & Deliverables](#phase-3-goal--deliverables)
 2. [Scene Count Formula](#scene-count-formula)
-3. [Batch Processing Rules](#batch-processing-rules)
+3. [Scene Range Review Rules](#scene-range-review-rules)
 4. [Protected Fields](#protected-fields)
 5. [Scene Template](#scene-template)
 6. [Production Safeguards Checklist](#production-safeguards-checklist)
@@ -33,8 +33,8 @@ This phase turns verified research into production-ready scenes. Every scene mus
 **Goal:** Write every scene needed for the video, with exact narration, visual direction, data viz specs, source citations, and legal flags.
 
 **Deliverables:**
-- `Batch_NN_Scenes_XX_to_YY.md` files (25 scenes per batch default)
-- `MASTER_CONTEXT.md` updated per batch (consistency tracker)
+- `Scene_Breakdown.md` with every scene in sequential order
+- `MASTER_CONTEXT.md` updated per 25-scene review range (consistency tracker)
 - `VOICE_SCRIPT_<lang>.md` files if Q19 (Additional Languages) ≠ None
 
 ---
@@ -45,28 +45,28 @@ This phase turns verified research into production-ready scenes. Every scene mus
 
 This matches the default FIXED 8-SECOND scene strategy. For documentary, 8-second clips align with Veo3 limits and provide a professional, data-friendly pacing.
 
-| Video Length | Total Scenes | Estimated Batches (25/batch) |
+| Video Length | Total Scenes | Review Ranges (25 scenes each) |
 |---|---|---|
-| 5 min (300s) | ~38 scenes | 2 batches |
-| 8 min (480s) | ~60 scenes | 3 batches |
-| 10 min (600s) | ~75 scenes | 3 batches |
-| 12 min (720s) | ~90 scenes | 4 batches |
-| 15 min (900s) | ~113 scenes | 5 batches |
-| 20 min (1200s) | ~150 scenes | 6 batches |
+| 5 min (300s) | ~38 scenes | 2 ranges |
+| 8 min (480s) | ~60 scenes | 3 ranges |
+| 10 min (600s) | ~75 scenes | 3 ranges |
+| 12 min (720s) | ~90 scenes | 4 ranges |
+| 15 min (900s) | ~113 scenes | 5 ranges |
+| 20 min (1200s) | ~150 scenes | 6 ranges |
 
 If Q42 = VARIABLE, use the per-content-type duration rules in `03_Phase2_PRODUCTION_BIBLE/MASTER_Phase2_PRODUCTION_BIBLE.md` and adjust scene count accordingly.
 
 ---
 
-## BATCH PROCESSING RULES
+## SCENE RANGE REVIEW RULES
 
-1. **Default batch size: 25 scenes.** Content is fact-dense; 25-scene batches balance accuracy with throughput while the safeguards checklist runs per batch.
-2. **After Batch 1 in interactive mode, pause and ask for approval. Once Batch 1 is approved, generate all remaining batches autonomously.** Do not present batches 2+ for user approval; run the Production Safeguards Checklist for each batch.
-3. **Before presenting each batch, run the Production Safeguards Checklist.** Fix any failures before showing the batch.
-4. **Update `MASTER_CONTEXT.md` after each batch.** Track character/company names, locations, time periods, key facts introduced, and any deviations from the production bible locks.
-5. **Batch file naming:** `Batch_NN_Scenes_XX_to_YY.md`
+1. **Default review range: 25 scenes.** Use ranges for review and progress only; keep one authoritative scene file.
+2. **After scenes 1-25 in interactive mode, pause for approval.** Once approved, complete the remaining ranges autonomously and run the Production Safeguards Checklist for each range.
+3. **Before presenting a range, run the Production Safeguards Checklist.** Fix any failures first.
+4. **Update `MASTER_CONTEXT.md` after each range.** Track characters, locations, periods, facts and deviations from production locks.
+5. **File naming:** `Scene_Breakdown.md` in `04_Phase3_SCENE_BREAKDOWN/`. Legacy batch-only projects remain readable; do not keep both formats in one project.
 6. **Scene numbering:** Sequential, no gaps, starting at Scene 1.
-7. **Use the starter `BATCH_TEMPLATE.md`** at `Starter_Project/Phase3_SceneBreakdown/BATCH_TEMPLATE.md` as the canonical batch format.
+7. **Use the scene record template below** for every scene in the master file.
 
 ---
 
@@ -83,7 +83,7 @@ The following fields are locked after Phase 2 approval. They must not change dur
 | **Characters** | Consistency with research bible and character/company locks. | "Kodak executives, digital camera prototype" |
 | **TimeOfDay / Period** | Historical accuracy and visual continuity. | "1997 — Boardroom" |
 
-**Rule:** If a protected field must change, stop the batch. Update the relevant Phase 2 bible file. Then regenerate the affected batches from that point forward. Do not silently edit a protected field in a single scene.
+**Rule:** If a protected field must change, stop writing. Update the relevant Phase 2 bible file. Then regenerate the affected scenes from that point forward. Do not silently edit a protected field in a single scene.
 
 ---
 
@@ -429,15 +429,12 @@ Use this section when scene timing, audio sync, or pacing issues arise during Ph
 
 ### Problem 4: File naming inconsistency causes project organization breakdown
 
-**Symptom:** Scene files have inconsistent names across batches (e.g., `scene001.md`, `batch1_scenes.md`, `scenes.md`), making compilation and reference difficult.
+**Symptom:** Multiple competing scene files make compilation and reference ambiguous.
 
 **Solution:**
-- Apply the file naming convention set in Q42 from Phase 0 onward.
-- Batch files: `{domain-slug}-{content-title}-v{version}-batch-{NN}.md`
-- Individual scene files: `scene-{NNN}.md` within each batch folder.
-- Master script: `{domain-slug}-{content-title}-master-v{version}.md`
-- If naming was never locked, default to Q42 default pattern: `[domain]-[title]-v[version].md`.
-- Run a naming audit before Phase 4 compilation to catch and rename inconsistent files.
+- Keep every numbered scene in `Scene_Breakdown.md` in sequential order.
+- Keep review ranges as headings or progress notes within that file, not additional scene files.
+- For a legacy batch-only project, migrate deliberately and remove the old batch files before recompiling; the validator rejects both formats together.
 
 ---
 
@@ -657,15 +654,26 @@ If Q19 (Additional Languages) ≠ None:
 
 ## MODE BEHAVIOR
 
-**Interactive:** After Batch 1, say: "**Batch 1 complete — [X] scenes. Please review and approve. Remaining batches will run autonomously.**" Wait for approval. After all batches: "**Scene Breakdown complete — Batch 1 approved; remaining batches autonomously verified. Proceeding to Phase 4 (Production Package).**"
+**Interactive:** After scenes 1-25, ask for review and approval of that range in `Scene_Breakdown.md`. After approval, complete and verify the remaining scene ranges in the same file before Phase 4.
 
-**Autonomous:** Write all batches sequentially, run the Production Safeguards Checklist per batch, update `MASTER_CONTEXT.md` and `PROGRESS.md`, proceed to Phase 4.
+**Autonomous:** Write all scenes sequentially in `Scene_Breakdown.md`, run the Production Safeguards Checklist per 25-scene range, update `MASTER_CONTEXT.md` and `PROGRESS.md`, then proceed to Phase 4.
 
 ---
 
 **END OF MASTER SKILL — Phase3 Scene Breakdown**
 
 
-## Expanded production workflow 1.0 handoff
+## Expanded production workflow 1.1 handoff
 
-For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all ten supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses production_workflow.py compile and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
+For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all sixteen supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses `python -m Tools.projects.production_workflow compile` and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
+# Linked planning records
+
+Follow [SCENE_PLANNING_GUIDE.md](SCENE_PLANNING_GUIDE.md) for scene ordering, batch planning and the master scene index. Link the Phase 2 cast/world records and active variants where applicable. Keep evidence in Phase 1 and project state in the existing CONFIG/status records. Retain one authoritative scene format.
+
+## Configurable project output
+
+Read the workspace-root `output.md` before creating a new video project. Its `output_root:` value is the single shared default destination; blank or absent means the system folder's `OUTPUT` directory. The creator resolves it through `Tools.projects.output_location.resolve_output_root`. An explicit destination/`--output-root` overrides it for one project. Relative roots resolve from the system folder. Preserve `<configured root>/<niche ID_slug>/<specific project>/` and all phase subfolders; do not use the niche ID as an episode number.
+
+Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
+
+Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.

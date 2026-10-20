@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "documents": {
+    "00_Project_Consistency_Rules.md": {
+      "allow_na": false,
+      "purpose": "00 Project Consistency Rules"
+    },
+    "01_Research_Sources.md": {
+      "allow_na": false,
+      "purpose": "01 Research Sources"
+    },
+    "02_Financial_Data_Verified.md": {
+      "allow_na": true,
+      "purpose": "02 Financial Data Verified"
+    },
+    "03_Accuracy_Verification_Checklist.md": {
+      "allow_na": false,
+      "purpose": "03 Accuracy Verification Checklist"
+    },
+    "04_Visual_Style_Guide.md": {
+      "allow_na": false,
+      "purpose": "04 Visual Style Guide"
+    },
+    "05_Voiceover_Guide.md": {
+      "allow_na": false,
+      "purpose": "05 Voiceover Guide"
+    },
+    "06_Data_Visualization_Specs.md": {
+      "allow_na": true,
+      "purpose": "06 Data Visualization Specs"
+    },
+    "07_YouTube_Strategy.md": {
+      "allow_na": true,
+      "purpose": "07 YouTube Strategy"
+    },
+    "08_Legal_Liability_Guide.md": {
+      "allow_na": true,
+      "purpose": "08 Legal Liability Guide"
+    },
+    "09_Ethical_Storytelling_Guide.md": {
+      "allow_na": true,
+      "purpose": "09 Ethical Storytelling Guide"
+    },
+    "10_Scene_Template.md": {
+      "allow_na": false,
+      "purpose": "10 Scene Template"
+    },
+    "11_Dialogue_Script.md": {
+      "allow_na": false,
+      "purpose": "11 Dialogue Script"
+    },
+    "12_Monetization_Strategy.md": {
+      "allow_na": true,
+      "purpose": "12 Monetization Strategy"
+    },
+    "13_Source_Credibility_Guide.md": {
+      "allow_na": true,
+      "purpose": "13 Source Credibility Guide"
+    },
+    "14_Bias_Prevention_Checklist.md": {
+      "allow_na": true,
+      "purpose": "14 Bias Prevention Checklist"
+    },
+    "15_Project_Summary.md": {
+      "allow_na": false,
+      "purpose": "15 Project Summary"
+    },
+    "YOUTUBE_METADATA.md": {
+      "allow_na": true,
+      "purpose": "YOUTUBE METADATA",
+      "field_patterns": [
+        "^## Primary title",
+        "^## Description",
+        "^## Tags",
+        "^##.*Thumbnail",
+        "^##.*Pinned comment",
+        "^##.*Upload decisions",
+        "^##.*Publication record",
+        "^##.*Corrections"
+      ]
+    },
+    "STORY_BEAT_MAP.md": {
+      "allow_na": true,
+      "purpose": "STORY BEAT MAP",
+      "field_patterns": [
+        "beat",
+        "scene",
+        "claim",
+        "tim"
+      ]
+    },
+    "CHARACTER_WORLD_GUIDE.md": {
+      "allow_na": true,
+      "purpose": "CHARACTER WORLD GUIDE",
+      "field_patterns": [
+        "continuity",
+        "period"
+      ]
+    },
+    "CAMERA_ANIMATION_GUIDE.md": {
+      "allow_na": true,
+      "purpose": "CAMERA ANIMATION GUIDE",
+      "field_patterns": [
+        "framing",
+        "transition",
+        "continuity"
+      ]
+    },
+    "MUSIC_SOUND_GUIDE.md": {
+      "allow_na": true,
+      "purpose": "MUSIC SOUND GUIDE",
+      "field_patterns": [
+        "mix",
+        "rights",
+        "silence"
+      ]
+    },
+    "ASSET_REGISTER.md": {
+      "allow_na": false,
+      "purpose": "ASSET REGISTER",
+      "field_patterns": [
+        "asset",
+        "scene",
+        "rights",
+        "status"
+      ]
+    },
+    "DELIVERY_CHECKLIST.md": {
+      "allow_na": false,
+      "purpose": "DELIVERY CHECKLIST",
+      "field_patterns": [
+        "deliver",
+        "export",
+        "caption",
+        "release"
+      ]
+    },
+    "REVIEW_REVISION_LOG.md": {
+      "allow_na": false,
+      "purpose": "REVIEW REVISION LOG",
+      "field_patterns": [
+        "review",
+        "revision",
+        "finding"
+      ]
+    },
+    "VIEWER_GLOSSARY.md": {
+      "allow_na": true,
+      "purpose": "VIEWER GLOSSARY",
+      "field_patterns": [
+        "source",
+        "deliver"
+      ]
+    },
+    "ORIGINALITY_REVIEW.md": {
+      "allow_na": true,
+      "purpose": "ORIGINALITY REVIEW",
+      "field_patterns": [
+        "scope",
+        "overlap",
+        "limit"
+      ]
+    }
+  },
+  "package_sections": [
+    {
+      "title": "1. Project Summary",
+      "documents": [
+        "15_Project_Summary.md",
+        "00_Project_Consistency_Rules.md",
+        "STORY_BEAT_MAP.md"
+      ]
+    },
+    {
+      "title": "2. All Scenes (Complete)",
+      "documents": []
+    },
+    {
+      "title": "3. Master Voiceover / Dialogue Script",
+      "documents": [
+        "11_Dialogue_Script.md"
+      ]
+    },
+    {
+      "title": "4. Company / Person Reference Sheet",
+      "documents": [
+        "CHARACTER_WORLD_GUIDE.md",
+        "VIEWER_GLOSSARY.md"
+      ]
+    },
+    {
+      "title": "5. Data Visualization Specifications",
+      "documents": [
+        "04_Visual_Style_Guide.md",
+        "06_Data_Visualization_Specs.md",
+        "CAMERA_ANIMATION_GUIDE.md",
+        "ASSET_REGISTER.md"
+      ]
+    },
+    {
+      "title": "6. Source Citations by Scene",
+      "documents": [
+        "01_Research_Sources.md",
+        "13_Source_Credibility_Guide.md"
+      ]
+    },
+    {
+      "title": "7. YouTube Metadata",
+      "documents": [
+        "07_YouTube_Strategy.md",
+        "YOUTUBE_METADATA.md",
+        "12_Monetization_Strategy.md",
+        "ORIGINALITY_REVIEW.md"
+      ]
+    },
+    {
+      "title": "8. Legal Review Summary",
+      "documents": [
+        "08_Legal_Liability_Guide.md",
+        "09_Ethical_Storytelling_Guide.md",
+        "14_Bias_Prevention_Checklist.md",
+        "REVIEW_REVISION_LOG.md"
+      ]
+    },
+    {
+      "title": "9. AI Generation Prompts (if using AI video tools)",
+      "documents": []
+    },
+    {
+      "title": "10. Final Pre-Generation Checklist",
+      "documents": [
+        "03_Accuracy_Verification_Checklist.md",
+        "02_Financial_Data_Verified.md",
+        "DELIVERY_CHECKLIST.md"
+      ]
+    },
+    {
+      "title": "11. Production Notes",
+      "documents": [
+        "05_Voiceover_Guide.md",
+        "MUSIC_SOUND_GUIDE.md",
+        "10_Scene_Template.md"
+      ]
+    }
+  ]
+}

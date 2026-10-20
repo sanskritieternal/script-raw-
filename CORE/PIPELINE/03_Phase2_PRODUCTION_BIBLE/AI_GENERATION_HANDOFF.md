@@ -4,7 +4,7 @@ The user's workflow creates media in external AI tools such as Veo or Seedance. 
 
 ## Use the existing production documents
 
-This guide supplements the existing 26-document workflow. It is not a 27th required output, a provider integration, an upload command or a change to CONFIG questions.
+This guide supplements the existing 32-document workflow. It is not a 33rd required output, a provider integration, an upload command or a change to CONFIG questions.
 
 | Existing record | Handoff content |
 |---|---|
@@ -31,3 +31,19 @@ This guide supplements the existing 26-document workflow. It is not a 27th requi
 Planned assets can remain planned and their files need not exist for a text-package handoff. Do not label them created or reviewed until actual files and review evidence exist. The current compiler already supports this distinction.
 
 A finished text package can be audited as text. Render quality, factual visual accuracy, pronunciation, continuity, synchronization, captions and final export quality are reviewed after the user generates media. Publication and required human-review gates still apply at the relevant stage; planning cannot certify unseen media.
+
+## Selected generator and model profile
+
+Keep the episode's selected generator/model/version, verification date and source for capability limits in CAMERA_ANIMATION_GUIDE.md. Selection may remain Pending at text-planning time. Separate creative preferences from verified technical limits. Record supported reference-image/video/audio inputs, aspect ratios, duration options, prompt controls and exclusions only after checking the chosen tool. No historical reference project's fixed limits apply automatically to Veo, Seedance or another tool.
+
+## Reference package and prompt assembly
+
+Link scene IDs to character profiles, approved/proposed appearance versions, location IDs, props/costumes and reference assets. Each prompt identifies subject, action, emotional intent, environment, lighting, framing/movement and selected visual treatment. Reference inputs must be actually attachable files when execution begins; planned sheets are not existing attachments. Adapt exclusions to provider support and preserve intended scene expressions/actions.
+
+## Clip assembly and continuity review
+
+If editorial scene duration exceeds a verified generation limit, assign child clip IDs with durations summing to the parent scene, explicit first/last states, continuity references and join/handle plan. Do not change Q14 or the approved editorial scene durations to fit a provider. Keep exact overlays and sound plans separate where appropriate. After external generation record takes/settings and review identity, costume, environment, motion, audio, continuity and provenance. Text planning does not require an audiovisual pilot or certify unseen media.
+## Episode profile template
+
+Use [GENERATOR_PROFILE_TEMPLATE.md](GENERATOR_PROFILE_TEMPLATE.md) as the structured source for an optional episode GENERATOR_PROFILE.md. `python -m Tools.projects.production_workflow prepare-planning "<episode>" --write` creates it only when missing. CAMERA_ANIMATION_GUIDE.md may summarize the selected tool and link the profile as the authoritative detailed record. Pending selection is valid at text-planning time; actual model capabilities must be checked before adaptation/execution. The profile is included in compilation when present; it does not change the 32 required production records.
+

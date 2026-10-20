@@ -34,7 +34,7 @@ The original repository had 472 of 500 families under `Business_Money`. `build_t
 - `REGISTRY/LEGACY_TOPIC_PATHS.csv` retains every old and new path. Historical output projects are under `OUTPUT/Legacy/` with their original internal text untouched.
 - `REGISTRY/CONFIG_SCHEMA.json` and the 14 active `CAT_<SubjectCategory>.md` files replace the old category semantics. The 11 earlier presets are under `AUDIT/Legacy_Instructions/Category_Presets/`; see `CATEGORY_PRESET_RESOLUTION.md` for their disposition.
 - `REGISTRY/LEGACY_TOPIC_DEFAULTS.csv` preserves prior Q2–Q42 topic answers. The 7,500 active topic files now match schema 3.0 and the new category paths.
-- Active instructions, generators and the master registry route through the taxonomy. `python populate_niches.py --verify-content` confirms the entire generated grid is reproducible without overwriting files.
+- Active instructions, generators and the master registry route through the taxonomy. `python -m Tools.registry.populate_niches --verify-content` confirms the entire generated grid is reproducible without overwriting files.
 
 ## Editorial boundary
 

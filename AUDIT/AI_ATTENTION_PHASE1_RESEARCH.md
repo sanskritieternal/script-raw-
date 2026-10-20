@@ -28,8 +28,8 @@ Added shared source references SRC-0010 and SRC-0011, including inspection scope
 
 ## Verification and limits
 
-- `python validate_project.py <episode> --through 1` passed.
+- `python -m Tools.validation.validate_project <episode> --through 1` passed.
 - The Phase 2 draft gate is retained; production documents are not marked complete by research acceptance.
-- `python audit_repository.py` refreshes the complete file inventory and runs registry, content, scope, pilot and regression checks. See STRUCTURAL_AUDIT.md for executed results.
+- `python -m Tools.validation.audit_repository` refreshes the complete file inventory and runs registry, content, scope, pilot and regression checks. See STRUCTURAL_AUDIT.md for executed results.
 
 Next: complete Phase 2 production decisions and supporting documents before assigning scenes. No text-package certificate, human approval, generated media or publication is asserted by this research handoff.

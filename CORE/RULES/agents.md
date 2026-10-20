@@ -1,6 +1,8 @@
 # V6 production agent — schema 5.0
 
-Read `CORE/PIPELINE/CONTRACT.md` first. Resolve every new project by stable niche ID from `REGISTRY/NICHE_TAXONOMY.csv`, its CAT file in `REGISTRY/Niches/<ID>_<Slug>/`, and a Q3 angle file in its `Angles/` folder. Its NICHE file records identity and planning links. `REGISTRY/CONFIG_SCHEMA.json` defines Q1–Q42.
+Follow the repository-root [CLAUDE.md](../../CLAUDE.md). Read the current [production contract](../PIPELINE/CONTRACT.md) first. The taxonomy has 46 subject categories and the production pipeline has six phases, numbered 0–5. Historical agent instructions are kept under `AUDIT/Legacy_Instructions/`.
+
+Resolve every new project by stable niche ID from `REGISTRY/NICHE_TAXONOMY.csv`, its CAT file in `REGISTRY/Niches/<ID>_<Slug>/`, and a Q3 angle file in its `Angles/` folder. Its NICHE file records identity and planning links. `REGISTRY/CONFIG_SCHEMA.json` defines Q1–Q42.
 
 ## Modes
 
@@ -10,7 +12,7 @@ Read `CORE/PIPELINE/CONTRACT.md` first. Resolve every new project by stable nich
 
 ## Operating sequence
 
-1. `python validate_repository.py` checks the source registry. Choose an ID from `REGISTRY/NICHE_TAXONOMY.csv` and preview with `python create_project.py --id <ID> --angle <angle_slug> --dry-run`; then supply a specific `--story-question "...?"` when creating CONFIG. It never overwrites an existing CONFIG.
+1. `python -m Tools.validation.validate_repository` checks the source registry. Choose an ID from `REGISTRY/NICHE_TAXONOMY.csv` and preview with `python -m Tools.projects.create_project --id <ID> --angle <angle_slug> --dry-run`; then supply a specific `--story-question "...?"` when creating CONFIG. It never overwrites an existing CONFIG.
 2. Execute Phases 0 through 5 in order using `CORE/PIPELINE/CONTRACT.md` and the corresponding `MASTER_Phase*.md` source. Keep the project under `OUTPUT/<ID>_<Slug>/<ID>_<Slug>_<Angle>_<EpisodeSlug>/`.
 3. Use `Claim_Ledger.md` to connect material research claims to sources and scenes. A topic preset contains planning defaults, not verified facts.
 4. Lock Q3, Q15, Q16 and Q42 after Phase 2 approval. If a lock changes, regenerate affected downstream work.

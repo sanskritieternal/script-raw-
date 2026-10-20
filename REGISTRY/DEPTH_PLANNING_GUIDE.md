@@ -33,15 +33,15 @@ Idea banks retain their existing source snapshots. Refresh them deliberately whe
 From the repository root, after editing plans, source records or mapped ideas:
 
 ```powershell
-python idea_bank.py build-index
-python Tools/depth_planning.py build-index
-python Tools/depth_planning.py validate
-python validate_repository.py
+python -m Tools.projects.idea_bank build-index
+python -m Tools.depth_planning build-index
+python -m Tools.depth_planning validate
+python -m Tools.validation.validate_repository
 ```
 
 The depth builder validates before writing and updates only generated reading views. Repository validation includes source identities, topic/angle/idea/source references, prerequisite cycles, series membership and view freshness. It does not assess truth, semantic duplication, full topic coverage or review authenticity.
 
-Select a ready idea using the existing `create_project.py --id <ID> --idea-id <ID> --dry-run` route before creating an episode. CONFIG snapshots the existing idea record; it does not automatically snapshot the whole topic map or series. Copy relevant coverage/exclusions into the research summary and identify the series/topic IDs there for traceability. Q1–Q42 meanings and production locks remain unchanged.
+Select a ready idea using the existing `python -m Tools.projects.create_project --id <ID> --idea-id <ID> --dry-run` route before creating an episode. CONFIG snapshots the existing idea record; it does not automatically snapshot the whole topic map or series. Copy relevant coverage/exclusions into the research summary and identify the series/topic IDs there for traceability. Q1–Q42 meanings and production locks remain unchanged.
 
 ## Current pilot and next expansion
 

@@ -47,6 +47,6 @@ Access note for 525: the official FAO publication landing record was checked, bu
 
 ## Completion checks
 
-`python verify_editorial_completion.py` passed all 530 plans, 16,616 angles and 530 Phase 0 niche routes: 528 plans with reviewed question designs and two pilots. `--original-500` separately passed the original milestone. No exact question collisions involving the expansion were found across the registry.
+`python -m Tools.registry.verify_editorial_completion` passed all 530 plans, 16,616 angles and 530 Phase 0 niche routes: 528 plans with reviewed question designs and two pilots. `--original-500` separately passed the original milestone. No exact question collisions involving the expansion were found across the registry.
 
 The refreshed [structural audit](STRUCTURAL_AUDIT.md) passed all registry, reproducibility, scope and project-pilot gates, including all 11 contract tests. It read and hashed 19,355 active files, found zero incomplete topic grids and zero misnamed files, and confirmed zero missing or drifted angle files. These checks establish internal consistency, not factual support for a future episode's claims.

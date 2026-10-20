@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "documents": {
     "00_Project_Consistency_Rules.md": {
       "allow_na": false,
@@ -160,6 +160,67 @@
         "overlap",
         "limit"
       ]
+    },
+    "MAIN_CHARACTERS.md": {
+      "allow_na": true,
+      "purpose": "Main characters",
+      "field_patterns": [
+        "^## Character profiles",
+        "^## Appearance and voice",
+        "^## Evidence and depiction",
+        "^## Scene and reference links"
+      ]
+    },
+    "SUPPORTING_CHARACTERS.md": {
+      "allow_na": true,
+      "purpose": "Supporting characters",
+      "field_patterns": [
+        "^## Character profiles",
+        "^## Appearance and voice",
+        "^## Evidence and depiction",
+        "^## Scene and reference links"
+      ]
+    },
+    "CHARACTER_APPEARANCE_LOCK.md": {
+      "allow_na": true,
+      "purpose": "Character appearance lock",
+      "field_patterns": [
+        "^## Design status",
+        "^## Immutable features",
+        "^## Variants and timeline",
+        "^## Generation description",
+        "^## Review and revision"
+      ]
+    },
+    "LOCATIONS_ENVIRONMENTS.md": {
+      "allow_na": true,
+      "purpose": "Locations and environments",
+      "field_patterns": [
+        "^## Location profiles",
+        "^## Environment variants",
+        "^## Reference assets and scenes",
+        "^## Generation and acceptance"
+      ]
+    },
+    "PROPS_COSTUMES.md": {
+      "allow_na": true,
+      "purpose": "Props and costumes",
+      "field_patterns": [
+        "^## Prop and costume profiles",
+        "^## Ownership and state changes",
+        "^## Evidence and reference assets",
+        "^## Generation and review"
+      ]
+    },
+    "RELATIONSHIPS_TIMELINE.md": {
+      "allow_na": true,
+      "purpose": "Relationships and timeline",
+      "field_patterns": [
+        "^## Relationships",
+        "^## Chronology and presentation order",
+        "^## Ages and continuity states",
+        "^## Evidence and linked records"
+      ]
     }
   },
   "package_sections": [
@@ -185,7 +246,13 @@
       "title": "4. Company / Person Reference Sheet",
       "documents": [
         "CHARACTER_WORLD_GUIDE.md",
-        "VIEWER_GLOSSARY.md"
+        "VIEWER_GLOSSARY.md",
+        "MAIN_CHARACTERS.md",
+        "SUPPORTING_CHARACTERS.md",
+        "CHARACTER_APPEARANCE_LOCK.md",
+        "LOCATIONS_ENVIRONMENTS.md",
+        "PROPS_COSTUMES.md",
+        "RELATIONSHIPS_TIMELINE.md"
       ]
     },
     {

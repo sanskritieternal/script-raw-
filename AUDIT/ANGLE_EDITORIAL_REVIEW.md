@@ -8,7 +8,7 @@ The companion [CSV](./ANGLE_EDITORIAL_REVIEW.csv) inventories every `ANGLE_PLAN.
 
 The later [scope review](ANGLE_SCOPE_REVIEW.md) rewrote 600 expansion scopes and completed evidence and limit guidance for the 80 pilot angles. Scope wording revisions retain the existing plan statuses. All angle files now present their focus, coverage, evidence and limits together, and new Phase 0 configurations snapshot that guidance.
 
-The expanded inventory contains 528 `editorial_question_reviewed` plans and two pilots. All 16,616 angles have questions, scopes, evidence directions and boundaries; 16,536 belong to plans with reviewed question designs. The [completion checker](../verify_editorial_completion.py) now checks all registered niches by default, including source and overlap records for IDs 501–530. `--original-500` retains the original milestone check. A concrete episode still needs applicable local records, version checks, permissions and verified research claims.
+The expanded inventory contains 528 `editorial_question_reviewed` plans and two pilots. All 16,616 angles have questions, scopes, evidence directions and boundaries; 16,536 belong to plans with reviewed question designs. The [completion checker](../Tools/registry/verify_editorial_completion.py) now checks all registered niches by default, including source and overlap records for IDs 501–530. `--original-500` retains the original milestone check. A concrete episode still needs applicable local records, version checks, permissions and verified research claims.
 
 Niches 417 **Antique Hunting** and 442 **Materials Engineering** now have 64 revised question designs. Antique Hunting requires object identity, custody, conservation, lawful transfer, and source-community perspectives; Materials Engineering follows a named material from processing and test data through component qualification, service failure, and repair. The [ICOM museum ethics code](https://icom.museum/en/resources/standards-guidelines/code-of-ethics/), [UNESCO's 1970 cultural-property convention](https://www.unesco.org/en/legal-affairs/convention-means-prohibiting-and-preventing-illicit-import-export-and-transfer-ownership-cultural), and [NIST's Materials Genome Initiative](https://www.nist.gov/mgi) informed these boundaries. These are research questions, not authentication or legal title for an individual antique, or certification of a material component.
 
@@ -417,11 +417,11 @@ A profile-based generation pilot for niches 097 and 098 produced mismatched and 
 Review one plan at a time: preserve stable slugs, replace weak titles/questions/scopes with subject-specific ones, identify plausible primary source types, and keep boundaries suited to the niche. Then run:
 
 ```powershell
-python populate_niches.py --id <ID> --sync-content
-python populate_niches.py --id <ID> --verify-content
-python validate_repository.py
-python test_contract.py
-python review_angle_plans.py
+python -m Tools.registry.populate_niches --id <ID> --sync-content
+python -m Tools.registry.populate_niches --id <ID> --verify-content
+python -m Tools.validation.validate_repository
+python -m unittest tests.test_contract
+python -m Tools.registry.review_angle_plans
 ```
 
 For a real episode, select a bounded case and verify its sources in Phase 1. A reviewed angle is a question route, not a claim of factual or source approval. The 30-niche expansion question-design review is complete. The full inventory covers all 530 niches; episode-level case research is the next production step.

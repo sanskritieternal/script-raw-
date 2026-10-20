@@ -4,7 +4,7 @@
 
 This phase compiles all approved scenes, sources, specs, and assets into a single production-ready document. This is the **SINGLE SOURCE OF TRUTH** for the final video.
 
-**Inputs:** All approved `04_Phase3_SCENE_BREAKDOWN/` batch files and all `03_Phase2_PRODUCTION_BIBLE/` files.
+**Inputs:** `04_Phase3_SCENE_BREAKDOWN/Scene_Breakdown.md` (or legacy batch files) and all `03_Phase2_PRODUCTION_BIBLE/` files.
 **Outputs:** `05_Phase4_PRODUCTION_PACKAGE/Production_Package.md`.
 **Quality Gate:** User approval (interactive) / internal checklist pass (autonomous) before proceeding to Phase 5.
 
@@ -303,7 +303,7 @@ Run this checklist before declaring the package complete:
 - [ ] All scene durations verified
 - [ ] Research Bible approved
 - [ ] Production Bible approved
-- [ ] Batch 1 approved; remaining batches autonomously verified
+- [ ] Scenes 1-25 approved in interactive mode; remaining scene ranges autonomously verified
 - [ ] All scenes in correct order, no gaps
 - [ ] Character/company names spelled consistently
 - [ ] No placeholders remaining ([TBD], [TODO], [PLACEHOLDER])
@@ -355,11 +355,19 @@ Run this checklist before declaring the package complete:
 - [ ] No placeholder, template, or instructional text in the final output
 
 
-## Expanded production workflow 1.0 handoff
+## Expanded production workflow 1.1 handoff
 
-For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all ten supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses production_workflow.py compile and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
+For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all sixteen supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses `python -m Tools.projects.production_workflow compile` and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
 
 
 ## Idea snapshot handoff
 
 If CONFIG includes a selected episode idea, use its frozen question/case/source leads as planning context, not as a verified claim ledger. The live bank may change independently. Complete Phase 1 evidence before factual scripting and preserve the CONFIG snapshot during package compilation. Its hash and angle/story consistency are checked by project validation; later bank edits alone do not invalidate a correct episode snapshot.
+
+## Configurable project output
+
+Read the workspace-root `output.md` before creating a new video project. Its `output_root:` value is the single shared default destination; blank or absent means the system folder's `OUTPUT` directory. The creator resolves it through `Tools.projects.output_location.resolve_output_root`. An explicit destination/`--output-root` overrides it for one project. Relative roots resolve from the system folder. Preserve `<configured root>/<niche ID_slug>/<specific project>/` and all phase subfolders; do not use the niche ID as an episode number.
+
+Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
+
+Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.

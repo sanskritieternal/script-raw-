@@ -5,7 +5,7 @@ The ID is the stable project identity. The subject is its current Q1 category; e
 
 Browse by [subject category](CATEGORY_INDEX.md) or see the [niche directory](Niches/README.md). `Draft` plans need editorial review before an episode is researched.
 
-Refresh this file after taxonomy or plan changes with `python build_niche_master_list.py`.
+Refresh this file after taxonomy or plan changes with `python -m Tools.registry.build_niche_master_list`.
 
 Concrete episode proposals live in optional niche idea banks. Browse [IDEA_MASTER_LIST.md](IDEA_MASTER_LIST.md) and read [IDEA_BANK_GUIDE.md](IDEA_BANK_GUIDE.md); an angle is not automatically an episode idea.
 

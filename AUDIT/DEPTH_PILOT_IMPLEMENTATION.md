@@ -39,4 +39,4 @@ No audiovisual pilot, external generation, upload or publication is included. Pl
 
 ## Verification
 
-Run `python Tools/depth_planning.py validate`, `python validate_repository.py` and `python audit_repository.py`. The repository audit includes the five depth-planning tests plus existing contract, workflow and idea tests. See STRUCTURAL_AUDIT.md for the latest executed results; checkmarked file hashes are byte-read verification, not editorial approval.
+Run `python -m Tools.depth_planning validate`, `python -m Tools.validation.validate_repository` and `python -m Tools.validation.audit_repository`. The repository audit includes the five depth-planning tests plus existing contract, workflow and idea tests. See STRUCTURAL_AUDIT.md for the latest executed results; checkmarked file hashes are byte-read verification, not editorial approval.

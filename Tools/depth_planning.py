@@ -7,7 +7,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from idea_bank import catalog, taxonomy, valid_date
+from Tools.projects.idea_bank import catalog, taxonomy, valid_date
 
 
 def read(path):

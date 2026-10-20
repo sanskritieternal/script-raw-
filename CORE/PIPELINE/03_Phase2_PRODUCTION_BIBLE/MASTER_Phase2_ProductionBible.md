@@ -910,11 +910,27 @@ All 16 numbered production files and the ten applicable supporting records exist
 - [ ] No placeholder, template, or instructional text in the final output
 
 
-## Expanded production workflow 1.0 handoff
+## Expanded production workflow 1.1 handoff
 
-For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all ten supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses production_workflow.py compile and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
+For new/enrolled episodes follow CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md and PRODUCTION_WORKFLOW.json. Preserve the 16 numbered files and add all sixteen supporting records with explicit applicability/status in PRODUCTION_MANIFEST.json. A scaffold is incomplete. Phase 3 must resolve beat coverage, factual claim IDs, asset IDs and chapter boundaries against actual scenes. Phase 4 uses `python -m Tools.projects.production_workflow compile` and Package_Inputs.json; changed inputs invalidate the snapshot. Phase 5 still requires evidence and any genuine human approval; no manifest or compiler closes those gates. Legacy un-enrolled projects retain previous checks.
 
 
 ## Idea snapshot handoff
 
 If CONFIG includes a selected episode idea, use its frozen question/case/source leads as planning context, not as a verified claim ledger. The live bank may change independently. Complete Phase 1 evidence before factual scripting and preserve the CONFIG snapshot during package compilation. Its hash and angle/story consistency are checked by project validation; later bank edits alone do not invalidate a correct episode snapshot.
+
+## Full-detail production requirement
+
+Read `CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/PRODUCTION_DETAIL_STANDARD.md` before drafting or reviewing a production bible. Applicable saved files must contain usable individual profiles/specifications, episode decisions, scene references, worked examples and acceptance checks. Do not condense the bible to fit a chat response. Save coherent complete files in stages when necessary, record remaining work honestly and continue. Keep the chat summary brief without shortening the saved deliverables. Do not use repeated boilerplate or unsupported facts to pad length; justified inapplicability may remain concise. Passing the structural validator is not proof that the content has the required depth.
+
+## Consistent depth across every production document
+
+Before marking Phase 2 editorially ready, use `CORE/PIPELINE/03_Phase2_PRODUCTION_BIBLE/EDITORIAL_DEPTH_REVIEW_TEMPLATE.md` alongside PRODUCTION_DETAIL_STANDARD.md. Review every canonical file against its file-specific completion evidence and save actual findings/section examples in the episode's Phase 5 editorial review record. Do not claim all files reviewed when only a subset was checked. Complete each individual character/location/object/outfit dossier and required prompt; use actual relationship/event/state tables. Keep navigation summaries and justified inapplicability concise. Distinguish missing editorial content from genuinely pending model/media/reviewer work. Save complete files in coherent batches rather than truncating to fit a chat response. The 32-document manifest and configuration questions are unchanged; structural checks do not evaluate prose depth.
+
+## Configurable project output
+
+Read the workspace-root `output.md` before creating a new video project. Its `output_root:` value is the single shared default destination; blank or absent means the system folder's `OUTPUT` directory. The creator resolves it through `Tools.projects.output_location.resolve_output_root`. An explicit destination/`--output-root` overrides it for one project. Relative roots resolve from the system folder. Preserve `<configured root>/<niche ID_slug>/<specific project>/` and all phase subfolders; do not use the niche ID as an episode number.
+
+Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
+
+Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.

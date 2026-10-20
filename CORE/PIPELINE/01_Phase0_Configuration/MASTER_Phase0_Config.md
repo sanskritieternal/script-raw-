@@ -4,7 +4,7 @@ When an optional niche `Planning/DEPTH_PLAN.json` exists, use its bounded topics
 
 Resolve a stable niche ID through `REGISTRY/NICHE_TAXONOMY.csv`, load `REGISTRY/Niches/<ID>_<Slug>/CAT_<ID>_<Slug>.md`, then the selected topic preset. Explicit project answers have the highest precedence. The canonical machine-readable definitions are in `REGISTRY/CONFIG_SCHEMA.json`; the path and handoff are in `CORE/PIPELINE/CONTRACT.md`.
 
-Use `python create_project.py --id <ID> --angle <slug> --dry-run` to validate the merge and runtime before writing. A real project also needs `--story-question "...?"` so an angle preset becomes a specific researchable episode. The output is `OUTPUT/<ID>_<Slug>/<ID>_<Slug>_<Angle>_<EpisodeSlug>/01_Phase0_Configuration/CONFIG.md`. Record schema version and answer provenance.
+Use `python -m Tools.projects.create_project --id <ID> --angle <slug> --dry-run` to validate the merge and runtime before writing. A real project also needs `--story-question "...?"` so an angle preset becomes a specific researchable episode. The output is `OUTPUT/<ID>_<Slug>/<ID>_<Slug>_<Angle>_<EpisodeSlug>/01_Phase0_Configuration/CONFIG.md`. Record schema version and answer provenance.
 
 Q14 must be an exact number of seconds. Q42 must specify a fixed number of seconds or a complete variable scene plan. Q21 is Graphics Requirement; Q24 is Source Quality Requirements. Q1 is the subject category, while Q3 is the story angle. Q15 visual style does not determine Q40 generation method.
 
@@ -56,3 +56,11 @@ The selected angle's Editorial scope is copied into new CONFIG files as planning
 | Q42 | Scene Duration Strategy | FIXED 8-SECOND |
 
 High/Critical Q8 or Strict/Critical Q41 requires human review before publication status. An agent may draft further material, but cannot record the review as passed without evidence. Phase 0 defaults are planning decisions, never verified research claims.
+
+## Configurable project output
+
+Read the workspace-root `output.md` before creating a new video project. Its `output_root:` value is the single shared default destination; blank or absent means the system folder's `OUTPUT` directory. The creator resolves it through `Tools.projects.output_location.resolve_output_root`. An explicit destination/`--output-root` overrides it for one project. Relative roots resolve from the system folder. Preserve `<configured root>/<niche ID_slug>/<specific project>/` and all phase subfolders; do not use the niche ID as an episode number.
+
+Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
+
+Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.

@@ -11,10 +11,10 @@ The active layout now includes 500 niche-specific configuration presets under `R
 | Original audit gap | Current resolution | Evidence |
 |---|---|---|
 | 472 families in `Business_Money` | All 500 stable IDs classified into 14 primary subject categories and moved. Story angle and production format are separate. | `REGISTRY/NICHE_TAXONOMY.csv`, `REGISTRY/LEGACY_TOPIC_PATHS.csv`, `AUDIT/CATEGORY_MIGRATION.md` |
-| Q1–Q42 meaning conflicts | Schema 4.0 defines all 42 labels and defaults; 46 active category presets and 7,500 topic presets use them. Old values are preserved. | `REGISTRY/CONFIG_SCHEMA.json`, `REGISTRY/LEGACY_TOPIC_DEFAULTS.csv`, `python validate_repository.py` |
+| Q1–Q42 meaning conflicts | Schema 4.0 defines all 42 labels and defaults; 46 active category presets and 7,500 topic presets use them. Old values are preserved. | `REGISTRY/CONFIG_SCHEMA.json`, `REGISTRY/LEGACY_TOPIC_DEFAULTS.csv`, `python -m Tools.validation.validate_repository` |
 | Conflicting paths, phase and output counts | One six-phase contract defines the active tree and gates. Phase 1 has six research documents plus a claim ledger; Phase 2 has 16 numbered outputs and one optional quick reference. Old instructions and outputs are archived. | `CORE/PIPELINE/CONTRACT.md`, `AUDIT/Legacy_Instructions/`, `OUTPUT/Legacy/` |
 | Unsafe autonomous approval | Risk answers and explicit flags mark human review pending; a final certificate for such a project requires named, dated approval. Research and final audit gates remain explicit. | `create_project.py`, `validate_project.py`, `CORE/RULES/autonomous.md` |
-| Stale, destructive generators | The niche generator is taxonomy-driven, read-only by default and creates only missing files. The old flat generator is a compatibility wrapper. | `python populate_niches.py --verify-content` reports zero missing and zero drift |
+| Stale, destructive generators | The niche generator is taxonomy-driven, read-only by default and creates only missing files. The old flat generator is a compatibility wrapper. | `python -m Tools.registry.populate_niches --verify-content` reports zero missing and zero drift |
 | Missing repeatable validation | Repository, project and file-inventory checks are executable. Fourteen category Phase 0 routing pilots, a variable timing pilot and a sourced two-scene, six-phase text pilot pass. | `validate_repository.py`, `validate_project.py`, `AUDIT/PILOTS/`, `AUDIT/STRUCTURAL_AUDIT.md` |
 
 ## Editorial work for each future episode
@@ -25,7 +25,7 @@ The repository checks prove structure and internal wiring. They do not verify ev
 
 ## Maintenance commands
 
-1. `python validate_repository.py` — taxonomy, presets, links and 14 Phase 0 routing pilots.
-2. `python populate_niches.py --verify-content` — compare all 7,500 generated topics and 500 indexes with the canonical sources.
-3. `python validate_project.py <project-directory> --through 5` — stage-by-stage structural project gates.
-4. `python audit_repository.py` — refresh `FILE_VERIFICATION.md` and `STRUCTURAL_AUDIT.md`, including pilot checks.
+1. `python -m Tools.validation.validate_repository` — taxonomy, presets, links and 14 Phase 0 routing pilots.
+2. `python -m Tools.registry.populate_niches --verify-content` — compare all 7,500 generated topics and 500 indexes with the canonical sources.
+3. `python -m Tools.validation.validate_project <project-directory> --through 5` — stage-by-stage structural project gates.
+4. `python -m Tools.validation.audit_repository` — refresh `FILE_VERIFICATION.md` and `STRUCTURAL_AUDIT.md`, including pilot checks.

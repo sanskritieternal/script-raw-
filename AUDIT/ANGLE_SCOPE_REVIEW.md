@@ -15,7 +15,7 @@ Scope checks do not change a plan's editorial status or verify sources and claim
 ## Refresh
 
 ```powershell
-python review_angle_plans.py --scope-audit
-python populate_niches.py --id <ID> --sync-content
-python populate_niches.py --id <ID> --verify-content
+python -m Tools.registry.review_angle_plans --scope-audit
+python -m Tools.registry.populate_niches --id <ID> --sync-content
+python -m Tools.registry.populate_niches --id <ID> --verify-content
 ```

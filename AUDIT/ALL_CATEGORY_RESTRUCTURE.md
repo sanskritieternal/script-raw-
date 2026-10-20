@@ -71,6 +71,6 @@ The 46 labels were assigned from niche titles and the original registry context.
 
 ## Verification
 
-`python validate_repository.py`, `python populate_niches.py --verify-content`, both physics pilot validators, the existing Shaktism Phase 0 validator, and `python -m unittest test_contract.py -v` pass. `python audit_repository.py` regenerates the checked-file inventory and structural report. The checks prove structure and internal wiring, not factual quality or rendered assets.
+`python -m Tools.validation.validate_repository`, `python -m Tools.registry.populate_niches --verify-content`, both physics pilot validators, the existing Shaktism Phase 0 validator, and `python -m unittest tests.test_contract -v` pass. `python -m Tools.validation.audit_repository` regenerates the checked-file inventory and structural report. The checks prove structure and internal wiring, not factual quality or rendered assets.
 
 The final `audit_repository.py` run read and hashed 9,125 active source files and found 500 topic directories, zero incomplete topic grids, and zero misnamed topic files. Its captured checks report 46 passing Phase 0 routing pilots, zero generated-content drift, passing full and variable timing pilots, and five passing contract tests.
