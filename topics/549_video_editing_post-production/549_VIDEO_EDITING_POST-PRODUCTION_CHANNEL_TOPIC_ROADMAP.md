@@ -1,0 +1,126 @@
+# Video Editing & Post-Production Channel Master Topic Roadmap (Scratch to Advanced)
+**Niche:** 549 Video Editing & Post-Production (Film_Production)  
+**Channel Language:** English (YouTube)  
+**Target Audience:** Video Editing & Post-Production Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  
+**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  
+**Execution & Sync Report:** [topics/549_video_editing_post-production/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  
+
+---
+
+## 1. Channel Progression Strategy
+
+This curriculum organizes the core disciplines of Video Editing & Post-Production across four progressive tiers:
+- **Tier 1: Video Editing & Post-Production Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Video Editing & Post-Production.
+- **Tier 2: Video Editing & Post-Production Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Video Editing & Post-Production.
+- **Tier 3: Video Editing & Post-Production Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Video Editing & Post-Production.
+- **Tier 4: Video Editing & Post-Production Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Video Editing & Post-Production.
+
+---
+
+## 2. Topic Styles & Narrative Angles (22 Curated Formats)
+
+Every episode is produced using one of the 22 niche angle presets defined in [`REGISTRY/Niches/549_video_editing_post-production/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/549_video_editing_post-production/ANGLE_PLAN.json):
+
+| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |
+|---|---|---|---|
+| 1 | `history_origins` | **Video Editing & Post-Production: History & Origins** | *Which documented problem led to the development of a consented or original edit project?* |
+| 2 | `famous_examples` | **Video Editing & Post-Production: Famous Examples** | *What does a widely cited example of a consented or original edit project establish and leave uncertain?* |
+| 3 | `hidden_stories` | **Video Editing & Post-Production: Hidden Stories** | *Whose contribution or experience is missing from the usual account of a consented or original edit project?* |
+| 4 | `beginner_explainers` | **Video Editing & Post-Production: Beginner Explainers** | *Which definitions and boundaries are needed to understand a consented or original edit project?* |
+| 5 | `advanced_concepts` | **Video Editing & Post-Production: Advanced Concepts** | *Which methodological assumption changes how a consented or original edit project should be interpreted?* |
+| 6 | `mysteries_unsolved_cases` | **Video Editing & Post-Production: Mysteries & Unsolved Cases** | *What specific evidence gap remains unresolved for a consented or original edit project?* |
+| 7 | `technology_innovation` | **Video Editing & Post-Production: Technology & Innovation** | *What changed after a documented technical or material innovation affected a consented or original edit project?* |
+| 8 | `people_personalities` | **Video Editing & Post-Production: People & Personalities** | *How did credited people and institutions shape a consented or original edit project?* |
+| 9 | `major_events` | **Video Editing & Post-Production: Major Events** | *What changed around a dated turning point involving a consented or original edit project?* |
+| 10 | `how_it_works` | **Video Editing & Post-Production: How It Works** | *How do the documented components or stages of a consented or original edit project connect?* |
+| 11 | `rise_fall` | **Video Editing & Post-Production: Rise & Fall** | *Which evidence explains increasing or declining use or reception of a consented or original edit project?* |
+| 12 | `then_vs_now` | **Video Editing & Post-Production: Then vs Now** | *Are earlier and later accounts of a consented or original edit project comparable on the same terms?* |
+| 13 | `future_developments` | **Video Editing & Post-Production: Future Developments** | *Which conditions would need to hold for a proposed future change involving a consented or original edit project?* |
+| 14 | `myths_vs_facts` | **Video Editing & Post-Production: Myths vs Facts** | *Does the original evidence support a commonly repeated claim about a consented or original edit project?* |
+| 15 | `documentary_stories` | **Video Editing & Post-Production: Documentary Stories** | *How can a source-led documentary explain a consented or original edit project without overstating its evidence?* |
+| 16 | `field_editorial_decision_and_meaning` | **Editorial Decision And Meaning** | *How does a cut change the inference a viewer draws?* |
+| 17 | `field_media_and_timeline_management` | **Media And Timeline Management** | *Which settings prevent a project's media from drifting out of sync?* |
+| 18 | `field_conform_and_relinking` | **Conform And Relinking** | *Can a project reliably reconnect its edit to source media?* |
+| 19 | `field_color_and_audio_handoffs` | **Color And Audio Handoffs** | *What information must travel between editing and finishing stages?* |
+| 20 | `field_caption_and_accessibility_delivery` | **Caption And Accessibility Delivery** | *Do captions match the accepted final audio and visual composition?* |
+| 21 | `field_export_verification` | **Export Verification** | *Does an exported file meet the project's declared technical specifications?* |
+| 22 | `field_revision_provenance` | **Revision Provenance** | *Can a team explain which source and edit produced a published version?* |
+
+---
+
+## 3. Topic Catalog (Scratch to Advanced Curriculum)
+
+### Tier 1: Foundational Frameworks
+1. **The Architecture of Video Editing & Post-Production: History & Origins**
+   - *Question:* Which documented problem led to the development of a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..
+2. **Video Editing & Post-Production: Famous Examples**
+   - *Question:* What does a widely cited example of a consented or original edit project establish and leave uncertain?
+   - *Key Focus:* For a consented or original edit project, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..
+3. **Video Editing & Post-Production: Hidden Stories**
+   - *Question:* Whose contribution or experience is missing from the usual account of a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, investigate documented labor, access and omitted perspectives among editors, collaborators and viewers without inventing testimony. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among editors, collaborators and viewers without inventing testimony..
+4. **Video Editing & Post-Production: Beginner Explainers**
+   - *Question:* Which definitions and boundaries are needed to understand a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..
+5. **Video Editing & Post-Production: Advanced Concepts**
+   - *Question:* Which methodological assumption changes how a consented or original edit project should be interpreted?
+   - *Key Focus:* For a consented or original edit project, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..
+### Tier 2: Methodological Deep Dives
+6. **Video Editing & Post-Production: Mysteries & Unsolved Cases**
+   - *Question:* What specific evidence gap remains unresolved for a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..
+7. **Video Editing & Post-Production: Technology & Innovation**
+   - *Question:* What changed after a documented technical or material innovation affected a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..
+8. **Video Editing & Post-Production: People & Personalities**
+   - *Question:* How did credited people and institutions shape a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..
+9. **Video Editing & Post-Production: Major Events**
+   - *Question:* What changed around a dated turning point involving a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..
+10. **Video Editing & Post-Production: How It Works**
+   - *Question:* How do the documented components or stages of a consented or original edit project connect?
+   - *Key Focus:* For a consented or original edit project, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..
+### Tier 3: Advanced Analytical Paradigms
+11. **Video Editing & Post-Production: Rise & Fall**
+   - *Question:* Which evidence explains increasing or declining use or reception of a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..
+12. **Video Editing & Post-Production: Then vs Now**
+   - *Question:* Are earlier and later accounts of a consented or original edit project comparable on the same terms?
+   - *Key Focus:* For a consented or original edit project, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..
+13. **Video Editing & Post-Production: Future Developments**
+   - *Question:* Which conditions would need to hold for a proposed future change involving a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..
+14. **Video Editing & Post-Production: Myths vs Facts**
+   - *Question:* Does the original evidence support a commonly repeated claim about a consented or original edit project?
+   - *Key Focus:* For a consented or original edit project, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..
+15. **Video Editing & Post-Production: Documentary Stories**
+   - *Question:* How can a source-led documentary explain a consented or original edit project without overstating its evidence?
+   - *Key Focus:* For a consented or original edit project, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..
+### Tier 4: Frontier Systems & Interdisciplinary Paradigms
+16. **Video Editing & Post-Production: Editorial Decision And Meaning**
+   - *Question:* How does a cut change the inference a viewer draws?
+   - *Key Focus:* Compare an original or permitted source sequence and declared editorial alternatives. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Compare an original or permitted source sequence and declared editorial alternatives..
+17. **Video Editing & Post-Production: Media And Timeline Management**
+   - *Question:* Which settings prevent a project's media from drifting out of sync?
+   - *Key Focus:* Inspect source frame rates, timebases, proxies and a documented project configuration. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Inspect source frame rates, timebases, proxies and a documented project configuration..
+18. **Video Editing & Post-Production: Conform And Relinking**
+   - *Question:* Can a project reliably reconnect its edit to source media?
+   - *Key Focus:* Use actual identifiers, versions and safe test copies. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Use actual identifiers, versions and safe test copies..
+19. **Video Editing & Post-Production: Color And Audio Handoffs**
+   - *Question:* What information must travel between editing and finishing stages?
+   - *Key Focus:* Trace project interchange, reference renders and reviewer notes. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Trace project interchange, reference renders and reviewer notes..
+20. **Video Editing & Post-Production: Caption And Accessibility Delivery**
+   - *Question:* Do captions match the accepted final audio and visual composition?
+   - *Key Focus:* Check actual files, numerical text, synchronization and readability. Evidence base: Evidence: versioned editor manuals, project files, timecodes, export metadata and documented editorial decisions. Choose a named source, version, period and case before scripting. Check actual files, numerical text, synchronization and readability..
+
+---
+
+## 4. Flagship Launch Episode
+- **Niche ID:** 549 (Video Editing & Post-Production)
+- **Angle Preset:** `history_origins`
+- **Episode Title:** *The Architecture of Video Editing & Post-Production: History & Origins*
+- **Episode Slug:** `549_video_editing_post-production_deep_dive_the_architecture_of_video_editing_post_production_history_or`
+- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)
+- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/549_video_editing_post-production/`.

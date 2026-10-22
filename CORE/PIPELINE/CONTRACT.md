@@ -49,6 +49,9 @@ Phase 1, Phase 2 and Phase 4 require explicit approval in interactive and domain
 
 ## Validation commands
 
+- **Script Hygiene:** All generator, migration, or helper `.py` scripts created by agents must be stored in `Scripts/`, never in the root directory.
+- **Phase 3 Schema:** Scene breakdowns in `04_Phase3_SCENE_BREAKDOWN/Scene_Breakdown.md` must strictly use bold field names (`**Scene <num>**`, `**Duration:**`, `**Dialogue / Narration:**`, etc.) matching `Tools.projects.production_workflow`.
+
 ### Expanded production workflow 1.1
 
 Keep the original 16 numbered Phase 2 files and add sixteen supporting templates plus PRODUCTION_MANIFEST.json, as defined by `03_Phase2_PRODUCTION_BIBLE/PRODUCTION_WORKFLOW.json`. See [the workflow guide](03_Phase2_PRODUCTION_BIBLE/WORKFLOW_GUIDE.md) for all 32 documents, applicability, mappings, compiler and migration.

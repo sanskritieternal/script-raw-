@@ -45,3 +45,11 @@ Read the workspace-root `output.md` before creating a new video project. Its `ou
 Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
 
 Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.
+
+## Script storage & clean workspace rule
+
+All temporary, builder, generator, or helper scripts (`.py`, `.sh`, `.bat`) created by agents or developers MUST be written to `Scripts/` (or the conversation artifact scratch directory). Never place builder scripts in the project root. Root directory must remain clean and contain only core architecture files (`CORE/`, `REGISTRY/`, `OUTPUT/`, `Tools/`, `Scripts/`, `CLAUDE.md`, `Prompt for Invoke.md`).
+
+## Phase 3 formatting & compiler alignment
+
+Scene breakdowns in `04_Phase3_SCENE_BREAKDOWN/Scene_Breakdown.md` must strictly conform to the markdown schema required by `Tools/projects/production_workflow.py`. Every scene requires `**Scene <number>**` and bold markdown field tags (`**Duration:**`, `**Dialogue / Narration:**`, `**Visual Direction:**`, etc.). The narrative direction must remain rich, concrete, and non-vague; do not strip bold field tags.

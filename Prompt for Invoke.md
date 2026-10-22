@@ -85,6 +85,14 @@ Read these current workspace files first:
 
 Use [USAGE.md](USAGE.md) and the matching phase master as needed. The production contract governs active paths, Q1–Q42 meanings, handoffs and required review. This library does not override it.
 
+### Script storage & workspace hygiene
+
+Any auxiliary scripts (`.py`, generator scripts, batch migration tools) produced during generation MUST be saved inside the `Scripts/` folder, never in the root directory.
+
+### Strict compliance & verification rule
+
+All data generated during prompts MUST strictly follow every configuration lock, source citation standard, and scene timing constraint. Phase 3 scene records must strictly preserve the schema tags (`**Field:**`) required by `Tools/projects/production_workflow.py`.
+
 ### Automatic niche selection
 
 Search [NICHE_MASTER_LIST.md](REGISTRY/NICHE_MASTER_LIST.md), [NICHE_TAXONOMY.csv](REGISTRY/NICHE_TAXONOMY.csv), candidate niche identities and their `ANGLE_PLAN.json` files. Compare actual scope, not just keywords. Read the chosen CAT defaults and registered angle file.

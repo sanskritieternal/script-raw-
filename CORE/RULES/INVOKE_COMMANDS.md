@@ -37,3 +37,11 @@ Read the workspace-root `output.md` before creating a new video project. Its `ou
 Once a project exists, use its actual supplied path for every research, production, scene, package, audit, status and review file. Compile/migrate/validate commands receive that actual project path. A later setting change affects new projects and does not relocate or duplicate ongoing work. Project-local citations/links remain relative to the project; templates and registry/catalog files stay in this workspace. `OUTPUT` in older examples/catalog views denotes the default root or an existing location, not an instruction to ignore output.md.
 
 Run `python -m Tools.projects.create_project --id <ID> --angle <registered angle> --dry-run` to inspect the configured destination without writing. Supply `--output-root "<folder>"` only for an intentional one-project override. Unknown/malformed settings report an error; do not silently save somewhere else.
+
+## Script storage and clean workspace rule
+
+All generator, builder, or temporary `.py` scripts created during any prompt or workflow MUST be placed in `Scripts/` (or artifact scratch), never in the repository root.
+
+## Phase 3 schema rule
+
+`Scene_Breakdown.md` records must strictly preserve the bold field markdown schema (`**Scene <num>**`, `**Duration:**`, `**Dialogue / Narration:**`, etc.) mandated by `Tools.projects.production_workflow`.

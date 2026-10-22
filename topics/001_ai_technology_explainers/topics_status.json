@@ -1,0 +1,252 @@
+{
+  "niche_id": "001",
+  "niche_name": "ai_technology_explainers",
+  "last_synced": "2026-10-21T16:00:00.000000",
+  "summary": {
+    "completed": 0,
+    "pending": 20,
+    "trending": 7,
+    "total": 27
+  },
+  "completed_topics": [],
+  "pending_topics": [
+    {
+      "id": 1,
+      "title": "AI Without Jargon: How Machine Learning Actually Works from Scratch",
+      "tier": "Tier 1: Foundations (Scratch / Beginner)",
+      "angle": "beginner_explainers",
+      "slug": "how_ai_actually_works_machine_learning_from_scratch",
+      "reason": "Flagship beginner episode; establishes foundational mechanics for every subsequent video.",
+      "status": "QUEUED (Priority #1 Launch)"
+    },
+    {
+      "id": 2,
+      "title": "Artificial Intelligence vs Machine Learning vs Deep Learning: The Definitive Map",
+      "tier": "Tier 1: Foundations (Scratch / Beginner)",
+      "angle": "beginner_explainers",
+      "slug": "ai_vs_machine_learning_vs_deep_learning_taxonomy",
+      "reason": "Clears widespread confusion; maps history from 1956 Dartmouth to modern foundation models.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 3,
+      "title": "The Anatomy of a Neural Network: Nodes, Layers, and Activation Functions",
+      "tier": "Tier 1: Foundations (Scratch / Beginner)",
+      "angle": "how_it_works",
+      "slug": "anatomy_of_a_neural_network_nodes_layers_activation",
+      "reason": "Visual deep dive into how raw numbers transform through matrix weights and biases.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 4,
+      "title": "How AI Claims Compare to Reality: 7 Common Myths Debunked",
+      "tier": "Tier 1: Foundations (Scratch / Beginner)",
+      "angle": "myths_vs_facts",
+      "slug": "ai_claims_vs_reality_seven_myths_debunked",
+      "reason": "Cuts through marketing hype and public fear regarding sentience, bias, and reasoning.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 5,
+      "title": "Attention Is All You Need: The Breakthrough That Changed AI Forever",
+      "tier": "Tier 2: Core Architectures & How AI Works (Intermediate)",
+      "angle": "how_it_works",
+      "slug": "attention_is_all_you_need_transformer_architecture",
+      "reason": "Explains self-attention vectors and why Transformers replaced recurrent neural networks.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 6,
+      "title": "From Prompt to Prediction: How Large Language Models Generate Sentences",
+      "tier": "Tier 2: Core Architectures & How AI Works (Intermediate)",
+      "angle": "how_it_works",
+      "slug": "how_llms_generate_text_tokens_embeddings_probabilities",
+      "reason": "Details tokenization, high-dimensional vector math, and temperature probability distributions.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 7,
+      "title": "How AI Creates Images: The Physics of Latent Diffusion Models",
+      "tier": "Tier 2: Core Architectures & How AI Works (Intermediate)",
+      "angle": "technology_innovation",
+      "slug": "how_diffusion_models_generate_images_physics_and_noise",
+      "reason": "Visual explainer of forward Gaussian noise addition and reverse U-Net denoising.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 8,
+      "title": "Computer Vision Demystified: How Machines Recognize Objects in Pixels",
+      "tier": "Tier 2: Core Architectures & How AI Works (Intermediate)",
+      "angle": "how_it_works",
+      "slug": "computer_vision_demystified_convolutions_and_vision_transformers",
+      "reason": "From basic edge detection filters to spatial Vision Transformers in robotics and cars.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 9,
+      "title": "Speech Synthesis & Voice Cloning: Neural Audio Generation Explained",
+      "tier": "Tier 2: Core Architectures & How AI Works (Intermediate)",
+      "angle": "technology_innovation",
+      "slug": "neural_speech_synthesis_and_voice_cloning_mechanics",
+      "reason": "Deconstructs acoustic spectrogram modeling, WaveNet, and neural audio codecs.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 10,
+      "title": "The Secret Labor Behind AI: Data Labeling, RLHF, and Content Moderation",
+      "tier": "Tier 3: Systems, Data Provenance & Infrastructure (Upper Intermediate)",
+      "angle": "hidden_stories",
+      "slug": "secret_labor_behind_ai_data_labeling_and_rlhf",
+      "reason": "Highlights the critical human labor, data annotation work, and safety training behind models.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 11,
+      "title": "Where Training Data Comes From: Scraping the Web and Copyright Dilemmas",
+      "tier": "Tier 3: Systems, Data Provenance & Infrastructure (Upper Intermediate)",
+      "angle": "data_provenance",
+      "slug": "where_ai_training_data_comes_from_scraping_and_copyright",
+      "reason": "Explains Common Crawl, deduplication filtering, fair use controversies, and synthetic data.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 12,
+      "title": "The Compute Engine of AI: Inside the GPUs and Massive Data Centers",
+      "tier": "Tier 3: Systems, Data Provenance & Infrastructure (Upper Intermediate)",
+      "angle": "infrastructure_compute",
+      "slug": "inside_ai_data_centers_gpu_clusters_and_energy_grid",
+      "reason": "The hardware reality: FP8 tensor cores, high-bandwidth memory (HBM), and power constraints.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 13,
+      "title": "Model Cards & Evaluation: What Benchmarks Do and Do Not Prove",
+      "tier": "Tier 3: Systems, Data Provenance & Infrastructure (Upper Intermediate)",
+      "angle": "evaluation_benchmarks",
+      "slug": "ai_benchmarks_model_cards_and_evaluation_limits",
+      "reason": "Exposes benchmark gaming, test-set contamination, and how to read AI model disclosure cards.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 14,
+      "title": "Small Models & Quantization: Running Powerful AI Locally on Consumer Hardware",
+      "tier": "Tier 3: Systems, Data Provenance & Infrastructure (Upper Intermediate)",
+      "angle": "technology_innovation",
+      "slug": "small_language_models_quantization_and_local_edge_ai",
+      "reason": "How 4-bit quantization (GGUF) and distillation allow smartphone and laptop inference.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 15,
+      "title": "The Black Box Problem: Inside the Science of Mechanistic Interpretability",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "advanced_concepts",
+      "slug": "mechanistic_interpretability_inside_ai_black_box",
+      "reason": "Revealing hidden neural representations using sparse autoencoders and circuit analysis.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 16,
+      "title": "Why AI Hallucinates: Confabulation, Factuality, and Grounding Limits",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "mysteries_unsolved_cases",
+      "slug": "why_ai_hallucinates_probabilistic_limits_and_rag",
+      "reason": "Investigates why probability-based generation inherently produces plausible untruths.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 17,
+      "title": "AI Alignment and the Control Problem: Steering Superintelligent Systems",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "safety_tradeoffs",
+      "slug": "ai_alignment_problem_and_existential_safety_tradeoffs",
+      "reason": "Covers reward gaming, instrumental goals, scalable oversight, and constitutional AI.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 18,
+      "title": "Autonomous AI Agents: From Chatbots to Goal-Driven Digital Workers",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "future_developments",
+      "slug": "autonomous_ai_agents_reasoning_memory_and_api_tools",
+      "reason": "Explains ReAct loops, planning horizons, vector retrieval, and multi-agent coordination.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 19,
+      "title": "The Economics of AI: The Hype Cycle vs Real Enterprise Value",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "rise_fall",
+      "slug": "economics_of_ai_hype_cycles_tco_and_enterprise_roi",
+      "reason": "Real business impact: cost per token, infrastructure capital expenditures, and ROI realities.",
+      "status": "QUEUED"
+    },
+    {
+      "id": 20,
+      "title": "The Road to AGI: What Fundamental Breakthroughs Are Still Missing?",
+      "tier": "Tier 4: Advanced Concepts, Alignment & Societal Horizon (Advanced / Expert)",
+      "angle": "future_developments",
+      "slug": "the_road_to_agi_scaling_limits_and_world_models",
+      "reason": "Discusses reasoning models, test-time compute, physical embodiment, and world simulation.",
+      "status": "QUEUED"
+    }
+  ],
+  "trending_topics": [
+    {
+      "id": 21,
+      "concept": "Test-Time Compute Explained: Why 'Thinking' Models Like o1 and o3 Change AI",
+      "velocity": "Trending #1 (Ultra High Search)",
+      "angle": "technology_innovation",
+      "slug": "test_time_compute_reasoning_models_o1_explained",
+      "hook": "Massive viral shift from pre-training scaling to inference-time search and reasoning chains."
+    },
+    {
+      "id": 22,
+      "concept": "Deepfakes & Voice Cloning Scams: How to Spot Synthesized Media in 2026",
+      "velocity": "High Public Urgency & Viral Trend",
+      "angle": "safety_tradeoffs",
+      "slug": "how_to_detect_deepfakes_and_ai_voice_scams",
+      "hook": "Huge consumer concern regarding phone scams, biometric fraud, and watermarking technology."
+    },
+    {
+      "id": 23,
+      "concept": "Can AI Ever Be Conscious? What Neuroscientists and Computer Scientists Say",
+      "velocity": "Evergreen Existential Inquiry",
+      "angle": "mysteries_unsolved_cases",
+      "slug": "can_ai_ever_be_conscious_neuroscience_vs_computation",
+      "hook": "High viewer philosophical curiosity; compares Integrated Information Theory with neural nets."
+    },
+    {
+      "id": 24,
+      "concept": "The Energy Crisis of AI: Will Nuclear Reactors Power Future Data Centers?",
+      "velocity": "High Tech / Geopolitics Crossover",
+      "angle": "infrastructure_compute",
+      "slug": "nuclear_power_energy_grid_and_future_ai_data_centers",
+      "hook": "Covers big tech investments in SMRs (small modular reactors) to meet gigawatt training demands."
+    },
+    {
+      "id": 25,
+      "concept": "Humanoid Robots with AI Brains: What's Hype vs What Actually Works Today",
+      "velocity": "Massive Visual Appeal & Viral Trend",
+      "angle": "myths_vs_facts",
+      "slug": "humanoid_robots_with_ai_brains_figure_tesla_boston_dynamics",
+      "hook": "Breakdown of end-to-end visual-motor policies vs teleoperated video marketing stunts."
+    },
+    {
+      "id": 26,
+      "concept": "The Death of Traditional Search: How AI Answers Are Reshaping the Internet",
+      "velocity": "Broad Digital Lifestyle Impact",
+      "angle": "then_vs_now",
+      "slug": "how_ai_search_is_killing_traditional_google_web",
+      "hook": "Zero-click searches, publisher crises, and the transition from 10 blue links to synthesized answers."
+    },
+    {
+      "id": 27,
+      "concept": "Why Self-Driving Cars Took 10 Years Longer Than Promised: The Edge Case Trap",
+      "velocity": "High Tech Documentary Interest",
+      "angle": "rise_fall",
+      "slug": "why_autonomous_driving_faced_the_edge_case_trap",
+      "hook": "Explains why 99% accuracy was easy, but the final 1% of rare real-world anomalies resisted scaling."
+    }
+  ]
+}
