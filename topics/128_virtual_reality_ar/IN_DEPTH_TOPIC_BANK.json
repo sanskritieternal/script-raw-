@@ -1,0 +1,1631 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "128",
+  "slug": "virtual_reality_ar",
+  "name": "Virtual Reality / AR",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-24",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Virtual Reality / AR YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 33
+  },
+  "categories": [
+    {
+      "id": "CATALOG-128-R01",
+      "title": "Original bounded cases and mechanisms",
+      "level": "foundation",
+      "parent_id": "DOMAIN-128-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "24a150a3cb4e5f6e2c72924cd42edbf18f99c0c631b3594786e1d276cfc67ff9",
+      "topics": [
+        {
+          "title": "Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness",
+          "question": "Why does a 5-millisecond delay between head movement and display photons cause violent vestibular nausea?",
+          "coverage": "Vestibular-ocular reflex (VOR), sensor sampling pipelines, asynchronous timewarp/spacewarp, and the magical 20-millisecond latency limit.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 1,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Sword of Damocles: Ivan Sutherland and the 1968 Birth of VR",
+          "question": "How did a MIT/Harvard professor build the world's first head-mounted display so heavy it had to be suspended from the ceiling?",
+          "coverage": "Cathode ray tube headpieces, mechanical arm tracking, wireframe 3D room projections, and Sutherland's visionary 'Ultimate Display' paper.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 2,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Fresnel vs Pancake Lenses: The Optical Physics of Headset Miniaturization",
+          "question": "How do pancake optical prisms fold light back and forth to slash headset depth by 50% while eliminating God rays?",
+          "coverage": "Concentric Fresnel ridged rings, chromatic aberration, polarization beam splitters, quarter-wave plates, and optical efficiency loss.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 3,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Inside-Out 6DOF Tracking: How Headsets Know Exactly Where They Are Without Base Stations",
+          "question": "How do four tiny monochrome cameras on a headset map your living room furniture in real time using SLAM?",
+          "coverage": "Visual-Inertial Odometry (VIO), high-rate IMUs, feature point triangulation, Kalman filters, and eliminating external laser lighthouses.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 4,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Vergence-Accommodation Conflict: Why Virtual 3D Screens Strain Your Eyes",
+          "question": "Why do your eyes get tired when looking at a virtual object 2 inches from your face when the screen is physically 2 inches away?",
+          "coverage": "Pupillary vergence triangulation vs crystalline lens accommodation focus, fixed focal plane dilemma, and varifocal display prototypes.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 5,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R02",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-128-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78a6929673606788d0df4450a7ddf1322b21a1ed060ebc0dcd69c03697127ed1",
+      "topics": [
+        {
+          "title": "Palmer Luckey and the Oculus Rift: How a Teenager Built VR in a Trailer",
+          "question": "How did a 19-year-old using duct tape, ski goggles, and cheap smartphone LCDs ignite a multi-billion dollar tech race?",
+          "coverage": "Smartphone supply chain commoditization, John Carmack's doom demo, the legendary 2012 Kickstarter, and the $2 billion Facebook acquisition.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 6,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Foveated Rendering and Eye Tracking: The Holy Grail of VR Performance",
+          "question": "Why waste GPU horsepower rendering millions of pixels where the human eye has zero high-resolution peripheral vision?",
+          "coverage": "Human fovea centralis anatomy (2-degree crisp cone), infrared pupil tracking rings, peripheral resolution degradation, and 75% GPU savings.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 7,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Optical Waveguides in AR: How HoloLens and Magic Leap Beam Light into Your Eyes",
+          "question": "How do diffraction gratings etch billions of nano-scale ridges into glass to bounce laser projections into your pupil?",
+          "coverage": "Total internal reflection (TIR), holographic vs surface relief gratings, rainbow flare artifacts, field-of-view limits (50 degrees), and eyebox expansion.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 8,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Spatial Audio in XR: Head-Related Transfer Functions (HRTF) in 3D Environments",
+          "question": "Why does realistic audio presence require sound waves to simulate the physical shape of your ears and shoulders?",
+          "coverage": "HRTF impulse responses, acoustic room ray-tracing, Doppler frequency shifts, and why spatial sound creates 50% of the illusion of presence.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 9,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Google Glass Disaster: The Cautionary Tale of 'Glassholes' and Privacy",
+          "question": "Why did a technologically functional heads-up display get banned from bars, movie theaters, and public society in 2013?",
+          "coverage": "Surreptitious camera recording fears, social friction, nerd stigma, battery life limitations, and the pivot to enterprise industrial use.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 10,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R03",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-128-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5814b8b859004bab4c4b4426d809a84fe008fff3cdafa6fb7f677c662c54f72e",
+      "topics": [
+        {
+          "title": "Passthrough Mixed Reality: Why Cameras on Glass Won Over Transparent Waveguides",
+          "question": "Why did Apple and Meta choose high-speed video cameras over see-through glass for the Vision Pro and Quest 3?",
+          "coverage": "Dynamic range matching, absolute black levels (occlusion), wide field of view, camera-to-eye parallax correction, and latency constraints.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 11,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Hand Tracking and Gesture Interfaces: Killing the Physical Controller",
+          "question": "How do deep neural networks extract 21 individual skeletal hand joints from noisy camera feeds at 60 FPS?",
+          "coverage": "Self-occlusion resolution, pinch-to-select physics, lack of tactile haptic feedback ('typing on air' dilemma), and gaze-pinch interaction design.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 12,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Apple Vision Pro and Spatial Computing: 4K Micro-OLED and the R1 Silicon Engine",
+          "question": "How did Apple fit 23 million pixels across two postage-stamp-sized screens and stream sensor data in 12 milliseconds?",
+          "coverage": "Micro-OLED on silicon (OLEDoS), custom R1 sensor coprocessor, EyeSight external lenticular display, visionOS spatial UI, and $3,500 capex reality.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 13,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Haptics Beyond Vibration: Force Feedback Gloves, Ultrasound, and Micro-Fluidics",
+          "question": "How do pneumatic microfluidic bladders and motorized tendons stop your fingers when you grab a virtual solid wall?",
+          "coverage": "Cutaneous touch vs kinesthetic force feedback, tendon resistance brakes, mid-air acoustic levitation ultrasound arrays, and weight simulation.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 14,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Metaverse Hangover: How Meta Lost $45 Billion on Reality Labs",
+          "question": "Why did Mark Zuckerberg rebrand his multi-trillion dollar social media company around legless avatars in Horizon Worlds?",
+          "coverage": "Capex burn rates, lack of compelling daily use cases beyond gaming, corporate hubris, and the subsequent pivot toward Ray-Ban smart audio glasses.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 15,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R04",
+      "title": "Original bounded cases and mechanisms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-128-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "dd08f5103547b3ebb0484e0df97da79ee9723a24a0a7e3aaa019180ab1aeff49",
+      "topics": [
+        {
+          "title": "Neural Interfaces and EMG Wristbands: Reading Muscle Intentions Before Movement",
+          "question": "How can a wristband read motor neuron electrical signals to click a virtual button before your finger physically moves?",
+          "coverage": "Surface electromyography (sEMG), motor unit action potential (MUAP) decoding, sub-millimeter finger twitch detection, and bidirectional neural control.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 16,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "MicroLED Displays: The Holy Grail That Will Make AR Glasses Look Like Normal Ray-Bans",
+          "question": "Why do true outdoor augmented reality glasses need screens with 1,000,000 nits of brightness to compete with direct sunlight?",
+          "coverage": "Gallium nitride microLEDs (sub-5 micron size), mass transfer manufacturing bottlenecks, inorganic emitter stability, and thermal management.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 17,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Spatial Privacy and Digital Panopticons: When Headsets Scan Your Bedroom",
+          "question": "What happens when tech platforms record 3D point-cloud scans of your home, your pupil dilation, and your emotional micro-expressions?",
+          "coverage": "Biometric gaze tracking as unconscious lie detectors, room spatial semantics profiling, regulatory compliance, and on-device sandbox security.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 18,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Simulated Reality and the Matrix Hypothesis: Are We Already in VR?",
+          "question": "If computing power continues to advance, is it statistically inevitable that our physical reality is a computer simulation?",
+          "coverage": "Nick Bostrom's trilemma, Planck length as pixel resolution limits, quantum entanglement as rendering optimization, and the limits of consciousness.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 19,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Master Spatial Computing Architecture: The Open 3D Web",
+          "question": "What open protocol architecture unites WebXR, USD assets, decentralized spatial anchors, and cross-platform identity?",
+          "coverage": "WebXR device APIs, OpenXR hardware abstraction layer, spatial anchor persistence, cloud point-cloud sharing, and avoiding corporate walled gardens.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 20,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-128-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R05",
+      "title": "Presence and tracking",
+      "level": "foundation",
+      "parent_id": "DOMAIN-128-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "402eff9c51c9784b4dfc1e47842a24c8a2f4276fac4f217e6d8f60dcdf668247",
+      "topics": [
+        {
+          "question": "What makes a virtual reality scene feel spatial rather than like a screen near the eyes?",
+          "coverage": "Explain stereoscopy, head tracking, scale and motion parallax; distinguish presence from visual resolution.",
+          "id": "BANK-128-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can movement in a headset cause discomfort for some users?",
+          "coverage": "Compare visual motion, physical motion, latency and individual variability; avoid medical diagnosis or universal comfort promises.",
+          "id": "BANK-128-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What is the difference between tracking a controller and tracking a hand?",
+          "coverage": "Compare sensing, occlusion, feedback and interaction reliability in specified hardware conditions.",
+          "id": "BANK-128-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R06",
+      "title": "Interaction and accessibility",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-128-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "158ec8bd63de12733c3c4974e327a5c4ce9102157fbb44da1729ce88f7605582",
+      "topics": [
+        {
+          "question": "How can a virtual interface be usable without a keyboard or flat menu?",
+          "coverage": "Compare gaze, controllers, hands, reach, text size and feedback in a small task.",
+          "id": "BANK-128-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is designing an accessible VR experience more than adding subtitles?",
+          "coverage": "Consider seated use, mobility, hearing, vision, input alternatives and cognitive load with user testing.",
+          "id": "BANK-128-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does spatial audio help someone find an object they cannot see?",
+          "coverage": "Explain directional cues, head movement, reverberation and individual hearing differences.",
+          "id": "BANK-128-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when several people share a virtual room?",
+          "coverage": "Trace synchronization, avatars, personal space, moderation and consent rather than assuming social presence is automatic.",
+          "id": "BANK-128-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R07",
+      "title": "Evaluation and governance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-128-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5842043a4e156461ba6d7c0e3532cd35f55f9b61640928ff23d8400daa0ebbd4",
+      "topics": [
+        {
+          "question": "How can a VR training program show that a skill transfers outside the headset?",
+          "coverage": "Define comparison task, retention, real-world performance and adverse effects; distinguish engagement from learning.",
+          "id": "BANK-128-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can eye and body tracking reveal beyond the action a user intended?",
+          "coverage": "Map recorded signals, inferred attributes, retention and access; separate possible inference from established capability.",
+          "id": "BANK-128-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should museums use AR without making uncertain reconstructions look settled?",
+          "coverage": "Separate surviving material, scholarly inference and creative completion with visible layers and attribution.",
+          "id": "BANK-128-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R08",
+      "title": "Evaluating discomfort rather than promising comfort",
+      "level": "advanced",
+      "parent_id": "DOMAIN-128-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "fc10071ab6fa0133acd6a6fba9ebbbde25c7f90b2eaccb359e676601e9f05f22",
+      "topics": [
+        {
+          "question": "How can a headset study measure discomfort without treating a single latency number as a universal threshold?",
+          "coverage": "Compare baseline symptoms, task, duration, self-report, performance, dropout and individual variation; distinguish a research measure from personal medical advice or proof of universal comfort.",
+          "covers_starter_ids": [
+            "BANK-128-009"
+          ],
+          "id": "BANK-128-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R09",
+      "title": "Vision Pro launch records",
+      "reading_subcategory": "Vision Pro launch records",
+      "level": "advanced",
+      "parent_id": "DOMAIN-128-07",
+      "research_profile": "case_study",
+      "prerequisites": [],
+      "topics": [
+        {
+          "id": "BANK-128-043",
+          "question": "What do Apple’s first-year Vision Pro app-catalog records actually measure?",
+          "coverage": "Compare Apple’s February and June 2024 app counts and definitions for native spatial versus compatible apps; separate supply of apps from active users, repeat use, sales and the archive’s unsupported abandonment claim.",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-128-R10",
+      "title": "A dated smart-glasses comparison",
+      "reading_subcategory": "A dated smart-glasses comparison",
+      "level": "advanced",
+      "parent_id": "DOMAIN-128-07",
+      "research_profile": "case_study",
+      "prerequisites": [],
+      "topics": [
+        {
+          "id": "BANK-128-044",
+          "question": "What distinguished 2024 Ray-Ban Meta glasses from Meta’s Orion AR prototype?",
+          "coverage": "Use Meta’s dated product descriptions to compare camera/audio assistance, presence of a display and distribution status; distinguish the 2024 devices from later Ray-Ban Display products and avoid treating adoption as proof of AR capability.",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "079",
+      "title": "Creative Arts",
+      "directory": "079_creative_arts",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "095",
+      "title": "Handicrafts & Traditional Skills",
+      "directory": "095_handicrafts_traditional_skills",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "126",
+      "title": "Photography",
+      "directory": "126_photography",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "127",
+      "title": "Visual Effects",
+      "directory": "127_visual_effects",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "258",
+      "title": "Traditional Painting",
+      "directory": "258_traditional_painting",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "259",
+      "title": "Street Art",
+      "directory": "259_street_art",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/128_virtual_reality_ar/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "6365cb551eeca2c85faa991cc09960363f03e24078b2f08d95479905e6a34039",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-128-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "41974fa097e3efed2535f01754243bf0ce45cd94ba01eb4db6b841055a969aca"
+      },
+      "BANK-128-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "aed9a79bcb0a3ce0b140ac62fc2392a15a37db9aaba998e2108d2cbd81e4e29f"
+      },
+      "BANK-128-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "93fef30d5d2d2eec42ce16c1d40b13c98a335e0bcb64170f4b9d2182f3b043c3"
+      },
+      "BANK-128-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "807ee11769cafa5fd739131fc37aa5138e93a5cdc79f7b5a333d9cd155c58088"
+      },
+      "BANK-128-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2389aeee3132bf30eb342a192df56f481454acf6cf94a5383c628d4f0781b084"
+      },
+      "BANK-128-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3eefcf4ced26405ab7f0152c45f071696fd142997ad5b2a93a524d22c9763b55"
+      },
+      "BANK-128-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "232657f71d43152c1b168fa94d1c62818d65105cdc7077cb486a7ed5995451d3"
+      },
+      "BANK-128-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "89772880c3bc10df41a663222e069770c630c53861be16505ddcbb2ec1d67e20"
+      },
+      "BANK-128-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9c257540806b629208aa7908949847f3ead39f4fa9c592c67a053d9327ea31b7"
+      }
+    },
+    "source_categories": {
+      "CATALOG-128-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "84e3e1f2b2d5d0069a208eacf149066549cc5054508967de5daf0014d618fb3a"
+      },
+      "CATALOG-128-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "9ef652467e99508494ffe6171cb764ffe0817f709906b936a4061f0ce7b8ea37"
+      },
+      "CATALOG-128-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "91ffe3874069f033c412f40fa32d50dab34bd0129b9bf859f167d2a8b42ed1ad"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "128_VIRTUAL_REALITY_AR_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "98f4fba43adfaf5db728d9c119d3c3a29f2d9b90b3ba8e4836bbd4c50a6a31c0",
+        "original_text": "# Virtual Reality & AR Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 128 Virtual Reality & AR (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** XR Developers, Spatial Computing Designers, 3D Engine Programmers, Tech Futurists (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/128_virtual_reality_ar/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Virtual Reality & AR across four progressive tiers:\r\n- **Tier 1: Stereoscopic Optics, Head Tracking & The Sutherland Sword of Damocles (Beginner / Scratch)** — Binocular disparity and stereopsis, Ivan Sutherland's 1968 ceiling-mounted Sword of Damocles, Fresnel vs pancake lenses, field of view (FOV), and three degrees of freedom (3DOF).\r\n- **Tier 2: Inside-Out 6DOF Tracking, Motion-to-Photon Latency & Haptic Feedback (Intermediate)** — Inside-out optical Simultaneous Localization and Mapping (SLAM), the 20ms motion-to-photon sickness threshold, 90Hz/120Hz display refresh rates, and haptic vibrotactile actuators.\r\n- **Tier 3: Optical Waveguides, Spatial Passthrough & Hand-Tracking Interaction (Upper Intermediate)** — Diffractive optical waveguides in AR (HoloLens/Magic Leap), high-resolution stereo video passthrough, real-time computer vision hand tracking, and gaze-contingent foveated rendering.\r\n- **Tier 4: Neural Interfaces, Micro-OLED Displays & The Spatial Computing Paradigm (Advanced / Masterclass)** — 4K micro-OLED pixel density (Apple Vision Pro), electromyography (EMG) wristbands, varifocal liquid crystal lenses, and building decentralized open spatial computing ecosystems.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/128_virtual_reality_ar/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/128_virtual_reality_ar/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How Immersive Displays Developed** | *Which technical and creative problems drove one early VR or AR system?* |\r\n| 2 | `famous_examples` | **A Landmark Immersive Application** | *What did one celebrated XR experience actually let users do?* |\r\n| 3 | `hidden_stories` | **Workers Behind the Virtual World** | *Whose 3D modeling, testing, moderation, and physical setup work is overlooked?* |\r\n| 4 | `beginner_explainers` | **What VR and AR Add to a Scene** | *How does one application connect tracking, rendered content, and user input?* |\r\n| 5 | `advanced_concepts` | **Presence and Performance** | *How do latency, tracking, and display design affect a user's experience?* |\r\n| 6 | `mysteries_unsolved_cases` | **Why a Prototype Failed** | *Which evidence explains one immersive demo's inconsistent performance?* |\r\n| 7 | `technology_innovation` | **A New Headset Generation** | *Which documented change improved one task and which problem remained?* |\r\n| 8 | `people_personalities` | **Who Designed the Interaction?** | *How did artists, engineers, and users shape one XR interface?* |\r\n| 9 | `major_events` | **An XR Launch Revisited** | *Did a widely announced product reach its intended users?* |\r\n| 10 | `how_it_works` | **From Movement to Image** | *What processing steps turn a user's motion into an updated view?* |\r\n| 11 | `rise_fall` | **A Virtual Platform Closes** | *Why did one immersive service decline or shut down?* |\r\n| 12 | `then_vs_now` | **The Same XR Task Across Eras** | *How did one task change with hardware and software advances?* |\r\n| 13 | `future_developments` | **Testing a Proposed XR Use** | *What evidence would justify XR for one training or learning task?* |\r\n| 14 | `myths_vs_facts` | **The Fully Immersive Claim** | *Does one product deliver the experience advertised?* |\r\n| 15 | `documentary_stories` | **An XR Project's Versions** | *How did one application change from prototype to public release?* |\r\n| 16 | `system_boundary` | **The Whole XR Experience** | *Which hardware, room, network, and support conditions are required?* |\r\n| 17 | `input_output_trace` | **A Gesture Through the System** | *Where can one input be delayed or misread before the display updates?* |\r\n| 18 | `design_tradeoff` | **Visual Detail Versus Responsiveness** | *How does one application balance rendering quality and latency?* |\r\n| 19 | `failure_mode` | **When Tracking Breaks** | *What user-visible problems arise when one system loses reliable tracking?* |\r\n| 20 | `testing_limits` | **Demo Versus Daily Use** | *What does a short XR demo fail to reveal about long sessions?* |\r\n| 21 | `standards_interoperability` | **An Experience Across Headsets** | *What prevents one XR application from working on another device?* |\r\n| 22 | `security_threat_model` | **Spatial Data and Privacy** | *Which information does one XR device collect about user and surroundings?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping an XR App Usable** | *How do headset and software updates affect one archived experience?* |\r\n| 24 | `infrastructure_dependencies` | **A Headset Needs a Room** | *Which physical and network conditions make one XR use case workable?* |\r\n| 25 | `accessibility_usability` | **An Alternative to Headset Use** | *Can a person with a defined access need complete the same task?* |\r\n| 26 | `independent_replication` | **Can Others Repeat the XR Result?** | *Did an independent group find the same benefit from one application?* |\r\n| 27 | `responsible_deployment` | **Launching XR With Users** | *Which usability, privacy, and safety checks preceded one rollout?* |\r\n| 28 | `field_software_architecture` | **Software Behind an XR Scene** | *Which components handle tracking, interaction, assets, and display?* |\r\n| 29 | `field_interface_design` | **Selecting an Object in XR** | *How does one interaction design affect speed, errors, and accessibility?* |\r\n| 30 | `field_version_changes` | **A Version Breaks the Experience** | *What changed when one runtime or device version updated?* |\r\n| 31 | `field_open_standards` | **XR on the Web** | *Does a standard enable one experience across devices and browsers?* |\r\n| 32 | `field_technical_debt` | **The Cost of a Custom XR Stack** | *Which unsupported components limit one project's longevity?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness**\r\n   - *Question:* Why does a 5-millisecond delay between head movement and display photons cause violent vestibular nausea?\r\n   - *Key Focus:* Vestibular-ocular reflex (VOR), sensor sampling pipelines, asynchronous timewarp/spacewarp, and the magical 20-millisecond latency limit.\r\n2. **The Sword of Damocles: Ivan Sutherland and the 1968 Birth of VR**\r\n   - *Question:* How did a MIT/Harvard professor build the world's first head-mounted display so heavy it had to be suspended from the ceiling?\r\n   - *Key Focus:* Cathode ray tube headpieces, mechanical arm tracking, wireframe 3D room projections, and Sutherland's visionary 'Ultimate Display' paper.\r\n3. **Fresnel vs Pancake Lenses: The Optical Physics of Headset Miniaturization**\r\n   - *Question:* How do pancake optical prisms fold light back and forth to slash headset depth by 50% while eliminating God rays?\r\n   - *Key Focus:* Concentric Fresnel ridged rings, chromatic aberration, polarization beam splitters, quarter-wave plates, and optical efficiency loss.\r\n4. **Inside-Out 6DOF Tracking: How Headsets Know Exactly Where They Are Without Base Stations**\r\n   - *Question:* How do four tiny monochrome cameras on a headset map your living room furniture in real time using SLAM?\r\n   - *Key Focus:* Visual-Inertial Odometry (VIO), high-rate IMUs, feature point triangulation, Kalman filters, and eliminating external laser lighthouses.\r\n5. **The Vergence-Accommodation Conflict: Why Virtual 3D Screens Strain Your Eyes**\r\n   - *Question:* Why do your eyes get tired when looking at a virtual object 2 inches from your face when the screen is physically 2 inches away?\r\n   - *Key Focus:* Pupillary vergence triangulation vs crystalline lens accommodation focus, fixed focal plane dilemma, and varifocal display prototypes.\r\n### Tier 2: Practical Mechanics & Channels\r\n6. **Palmer Luckey and the Oculus Rift: How a Teenager Built VR in a Trailer**\r\n   - *Question:* How did a 19-year-old using duct tape, ski goggles, and cheap smartphone LCDs ignite a multi-billion dollar tech race?\r\n   - *Key Focus:* Smartphone supply chain commoditization, John Carmack's doom demo, the legendary 2012 Kickstarter, and the $2 billion Facebook acquisition.\r\n7. **Foveated Rendering and Eye Tracking: The Holy Grail of VR Performance**\r\n   - *Question:* Why waste GPU horsepower rendering millions of pixels where the human eye has zero high-resolution peripheral vision?\r\n   - *Key Focus:* Human fovea centralis anatomy (2-degree crisp cone), infrared pupil tracking rings, peripheral resolution degradation, and 75% GPU savings.\r\n8. **Optical Waveguides in AR: How HoloLens and Magic Leap Beam Light into Your Eyes**\r\n   - *Question:* How do diffraction gratings etch billions of nano-scale ridges into glass to bounce laser projections into your pupil?\r\n   - *Key Focus:* Total internal reflection (TIR), holographic vs surface relief gratings, rainbow flare artifacts, field-of-view limits (50 degrees), and eyebox expansion.\r\n9. **Spatial Audio in XR: Head-Related Transfer Functions (HRTF) in 3D Environments**\r\n   - *Question:* Why does realistic audio presence require sound waves to simulate the physical shape of your ears and shoulders?\r\n   - *Key Focus:* HRTF impulse responses, acoustic room ray-tracing, Doppler frequency shifts, and why spatial sound creates 50% of the illusion of presence.\r\n10. **The Google Glass Disaster: The Cautionary Tale of 'Glassholes' and Privacy**\r\n   - *Question:* Why did a technologically functional heads-up display get banned from bars, movie theaters, and public society in 2013?\r\n   - *Key Focus:* Surreptitious camera recording fears, social friction, nerd stigma, battery life limitations, and the pivot to enterprise industrial use.\r\n### Tier 3: Strategic & Advanced Architectures\r\n11. **Passthrough Mixed Reality: Why Cameras on Glass Won Over Transparent Waveguides**\r\n   - *Question:* Why did Apple and Meta choose high-speed video cameras over see-through glass for the Vision Pro and Quest 3?\r\n   - *Key Focus:* Dynamic range matching, absolute black levels (occlusion), wide field of view, camera-to-eye parallax correction, and latency constraints.\r\n12. **Hand Tracking and Gesture Interfaces: Killing the Physical Controller**\r\n   - *Question:* How do deep neural networks extract 21 individual skeletal hand joints from noisy camera feeds at 60 FPS?\r\n   - *Key Focus:* Self-occlusion resolution, pinch-to-select physics, lack of tactile haptic feedback ('typing on air' dilemma), and gaze-pinch interaction design.\r\n13. **Apple Vision Pro and Spatial Computing: 4K Micro-OLED and the R1 Silicon Engine**\r\n   - *Question:* How did Apple fit 23 million pixels across two postage-stamp-sized screens and stream sensor data in 12 milliseconds?\r\n   - *Key Focus:* Micro-OLED on silicon (OLEDoS), custom R1 sensor coprocessor, EyeSight external lenticular display, visionOS spatial UI, and $3,500 capex reality.\r\n14. **Haptics Beyond Vibration: Force Feedback Gloves, Ultrasound, and Micro-Fluidics**\r\n   - *Question:* How do pneumatic microfluidic bladders and motorized tendons stop your fingers when you grab a virtual solid wall?\r\n   - *Key Focus:* Cutaneous touch vs kinesthetic force feedback, tendon resistance brakes, mid-air acoustic levitation ultrasound arrays, and weight simulation.\r\n15. **The Metaverse Hangover: How Meta Lost $45 Billion on Reality Labs**\r\n   - *Question:* Why did Mark Zuckerberg rebrand his multi-trillion dollar social media company around legless avatars in Horizon Worlds?\r\n   - *Key Focus:* Capex burn rates, lack of compelling daily use cases beyond gaming, corporate hubris, and the subsequent pivot toward Ray-Ban smart audio glasses.\r\n### Tier 4: Future Horizons & Masterclasses\r\n16. **Neural Interfaces and EMG Wristbands: Reading Muscle Intentions Before Movement**\r\n   - *Question:* How can a wristband read motor neuron electrical signals to click a virtual button before your finger physically moves?\r\n   - *Key Focus:* Surface electromyography (sEMG), motor unit action potential (MUAP) decoding, sub-millimeter finger twitch detection, and bidirectional neural control.\r\n17. **MicroLED Displays: The Holy Grail That Will Make AR Glasses Look Like Normal Ray-Bans**\r\n   - *Question:* Why do true outdoor augmented reality glasses need screens with 1,000,000 nits of brightness to compete with direct sunlight?\r\n   - *Key Focus:* Gallium nitride microLEDs (sub-5 micron size), mass transfer manufacturing bottlenecks, inorganic emitter stability, and thermal management.\r\n18. **Spatial Privacy and Digital Panopticons: When Headsets Scan Your Bedroom**\r\n   - *Question:* What happens when tech platforms record 3D point-cloud scans of your home, your pupil dilation, and your emotional micro-expressions?\r\n   - *Key Focus:* Biometric gaze tracking as unconscious lie detectors, room spatial semantics profiling, regulatory compliance, and on-device sandbox security.\r\n19. **Simulated Reality and the Matrix Hypothesis: Are We Already in VR?**\r\n   - *Question:* If computing power continues to advance, is it statistically inevitable that our physical reality is a computer simulation?\r\n   - *Key Focus:* Nick Bostrom's trilemma, Planck length as pixel resolution limits, quantum entanglement as rendering optimization, and the limits of consciousness.\r\n20. **The Master Spatial Computing Architecture: The Open 3D Web**\r\n   - *Question:* What open protocol architecture unites WebXR, USD assets, decentralized spatial anchors, and cross-platform identity?\r\n   - *Key Focus:* WebXR device APIs, OpenXR hardware abstraction layer, spatial anchor persistence, cloud point-cloud sharing, and avoiding corporate walled gardens.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 128 (Virtual Reality & AR)\r\n- **Angle Preset:** `mechanisms_and_systems`\r\n- **Episode Title:** *Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness*\r\n- **Episode Slug:** `128_virtual_reality_ar_mechanisms_and_systems_motion_to_photon_latency`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/128_virtual_reality_ar/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "14a95bfabf92628c1cfd205ec927ec619e29a1a201fb9a89c795a44c303a701d",
+        "original_text": "# 128 Virtual Reality & AR -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 128 Virtual Reality & AR (Computing_Software)  \r\n> **Storage Directory:** `topics/128_virtual_reality_ar/`  \r\n> **Synchronized With:** `OUTPUT/128_virtual_reality_ar/`, `REGISTRY/Niches/128_virtual_reality_ar/`, and `128_VIRTUAL_REALITY_AR_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 128 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/128_virtual_reality_ar](../../OUTPUT/128_virtual_reality_ar) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness** | Tier 1: Foundational Frameworks | `mechanisms_and_systems` | `motion_to_photon_latency_vr_sickness` | Crucial foundational episode exploring the core engineering constraint that made modern virtual reality physically tolerable. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **The Sword of Damocles: Ivan Sutherland and the 1968 Birth of VR** | Tier 1: Foundational Frameworks | `historical_evolution` | `sword_of_damocles_ivan_sutherland_vr_birth` | Establishes the visionary academic origin of augmented and virtual reality technology. | `QUEUED` |\r\n| 3 | **Fresnel vs Pancake Lenses: The Optical Physics of Headset Miniaturization** | Tier 1: Foundational Frameworks | `comparative_analysis` | `fresnel_vs_pancake_lenses_vr_optics` | Deconstructs the optical engineering breakthrough that transformed bulky ski-goggle VR headsets into sleek visors. | `QUEUED` |\r\n| 4 | **Inside-Out 6DOF Tracking: How Headsets Know Exactly Where They Are Without Base Stations** | Tier 1: Foundational Frameworks | `mechanisms_and_systems` | `inside_out_6dof_tracking_slam_algorithms` | Explains the computer vision leap that emancipated VR from tethered room-scale laser tracking. | `QUEUED` |\r\n| 5 | **The Vergence-Accommodation Conflict: Why Virtual 3D Screens Strain Your Eyes** | Tier 1: Foundational Frameworks | `root_cause_analysis` | `vergence_accommodation_conflict_eye_strain` | Examines the fundamental optical mismatch that causes eye fatigue in all current fixed-focal headsets. | `QUEUED` |\r\n| 6 | **Palmer Luckey and the Oculus Rift: How a Teenager Built VR in a Trailer** | Tier 2: Practical Mechanics & Channels | `case_study` | `palmer_luckey_oculus_rift_kickstarter` | Documents the garage hacking revolution that resurrected consumer virtual reality after its 1990s winter. | `QUEUED` |\r\n| 7 | **Foveated Rendering and Eye Tracking: The Holy Grail of VR Performance** | Tier 2: Practical Mechanics & Channels | `deep_dive` | `foveated_rendering_eye_tracking_optics` | Teaches the vital optimization technique required to drive photorealistic graphics on mobile VR processors. | `QUEUED` |\r\n| 8 | **Optical Waveguides in AR: How HoloLens and Magic Leap Beam Light into Your Eyes** | Tier 2: Practical Mechanics & Channels | `mechanisms_and_systems` | `optical_waveguides_augmented_reality_physics` | Masterclass on the cutting-edge diffractive nanophotonics powering true see-through augmented reality glasses. | `QUEUED` |\r\n| 9 | **Spatial Audio in XR: Head-Related Transfer Functions (HRTF) in 3D Environments** | Tier 2: Practical Mechanics & Channels | `beginner_guide` | `spatial_audio_hrtf_acoustic_presence` | Details the vital auditory component of immersion often neglected in favor of visual specs. | `QUEUED` |\r\n| 10 | **The Google Glass Disaster: The Cautionary Tale of 'Glassholes' and Privacy** | Tier 2: Practical Mechanics & Channels | `failure_mode_analysis` | `google_glass_failure_social_backlash` | The quintessential sociological case study demonstrating that cultural acceptability trumps technological functionality. | `QUEUED` |\r\n| 11 | **Passthrough Mixed Reality: Why Cameras on Glass Won Over Transparent Waveguides** | Tier 3: Strategic & Advanced Architectures | `comparative_analysis` | `passthrough_mixed_reality_vs_optical_see_through` | Analyzes the decisive architectural victory of video passthrough over optical see-through in modern spatial headsets. | `QUEUED` |\r\n| 12 | **Hand Tracking and Gesture Interfaces: Killing the Physical Controller** | Tier 3: Strategic & Advanced Architectures | `field_investigation` | `hand_tracking_computer_vision_gestures` | Deconstructs the machine learning vision systems enabling natural controller-free human-computer interaction. | `QUEUED` |\r\n| 13 | **Apple Vision Pro and Spatial Computing: 4K Micro-OLED and the R1 Silicon Engine** | Tier 3: Strategic & Advanced Architectures | `case_study` | `apple_vision_pro_spatial_computing_architecture` | Technical deep-dive into the pinnacle of commercial spatial computing hardware and design ambition. | `QUEUED` |\r\n| 14 | **Haptics Beyond Vibration: Force Feedback Gloves, Ultrasound, and Micro-Fluidics** | Tier 3: Strategic & Advanced Architectures | `mechanisms_and_systems` | `haptic_feedback_gloves_ultrasound_force_resistance` | Explores the mechanical frontier attempting to bring genuine tactile physical resistance into virtual spaces. | `QUEUED` |\r\n| 15 | **The Metaverse Hangover: How Meta Lost $45 Billion on Reality Labs** | Tier 3: Strategic & Advanced Architectures | `economic_breakdown` | `metaverse_reality_labs_45_billion_loss` | Rigorous corporate and financial post-mortem on the greatest corporate pivot failure in Silicon Valley history. | `QUEUED` |\r\n| 16 | **Neural Interfaces and EMG Wristbands: Reading Muscle Intentions Before Movement** | Tier 4: Future Horizons & Masterclasses | `emerging_trends` | `emg_wristbands_neural_interfaces_meta` | Assesses the next-generation input modality poised to replace physical controllers and visual hand tracking. | `QUEUED` |\r\n| 17 | **MicroLED Displays: The Holy Grail That Will Make AR Glasses Look Like Normal Ray-Bans** | Tier 4: Future Horizons & Masterclasses | `deep_dive` | `microled_displays_ar_glasses_future` | Details the fundamental semiconductor display breakthrough required to achieve lightweight, all-day outdoor AR glasses. | `QUEUED` |\r\n| 18 | **Spatial Privacy and Digital Panopticons: When Headsets Scan Your Bedroom** | Tier 4: Future Horizons & Masterclasses | `ethical_dimensions` | `spatial_privacy_headset_surveillance` | Probes the unprecedented surveillance and psychological privacy threats inherent to spatial computing sensor arrays. | `QUEUED` |\r\n| 19 | **Simulated Reality and the Matrix Hypothesis: Are We Already in VR?** | Tier 4: Future Horizons & Masterclasses | `philosophical_perspectives` | `simulation_hypothesis_nick_bostrom_vr` | Connects spatial computing engineering directly to the profound philosophical question of physical existence. | `QUEUED` |\r\n| 20 | **The Master Spatial Computing Architecture: The Open 3D Web** | Tier 4: Future Horizons & Masterclasses | `masterclass` | `master_spatial_computing_open_web_blueprint` | Definitive capstone masterclass synthesizing all 20 VR/AR episodes into an open, decentralized architectural roadmap for spatial computing. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Motion-to-Photon: The Secret 20ms Rule That Stopped VR From Making You Vomit** | **Massive Tech Curiosity Spike (High Retention)** | `mechanisms_and_systems` | `motion_to_photon_latency_vr_sickness_viral` | The neurological science explaining why your brain makes you vomit when pixels lag behind your inner ear fascinates viewers. | `READY FOR COMPILATION` |\r\n| 22 | **Apple Vision Pro 1 Year Later: Why Did Millions Stop Using It?** | **High Tech Post-Mortem Traffic** | `failure_mode_analysis` | `apple_vision_pro_one_year_later_honest_review` | Examining why early adopters put the $3,500 headset in closets due to weight and lack of apps dominated tech YouTube. | `READY FOR COMPILATION` |\r\n| 23 | **How a 19-Year-Old in a Trailer Started the Modern VR Revolution (Palmer Luckey)** | **High Underdog Tech Biography Hook** | `case_study` | `palmer_luckey_oculus_kickstarter_origin_story` | The wild story of Palmer Luckey building the Rift from broken iPhone screens and selling it to Facebook for billions pulls huge views. | `READY FOR COMPILATION` |\r\n| 24 | **The Meta Ray-Ban Miracle: How Zuckerberg Accidentally Stumbled on the Future of AR** | **High Consumer Tech Surge** | `emerging_trends` | `meta_ray_ban_smart_glasses_ai_success` | How removing screens entirely and focusing on lightweight frames with multimodal AI created an unexpected retail hit. | `READY FOR COMPILATION` |\r\n| 25 | **Why AR Glasses Keep Failing: The Brutal Physics of Optical Waveguides** | **High Deep Engineering Interest** | `deep_dive` | `why_augmented_reality_glasses_keep_failing_physics` | Deconstructs why Magic Leap and HoloLens burned billions trying to bend photons through etched glass without dimming daylight. | `READY FOR COMPILATION` |\r\n| 26 | **Meta's Neural Wristband: Controlling Computers with Your Mind Before You Move** | **Futuristic Sci-Fi Fascination** | `field_investigation` | `meta_emg_neural_wristband_demo_viral` | Demos showing researchers playing video games and typing 80 WPM with microscopic finger twitches stunned social media. | `READY FOR COMPILATION` |\r\n| 27 | **The 1968 'Sword of Damocles': The Terrifying First VR Headset Ever Built** | **High Vintage Tech Wonder Hook** | `historical_evolution` | `sword_of_damocles_first_vr_headset_1968` | Archival photos of a researcher strapped into a giant mechanical ceiling rig in 1968 look like a vintage horror movie. | `READY FOR COMPILATION` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/128_virtual_reality_ar/128_VIRTUAL_REALITY_AR_CHANNEL_TOPIC_ROADMAP.md`](./128_VIRTUAL_REALITY_AR_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/128_virtual_reality_ar/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/128_virtual_reality_ar/NICHE_128_virtual_reality_ar.md`](file:///h:/script-raw-/REGISTRY/Niches/128_virtual_reality_ar/NICHE_128_virtual_reality_ar.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/128_virtual_reality_ar/CAT_128_virtual_reality_ar.md`](file:///h:/script-raw-/REGISTRY/Niches/128_virtual_reality_ar/CAT_128_virtual_reality_ar.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/128_virtual_reality_ar/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/128_virtual_reality_ar/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/128_virtual_reality_ar/`](file:///h:/script-raw-/OUTPUT/128_virtual_reality_ar/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "05abe5fc7decebf0033a4a40d000da27eb0e2a0fae7a9c62550971a6187ac0b2",
+        "original_text": "{\r\n  \"niche_id\": \"128\",\r\n  \"niche_name\": \"virtual_reality_ar\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"motion_to_photon_latency_vr_sickness\",\r\n      \"reason\": \"Crucial foundational episode exploring the core engineering constraint that made modern virtual reality physically tolerable.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"The Sword of Damocles: Ivan Sutherland and the 1968 Birth of VR\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"historical_evolution\",\r\n      \"slug\": \"sword_of_damocles_ivan_sutherland_vr_birth\",\r\n      \"reason\": \"Establishes the visionary academic origin of augmented and virtual reality technology.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Fresnel vs Pancake Lenses: The Optical Physics of Headset Miniaturization\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"fresnel_vs_pancake_lenses_vr_optics\",\r\n      \"reason\": \"Deconstructs the optical engineering breakthrough that transformed bulky ski-goggle VR headsets into sleek visors.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Inside-Out 6DOF Tracking: How Headsets Know Exactly Where They Are Without Base Stations\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"inside_out_6dof_tracking_slam_algorithms\",\r\n      \"reason\": \"Explains the computer vision leap that emancipated VR from tethered room-scale laser tracking.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"The Vergence-Accommodation Conflict: Why Virtual 3D Screens Strain Your Eyes\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"root_cause_analysis\",\r\n      \"slug\": \"vergence_accommodation_conflict_eye_strain\",\r\n      \"reason\": \"Examines the fundamental optical mismatch that causes eye fatigue in all current fixed-focal headsets.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Palmer Luckey and the Oculus Rift: How a Teenager Built VR in a Trailer\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"palmer_luckey_oculus_rift_kickstarter\",\r\n      \"reason\": \"Documents the garage hacking revolution that resurrected consumer virtual reality after its 1990s winter.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Foveated Rendering and Eye Tracking: The Holy Grail of VR Performance\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"foveated_rendering_eye_tracking_optics\",\r\n      \"reason\": \"Teaches the vital optimization technique required to drive photorealistic graphics on mobile VR processors.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Optical Waveguides in AR: How HoloLens and Magic Leap Beam Light into Your Eyes\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"optical_waveguides_augmented_reality_physics\",\r\n      \"reason\": \"Masterclass on the cutting-edge diffractive nanophotonics powering true see-through augmented reality glasses.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Spatial Audio in XR: Head-Related Transfer Functions (HRTF) in 3D Environments\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"beginner_guide\",\r\n      \"slug\": \"spatial_audio_hrtf_acoustic_presence\",\r\n      \"reason\": \"Details the vital auditory component of immersion often neglected in favor of visual specs.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"The Google Glass Disaster: The Cautionary Tale of 'Glassholes' and Privacy\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"failure_mode_analysis\",\r\n      \"slug\": \"google_glass_failure_social_backlash\",\r\n      \"reason\": \"The quintessential sociological case study demonstrating that cultural acceptability trumps technological functionality.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Passthrough Mixed Reality: Why Cameras on Glass Won Over Transparent Waveguides\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"passthrough_mixed_reality_vs_optical_see_through\",\r\n      \"reason\": \"Analyzes the decisive architectural victory of video passthrough over optical see-through in modern spatial headsets.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Hand Tracking and Gesture Interfaces: Killing the Physical Controller\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"hand_tracking_computer_vision_gestures\",\r\n      \"reason\": \"Deconstructs the machine learning vision systems enabling natural controller-free human-computer interaction.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Apple Vision Pro and Spatial Computing: 4K Micro-OLED and the R1 Silicon Engine\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"apple_vision_pro_spatial_computing_architecture\",\r\n      \"reason\": \"Technical deep-dive into the pinnacle of commercial spatial computing hardware and design ambition.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Haptics Beyond Vibration: Force Feedback Gloves, Ultrasound, and Micro-Fluidics\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"haptic_feedback_gloves_ultrasound_force_resistance\",\r\n      \"reason\": \"Explores the mechanical frontier attempting to bring genuine tactile physical resistance into virtual spaces.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"The Metaverse Hangover: How Meta Lost $45 Billion on Reality Labs\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"economic_breakdown\",\r\n      \"slug\": \"metaverse_reality_labs_45_billion_loss\",\r\n      \"reason\": \"Rigorous corporate and financial post-mortem on the greatest corporate pivot failure in Silicon Valley history.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Neural Interfaces and EMG Wristbands: Reading Muscle Intentions Before Movement\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"emerging_trends\",\r\n      \"slug\": \"emg_wristbands_neural_interfaces_meta\",\r\n      \"reason\": \"Assesses the next-generation input modality poised to replace physical controllers and visual hand tracking.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"MicroLED Displays: The Holy Grail That Will Make AR Glasses Look Like Normal Ray-Bans\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"microled_displays_ar_glasses_future\",\r\n      \"reason\": \"Details the fundamental semiconductor display breakthrough required to achieve lightweight, all-day outdoor AR glasses.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Spatial Privacy and Digital Panopticons: When Headsets Scan Your Bedroom\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"ethical_dimensions\",\r\n      \"slug\": \"spatial_privacy_headset_surveillance\",\r\n      \"reason\": \"Probes the unprecedented surveillance and psychological privacy threats inherent to spatial computing sensor arrays.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Simulated Reality and the Matrix Hypothesis: Are We Already in VR?\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"philosophical_perspectives\",\r\n      \"slug\": \"simulation_hypothesis_nick_bostrom_vr\",\r\n      \"reason\": \"Connects spatial computing engineering directly to the profound philosophical question of physical existence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Master Spatial Computing Architecture: The Open 3D Web\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"masterclass\",\r\n      \"slug\": \"master_spatial_computing_open_web_blueprint\",\r\n      \"reason\": \"Definitive capstone masterclass synthesizing all 20 VR/AR episodes into an open, decentralized architectural roadmap for spatial computing.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Motion-to-Photon: The Secret 20ms Rule That Stopped VR From Making You Vomit\",\r\n      \"trend_score\": \"Massive Tech Curiosity Spike (High Retention)\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"motion_to_photon_latency_vr_sickness_viral\",\r\n      \"why_trending\": \"The neurological science explaining why your brain makes you vomit when pixels lag behind your inner ear fascinates viewers.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Apple Vision Pro 1 Year Later: Why Did Millions Stop Using It?\",\r\n      \"trend_score\": \"High Tech Post-Mortem Traffic\",\r\n      \"angle\": \"failure_mode_analysis\",\r\n      \"slug\": \"apple_vision_pro_one_year_later_honest_review\",\r\n      \"why_trending\": \"Examining why early adopters put the $3,500 headset in closets due to weight and lack of apps dominated tech YouTube.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"How a 19-Year-Old in a Trailer Started the Modern VR Revolution (Palmer Luckey)\",\r\n      \"trend_score\": \"High Underdog Tech Biography Hook\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"palmer_luckey_oculus_kickstarter_origin_story\",\r\n      \"why_trending\": \"The wild story of Palmer Luckey building the Rift from broken iPhone screens and selling it to Facebook for billions pulls huge views.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"The Meta Ray-Ban Miracle: How Zuckerberg Accidentally Stumbled on the Future of AR\",\r\n      \"trend_score\": \"High Consumer Tech Surge\",\r\n      \"angle\": \"emerging_trends\",\r\n      \"slug\": \"meta_ray_ban_smart_glasses_ai_success\",\r\n      \"why_trending\": \"How removing screens entirely and focusing on lightweight frames with multimodal AI created an unexpected retail hit.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Why AR Glasses Keep Failing: The Brutal Physics of Optical Waveguides\",\r\n      \"trend_score\": \"High Deep Engineering Interest\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"why_augmented_reality_glasses_keep_failing_physics\",\r\n      \"why_trending\": \"Deconstructs why Magic Leap and HoloLens burned billions trying to bend photons through etched glass without dimming daylight.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Meta's Neural Wristband: Controlling Computers with Your Mind Before You Move\",\r\n      \"trend_score\": \"Futuristic Sci-Fi Fascination\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"meta_emg_neural_wristband_demo_viral\",\r\n      \"why_trending\": \"Demos showing researchers playing video games and typing 80 WPM with microscopic finger twitches stunned social media.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"The 1968 'Sword of Damocles': The Terrifying First VR Headset Ever Built\",\r\n      \"trend_score\": \"High Vintage Tech Wonder Hook\",\r\n      \"angle\": \"historical_evolution\",\r\n      \"slug\": \"sword_of_damocles_first_vr_headset_1968\",\r\n      \"why_trending\": \"Archival photos of a researcher strapped into a giant mechanical ceiling rig in 1968 look like a vintage horror movie.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "128",
+      "niche_name": "virtual_reality_ar",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "Motion-to-Photon Latency: The 20ms Threshold That Conquered VR Motion Sickness",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "motion_to_photon_latency_vr_sickness",
+          "reason": "Crucial foundational episode exploring the core engineering constraint that made modern virtual reality physically tolerable.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "The Sword of Damocles: Ivan Sutherland and the 1968 Birth of VR",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "historical_evolution",
+          "slug": "sword_of_damocles_ivan_sutherland_vr_birth",
+          "reason": "Establishes the visionary academic origin of augmented and virtual reality technology.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Fresnel vs Pancake Lenses: The Optical Physics of Headset Miniaturization",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "comparative_analysis",
+          "slug": "fresnel_vs_pancake_lenses_vr_optics",
+          "reason": "Deconstructs the optical engineering breakthrough that transformed bulky ski-goggle VR headsets into sleek visors.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Inside-Out 6DOF Tracking: How Headsets Know Exactly Where They Are Without Base Stations",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "inside_out_6dof_tracking_slam_algorithms",
+          "reason": "Explains the computer vision leap that emancipated VR from tethered room-scale laser tracking.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "The Vergence-Accommodation Conflict: Why Virtual 3D Screens Strain Your Eyes",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "root_cause_analysis",
+          "slug": "vergence_accommodation_conflict_eye_strain",
+          "reason": "Examines the fundamental optical mismatch that causes eye fatigue in all current fixed-focal headsets.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Palmer Luckey and the Oculus Rift: How a Teenager Built VR in a Trailer",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "case_study",
+          "slug": "palmer_luckey_oculus_rift_kickstarter",
+          "reason": "Documents the garage hacking revolution that resurrected consumer virtual reality after its 1990s winter.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Foveated Rendering and Eye Tracking: The Holy Grail of VR Performance",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "deep_dive",
+          "slug": "foveated_rendering_eye_tracking_optics",
+          "reason": "Teaches the vital optimization technique required to drive photorealistic graphics on mobile VR processors.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Optical Waveguides in AR: How HoloLens and Magic Leap Beam Light into Your Eyes",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "mechanisms_and_systems",
+          "slug": "optical_waveguides_augmented_reality_physics",
+          "reason": "Masterclass on the cutting-edge diffractive nanophotonics powering true see-through augmented reality glasses.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Spatial Audio in XR: Head-Related Transfer Functions (HRTF) in 3D Environments",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "beginner_guide",
+          "slug": "spatial_audio_hrtf_acoustic_presence",
+          "reason": "Details the vital auditory component of immersion often neglected in favor of visual specs.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "The Google Glass Disaster: The Cautionary Tale of 'Glassholes' and Privacy",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "failure_mode_analysis",
+          "slug": "google_glass_failure_social_backlash",
+          "reason": "The quintessential sociological case study demonstrating that cultural acceptability trumps technological functionality.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Passthrough Mixed Reality: Why Cameras on Glass Won Over Transparent Waveguides",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "comparative_analysis",
+          "slug": "passthrough_mixed_reality_vs_optical_see_through",
+          "reason": "Analyzes the decisive architectural victory of video passthrough over optical see-through in modern spatial headsets.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Hand Tracking and Gesture Interfaces: Killing the Physical Controller",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "field_investigation",
+          "slug": "hand_tracking_computer_vision_gestures",
+          "reason": "Deconstructs the machine learning vision systems enabling natural controller-free human-computer interaction.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Apple Vision Pro and Spatial Computing: 4K Micro-OLED and the R1 Silicon Engine",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "case_study",
+          "slug": "apple_vision_pro_spatial_computing_architecture",
+          "reason": "Technical deep-dive into the pinnacle of commercial spatial computing hardware and design ambition.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Haptics Beyond Vibration: Force Feedback Gloves, Ultrasound, and Micro-Fluidics",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "mechanisms_and_systems",
+          "slug": "haptic_feedback_gloves_ultrasound_force_resistance",
+          "reason": "Explores the mechanical frontier attempting to bring genuine tactile physical resistance into virtual spaces.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "The Metaverse Hangover: How Meta Lost $45 Billion on Reality Labs",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "economic_breakdown",
+          "slug": "metaverse_reality_labs_45_billion_loss",
+          "reason": "Rigorous corporate and financial post-mortem on the greatest corporate pivot failure in Silicon Valley history.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Neural Interfaces and EMG Wristbands: Reading Muscle Intentions Before Movement",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "emerging_trends",
+          "slug": "emg_wristbands_neural_interfaces_meta",
+          "reason": "Assesses the next-generation input modality poised to replace physical controllers and visual hand tracking.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "MicroLED Displays: The Holy Grail That Will Make AR Glasses Look Like Normal Ray-Bans",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "deep_dive",
+          "slug": "microled_displays_ar_glasses_future",
+          "reason": "Details the fundamental semiconductor display breakthrough required to achieve lightweight, all-day outdoor AR glasses.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Spatial Privacy and Digital Panopticons: When Headsets Scan Your Bedroom",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "ethical_dimensions",
+          "slug": "spatial_privacy_headset_surveillance",
+          "reason": "Probes the unprecedented surveillance and psychological privacy threats inherent to spatial computing sensor arrays.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Simulated Reality and the Matrix Hypothesis: Are We Already in VR?",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "philosophical_perspectives",
+          "slug": "simulation_hypothesis_nick_bostrom_vr",
+          "reason": "Connects spatial computing engineering directly to the profound philosophical question of physical existence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Master Spatial Computing Architecture: The Open 3D Web",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "masterclass",
+          "slug": "master_spatial_computing_open_web_blueprint",
+          "reason": "Definitive capstone masterclass synthesizing all 20 VR/AR episodes into an open, decentralized architectural roadmap for spatial computing.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Motion-to-Photon: The Secret 20ms Rule That Stopped VR From Making You Vomit",
+          "trend_score": "Massive Tech Curiosity Spike (High Retention)",
+          "angle": "mechanisms_and_systems",
+          "slug": "motion_to_photon_latency_vr_sickness_viral",
+          "why_trending": "The neurological science explaining why your brain makes you vomit when pixels lag behind your inner ear fascinates viewers.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 22,
+          "title": "Apple Vision Pro 1 Year Later: Why Did Millions Stop Using It?",
+          "trend_score": "High Tech Post-Mortem Traffic",
+          "angle": "failure_mode_analysis",
+          "slug": "apple_vision_pro_one_year_later_honest_review",
+          "why_trending": "Examining why early adopters put the $3,500 headset in closets due to weight and lack of apps dominated tech YouTube.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 23,
+          "title": "How a 19-Year-Old in a Trailer Started the Modern VR Revolution (Palmer Luckey)",
+          "trend_score": "High Underdog Tech Biography Hook",
+          "angle": "case_study",
+          "slug": "palmer_luckey_oculus_kickstarter_origin_story",
+          "why_trending": "The wild story of Palmer Luckey building the Rift from broken iPhone screens and selling it to Facebook for billions pulls huge views.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 24,
+          "title": "The Meta Ray-Ban Miracle: How Zuckerberg Accidentally Stumbled on the Future of AR",
+          "trend_score": "High Consumer Tech Surge",
+          "angle": "emerging_trends",
+          "slug": "meta_ray_ban_smart_glasses_ai_success",
+          "why_trending": "How removing screens entirely and focusing on lightweight frames with multimodal AI created an unexpected retail hit.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 25,
+          "title": "Why AR Glasses Keep Failing: The Brutal Physics of Optical Waveguides",
+          "trend_score": "High Deep Engineering Interest",
+          "angle": "deep_dive",
+          "slug": "why_augmented_reality_glasses_keep_failing_physics",
+          "why_trending": "Deconstructs why Magic Leap and HoloLens burned billions trying to bend photons through etched glass without dimming daylight.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 26,
+          "title": "Meta's Neural Wristband: Controlling Computers with Your Mind Before You Move",
+          "trend_score": "Futuristic Sci-Fi Fascination",
+          "angle": "field_investigation",
+          "slug": "meta_emg_neural_wristband_demo_viral",
+          "why_trending": "Demos showing researchers playing video games and typing 80 WPM with microscopic finger twitches stunned social media.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 27,
+          "title": "The 1968 'Sword of Damocles': The Terrifying First VR Headset Ever Built",
+          "trend_score": "High Vintage Tech Wonder Hook",
+          "angle": "historical_evolution",
+          "slug": "sword_of_damocles_first_vr_headset_1968",
+          "why_trending": "Archival photos of a researcher strapped into a giant mechanical ceiling rig in 1968 look like a vintage horror movie.",
+          "status": "READY FOR COMPILATION"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "legacy_pitches_routed_case_research_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "19698955c3a729f40b40d9bc2ce80e68c46f4226ec767ef1d021eb9f4fe7561c"
+    },
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "2f50c2b337dd36e9c8101e5fb9f70f3e2c9bc3c79c909bbd678454b9dbc0bd33"
+    },
+    {
+      "input": "Scripts\\editorial_pass_002_184.json",
+      "sha256": "c75d9ae13de35f2e73bb1c9db63cbd5f0a317cf08b072a32f385a3a64625ff41"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-128-01",
+      "title": "Tier 1: Foundational Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-02",
+      "title": "Tier 2: Practical Mechanics & Channels",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-03",
+      "title": "Tier 3: Strategic & Advanced Architectures",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-04",
+      "title": "Tier 4: Future Horizons & Masterclasses",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-05",
+      "title": "Immersive foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-06",
+      "title": "Immersive design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-128-07",
+      "title": "Immersive systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "128",
+    "slug": "virtual_reality_ar",
+    "name": "Virtual Reality / AR",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Virtual Reality / AR YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-128-01",
+        "title": "Immersive interfaces",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-128-001",
+            "title": "Inside-out tracking",
+            "question": "Inside-out tracking: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Immersive interfaces. Address Inside-out tracking through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Inside-out tracking.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-002",
+            "title": "Motion-to-photon latency",
+            "question": "Motion-to-photon latency: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Immersive interfaces. Address Motion-to-photon latency through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Motion-to-photon latency.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-003",
+            "title": "Spatial audio localization",
+            "question": "Spatial audio localization: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Immersive interfaces. Address Spatial audio localization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Spatial audio localization.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-128-02",
+        "title": "Experience design",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-128-01"
+        ],
+        "research_profile": "media",
+        "topics": [
+          {
+            "id": "BANK-128-004",
+            "title": "Comfort and locomotion",
+            "question": "Comfort and locomotion: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Experience design. Address Comfort and locomotion through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Comfort and locomotion.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-005",
+            "title": "Hand interaction affordances",
+            "question": "Hand interaction affordances: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Experience design. Address Hand interaction affordances through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Hand interaction affordances.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-006",
+            "title": "Accessible immersive navigation",
+            "question": "Accessible immersive navigation: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Experience design. Address Accessible immersive navigation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Accessible immersive navigation.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-128-03",
+        "title": "Evidence and privacy",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-128-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-128-007",
+            "title": "Eye-tracking data retention",
+            "question": "Eye-tracking data retention: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Evidence and privacy. Address Eye-tracking data retention through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Eye-tracking data retention.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-008",
+            "title": "Training simulation validity",
+            "question": "Training simulation validity: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Evidence and privacy. Address Training simulation validity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Training simulation validity.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-128-009",
+            "title": "Cybersickness measurement",
+            "question": "Cybersickness measurement: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Virtual Reality / AR; branch: Evidence and privacy. Address Cybersickness measurement through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Cybersickness measurement.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "media": {
+        "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+        "source_leads": [
+          "the actual work and authorized production materials",
+          "creator interviews or published craft explanations",
+          "permission-cleared examples and audience feedback"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "079",
+        "title": "Creative Arts",
+        "directory": "079_creative_arts",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "095",
+        "title": "Handicrafts & Traditional Skills",
+        "directory": "095_handicrafts_traditional_skills",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "126",
+        "title": "Photography",
+        "directory": "126_photography",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "127",
+        "title": "Visual Effects",
+        "directory": "127_visual_effects",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "258",
+        "title": "Traditional Painting",
+        "directory": "258_traditional_painting",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "259",
+        "title": "Street Art",
+        "directory": "259_street_art",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [
+    "BANK-128-010",
+    "BANK-128-011",
+    "BANK-128-012",
+    "BANK-128-013",
+    "BANK-128-014",
+    "BANK-128-015",
+    "BANK-128-016",
+    "BANK-128-017",
+    "BANK-128-018",
+    "BANK-128-019",
+    "BANK-128-020",
+    "BANK-128-021",
+    "BANK-128-022",
+    "BANK-128-023",
+    "BANK-128-024",
+    "BANK-128-025",
+    "BANK-128-026",
+    "BANK-128-027",
+    "BANK-128-028",
+    "BANK-128-029"
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "50fb274007449aa4defa8ce4a21505b4e1c6d78c0cc655cfd3a6f83f97e20558",
+    "TOPIC_BANK_RECONCILIATION.md": "c9b4da6951cfe7241e5c2c82373388a7a8d817413ebda7d559c448c9172ab338",
+    "TOPICS_COVERED_REPORT.md": "b39b315e8afad3b0f9d807566ce2a7841c66a3354b583054a5859a863d4fd1fb",
+    "128_VIRTUAL_REALITY_AR_CHANNEL_TOPIC_ROADMAP.md": "daf7a10af76cacf955a23fe896ea02a18a8d280807890f7fa24ff525a8e57c81"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-128-001": [
+      "BANK-001-109"
+    ],
+    "BANK-128-002": [
+      "BANK-128-032"
+    ],
+    "BANK-128-003": [
+      "BANK-128-036"
+    ],
+    "BANK-128-004": [
+      "BANK-128-032"
+    ],
+    "BANK-128-005": [
+      "BANK-128-033"
+    ],
+    "BANK-128-006": [
+      "BANK-128-035"
+    ],
+    "BANK-128-007": [
+      "BANK-128-039"
+    ],
+    "BANK-128-008": [
+      "BANK-128-038"
+    ],
+    "BANK-128-009": [
+      "BANK-128-042"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Case and source readiness",
+      "next_step": "Select dated jurisdictions, editions, named sites, populations or product versions for the active proposals. Inspect actual sources before making factual claims; no research or production readiness was certified."
+    },
+    {
+      "area": "Reviewed starter branches and primary-home boundaries",
+      "next_step": "All original starter concepts now have explicit individual-scope targets. See the starter crosswalk below and Scripts/editorial_review_002_184.json for scope evidence and semantic pair decisions; follow the primary-home referrals after consolidation."
+    },
+    {
+      "area": "Regional and participant variation",
+      "next_step": "Compare less-visible regions, languages, participants and contrary cases within this niche; record substantive distinctions before adding another proposal."
+    }
+  ],
+  "coverage_mapping_review": {
+    "date": "2026-10-23",
+    "method": "Manual thematic cross-references to authored questions. A link is a navigation aid, not a claim that every aspect of a starter branch has been exhausted.",
+    "mapped_starter_concepts": 8,
+    "unmapped_starter_concepts": 1
+  },
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_primary_sources_inspected",
+    "semantic_candidates_reviewed": 27,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How does augmented reality decide where to place a digital object?",
+      "coverage": "Trace sensors, feature tracking, world coordinates and surface estimates; include drift and tracking loss.",
+      "id": "BANK-128-031",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-001-109",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Compare tracking, mapping, latency and documented failure conditions. / Trace sensors, feature tracking, world coordinates and surface estimates; include drift and tracking loss. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-128-R05"
+    },
+    {
+      "question": "Why does a digital twin require more than an attractive 3D model?",
+      "coverage": "Compare geometry, live state, provenance, calibration and use-specific validation.",
+      "id": "BANK-128-040",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-001-090",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Inspect data connections, update rules, validation and the intended decision. / Compare geometry, live state, provenance, calibration and use-specific validation. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-128-R07"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-010"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-011"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-012"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-013"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-014"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-015"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-016"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-017"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-018"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-019"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-020"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-021"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-022"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-023"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-024"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-025"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-026"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-027"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-028"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-029"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-042"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "Reconciled to a distinct dated product case.",
+      "reason": "Dated manufacturer records support a bounded comparison; archive usage and adoption claims remain unverified.",
+      "bank_ids": [
+        "BANK-128-043"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-015"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Reconciled to a distinct dated product case.",
+      "reason": "Dated manufacturer records support a bounded comparison; archive usage and adoption claims remain unverified.",
+      "bank_ids": [
+        "BANK-128-044"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-017"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-025"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "Routed to an existing scoped BANK proposal.",
+      "reason": "An existing technical, historical or evaluation question covers the idea; precise thresholds and adoption claims in the archive remain unverified.",
+      "bank_ids": [
+        "BANK-128-011"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-128-043",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    },
+    {
+      "topic_id": "BANK-128-044",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

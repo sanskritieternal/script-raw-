@@ -1,0 +1,1588 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "336",
+  "slug": "digital_biology",
+  "name": "Digital Biology",
+  "primary_category": "Life_Biology",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Digital Biology YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 12
+  },
+  "categories": [
+    {
+      "id": "CATALOG-336-R01",
+      "title": "Simulation",
+      "level": "foundation",
+      "parent_id": "DOMAIN-336-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "695793978513987679adc64f065ee438b39b78f3dd2a1f7d8e5379f87d97b5f0",
+      "topics": [
+        {
+          "question": "How is a digital model of a cell different from a complete digital cell?",
+          "coverage": "Distinguish selected mechanisms, parameters, boundary conditions and validation rather than implying biological completeness.",
+          "id": "BANK-336-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R02",
+      "title": "Multiscale integration",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-336-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e88f2df09bd5e3bf4153db522c9bfab1cbfd4737496e3b4f28f7905d2d094a3c",
+      "topics": [
+        {
+          "question": "Why is combining molecular and organism-level biological data difficult?",
+          "coverage": "Compare scale, timing, measurement methods, missing variables and inconsistent labels.",
+          "id": "BANK-336-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R03",
+      "title": "Prediction",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-336-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c6838852b09c0fdd093d4e95cf44e6c54c012576df6f9b1aa4c218b632059344",
+      "topics": [
+        {
+          "question": "How can a biological model predict well while explaining mechanisms poorly?",
+          "coverage": "Separate statistical fit, causal structure, out-of-distribution tests and mechanistic evidence.",
+          "id": "BANK-336-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-007",
+            "BANK-336-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R04",
+      "title": "Digital twins",
+      "level": "advanced",
+      "parent_id": "DOMAIN-336-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0f188e467da8f2e8014388967426adeff0f31d83da7418c549c54f67d0b7e3b2",
+      "topics": [
+        {
+          "question": "What evidence would justify calling a biological simulation an individual-specific digital twin?",
+          "coverage": "Compare calibration, repeated observations, uncertainty and prospective predictions; exclude clinical guidance.",
+          "id": "BANK-336-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R05",
+      "title": "Protein structures",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-336-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3fb001c902dbabaa7db15af21e17c1cd14064820b9d4047688fe81ef2fab881c",
+      "topics": [
+        {
+          "question": "Why does predicting a protein's structure not fully explain what it does in a cell?",
+          "coverage": "Compare conformations, interactions, environment, dynamics and experimental validation.",
+          "id": "BANK-336-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R06",
+      "title": "Single-cell atlases",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-336-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "af0135b750d4ab0fddd4226b33cc21ea2ad4ab151f04b80b0135035b032215ff",
+      "topics": [
+        {
+          "question": "How can a single-cell atlas describe tissue diversity without recording every cell state?",
+          "coverage": "Compare sampling, dissociation, sequencing depth, clustering and annotation uncertainty.",
+          "id": "BANK-336-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-002"
+          ]
+        },
+        {
+          "question": "What could the 2022 Tabula Sapiens atlas compare across organs sampled from the same donors?",
+          "coverage": "Examine its coordinated single-cell transcriptomic collection across 24 tissues and organs, cell annotation and donor limits; distinguish a sampled reference atlas from an exhaustive human cell catalog.",
+          "id": "BANK-336-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R07",
+      "title": "Digital pathology",
+      "level": "advanced",
+      "parent_id": "DOMAIN-336-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3cee19d2c770463f881cbc3bc3416a9f5c5271aea158692864ad159123836532",
+      "topics": [
+        {
+          "question": "Why can a pathology model perform well on one hospital's images and fail elsewhere?",
+          "coverage": "Compare scanners, staining, case mix, labels and prospective validation; exclude diagnostic use recommendations.",
+          "id": "BANK-336-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-336-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R08",
+      "title": "Data provenance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-336-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "79fa3561517685978c212bf8ba23fb2308c3da4b4fd7ffd01ea69a4010b81c43",
+      "topics": [
+        {
+          "question": "Why does a biological model need the history of how its training measurements were produced?",
+          "coverage": "Trace samples, instruments, batches, protocols, labels and transformations rather than treating a dataset as context free.",
+          "covers_starter_ids": [
+            "BANK-336-006"
+          ],
+          "id": "BANK-336-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome?",
+          "coverage": "Use the 2023 draft's 47 phased diploid assemblies to examine reference design and variant discovery under that study's evaluation; do not call the draft a complete representation of humanity.",
+          "id": "BANK-336-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R09",
+      "title": "Genomic data",
+      "level": "advanced",
+      "parent_id": "DOMAIN-336-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2aaf0e8f5e30ad3c46d607f56dac085a5be54e4c989653e20fa1e2fa660709fb",
+      "topics": [
+        {
+          "question": "Why can genomic datasets remain identifying after names are removed?",
+          "coverage": "Compare familial relationships, rare variants, linkage, consent and controlled access without reidentification instructions.",
+          "covers_starter_ids": [
+            "BANK-336-009"
+          ],
+          "id": "BANK-336-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-336-R10",
+      "title": "Experimental feedback",
+      "level": "advanced",
+      "parent_id": "DOMAIN-336-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1ef81ab53ff8e47d4401ba86fd355d1f1b63cb1c121c140d6954f819a3811152",
+      "topics": [
+        {
+          "question": "How can an automated laboratory test a biological model without simply repeating the model's training conditions?",
+          "coverage": "Compare experiment selection, perturbations, calibration, held-out conditions, negative results and model revision; distinguish a closed experimental loop from proven mechanistic understanding.",
+          "id": "BANK-336-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "027",
+      "title": "Genetics & Evolution",
+      "directory": "027_genetics_evolution",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "154",
+      "title": "Microbiology",
+      "directory": "154_microbiology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "155",
+      "title": "Biotechnology",
+      "directory": "155_biotechnology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "350",
+      "title": "Biology",
+      "directory": "350_biology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "353",
+      "title": "Disease Science",
+      "directory": "353_disease_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "354",
+      "title": "Evolution",
+      "directory": "354_evolution",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/336_digital_biology/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "814c6fc559993f96a3fce9012b73443fd9e05f87e0514c355669f4d8ff70da54",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-336-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "88e3bb9f2fb0945a4c691fbd9edabd99546d66b6aa09faecb6aa639bde91a1d4"
+      },
+      "BANK-336-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "454b44ee1e06f1c74fac39d851bdf68b33f7775be6369b66245aed938e753183"
+      },
+      "BANK-336-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "70fc09c80c88d75529552c9af0477929380b41c76de19fe58d7685d2bbb3776a"
+      },
+      "BANK-336-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c53f8feaa754a7b69c36110b4383fdaa284c8a541b2c13be85a2be4d5d052342"
+      },
+      "BANK-336-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "959016afa8ce4945e40668f3a38ee9c36ad913776425e32d2dd7f80024ad7129"
+      },
+      "BANK-336-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d061a21e666f9dd180963007f91b7e4157eb386958843ece77064b60c4e41122"
+      },
+      "BANK-336-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1e1f3fd08c27318351be49a901039d8cedfa160730b51b7923071f3adc423c8d"
+      },
+      "BANK-336-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9b7419964a9384d8416b537c8b338c1c5e18289267b795f10aa27706af37f5a1"
+      },
+      "BANK-336-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bad3f05a0956733a1848c1a24cd0ce5060eb8181d4f7b7976345b172b10fc227"
+      }
+    },
+    "source_categories": {
+      "CATALOG-336-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "1efec86a1887d62b7e4a1b00607c23515ac0150a3b6e762b804304d050909080"
+      },
+      "CATALOG-336-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6492f09cb6d681debdb49c5c2e7212b919474df4f7b407eeae9044f6cac88a31"
+      },
+      "CATALOG-336-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "5a293a56c7deb2131058f6aaada008d995f8e1d97ded36cd640afd2bdf7c7852"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "336_DIGITAL_BIOLOGY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "9e92ee183065c92c456e65ca603ccdc4f3aa42c26da4887740374b22f5aad78c",
+        "original_text": "# Digital Biology Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 336 Digital Biology (Life_Biology)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Digital Biology Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/336_digital_biology/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Digital Biology across four progressive tiers:\r\n- **Tier 1: Digital Biology Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Digital Biology.\r\n- **Tier 2: Digital Biology Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Digital Biology.\r\n- **Tier 3: Digital Biology Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Digital Biology.\r\n- **Tier 4: Digital Biology Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Digital Biology.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/336_digital_biology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/336_digital_biology/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **Biology Becomes Computable** | *Which dataset or computational method changed a defined biological question?* |\r\n| 2 | `famous_examples` | **A Digital Biology Claim Rechecked** | *Did one model predict a result later tested experimentally?* |\r\n| 3 | `hidden_stories` | **People Behind Biological Data** | *Who collected specimens, annotated records, and maintained repositories?* |\r\n| 4 | `beginner_explainers` | **From Sample to Digital Record** | *How does a biological specimen become analyzable data?* |\r\n| 5 | `advanced_concepts` | **Model Versus Living System** | *Which assumptions make a biological simulation useful or misleading?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Dataset Disagreement** | *Why do two biological datasets disagree?* |\r\n| 7 | `technology_innovation` | **A New Biological Model** | *Did it improve a named research task?* |\r\n| 8 | `people_personalities` | **A Data Stewardship Decision** | *Who decided how biological records would be shared?* |\r\n| 9 | `major_events` | **A Repository or Method Release** | *What became possible after one data or software release?* |\r\n| 10 | `how_it_works` | **A Computational Biology Pipeline** | *How are raw observations cleaned, analyzed, and interpreted?* |\r\n| 11 | `rise_fall` | **A Biological Hypothesis Reassessed** | *What new data or method changed confidence?* |\r\n| 12 | `then_vs_now` | **One Question Across Data Generations** | *Did additional resolution improve biological inference?* |\r\n| 13 | `future_developments` | **A Proposed Digital Biology Tool** | *What would validate usefulness beyond training data?* |\r\n| 14 | `myths_vs_facts` | **A Model Replaces Experiments?** | *Which predictions still need observation or intervention?* |\r\n| 15 | `documentary_stories` | **A Dataset's Journey** | *How did a specimen and its records reach a published result?* |\r\n| 16 | `observation_to_explanation` | **From Record to Biological Account** | *Which measurements support an explanation rather than correlation?* |\r\n| 17 | `measurement_method` | **How Biological Data Are Measured** | *Which sampling and instrument choices shape a digital record?* |\r\n| 18 | `scale_and_timespan` | **Scale Changes an Inference** | *Does a finding hold across molecule, organism, population, or ecosystem?* |\r\n| 19 | `field_vs_lab` | **Digital Prediction Meets Living Context** | *Does a laboratory or computational result persist in the field?* |\r\n| 20 | `natural_variation` | **Variation Beyond the Reference** | *Which organisms or populations differ from a reference dataset?* |\r\n| 21 | `mechanism_chain` | **From Sequence to Function** | *Which causal steps connect a digital pattern to biological effect?* |\r\n| 22 | `extreme_case` | **An Outlier That Tests the Model** | *Does an unusual organism or condition reveal a model limit?* |\r\n| 23 | `classification_debate` | **What Counts as One Biological Group?** | *How do alternative taxonomies or annotations change results?* |\r\n| 24 | `interacting_systems` | **Organisms in Their Context** | *Which ecological or molecular interactions were omitted from a model?* |\r\n| 25 | `data_gap` | **Missing Specimens and Metadata** | *Which geographic or biological gaps limit inference?* |\r\n| 26 | `prediction_test` | **A Computational Claim Put to Test** | *Which independent experiment or observation could falsify a prediction?* |\r\n| 27 | `human_impact` | **People and Biological Data** | *How do sampling, reuse, and applications affect communities?* |\r\n| 28 | `field_species_variation` | **Variation in the Data** | *Does a result hold across species or populations?* |\r\n| 29 | `field_ecological_role` | **Model in an Ecosystem** | *Does a digital prediction account for species interactions?* |\r\n| 30 | `field_experimental_model` | **Computational and Wet-Lab Model** | *What does each experimental system reveal or miss?* |\r\n| 31 | `field_evolutionary_history` | **Phylogeny from Digital Evidence** | *Which data and assumptions support an inferred relationship?* |\r\n| 32 | `field_conservation_status` | **Data for Conservation Decisions** | *Can digital observations inform a species assessment?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Digital Biology: Biology Becomes Computable**\r\n   - *Question:* Which dataset or computational method changed a defined biological question?\r\n   - *Key Focus:* Use dated repository, method, and study records. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n2. **Digital Biology: A Digital Biology Claim Rechecked**\r\n   - *Question:* Did one model predict a result later tested experimentally?\r\n   - *Key Focus:* Compare prediction, independent experiment, and uncertainty. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n3. **Digital Biology: People Behind Biological Data**\r\n   - *Question:* Who collected specimens, annotated records, and maintained repositories?\r\n   - *Key Focus:* Trace credit, consent, and data provenance. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n4. **Digital Biology: From Sample to Digital Record**\r\n   - *Question:* How does a biological specimen become analyzable data?\r\n   - *Key Focus:* Trace sampling, measurement, metadata, processing, and interpretation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n5. **Digital Biology: Model Versus Living System**\r\n   - *Question:* Which assumptions make a biological simulation useful or misleading?\r\n   - *Key Focus:* Compare predictions with independent observations. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Digital Biology: A Dataset Disagreement**\r\n   - *Question:* Why do two biological datasets disagree?\r\n   - *Key Focus:* Check species, sampling, protocol, version, and annotation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n7. **Digital Biology: A New Biological Model**\r\n   - *Question:* Did it improve a named research task?\r\n   - *Key Focus:* Test external data, baseline, uncertainty, and laboratory confirmation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n8. **Digital Biology: A Data Stewardship Decision**\r\n   - *Question:* Who decided how biological records would be shared?\r\n   - *Key Focus:* Examine contributors, communities, access, and attribution. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n9. **Digital Biology: A Repository or Method Release**\r\n   - *Question:* What became possible after one data or software release?\r\n   - *Key Focus:* Use dated availability and independent reuse evidence. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n10. **Digital Biology: A Computational Biology Pipeline**\r\n   - *Question:* How are raw observations cleaned, analyzed, and interpreted?\r\n   - *Key Focus:* Trace a named dataset and versioned workflow. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Digital Biology: A Biological Hypothesis Reassessed**\r\n   - *Question:* What new data or method changed confidence?\r\n   - *Key Focus:* Compare original and later evidence without claiming universal reversal. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n12. **Digital Biology: One Question Across Data Generations**\r\n   - *Question:* Did additional resolution improve biological inference?\r\n   - *Key Focus:* Match organism, sampling, outcome, and measurement method. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n13. **Digital Biology: A Proposed Digital Biology Tool**\r\n   - *Question:* What would validate usefulness beyond training data?\r\n   - *Key Focus:* Require external samples, mechanistic checks, and practical outcome. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n14. **Digital Biology: A Model Replaces Experiments?**\r\n   - *Question:* Which predictions still need observation or intervention?\r\n   - *Key Focus:* Separate computational plausibility from biological confirmation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n15. **Digital Biology: A Dataset's Journey**\r\n   - *Question:* How did a specimen and its records reach a published result?\r\n   - *Key Focus:* Follow consent, metadata, analysis, and reanalysis. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Digital Biology: From Record to Biological Account**\r\n   - *Question:* Which measurements support an explanation rather than correlation?\r\n   - *Key Focus:* Trace specimen, instrument, model, and independent evidence. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n17. **Digital Biology: How Biological Data Are Measured**\r\n   - *Question:* Which sampling and instrument choices shape a digital record?\r\n   - *Key Focus:* Report protocol, calibration, metadata, and error. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n18. **Digital Biology: Scale Changes an Inference**\r\n   - *Question:* Does a finding hold across molecule, organism, population, or ecosystem?\r\n   - *Key Focus:* Define scale and observation period. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n19. **Digital Biology: Digital Prediction Meets Living Context**\r\n   - *Question:* Does a laboratory or computational result persist in the field?\r\n   - *Key Focus:* Compare conditions, controls, and measured outcome. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n20. **Digital Biology: Variation Beyond the Reference**\r\n   - *Question:* Which organisms or populations differ from a reference dataset?\r\n   - *Key Focus:* Check sampling, taxonomy, and uncertainty. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 336 (Digital Biology)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Digital Biology: Biology Becomes Computable*\r\n- **Episode Slug:** `336_digital_biology_deep_dive_the_architecture_of_digital_biology_biology_becomes_computab`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/336_digital_biology/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "60a0dd0076695c861a362e980cdf42d1d179453653a83871c976b21806d24446",
+        "original_text": "# 336 Digital Biology -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 336 Digital Biology (Life_Biology)  \r\n> **Storage Directory:** `topics/336_digital_biology/`  \r\n> **Synchronized With:** `OUTPUT/336_digital_biology/`, `REGISTRY/Niches/336_digital_biology/`, and `336_DIGITAL_BIOLOGY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 336 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/336_digital_biology](../../OUTPUT/336_digital_biology) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Digital Biology: Biology Becomes Computable** | Tier 1: Foundational Frameworks | `history_origins` | `digital_biology_biology_becomes_computable` | A rigorous pedagogical investigation exploring biology becomes computable through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Digital Biology: A Digital Biology Claim Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `digital_biology_a_digital_biology_claim_rechecked` | A rigorous pedagogical investigation exploring a digital biology claim rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Digital Biology: People Behind Biological Data** | Tier 1: Foundational Frameworks | `hidden_stories` | `digital_biology_people_behind_biological_data` | A rigorous pedagogical investigation exploring people behind biological data through documented evidence. | `QUEUED` |\r\n| 4 | **Digital Biology: From Sample to Digital Record** | Tier 1: Foundational Frameworks | `beginner_explainers` | `digital_biology_from_sample_to_digital_record` | A rigorous pedagogical investigation exploring from sample to digital record through documented evidence. | `QUEUED` |\r\n| 5 | **Digital Biology: Model Versus Living System** | Tier 1: Foundational Frameworks | `advanced_concepts` | `digital_biology_model_versus_living_system` | A rigorous pedagogical investigation exploring model versus living system through documented evidence. | `QUEUED` |\r\n| 6 | **Digital Biology: A Dataset Disagreement** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `digital_biology_a_dataset_disagreement` | A rigorous pedagogical investigation exploring a dataset disagreement through documented evidence. | `QUEUED` |\r\n| 7 | **Digital Biology: A New Biological Model** | Tier 2: Methodological Deep Dives | `technology_innovation` | `digital_biology_a_new_biological_model` | A rigorous pedagogical investigation exploring a new biological model through documented evidence. | `QUEUED` |\r\n| 8 | **Digital Biology: A Data Stewardship Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `digital_biology_a_data_stewardship_decision` | A rigorous pedagogical investigation exploring a data stewardship decision through documented evidence. | `QUEUED` |\r\n| 9 | **Digital Biology: A Repository or Method Release** | Tier 2: Methodological Deep Dives | `major_events` | `digital_biology_a_repository_or_method_release` | A rigorous pedagogical investigation exploring a repository or method release through documented evidence. | `QUEUED` |\r\n| 10 | **Digital Biology: A Computational Biology Pipeline** | Tier 2: Methodological Deep Dives | `how_it_works` | `digital_biology_a_computational_biology_pipeline` | A rigorous pedagogical investigation exploring a computational biology pipeline through documented evidence. | `QUEUED` |\r\n| 11 | **Digital Biology: A Biological Hypothesis Reassessed** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `digital_biology_a_biological_hypothesis_reassessed` | A rigorous pedagogical investigation exploring a biological hypothesis reassessed through documented evidence. | `QUEUED` |\r\n| 12 | **Digital Biology: One Question Across Data Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `digital_biology_one_question_across_data_generations` | A rigorous pedagogical investigation exploring one question across data generations through documented evidence. | `QUEUED` |\r\n| 13 | **Digital Biology: A Proposed Digital Biology Tool** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `digital_biology_a_proposed_digital_biology_tool` | A rigorous pedagogical investigation exploring a proposed digital biology tool through documented evidence. | `QUEUED` |\r\n| 14 | **Digital Biology: A Model Replaces Experiments?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `digital_biology_a_model_replaces_experiments` | A rigorous pedagogical investigation exploring a model replaces experiments? through documented evidence. | `QUEUED` |\r\n| 15 | **Digital Biology: A Dataset's Journey** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `digital_biology_a_dataset_s_journey` | A rigorous pedagogical investigation exploring a dataset's journey through documented evidence. | `QUEUED` |\r\n| 16 | **Digital Biology: From Record to Biological Account** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `observation_to_explanation` | `digital_biology_from_record_to_biological_account` | A rigorous pedagogical investigation exploring from record to biological account through documented evidence. | `QUEUED` |\r\n| 17 | **Digital Biology: How Biological Data Are Measured** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `measurement_method` | `digital_biology_how_biological_data_are_measured` | A rigorous pedagogical investigation exploring how biological data are measured through documented evidence. | `QUEUED` |\r\n| 18 | **Digital Biology: Scale Changes an Inference** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `scale_and_timespan` | `digital_biology_scale_changes_an_inference` | A rigorous pedagogical investigation exploring scale changes an inference through documented evidence. | `QUEUED` |\r\n| 19 | **Digital Biology: Digital Prediction Meets Living Context** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_vs_lab` | `digital_biology_digital_prediction_meets_living_context` | A rigorous pedagogical investigation exploring digital prediction meets living context through documented evidence. | `QUEUED` |\r\n| 20 | **Digital Biology: Variation Beyond the Reference** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `natural_variation` | `digital_biology_variation_beyond_the_reference` | A rigorous pedagogical investigation exploring variation beyond the reference through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Digital Biology: An Outlier That Tests the Model** | **98** | `extreme_case` | `digital_biology_extreme_case` | High viral search interest exploring does an unusual organism or condition reveal a model limit backed by field records. | `Queued` |\r\n| 22 | **Digital Biology: A Dataset Disagreement** | **96** | `mysteries_unsolved_cases` | `digital_biology_mysteries_unsolved_cases` | High viral search interest exploring why do two biological datasets disagree backed by field records. | `Queued` |\r\n| 23 | **Digital Biology: A New Biological Model** | **95** | `technology_innovation` | `digital_biology_technology_innovation` | High viral search interest exploring did it improve a named research task backed by field records. | `Queued` |\r\n| 24 | **Digital Biology: A Model Replaces Experiments?** | **94** | `myths_vs_facts` | `digital_biology_myths_vs_facts` | High viral search interest exploring which predictions still need observation or intervention backed by field records. | `Queued` |\r\n| 25 | **Digital Biology: A Repository or Method Release** | **93** | `major_events` | `digital_biology_major_events` | High viral search interest exploring what became possible after one data or software release backed by field records. | `Queued` |\r\n| 26 | **Digital Biology: People Behind Biological Data** | **92** | `hidden_stories` | `digital_biology_hidden_stories` | High viral search interest exploring who collected specimens, annotated records, and maintained repositories backed by field records. | `Queued` |\r\n| 27 | **Digital Biology: A Dataset's Journey** | **91** | `documentary_stories` | `digital_biology_documentary_stories` | High viral search interest exploring how did a specimen and its records reach a published result backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/336_digital_biology/336_DIGITAL_BIOLOGY_CHANNEL_TOPIC_ROADMAP.md`](./336_DIGITAL_BIOLOGY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/336_digital_biology/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/336_digital_biology/NICHE_336_digital_biology.md`](file:///h:/script-raw-/REGISTRY/Niches/336_digital_biology/NICHE_336_digital_biology.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/336_digital_biology/CAT_336_digital_biology.md`](file:///h:/script-raw-/REGISTRY/Niches/336_digital_biology/CAT_336_digital_biology.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/336_digital_biology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/336_digital_biology/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/336_digital_biology/`](file:///h:/script-raw-/OUTPUT/336_digital_biology/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "4fa39538917a1cd50db21013e7d0c1d8b9f87266b28cba911b59984d37d32b98",
+        "original_text": "{\r\n  \"niche_id\": \"336\",\r\n  \"niche_name\": \"digital_biology\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Digital Biology: Biology Becomes Computable\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"digital_biology_biology_becomes_computable\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring biology becomes computable through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Digital Biology: A Digital Biology Claim Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"digital_biology_a_digital_biology_claim_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a digital biology claim rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Digital Biology: People Behind Biological Data\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"digital_biology_people_behind_biological_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind biological data through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Digital Biology: From Sample to Digital Record\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"digital_biology_from_sample_to_digital_record\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from sample to digital record through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Digital Biology: Model Versus Living System\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"digital_biology_model_versus_living_system\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring model versus living system through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Digital Biology: A Dataset Disagreement\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"digital_biology_a_dataset_disagreement\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a dataset disagreement through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Digital Biology: A New Biological Model\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"digital_biology_a_new_biological_model\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new biological model through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Digital Biology: A Data Stewardship Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"digital_biology_a_data_stewardship_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a data stewardship decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Digital Biology: A Repository or Method Release\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"digital_biology_a_repository_or_method_release\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a repository or method release through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Digital Biology: A Computational Biology Pipeline\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"digital_biology_a_computational_biology_pipeline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a computational biology pipeline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Digital Biology: A Biological Hypothesis Reassessed\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"digital_biology_a_biological_hypothesis_reassessed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a biological hypothesis reassessed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Digital Biology: One Question Across Data Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"digital_biology_one_question_across_data_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one question across data generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Digital Biology: A Proposed Digital Biology Tool\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"digital_biology_a_proposed_digital_biology_tool\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed digital biology tool through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Digital Biology: A Model Replaces Experiments?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"digital_biology_a_model_replaces_experiments\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a model replaces experiments? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Digital Biology: A Dataset's Journey\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"digital_biology_a_dataset_s_journey\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a dataset's journey through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Digital Biology: From Record to Biological Account\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"observation_to_explanation\",\r\n      \"slug\": \"digital_biology_from_record_to_biological_account\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from record to biological account through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Digital Biology: How Biological Data Are Measured\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"digital_biology_how_biological_data_are_measured\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how biological data are measured through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Digital Biology: Scale Changes an Inference\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"scale_and_timespan\",\r\n      \"slug\": \"digital_biology_scale_changes_an_inference\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring scale changes an inference through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Digital Biology: Digital Prediction Meets Living Context\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"digital_biology_digital_prediction_meets_living_context\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring digital prediction meets living context through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Digital Biology: Variation Beyond the Reference\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"natural_variation\",\r\n      \"slug\": \"digital_biology_variation_beyond_the_reference\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring variation beyond the reference through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Digital Biology: An Outlier That Tests the Model\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"digital_biology_extreme_case\",\r\n      \"why_trending\": \"High viral search interest exploring does an unusual organism or condition reveal a model limit backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Digital Biology: A Dataset Disagreement\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"digital_biology_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring why do two biological datasets disagree backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Digital Biology: A New Biological Model\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"digital_biology_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it improve a named research task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Digital Biology: A Model Replaces Experiments?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"digital_biology_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which predictions still need observation or intervention backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Digital Biology: A Repository or Method Release\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"digital_biology_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what became possible after one data or software release backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Digital Biology: People Behind Biological Data\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"digital_biology_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who collected specimens, annotated records, and maintained repositories backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Digital Biology: A Dataset's Journey\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"digital_biology_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a specimen and its records reach a published result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "336",
+      "niche_name": "digital_biology",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Digital Biology: Biology Becomes Computable",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "digital_biology_biology_becomes_computable",
+          "reason": "A rigorous pedagogical investigation exploring biology becomes computable through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Digital Biology: A Digital Biology Claim Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "digital_biology_a_digital_biology_claim_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a digital biology claim rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Digital Biology: People Behind Biological Data",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "digital_biology_people_behind_biological_data",
+          "reason": "A rigorous pedagogical investigation exploring people behind biological data through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Digital Biology: From Sample to Digital Record",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "digital_biology_from_sample_to_digital_record",
+          "reason": "A rigorous pedagogical investigation exploring from sample to digital record through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Digital Biology: Model Versus Living System",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "digital_biology_model_versus_living_system",
+          "reason": "A rigorous pedagogical investigation exploring model versus living system through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Digital Biology: A Dataset Disagreement",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "digital_biology_a_dataset_disagreement",
+          "reason": "A rigorous pedagogical investigation exploring a dataset disagreement through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Digital Biology: A New Biological Model",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "digital_biology_a_new_biological_model",
+          "reason": "A rigorous pedagogical investigation exploring a new biological model through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Digital Biology: A Data Stewardship Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "digital_biology_a_data_stewardship_decision",
+          "reason": "A rigorous pedagogical investigation exploring a data stewardship decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Digital Biology: A Repository or Method Release",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "digital_biology_a_repository_or_method_release",
+          "reason": "A rigorous pedagogical investigation exploring a repository or method release through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Digital Biology: A Computational Biology Pipeline",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "digital_biology_a_computational_biology_pipeline",
+          "reason": "A rigorous pedagogical investigation exploring a computational biology pipeline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Digital Biology: A Biological Hypothesis Reassessed",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "digital_biology_a_biological_hypothesis_reassessed",
+          "reason": "A rigorous pedagogical investigation exploring a biological hypothesis reassessed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Digital Biology: One Question Across Data Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "digital_biology_one_question_across_data_generations",
+          "reason": "A rigorous pedagogical investigation exploring one question across data generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Digital Biology: A Proposed Digital Biology Tool",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "digital_biology_a_proposed_digital_biology_tool",
+          "reason": "A rigorous pedagogical investigation exploring a proposed digital biology tool through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Digital Biology: A Model Replaces Experiments?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "digital_biology_a_model_replaces_experiments",
+          "reason": "A rigorous pedagogical investigation exploring a model replaces experiments? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Digital Biology: A Dataset's Journey",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "digital_biology_a_dataset_s_journey",
+          "reason": "A rigorous pedagogical investigation exploring a dataset's journey through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Digital Biology: From Record to Biological Account",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "observation_to_explanation",
+          "slug": "digital_biology_from_record_to_biological_account",
+          "reason": "A rigorous pedagogical investigation exploring from record to biological account through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Digital Biology: How Biological Data Are Measured",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "measurement_method",
+          "slug": "digital_biology_how_biological_data_are_measured",
+          "reason": "A rigorous pedagogical investigation exploring how biological data are measured through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Digital Biology: Scale Changes an Inference",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "scale_and_timespan",
+          "slug": "digital_biology_scale_changes_an_inference",
+          "reason": "A rigorous pedagogical investigation exploring scale changes an inference through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Digital Biology: Digital Prediction Meets Living Context",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_vs_lab",
+          "slug": "digital_biology_digital_prediction_meets_living_context",
+          "reason": "A rigorous pedagogical investigation exploring digital prediction meets living context through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Digital Biology: Variation Beyond the Reference",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "natural_variation",
+          "slug": "digital_biology_variation_beyond_the_reference",
+          "reason": "A rigorous pedagogical investigation exploring variation beyond the reference through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Digital Biology: An Outlier That Tests the Model",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "digital_biology_extreme_case",
+          "why_trending": "High viral search interest exploring does an unusual organism or condition reveal a model limit backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Digital Biology: A Dataset Disagreement",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "digital_biology_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring why do two biological datasets disagree backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Digital Biology: A New Biological Model",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "digital_biology_technology_innovation",
+          "why_trending": "High viral search interest exploring did it improve a named research task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Digital Biology: A Model Replaces Experiments?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "digital_biology_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which predictions still need observation or intervention backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Digital Biology: A Repository or Method Release",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "digital_biology_major_events",
+          "why_trending": "High viral search interest exploring what became possible after one data or software release backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Digital Biology: People Behind Biological Data",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "digital_biology_hidden_stories",
+          "why_trending": "High viral search interest exploring who collected specimens, annotated records, and maintained repositories backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Digital Biology: A Dataset's Journey",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "digital_biology_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a specimen and its records reach a published result backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "feb51f403ca634e4fae3ee91a789808ad0f86fbbb0076571728dd0105b100ba6"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "7282fa89e2931c4034773c0e050301d556b56f180b95267081683b0afee11869"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "7d136f3a1f15bc364c2914d5920fcd503c8bc6d30b33f52cb67867b46d608521"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "f1758ef035747cd50a031f8f65dbd50ad58b4cfcf6bb52e309b3b4437de66cad"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "1deb88f6584dd20684b788aa2a28da06d25dcdcafae3ead73b9038582155f2c7"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-336-01",
+      "title": "Models",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-336-02",
+      "title": "Data",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-336-03",
+      "title": "Applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-336-04",
+      "title": "Validation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-336-05",
+      "title": "Laboratories",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-336-06",
+      "title": "Privacy",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "336",
+    "slug": "digital_biology",
+    "name": "Digital Biology",
+    "primary_category": "Life_Biology",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Digital Biology YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-336-01",
+        "title": "Computational biology",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-336-001",
+            "title": "Protein structure prediction",
+            "question": "Protein structure prediction: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Computational biology. Address Protein structure prediction through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Protein structure prediction precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-002",
+            "title": "Single-cell atlas construction",
+            "question": "Single-cell atlas construction: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Computational biology. Address Single-cell atlas construction through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Single-cell atlas construction precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-003",
+            "title": "Digital pathology models",
+            "question": "Digital pathology models: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Computational biology. Address Digital pathology models through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Digital pathology models precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-336-02",
+        "title": "Modeling",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-336-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-336-004",
+            "title": "Biological network simulation",
+            "question": "Biological network simulation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Digital Biology; branch: Modeling. Address Biological network simulation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Biological network simulation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-005",
+            "title": "Data integration across assays",
+            "question": "Data integration across assays: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Digital Biology; branch: Modeling. Address Data integration across assays through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Data integration across assays.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-006",
+            "title": "Lab automation data provenance",
+            "question": "Lab automation data provenance: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Digital Biology; branch: Modeling. Address Lab automation data provenance through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Lab automation data provenance.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-336-03",
+        "title": "Validation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-336-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-336-007",
+            "title": "Out-of-distribution biological predictions",
+            "question": "Out-of-distribution biological predictions: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Validation. Address Out-of-distribution biological predictions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Out-of-distribution biological predictions precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-008",
+            "title": "Experimental confirmation",
+            "question": "Experimental confirmation: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Validation. Address Experimental confirmation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Experimental confirmation precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-336-009",
+            "title": "Privacy of genomic datasets",
+            "question": "Privacy of genomic datasets: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Digital Biology; branch: Validation. Address Privacy of genomic datasets through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Privacy of genomic datasets precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "027",
+        "title": "Genetics & Evolution",
+        "directory": "027_genetics_evolution",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "154",
+        "title": "Microbiology",
+        "directory": "154_microbiology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "155",
+        "title": "Biotechnology",
+        "directory": "155_biotechnology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "350",
+        "title": "Biology",
+        "directory": "350_biology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "353",
+        "title": "Disease Science",
+        "directory": "353_disease_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "354",
+        "title": "Evolution",
+        "directory": "354_evolution",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Digital Biology: Biology Becomes Computable",
+      "question": "Which dataset or computational method changed a defined biological question?",
+      "coverage": "Use dated repository, method, and study records. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Digital Biology Claim Rechecked",
+      "question": "Did one model predict a result later tested experimentally?",
+      "coverage": "Compare prediction, independent experiment, and uncertainty. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: People Behind Biological Data",
+      "question": "Who collected specimens, annotated records, and maintained repositories?",
+      "coverage": "Trace credit, consent, and data provenance. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: From Sample to Digital Record",
+      "question": "How does a biological specimen become analyzable data?",
+      "coverage": "Trace sampling, measurement, metadata, processing, and interpretation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: Model Versus Living System",
+      "question": "Which assumptions make a biological simulation useful or misleading?",
+      "coverage": "Compare predictions with independent observations. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Dataset Disagreement",
+      "question": "Why do two biological datasets disagree?",
+      "coverage": "Check species, sampling, protocol, version, and annotation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A New Biological Model",
+      "question": "Did it improve a named research task?",
+      "coverage": "Test external data, baseline, uncertainty, and laboratory confirmation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Data Stewardship Decision",
+      "question": "Who decided how biological records would be shared?",
+      "coverage": "Examine contributors, communities, access, and attribution. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Repository or Method Release",
+      "question": "What became possible after one data or software release?",
+      "coverage": "Use dated availability and independent reuse evidence. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Computational Biology Pipeline",
+      "question": "How are raw observations cleaned, analyzed, and interpreted?",
+      "coverage": "Trace a named dataset and versioned workflow. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Biological Hypothesis Reassessed",
+      "question": "What new data or method changed confidence?",
+      "coverage": "Compare original and later evidence without claiming universal reversal. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: One Question Across Data Generations",
+      "question": "Did additional resolution improve biological inference?",
+      "coverage": "Match organism, sampling, outcome, and measurement method. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Proposed Digital Biology Tool",
+      "question": "What would validate usefulness beyond training data?",
+      "coverage": "Require external samples, mechanistic checks, and practical outcome. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Model Replaces Experiments?",
+      "question": "Which predictions still need observation or intervention?",
+      "coverage": "Separate computational plausibility from biological confirmation. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: A Dataset's Journey",
+      "question": "How did a specimen and its records reach a published result?",
+      "coverage": "Follow consent, metadata, analysis, and reanalysis. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: From Record to Biological Account",
+      "question": "Which measurements support an explanation rather than correlation?",
+      "coverage": "Trace specimen, instrument, model, and independent evidence. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: How Biological Data Are Measured",
+      "question": "Which sampling and instrument choices shape a digital record?",
+      "coverage": "Report protocol, calibration, metadata, and error. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: Scale Changes an Inference",
+      "question": "Does a finding hold across molecule, organism, population, or ecosystem?",
+      "coverage": "Define scale and observation period. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: Digital Prediction Meets Living Context",
+      "question": "Does a laboratory or computational result persist in the field?",
+      "coverage": "Compare conditions, controls, and measured outcome. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Digital Biology: Variation Beyond the Reference",
+      "question": "Which organisms or populations differ from a reference dataset?",
+      "coverage": "Check sampling, taxonomy, and uncertainty. Evidence base: versioned biological repositories, sample metadata, published methods, computational pipelines, independent experiments, and official species assessments.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-336-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "468f0d49a75b834b9f1aa2095ccdfd84237e04528cf4f12575b18603f7f57994",
+    "TOPIC_BANK_RECONCILIATION.md": "edb12781e359a32075cb8774a613a4f6069b7a5ed321429a01075fb01efbd7b7",
+    "TOPICS_COVERED_REPORT.md": "074ff3c5d5aaafa840d1db66c46eec8b90d238877ec095f6e0028ab98319fc28",
+    "336_DIGITAL_BIOLOGY_CHANNEL_TOPIC_ROADMAP.md": "66e8fe9f17d69aa6cbff15e8de5d5740148051485ecb1effdc4b8699b7da0c70"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-336-004": [
+      "BANK-336-030"
+    ],
+    "BANK-336-005": [
+      "BANK-336-031"
+    ],
+    "BANK-336-007": [
+      "BANK-336-032"
+    ],
+    "BANK-336-008": [
+      "BANK-336-032"
+    ],
+    "BANK-336-001": [
+      "BANK-336-034"
+    ],
+    "BANK-336-002": [
+      "BANK-336-035"
+    ],
+    "BANK-336-003": [
+      "BANK-336-036"
+    ],
+    "BANK-336-006": [
+      "BANK-336-037"
+    ],
+    "BANK-336-009": [
+      "BANK-336-038"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 1 (The Architecture of Digital Biology: Biology Becomes Computable) through: What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-032"
+      ],
+      "reason": "Existing question covers archived pitch 2 (Digital Biology: A Digital Biology Claim Rechecked) through: How can a biological model predict well while explaining mechanisms poorly? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 3 (Digital Biology: People Behind Biological Data) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 4 (Digital Biology: From Sample to Digital Record) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-030"
+      ],
+      "reason": "Existing question covers archived pitch 5 (Digital Biology: Model Versus Living System) through: How is a digital model of a cell different from a complete digital cell? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 6 (Digital Biology: A Dataset Disagreement) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 7 (Digital Biology: A New Biological Model) through: What could the 2022 Tabula Sapiens atlas compare across organs sampled from the same donors? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-038"
+      ],
+      "reason": "Existing question covers archived pitch 8 (Digital Biology: A Data Stewardship Decision) through: Why can genomic datasets remain identifying after names are removed? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 9 (Digital Biology: A Repository or Method Release) through: What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 10 (Digital Biology: A Computational Biology Pipeline) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-032"
+      ],
+      "reason": "Existing question covers archived pitch 11 (Digital Biology: A Biological Hypothesis Reassessed) through: How can a biological model predict well while explaining mechanisms poorly? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 12 (Digital Biology: One Question Across Data Generations) through: What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-039"
+      ],
+      "reason": "Existing question covers archived pitch 13 (Digital Biology: A Proposed Digital Biology Tool) through: How can an automated laboratory test a biological model without simply repeating the model's training conditions? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-039"
+      ],
+      "reason": "Existing question covers archived pitch 14 (Digital Biology: A Model Replaces Experiments?) through: How can an automated laboratory test a biological model without simply repeating the model's training conditions? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 15 (Digital Biology: A Dataset's Journey) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-031"
+      ],
+      "reason": "Existing question covers archived pitch 16 (Digital Biology: From Record to Biological Account) through: Why is combining molecular and organism-level biological data difficult? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 17 (Digital Biology: How Biological Data Are Measured) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-031"
+      ],
+      "reason": "Existing question covers archived pitch 18 (Digital Biology: Scale Changes an Inference) through: Why is combining molecular and organism-level biological data difficult? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-034"
+      ],
+      "reason": "Existing question covers archived pitch 19 (Digital Biology: Digital Prediction Meets Living Context) through: Why does predicting a protein's structure not fully explain what it does in a cell? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 20 (Digital Biology: Variation Beyond the Reference) through: What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-032"
+      ],
+      "reason": "Existing question covers archived pitch 21 (Digital Biology: An Outlier That Tests the Model) through: How can a biological model predict well while explaining mechanisms poorly? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 22 (Digital Biology: A Dataset Disagreement) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 23 (Digital Biology: A New Biological Model) through: What could the 2022 Tabula Sapiens atlas compare across organs sampled from the same donors? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-039"
+      ],
+      "reason": "Existing question covers archived pitch 24 (Digital Biology: A Model Replaces Experiments?) through: How can an automated laboratory test a biological model without simply repeating the model's training conditions? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-336-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 25 (Digital Biology: A Repository or Method Release) through: What did the Human Pangenome Reference Consortium's 2023 draft add beyond a single linear human reference genome? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 26 (Digital Biology: People Behind Biological Data) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-336-037"
+      ],
+      "reason": "Existing question covers archived pitch 27 (Digital Biology: A Dataset's Journey) through: Why does a biological model need the history of how its training measurements were produced? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-336-040",
+      "note_file": "336_DIGITAL_BIOLOGY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-336-041",
+      "note_file": "336_DIGITAL_BIOLOGY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-336-040",
+      "related_id": "BANK-336-038",
+      "boundary": "Reference representation and variation versus genomic reidentification risk."
+    },
+    {
+      "topic_id": "BANK-336-040",
+      "related_id": "BANK-155-030",
+      "boundary": "Digital reference construction versus biotechnology interventions."
+    },
+    {
+      "topic_id": "BANK-336-041",
+      "related_id": "BANK-336-035",
+      "boundary": "Named multi-organ atlas and donor sampling versus atlas completeness in general."
+    },
+    {
+      "topic_id": "BANK-336-041",
+      "related_id": "BANK-154-030",
+      "boundary": "Human cell transcriptomes versus microbial biology."
+    }
+  ]
+}

@@ -1,0 +1,1487 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "007",
+  "slug": "ai_tools_ai_tutorials",
+  "name": "AI Tools / AI Tutorials",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for AI Tools / AI Tutorials. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 21,
+    "proposed_topics": 104
+  },
+  "categories": [
+    {
+      "title": "Choosing and testing tools",
+      "level": "foundation",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a creator turn an AI tool comparison into a repeatable test?",
+          "coverage": "Define the task, input set, success criteria, versions, settings and failure log before selecting attractive examples.",
+          "id": "BANK-007-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a free AI plan actually allow a complete workflow to finish?",
+          "coverage": "Test quotas, exports, watermarks, commercial terms and repeat attempts on a dated plan rather than comparing only advertised access.",
+          "id": "BANK-007-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When is a local AI tool a practical alternative to a cloud service?",
+          "coverage": "Compare actual hardware, setup effort, privacy, quality, maintenance and end-to-end time on the same task.",
+          "id": "BANK-007-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a tutorial record model and application versions?",
+          "coverage": "Preserve settings, dates, interface changes and reproducible inputs so viewers can identify why their results differ.",
+          "id": "BANK-007-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes an AI-generated example cherry-picked?",
+          "coverage": "Report attempts, rejected outputs and selection criteria; distinguish illustrative success from representative performance.",
+          "id": "BANK-007-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Writing and document workflows",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How reliably can an AI tool extract a table with merged cells?",
+          "coverage": "Use known reference tables and score headers, units, spans and omissions separately from visual resemblance.",
+          "id": "BANK-007-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does OCR fail before the language model even sees the document?",
+          "coverage": "Compare scans, rotation, handwriting, scripts and layout; trace errors to extraction rather than blaming every failure on reasoning.",
+          "id": "BANK-007-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a summarization workflow preserve exceptions and qualifications?",
+          "coverage": "Compare the summary with labeled source claims, dates and exclusions rather than judging only readability.",
+          "id": "BANK-007-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What checks should an AI-assisted citation workflow perform before export?",
+          "coverage": "Verify source existence, passage support, quote accuracy and bibliographic fields using an auditable source list.",
+          "id": "BANK-007-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can document question answering handle a later revision of the same policy?",
+          "coverage": "Track version, date, superseded text and retrieval filters; test whether answers cite the applicable edition.",
+          "id": "BANK-007-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D02",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Image-generation workflows",
+      "level": "intermediate",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How can a reference board improve consistency across generated images?",
+          "coverage": "Separate character identity, costume, palette, composition and lighting; test changes one variable at a time.",
+          "id": "BANK-007-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does full-body framing not require every limb to be visible?",
+          "coverage": "Compare complete pose framing, plausible concealment and anatomy; avoid forcing an extra hand or foot into view.",
+          "id": "BANK-007-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can animal-faced characters remain visually consistent with human characters?",
+          "coverage": "Test linework, shading, facial design and rendering vocabulary rather than assuming one style label controls every subject.",
+          "id": "BANK-007-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be checked when editing one object in a generated image?",
+          "coverage": "Inspect surrounding geometry, shadows, texture, identity and unintended changes against the original reference.",
+          "id": "BANK-007-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a creator evaluate text rendering in generated thumbnails?",
+          "coverage": "Score spelling, script shape, hierarchy and mobile-size readability; distinguish editable typography from baked-in image text.",
+          "id": "BANK-007-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D03",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Video generation and continuity",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What makes a source image suitable for a restrained image-to-video shot?",
+          "coverage": "Check pose stability, depth cues, moving elements and camera intent before selecting the generation settings.",
+          "id": "BANK-007-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a static-camera ambient scene retain believable movement?",
+          "coverage": "Specify local motions, loop boundaries and stable geometry; evaluate flicker, drifting objects and unintended camera changes.",
+          "id": "BANK-007-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do generated characters change appearance between adjacent shots?",
+          "coverage": "Compare references, seeds, prompts, lighting and model versions while documenting which controls actually affect identity.",
+          "id": "BANK-007-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an editor assemble usable coverage from imperfect generated clips?",
+          "coverage": "Plan shot purpose, continuity, cut points and sound bridges without hiding factual reconstruction as real footage.",
+          "id": "BANK-007-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a good loop test reveal beyond matching the first and last frame?",
+          "coverage": "Inspect motion direction, timing, light, audio and objects across repeated playback cycles.",
+          "id": "BANK-007-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D04",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Voice, transcription and music",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How should a transcription tool be tested on accented and multilingual speech?",
+          "coverage": "Use consented recordings and reference transcripts; score names, code-switching, omissions and speaker attribution separately.",
+          "id": "BANK-007-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a synthetic voice's pronunciation controllable across a series?",
+          "coverage": "Compare pronunciation dictionaries, phonetic hints, text normalization and voice settings on recurring names.",
+          "id": "BANK-007-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a voice-cloning workflow document meaningful authorization?",
+          "coverage": "Verify the speaker, permitted uses, retention and withdrawal terms without treating possession of a recording as consent.",
+          "id": "BANK-007-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can AI-generated music be evaluated for a seamless meditation loop?",
+          "coverage": "Inspect structure, abrupt transitions, changing intensity, clipping and repetition fatigue; do not infer therapeutic effects from genre.",
+          "id": "BANK-007-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does stem separation help an edit, and when do artifacts make it worse?",
+          "coverage": "Compare isolated and recombined stems using controlled listening, phase checks and the actual delivery requirement.",
+          "id": "BANK-007-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D05",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Coding and automation",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an AI coding tutorial prove that its generated program works?",
+          "coverage": "Run meaningful task checks, inspect dependencies and show failures rather than relying on a successful-looking explanation.",
+          "id": "BANK-007-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should happen when a coding assistant names an unavailable library function?",
+          "coverage": "Check official versioned documentation, reproduce the error and repair the implementation without inventing a second unsupported API.",
+          "id": "BANK-007-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a file-renaming automation preview its effects safely?",
+          "coverage": "Separate selection, proposed changes, collision checks, execution and recovery in a reversible local example.",
+          "id": "BANK-007-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should an automated workflow stop for a human decision?",
+          "coverage": "Identify consequential ambiguity, authority boundaries and recoverability using a concrete process rather than approval at every step.",
+          "id": "BANK-007-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can tool execution logs distinguish a proposed action from a completed one?",
+          "coverage": "Capture inputs, results, errors and postconditions; require evidence before reporting that a file or external record changed.",
+          "id": "BANK-007-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D06",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Data, privacy and portability",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "Where can a supposedly private AI workflow still send user data?",
+          "coverage": "Trace uploads, prompts, telemetry, integrations and logs using actual policies and network or architecture documentation.",
+          "id": "BANK-007-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be exported before changing AI providers?",
+          "coverage": "Inventory source files, references, prompts, configuration and editable outputs; test that the replacement can read them.",
+          "id": "BANK-007-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an app's privacy policy differ from settings visible in its interface?",
+          "coverage": "Compare policy scope, account tier, retention, training use and deletion terms at a recorded date.",
+          "id": "BANK-007-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does an AI tool's commercial-use claim leave unresolved?",
+          "coverage": "Inspect input rights, output terms, likeness, music, trademarks and jurisdiction rather than treating one label as complete clearance.",
+          "id": "BANK-007-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a tutorial disclose an affiliate relationship or sponsored access?",
+          "coverage": "Separate compensation, preferential access, test design and conclusions; keep failures visible alongside benefits.",
+          "id": "BANK-007-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D07",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Reliability and tutorial maintenance",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a tutorial remain useful after the product interface changes?",
+          "coverage": "Explain underlying decisions, preserve versioned screenshots or notes and define the steps that need rechecking.",
+          "id": "BANK-007-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What belongs in the total cost of an AI content workflow?",
+          "coverage": "Include retries, rendering, storage, review, correction and licensing using a transparent project budget.",
+          "id": "BANK-007-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a team measure whether AI reduced work rather than moved it to review?",
+          "coverage": "Compare completed-task quality, human time, rework and failure handling against the previous process.",
+          "id": "BANK-007-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why should a tool-ranking video report uncertainty instead of one universal winner?",
+          "coverage": "Compare different tasks, users, hardware and constraints; show when the ranking reverses.",
+          "id": "BANK-007-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What is a responsible way to publish an AI workflow with known failure cases?",
+          "coverage": "Document limitations, recovery steps, suitable uses and updates without presenting the workflow as universally reliable.",
+          "id": "BANK-007-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D08",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Local model installation and environment checks",
+      "level": "foundation",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a tutorial verify that a local model server is actually running?",
+          "coverage": "Inspect official versioned setup instructions and a harmless health check; distinguish process startup from successful inference.",
+          "id": "BANK-007-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be recorded before troubleshooting a local AI installation?",
+          "coverage": "Capture operating system, runtime, application version and redacted error messages.",
+          "id": "BANK-007-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can model download failure be separated from insufficient memory at inference time?",
+          "coverage": "Compare logs, file integrity and resource observations using official diagnostics.",
+          "id": "BANK-007-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a model's runtime compatibility require beyond its filename?",
+          "coverage": "Verify architecture, format, tokenizer and supported features in current documentation.",
+          "id": "BANK-007-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a creator test CPU-only inference before buying hardware?",
+          "coverage": "Use a bounded representative task and measured latency; leave purchase decisions to dated comparisons.",
+          "id": "BANK-007-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What must be checked before exposing a local AI server to another device?",
+          "coverage": "Inspect authentication, network scope and official security guidance; exclude public unauthenticated deployment.",
+          "id": "BANK-007-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E01",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Local workflow quality and resource limits",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can context length be increased without misreading a memory-allocation failure?",
+          "coverage": "Record runtime settings, model variant and resource use on an actual supported setup.",
+          "id": "BANK-007-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a local-model tutorial compare several quantized files?",
+          "coverage": "Use the same prompts, precision disclosures and task-specific review; avoid size-only quality rankings.",
+          "id": "BANK-007-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a controlled batch test reveal about a local model's usability?",
+          "coverage": "Measure failures, latency and review effort rather than displaying only successful answers.",
+          "id": "BANK-007-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a workflow resume after a local model process restarts?",
+          "coverage": "Preserve external task state, inputs and completed outputs in a disposable example.",
+          "id": "BANK-007-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can an application show a model as connected while a specific feature still fails?",
+          "coverage": "Check endpoint compatibility, authentication and supported tool or image capabilities.",
+          "id": "BANK-007-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E02",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Retrieval and personal-document workflows",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a creator build a test set for document retrieval before uploading a whole archive?",
+          "coverage": "Select permission-cleared questions with known passages and explicit missing-answer cases.",
+          "id": "BANK-007-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should happen when scanned pages enter a retrieval index with incorrect reading order?",
+          "coverage": "Compare original pages, OCR output and corrected ingestion before evaluating answers.",
+          "id": "BANK-007-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can duplicate document versions distort a retrieval demonstration?",
+          "coverage": "Track identity, dates and superseded records; preserve the authoritative version.",
+          "id": "BANK-007-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a citation click-through test reveal about an AI document assistant?",
+          "coverage": "Verify the exact supporting passage, file version and displayed claim.",
+          "id": "BANK-007-067",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a local document assistant handle sensitive files without accidental telemetry exposure?",
+          "coverage": "Inspect current app settings, data flows and official policies; do not claim unobserved backend isolation.",
+          "id": "BANK-007-068",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E03",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Research, spreadsheets and data workflows",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can an AI spreadsheet helper be checked for formulas that merely look plausible?",
+          "coverage": "Use original test inputs, independent calculations and recalculation in the actual spreadsheet engine.",
+          "id": "BANK-007-069",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a chart-generation tutorial verify before presenting an AI-created graph?",
+          "coverage": "Compare source values, units, aggregation and labels against the plotted data.",
+          "id": "BANK-007-070",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a research assistant distinguish a search snippet from a source it actually read?",
+          "coverage": "Track retrieval, access and supporting text; mark inaccessible sources rather than inventing findings.",
+          "id": "BANK-007-071",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes AI extraction of invoices require more than correct-looking totals?",
+          "coverage": "Check document identity, currencies, tax fields and exceptions with permission-cleared samples.",
+          "id": "BANK-007-072",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool turn a structured topic bank into a readable document without losing IDs?",
+          "coverage": "Compare exported rows, scopes and source records with automated count checks.",
+          "id": "BANK-007-073",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E04",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Creator pipelines from brief to delivery",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a devotional image workflow separate iconography checks from stylistic consistency?",
+          "coverage": "Use authorized attributes and a designated visual guide; do not treat generated detail as source evidence.",
+          "id": "BANK-007-074",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a thumbnail workflow compare before choosing a final image?",
+          "coverage": "Inspect composition, legibility, claim accuracy, crop and actual export size.",
+          "id": "BANK-007-075",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a long ambient-video workflow avoid repeating an obvious visual defect?",
+          "coverage": "Review loop seams, motion continuity and representative samples before full rendering.",
+          "id": "BANK-007-076",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does multilingual subtitle export need beyond a translated transcript?",
+          "coverage": "Check timing, script shaping, names, speaker identity and source-language review.",
+          "id": "BANK-007-077",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can generated music be combined with a nature recording while preserving provenance?",
+          "coverage": "Track licenses, levels, edits and the original recordings; avoid commercial-rights assumptions.",
+          "id": "BANK-007-078",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI video tool's export be tested for the platform format actually needed?",
+          "coverage": "Verify dimensions, frame rate, duration, codec and visible artifacts in the delivered file.",
+          "id": "BANK-007-079",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E05",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Coding assistants and development projects",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a coding assistant propose a reviewable change before modifying a project?",
+          "coverage": "Inspect the actual repository, scope, diff and existing tests using a disposable example.",
+          "id": "BANK-007-080",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a generated website be checked for beyond its first screenshot?",
+          "coverage": "Test navigation, forms, mobile layout, accessibility and actual stored state.",
+          "id": "BANK-007-081",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI assistant repair an error without silently replacing unrelated work?",
+          "coverage": "Use isolated edits, version history and explicit preservation checks.",
+          "id": "BANK-007-082",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a dependency-installation tutorial need to verify before running suggested commands?",
+          "coverage": "Check official package identity, versions, permissions and actual project requirements.",
+          "id": "BANK-007-083",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI coding workflow distinguish an existing repository issue from a new regression?",
+          "coverage": "Compare baseline behavior, changed scope and appropriate reproducible checks.",
+          "id": "BANK-007-084",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E06",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Automation, connectors and persistent work",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can an automation be tested without sending real messages or changing real records?",
+          "coverage": "Use drafts, sandbox data and explicit action boundaries.",
+          "id": "BANK-007-085",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a connector disclose before an AI tool reads a cloud account?",
+          "coverage": "Inspect permissions, selected resources, retention and current official documentation.",
+          "id": "BANK-007-086",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a scheduled AI task avoid repeating work after an interrupted run?",
+          "coverage": "Use stable IDs, saved checkpoints and completion evidence outside transient memory.",
+          "id": "BANK-007-087",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens when two AI workflows try to update the same saved artifact?",
+          "coverage": "Demonstrate guarded writes, conflict detection and reconciliation using placeholder content.",
+          "id": "BANK-007-088",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an automation report a genuine blocker without implying partial work is complete?",
+          "coverage": "Define observable progress, missing requirements and an honest remaining-work tracker.",
+          "id": "BANK-007-089",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a workflow distinguish private saving from public publication?",
+          "coverage": "Verify actual access settings and deployment state rather than relying on a success message.",
+          "id": "BANK-007-090",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E07",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Evaluation, exports and switching tools",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a creator compare image tools when each produces different random outputs?",
+          "coverage": "Use multiple controlled trials, explicit criteria and uncertainty instead of one best image.",
+          "id": "BANK-007-091",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI workflow export include so another person can reproduce it?",
+          "coverage": "Preserve prompts, versions, assets, permissions and execution settings without exposing credentials.",
+          "id": "BANK-007-092",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool's claimed time saving be measured across setup, review and correction?",
+          "coverage": "Record all work stages on comparable tasks rather than timing generation alone.",
+          "id": "BANK-007-093",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a creator test before moving a content pipeline to a new provider?",
+          "coverage": "Compare required features, output compatibility, rights and complete representative runs.",
+          "id": "BANK-007-094",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI tutorial be corrected when a previously free capability becomes paid?",
+          "coverage": "Date the change, update the workflow and distinguish historical instructions from current availability.",
+          "id": "BANK-007-095",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E08",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Named local-runtime tutorial plans",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an Ollama tutorial test model availability separately from chat-template behavior?",
+          "coverage": "At production, record the actual Ollama version, official model documentation, local list and a minimal request using harmless text; plan separate checks for model loading and role formatting rather than assuming every model supports identical options.",
+          "id": "BANK-007-096",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a llama.cpp tutorial verify that its selected backend is actually doing the computation?",
+          "coverage": "Pin the tested release, build options, hardware and official logs; compare a small controlled run and resource evidence without using a GPU usage screenshot alone as proof of complete offload.",
+          "id": "BANK-007-097",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an LM Studio model-import lesson verify before declaring a downloaded file compatible?",
+          "coverage": "Record application version, model architecture, file provenance and official supported-runtime guidance; keep the proposed steps provisional until executed on the specified system.",
+          "id": "BANK-007-098",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a Whisper transcription lesson expose errors that a fluent paragraph conceals?",
+          "coverage": "Use licensed or consented audio with an aligned reference including names, numbers and overlapping speech; record the exact implementation, model and language settings without claiming a successful test before running it.",
+          "id": "BANK-007-099",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E09",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Document and spreadsheet failure test sets",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an invoice-extraction test distinguish a credit note from a normal invoice?",
+          "coverage": "Author fictional paired documents with signed totals, taxes, currency and explicit document type; score extracted fields and downstream sign handling rather than only readable text.",
+          "id": "BANK-007-100",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI table-extraction test do with a total split across two scanned pages?",
+          "coverage": "Construct an original multipage fixture with carried subtotals, repeated headers and reading-order traps; compare cell structure and arithmetic against an independent answer key.",
+          "id": "BANK-007-101",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a spreadsheet assistant be tested on percentages stored as text?",
+          "coverage": "Use a disposable workbook containing numeric percentages, localized text and blanks; inspect formula results and type conversion against manual calculations without altering real financial records.",
+          "id": "BANK-007-102",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a hidden-row test reveal about an AI-generated spreadsheet summary?",
+          "coverage": "Create an original workbook with filters, hidden rows and clearly labeled totals; require the tool to state its inclusion rule and compare results with the intended view.",
+          "id": "BANK-007-103",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a document-conversion workflow preserve footnote qualifiers attached to a claim?",
+          "coverage": "Build a short original source with endnotes, tables and a qualified statement; verify rendered pages and claim-footnote links rather than judging only extracted body text.",
+          "id": "BANK-007-104",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E10",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Audio, video and creator export diagnostics",
+      "level": "intermediate",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How can a subtitle workflow detect timing drift in a long recording?",
+          "coverage": "Use consented or original audio with timed markers near the beginning, middle and end; compare exported cues with the exact media timebase and separate transcription errors from synchronization errors.",
+          "id": "BANK-007-105",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI video-export test measure when frame rate is variable?",
+          "coverage": "Record source timestamps, output metadata and visible synchronization markers using official tool documentation; avoid assuming a nominal frame-rate label proves uniform timing.",
+          "id": "BANK-007-106",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an ambient-loop test distinguish a seamless image transition from an audible seam?",
+          "coverage": "Render an original short loop and inspect the boundary in both waveform and frame sequence; assess repeated listening and viewing without declaring a long export verified from one still image.",
+          "id": "BANK-007-107",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a generated Hindi voiceover be checked for devotional names and honorifics?",
+          "coverage": "Use a source-language reviewer, an approved word list and actual audio rather than transcript-only scoring; verify voice-use permission and avoid cloning an identifiable person's voice without consent.",
+          "id": "BANK-007-108",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E11",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Reproducible migrations and changing providers",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an embedding-index migration be tested when the new vectors have a different dimension?",
+          "coverage": "Keep original documents, chunk IDs, retrieval questions and reference passages; build a separate index using versioned official interfaces and compare results without mixing incompatible vector spaces.",
+          "id": "BANK-007-109",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a tool-calling migration test verify about optional and missing arguments?",
+          "coverage": "Use a fictional local service with explicit schemas, nulls and omitted fields; check validated calls and returned outcomes rather than assuming matching function names imply equivalent behavior.",
+          "id": "BANK-007-110",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a structured-output migration detect silent changes to dates and decimal numbers?",
+          "coverage": "Build an original fixture with ambiguous dates, locale-specific separators and required types; compare parsed values with the answer key under both providers' documented contracts.",
+          "id": "BANK-007-111",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What data must be preserved before retiring a provider-specific conversation store?",
+          "coverage": "Inventory user-owned source messages, attachments, tool results, access restrictions and export capabilities; distinguish available export evidence from a promise of full portability.",
+          "id": "BANK-007-112",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E12",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    },
+    {
+      "title": "Accessibility and multilingual end-to-end validation",
+      "level": "advanced",
+      "research_profile": "community",
+      "topics": [
+        {
+          "question": "How can a keyboard-only user complete an AI image-generation workflow from prompt to saved file?",
+          "coverage": "Plan a consented task test covering focus order, labels, progress, error recovery and download; inspect the actual versioned interface rather than assuming keyboard access from general accessibility claims.",
+          "id": "BANK-007-113",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a screen-reader test reveal missing information in an AI tool's image choices?",
+          "coverage": "Compare spoken labels, card selection, generation status and alternative descriptions in a named version; use intended-user feedback and do not infer accessibility from visual layout alone.",
+          "id": "BANK-007-114",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a Hindi-English mixed-script test reveal about a search-and-summary workflow?",
+          "coverage": "Create public or original paired documents, preserve transliteration variants and score retrieval and source attribution separately; avoid generalizing from one dialect or script convention.",
+          "id": "BANK-007-115",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an AI tutorial distinguish a tested workflow from a planned one?",
+          "coverage": "Publish a version-and-environment ledger with actual commands, observed failures and reproducibility limits after execution; label every unexecuted step and do not fabricate a success screenshot or timing result.",
+          "id": "BANK-007-116",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E13",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "community": {
+      "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+      "source_leads": [
+        "consented interviews and oral histories",
+        "community publications and local records",
+        "field notes with method and consent documented"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "007",
+    "slug": "ai_tools_ai_tutorials",
+    "name": "AI Tools / AI Tutorials",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a AI Tools / AI Tutorials YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-007-01",
+        "title": "Practical workflows",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-007-001",
+            "title": "Comparing transcription tools on accented speech",
+            "question": "Comparing transcription tools on accented speech: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Comparing transcription tools on accented speech through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Comparing transcription tools on accented speech.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-002",
+            "title": "Testing document extraction on complex tables",
+            "question": "Testing document extraction on complex tables: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Testing document extraction on complex tables through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Testing document extraction on complex tables.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-003",
+            "title": "Image generation with consistent references",
+            "question": "Image generation with consistent references: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Image generation with consistent references through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Image generation with consistent references.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-004",
+            "title": "Evaluating text-to-video continuity",
+            "question": "Evaluating text-to-video continuity: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Evaluating text-to-video continuity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Evaluating text-to-video continuity.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-007-02",
+        "title": "Tool selection",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-007-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-007-005",
+            "title": "Local versus cloud AI workflows",
+            "question": "Local versus cloud AI workflows: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Local versus cloud AI workflows through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Local versus cloud AI workflows.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-006",
+            "title": "Free tiers and total workflow cost",
+            "question": "Free tiers and total workflow cost: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Free tiers and total workflow cost through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Free tiers and total workflow cost.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-007",
+            "title": "Export formats and vendor lock-in",
+            "question": "Export formats and vendor lock-in: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Export formats and vendor lock-in through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Export formats and vendor lock-in.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-008",
+            "title": "Data retention in AI applications",
+            "question": "Data retention in AI applications: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Data retention in AI applications through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Data retention in AI applications.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-007-03",
+        "title": "Verification",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-007-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-007-009",
+            "title": "Checking AI-generated citations",
+            "question": "Checking AI-generated citations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Checking AI-generated citations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Checking AI-generated citations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-010",
+            "title": "Measuring coding-assistant regressions",
+            "question": "Measuring coding-assistant regressions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Measuring coding-assistant regressions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Measuring coding-assistant regressions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-011",
+            "title": "Evaluating speech-cloning consent controls",
+            "question": "Evaluating speech-cloning consent controls: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Evaluating speech-cloning consent controls through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Evaluating speech-cloning consent controls.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-012",
+            "title": "Reproducing an AI tutorial across versions",
+            "question": "Reproducing an AI tutorial across versions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Reproducing an AI tutorial across versions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Reproducing an AI tutorial across versions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_01"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "applied_extension_batches": [
+    "first_ten_depth_extension_01",
+    "first_ten_depth_extension_02"
+  ],
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "topic_cap": null,
+    "completion_basis": "Coverage of real subject branches, never a uniform topic count.",
+    "exhaustive_coverage_claimed": false,
+    "source_verification": "not_performed",
+    "latest_extension": "first_ten_depth_extension_02"
+  }
+}

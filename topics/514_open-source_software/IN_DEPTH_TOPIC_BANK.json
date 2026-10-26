@@ -1,0 +1,1613 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "514",
+  "slug": "open-source_software",
+  "name": "Open-Source Software",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Open-Source Software YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-514-R01",
+      "title": "Open-source foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-514-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4ab1ca57bc61a2a252f514076eb92f7e3e3d1070223b2c538ff73e953d2c84bd",
+      "topics": [
+        {
+          "question": "How does source availability differ from an open-source license?",
+          "coverage": "Compare permissions, restrictions and official license definitions.",
+          "id": "BANK-514-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a newcomer learn before submitting a first contribution?",
+          "coverage": "Read contribution rules, tests and issue context.",
+          "id": "BANK-514-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R02",
+      "title": "Project maintenance",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-514-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "63190a19d85c74a583c5a899a59618031bfd1a5c1c4abae3fe8e5cb520ddece4",
+      "topics": [
+        {
+          "question": "How do release branches balance stability and ongoing development?",
+          "coverage": "Trace fixes, backports and support boundaries.",
+          "id": "BANK-514-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-514-003"
+          ]
+        },
+        {
+          "question": "What happens when a dependency maintainer stops responding?",
+          "coverage": "Map stewardship, forks and risk assessment.",
+          "id": "BANK-514-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-514-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R03",
+      "title": "Community governance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-514-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3c7d47c45142414276e8ae2ce3ff584ce8d5c90484f00e4a24609bda4919b26e",
+      "topics": [
+        {
+          "question": "How can a project fund maintenance without giving one sponsor unchecked control?",
+          "coverage": "Compare governance and revenue structures.",
+          "id": "BANK-514-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a software fork sustainable beyond copying a repository?",
+          "coverage": "Include maintainers, release processes and user migration.",
+          "id": "BANK-514-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Python?s 2018 steering-council decision redistribute authority after its founder stepped down?",
+          "coverage": "Compare the 2018 PEP 8016 proposal and recorded acceptance with PEP 13?s governance specification: core-developer vote, five-member elected council, delegated authority and later amendment process. Distinguish the historical decision from current rules, actual practice and outcomes; one project cannot establish a universal open-source governance model.",
+          "id": "BANK-514-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R04",
+      "title": "Open-source stewardship",
+      "level": "foundation",
+      "parent_id": "DOMAIN-514-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bf67fdd1ee85c77584835168a2ae72398b68f4058e8597308286ce6baf253ef2",
+      "topics": [
+        {
+          "question": "Why can combining two open-source components create a license-compatibility question?",
+          "coverage": "Map obligations without individualized legal conclusions.",
+          "id": "BANK-514-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-514-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R05",
+      "title": "Open-source stewardship",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-514-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "45e42fa38e33d7344547025004747ba6e85da7bb8f89d28ef3135eecdf432bea",
+      "topics": [
+        {
+          "question": "How do contribution workflows and community conduct affect maintainer workload?",
+          "coverage": "Compare review queues and social responsibilities.",
+          "id": "BANK-514-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-514-002",
+            "BANK-514-004",
+            "BANK-514-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R06",
+      "title": "Open-source stewardship",
+      "level": "advanced",
+      "parent_id": "DOMAIN-514-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4091889724a5b5b5697ee696acc99606a09d96e2ce6d7ffa78482427cbcfac55",
+      "topics": [
+        {
+          "question": "How can funding and decision rights support a project's security-response capacity?",
+          "coverage": "Trace dependency stewardship and governance tradeoffs.",
+          "id": "BANK-514-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-514-005",
+            "BANK-514-008",
+            "BANK-514-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R07",
+      "title": "Software supply-chain provenance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-514-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1e4260dbcb1f56e2592bb2fcb409fd198572dc756cb1d539841ba668cd98c12a",
+      "topics": [
+        {
+          "question": "What can build provenance establish that a signed source commit cannot?",
+          "coverage": "Separate source identity, build inputs and distributed artifacts.",
+          "id": "BANK-514-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R08",
+      "title": "Project succession",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-514-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "41967ba5d81ca1826095ec96405a1336c99338e2e55426d8844e968e6db8de12",
+      "topics": [
+        {
+          "question": "How can an open-source project prepare for its lead maintainer's departure?",
+          "coverage": "Map access, authority and release knowledge.",
+          "id": "BANK-514-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R09",
+      "title": "Accessible contribution pathways",
+      "level": "foundation",
+      "parent_id": "DOMAIN-514-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "8a09898e9d45540e3d20981d497df0ae8f8a62cdc5a69dc4f61d9cc8ca1b1758",
+      "topics": [
+        {
+          "question": "How can contribution workflows accommodate people without extensive free time or strong English?",
+          "coverage": "Compare task design, documentation and review access.",
+          "id": "BANK-514-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-514-R10",
+      "title": "Public-sector open-source procurement",
+      "level": "advanced",
+      "parent_id": "DOMAIN-514-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ddc2e4896681d58ca045a46a05389cf977612db4f7fe0802a5ae504db7e206f3",
+      "topics": [
+        {
+          "question": "What should public procurement evaluate beyond the absence of license fees?",
+          "coverage": "Include support, sustainability and exit capability.",
+          "id": "BANK-514-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "community": {
+      "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+      "source_leads": [
+        "consented interviews and oral histories",
+        "community publications and local records",
+        "field notes with method and consent documented"
+      ]
+    },
+    "finance": {
+      "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+      "source_leads": [
+        "regulator or official statistical publications",
+        "actual contracts, fee schedules and audited filings",
+        "original economic studies and disclosed calculation inputs"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/514_open-source_software/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "ffe9bc84afd211b133cf4afd5d635b1013cae6aa472713732894f275d18c677d",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-514-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e5f1bab12febadf19ebe6720f6da49683c44524fe9085045ae2bf929cefdd41d"
+      },
+      "BANK-514-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cf65feb412313c70cd1ab28773b6f2f97cba8494ca7137111e3c81b842fcf1e6"
+      },
+      "BANK-514-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4f7d1a4dd36072334c589e5c2f4f4e4b9c7ded6b01e1e3841ed5e756375a3069"
+      },
+      "BANK-514-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ea6eee0723c014bf2cb768e42b577244e28446472c832f084872313cf5ef2cef"
+      },
+      "BANK-514-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e4cd7917b69443958b0c94368f0565321395fca977253a699cd7f29987efb600"
+      },
+      "BANK-514-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "791b8b45f463244537b8086b66bd15601749b6ed28d9489ec0dae29caf23d947"
+      },
+      "BANK-514-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "17fe9e20606a1142cf14054fa7fba69ee2023ac1f02266b9e1c1a37d9759051e"
+      },
+      "BANK-514-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e59dbb001575c13c676f2c7e5d6f43256cb37d1c1155dbad3238b27c3ef32b98"
+      },
+      "BANK-514-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b1e85d739b506e8b90b56d4314de7348aa56e291268f30559debdac952415265"
+      }
+    },
+    "source_categories": {
+      "CATALOG-514-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "05cf16907716ca5ae2173ed633d02b1be73c28c384b21f63b6332f359cfebf1c"
+      },
+      "CATALOG-514-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "ec7170a0f646c1534225fa91c94732e979724da43ac8f5bcf1cbca061da26daf"
+      },
+      "CATALOG-514-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "5e61153314b305eb838b377a6b10bd17b3cd1798f19850230eff5eac899d1a12"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "514_OPEN-SOURCE_SOFTWARE_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "85db6fef6c8e965400e7adef5e997ae35423123a2b1241032c10f4cbf01c2157",
+        "original_text": "# Open-Source Software Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 514 Open-Source Software (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Open-Source Software Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/514_open-source_software/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Open-Source Software across four progressive tiers:\r\n- **Tier 1: Open-Source Software Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Open-Source Software.\r\n- **Tier 2: Open-Source Software Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Open-Source Software.\r\n- **Tier 3: Open-Source Software Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Open-Source Software.\r\n- **Tier 4: Open-Source Software Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Open-Source Software.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (20 Curated Formats)\r\n\r\nEvery episode is produced using one of the 20 niche angle presets defined in [`REGISTRY/Niches/514_open-source_software/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/514_open-source_software/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How Open-Source Software Developed** | *How did a software project's founding problem shape its releases and governance?* |\r\n| 2 | `famous_examples` | **A Documented Open-Source Software Case** | *What distinguishes an open-source project's popularity from sustainable use?* |\r\n| 3 | `hidden_stories` | **People behind Open-Source Software** | *Whose documentation, translation or release labor is missing from a project account?* |\r\n| 4 | `beginner_explainers` | **Understanding Open-Source Software** | *How do licensing, contribution and maintenance work in one open-source project?* |\r\n| 5 | `advanced_concepts` | **Tradeoffs in Open-Source Software** | *Which project-health metrics reveal responsibility rather than activity alone?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Open Open-Source Software Question** | *What explains a gap between project adoption and maintenance capacity?* |\r\n| 7 | `technology_innovation` | **A Tool for Open-Source Software** | *Did a development tool improve review or verification in an actual project?* |\r\n| 8 | `people_personalities` | **Decisions in Open-Source Software** | *Who decided a license, release or governance change and on what record?* |\r\n| 9 | `major_events` | **A Turning Point in Open-Source Software** | *How did a fork, license change or incident affect a project and its users?* |\r\n| 10 | `how_it_works` | **How Open-Source Software Works** | *How does a contribution move from an issue to a supported release?* |\r\n| 11 | `rise_fall` | **When a Open-Source Software Approach Faltered** | *Why did an open-source project grow, stagnate or lose support?* |\r\n| 12 | `then_vs_now` | **Open-Source Software across Two Periods** | *How did a project's support and contribution patterns change across releases?* |\r\n| 13 | `future_developments` | **Possible Next Steps in Open-Source Software** | *What funding and succession assumptions support a proposed project model?* |\r\n| 14 | `myths_vs_facts` | **Testing a Open-Source Software Claim** | *Does open code come with the security and support being claimed?* |\r\n| 15 | `documentary_stories` | **One Open-Source Software Evidence Trail** | *How did a project change move from proposal through review to user impact?* |\r\n| 16 | `field_license_choices` | **License Choices** | *Which permissions and obligations apply to one project's licensed version?* |\r\n| 17 | `field_maintainer_labor` | **Maintainer Labor** | *How is maintenance labor distributed within an open-source project?* |\r\n| 18 | `field_contribution_governance` | **Contribution Governance** | *Who can approve, reject or appeal a project change?* |\r\n| 19 | `field_security_response` | **Security Response** | *How did a project communicate and address a disclosed vulnerability?* |\r\n| 20 | `field_project_sustainability` | **Project Sustainability** | *What evidence supports a project's capacity to continue maintaining its software?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Open-Source Software: How Open-Source Software Developed**\r\n   - *Question:* How did a software project's founding problem shape its releases and governance?\r\n   - *Key Focus:* Trace one open-source project from its founding problem through releases and governance changes; use repository and licensing records. Evidence base: Trace dated origin records and subsequent interpretations. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n2. **Open-Source Software: A Documented Open-Source Software Case**\r\n   - *Question:* What distinguishes an open-source project's popularity from sustainable use?\r\n   - *Key Focus:* Examine one influential project through documented use, maintenance and support conditions; distinguish download counts from sustainable adoption. Evidence base: Read the original evaluation and its population, comparator, outcomes and limitations. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n3. **Open-Source Software: People behind Open-Source Software**\r\n   - *Question:* Whose documentation, translation or release labor is missing from a project account?\r\n   - *Key Focus:* Document overlooked review, documentation, translation or release work in one project; credit maintainers and contributors from public records. Evidence base: Use attributable contribution records and consented participant accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n4. **Open-Source Software: Understanding Open-Source Software**\r\n   - *Question:* How do licensing, contribution and maintenance work in one open-source project?\r\n   - *Key Focus:* Explain code access, licensing, contribution and maintenance through one project; distinguish permission to use from promises of support. Evidence base: Use primary definitions and a documented end-to-end example. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n5. **Open-Source Software: Tradeoffs in Open-Source Software**\r\n   - *Question:* Which project-health metrics reveal responsibility rather than activity alone?\r\n   - *Key Focus:* Compare ways of measuring one project's health using activity, review, dependencies and concentration of responsibility; state the limits of each metric. Evidence base: Compare original methods, assumptions, measures and uncertainty. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n### Tier 2: Methodological Deep Dives\r\n6. **Open-Source Software: An Open Open-Source Software Question**\r\n   - *Question:* What explains a gap between project adoption and maintenance capacity?\r\n   - *Key Focus:* Investigate one unresolved maintenance or adoption problem through issues, release history and competing explanations; respect private contributor information. Evidence base: Compare competing explanations and specify missing discriminating evidence. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n7. **Open-Source Software: A Tool for Open-Source Software**\r\n   - *Question:* Did a development tool improve review or verification in an actual project?\r\n   - *Key Focus:* Evaluate one development or security tool in a defined project workflow; compare verification, workload and observed outcomes before and after use. Evidence base: Compare validation, deployment and follow-up against a stated baseline. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n8. **Open-Source Software: Decisions in Open-Source Software**\r\n   - *Question:* Who decided a license, release or governance change and on what record?\r\n   - *Key Focus:* Reconstruct one license, release or governance decision through recorded proposals and discussion; attribute disagreements and formal authority. Evidence base: Use decision records, assigned authority and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n9. **Open-Source Software: A Turning Point in Open-Source Software**\r\n   - *Question:* How did a fork, license change or incident affect a project and its users?\r\n   - *Key Focus:* Examine a dated fork, license change or major incident through repository and governance records; distinguish events from later interpretations. Evidence base: Build a dated before-and-after record without assuming causation. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n10. **Open-Source Software: How Open-Source Software Works**\r\n   - *Question:* How does a contribution move from an issue to a supported release?\r\n   - *Key Focus:* Map one contribution from issue to review, merge, release and user update; identify decision rights and maintenance responsibilities. Evidence base: Trace the process, custody transfers and assigned responsibilities. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Open-Source Software: When a Open-Source Software Approach Faltered**\r\n   - *Question:* Why did an open-source project grow, stagnate or lose support?\r\n   - *Key Focus:* Explain growth, stagnation or abandonment of one project using maintenance capacity, dependencies, funding and adoption evidence. Evidence base: Compare a dated series with competing explanations for change. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n12. **Open-Source Software: across Two Periods**\r\n   - *Question:* How did a project's support and contribution patterns change across releases?\r\n   - *Key Focus:* Compare two project periods using consistent release, contribution and support measures; account for migrations and changes in data collection. Evidence base: Align definitions, samples, versions and measurement conditions. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n13. **Open-Source Software: Possible Next Steps in Open-Source Software**\r\n   - *Question:* What funding and succession assumptions support a proposed project model?\r\n   - *Key Focus:* Assess a proposed project model through funding, governance, review and succession requirements; avoid predicting sustainability from initial attention. Evidence base: Read the actual proposal and distinguish required conditions from achieved results. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n14. **Open-Source Software: Testing a Open-Source Software Claim**\r\n   - *Question:* Does open code come with the security and support being claimed?\r\n   - *Key Focus:* Test one claim that open code is automatically secure or supported against a defined project's processes and evidence. Evidence base: Trace the public claim to original evidence and retain its qualifications. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n15. **Open-Source Software: One Open-Source Software Evidence Trail**\r\n   - *Question:* How did a project change move from proposal through review to user impact?\r\n   - *Key Focus:* Build a source trail for one project change from proposal through release and user impact; include review decisions and unresolved issues. Evidence base: Build a dated evidence trail including dissent and unresolved findings. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Open-Source Software: License Choices**\r\n   - *Question:* Which permissions and obligations apply to one project's licensed version?\r\n   - *Key Focus:* Compare the permissions and obligations of licenses actually used by a named project and version; distinguish explanation from case-specific legal advice. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n17. **Open-Source Software: Maintainer Labor**\r\n   - *Question:* How is maintenance labor distributed within an open-source project?\r\n   - *Key Focus:* Examine how review, support and release duties are distributed in one project; use consented accounts and public activity without equating commits with labor. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n18. **Open-Source Software: Contribution Governance**\r\n   - *Question:* Who can approve, reject or appeal a project change?\r\n   - *Key Focus:* Trace who can propose, approve, reject and appeal changes in one project; compare written governance with documented decisions. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n19. **Open-Source Software: Security Response**\r\n   - *Question:* How did a project communicate and address a disclosed vulnerability?\r\n   - *Key Focus:* Follow one publicly disclosed vulnerability through reporting, triage, fix and user notification; exclude exploit instructions and private reports. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n20. **Open-Source Software: Project Sustainability**\r\n   - *Question:* What evidence supports a project's capacity to continue maintaining its software?\r\n   - *Key Focus:* Assess one project's funding, dependency burden and succession plans using dated evidence; distinguish present activity from long-term resilience. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 514 (Open-Source Software)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Open-Source Software: How Open-Source Software Developed*\r\n- **Episode Slug:** `514_open-source_software_deep_dive_the_architecture_of_open_source_software_how_open_source_sof`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/514_open-source_software/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "91f8ecbd2b0d5a61e39447527fe7bfc1d76bee412604377b53f967985b2b3945",
+        "original_text": "# 514 Open-Source Software -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 514 Open-Source Software (Computing_Software)  \r\n> **Storage Directory:** `topics/514_open-source_software/`  \r\n> **Synchronized With:** `OUTPUT/514_open-source_software/`, `REGISTRY/Niches/514_open-source_software/`, and `514_OPEN-SOURCE_SOFTWARE_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 514 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/514_open-source_software](../../OUTPUT/514_open-source_software) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Open-Source Software: How Open-Source Software Developed** | Tier 1: Foundational Frameworks | `history_origins` | `open_source_software_how_open_source_software_developed` | A rigorous pedagogical investigation exploring how open-source software developed through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Open-Source Software: A Documented Open-Source Software Case** | Tier 1: Foundational Frameworks | `famous_examples` | `open_source_software_a_documented_open_source_software_case` | A rigorous pedagogical investigation exploring a documented open-source software case through documented evidence. | `QUEUED` |\r\n| 3 | **Open-Source Software: People behind Open-Source Software** | Tier 1: Foundational Frameworks | `hidden_stories` | `open_source_software_people_behind_open_source_software` | A rigorous pedagogical investigation exploring people behind open-source software through documented evidence. | `QUEUED` |\r\n| 4 | **Open-Source Software: Understanding Open-Source Software** | Tier 1: Foundational Frameworks | `beginner_explainers` | `open_source_software_understanding_open_source_software` | A rigorous pedagogical investigation exploring understanding open-source software through documented evidence. | `QUEUED` |\r\n| 5 | **Open-Source Software: Tradeoffs in Open-Source Software** | Tier 1: Foundational Frameworks | `advanced_concepts` | `open_source_software_tradeoffs_in_open_source_software` | A rigorous pedagogical investigation exploring tradeoffs in open-source software through documented evidence. | `QUEUED` |\r\n| 6 | **Open-Source Software: An Open Open-Source Software Question** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `open_source_software_an_open_open_source_software_question` | A rigorous pedagogical investigation exploring an open open-source software question through documented evidence. | `QUEUED` |\r\n| 7 | **Open-Source Software: A Tool for Open-Source Software** | Tier 2: Methodological Deep Dives | `technology_innovation` | `open_source_software_a_tool_for_open_source_software` | A rigorous pedagogical investigation exploring a tool for open-source software through documented evidence. | `QUEUED` |\r\n| 8 | **Open-Source Software: Decisions in Open-Source Software** | Tier 2: Methodological Deep Dives | `people_personalities` | `open_source_software_decisions_in_open_source_software` | A rigorous pedagogical investigation exploring decisions in open-source software through documented evidence. | `QUEUED` |\r\n| 9 | **Open-Source Software: A Turning Point in Open-Source Software** | Tier 2: Methodological Deep Dives | `major_events` | `open_source_software_a_turning_point_in_open_source_software` | A rigorous pedagogical investigation exploring a turning point in open-source software through documented evidence. | `QUEUED` |\r\n| 10 | **Open-Source Software: How Open-Source Software Works** | Tier 2: Methodological Deep Dives | `how_it_works` | `open_source_software_how_open_source_software_works` | A rigorous pedagogical investigation exploring how open-source software works through documented evidence. | `QUEUED` |\r\n| 11 | **Open-Source Software: When a Open-Source Software Approach Faltered** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `open_source_software_when_a_open_source_software_approach_fa` | A rigorous pedagogical investigation exploring when a open-source software approach faltered through documented evidence. | `QUEUED` |\r\n| 12 | **Open-Source Software: across Two Periods** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `open_source_software_across_two_periods` | A rigorous pedagogical investigation exploring across two periods through documented evidence. | `QUEUED` |\r\n| 13 | **Open-Source Software: Possible Next Steps in Open-Source Software** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `open_source_software_possible_next_steps_in_open_source_soft` | A rigorous pedagogical investigation exploring possible next steps in open-source software through documented evidence. | `QUEUED` |\r\n| 14 | **Open-Source Software: Testing a Open-Source Software Claim** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `open_source_software_testing_a_open_source_software_claim` | A rigorous pedagogical investigation exploring testing a open-source software claim through documented evidence. | `QUEUED` |\r\n| 15 | **Open-Source Software: One Open-Source Software Evidence Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `open_source_software_one_open_source_software_evidence_trail` | A rigorous pedagogical investigation exploring one open-source software evidence trail through documented evidence. | `QUEUED` |\r\n| 16 | **Open-Source Software: License Choices** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_license_choices` | `open_source_software_license_choices` | A rigorous pedagogical investigation exploring license choices through documented evidence. | `QUEUED` |\r\n| 17 | **Open-Source Software: Maintainer Labor** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_maintainer_labor` | `open_source_software_maintainer_labor` | A rigorous pedagogical investigation exploring maintainer labor through documented evidence. | `QUEUED` |\r\n| 18 | **Open-Source Software: Contribution Governance** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_contribution_governance` | `open_source_software_contribution_governance` | A rigorous pedagogical investigation exploring contribution governance through documented evidence. | `QUEUED` |\r\n| 19 | **Open-Source Software: Security Response** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_security_response` | `open_source_software_security_response` | A rigorous pedagogical investigation exploring security response through documented evidence. | `QUEUED` |\r\n| 20 | **Open-Source Software: Project Sustainability** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_project_sustainability` | `open_source_software_project_sustainability` | A rigorous pedagogical investigation exploring project sustainability through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Open-Source Software: Record Extremes & Superlatives** | **98** | `extreme_case` | `open_source_software_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Open-Source Software: An Open Open-Source Software Question** | **96** | `mysteries_unsolved_cases` | `open_source_software_mysteries_unsolved_cases` | High viral search interest exploring what explains a gap between project adoption and maintenance capacity backed by field records. | `Queued` |\r\n| 23 | **Open-Source Software: A Tool for Open-Source Software** | **95** | `technology_innovation` | `open_source_software_technology_innovation` | High viral search interest exploring did a development tool improve review or verification in an actual project backed by field records. | `Queued` |\r\n| 24 | **Open-Source Software: Testing a Open-Source Software Claim** | **94** | `myths_vs_facts` | `open_source_software_myths_vs_facts` | High viral search interest exploring does open code come with the security and support being claimed backed by field records. | `Queued` |\r\n| 25 | **Open-Source Software: A Turning Point in Open-Source Software** | **93** | `major_events` | `open_source_software_major_events` | High viral search interest exploring how did a fork, license change or incident affect a project and its users backed by field records. | `Queued` |\r\n| 26 | **Open-Source Software: People behind Open-Source Software** | **92** | `hidden_stories` | `open_source_software_hidden_stories` | High viral search interest exploring whose documentation, translation or release labor is missing from a project account backed by field records. | `Queued` |\r\n| 27 | **Open-Source Software: One Open-Source Software Evidence Trail** | **91** | `documentary_stories` | `open_source_software_documentary_stories` | High viral search interest exploring how did a project change move from proposal through review to user impact backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/514_open-source_software/514_OPEN-SOURCE_SOFTWARE_CHANNEL_TOPIC_ROADMAP.md`](./514_OPEN-SOURCE_SOFTWARE_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/514_open-source_software/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/514_open-source_software/NICHE_514_open-source_software.md`](file:///h:/script-raw-/REGISTRY/Niches/514_open-source_software/NICHE_514_open-source_software.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/514_open-source_software/CAT_514_open-source_software.md`](file:///h:/script-raw-/REGISTRY/Niches/514_open-source_software/CAT_514_open-source_software.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/514_open-source_software/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/514_open-source_software/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/514_open-source_software/`](file:///h:/script-raw-/OUTPUT/514_open-source_software/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "763f088c98a2d3eca7ed5131e611e1870472cd0a74485103b91fb311757f7fd7",
+        "original_text": "{\r\n  \"niche_id\": \"514\",\r\n  \"niche_name\": \"open-source_software\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Open-Source Software: How Open-Source Software Developed\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"open_source_software_how_open_source_software_developed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how open-source software developed through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Open-Source Software: A Documented Open-Source Software Case\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"open_source_software_a_documented_open_source_software_case\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a documented open-source software case through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Open-Source Software: People behind Open-Source Software\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"open_source_software_people_behind_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Open-Source Software: Understanding Open-Source Software\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"open_source_software_understanding_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring understanding open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Open-Source Software: Tradeoffs in Open-Source Software\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"open_source_software_tradeoffs_in_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring tradeoffs in open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Open-Source Software: An Open Open-Source Software Question\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"open_source_software_an_open_open_source_software_question\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an open open-source software question through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Open-Source Software: A Tool for Open-Source Software\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"open_source_software_a_tool_for_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a tool for open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Open-Source Software: Decisions in Open-Source Software\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"open_source_software_decisions_in_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring decisions in open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Open-Source Software: A Turning Point in Open-Source Software\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"open_source_software_a_turning_point_in_open_source_software\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a turning point in open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Open-Source Software: How Open-Source Software Works\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"open_source_software_how_open_source_software_works\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how open-source software works through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Open-Source Software: When a Open-Source Software Approach Faltered\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"open_source_software_when_a_open_source_software_approach_fa\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring when a open-source software approach faltered through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Open-Source Software: across Two Periods\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"open_source_software_across_two_periods\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring across two periods through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Open-Source Software: Possible Next Steps in Open-Source Software\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"open_source_software_possible_next_steps_in_open_source_soft\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring possible next steps in open-source software through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Open-Source Software: Testing a Open-Source Software Claim\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"open_source_software_testing_a_open_source_software_claim\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring testing a open-source software claim through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Open-Source Software: One Open-Source Software Evidence Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"open_source_software_one_open_source_software_evidence_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one open-source software evidence trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Open-Source Software: License Choices\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_license_choices\",\r\n      \"slug\": \"open_source_software_license_choices\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring license choices through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Open-Source Software: Maintainer Labor\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_maintainer_labor\",\r\n      \"slug\": \"open_source_software_maintainer_labor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring maintainer labor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Open-Source Software: Contribution Governance\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_contribution_governance\",\r\n      \"slug\": \"open_source_software_contribution_governance\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring contribution governance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Open-Source Software: Security Response\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_security_response\",\r\n      \"slug\": \"open_source_software_security_response\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring security response through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Open-Source Software: Project Sustainability\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_project_sustainability\",\r\n      \"slug\": \"open_source_software_project_sustainability\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring project sustainability through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Open-Source Software: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"open_source_software_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Open-Source Software: An Open Open-Source Software Question\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"open_source_software_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what explains a gap between project adoption and maintenance capacity backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Open-Source Software: A Tool for Open-Source Software\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"open_source_software_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did a development tool improve review or verification in an actual project backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Open-Source Software: Testing a Open-Source Software Claim\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"open_source_software_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does open code come with the security and support being claimed backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Open-Source Software: A Turning Point in Open-Source Software\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"open_source_software_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring how did a fork, license change or incident affect a project and its users backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Open-Source Software: People behind Open-Source Software\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"open_source_software_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose documentation, translation or release labor is missing from a project account backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Open-Source Software: One Open-Source Software Evidence Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"open_source_software_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a project change move from proposal through review to user impact backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "514",
+      "niche_name": "open-source_software",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Open-Source Software: How Open-Source Software Developed",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "open_source_software_how_open_source_software_developed",
+          "reason": "A rigorous pedagogical investigation exploring how open-source software developed through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Open-Source Software: A Documented Open-Source Software Case",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "open_source_software_a_documented_open_source_software_case",
+          "reason": "A rigorous pedagogical investigation exploring a documented open-source software case through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Open-Source Software: People behind Open-Source Software",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "open_source_software_people_behind_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring people behind open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Open-Source Software: Understanding Open-Source Software",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "open_source_software_understanding_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring understanding open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Open-Source Software: Tradeoffs in Open-Source Software",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "open_source_software_tradeoffs_in_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring tradeoffs in open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Open-Source Software: An Open Open-Source Software Question",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "open_source_software_an_open_open_source_software_question",
+          "reason": "A rigorous pedagogical investigation exploring an open open-source software question through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Open-Source Software: A Tool for Open-Source Software",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "open_source_software_a_tool_for_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring a tool for open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Open-Source Software: Decisions in Open-Source Software",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "open_source_software_decisions_in_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring decisions in open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Open-Source Software: A Turning Point in Open-Source Software",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "open_source_software_a_turning_point_in_open_source_software",
+          "reason": "A rigorous pedagogical investigation exploring a turning point in open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Open-Source Software: How Open-Source Software Works",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "open_source_software_how_open_source_software_works",
+          "reason": "A rigorous pedagogical investigation exploring how open-source software works through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Open-Source Software: When a Open-Source Software Approach Faltered",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "open_source_software_when_a_open_source_software_approach_fa",
+          "reason": "A rigorous pedagogical investigation exploring when a open-source software approach faltered through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Open-Source Software: across Two Periods",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "open_source_software_across_two_periods",
+          "reason": "A rigorous pedagogical investigation exploring across two periods through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Open-Source Software: Possible Next Steps in Open-Source Software",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "open_source_software_possible_next_steps_in_open_source_soft",
+          "reason": "A rigorous pedagogical investigation exploring possible next steps in open-source software through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Open-Source Software: Testing a Open-Source Software Claim",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "open_source_software_testing_a_open_source_software_claim",
+          "reason": "A rigorous pedagogical investigation exploring testing a open-source software claim through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Open-Source Software: One Open-Source Software Evidence Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "open_source_software_one_open_source_software_evidence_trail",
+          "reason": "A rigorous pedagogical investigation exploring one open-source software evidence trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Open-Source Software: License Choices",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_license_choices",
+          "slug": "open_source_software_license_choices",
+          "reason": "A rigorous pedagogical investigation exploring license choices through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Open-Source Software: Maintainer Labor",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_maintainer_labor",
+          "slug": "open_source_software_maintainer_labor",
+          "reason": "A rigorous pedagogical investigation exploring maintainer labor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Open-Source Software: Contribution Governance",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_contribution_governance",
+          "slug": "open_source_software_contribution_governance",
+          "reason": "A rigorous pedagogical investigation exploring contribution governance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Open-Source Software: Security Response",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_security_response",
+          "slug": "open_source_software_security_response",
+          "reason": "A rigorous pedagogical investigation exploring security response through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Open-Source Software: Project Sustainability",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_project_sustainability",
+          "slug": "open_source_software_project_sustainability",
+          "reason": "A rigorous pedagogical investigation exploring project sustainability through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Open-Source Software: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "open_source_software_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Open-Source Software: An Open Open-Source Software Question",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "open_source_software_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what explains a gap between project adoption and maintenance capacity backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Open-Source Software: A Tool for Open-Source Software",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "open_source_software_technology_innovation",
+          "why_trending": "High viral search interest exploring did a development tool improve review or verification in an actual project backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Open-Source Software: Testing a Open-Source Software Claim",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "open_source_software_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does open code come with the security and support being claimed backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Open-Source Software: A Turning Point in Open-Source Software",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "open_source_software_major_events",
+          "why_trending": "High viral search interest exploring how did a fork, license change or incident affect a project and its users backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Open-Source Software: People behind Open-Source Software",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "open_source_software_hidden_stories",
+          "why_trending": "High viral search interest exploring whose documentation, translation or release labor is missing from a project account backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Open-Source Software: One Open-Source Software Evidence Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "open_source_software_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a project change move from proposal through review to user impact backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "4d0edf4beafc24505fea8fa1193afd5403e512a58945cbd67ee496950295d394"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "bf9bd7ef2d3a2b3dc18a23147ded9ae8b975c19764aed0d0a7c7b0d1643dfab3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "7517fdfae5159d2696156fa4d19b1d5d1bcbc3bd43929d1cf01fe37376fa68c5"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "6359b9578215c0f10050a9d3de264d46229077c0dc3b14fbadcc1c7807766cf3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "d3b86e0adbdbb8059873a58447b8f28f2c2db1918c3f764bc29640c5f057e4d1"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "38172b606035e7e687a82d0192b5bd626d119aa5f21d9df0c37eaac4ac67cb6c"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-514-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-04",
+      "title": "Open-source assurance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-05",
+      "title": "Open-source governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-06",
+      "title": "Open-source communities",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-514-07",
+      "title": "Open-source institutions",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "514",
+    "slug": "open-source_software",
+    "name": "Open-Source Software",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Open-Source Software YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-514-01",
+        "title": "Open-source practice",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-514-001",
+            "title": "License compatibility",
+            "question": "License compatibility: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Open-Source Software; branch: Open-source practice. Address License compatibility through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind License compatibility.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-002",
+            "title": "Contribution workflows",
+            "question": "Contribution workflows: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Open-Source Software; branch: Open-source practice. Address Contribution workflows through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Contribution workflows.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-003",
+            "title": "Release maintenance",
+            "question": "Release maintenance: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Open-Source Software; branch: Open-source practice. Address Release maintenance through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Release maintenance.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-514-02",
+        "title": "Governance",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-514-01"
+        ],
+        "research_profile": "community",
+        "topics": [
+          {
+            "id": "BANK-514-004",
+            "title": "Maintainer workload",
+            "question": "Maintainer workload: how do participants describe the practice and its differences?",
+            "coverage": "Primary context: Open-Source Software; branch: Governance. Address Maintainer workload through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Choose a specific community and identify who participates in Maintainer workload and who may be excluded.",
+              "Document the actual routines, resources and relationships involved through more than one perspective.",
+              "Compare change across generations, locations or life circumstances without assuming uniformity.",
+              "Return to participants for context and consent checks; distinguish their views from the narrator's interpretation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-005",
+            "title": "Decision rights",
+            "question": "Decision rights: how do participants describe the practice and its differences?",
+            "coverage": "Primary context: Open-Source Software; branch: Governance. Address Decision rights through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Choose a specific community and identify who participates in Decision rights and who may be excluded.",
+              "Document the actual routines, resources and relationships involved through more than one perspective.",
+              "Compare change across generations, locations or life circumstances without assuming uniformity.",
+              "Return to participants for context and consent checks; distinguish their views from the narrator's interpretation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-006",
+            "title": "Community conduct",
+            "question": "Community conduct: how do participants describe the practice and its differences?",
+            "coverage": "Primary context: Open-Source Software; branch: Governance. Address Community conduct through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Choose a specific community and identify who participates in Community conduct and who may be excluded.",
+              "Document the actual routines, resources and relationships involved through more than one perspective.",
+              "Compare change across generations, locations or life circumstances without assuming uniformity.",
+              "Return to participants for context and consent checks; distinguish their views from the narrator's interpretation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-514-03",
+        "title": "Sustainability",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-514-01"
+        ],
+        "research_profile": "finance",
+        "topics": [
+          {
+            "id": "BANK-514-007",
+            "title": "Funding models",
+            "question": "Funding models: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Open-Source Software; branch: Sustainability. Address Funding models through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Funding models, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-008",
+            "title": "Security response capacity",
+            "question": "Security response capacity: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Open-Source Software; branch: Sustainability. Address Security response capacity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Security response capacity, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-514-009",
+            "title": "Dependency stewardship",
+            "question": "Dependency stewardship: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Open-Source Software; branch: Sustainability. Address Dependency stewardship through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Dependency stewardship, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "community": {
+        "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+        "source_leads": [
+          "consented interviews and oral histories",
+          "community publications and local records",
+          "field notes with method and consent documented"
+        ]
+      },
+      "finance": {
+        "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+        "source_leads": [
+          "regulator or official statistical publications",
+          "actual contracts, fee schedules and audited filings",
+          "original economic studies and disclosed calculation inputs"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Open-Source Software: How Open-Source Software Developed",
+      "question": "How did a software project's founding problem shape its releases and governance?",
+      "coverage": "Trace one open-source project from its founding problem through releases and governance changes; use repository and licensing records. Evidence base: Trace dated origin records and subsequent interpretations. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: A Documented Open-Source Software Case",
+      "question": "What distinguishes an open-source project's popularity from sustainable use?",
+      "coverage": "Examine one influential project through documented use, maintenance and support conditions; distinguish download counts from sustainable adoption. Evidence base: Read the original evaluation and its population, comparator, outcomes and limitations. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: People behind Open-Source Software",
+      "question": "Whose documentation, translation or release labor is missing from a project account?",
+      "coverage": "Document overlooked review, documentation, translation or release work in one project; credit maintainers and contributors from public records. Evidence base: Use attributable contribution records and consented participant accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Understanding Open-Source Software",
+      "question": "How do licensing, contribution and maintenance work in one open-source project?",
+      "coverage": "Explain code access, licensing, contribution and maintenance through one project; distinguish permission to use from promises of support. Evidence base: Use primary definitions and a documented end-to-end example. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Tradeoffs in Open-Source Software",
+      "question": "Which project-health metrics reveal responsibility rather than activity alone?",
+      "coverage": "Compare ways of measuring one project's health using activity, review, dependencies and concentration of responsibility; state the limits of each metric. Evidence base: Compare original methods, assumptions, measures and uncertainty. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: An Open Open-Source Software Question",
+      "question": "What explains a gap between project adoption and maintenance capacity?",
+      "coverage": "Investigate one unresolved maintenance or adoption problem through issues, release history and competing explanations; respect private contributor information. Evidence base: Compare competing explanations and specify missing discriminating evidence. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: A Tool for Open-Source Software",
+      "question": "Did a development tool improve review or verification in an actual project?",
+      "coverage": "Evaluate one development or security tool in a defined project workflow; compare verification, workload and observed outcomes before and after use. Evidence base: Compare validation, deployment and follow-up against a stated baseline. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Decisions in Open-Source Software",
+      "question": "Who decided a license, release or governance change and on what record?",
+      "coverage": "Reconstruct one license, release or governance decision through recorded proposals and discussion; attribute disagreements and formal authority. Evidence base: Use decision records, assigned authority and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: A Turning Point in Open-Source Software",
+      "question": "How did a fork, license change or incident affect a project and its users?",
+      "coverage": "Examine a dated fork, license change or major incident through repository and governance records; distinguish events from later interpretations. Evidence base: Build a dated before-and-after record without assuming causation. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: How Open-Source Software Works",
+      "question": "How does a contribution move from an issue to a supported release?",
+      "coverage": "Map one contribution from issue to review, merge, release and user update; identify decision rights and maintenance responsibilities. Evidence base: Trace the process, custody transfers and assigned responsibilities. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: When a Open-Source Software Approach Faltered",
+      "question": "Why did an open-source project grow, stagnate or lose support?",
+      "coverage": "Explain growth, stagnation or abandonment of one project using maintenance capacity, dependencies, funding and adoption evidence. Evidence base: Compare a dated series with competing explanations for change. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: across Two Periods",
+      "question": "How did a project's support and contribution patterns change across releases?",
+      "coverage": "Compare two project periods using consistent release, contribution and support measures; account for migrations and changes in data collection. Evidence base: Align definitions, samples, versions and measurement conditions. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Possible Next Steps in Open-Source Software",
+      "question": "What funding and succession assumptions support a proposed project model?",
+      "coverage": "Assess a proposed project model through funding, governance, review and succession requirements; avoid predicting sustainability from initial attention. Evidence base: Read the actual proposal and distinguish required conditions from achieved results. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Testing a Open-Source Software Claim",
+      "question": "Does open code come with the security and support being claimed?",
+      "coverage": "Test one claim that open code is automatically secure or supported against a defined project's processes and evidence. Evidence base: Trace the public claim to original evidence and retain its qualifications. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: One Open-Source Software Evidence Trail",
+      "question": "How did a project change move from proposal through review to user impact?",
+      "coverage": "Build a source trail for one project change from proposal through release and user impact; include review decisions and unresolved issues. Evidence base: Build a dated evidence trail including dissent and unresolved findings. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: License Choices",
+      "question": "Which permissions and obligations apply to one project's licensed version?",
+      "coverage": "Compare the permissions and obligations of licenses actually used by a named project and version; distinguish explanation from case-specific legal advice. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Maintainer Labor",
+      "question": "How is maintenance labor distributed within an open-source project?",
+      "coverage": "Examine how review, support and release duties are distributed in one project; use consented accounts and public activity without equating commits with labor. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Contribution Governance",
+      "question": "Who can approve, reject or appeal a project change?",
+      "coverage": "Trace who can propose, approve, reject and appeal changes in one project; compare written governance with documented decisions. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Security Response",
+      "question": "How did a project communicate and address a disclosed vulnerability?",
+      "coverage": "Follow one publicly disclosed vulnerability through reporting, triage, fix and user notification; exclude exploit instructions and private reports. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Open-Source Software: Project Sustainability",
+      "question": "What evidence supports a project's capacity to continue maintaining its software?",
+      "coverage": "Assess one project's funding, dependency burden and succession plans using dated evidence; distinguish present activity from long-term resilience. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: actual versioned licenses, repositories, contribution rules, release records and public security notices. Starting framework: Open Source Initiative definition (https://opensource.org/osd). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-514-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "efca2d05bee7d111c7c750bd1ae3b9a9b7d1ac531fe6167a2ef18d900e18be52",
+    "TOPIC_BANK_RECONCILIATION.md": "ef6983e9dd41d98c86f5b612cc0ba297061ca4da8f7195eb82b7e2f52d943436",
+    "TOPICS_COVERED_REPORT.md": "56f90fc56726ea7e2edad92a085e5befc43afbe0e53b01b777655cc494b80e78",
+    "514_OPEN-SOURCE_SOFTWARE_CHANNEL_TOPIC_ROADMAP.md": "e230bcdef41ab57684b1f0cf59d644c2b0e4c29f9f2bd61d9eaca087d00bc70d"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-514-009": [
+      "BANK-514-033"
+    ],
+    "BANK-514-001": [
+      "BANK-514-036"
+    ],
+    "BANK-514-002": [
+      "BANK-514-037"
+    ],
+    "BANK-514-004": [
+      "BANK-514-037"
+    ],
+    "BANK-514-006": [
+      "BANK-514-037"
+    ],
+    "BANK-514-005": [
+      "BANK-514-038"
+    ],
+    "BANK-514-008": [
+      "BANK-514-038"
+    ],
+    "BANK-514-003": [
+      "BANK-514-032"
+    ],
+    "BANK-514-007": [
+      "BANK-514-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Software supply-chain provenance",
+      "next_step": "Separate source identity, build inputs and distributed artifacts. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Project succession",
+      "next_step": "Map access, authority and release knowledge. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Accessible contribution pathways",
+      "next_step": "Compare task design, documentation and review access. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Public-sector open-source procurement",
+      "next_step": "Include support, sustainability and exit capability. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'The Architecture of Open-Source Software: How Open-Source Software Developed' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: A Documented Open-Source Software Case' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: People behind Open-Source Software' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: Understanding Open-Source Software' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: Tradeoffs in Open-Source Software' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-034"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: An Open Open-Source Software Question' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-033"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: A Tool for Open-Source Software' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-039"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: Decisions in Open-Source Software' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: A Turning Point in Open-Source Software' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: How Open-Source Software Works' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-037"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "out_of_scope",
+      "reason": "Archived pitch 'Open-Source Software: When a Open-Source Software Approach Faltered' needs a different person, failure, forecast, extreme or jurisdiction-specific record outside the selected case; original pitch retained for later review.",
+      "bank_ids": []
+    },
+    "pending_topics/11": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: across Two Periods' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "out_of_scope",
+      "reason": "Archived pitch 'Open-Source Software: Possible Next Steps in Open-Source Software' needs a different person, failure, forecast, extreme or jurisdiction-specific record outside the selected case; original pitch retained for later review.",
+      "bank_ids": []
+    },
+    "pending_topics/13": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: Testing a Open-Source Software Claim' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: One Open-Source Software Evidence Trail' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: License Choices' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-036"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: Maintainer Labor' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-033"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: Contribution Governance' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: Security Response' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-038"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: Project Sustainability' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-034"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "Archived pitch 'Open-Source Software: Record Extremes & Superlatives' needs a different person, failure, forecast, extreme or jurisdiction-specific record outside the selected case; original pitch retained for later review.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: An Open Question' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-033"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Open-Source Software: A Tool' fits this existing active question as a scope, but needs its own specific dated record before scripting.",
+      "bank_ids": [
+        "BANK-514-039"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: Testing a Claim' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: A Turning Point' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: People behind the Field' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Open-Source Software: One Evidence Trail' has a bounded route through Python governance transition recorded in PEP 8016 and PEP 13; use the linked note for dated institutional claims and limits.",
+      "bank_ids": [
+        "BANK-514-043"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-514-043",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "semantic_overlap_review": {
+    "date": "2026-10-24",
+    "case_id": "BANK-514-043",
+    "finding": "BANK-514-034 is the generic funding/control question and BANK-514-035 is fork sustainability; the new proposal concerns one recorded governance succession. 061 software/programming may discuss Python implementation, but project decision rights belong here. 515 concerns cross-institution internet governance, not a language community."
+  }
+}

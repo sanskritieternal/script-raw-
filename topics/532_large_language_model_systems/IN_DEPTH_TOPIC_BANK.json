@@ -1,0 +1,1630 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "532",
+  "slug": "large_language_model_systems",
+  "name": "Large Language Model Systems",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Large Language Model Systems YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 8
+  },
+  "categories": [
+    {
+      "id": "CATALOG-532-R01",
+      "title": "LLM-system foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-532-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "227903acccc5e5a43cbf22600883acd7046b68816f39cb8bfa8b4717495fdf28",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-532-R02",
+      "title": "Serving and adaptation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-532-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e99bc9705449facbebe5f35a8264f0ab8e7be6c868c6d1b4100ea723ddf22fb3",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-532-R03",
+      "title": "System evaluation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7e0e6a496e9d5834bbc073a286698875061d2842eb011f5ba208ff929b9b2391",
+      "topics": [
+        {
+          "question": "How can an LLM application detect regressions after a model upgrade?",
+          "coverage": "Use task-specific tests and preserved comparison conditions.",
+          "id": "BANK-532-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-532-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R04",
+      "title": "LLM operations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-532-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bdaa16b203f71dbd18d4d4434193473410fd45e5d6e1eab9d7f0e3c5836ef28b",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-532-R05",
+      "title": "LLM operations",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-532-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "155306d16beb7de10cc448d7ca296fdc5d25bcc8d9a3a26a0ff134fed22d4518",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-532-R06",
+      "title": "LLM operations",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f7487a3ad5f4d649f820e929b61b73c139a92534a5cda6f3ba2e9b855d913691",
+      "topics": [
+        {
+          "question": "How can authorized prompt-injection tests complement grounded-answer evaluation?",
+          "coverage": "Separate trust-boundary failures and factual support.",
+          "id": "BANK-532-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-532-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R07",
+      "title": "Multimodal retrieval",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5443c01380e87275a09ec3e811fb58176013ac0be7a75ebd1a527aa841d9e0fb",
+      "topics": [
+        {
+          "question": "How can an LLM system retrieve the right chart when its caption matches several visually different figures?",
+          "coverage": "Compare text indexing, figure embeddings, page context and evidence-region alignment with a labeled evaluation set.",
+          "id": "BANK-532-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R08",
+      "title": "Structured generation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-532-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d2aaa1c337ddfccd1832fc96d75e80167200c9a1ccf0ce7c62ce75cdb1acb605",
+      "topics": [
+        {
+          "question": "Why can schema-valid generated output still fail a downstream business rule?",
+          "coverage": "Separate grammar constraints, semantic validation and authorized action eligibility using a fictional order schema.",
+          "id": "BANK-532-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did JSONSchemaBench test about constrained decoders' JSON Schema feature coverage?",
+          "coverage": "Use the 2025 JSONSchemaBench paper and authors' dataset documentation to distinguish declared schema support, empirical feature coverage, output compliance, speed and downstream task quality; limit conclusions to the tested engines and benchmark version.",
+          "id": "BANK-532-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R09",
+      "title": "Data retention",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6ff5365370b8a20f06db132cc6aaf7d3baa119aeba6b1de7e499be7dd4e9a8ee",
+      "topics": [
+        {
+          "question": "How can an application delete a customer's data when copies exist in prompts, retrieval indexes and evaluation logs?",
+          "coverage": "Trace purpose, identifiers, retention boundaries and deletion evidence in a hypothetical architecture; avoid asserting legal compliance.",
+          "id": "BANK-532-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R10",
+      "title": "Routing evaluation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "92268f80b53348e6ac90f80c2a71d7f86c263ad11223aecc906ce04a17939191",
+      "topics": [
+        {
+          "question": "How can model routing reduce cost while silently disadvantaging a minority task type?",
+          "coverage": "Compare task-stratified quality, escalation, latency and matched traffic rather than aggregate win rates.",
+          "id": "BANK-532-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-532-R11",
+      "title": "Cache isolation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-532-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "df049c4b3637fa5d552b2b94968a96119ea27b845df8dcff1f627f0938f4ca21",
+      "topics": [
+        {
+          "question": "What must a shared prompt cache distinguish to avoid reusing one customer's context for another?",
+          "coverage": "Map tenant, authorization, model and prompt-version keys and sandbox invalidation tests without exploitation instructions.",
+          "id": "BANK-532-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "007",
+      "title": "AI Tools / AI Tutorials",
+      "directory": "007_ai_tools_ai_tutorials",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "533",
+      "title": "No-Code & Low-Code Development",
+      "directory": "533_no-code_low-code_development",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/532_large_language_model_systems/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "ff142843f26a082b126f28b177a0d45c824fb25a3ae773ffb343553491875249",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-532-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2a36e436f5fa3c39bbbdd1930f94fc01badafbb9215b83419c2ecabb33fd3133"
+      },
+      "BANK-532-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "89c2b931edf4cf835cdeb47adcd592c79ca15be01ba4168a0cbe36c5e41561b5"
+      },
+      "BANK-532-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5d9030a11dbe6e92ba86812a0df080cc9e35d50311387f2b64c30ce7c3b4ac94"
+      },
+      "BANK-532-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c44f5d75ef3e103ee01cc14b932a609251115e46b4c6e9e5f8aaa0293e6e1c14"
+      },
+      "BANK-532-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2f80f3bcca5e12f9a35f26ee05e37c542fd42e66180627e20b340e6a869c23b1"
+      },
+      "BANK-532-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "99a21046ca4a4000cca9a70a048cbdebb17089bb265804304af01e7b325be5af"
+      },
+      "BANK-532-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a46d245fa582d9988d13197611d02f2f168e490e42503a6927e027e22f86457e"
+      },
+      "BANK-532-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ec1a629237c4e51a453756c58b410d85d47f710df0ca902b0831f626c7374c5b"
+      },
+      "BANK-532-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d638a60b7503c0fa217fe9a606d2012c83bfef53275a874f0f5a46e9b09ffce3"
+      }
+    },
+    "source_categories": {
+      "CATALOG-532-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "25ab884908963c27700300fc7cd4bb6415891bb8f827f3eef89a66772e9270a5"
+      },
+      "CATALOG-532-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "96fc7f42a4e124c43816545aba4c164b78020529d6414ddeea40d70271be2486"
+      },
+      "CATALOG-532-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "0cf439a7cda0cb423b5cdbdf2ad01db56ed9788c21bd244eca90d6460765fca4"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "532_LARGE_LANGUAGE_MODEL_SYSTEMS_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "ea0d19c18602689e68e410d7bdafc6644b055f0a41fc0a8cd67b1df919a41169",
+        "original_text": "# Large Language Model Systems Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 532 Large Language Model Systems (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Large Language Model Systems Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/532_large_language_model_systems/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Large Language Model Systems across four progressive tiers:\r\n- **Tier 1: Large Language Model Systems Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Large Language Model Systems.\r\n- **Tier 2: Large Language Model Systems Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Large Language Model Systems.\r\n- **Tier 3: Large Language Model Systems Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Large Language Model Systems.\r\n- **Tier 4: Large Language Model Systems Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Large Language Model Systems.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (23 Curated Formats)\r\n\r\nEvery episode is produced using one of the 23 niche angle presets defined in [`REGISTRY/Niches/532_large_language_model_systems/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/532_large_language_model_systems/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **Large Language Model Systems: History & Origins** | *Which documented problem led to the development of a versioned language-model application?* |\r\n| 2 | `famous_examples` | **Large Language Model Systems: Famous Examples** | *What does a widely cited example of a versioned language-model application establish and leave uncertain?* |\r\n| 3 | `hidden_stories` | **Large Language Model Systems: Hidden Stories** | *Whose contribution or experience is missing from the usual account of a versioned language-model application?* |\r\n| 4 | `beginner_explainers` | **Large Language Model Systems: Beginner Explainers** | *Which definitions and boundaries are needed to understand a versioned language-model application?* |\r\n| 5 | `advanced_concepts` | **Large Language Model Systems: Advanced Concepts** | *Which methodological assumption changes how a versioned language-model application should be interpreted?* |\r\n| 6 | `mysteries_unsolved_cases` | **Large Language Model Systems: Mysteries & Unsolved Cases** | *What specific evidence gap remains unresolved for a versioned language-model application?* |\r\n| 7 | `technology_innovation` | **Large Language Model Systems: Technology & Innovation** | *What changed after a documented technical or material innovation affected a versioned language-model application?* |\r\n| 8 | `people_personalities` | **Large Language Model Systems: People & Personalities** | *How did credited people and institutions shape a versioned language-model application?* |\r\n| 9 | `major_events` | **Large Language Model Systems: Major Events** | *What changed around a dated turning point involving a versioned language-model application?* |\r\n| 10 | `how_it_works` | **Large Language Model Systems: How It Works** | *How do the documented components or stages of a versioned language-model application connect?* |\r\n| 11 | `rise_fall` | **Large Language Model Systems: Rise & Fall** | *Which evidence explains increasing or declining use or reception of a versioned language-model application?* |\r\n| 12 | `then_vs_now` | **Large Language Model Systems: Then vs Now** | *Are earlier and later accounts of a versioned language-model application comparable on the same terms?* |\r\n| 13 | `future_developments` | **Large Language Model Systems: Future Developments** | *Which conditions would need to hold for a proposed future change involving a versioned language-model application?* |\r\n| 14 | `myths_vs_facts` | **Large Language Model Systems: Myths vs Facts** | *Does the original evidence support a commonly repeated claim about a versioned language-model application?* |\r\n| 15 | `documentary_stories` | **Large Language Model Systems: Documentary Stories** | *How can a source-led documentary explain a versioned language-model application without overstating its evidence?* |\r\n| 16 | `field_retrieval_grounding` | **Retrieval Grounding** | *Does retrieved material actually support an application's answer?* |\r\n| 17 | `field_context_and_truncation` | **Context And Truncation** | *What relevant information disappears when an application limits context?* |\r\n| 18 | `field_inference_tradeoffs` | **Inference Tradeoffs** | *Which quality changes accompany a faster or cheaper inference setting?* |\r\n| 19 | `field_model_and_system_evaluation` | **Model And System Evaluation** | *Which errors belong to the model and which to retrieval or orchestration?* |\r\n| 20 | `field_output_validation` | **Output Validation** | *Which structured outputs pass a schema but still fail the user's task?* |\r\n| 21 | `field_training_data_and_model_cards` | **Training Data And Model Cards** | *What does one model card reveal and leave unknown about training data?* |\r\n| 22 | `field_multilingual_behavior` | **Multilingual Behavior** | *Does one language-model system perform equally across defined languages?* |\r\n| 23 | `field_deployment_drift` | **Deployment Drift** | *Which behavior changed after a model or application version update?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Large Language Model Systems: History & Origins**\r\n   - *Question:* Which documented problem led to the development of a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..\r\n2. **Large Language Model Systems: Famous Examples**\r\n   - *Question:* What does a widely cited example of a versioned language-model application establish and leave uncertain?\r\n   - *Key Focus:* For a versioned language-model application, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..\r\n3. **Large Language Model Systems: Hidden Stories**\r\n   - *Question:* Whose contribution or experience is missing from the usual account of a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, investigate documented labor, access and omitted perspectives among developers and end users without inventing testimony. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among developers and end users without inventing testimony..\r\n4. **Large Language Model Systems: Beginner Explainers**\r\n   - *Question:* Which definitions and boundaries are needed to understand a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..\r\n5. **Large Language Model Systems: Advanced Concepts**\r\n   - *Question:* Which methodological assumption changes how a versioned language-model application should be interpreted?\r\n   - *Key Focus:* For a versioned language-model application, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..\r\n### Tier 2: Methodological Deep Dives\r\n6. **Large Language Model Systems: Mysteries & Unsolved Cases**\r\n   - *Question:* What specific evidence gap remains unresolved for a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..\r\n7. **Large Language Model Systems: Technology & Innovation**\r\n   - *Question:* What changed after a documented technical or material innovation affected a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..\r\n8. **Large Language Model Systems: People & Personalities**\r\n   - *Question:* How did credited people and institutions shape a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..\r\n9. **Large Language Model Systems: Major Events**\r\n   - *Question:* What changed around a dated turning point involving a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..\r\n10. **Large Language Model Systems: How It Works**\r\n   - *Question:* How do the documented components or stages of a versioned language-model application connect?\r\n   - *Key Focus:* For a versioned language-model application, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Large Language Model Systems: Rise & Fall**\r\n   - *Question:* Which evidence explains increasing or declining use or reception of a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..\r\n12. **Large Language Model Systems: Then vs Now**\r\n   - *Question:* Are earlier and later accounts of a versioned language-model application comparable on the same terms?\r\n   - *Key Focus:* For a versioned language-model application, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..\r\n13. **Large Language Model Systems: Future Developments**\r\n   - *Question:* Which conditions would need to hold for a proposed future change involving a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..\r\n14. **Large Language Model Systems: Myths vs Facts**\r\n   - *Question:* Does the original evidence support a commonly repeated claim about a versioned language-model application?\r\n   - *Key Focus:* For a versioned language-model application, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..\r\n15. **Large Language Model Systems: Documentary Stories**\r\n   - *Question:* How can a source-led documentary explain a versioned language-model application without overstating its evidence?\r\n   - *Key Focus:* For a versioned language-model application, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Large Language Model Systems: Retrieval Grounding**\r\n   - *Question:* Does retrieved material actually support an application's answer?\r\n   - *Key Focus:* Trace a bounded query through retrieval, source passages and answer evaluation. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Trace a bounded query through retrieval, source passages and answer evaluation..\r\n17. **Large Language Model Systems: Context And Truncation**\r\n   - *Question:* What relevant information disappears when an application limits context?\r\n   - *Key Focus:* Inspect tokenization, input ordering and omitted content at a named version. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Inspect tokenization, input ordering and omitted content at a named version..\r\n18. **Large Language Model Systems: Inference Tradeoffs**\r\n   - *Question:* Which quality changes accompany a faster or cheaper inference setting?\r\n   - *Key Focus:* Compare matched tasks, hardware, decoding settings and repeated runs. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare matched tasks, hardware, decoding settings and repeated runs..\r\n19. **Large Language Model Systems: Model And System Evaluation**\r\n   - *Question:* Which errors belong to the model and which to retrieval or orchestration?\r\n   - *Key Focus:* Separate components and test one controlled change at a time. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Separate components and test one controlled change at a time..\r\n20. **Large Language Model Systems: Output Validation**\r\n   - *Question:* Which structured outputs pass a schema but still fail the user's task?\r\n   - *Key Focus:* Compare syntax checks with semantic correctness on declared examples. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare syntax checks with semantic correctness on declared examples..\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 532 (Large Language Model Systems)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Large Language Model Systems: History & Origins*\r\n- **Episode Slug:** `532_large_language_model_systems_deep_dive_the_architecture_of_large_language_model_systems_history_ori`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/532_large_language_model_systems/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "34472a3418780b9da843c19e2f976e61b7cf62e113f975ad4675032fdf7dce31",
+        "original_text": "# 532 Large Language Model Systems -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 532 Large Language Model Systems (Robotics_AI)  \r\n> **Storage Directory:** `topics/532_large_language_model_systems/`  \r\n> **Synchronized With:** `OUTPUT/532_large_language_model_systems/`, `REGISTRY/Niches/532_large_language_model_systems/`, and `532_LARGE_LANGUAGE_MODEL_SYSTEMS_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 532 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/532_large_language_model_systems](../../OUTPUT/532_large_language_model_systems) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Large Language Model Systems: History & Origins** | Tier 1: Foundational Frameworks | `history_origins` | `large_language_model_systems_history_origins` | A rigorous pedagogical investigation exploring history & origins through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Large Language Model Systems: Famous Examples** | Tier 1: Foundational Frameworks | `famous_examples` | `large_language_model_systems_famous_examples` | A rigorous pedagogical investigation exploring famous examples through documented evidence. | `QUEUED` |\r\n| 3 | **Large Language Model Systems: Hidden Stories** | Tier 1: Foundational Frameworks | `hidden_stories` | `large_language_model_systems_hidden_stories` | A rigorous pedagogical investigation exploring hidden stories through documented evidence. | `QUEUED` |\r\n| 4 | **Large Language Model Systems: Beginner Explainers** | Tier 1: Foundational Frameworks | `beginner_explainers` | `large_language_model_systems_beginner_explainers` | A rigorous pedagogical investigation exploring beginner explainers through documented evidence. | `QUEUED` |\r\n| 5 | **Large Language Model Systems: Advanced Concepts** | Tier 1: Foundational Frameworks | `advanced_concepts` | `large_language_model_systems_advanced_concepts` | A rigorous pedagogical investigation exploring advanced concepts through documented evidence. | `QUEUED` |\r\n| 6 | **Large Language Model Systems: Mysteries & Unsolved Cases** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `large_language_model_systems_mysteries_unsolved_cases` | A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence. | `QUEUED` |\r\n| 7 | **Large Language Model Systems: Technology & Innovation** | Tier 2: Methodological Deep Dives | `technology_innovation` | `large_language_model_systems_technology_innovation` | A rigorous pedagogical investigation exploring technology & innovation through documented evidence. | `QUEUED` |\r\n| 8 | **Large Language Model Systems: People & Personalities** | Tier 2: Methodological Deep Dives | `people_personalities` | `large_language_model_systems_people_personalities` | A rigorous pedagogical investigation exploring people & personalities through documented evidence. | `QUEUED` |\r\n| 9 | **Large Language Model Systems: Major Events** | Tier 2: Methodological Deep Dives | `major_events` | `large_language_model_systems_major_events` | A rigorous pedagogical investigation exploring major events through documented evidence. | `QUEUED` |\r\n| 10 | **Large Language Model Systems: How It Works** | Tier 2: Methodological Deep Dives | `how_it_works` | `large_language_model_systems_how_it_works` | A rigorous pedagogical investigation exploring how it works through documented evidence. | `QUEUED` |\r\n| 11 | **Large Language Model Systems: Rise & Fall** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `large_language_model_systems_rise_fall` | A rigorous pedagogical investigation exploring rise & fall through documented evidence. | `QUEUED` |\r\n| 12 | **Large Language Model Systems: Then vs Now** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `large_language_model_systems_then_vs_now` | A rigorous pedagogical investigation exploring then vs now through documented evidence. | `QUEUED` |\r\n| 13 | **Large Language Model Systems: Future Developments** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `large_language_model_systems_future_developments` | A rigorous pedagogical investigation exploring future developments through documented evidence. | `QUEUED` |\r\n| 14 | **Large Language Model Systems: Myths vs Facts** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `large_language_model_systems_myths_vs_facts` | A rigorous pedagogical investigation exploring myths vs facts through documented evidence. | `QUEUED` |\r\n| 15 | **Large Language Model Systems: Documentary Stories** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `large_language_model_systems_documentary_stories` | A rigorous pedagogical investigation exploring documentary stories through documented evidence. | `QUEUED` |\r\n| 16 | **Large Language Model Systems: Retrieval Grounding** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_retrieval_grounding` | `large_language_model_systems_retrieval_grounding` | A rigorous pedagogical investigation exploring retrieval grounding through documented evidence. | `QUEUED` |\r\n| 17 | **Large Language Model Systems: Context And Truncation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_context_and_truncation` | `large_language_model_systems_context_and_truncation` | A rigorous pedagogical investigation exploring context and truncation through documented evidence. | `QUEUED` |\r\n| 18 | **Large Language Model Systems: Inference Tradeoffs** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_inference_tradeoffs` | `large_language_model_systems_inference_tradeoffs` | A rigorous pedagogical investigation exploring inference tradeoffs through documented evidence. | `QUEUED` |\r\n| 19 | **Large Language Model Systems: Model And System Evaluation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_model_and_system_evaluation` | `large_language_model_systems_model_and_system_evaluation` | A rigorous pedagogical investigation exploring model and system evaluation through documented evidence. | `QUEUED` |\r\n| 20 | **Large Language Model Systems: Output Validation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_output_validation` | `large_language_model_systems_output_validation` | A rigorous pedagogical investigation exploring output validation through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Large Language Model Systems: Record Extremes & Superlatives** | **98** | `extreme_case` | `large_language_model_systems_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Large Language Model Systems: Mysteries & Unsolved Cases** | **96** | `mysteries_unsolved_cases` | `large_language_model_systems_mysteries_unsolved_cases` | High viral search interest exploring what specific evidence gap remains unresolved for a versioned language-model application backed by field records. | `Queued` |\r\n| 23 | **Large Language Model Systems: Technology & Innovation** | **95** | `technology_innovation` | `large_language_model_systems_technology_innovation` | High viral search interest exploring what changed after a documented technical or material innovation affected a versioned language-model application backed by field records. | `Queued` |\r\n| 24 | **Large Language Model Systems: Myths vs Facts** | **94** | `myths_vs_facts` | `large_language_model_systems_myths_vs_facts` | High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned language-model application backed by field records. | `Queued` |\r\n| 25 | **Large Language Model Systems: Major Events** | **93** | `major_events` | `large_language_model_systems_major_events` | High viral search interest exploring what changed around a dated turning point involving a versioned language-model application backed by field records. | `Queued` |\r\n| 26 | **Large Language Model Systems: Hidden Stories** | **92** | `hidden_stories` | `large_language_model_systems_hidden_stories` | High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned language-model application backed by field records. | `Queued` |\r\n| 27 | **Large Language Model Systems: Documentary Stories** | **91** | `documentary_stories` | `large_language_model_systems_documentary_stories` | High viral search interest exploring how can a source-led documentary explain a versioned language-model application without overstating its evidence backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/532_large_language_model_systems/532_LARGE_LANGUAGE_MODEL_SYSTEMS_CHANNEL_TOPIC_ROADMAP.md`](./532_LARGE_LANGUAGE_MODEL_SYSTEMS_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/532_large_language_model_systems/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/532_large_language_model_systems/NICHE_532_large_language_model_systems.md`](file:///h:/script-raw-/REGISTRY/Niches/532_large_language_model_systems/NICHE_532_large_language_model_systems.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/532_large_language_model_systems/CAT_532_large_language_model_systems.md`](file:///h:/script-raw-/REGISTRY/Niches/532_large_language_model_systems/CAT_532_large_language_model_systems.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/532_large_language_model_systems/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/532_large_language_model_systems/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/532_large_language_model_systems/`](file:///h:/script-raw-/OUTPUT/532_large_language_model_systems/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "669c48a1de9c705f49b9c7abb8211d201ccafdc5f6533275520f18149561e430",
+        "original_text": "{\r\n  \"niche_id\": \"532\",\r\n  \"niche_name\": \"large_language_model_systems\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Large Language Model Systems: History & Origins\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"large_language_model_systems_history_origins\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring history & origins through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Large Language Model Systems: Famous Examples\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"large_language_model_systems_famous_examples\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring famous examples through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Large Language Model Systems: Hidden Stories\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"large_language_model_systems_hidden_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring hidden stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Large Language Model Systems: Beginner Explainers\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"large_language_model_systems_beginner_explainers\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring beginner explainers through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Large Language Model Systems: Advanced Concepts\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"large_language_model_systems_advanced_concepts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring advanced concepts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Large Language Model Systems: Mysteries & Unsolved Cases\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"large_language_model_systems_mysteries_unsolved_cases\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Large Language Model Systems: Technology & Innovation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"large_language_model_systems_technology_innovation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring technology & innovation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Large Language Model Systems: People & Personalities\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"large_language_model_systems_people_personalities\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people & personalities through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Large Language Model Systems: Major Events\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"large_language_model_systems_major_events\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring major events through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Large Language Model Systems: How It Works\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"large_language_model_systems_how_it_works\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how it works through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Large Language Model Systems: Rise & Fall\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"large_language_model_systems_rise_fall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring rise & fall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Large Language Model Systems: Then vs Now\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"large_language_model_systems_then_vs_now\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring then vs now through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Large Language Model Systems: Future Developments\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"large_language_model_systems_future_developments\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring future developments through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Large Language Model Systems: Myths vs Facts\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"large_language_model_systems_myths_vs_facts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring myths vs facts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Large Language Model Systems: Documentary Stories\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"large_language_model_systems_documentary_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring documentary stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Large Language Model Systems: Retrieval Grounding\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_retrieval_grounding\",\r\n      \"slug\": \"large_language_model_systems_retrieval_grounding\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring retrieval grounding through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Large Language Model Systems: Context And Truncation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_context_and_truncation\",\r\n      \"slug\": \"large_language_model_systems_context_and_truncation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring context and truncation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Large Language Model Systems: Inference Tradeoffs\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_inference_tradeoffs\",\r\n      \"slug\": \"large_language_model_systems_inference_tradeoffs\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring inference tradeoffs through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Large Language Model Systems: Model And System Evaluation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_model_and_system_evaluation\",\r\n      \"slug\": \"large_language_model_systems_model_and_system_evaluation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring model and system evaluation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Large Language Model Systems: Output Validation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_output_validation\",\r\n      \"slug\": \"large_language_model_systems_output_validation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring output validation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Large Language Model Systems: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"large_language_model_systems_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Large Language Model Systems: Mysteries & Unsolved Cases\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"large_language_model_systems_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what specific evidence gap remains unresolved for a versioned language-model application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Large Language Model Systems: Technology & Innovation\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"large_language_model_systems_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what changed after a documented technical or material innovation affected a versioned language-model application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Large Language Model Systems: Myths vs Facts\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"large_language_model_systems_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned language-model application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Large Language Model Systems: Major Events\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"large_language_model_systems_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed around a dated turning point involving a versioned language-model application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Large Language Model Systems: Hidden Stories\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"large_language_model_systems_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned language-model application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Large Language Model Systems: Documentary Stories\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"large_language_model_systems_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how can a source-led documentary explain a versioned language-model application without overstating its evidence backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "532",
+      "niche_name": "large_language_model_systems",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Large Language Model Systems: History & Origins",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "large_language_model_systems_history_origins",
+          "reason": "A rigorous pedagogical investigation exploring history & origins through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Large Language Model Systems: Famous Examples",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "large_language_model_systems_famous_examples",
+          "reason": "A rigorous pedagogical investigation exploring famous examples through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Large Language Model Systems: Hidden Stories",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "large_language_model_systems_hidden_stories",
+          "reason": "A rigorous pedagogical investigation exploring hidden stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Large Language Model Systems: Beginner Explainers",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "large_language_model_systems_beginner_explainers",
+          "reason": "A rigorous pedagogical investigation exploring beginner explainers through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Large Language Model Systems: Advanced Concepts",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "large_language_model_systems_advanced_concepts",
+          "reason": "A rigorous pedagogical investigation exploring advanced concepts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Large Language Model Systems: Mysteries & Unsolved Cases",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "large_language_model_systems_mysteries_unsolved_cases",
+          "reason": "A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Large Language Model Systems: Technology & Innovation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "large_language_model_systems_technology_innovation",
+          "reason": "A rigorous pedagogical investigation exploring technology & innovation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Large Language Model Systems: People & Personalities",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "large_language_model_systems_people_personalities",
+          "reason": "A rigorous pedagogical investigation exploring people & personalities through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Large Language Model Systems: Major Events",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "large_language_model_systems_major_events",
+          "reason": "A rigorous pedagogical investigation exploring major events through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Large Language Model Systems: How It Works",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "large_language_model_systems_how_it_works",
+          "reason": "A rigorous pedagogical investigation exploring how it works through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Large Language Model Systems: Rise & Fall",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "large_language_model_systems_rise_fall",
+          "reason": "A rigorous pedagogical investigation exploring rise & fall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Large Language Model Systems: Then vs Now",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "large_language_model_systems_then_vs_now",
+          "reason": "A rigorous pedagogical investigation exploring then vs now through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Large Language Model Systems: Future Developments",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "large_language_model_systems_future_developments",
+          "reason": "A rigorous pedagogical investigation exploring future developments through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Large Language Model Systems: Myths vs Facts",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "large_language_model_systems_myths_vs_facts",
+          "reason": "A rigorous pedagogical investigation exploring myths vs facts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Large Language Model Systems: Documentary Stories",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "large_language_model_systems_documentary_stories",
+          "reason": "A rigorous pedagogical investigation exploring documentary stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Large Language Model Systems: Retrieval Grounding",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_retrieval_grounding",
+          "slug": "large_language_model_systems_retrieval_grounding",
+          "reason": "A rigorous pedagogical investigation exploring retrieval grounding through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Large Language Model Systems: Context And Truncation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_context_and_truncation",
+          "slug": "large_language_model_systems_context_and_truncation",
+          "reason": "A rigorous pedagogical investigation exploring context and truncation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Large Language Model Systems: Inference Tradeoffs",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_inference_tradeoffs",
+          "slug": "large_language_model_systems_inference_tradeoffs",
+          "reason": "A rigorous pedagogical investigation exploring inference tradeoffs through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Large Language Model Systems: Model And System Evaluation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_model_and_system_evaluation",
+          "slug": "large_language_model_systems_model_and_system_evaluation",
+          "reason": "A rigorous pedagogical investigation exploring model and system evaluation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Large Language Model Systems: Output Validation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_output_validation",
+          "slug": "large_language_model_systems_output_validation",
+          "reason": "A rigorous pedagogical investigation exploring output validation through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Large Language Model Systems: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "large_language_model_systems_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Large Language Model Systems: Mysteries & Unsolved Cases",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "large_language_model_systems_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what specific evidence gap remains unresolved for a versioned language-model application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Large Language Model Systems: Technology & Innovation",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "large_language_model_systems_technology_innovation",
+          "why_trending": "High viral search interest exploring what changed after a documented technical or material innovation affected a versioned language-model application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Large Language Model Systems: Myths vs Facts",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "large_language_model_systems_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned language-model application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Large Language Model Systems: Major Events",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "large_language_model_systems_major_events",
+          "why_trending": "High viral search interest exploring what changed around a dated turning point involving a versioned language-model application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Large Language Model Systems: Hidden Stories",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "large_language_model_systems_hidden_stories",
+          "why_trending": "High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned language-model application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Large Language Model Systems: Documentary Stories",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "large_language_model_systems_documentary_stories",
+          "why_trending": "High viral search interest exploring how can a source-led documentary explain a versioned language-model application without overstating its evidence backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "de055f44edd2a761c9bf0321738688919594e1d9dbc2541956d9af908cb0d4fd"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "ecf30e6e7daea2f726e8aa85da6c13cad43e272622a96d2474805f8b9bf4055e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "c5ac96d43ee9510b1a0bc880bf2d213b94cc8e7660524fea362e487187f6c8c1"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "ec80122db63acd1a3107de2737090a75a9127577e26c5425c97f9f8140a1331e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "f95b5fd34c939b258c8003a4895a9f93961bce4cecc67fec105adfe3f21d281a"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "58d6108b69efcfa69c6165e4f3e52cfcdc92b75affd34efa932e413fc34769e1"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-532-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-532-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-532-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-532-04",
+      "title": "LLM application architecture",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-532-05",
+      "title": "LLM application governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "532",
+    "slug": "large_language_model_systems",
+    "name": "Large Language Model Systems",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Large Language Model Systems YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-532-01",
+        "title": "LLM systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-532-001",
+            "title": "Retrieval pipeline design",
+            "question": "Retrieval pipeline design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: LLM systems. Address Retrieval pipeline design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Retrieval pipeline design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-002",
+            "title": "Context packing",
+            "question": "Context packing: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: LLM systems. Address Context packing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Context packing.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-003",
+            "title": "Fine-tuning objectives",
+            "question": "Fine-tuning objectives: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: LLM systems. Address Fine-tuning objectives through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Fine-tuning objectives.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-532-02",
+        "title": "Serving",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-532-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-532-004",
+            "title": "Quantization",
+            "question": "Quantization: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Serving. Address Quantization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Quantization.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-005",
+            "title": "KV-cache management",
+            "question": "KV-cache management: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Serving. Address KV-cache management through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind KV-cache management.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-006",
+            "title": "Batching policies",
+            "question": "Batching policies: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Serving. Address Batching policies through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Batching policies.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-532-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-532-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-532-007",
+            "title": "Grounded answer assessment",
+            "question": "Grounded answer assessment: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Evaluation. Address Grounded answer assessment through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Grounded answer assessment precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-008",
+            "title": "Prompt injection tests in authorized settings",
+            "question": "Prompt injection tests in authorized settings: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Evaluation. Address Prompt injection tests in authorized settings through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Prompt injection tests in authorized settings precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-532-009",
+            "title": "Version-to-version regression analysis",
+            "question": "Version-to-version regression analysis: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Large Language Model Systems; branch: Evaluation. Address Version-to-version regression analysis through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Version-to-version regression analysis precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "007",
+        "title": "AI Tools / AI Tutorials",
+        "directory": "007_ai_tools_ai_tutorials",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "533",
+        "title": "No-Code & Low-Code Development",
+        "directory": "533_no-code_low-code_development",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Large Language Model Systems: History & Origins",
+      "question": "Which documented problem led to the development of a versioned language-model application?",
+      "coverage": "For a versioned language-model application, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Famous Examples",
+      "question": "What does a widely cited example of a versioned language-model application establish and leave uncertain?",
+      "coverage": "For a versioned language-model application, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Hidden Stories",
+      "question": "Whose contribution or experience is missing from the usual account of a versioned language-model application?",
+      "coverage": "For a versioned language-model application, investigate documented labor, access and omitted perspectives among developers and end users without inventing testimony. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among developers and end users without inventing testimony..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Beginner Explainers",
+      "question": "Which definitions and boundaries are needed to understand a versioned language-model application?",
+      "coverage": "For a versioned language-model application, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Advanced Concepts",
+      "question": "Which methodological assumption changes how a versioned language-model application should be interpreted?",
+      "coverage": "For a versioned language-model application, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Mysteries & Unsolved Cases",
+      "question": "What specific evidence gap remains unresolved for a versioned language-model application?",
+      "coverage": "For a versioned language-model application, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Technology & Innovation",
+      "question": "What changed after a documented technical or material innovation affected a versioned language-model application?",
+      "coverage": "For a versioned language-model application, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: People & Personalities",
+      "question": "How did credited people and institutions shape a versioned language-model application?",
+      "coverage": "For a versioned language-model application, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Major Events",
+      "question": "What changed around a dated turning point involving a versioned language-model application?",
+      "coverage": "For a versioned language-model application, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: How It Works",
+      "question": "How do the documented components or stages of a versioned language-model application connect?",
+      "coverage": "For a versioned language-model application, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Rise & Fall",
+      "question": "Which evidence explains increasing or declining use or reception of a versioned language-model application?",
+      "coverage": "For a versioned language-model application, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Then vs Now",
+      "question": "Are earlier and later accounts of a versioned language-model application comparable on the same terms?",
+      "coverage": "For a versioned language-model application, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Future Developments",
+      "question": "Which conditions would need to hold for a proposed future change involving a versioned language-model application?",
+      "coverage": "For a versioned language-model application, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Myths vs Facts",
+      "question": "Does the original evidence support a commonly repeated claim about a versioned language-model application?",
+      "coverage": "For a versioned language-model application, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Documentary Stories",
+      "question": "How can a source-led documentary explain a versioned language-model application without overstating its evidence?",
+      "coverage": "For a versioned language-model application, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Retrieval Grounding",
+      "question": "Does retrieved material actually support an application's answer?",
+      "coverage": "Trace a bounded query through retrieval, source passages and answer evaluation. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Trace a bounded query through retrieval, source passages and answer evaluation..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Context And Truncation",
+      "question": "What relevant information disappears when an application limits context?",
+      "coverage": "Inspect tokenization, input ordering and omitted content at a named version. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Inspect tokenization, input ordering and omitted content at a named version..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Inference Tradeoffs",
+      "question": "Which quality changes accompany a faster or cheaper inference setting?",
+      "coverage": "Compare matched tasks, hardware, decoding settings and repeated runs. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare matched tasks, hardware, decoding settings and repeated runs..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Model And System Evaluation",
+      "question": "Which errors belong to the model and which to retrieval or orchestration?",
+      "coverage": "Separate components and test one controlled change at a time. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Separate components and test one controlled change at a time..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Large Language Model Systems: Output Validation",
+      "question": "Which structured outputs pass a schema but still fail the user's task?",
+      "coverage": "Compare syntax checks with semantic correctness on declared examples. Evidence base: Evidence: model cards, versioned inference documentation, evaluation sets and reproducible task outputs. Choose a named source, version, period and case before scripting. Compare syntax checks with semantic correctness on declared examples..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-532-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "d1a36cc4e577ac0ba2213ad87e6f145910f19690ea13a6c833355b95b289b640",
+    "TOPIC_BANK_RECONCILIATION.md": "ec3ef333f848d7644ef5af759d16c478bfe03530c26a191fa9ad6ff1003a41b6",
+    "TOPICS_COVERED_REPORT.md": "519154ab12e1a64148ef79c063dd383510fe8c4fd904d27d91df2c33aa4eac2f",
+    "532_LARGE_LANGUAGE_MODEL_SYSTEMS_CHANNEL_TOPIC_ROADMAP.md": "1e255aded6d2fee3ff835970e893ca80d6bbe3e3d00a11d7d299ee920074718a"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-532-004": [
+      "BANK-001-034"
+    ],
+    "BANK-532-002": [
+      "BANK-001-028",
+      "BANK-001-030"
+    ],
+    "BANK-532-001": [
+      "BANK-001-029"
+    ],
+    "BANK-532-003": [
+      "BANK-001-029"
+    ],
+    "BANK-532-009": [
+      "BANK-532-034"
+    ],
+    "BANK-532-007": [
+      "BANK-001-044"
+    ],
+    "BANK-532-005": [
+      "BANK-001-025"
+    ],
+    "BANK-532-006": [
+      "BANK-001-036"
+    ],
+    "BANK-532-008": [
+      "BANK-532-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Multimodal retrieval",
+      "next_step": "Compare text indexing, figure embeddings, page context and evidence-region alignment with a labeled evaluation set. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Structured generation",
+      "next_step": "Separate grammar constraints, semantic validation and authorized action eligibility using a fictional order schema. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Data retention",
+      "next_step": "Trace purpose, identifiers, retention boundaries and deletion evidence in a hypothetical architecture; avoid asserting legal compliance. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Routing evaluation",
+      "next_step": "Compare task-stratified quality, escalation, latency and matched traffic rather than aggregate win rates. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Cache isolation",
+      "next_step": "Map tenant, authorization, model and prompt-version keys and sandbox invalidation tests without exploitation instructions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible.",
+    "followup_2026_10_24": "BANK-532-040 asks whether schema-valid output satisfies a business rule; this named JSONSchemaBench case concerns whether constrained decoders support and enforce different JSON Schema features at all. BANK-531-044 owns AgentDojo's benign-task versus security outcome test, while BANK-531-038 owns generic agent benchmark design. BANK-001-025/028/029/034 and retired BANK-532-030–033/035–037 own introductory retrieval, context and serving foundations; none are revived. 325 software engineering and 338 developer AI address application workflows, not this structured-decoding benchmark."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How does retrieval change a language-model application without changing its weights?",
+      "coverage": "Trace indexing, search and context assembly.",
+      "id": "BANK-532-030",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-001"
+      ],
+      "duplicate_of": "BANK-001-029",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R01"
+    },
+    {
+      "question": "Why can a longer context window still fail to use the right information?",
+      "coverage": "Compare position, distraction and retrieval relevance.",
+      "id": "BANK-532-031",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-001-028",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R01"
+    },
+    {
+      "question": "How do quantization and batching trade memory against response behavior?",
+      "coverage": "Separate hardware, throughput and quality assessment.",
+      "id": "BANK-532-032",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-004"
+      ],
+      "duplicate_of": "BANK-001-034",
+      "retirement_reason": "Quantization is already scoped in BANK-001-034 and serving batching in BANK-001-025; consolidate the combined introductory proposal with those existing foundations rather than retain a repeated overview.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R02"
+    },
+    {
+      "question": "When does fine-tuning solve a different problem from retrieval?",
+      "coverage": "Compare behavior adaptation and access to changing facts.",
+      "id": "BANK-532-033",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-003"
+      ],
+      "duplicate_of": "BANK-001-029",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R02"
+    },
+    {
+      "question": "What makes citation presence different from citation support?",
+      "coverage": "Check passage entailment and unsupported answer fragments.",
+      "id": "BANK-532-035",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-007"
+      ],
+      "duplicate_of": "BANK-001-044",
+      "retirement_reason": "Citation existence, relevance and passage support already form the root proposal's scope; presence-versus-support is a subset.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R03"
+    },
+    {
+      "question": "How does context packing change what a retrieved document contributes to an answer?",
+      "coverage": "Compare selection, ordering and truncation.",
+      "id": "BANK-532-036",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-002"
+      ],
+      "duplicate_of": "BANK-001-028",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R04"
+    },
+    {
+      "question": "How do KV caches and batching affect serving efficiency differently?",
+      "coverage": "Explain reuse, memory and concurrency conceptually.",
+      "id": "BANK-532-037",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-532-005",
+        "BANK-532-006"
+      ],
+      "duplicate_of": "BANK-001-025",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-532-R05"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A broad LLM-system history needs specified systems and dated source versions.",
+      "bank_ids": []
+    },
+    "pending_topics/1": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "JSONSchemaBench is a named structured-output evaluation case.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A hidden-story claim requires specific disclosed records, not inference from benchmark scores.",
+      "bank_ids": []
+    },
+    "pending_topics/3": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "The introductory retrieval/context questions were retired here because BANK-001-028/029 owns them.",
+      "bank_ids": []
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal examines model-routing cost and minority-task effects.",
+      "bank_ids": [
+        "BANK-532-042"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses authorized injection and grounded-answer evaluation.",
+      "bank_ids": [
+        "BANK-532-038"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The authors' benchmark is a named test of schema-constrained decoders.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal bounds system regressions after model upgrades.",
+      "bank_ids": [
+        "BANK-532-034"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The 2025 publication is a dated benchmark milestone, not a universal LLM turning point.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal distinguishes structural validity from a downstream rule.",
+      "bank_ids": [
+        "BANK-532-040"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal concerns model-upgrade regressions; the benchmark does not document a production failure.",
+      "bank_ids": [
+        "BANK-532-034"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A then-versus-now comparison needs matched benchmark and engine versions.",
+      "bank_ids": []
+    },
+    "pending_topics/12": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "Future system performance needs dated deployments and tests, not extrapolation from the paper.",
+      "bank_ids": []
+    },
+    "pending_topics/13": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The benchmark tests which schema features selected engines actually support.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper and authors' repository provide a traceable evidence trail.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers visually similar chart retrieval.",
+      "bank_ids": [
+        "BANK-532-039"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "Introductory context/truncation coverage belongs to retired BANK-532-031/036 and active BANK-001-028.",
+      "bank_ids": []
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses routing efficiency with minority-task safeguards.",
+      "bank_ids": [
+        "BANK-532-042"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal requires regressions to be checked after a model upgrade.",
+      "bank_ids": [
+        "BANK-532-034"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers semantic business-rule validation beyond JSON structure.",
+      "bank_ids": [
+        "BANK-532-040"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A record superlative needs a fixed schema set, framework version and metric.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal frames system evaluation under authorized adversarial tests.",
+      "bank_ids": [
+        "BANK-532-038"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "JSONSchemaBench is a named structured-generation test environment.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper tests the myth that all JSON Schema features are equally supported.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The 2025 paper is a dated publication, not proof of universal deployment change.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A hidden-story frame needs independently documented system behavior.",
+      "bank_ids": []
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper and benchmark repository are a traceable research trail.",
+      "bank_ids": [
+        "BANK-532-044"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-532-044",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

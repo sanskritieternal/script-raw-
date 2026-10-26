@@ -1,0 +1,1611 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "422",
+  "slug": "aircraft_engineering",
+  "name": "Aircraft Engineering",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Aircraft Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 18
+  },
+  "categories": [
+    {
+      "id": "CATALOG-422-R01",
+      "title": "Flight foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-422-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2ae4f4c84598ef8c9a2c5c0b4e8e5b9a93388b0a8ff1262027291d4d6d3c55f9",
+      "topics": [
+        {
+          "question": "Why does an aircraft stall depend on angle of attack rather than speed alone?",
+          "coverage": "Explain airflow separation and operating-condition dependence.",
+          "id": "BANK-422-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do pressure cabins create repeated structural loading cycles?",
+          "coverage": "Connect differential pressure, openings and fatigue concepts.",
+          "id": "BANK-422-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R02",
+      "title": "Aircraft systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-422-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "91c498a9ff4e130eba72e0b9c3acc441c91277743bd77e28abe1989b9506330d",
+      "topics": [
+        {
+          "question": "Why do aircraft need environmental control beyond cabin temperature?",
+          "coverage": "Map pressure, humidity and equipment cooling requirements.",
+          "id": "BANK-422-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does landing-gear design balance impact absorption and weight?",
+          "coverage": "Compare load cases, geometry and packaging conceptually.",
+          "id": "BANK-422-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can boundary-layer control change an aircraft's drag or lift behavior?",
+          "coverage": "Compare conceptual airflow interventions and energy costs without fabrication instructions.",
+          "covers_starter_ids": [
+            "BANK-422-004"
+          ],
+          "id": "BANK-422-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R03",
+      "title": "Engineering assurance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "485455a352cbadb23c4a1e3afcf492b33daca6ad3b68c3a8e4238a3953ddca4f",
+      "topics": [
+        {
+          "question": "How can a common-mode failure defeat duplicated aircraft systems?",
+          "coverage": "Discuss shared power, software and environmental dependencies.",
+          "id": "BANK-422-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when an aircraft structure is repaired rather than replaced?",
+          "coverage": "Trace approved data, inspection and continued-airworthiness responsibilities.",
+          "id": "BANK-422-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why should aircraft maintenance access be designed before components are installed?",
+          "coverage": "Trace inspection, replacement and hidden-damage detection needs.",
+          "covers_starter_ids": [
+            "BANK-422-009"
+          ],
+          "id": "BANK-422-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R04",
+      "title": "Airframe behavior",
+      "level": "foundation",
+      "parent_id": "DOMAIN-422-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "258d2f73386f6f5e80c1e0896b3c0d33d42f5f81329750693b7ea5efbebe4e6d",
+      "topics": [
+        {
+          "question": "How does wing loading influence aircraft operating characteristics?",
+          "coverage": "Compare lift demand and design context without pilot instructions.",
+          "id": "BANK-422-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-422-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R05",
+      "title": "Airframe behavior",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-422-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "46026f63b28b82b7e3a2e65208282f2cfabf8e54c31b35de307e5afe97ea409c",
+      "topics": [
+        {
+          "question": "How do transonic drag and high-lift devices pose different aerodynamic problems?",
+          "coverage": "Contrast cruise and low-speed configurations.",
+          "id": "BANK-422-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-422-005",
+            "BANK-422-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R06",
+      "title": "Aircraft assurance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a8439b118112b92d12fa64e962b73ec355846284b6603036b02fa65288fd883d",
+      "topics": [
+        {
+          "question": "How do composite airframes change fatigue inspection and repair decisions?",
+          "coverage": "Distinguish material damage modes and approved assessment.",
+          "id": "BANK-422-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-422-002",
+            "BANK-422-003"
+          ]
+        },
+        {
+          "question": "How can certification evidence support a fly-by-wire redundancy claim?",
+          "coverage": "Trace failure assumptions and independence without equating redundancy with safety.",
+          "id": "BANK-422-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-422-007",
+            "BANK-422-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R07",
+      "title": "Aeroelasticity",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "14c59c0d9b228d67bd65012e234b22521c4376bf29a36a764a78e2cc1732bd1d",
+      "topics": [
+        {
+          "question": "How can airflow and structural flexibility change each other during flight?",
+          "coverage": "Explain coupling and test evidence conceptually.",
+          "id": "BANK-422-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-422-047",
+          "question": "What did X-29 flight tests establish about its forward-swept composite wing and flight control?",
+          "coverage": "Read NASA’s X-29 program record and technical report together: a tailored composite wing addressed divergence within the tested envelope while digital fly-by-wire provided artificial stability for the research aircraft. Bound conclusions to the stated phases, configurations and measured flight tests, not certification, operational service, all forward-swept wings or universal fuel savings.",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R08",
+      "title": "Propulsion integration",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-422-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f268edc1bd38334686292156a4e75d63576a52bd601f233042a29f02873f3b3c",
+      "topics": [
+        {
+          "question": "Why can an efficient engine still be a poor match for a particular airframe?",
+          "coverage": "Compare mass, drag, placement and mission.",
+          "id": "BANK-422-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R09",
+      "title": "Landing-gear reliability",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "cb6f5bf6d7f9743a741f31da0ca9ee7590feb22b1df62e1ecb4b12e33dc6b30b",
+      "topics": [
+        {
+          "question": "How can landing-gear reliability depend on more than impact strength?",
+          "coverage": "Include seals, actuation, inspection and repeated service.",
+          "id": "BANK-422-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R10",
+      "title": "Hydrogen-aircraft design constraints",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "539e23a8cf339fb9d19a2e97e8465d1b586bd2780c8b5618dc6197e19846b99b",
+      "topics": [
+        {
+          "question": "What airframe changes follow from storing hydrogen rather than conventional aviation fuel?",
+          "coverage": "Compare volume, thermal management and infrastructure assumptions.",
+          "id": "BANK-422-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-422-R11",
+      "title": "Certification evidence",
+      "level": "advanced",
+      "parent_id": "DOMAIN-422-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3625cb35c7e3f65fa2d8ee912429d7938127a047d0c7e10866c2ca41eaa20c16",
+      "topics": [
+        {
+          "question": "What does an aircraft certification test demonstrate within its specified conditions?",
+          "coverage": "Trace requirement, test article, measured outcome and extrapolation limits without implying a single test certifies an entire aircraft.",
+          "covers_starter_ids": [
+            "BANK-422-008"
+          ],
+          "id": "BANK-422-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "031",
+      "title": "Megastructures & Engineering",
+      "directory": "031_megastructures_engineering",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "047",
+      "title": "Aviation",
+      "directory": "047_aviation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "051",
+      "title": "Industrial / Manufacturing Stories",
+      "directory": "051_industrial_manufacturing_stories",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "052",
+      "title": "Architecture",
+      "directory": "052_architecture",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "109",
+      "title": "Railways & Trains",
+      "directory": "109_railways_trains",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "110",
+      "title": "Transportation",
+      "directory": "110_transportation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/422_aircraft_engineering/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "bdce316c3b13794d903388d658f106d08d7cf75e9695f3bf21131d55cd8ea8cc",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-422-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ff6bbec7fae6c755d2e745501af0c979ccea162b3a3c4f83e07bfe732ef7cae5"
+      },
+      "BANK-422-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "58bbc967ffdfb2ae15bd73e586ee263b08b3fceea65617c345bbf3f37f703914"
+      },
+      "BANK-422-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f5c6db767fd217a4a86f2a16107d5b2151eb29887e2706b383af7860e9a3fa9e"
+      },
+      "BANK-422-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3762c972b345741fad664131c35523a344d75f6d15c71ab32006bfa065c9dd84"
+      },
+      "BANK-422-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1f1b3391ef89725244f73b6ed291e1b0b375c8653959106941dc3ec8d02689d9"
+      },
+      "BANK-422-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b9cd6f464f43873edb0e27b8d8d517c363e07be7afe4b0da92ebc721bbebcf40"
+      },
+      "BANK-422-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "36f54fa7f375ae69854e94d9fa5d95fa9e1058b272eafb0e2d2a80c64385260e"
+      },
+      "BANK-422-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "012b587df367888a1d1434eee77862cf347e3ae1bed680c0d61f4cc0ceb6d76c"
+      },
+      "BANK-422-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3f7894cd3a6d1dfb39540b1b4a6550b55b61d10f13affb915142d33262244cbf"
+      }
+    },
+    "source_categories": {
+      "CATALOG-422-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "fde261ced526c66e4e42d7f1f8e8afbb70ba87349cdec62fe95cef92cde75866"
+      },
+      "CATALOG-422-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "9d10a3040c0a2e5c52970d0a3219a1607b93cadb95ec91ec72f402463d0b4903"
+      },
+      "CATALOG-422-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "b7a6d746ca84de4bcea7f15478640d08b57a2431c11ada4e08c56e7d5694391f"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "422_AIRCRAFT_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "e407d14445429664565ffde6242956d346d8f66f3ef0b434bd1630a1038fb268",
+        "original_text": "# Aircraft Engineering Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 422 Aircraft Engineering (Transport_Engineering)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Aircraft Engineering Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/422_aircraft_engineering/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Aircraft Engineering across four progressive tiers:\r\n- **Tier 1: Aircraft Engineering Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Aircraft Engineering.\r\n- **Tier 2: Aircraft Engineering Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Aircraft Engineering.\r\n- **Tier 3: Aircraft Engineering Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Aircraft Engineering.\r\n- **Tier 4: Aircraft Engineering Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Aircraft Engineering.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/422_aircraft_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/422_aircraft_engineering/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Design Requirement Takes Shape** | *Which route, payload, or safety requirement shaped one aircraft?* |\r\n| 2 | `famous_examples` | **A Famous Aircraft Reassessed** | *Which design choices explain a named aircraft's role?* |\r\n| 3 | `hidden_stories` | **Workers behind Flight Test** | *Which test, maintenance, or manufacturing contribution is overlooked?* |\r\n| 4 | `beginner_explainers` | **Lift, Thrust, and Control** | *How do these systems interact in one phase of flight?* |\r\n| 5 | `advanced_concepts` | **Aeroelastic Design Limit** | *What evidence sets an aircraft's safe operating envelope?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unresolved Technical Event** | *Which evidence is missing from an aircraft investigation?* |\r\n| 7 | `technology_innovation` | **A New Aircraft Material** | *Did a design material improve mass, durability, or maintainability?* |\r\n| 8 | `people_personalities` | **A Design Decision in Context** | *Who proposed one aircraft solution and who tested it?* |\r\n| 9 | `major_events` | **A Certification Milestone** | *What exactly did an approval permit at that date?* |\r\n| 10 | `how_it_works` | **Flight Control Chain** | *How does pilot input become an aerodynamic response?* |\r\n| 11 | `rise_fall` | **An Aircraft Type Retired** | *Which economics, maintenance, or rule changes explain withdrawal?* |\r\n| 12 | `then_vs_now` | **Two Aircraft Generations** | *Which efficiency and safety measures can be fairly compared?* |\r\n| 13 | `future_developments` | **A Proposed Aircraft Design** | *What ground and flight evidence would support deployment?* |\r\n| 14 | `myths_vs_facts` | **A Claimed Fuel Saving** | *Does a published percentage hold for an actual mission?* |\r\n| 15 | `documentary_stories` | **Prototype to Service** | *How did test findings change one aircraft before delivery?* |\r\n| 16 | `system_boundary` | **Aircraft or Flight Operation?** | *Which performance depends on airframe, crew, weather, and airspace?* |\r\n| 17 | `input_output_trace` | **Command to Surface** | *What happens after one flight-control command?* |\r\n| 18 | `design_tradeoff` | **Wing Design Tradeoff** | *How does one wing choice affect drag, structure, and handling?* |\r\n| 19 | `failure_mode` | **A Documented Component Failure** | *What fault path and mitigation were established?* |\r\n| 20 | `testing_limits` | **Ground Test to Flight** | *Which assumptions must flight testing challenge?* |\r\n| 21 | `standards_interoperability` | **Certification Basis** | *Which rules applied to a particular aircraft variant?* |\r\n| 22 | `security_threat_model` | **Aircraft Data Interface** | *Which connectivity path has a documented risk and control?* |\r\n| 23 | `maintenance_lifecycle` | **Continued Airworthiness** | *How did in-service data change an inspection or repair?* |\r\n| 24 | `infrastructure_dependencies` | **Aircraft and Airport** | *Which runway, ground service, and navigation systems are needed?* |\r\n| 25 | `accessibility_usability` | **Cockpit and Cabin Use** | *How does a design serve crew and passengers with varied needs?* |\r\n| 26 | `independent_replication` | **Repeating a Flight Result** | *Can another team reproduce a performance figure?* |\r\n| 27 | `responsible_deployment` | **Introducing an Aircraft Type** | *What training, maintenance, and monitoring accompany service entry?* |\r\n| 28 | `field_route_capacity` | **Aircraft on a Route** | *Can a type meet payload and range for a particular city pair?* |\r\n| 29 | `field_vehicle_design` | **Airframe Layout** | *How do structure, propulsion, cabin, and systems share space?* |\r\n| 30 | `field_maintenance_system` | **Support for a Fleet** | *Are parts, tooling, and technicians available where aircraft operate?* |\r\n| 31 | `field_safety_case` | **Basis for Safe Flight** | *Which tests and compliance findings support one claim?* |\r\n| 32 | `field_construction_impact` | **Making an Aircraft** | *Which materials, energy, and labor impacts can be documented?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Aircraft Engineering: A Design Requirement Takes Shape**\r\n   - *Question:* Which route, payload, or safety requirement shaped one aircraft?\r\n   - *Key Focus:* Use dated design and certification records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n2. **Aircraft Engineering: A Famous Aircraft Reassessed**\r\n   - *Question:* Which design choices explain a named aircraft's role?\r\n   - *Key Focus:* Compare production versions and operating evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n3. **Aircraft Engineering: Workers behind Flight Test**\r\n   - *Question:* Which test, maintenance, or manufacturing contribution is overlooked?\r\n   - *Key Focus:* Use documented personnel and program records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n4. **Aircraft Engineering: Lift, Thrust, and Control**\r\n   - *Question:* How do these systems interact in one phase of flight?\r\n   - *Key Focus:* Use a specified aircraft and conditions. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n5. **Aircraft Engineering: Aeroelastic Design Limit**\r\n   - *Question:* What evidence sets an aircraft's safe operating envelope?\r\n   - *Key Focus:* Read analysis, ground tests, and flight tests. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Aircraft Engineering: An Unresolved Technical Event**\r\n   - *Question:* Which evidence is missing from an aircraft investigation?\r\n   - *Key Focus:* Separate preliminary report from final finding. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n7. **Aircraft Engineering: A New Aircraft Material**\r\n   - *Question:* Did a design material improve mass, durability, or maintainability?\r\n   - *Key Focus:* Compare tests and in-service evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n8. **Aircraft Engineering: A Design Decision in Context**\r\n   - *Question:* Who proposed one aircraft solution and who tested it?\r\n   - *Key Focus:* Use dated team and regulator records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n9. **Aircraft Engineering: A Certification Milestone**\r\n   - *Question:* What exactly did an approval permit at that date?\r\n   - *Key Focus:* Check type, variant, operating limits, and jurisdiction. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n10. **Aircraft Engineering: Flight Control Chain**\r\n   - *Question:* How does pilot input become an aerodynamic response?\r\n   - *Key Focus:* Follow sensor, control law, actuator, and feedback. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Aircraft Engineering: An Aircraft Type Retired**\r\n   - *Question:* Which economics, maintenance, or rule changes explain withdrawal?\r\n   - *Key Focus:* Distinguish fleet and model-specific evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n12. **Aircraft Engineering: Two Aircraft Generations**\r\n   - *Question:* Which efficiency and safety measures can be fairly compared?\r\n   - *Key Focus:* Align payload, route, test basis, and period. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n13. **Aircraft Engineering: A Proposed Aircraft Design**\r\n   - *Question:* What ground and flight evidence would support deployment?\r\n   - *Key Focus:* Treat certification and production as separate gates. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n14. **Aircraft Engineering: A Claimed Fuel Saving**\r\n   - *Question:* Does a published percentage hold for an actual mission?\r\n   - *Key Focus:* State load, distance, weather, and baseline. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n15. **Aircraft Engineering: Prototype to Service**\r\n   - *Question:* How did test findings change one aircraft before delivery?\r\n   - *Key Focus:* Follow dated test, redesign, approval, and service records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Aircraft Engineering: Aircraft or Flight Operation?**\r\n   - *Question:* Which performance depends on airframe, crew, weather, and airspace?\r\n   - *Key Focus:* Define measurement boundary. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n17. **Aircraft Engineering: Command to Surface**\r\n   - *Question:* What happens after one flight-control command?\r\n   - *Key Focus:* Trace redundancy, timing, and actuator response. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n18. **Aircraft Engineering: Wing Design Tradeoff**\r\n   - *Question:* How does one wing choice affect drag, structure, and handling?\r\n   - *Key Focus:* Use matched analyses and certified limits. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n19. **Aircraft Engineering: A Documented Component Failure**\r\n   - *Question:* What fault path and mitigation were established?\r\n   - *Key Focus:* Use investigation and airworthiness records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n20. **Aircraft Engineering: Ground Test to Flight**\r\n   - *Question:* Which assumptions must flight testing challenge?\r\n   - *Key Focus:* Compare simulation, test conditions, and envelope. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 422 (Aircraft Engineering)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Aircraft Engineering: A Design Requirement Takes Shape*\r\n- **Episode Slug:** `422_aircraft_engineering_deep_dive_the_architecture_of_aircraft_engineering_a_design_requiremen`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/422_aircraft_engineering/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "79bcfb494b4f2cf09199f6445cc95cb8579715d27c22a8cd65b0f1656eb94434",
+        "original_text": "# 422 Aircraft Engineering -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 422 Aircraft Engineering (Transport_Engineering)  \r\n> **Storage Directory:** `topics/422_aircraft_engineering/`  \r\n> **Synchronized With:** `OUTPUT/422_aircraft_engineering/`, `REGISTRY/Niches/422_aircraft_engineering/`, and `422_AIRCRAFT_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 422 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/422_aircraft_engineering](../../OUTPUT/422_aircraft_engineering) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Aircraft Engineering: A Design Requirement Takes Shape** | Tier 1: Foundational Frameworks | `history_origins` | `aircraft_engineering_a_design_requirement_takes_shape` | A rigorous pedagogical investigation exploring a design requirement takes shape through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Aircraft Engineering: A Famous Aircraft Reassessed** | Tier 1: Foundational Frameworks | `famous_examples` | `aircraft_engineering_a_famous_aircraft_reassessed` | A rigorous pedagogical investigation exploring a famous aircraft reassessed through documented evidence. | `QUEUED` |\r\n| 3 | **Aircraft Engineering: Workers behind Flight Test** | Tier 1: Foundational Frameworks | `hidden_stories` | `aircraft_engineering_workers_behind_flight_test` | A rigorous pedagogical investigation exploring workers behind flight test through documented evidence. | `QUEUED` |\r\n| 4 | **Aircraft Engineering: Lift, Thrust, and Control** | Tier 1: Foundational Frameworks | `beginner_explainers` | `aircraft_engineering_lift_thrust_and_control` | A rigorous pedagogical investigation exploring lift, thrust, and control through documented evidence. | `QUEUED` |\r\n| 5 | **Aircraft Engineering: Aeroelastic Design Limit** | Tier 1: Foundational Frameworks | `advanced_concepts` | `aircraft_engineering_aeroelastic_design_limit` | A rigorous pedagogical investigation exploring aeroelastic design limit through documented evidence. | `QUEUED` |\r\n| 6 | **Aircraft Engineering: An Unresolved Technical Event** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `aircraft_engineering_an_unresolved_technical_event` | A rigorous pedagogical investigation exploring an unresolved technical event through documented evidence. | `QUEUED` |\r\n| 7 | **Aircraft Engineering: A New Aircraft Material** | Tier 2: Methodological Deep Dives | `technology_innovation` | `aircraft_engineering_a_new_aircraft_material` | A rigorous pedagogical investigation exploring a new aircraft material through documented evidence. | `QUEUED` |\r\n| 8 | **Aircraft Engineering: A Design Decision in Context** | Tier 2: Methodological Deep Dives | `people_personalities` | `aircraft_engineering_a_design_decision_in_context` | A rigorous pedagogical investigation exploring a design decision in context through documented evidence. | `QUEUED` |\r\n| 9 | **Aircraft Engineering: A Certification Milestone** | Tier 2: Methodological Deep Dives | `major_events` | `aircraft_engineering_a_certification_milestone` | A rigorous pedagogical investigation exploring a certification milestone through documented evidence. | `QUEUED` |\r\n| 10 | **Aircraft Engineering: Flight Control Chain** | Tier 2: Methodological Deep Dives | `how_it_works` | `aircraft_engineering_flight_control_chain` | A rigorous pedagogical investigation exploring flight control chain through documented evidence. | `QUEUED` |\r\n| 11 | **Aircraft Engineering: An Aircraft Type Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `aircraft_engineering_an_aircraft_type_retired` | A rigorous pedagogical investigation exploring an aircraft type retired through documented evidence. | `QUEUED` |\r\n| 12 | **Aircraft Engineering: Two Aircraft Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `aircraft_engineering_two_aircraft_generations` | A rigorous pedagogical investigation exploring two aircraft generations through documented evidence. | `QUEUED` |\r\n| 13 | **Aircraft Engineering: A Proposed Aircraft Design** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `aircraft_engineering_a_proposed_aircraft_design` | A rigorous pedagogical investigation exploring a proposed aircraft design through documented evidence. | `QUEUED` |\r\n| 14 | **Aircraft Engineering: A Claimed Fuel Saving** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `aircraft_engineering_a_claimed_fuel_saving` | A rigorous pedagogical investigation exploring a claimed fuel saving through documented evidence. | `QUEUED` |\r\n| 15 | **Aircraft Engineering: Prototype to Service** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `aircraft_engineering_prototype_to_service` | A rigorous pedagogical investigation exploring prototype to service through documented evidence. | `QUEUED` |\r\n| 16 | **Aircraft Engineering: Aircraft or Flight Operation?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `aircraft_engineering_aircraft_or_flight_operation` | A rigorous pedagogical investigation exploring aircraft or flight operation? through documented evidence. | `QUEUED` |\r\n| 17 | **Aircraft Engineering: Command to Surface** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `aircraft_engineering_command_to_surface` | A rigorous pedagogical investigation exploring command to surface through documented evidence. | `QUEUED` |\r\n| 18 | **Aircraft Engineering: Wing Design Tradeoff** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `aircraft_engineering_wing_design_tradeoff` | A rigorous pedagogical investigation exploring wing design tradeoff through documented evidence. | `QUEUED` |\r\n| 19 | **Aircraft Engineering: A Documented Component Failure** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `aircraft_engineering_a_documented_component_failure` | A rigorous pedagogical investigation exploring a documented component failure through documented evidence. | `QUEUED` |\r\n| 20 | **Aircraft Engineering: Ground Test to Flight** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `aircraft_engineering_ground_test_to_flight` | A rigorous pedagogical investigation exploring ground test to flight through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Aircraft Engineering: Record Extremes & Superlatives** | **98** | `extreme_case` | `aircraft_engineering_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Aircraft Engineering: An Unresolved Technical Event** | **96** | `mysteries_unsolved_cases` | `aircraft_engineering_mysteries_unsolved_cases` | High viral search interest exploring which evidence is missing from an aircraft investigation backed by field records. | `Queued` |\r\n| 23 | **Aircraft Engineering: A New Aircraft Material** | **95** | `technology_innovation` | `aircraft_engineering_technology_innovation` | High viral search interest exploring did a design material improve mass, durability, or maintainability backed by field records. | `Queued` |\r\n| 24 | **Aircraft Engineering: A Claimed Fuel Saving** | **94** | `myths_vs_facts` | `aircraft_engineering_myths_vs_facts` | High viral search interest exploring does a published percentage hold for an actual mission backed by field records. | `Queued` |\r\n| 25 | **Aircraft Engineering: A Certification Milestone** | **93** | `major_events` | `aircraft_engineering_major_events` | High viral search interest exploring what exactly did an approval permit at that date backed by field records. | `Queued` |\r\n| 26 | **Aircraft Engineering: Workers behind Flight Test** | **92** | `hidden_stories` | `aircraft_engineering_hidden_stories` | High viral search interest exploring which test, maintenance, or manufacturing contribution is overlooked backed by field records. | `Queued` |\r\n| 27 | **Aircraft Engineering: Prototype to Service** | **91** | `documentary_stories` | `aircraft_engineering_documentary_stories` | High viral search interest exploring how did test findings change one aircraft before delivery backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/422_aircraft_engineering/422_AIRCRAFT_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`](./422_AIRCRAFT_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/422_aircraft_engineering/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/422_aircraft_engineering/NICHE_422_aircraft_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/422_aircraft_engineering/NICHE_422_aircraft_engineering.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/422_aircraft_engineering/CAT_422_aircraft_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/422_aircraft_engineering/CAT_422_aircraft_engineering.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/422_aircraft_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/422_aircraft_engineering/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/422_aircraft_engineering/`](file:///h:/script-raw-/OUTPUT/422_aircraft_engineering/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "40ad2622642da9afd01299bc56fe6117a5c4dc06f2bbe388efefcc332de71259",
+        "original_text": "{\r\n  \"niche_id\": \"422\",\r\n  \"niche_name\": \"aircraft_engineering\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Aircraft Engineering: A Design Requirement Takes Shape\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"aircraft_engineering_a_design_requirement_takes_shape\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a design requirement takes shape through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Aircraft Engineering: A Famous Aircraft Reassessed\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"aircraft_engineering_a_famous_aircraft_reassessed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a famous aircraft reassessed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Aircraft Engineering: Workers behind Flight Test\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"aircraft_engineering_workers_behind_flight_test\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring workers behind flight test through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Aircraft Engineering: Lift, Thrust, and Control\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"aircraft_engineering_lift_thrust_and_control\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring lift, thrust, and control through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Aircraft Engineering: Aeroelastic Design Limit\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"aircraft_engineering_aeroelastic_design_limit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring aeroelastic design limit through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Aircraft Engineering: An Unresolved Technical Event\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"aircraft_engineering_an_unresolved_technical_event\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unresolved technical event through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Aircraft Engineering: A New Aircraft Material\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"aircraft_engineering_a_new_aircraft_material\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new aircraft material through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Aircraft Engineering: A Design Decision in Context\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"aircraft_engineering_a_design_decision_in_context\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a design decision in context through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Aircraft Engineering: A Certification Milestone\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"aircraft_engineering_a_certification_milestone\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a certification milestone through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Aircraft Engineering: Flight Control Chain\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"aircraft_engineering_flight_control_chain\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring flight control chain through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Aircraft Engineering: An Aircraft Type Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"aircraft_engineering_an_aircraft_type_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an aircraft type retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Aircraft Engineering: Two Aircraft Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"aircraft_engineering_two_aircraft_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two aircraft generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Aircraft Engineering: A Proposed Aircraft Design\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"aircraft_engineering_a_proposed_aircraft_design\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed aircraft design through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Aircraft Engineering: A Claimed Fuel Saving\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"aircraft_engineering_a_claimed_fuel_saving\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a claimed fuel saving through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Aircraft Engineering: Prototype to Service\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"aircraft_engineering_prototype_to_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring prototype to service through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Aircraft Engineering: Aircraft or Flight Operation?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"aircraft_engineering_aircraft_or_flight_operation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring aircraft or flight operation? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Aircraft Engineering: Command to Surface\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"aircraft_engineering_command_to_surface\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring command to surface through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Aircraft Engineering: Wing Design Tradeoff\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"aircraft_engineering_wing_design_tradeoff\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring wing design tradeoff through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Aircraft Engineering: A Documented Component Failure\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"aircraft_engineering_a_documented_component_failure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a documented component failure through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Aircraft Engineering: Ground Test to Flight\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"aircraft_engineering_ground_test_to_flight\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring ground test to flight through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Aircraft Engineering: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"aircraft_engineering_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Aircraft Engineering: An Unresolved Technical Event\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"aircraft_engineering_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which evidence is missing from an aircraft investigation backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Aircraft Engineering: A New Aircraft Material\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"aircraft_engineering_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did a design material improve mass, durability, or maintainability backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Aircraft Engineering: A Claimed Fuel Saving\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"aircraft_engineering_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does a published percentage hold for an actual mission backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Aircraft Engineering: A Certification Milestone\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"aircraft_engineering_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what exactly did an approval permit at that date backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Aircraft Engineering: Workers behind Flight Test\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"aircraft_engineering_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring which test, maintenance, or manufacturing contribution is overlooked backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Aircraft Engineering: Prototype to Service\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"aircraft_engineering_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did test findings change one aircraft before delivery backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "422",
+      "niche_name": "aircraft_engineering",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Aircraft Engineering: A Design Requirement Takes Shape",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "aircraft_engineering_a_design_requirement_takes_shape",
+          "reason": "A rigorous pedagogical investigation exploring a design requirement takes shape through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Aircraft Engineering: A Famous Aircraft Reassessed",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "aircraft_engineering_a_famous_aircraft_reassessed",
+          "reason": "A rigorous pedagogical investigation exploring a famous aircraft reassessed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Aircraft Engineering: Workers behind Flight Test",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "aircraft_engineering_workers_behind_flight_test",
+          "reason": "A rigorous pedagogical investigation exploring workers behind flight test through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Aircraft Engineering: Lift, Thrust, and Control",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "aircraft_engineering_lift_thrust_and_control",
+          "reason": "A rigorous pedagogical investigation exploring lift, thrust, and control through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Aircraft Engineering: Aeroelastic Design Limit",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "aircraft_engineering_aeroelastic_design_limit",
+          "reason": "A rigorous pedagogical investigation exploring aeroelastic design limit through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Aircraft Engineering: An Unresolved Technical Event",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "aircraft_engineering_an_unresolved_technical_event",
+          "reason": "A rigorous pedagogical investigation exploring an unresolved technical event through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Aircraft Engineering: A New Aircraft Material",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "aircraft_engineering_a_new_aircraft_material",
+          "reason": "A rigorous pedagogical investigation exploring a new aircraft material through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Aircraft Engineering: A Design Decision in Context",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "aircraft_engineering_a_design_decision_in_context",
+          "reason": "A rigorous pedagogical investigation exploring a design decision in context through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Aircraft Engineering: A Certification Milestone",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "aircraft_engineering_a_certification_milestone",
+          "reason": "A rigorous pedagogical investigation exploring a certification milestone through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Aircraft Engineering: Flight Control Chain",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "aircraft_engineering_flight_control_chain",
+          "reason": "A rigorous pedagogical investigation exploring flight control chain through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Aircraft Engineering: An Aircraft Type Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "aircraft_engineering_an_aircraft_type_retired",
+          "reason": "A rigorous pedagogical investigation exploring an aircraft type retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Aircraft Engineering: Two Aircraft Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "aircraft_engineering_two_aircraft_generations",
+          "reason": "A rigorous pedagogical investigation exploring two aircraft generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Aircraft Engineering: A Proposed Aircraft Design",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "aircraft_engineering_a_proposed_aircraft_design",
+          "reason": "A rigorous pedagogical investigation exploring a proposed aircraft design through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Aircraft Engineering: A Claimed Fuel Saving",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "aircraft_engineering_a_claimed_fuel_saving",
+          "reason": "A rigorous pedagogical investigation exploring a claimed fuel saving through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Aircraft Engineering: Prototype to Service",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "aircraft_engineering_prototype_to_service",
+          "reason": "A rigorous pedagogical investigation exploring prototype to service through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Aircraft Engineering: Aircraft or Flight Operation?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "aircraft_engineering_aircraft_or_flight_operation",
+          "reason": "A rigorous pedagogical investigation exploring aircraft or flight operation? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Aircraft Engineering: Command to Surface",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "aircraft_engineering_command_to_surface",
+          "reason": "A rigorous pedagogical investigation exploring command to surface through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Aircraft Engineering: Wing Design Tradeoff",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "aircraft_engineering_wing_design_tradeoff",
+          "reason": "A rigorous pedagogical investigation exploring wing design tradeoff through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Aircraft Engineering: A Documented Component Failure",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "aircraft_engineering_a_documented_component_failure",
+          "reason": "A rigorous pedagogical investigation exploring a documented component failure through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Aircraft Engineering: Ground Test to Flight",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "aircraft_engineering_ground_test_to_flight",
+          "reason": "A rigorous pedagogical investigation exploring ground test to flight through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Aircraft Engineering: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "aircraft_engineering_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Aircraft Engineering: An Unresolved Technical Event",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "aircraft_engineering_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which evidence is missing from an aircraft investigation backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Aircraft Engineering: A New Aircraft Material",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "aircraft_engineering_technology_innovation",
+          "why_trending": "High viral search interest exploring did a design material improve mass, durability, or maintainability backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Aircraft Engineering: A Claimed Fuel Saving",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "aircraft_engineering_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does a published percentage hold for an actual mission backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Aircraft Engineering: A Certification Milestone",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "aircraft_engineering_major_events",
+          "why_trending": "High viral search interest exploring what exactly did an approval permit at that date backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Aircraft Engineering: Workers behind Flight Test",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "aircraft_engineering_hidden_stories",
+          "why_trending": "High viral search interest exploring which test, maintenance, or manufacturing contribution is overlooked backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Aircraft Engineering: Prototype to Service",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "aircraft_engineering_documentary_stories",
+          "why_trending": "High viral search interest exploring how did test findings change one aircraft before delivery backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "6d91eea21fe882ff75fa6a5061caaf31644f3f96a9f314f509ba0721f60b58af"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "89d678037134dee0ed19ef4e4c1f191549075828326e81a32aa14998b6238813"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "586e926065fe1a6b443f07bbed6635614eafb4bdaec7c4ba26f3b9c049abbca3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "e3f6b22634a22b9fd7b76fceb8b8a8e028ca1b009deb1f33263ec3598f92403f"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "4a55b9eb9974dc39dd48892644ed10f55b76a8206879601f8fe70e76633c6f31"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "37fa796b50ba981a8b36f684784ea8c740be3b2a41f5d2b1248dc4a2c3da6d79"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-422-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-04",
+      "title": "Aircraft structures",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-05",
+      "title": "Aircraft systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-06",
+      "title": "Aircraft assurance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-422-07",
+      "title": "Future aircraft",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "422",
+    "slug": "aircraft_engineering",
+    "name": "Aircraft Engineering",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Aircraft Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-422-01",
+        "title": "Aircraft structures",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-422-001",
+            "title": "Wing loading",
+            "question": "Wing loading: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aircraft structures. Address Wing loading through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Wing loading.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-002",
+            "title": "Composite airframes",
+            "question": "Composite airframes: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aircraft structures. Address Composite airframes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Composite airframes.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-003",
+            "title": "Fatigue crack growth",
+            "question": "Fatigue crack growth: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aircraft structures. Address Fatigue crack growth through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Fatigue crack growth.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-422-02",
+        "title": "Aerodynamics",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-422-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-422-004",
+            "title": "Boundary layer control",
+            "question": "Boundary layer control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aerodynamics. Address Boundary layer control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Boundary layer control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-005",
+            "title": "Transonic drag",
+            "question": "Transonic drag: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aerodynamics. Address Transonic drag through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Transonic drag.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-006",
+            "title": "High-lift devices",
+            "question": "High-lift devices: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Aerodynamics. Address High-lift devices through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind High-lift devices.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-422-03",
+        "title": "Systems assurance",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-422-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-422-007",
+            "title": "Fly-by-wire redundancy",
+            "question": "Fly-by-wire redundancy: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Systems assurance. Address Fly-by-wire redundancy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Fly-by-wire redundancy.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-008",
+            "title": "Certification test evidence",
+            "question": "Certification test evidence: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Systems assurance. Address Certification test evidence through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Certification test evidence.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-422-009",
+            "title": "Maintenance access design",
+            "question": "Maintenance access design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Aircraft Engineering; branch: Systems assurance. Address Maintenance access design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Maintenance access design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "031",
+        "title": "Megastructures & Engineering",
+        "directory": "031_megastructures_engineering",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "047",
+        "title": "Aviation",
+        "directory": "047_aviation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "051",
+        "title": "Industrial / Manufacturing Stories",
+        "directory": "051_industrial_manufacturing_stories",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "052",
+        "title": "Architecture",
+        "directory": "052_architecture",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "109",
+        "title": "Railways & Trains",
+        "directory": "109_railways_trains",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "110",
+        "title": "Transportation",
+        "directory": "110_transportation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Aircraft Engineering: A Design Requirement Takes Shape",
+      "question": "Which route, payload, or safety requirement shaped one aircraft?",
+      "coverage": "Use dated design and certification records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Famous Aircraft Reassessed",
+      "question": "Which design choices explain a named aircraft's role?",
+      "coverage": "Compare production versions and operating evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Workers behind Flight Test",
+      "question": "Which test, maintenance, or manufacturing contribution is overlooked?",
+      "coverage": "Use documented personnel and program records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Lift, Thrust, and Control",
+      "question": "How do these systems interact in one phase of flight?",
+      "coverage": "Use a specified aircraft and conditions. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Aeroelastic Design Limit",
+      "question": "What evidence sets an aircraft's safe operating envelope?",
+      "coverage": "Read analysis, ground tests, and flight tests. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: An Unresolved Technical Event",
+      "question": "Which evidence is missing from an aircraft investigation?",
+      "coverage": "Separate preliminary report from final finding. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A New Aircraft Material",
+      "question": "Did a design material improve mass, durability, or maintainability?",
+      "coverage": "Compare tests and in-service evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Design Decision in Context",
+      "question": "Who proposed one aircraft solution and who tested it?",
+      "coverage": "Use dated team and regulator records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Certification Milestone",
+      "question": "What exactly did an approval permit at that date?",
+      "coverage": "Check type, variant, operating limits, and jurisdiction. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Flight Control Chain",
+      "question": "How does pilot input become an aerodynamic response?",
+      "coverage": "Follow sensor, control law, actuator, and feedback. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: An Aircraft Type Retired",
+      "question": "Which economics, maintenance, or rule changes explain withdrawal?",
+      "coverage": "Distinguish fleet and model-specific evidence. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Two Aircraft Generations",
+      "question": "Which efficiency and safety measures can be fairly compared?",
+      "coverage": "Align payload, route, test basis, and period. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Proposed Aircraft Design",
+      "question": "What ground and flight evidence would support deployment?",
+      "coverage": "Treat certification and production as separate gates. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Claimed Fuel Saving",
+      "question": "Does a published percentage hold for an actual mission?",
+      "coverage": "State load, distance, weather, and baseline. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Prototype to Service",
+      "question": "How did test findings change one aircraft before delivery?",
+      "coverage": "Follow dated test, redesign, approval, and service records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Aircraft or Flight Operation?",
+      "question": "Which performance depends on airframe, crew, weather, and airspace?",
+      "coverage": "Define measurement boundary. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Command to Surface",
+      "question": "What happens after one flight-control command?",
+      "coverage": "Trace redundancy, timing, and actuator response. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Wing Design Tradeoff",
+      "question": "How does one wing choice affect drag, structure, and handling?",
+      "coverage": "Use matched analyses and certified limits. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: A Documented Component Failure",
+      "question": "What fault path and mitigation were established?",
+      "coverage": "Use investigation and airworthiness records. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Aircraft Engineering: Ground Test to Flight",
+      "question": "Which assumptions must flight testing challenge?",
+      "coverage": "Compare simulation, test conditions, and envelope. Evidence base: FAA certification and airworthiness records, dated design documents, ground and flight tests, accident investigations, operator manuals, and service records.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-422-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "2f175afd36ab1886d3b08d6d0add2aac0a3d07b79157736597251bf7bf3312ea",
+    "TOPIC_BANK_RECONCILIATION.md": "023ff3fcba01d4a14271c2f37860c802e0084dacc5a496c187e878a6a698eaac",
+    "TOPICS_COVERED_REPORT.md": "eeb246b890fd64ebdeef2aec0496edb00d279a4f4303e163c9083a6e11fb05a9",
+    "422_AIRCRAFT_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": "dc3983d3a42555a9ee7bf012c9c1815c0be16cb75540e3a1235c0b8ae62c7dc6"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-422-001": [
+      "BANK-422-036"
+    ],
+    "BANK-422-005": [
+      "BANK-422-037"
+    ],
+    "BANK-422-006": [
+      "BANK-422-037"
+    ],
+    "BANK-422-002": [
+      "BANK-422-038"
+    ],
+    "BANK-422-007": [
+      "BANK-422-039"
+    ],
+    "BANK-422-004": [
+      "BANK-422-040"
+    ],
+    "BANK-422-009": [
+      "BANK-422-041"
+    ],
+    "BANK-422-003": [
+      "BANK-422-038"
+    ],
+    "BANK-422-008": [
+      "BANK-422-046"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Aeroelasticity",
+      "next_step": "Explain coupling and test evidence conceptually. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Propulsion integration",
+      "next_step": "Compare mass, drag, placement and mission. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Landing-gear reliability",
+      "next_step": "Include seals, actuation, inspection and repeated service. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Hydrogen-aircraft design constraints",
+      "next_step": "Compare volume, thermal management and infrastructure assumptions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Certification evidence",
+      "next_step": "Trace requirement, test article, measured outcome and extrapolation limits without implying a single test certifies an entire aircraft. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_agency_records_inspected",
+    "semantic_candidates_reviewed": 27,
+    "out_of_scope_positions": 12,
+    "neighbor_overlap": "Existing 422-042 asks generic aeroelastic interaction and 422-039 generic certification evidence; X-29 supplies a named bounded flight-test case without claiming certification. Niche 423 rocket engineering addresses launch vehicles, while 420–421 address road EVs/batteries and 424 shipbuilding addresses marine structures. Astronomical mission banks 344–345 cover observations, not experimental aircraft engineering."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Flight-test worker credit requires named personnel and role records beyond this bounded systems case.",
+      "bank_ids": []
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "An unresolved technical event requires a specific event and investigation record.",
+      "bank_ids": []
+    },
+    "pending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-038"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-046"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-039"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Retirement of an aircraft type needs type-specific service and withdrawal records; X-29 was a research aircraft.",
+      "bank_ids": []
+    },
+    "pending_topics/11": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-037"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-045"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A fuel-saving claim needs measured mission conditions and comparable baselines.",
+      "bank_ids": []
+    },
+    "pending_topics/14": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Prototype-to-service framing is inapplicable to this research aircraft absent a named derived service type.",
+      "bank_ids": []
+    },
+    "pending_topics/15": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "This aircraft-versus-operation distinction lacks a named decision or evidence set.",
+      "bank_ids": []
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-039"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A component-failure story requires a dated failure and investigation or maintenance record.",
+      "bank_ids": []
+    },
+    "pending_topics/19": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-422-047"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A superlative needs a metric and comparative corpus.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "An unresolved technical event requires a specific event and investigation record.",
+      "bank_ids": []
+    },
+    "trending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-038"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A fuel-saving claim needs measured mission conditions and comparable baselines.",
+      "bank_ids": []
+    },
+    "trending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-422-046"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Flight-test worker credit requires named personnel and role records beyond this bounded systems case.",
+      "bank_ids": []
+    },
+    "trending_topics/6": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Prototype-to-service framing is inapplicable to this research aircraft absent a named derived service type.",
+      "bank_ids": []
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-422-047",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

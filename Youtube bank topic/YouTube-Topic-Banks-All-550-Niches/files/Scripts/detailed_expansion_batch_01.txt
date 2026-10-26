@@ -1,0 +1,934 @@
+@001
+# Representations and tokenization|foundation|technical
+Why can the same sentence require different token counts in two models?	Compare vocabulary, normalization, byte handling and a fixed multilingual sample; separate tokens from words.
+How do subword vocabularies handle rare names and spelling mistakes?	Trace segmentation of controlled examples and examine the tradeoff between vocabulary size and sequence length.
+What changes when text, images and audio share one model interface?	Separate modality encoders, representations, alignment and output tasks; avoid implying identical internal processing.
+Why does numerical reasoning remain difficult for a text predictor?	Compare number representation, training examples, exact computation and tool-assisted answers on reproducible arithmetic tasks.
+How does positional information let a transformer distinguish word order?	Explain an identified positional scheme with short examples; compare training context with longer inputs.
+# Training and learning|intermediate|technical
+What does next-token training teach beyond memorizing sentences?	Distinguish the prediction objective, learned statistical structure, generalization tests and examples that expose memorization.
+Why are training, validation and test data kept separate?	Trace a small experiment and show how leakage changes the apparent performance estimate.
+What happens during gradient descent in a language-model training step?	Follow loss, gradients, parameter updates and learning rate in a toy network rather than claiming access to proprietary training.
+How do supervised instruction tuning and preference optimization differ?	Compare datasets, objectives, human judgments and evaluation; do not equate preference with factual accuracy.
+Why can additional training data make an evaluation less trustworthy?	Examine benchmark overlap, near duplicates and the difference between legitimate learning and contaminated measurement.
+# Inference and generation|intermediate|technical
+How does a model choose the next token from its output scores?	Work through logits, probabilities and selection using a small hypothetical vocabulary with explicitly illustrative numbers.
+Why do temperature and top-p produce different kinds of variation?	Compare repeated generations from the same distribution while controlling prompt, model version and sampling settings.
+What does a key-value cache store during text generation?	Trace repeated attention work, cache growth and memory use; distinguish stored activations from permanent model knowledge.
+Why does generating the first token often take longer than later tokens?	Separate prompt processing, decoding, batching and network delay using a measured serving trace.
+Can a model give different answers when sampling is disabled?	Investigate hardware kernels, server settings, version changes and numerical nondeterminism before assigning one cause.
+# Context and external knowledge|intermediate|technical
+Why can information in a long context still be overlooked?	Test information placement, distractors, retrieval tasks and answer scoring; distinguish advertised length from effective use.
+When should an application retrieve documents instead of fine-tuning a model?	Compare update frequency, task adaptation, provenance, privacy and measured answer quality on the same use case.
+How do document chunk boundaries change retrieval results?	Compare headings, tables, overlap and chunk length against a fixed question set with source-grounded scoring.
+What makes a retrieved passage relevant but insufficient for an answer?	Separate topical similarity, entailment, missing qualifiers and conflicting sources using annotated examples.
+How should a system answer when its retrieved documents disagree?	Preserve dates, authority and exact claims; compare abstention and attributed disagreement instead of silently merging answers.
+# Hardware and serving|intermediate|technical
+Where does GPU memory go when a model is loaded and used?	Separate weights, activations, caches and runtime overhead; measure one version and workload rather than quoting a universal requirement.
+How does quantization trade memory savings against output quality?	Compare bit widths, calibration assumptions, tasks and hardware support with matched evaluation conditions.
+Why can a smaller local model respond faster than a larger remote model?	Measure compute, memory bandwidth, prompt length, network latency and batching instead of attributing speed to parameter count alone.
+When does batching improve throughput while worsening an individual request's latency?	Use a queueing example and distinguish tokens per second, time to first token and end-to-end completion time.
+How do speculative decoding and ordinary decoding differ operationally?	Explain draft verification and acceptance behavior; inspect a published implementation without assuming every workload benefits.
+# Reliability and evaluation|advanced|science
+How can an answer sound certain while lacking supporting evidence?	Compare fluency, confidence wording and source support on a labeled set; do not infer internal certainty from tone.
+What does a useful hallucination evaluation need to count?	Define unsupported claims, contradicted claims, omissions and abstentions; use source-level adjudication and report disagreements.
+Why can two benchmarks rank the same models differently?	Compare task composition, prompts, scoring, contamination and uncertainty before treating one aggregate as universal capability.
+How can a model's refusal rate hide both safety gains and usability failures?	Distinguish correctly refused harmful tasks, benign refusals and unsafe completions in an explicitly authorized evaluation.
+What does calibration mean when a model reports a probability?	Compare claimed likelihood with observed correctness across bins; separate token probabilities from answer-level confidence.
+# Human use and boundaries|advanced|civic
+How should an AI interface distinguish a suggestion from an executed action?	Trace preview, authorization, execution and confirmation in a reversible example; record failures without claiming success.
+What information should accompany an AI-generated citation?	Check source existence, passage location, relevance, quotation accuracy and access date on actual examples.
+How do AI applications leak sensitive information through ordinary logging?	Map prompts, tool results, traces and retention policies in a documented architecture without exposing real private data.
+Why is prompt injection a system-boundary problem rather than only a wording problem?	Use benign authorized demonstrations to distinguish trusted instructions, untrusted documents, tool permissions and human review.
+How can a team compare AI productivity gains without measuring only output volume?	Evaluate task correctness, review effort, rework, costs and participant differences against a defined baseline.
+# Economics and public claims|advanced|synthesis
+What belongs in the cost of an AI answer beyond token pricing?	Include retrieval, infrastructure, failed requests, review and maintenance using a clearly labeled workload model.
+How should energy comparisons separate training from serving?	State hardware, utilization, geography, measurement boundaries and workload; avoid assigning one universal footprint per query.
+When does an impressive AI demonstration fail to establish reliable autonomy?	Inspect hidden assistance, resets, task selection, failure disclosure and repeated trials rather than extrapolating from one edited clip.
+What evidence would justify calling an AI system open source?	Compare actual licenses and released components; distinguish access to weights, data, training code and modification rights.
+How can a model comparison remain useful after product versions change?	Publish exact versions, dates, prompts, settings and raw outcomes; define what must be rerun after an update.
+@002
+# Evidence before mystery|foundation|history
+What makes a historical event unresolved rather than merely poorly documented?	Separate missing evidence, contradictory records and sensational framing; build an explicit list of answerable and unanswerable questions.
+How can historians date an event when surviving accounts were written much later?	Compare witness dates, transmission, internal references and independent anchors without treating later narration as eyewitness evidence.
+When does an archive's silence become meaningful evidence?	Examine record-keeping expectations, survival, access and alternative explanations before drawing conclusions from absence.
+How can an old document be authentic while its story remains unreliable?	Separate material provenance, authorship, hearsay, rhetorical purpose and factual corroboration.
+What distinguishes a primary source from an independent source?	Trace copied accounts and shared witnesses so repeated publication does not become false corroboration.
+# Missing expeditions|intermediate|history
+What can the Franklin expedition's surviving records establish about its final movements?	Combine dated documents, archaeological finds and Inuit testimony; distinguish chronology from disputed causal reconstructions.
+How did Inuit knowledge influence the search for Franklin's ships?	Follow attributed accounts, search decisions and archaeological confirmation without erasing Indigenous contributors.
+Which parts of the Roanoke disappearance are documented and which are later speculation?	Separate contemporary reports, colony timelines, material finds and unsupported explanations.
+How should a documentary investigate the disappearance of Percy Fawcett?	Use expedition correspondence, contemporaneous reports and local perspectives; avoid presenting conjectural routes as recovered fact.
+Why do lost-expedition stories often minimize guides and support workers?	Compare credits, diaries and logistical records from one expedition and identify whose accounts survive.
+# Texts and undeciphered writing|intermediate|history
+What does the Voynich manuscript's material history reveal without deciphering its text?	Compare dating, ownership records, illustrations and script analysis while keeping translation claims separate.
+How can a claimed Voynich decipherment be tested fairly?	Require a reproducible method, predictive readings and treatment of the whole corpus rather than isolated suggestive words.
+Why has the Indus script resisted accepted decipherment?	Discuss corpus size, sign context, bilingual evidence and competing language assumptions without endorsing a proposed reading.
+What makes the Phaistos Disc difficult to interpret?	Separate artifact context, inscription length, sign classification and limitations on testing a decipherment.
+How do palimpsests recover lost texts while introducing new uncertainties?	Explain imaging, layered writing, transcription decisions and the difference between recovering marks and interpreting language.
+# Archaeological enigmas|intermediate|history
+What did the Antikythera mechanism's surviving fragments allow researchers to reconstruct?	Compare imaging, inscriptions and mechanical models; distinguish observed gears from reconstructed missing parts.
+How do researchers test explanations for the Nazca lines?	Compare landscape context, dating, pathways and competing ritual interpretations without invoking unsupported technology claims.
+What does evidence from Gobekli Tepe change about early monumental construction?	Examine excavated contexts and chronology; avoid turning one site's interpretation into a universal rewrite of prehistory.
+How can a buried city's identity remain disputed after excavation?	Compare inscriptions, geography, settlement phases and historical names in a bounded archaeological case.
+Why do stone-sphere and megalith stories attract false precision?	Inspect measurement, geological context, tool evidence and selective photographs before evaluating construction claims.
+# Disaster and abandonment narratives|intermediate|history
+What can evidence establish about the abandonment of a Maya city?	Use one site and time range; compare environmental, political and demographic explanations without a single-cause civilization collapse story.
+How should the Bronze Age collapse be divided into regional questions?	Compare dated destruction layers, migration evidence and surviving states rather than assuming one simultaneous event.
+What distinguishes the historical Mary Celeste record from its fictional retellings?	Trace logs, official inquiries and later additions; keep plausible scenarios separate from established causes.
+How can evidence from the Dyatlov Pass incident be assessed without turning speculation into accusation?	Separate contemporaneous records, environmental models, later testimony and the limits of reconstruction.
+Why do explanations of Tunguska depend on models as well as eyewitness accounts?	Compare observation timing, physical traces, atmospheric calculations and uncertainty in the event's parameters.
+# Forgery and sensational claims|advanced|history
+How was the Piltdown interpretation undermined by later testing?	Trace the evidence, institutional assumptions and scientific correction without treating one fraud as proof that all fossils are suspect.
+What can the Hitler diaries forgery teach about provenance checking?	Compare material tests, chain of possession, commercial incentives and the timing of editorial decisions.
+How do fabricated ancient maps acquire apparently scholarly credibility?	Trace publication histories, dating claims, copied citations and the distinction between an old surface and old content.
+When does a treasure legend rely on one unverifiable document?	Examine the Beale papers as a provenance problem; separate claimed cipher solutions from independently confirmed evidence.
+How can a historical quotation become widely attributed to the wrong person?	Follow earliest attestations, translation changes and citation copying instead of relying on popular quotation pages.
+# Methods that resolve or narrow mysteries|advanced|science
+How does radiocarbon calibration change a seemingly precise historical date?	Explain laboratory measurement, calibration ranges, contamination and contextual interpretation with a published example.
+What can ancient DNA establish about a named historical population?	Distinguish ancestry models, sample representativeness, contamination controls and unsupported claims about individual identity.
+How do shipwreck researchers identify a wreck without finding its name?	Compare location, construction, cargo, dates and archival records; report confidence and conflicting matches.
+What does geophysical mapping reveal before an archaeological excavation?	Compare radar or magnetometry anomalies with ground truth; avoid describing every anomaly as a wall or tomb.
+Can isotope evidence reconstruct a person's travels from a single tooth?	Explain the sampled tissue, geographic baselines, overlapping signatures and limits on route precision.
+# Responsible historical storytelling|advanced|media
+How should a film show two explanations when their evidence is unequal?	Compare evidential support explicitly rather than granting equal screen time as a substitute for analysis.
+How can a reconstruction disclose which details were invented for clarity?	Separate observed objects, sourced actions, plausible staging and unsupported dialogue in visual labels and production notes.
+What should change when new evidence overturns a historical mystery video?	Plan corrections, dated updates, source links and preservation of the earlier claim for accountability.
+How can a mystery documentary end honestly without resolving its central question?	Summarize established evidence, eliminate unsupported branches and specify what discovery would meaningfully change the conclusion.
+When should a local legend remain a story rather than an investigation into identifiable people?	Consider living communities, privacy, consent and the harms of converting folklore into accusations.
+@003
+# Sources and chronological foundations|foundation|history
+How do inscriptions, coins and literature answer different questions about ancient India?	Compare dating, audience, geographic reach and survival bias; avoid treating one source class as universally superior.
+Why do archaeological cultures and named kingdoms not map neatly onto each other?	Distinguish material classifications, political labels, linguistic evidence and retrospective historical categories.
+How does an ancient Indian chronology combine relative and absolute dates?	Trace stratigraphy, inscriptions, astronomical claims and calibrated measurements within one bounded period.
+What does decipherment of Brahmi allow historians to investigate?	Explain the history of the decipherment and a sourced inscription example; distinguish reading characters from resolving interpretation.
+How can a royal inscription exaggerate power while preserving useful evidence?	Analyze titles, patronage, genre and independent geographic or material corroboration.
+# Harappan settlement and environment|intermediate|history
+How did Dholavira organize water storage within its settlement plan?	Compare reservoirs, channels, excavated phases and environmental constraints using site documentation rather than a timeless ideal-city narrative.
+What do Mohenjo-daro's drains reveal about urban maintenance?	Examine construction, household connections, access points and uncertainty about waste flows and administrative responsibility.
+How do Harappan settlement sizes differ across regions?	Compare survey methods, site preservation and chronology before inferring a single uniform urban hierarchy.
+What can environmental evidence establish about changing Harappan river landscapes?	Distinguish sediment records, channel histories, dates and debates over identification with later textual rivers.
+How should the decline of a Harappan city be separated from the end of an entire civilization?	Compare local occupation sequences, regional continuity and multiple causal hypotheses.
+# Harappan craft and exchange|intermediate|history
+What can Harappan standardized weights reveal about exchange?	Compare distributions, contexts and measurement tolerances; distinguish coordination from proof of one centralized government.
+How were carnelian beads produced and circulated?	Use workshop evidence, material sourcing and experimental studies; separate observed production stages from inferred trade organization.
+What do seals establish about administration without a deciphered script?	Compare find contexts, motifs and sealings while avoiding unsupported readings of titles or institutions.
+How strong is the evidence for Harappan contact with Mesopotamia?	Compare texts, artifacts, dates and provenance rather than treating every stylistic resemblance as trade.
+What do shell-working sites reveal about coastal and inland connections?	Track raw materials, workshop waste and finished objects across identified sites and phases.
+# Vedic and early Iron Age worlds|intermediate|history
+How can Vedic texts be used as historical evidence without treating them as census records?	Examine genre, oral transmission, social vocabulary and differences between textual ideals and lived conditions.
+What can Painted Grey Ware distributions establish about settlement?	Separate pottery classification, chronology and site context from automatic identification with epic peoples.
+How did iron technology spread unevenly across the subcontinent?	Compare dated contexts, local production evidence and agricultural implications without one universal technological transition.
+What is debated about the relationship between archaeology and the early epics?	Distinguish textual layers, later place identifications, material horizons and evidential limits on proving narrative events.
+How did changing agricultural landscapes support early states?	Use regional settlement and environmental evidence; avoid reducing political change to a single crop or tool.
+# Mahajanapadas and Magadha|intermediate|history
+Why did early urban centers develop differently across the Ganga plain?	Compare sites, transport routes, craft evidence and chronology rather than assuming one model of second urbanization.
+What do Buddhist and Jain sources say about the mahajanapadas?	Compare textual lists, dating and geographic interpretation with material and inscriptional evidence where available.
+How can Magadha's expansion be investigated beyond lists of kings?	Examine geography, resources, institutions and differing source traditions without turning later explanations into contemporary records.
+What can punch-marked coins reveal about exchange and authority?	Compare symbols, weights, find contexts and chronology; separate monetary circulation from certain attribution to one ruler.
+How do gana-sangha descriptions complicate a simple monarchy-versus-democracy comparison?	Read institutional vocabulary in context and identify who is included or excluded in the surviving accounts.
+# Mauryan state and society|intermediate|history
+What do Ashoka's inscriptions reveal about communication across an empire?	Compare languages, scripts, locations and audiences; distinguish a proclamation's reach from proof of uniform enforcement.
+How does the language of dhamma vary across Ashokan edicts?	Compare selected inscriptions and translations in their political and ethical contexts without equating every usage.
+What can archaeology establish about Pataliputra's urban form?	Compare excavated structures, changing river courses and descriptions; state what remains reconstructed or inaccessible.
+How should the Arthashastra be related to Mauryan administration?	Address composition, textual layers and prescriptive genre before using it as a direct account of one reign.
+What evidence supports regional differences in Mauryan governance?	Combine inscriptions, archaeological distribution and later accounts; avoid a perfectly uniform bureaucratic map.
+# Post-Mauryan political networks|intermediate|history
+What do Indo-Greek coins reveal about royal representation?	Compare legends, portraiture, circulation and attribution; avoid inferring population language from coin language alone.
+How did Kushan rulers present authority across cultural settings?	Use coin types, inscriptions and named sites; distinguish royal messaging from a uniform belief system.
+What can Satavahana inscriptions reveal about donors and social networks?	Analyze named donors, titles, locations and chronology alongside uncertainties in dynastic dating.
+How should the political reach of the Shungas be reconstructed?	Compare literary claims, inscriptions, material evidence and disputed attributions rather than drawing a definitive border from one account.
+What do Western Kshatrapa records reveal about regional power?	Examine inscriptions, coins, infrastructure patronage and relationships with neighboring rulers.
+# South India and the Deccan|intermediate|history
+How can Sangam poetry inform history without becoming literal reportage?	Distinguish poetic conventions, compilation history, patronage and archaeological corroboration.
+What does archaeology at Arikamedu reveal about overseas exchange?	Compare imported materials, local production, occupation phases and changes in interpretations of the site.
+How were megalithic burial landscapes organized in different peninsular regions?	Compare burial forms, dates, assemblages and social interpretations without treating all megaliths as one people.
+What do early Tamil-Brahmi inscriptions reveal about literacy and patronage?	Compare contexts, reading disputes, dates and the limited kinds of social activity the inscriptions record.
+How did Deccan routes connect agricultural interiors with ports?	Combine geography, settlement evidence, inscriptions and cave patronage rather than relying on modern road networks.
+# Gupta and regional formations|intermediate|history
+How should the Allahabad pillar inscription be read as political rhetoric?	Separate conquest claims, classifications of rulers and independent evidence from a literal map of permanent administration.
+What can Gupta coinage reveal about economy and royal identity?	Compare denominations, metal, iconography and circulation; avoid using artistic quality as a direct prosperity measure.
+How did Vakataka patronage connect court politics and religious sites?	Use inscriptions, marriage links and Ajanta evidence while distinguishing dates from interpretive reconstructions.
+What does a land-grant charter establish about rights and obligations?	Examine formulae, recipients, fiscal claims and local context; distinguish intended privileges from demonstrated practice.
+Why is the idea of a single ancient Indian golden age contested?	Compare disciplines, regions and social groups rather than using elite literary achievements as the sole measure.
+# Trade and everyday economies|intermediate|history
+How did monsoon navigation shape Indian Ocean exchange?	Compare sailing information, port archaeology and commodities; distinguish seasonal opportunities from fixed universal routes.
+What do guild references reveal about craft and merchant organization?	Read specific inscriptions and texts without assuming a modern corporation or identical institutions everywhere.
+How can historians investigate ordinary diets in ancient India?	Combine botanical remains, animal bones, residues and texts while accounting for preservation and normative rules.
+What can terracotta objects reveal about households beyond elite monuments?	Compare context, production, use wear and competing interpretations rather than assigning every figure a fixed religious meaning.
+How were labor and social status represented in surviving sources?	Compare normative texts, donor inscriptions and material evidence while identifying whose work remains underdocumented.
+# Religion and knowledge institutions|intermediate|history
+How did Buddhist cave donations connect religion and commerce?	Compare inscriptions, donor identities, routes and site phases without assuming every donor followed one social pattern.
+What can stupas reveal about relic practice and patronage?	Examine inscriptions, architectural changes and archaeological context; distinguish a structure's dates from later sacred narratives.
+How do early temple remains change the history of image worship?	Compare dated sites, materials, inscriptions and uncertainty over original cult or rebuilding phases.
+What does the evidence actually establish about Nalanda's development?	Use archaeology, inscriptions and travel accounts with their dates; avoid treating the institution as unchanged over centuries.
+How were mathematical and astronomical works transmitted and revised?	Distinguish authorial attribution, surviving manuscript dates, commentary and later computational practice.
+# Historical interpretation and public media|advanced|synthesis
+How can an ancient India documentary use modern country maps responsibly?	Show changing regions, uncertain boundaries and anachronistic labels without implying present-day borders existed in antiquity.
+What should a film do when an inscription has competing readings?	Attribute editions, show the contested words and explain how the difference changes the historical inference.
+How can material evidence challenge a familiar civilization narrative?	Choose one documented interpretation change and distinguish revised scholarship from claims that all history was fabricated.
+What belongs in a responsible reconstruction of an ancient Indian city?	Label excavated features, comparative analogies and invented details separately; avoid false certainty in costumes and skylines.
+How can a channel represent regional diversity without creating a single timeless ancient India?	Structure comparisons by place, period, source type and social group rather than one all-encompassing civilizational template.
+@004
+# Reading sacred narratives|foundation|tradition
+Why can two Hindu texts tell different versions of the same divine event?	Compare genre, source date, sectarian perspective and narrative purpose rather than treating variation as a copying error.
+How do a Purana, an epic and a temple mahatmya make different kinds of claims?	Use identified passages and explain audience, textual context and the limits of historical inference.
+What is lost when dharma is translated only as duty?	Compare a small set of attributed passages and translations; preserve contextual meanings instead of supplying one universal equivalent.
+How should a video distinguish scripture, commentary, folklore and modern invention?	Build a visible source trail for one story and label additions rather than silently blending authority levels.
+Why must a quotation's wording be checked against its actual source?	Compare a circulated saying with traceable Sanskrit or vernacular editions; separate translation, paraphrase and misattribution.
+# Creation and sacred time|intermediate|tradition
+How do selected Puranas describe creation without following one identical sequence?	Compare two named texts' cosmological narratives and avoid presenting a composite as a single canonical account.
+What do yuga cycles organize within a named Purana?	Read chronology, ethical change and cosmic repetition in context; distinguish theological time from archaeological dating.
+How are pralaya accounts classified in a selected textual tradition?	Identify the edition, terminology and kinds of dissolution without turning metaphorical or theological claims into astronomy.
+What roles do Brahma, Vishnu and Shiva play in different creation narratives?	Compare attributed accounts and avoid assuming that every tradition presents the Trimurti in the same hierarchy.
+How does the Nasadiya Sukta frame uncertainty about origins?	Analyze the hymn and translations within Vedic context rather than claiming it states a modern cosmological theory.
+# Vishnu and avatar narratives|intermediate|tradition
+Why do lists of Vishnu's avatars vary?	Compare identified lists, regional traditions and the treatment of Balarama or Buddha without declaring one universal enumeration.
+How do Matsya narratives connect flood, preservation and knowledge?	Compare named versions and distinguish the narrative's theological function from claims of a verified global flood.
+What changes between textual and sculptural representations of Varaha?	Use an identified passage and monument; examine posture, Earth imagery and royal or devotional context.
+How does the Narasimha story structure the limits of a boon?	Follow a named source's wording and narrative logic rather than importing details from unrelated retellings.
+What does Vamana's encounter with Bali mean in two interpretive traditions?	Compare narrative emphasis, generosity, kingship and devotion with explicit attribution.
+How do Rama and Krishna narratives connect divine action with human ethical conflict?	Choose bounded episodes and preserve differences between epic and devotional interpretations rather than summarizing both lives.
+# Shiva's narrative worlds|intermediate|tradition
+How do sources explain Shiva's forms as ascetic and householder?	Compare identified episodes and iconographic contexts without treating the forms as a simple contradiction.
+What does Nataraja imagery express in its historical and devotional settings?	Use temple context and attributed interpretation; distinguish symbolism from claims that the image literally encodes modern physics.
+How do versions of Ganga's descent distribute roles among Bhagiratha, Shiva and the river goddess?	Compare actual passages and regional retellings rather than using a single unsourced composite.
+What meanings attach to Shiva drinking the halahala during ocean churning?	Read the event within a named narrative and attribute later theological explanations separately.
+How do Ardhanarishvara texts and images represent divine unity?	Compare named sources, body division and interpretation without reducing the form to one modern slogan.
+What evidence distinguishes a Jyotirlinga's textual tradition from its temple's architectural history?	Track sacred lists, local narratives, inscriptions and rebuilding as related but different questions.
+# Devi traditions|intermediate|tradition
+How does the Devi Mahatmya connect its three narrative cycles?	Follow the frame, manifestations and theological argument in a specified edition rather than listing disconnected battles.
+Why do Durga's appearance and weapons differ across sources and images?	Compare a text, regional iconographic convention and festival form; do not invent a universally required attribute set.
+How are Kali's fierce imagery and protective devotion explained by named traditions?	Attribute interpretations and distinguish public iconography from restricted ritual teaching.
+What connects and separates the Mahavidyas in selected sources?	Examine grouping, source variation and theological explanation without claiming every list or depiction is identical.
+How does a local goddess become connected to wider Sanskritic narratives?	Use one documented regional tradition and include community interpretations alongside textual and historical scholarship.
+What do stories of Sati and Shakti Peethas reveal about sacred geography?	Compare lists and place identifications; distinguish devotional linkage from archaeological proof of a single historical event.
+# Ganesha, Kartikeya and Hanuman|intermediate|tradition
+Why do Ganesha's birth narratives differ across texts?	Compare named accounts, Parvati's role, head replacement and narrative purpose without merging all versions into one event.
+How are Ganesha's broken tusk and writing symbolism explained in different sources?	Trace actual textual witnesses and later visual conventions; label uncertain or popular attributions.
+What changes when Kartikeya is presented as Skanda, Subrahmanya or Murugan?	Compare names, regional traditions and theological emphases without assuming interchangeable local histories.
+How do accounts of Kartikeya's birth distribute agency among divine and maternal figures?	Use a named source and distinguish narrative variants from iconographic generalizations.
+How does Hanuman's crossing to Lanka combine devotion, judgment and diplomacy?	Focus on a bounded Sundara Kanda sequence and its speeches rather than reducing the episode to physical power.
+What sources support Panchamukhi Hanuman's iconography?	Identify the form's attributed traditions, directions and faces; distinguish them from details imported from other Hanuman narratives.
+# Narrative mechanisms and ethics|intermediate|tradition
+Why do boons in Hindu narratives so often have precise conditions?	Compare two specified stories and explain their plot logic and theological interpretation without creating a universal rule.
+How do curse narratives explain separation, transformation or rebirth?	Choose bounded examples and distinguish literary causality from factual claims about present-day misfortune.
+What does ocean churning reveal when read beyond a list of emerging treasures?	Examine cooperation, conflict, sequence and source variation in one named version.
+How do divine tests differ from ordinary moral instruction?	Compare attributed episodes and interpretive disagreements rather than presenting suffering as automatic proof of divine favor.
+Why can a character's action be evaluated differently across devotional communities?	Use a specific episode, relevant commentary and charitable comparison; avoid universal judgments of religious truth.
+# Image, performance and regional retelling|advanced|history
+How can a sculptural panel tell several moments of a divine story at once?	Analyze one monument's visual sequence and distinguish observed carving from uncertain identification.
+What changes when an epic episode becomes a Yakshagana or Kathakali performance?	Compare source, character emphasis, music, gesture and performance convention with practitioner attribution.
+How do vernacular retellings reshape a Sanskrit narrative for a different audience?	Choose two identified works and compare actual passages rather than labeling one as an inaccurate copy.
+Why should temple origin legends and royal inscriptions be read side by side?	Explain what each source can establish about patronage, sacred meaning and institutional memory.
+How can devotional animation preserve source variation without confusing viewers?	Name the selected version, disclose adapted dialogue and maintain consistent iconography and character relationships.
+# Research and audience responsibility|advanced|media
+How should a video handle a popular story absent from its claimed scripture?	Search editions, trace earlier attestations and label the story's actual provenance or unresolved status.
+What should a creator do when a translation and commentary disagree?	Separate base text, interpretive addition and translator choices using exact passage references.
+How can a children's retelling simplify an episode without inventing a doctrinal claim?	Preserve the chosen source's causal structure, use age-appropriate language and disclose creative adaptation.
+How can a channel compare sacred narratives without equating them with scientific experiments?	Clarify theological, literary and historical evidence standards rather than forcing a single mode of explanation.
+What does respectful criticism of a mythological retelling require?	Focus on sourced choices and documented differences; avoid demeaning believers or assigning one community a uniform view.
+@005
+# Finding a documentary question|foundation|media
+How does a broad theme become a question a documentary can answer?	Bound place, people, time and available evidence; distinguish a topic statement from an investigable premise.
+When is a compelling character insufficient to sustain a documentary?	Test access, change, conflict, consent and the connection between an individual's story and the film's larger question.
+How should a treatment separate observed facts from proposed scenes?	Use labels for existing evidence, hoped-for access and illustrative reconstruction instead of promising events that have not occurred.
+What makes a documentary's central claim falsifiable or revisable?	Identify the proposition, evidence threshold and plausible findings that would require changing the film.
+How can early research reveal that a film's original framing is unfair?	Compare source perspectives and missing voices; show how the question changes instead of merely adding token balance.
+# Research architecture|intermediate|media
+How should a production track a claim from source to narration?	Connect exact passages, interview statements, dates and scene references; distinguish source existence from claim support.
+What belongs in a chronology when witnesses disagree about sequence?	Record competing dates, confidence and consequences for the story; avoid silently selecting the most dramatic account.
+How can a document log prevent the same copied claim from appearing independently confirmed?	Trace provenance and citation chains rather than counting publications as separate witnesses.
+When does a source's expertise stop matching the question being asked?	Compare specialization, firsthand knowledge, conflicts and the precise claim rather than relying on titles alone.
+How should unanswered research questions affect production scheduling?	Separate critical factual blockers, optional enrichment and issues that can be presented as unresolved.
+# Interviews and relationships|intermediate|media
+How can an interview question invite detail without feeding the desired answer?	Compare leading and open prompts against a bounded scene objective; preserve the respondent's actual wording.
+What should happen when an interviewee corrects a previously recorded statement?	Retain the correction, investigate the discrepancy and update claims without hiding the change.
+How do ongoing consent and initial release forms serve different purposes?	Trace access, vulnerability, changing distribution and opportunities to revisit participation without treating legal paperwork as the whole relationship.
+How can a filmmaker include disagreement without arranging a manufactured confrontation?	Use independently gathered accounts and evidence; avoid staging conflict merely to create a dramatic scene.
+What is lost when only the most fluent speakers represent a community?	Examine translation, confidence, institutional access and alternative forms of participation.
+# Observational scenes|intermediate|media
+How can a camera capture process without asking people to repeat a decisive event?	Plan coverage and sound while distinguishing observation, routine repetition and reconstruction.
+What makes an observational sequence intelligible without explanatory narration?	Build spatial orientation, visible goals, actions and consequences through actual footage and sound.
+How should a crew respond when filming changes the behavior being documented?	Record the camera's presence as a methodological limit rather than claiming complete invisibility.
+When does rearranging actions in an edit create a false causal sequence?	Compare recorded chronology and the inference encouraged by the cut; preserve material relationships.
+How can everyday labor become a scene without romanticizing or humiliating workers?	Center agency, actual skill, context and consent instead of treating labor as decorative background.
+# Archive and reconstruction|intermediate|media
+How can archival footage mislead even when its date is accurate?	Check location, original purpose, represented people and the claim made by its new placement.
+What should an archival image caption tell viewers when identity is uncertain?	Separate confirmed metadata, archive description and present inference; do not let evocative narration settle an unknown.
+How can a reconstruction show a disputed event without implying it was filmed?	Use explicit disclosure and separate shared evidence from alternative staged versions.
+When is stock footage unsuitable for a factual claim?	Inspect species, geography, period, equipment and behavior; distinguish illustrative atmosphere from evidence.
+How should AI-generated historical visuals be bounded and labeled?	Document sources for observable details, disclose generation and avoid invented documentary artifacts or eyewitness imagery.
+# Structure and explanation|intermediate|media
+How do chronological and thematic structures answer different documentary questions?	Compare two outlines using the same evidence and identify what each reveals or obscures.
+When does withholding information create suspense at the cost of factual understanding?	Distinguish legitimate sequencing from concealing decisive contrary evidence or a known outcome.
+How can a complex institution be explained through one person's experience without overgeneralizing?	Connect the case to wider records, selection limits and counterexamples.
+What makes an explanatory graphic part of the argument rather than decoration?	Link every quantity, label and visual comparison to the source and the inference it supports.
+How can an ending remain satisfying when a social problem remains unresolved?	Resolve the film's bounded question and character trajectory without manufacturing a systemic solution.
+# Editing ethics and verification|advanced|media
+When does removing pauses or combining answers change an interviewee's meaning?	Compare source audio with the edit; preserve qualifications, referents and the question actually answered.
+How can a paper edit expose missing evidence before expensive finishing?	Map claims to available footage, archive rights and source support; flag scenes built on assumptions.
+What should a final narration fact-check include beyond spelling and dates?	Inspect causality, scope, numbers, implicit generalizations and visual claims made alongside the words.
+How should a team handle a participant's objection during editorial review?	Distinguish factual correction, privacy risk and disagreement with interpretation; document the response without promising automatic veto.
+How can an edit demonstrate uncertainty without making every claim sound equally doubtful?	Match wording and presentation to the specific evidence strength rather than adding a generic disclaimer.
+# Release and accountability|advanced|civic
+What should be checked before a documentary promises footage to funders or distributors?	Verify rights, releases, territories and term limits against the actual intended uses.
+How can captions and audio description preserve a documentary's factual precision?	Check names, translations, speaker identity and the difference between relevant sound and visual interpretation.
+What belongs in a public correction after a documentary makes a material error?	Identify the wrong claim, corrected evidence, affected scenes and changes to available versions.
+How can a filmmaker avoid presenting festival selection as proof of factual accuracy?	Separate distribution achievements from research quality and disclose the film's evidence process.
+How should community access be planned after filming ends?	Consider language, costs, local formats, participant expectations and restrictions without implying every audience wants public exposure.
+@006
+# Models and measurement|foundation|science
+Why is a scientific model useful even when it leaves things out?	Compare a model's purpose, assumptions, predictions and failure range using a worked example rather than demanding a complete replica of reality.
+What separates a measurement from an interpretation of that measurement?	Trace instrument response, calibration, processing and theoretical inference in one actual experiment.
+How do confidence intervals differ from the probability that a theory is true?	Use repeated-sampling interpretation and distinguish parameter uncertainty from uncertainty about assumptions or models.
+Why does a highly precise result still need a check for systematic error?	Compare random variation with calibration and model bias; use a case with explicit measurement procedures.
+What would make a scientific question currently unanswerable rather than meaningless?	Distinguish inaccessible observations, inadequate instruments and claims with no testable implications.
+# Matter and quantum questions|intermediate|science
+What does the Higgs mechanism explain about mass, and what does it not explain?	Separate elementary-particle masses from composite-particle mass and avoid reducing all mass to one interaction.
+What is directly measured in a double-slit experiment?	Distinguish detection events, interference patterns and the claims added by competing interpretations.
+How do entanglement experiments test local hidden-variable accounts?	Explain a specified test, assumptions and loopholes without presenting correlations as faster-than-light messaging.
+Why is a quantum superposition not simply an ordinary mixture of unknown alternatives?	Compare preparations and observable interference using a defined two-state system.
+What makes quantum gravity difficult to test experimentally?	Compare relevant scales, candidate observations and the gap between mathematical consistency and empirical support.
+# Space, gravity and time|intermediate|science
+How can clocks measure different elapsed times without either clock malfunctioning?	Compare a documented relativity experiment, paths and reference frames rather than invoking vague subjective time.
+What observations distinguish an expanding universe from galaxies merely moving through fixed space?	Use redshift-distance evidence and cosmological models while identifying assumptions and local-motion complications.
+What does gravitational-wave detection actually record?	Trace detector signals, noise rejection, independent observations and model-based parameter estimation.
+How can observations support a black hole without showing its interior?	Compare orbital motion, radiation, gravitational waves and imaging; distinguish evidence for an object from claims about unobserved interiors.
+Why does entropy enter explanations of the arrow of time?	Separate microscopic laws, statistical descriptions, initial conditions and unresolved philosophical interpretation.
+# Dark components and cosmic history|intermediate|science
+Which observations motivate dark matter as more than a galaxy-rotation hypothesis?	Compare independent evidence channels and distinguish successful prediction from direct identification of a particle.
+What would count as a credible direct-detection signal for dark matter?	Inspect backgrounds, detector response, replication and compatibility with other searches.
+How do researchers infer accelerated cosmic expansion?	Compare distance indicators, model assumptions and systematic uncertainties without describing dark energy as a fully understood substance.
+What does the cosmic microwave background reveal about early conditions?	Separate measured temperature patterns from model-dependent estimates and the limits of observing earlier epochs.
+How can measurements of the expansion rate disagree without proving that all cosmology has failed?	Compare methods, calibrations, uncertainties and possible theoretical explanations before choosing a conclusion.
+# Life's origins and definitions|intermediate|science
+What distinguishes evidence about life's chemistry from a complete origin-of-life explanation?	Compare laboratory pathways, environmental plausibility and missing links between molecules, compartments and heredity.
+How do protocell experiments test ideas about early life?	Identify what the constructed system does, what researchers supply and which claims cannot be generalized to ancient Earth.
+Why is there no single definition of life accepted for every scientific purpose?	Compare metabolism, replication, evolution and borderline cases while making the chosen definition explicit.
+What evidence supports endosymbiotic origins of major cellular components?	Compare genomes, membranes, cellular structures and alternative historical explanations.
+How can the search for extraterrestrial life avoid assuming Earth chemistry is universal?	Distinguish practical detection targets, alternative hypotheses and limitations imposed by current instruments.
+# Evolution and complexity|intermediate|science
+How can complexity evolve without evolution aiming toward greater complexity?	Compare selection, drift, duplication, cooperation and simplification in specific documented cases.
+What evidence separates natural selection from genetic drift in a population?	Inspect variation, population size, fitness evidence and statistical uncertainty rather than inferring adaptation from usefulness alone.
+How do researchers study major transitions such as multicellularity?	Compare fossils, comparative biology and experiments while separating independent origins and different definitions of transition.
+Why can similar features evolve independently in distant lineages?	Use a documented convergence example and distinguish common constraints from proof of identical evolutionary paths.
+What does a phylogenetic tree establish about relationships rather than progress?	Explain branching, uncertainty, sampling and the difference between living relatives and direct ancestors.
+# Mind and consciousness|advanced|science
+What can a neural correlate of consciousness establish without explaining experience?	Distinguish association, necessity, sufficiency and interpretation within one experimental paradigm.
+How do experiments separate attention from conscious awareness?	Compare task demands, report requirements and competing explanations of an observed effect.
+What makes reports of an altered state difficult to compare across participants?	Examine vocabulary, expectations, measurement timing and the distinction between experience and later interpretation.
+Can a system's convincing report of awareness establish subjective experience?	Compare behavioral evidence, philosophical assumptions and competing theories without declaring one test decisive.
+Why do theories of consciousness disagree about what should be measured?	Identify their proposed mechanisms, predictions and the degree to which tests can distinguish them.
+# Earth, energy and limits|advanced|science
+Why does renewable energy still involve physical and material constraints?	Compare variability, storage, transmission, land and lifecycle assumptions without treating one limitation as proof of impossibility.
+What distinguishes a climate model projection from a weather forecast?	Compare questions, time scales, initial conditions, scenarios and statistical validation.
+How do mass extinctions change ecosystems beyond simply reducing species counts?	Use a bounded fossil interval to examine selectivity, recovery and changes in ecological relationships.
+What does carrying capacity mean when technology and consumption change?	Separate a fixed toy model from real systems with feedback, distribution and changing resource use.
+How should a science channel explain uncertainty without implying ignorance about everything?	Distinguish well-supported mechanisms, parameter ranges, model limits and genuinely open questions in one case.
+@007
+# Choosing and testing tools|foundation|digital
+How can a creator turn an AI tool comparison into a repeatable test?	Define the task, input set, success criteria, versions, settings and failure log before selecting attractive examples.
+What does a free AI plan actually allow a complete workflow to finish?	Test quotas, exports, watermarks, commercial terms and repeat attempts on a dated plan rather than comparing only advertised access.
+When is a local AI tool a practical alternative to a cloud service?	Compare actual hardware, setup effort, privacy, quality, maintenance and end-to-end time on the same task.
+How should a tutorial record model and application versions?	Preserve settings, dates, interface changes and reproducible inputs so viewers can identify why their results differ.
+What makes an AI-generated example cherry-picked?	Report attempts, rejected outputs and selection criteria; distinguish illustrative success from representative performance.
+# Writing and document workflows|intermediate|technical
+How reliably can an AI tool extract a table with merged cells?	Use known reference tables and score headers, units, spans and omissions separately from visual resemblance.
+When does OCR fail before the language model even sees the document?	Compare scans, rotation, handwriting, scripts and layout; trace errors to extraction rather than blaming every failure on reasoning.
+How can a summarization workflow preserve exceptions and qualifications?	Compare the summary with labeled source claims, dates and exclusions rather than judging only readability.
+What checks should an AI-assisted citation workflow perform before export?	Verify source existence, passage support, quote accuracy and bibliographic fields using an auditable source list.
+How can document question answering handle a later revision of the same policy?	Track version, date, superseded text and retrieval filters; test whether answers cite the applicable edition.
+# Image-generation workflows|intermediate|media
+How can a reference board improve consistency across generated images?	Separate character identity, costume, palette, composition and lighting; test changes one variable at a time.
+Why does full-body framing not require every limb to be visible?	Compare complete pose framing, plausible concealment and anatomy; avoid forcing an extra hand or foot into view.
+How can animal-faced characters remain visually consistent with human characters?	Test linework, shading, facial design and rendering vocabulary rather than assuming one style label controls every subject.
+What should be checked when editing one object in a generated image?	Inspect surrounding geometry, shadows, texture, identity and unintended changes against the original reference.
+How can a creator evaluate text rendering in generated thumbnails?	Score spelling, script shape, hierarchy and mobile-size readability; distinguish editable typography from baked-in image text.
+# Video generation and continuity|intermediate|technical
+What makes a source image suitable for a restrained image-to-video shot?	Check pose stability, depth cues, moving elements and camera intent before selecting the generation settings.
+How can a static-camera ambient scene retain believable movement?	Specify local motions, loop boundaries and stable geometry; evaluate flicker, drifting objects and unintended camera changes.
+Why do generated characters change appearance between adjacent shots?	Compare references, seeds, prompts, lighting and model versions while documenting which controls actually affect identity.
+How can an editor assemble usable coverage from imperfect generated clips?	Plan shot purpose, continuity, cut points and sound bridges without hiding factual reconstruction as real footage.
+What does a good loop test reveal beyond matching the first and last frame?	Inspect motion direction, timing, light, audio and objects across repeated playback cycles.
+# Voice, transcription and music|intermediate|technical
+How should a transcription tool be tested on accented and multilingual speech?	Use consented recordings and reference transcripts; score names, code-switching, omissions and speaker attribution separately.
+What makes a synthetic voice's pronunciation controllable across a series?	Compare pronunciation dictionaries, phonetic hints, text normalization and voice settings on recurring names.
+How can a voice-cloning workflow document meaningful authorization?	Verify the speaker, permitted uses, retention and withdrawal terms without treating possession of a recording as consent.
+How can AI-generated music be evaluated for a seamless meditation loop?	Inspect structure, abrupt transitions, changing intensity, clipping and repetition fatigue; do not infer therapeutic effects from genre.
+When does stem separation help an edit, and when do artifacts make it worse?	Compare isolated and recombined stems using controlled listening, phase checks and the actual delivery requirement.
+# Coding and automation|intermediate|technical
+How can an AI coding tutorial prove that its generated program works?	Run meaningful task checks, inspect dependencies and show failures rather than relying on a successful-looking explanation.
+What should happen when a coding assistant names an unavailable library function?	Check official versioned documentation, reproduce the error and repair the implementation without inventing a second unsupported API.
+How can a file-renaming automation preview its effects safely?	Separate selection, proposed changes, collision checks, execution and recovery in a reversible local example.
+When should an automated workflow stop for a human decision?	Identify consequential ambiguity, authority boundaries and recoverability using a concrete process rather than approval at every step.
+How can tool execution logs distinguish a proposed action from a completed one?	Capture inputs, results, errors and postconditions; require evidence before reporting that a file or external record changed.
+# Data, privacy and portability|advanced|digital
+Where can a supposedly private AI workflow still send user data?	Trace uploads, prompts, telemetry, integrations and logs using actual policies and network or architecture documentation.
+What should be exported before changing AI providers?	Inventory source files, references, prompts, configuration and editable outputs; test that the replacement can read them.
+How can an app's privacy policy differ from settings visible in its interface?	Compare policy scope, account tier, retention, training use and deletion terms at a recorded date.
+What does an AI tool's commercial-use claim leave unresolved?	Inspect input rights, output terms, likeness, music, trademarks and jurisdiction rather than treating one label as complete clearance.
+How should a tutorial disclose an affiliate relationship or sponsored access?	Separate compensation, preferential access, test design and conclusions; keep failures visible alongside benefits.
+# Reliability and tutorial maintenance|advanced|synthesis
+How can a tutorial remain useful after the product interface changes?	Explain underlying decisions, preserve versioned screenshots or notes and define the steps that need rechecking.
+What belongs in the total cost of an AI content workflow?	Include retries, rendering, storage, review, correction and licensing using a transparent project budget.
+How can a team measure whether AI reduced work rather than moved it to review?	Compare completed-task quality, human time, rework and failure handling against the previous process.
+Why should a tool-ranking video report uncertainty instead of one universal winner?	Compare different tasks, users, hardware and constraints; show when the ranking reverses.
+What is a responsible way to publish an AI workflow with known failure cases?	Document limitations, recovery steps, suitable uses and updates without presenting the workflow as universally reliable.
+@008
+# Household cash flow|foundation|finance
+How should a household budget handle income that arrives irregularly?	Separate essential timing, variable receipts, reserves and optimistic assumptions using an illustrative month-by-month example.
+Why can a household show a surplus on paper while running short of cash?	Trace due dates, annual bills, account balances and restricted funds rather than comparing monthly totals alone.
+How do fixed, variable and discretionary expenses overlap in real decisions?	Use actual categories and contractual constraints; avoid assuming every household can cut the same items.
+What information does an expense tracker need to support a decision?	Compare categories, timing, recurring commitments and effort required; distinguish recording spending from changing outcomes.
+How should a family discuss shared expenses when incomes differ?	Compare transparent contribution rules, autonomy, unpaid work and changing circumstances without prescribing one arrangement.
+# Reserves and debt|intermediate|finance
+How does an emergency reserve differ from money saved for a predictable bill?	Separate uncertainty, time horizon and liquidity; use household scenarios rather than a universal required balance.
+What changes when debt interest compounds more often than payments arrive?	Work through dates, balances, fees and compounding with clearly illustrative numbers.
+How do avalanche and snowball debt strategies differ in cost and adherence assumptions?	Compare the same debts, rates and payments; separate arithmetic results from behavioral claims.
+When can refinancing lower a payment while increasing the total cost?	Include fees, term extension, rate type and penalties; show break-even assumptions explicitly.
+How should a borrower compare a flat-rate loan with a reducing-balance loan?	Reconstruct cash flows and effective costs under the same repayment schedule and jurisdiction.
+# Credit and banking|intermediate|finance
+What is the difference between a card statement balance and its current balance?	Trace purchases, statement dates, payments and interest terms in one actual product's rules.
+Why can minimum payments keep a balance outstanding for much longer than expected?	Use the issuer's calculation method and a transparent example; avoid universal timelines.
+How does a deposit guarantee differ from a bank's own financial strength?	Check eligible accounts, limits, ownership categories and current jurisdiction-specific protection.
+What should be compared when a low-fee account charges for common transactions?	Include required balances, transfers, withdrawals, foreign exchange and penalties under a defined use pattern.
+How can a credit report contain accurate data that is still misleading without dates?	Distinguish balances, reporting cycles, closed accounts and disputes; use the applicable reporting system.
+# Saving and inflation|intermediate|finance
+How does inflation change the purchasing power of a savings goal?	Compare nominal amounts, prices, dates and uncertain future inflation rather than one guaranteed projection.
+When does a fixed deposit's advertised rate overstate the investor's net benefit?	Account for compounding, tax, early withdrawal and reinvestment assumptions in a named jurisdiction.
+How can a savings plan fail because the target's price rises differently from general inflation?	Compare a housing, education or travel goal with the relevant price evidence and sensitivity tests.
+What is the difference between liquidity and price stability?	Compare actual access conditions and potential sale losses without treating cash-like marketing as a guarantee.
+How should a household plan for large annual costs without confusing them with emergencies?	Map timing, sinking funds, cash access and changing estimates in a worked calendar.
+# Investment foundations|intermediate|finance
+Why is diversification more than owning a large number of products?	Examine underlying exposures, correlations, concentration and shared risks rather than counting account names.
+How do an index fund's expense ratio and tracking difference answer different questions?	Compare fees, taxes, sampling and returns against the correct benchmark and period.
+What makes past-return comparisons misleading when dividends and fees are handled differently?	Align reinvestment, costs, dates and risk before drawing performance conclusions.
+How do bond prices respond to interest-rate changes in a simplified example?	Explain duration, maturity and cash flows; distinguish the toy model from credit and liquidity risks.
+When can a low-volatility investment still be unsuitable for a short-term cash need?	Inspect redemption timing, penalties, market conditions and the purpose of the money rather than volatility alone.
+# Insurance and protection|intermediate|finance
+How does an insurance exclusion change the meaning of an advertised benefit?	Compare policy wording, eligibility, waiting periods, disclosure and the claim scenario in a specific jurisdiction.
+Why should term-life and savings-linked insurance be compared through cash flows and coverage?	Separate protection, investment, costs, surrender terms and uncertainty without recommending a personal product.
+How do deductibles, copayments and network rules combine in a health policy?	Use actual terms and a labeled scenario; distinguish premium affordability from total potential outlay.
+What records can make an insurance claim easier to assess?	Identify evidence, deadlines and communication channels from the policy rather than promising approval.
+How should a household investigate whether two policies overlap or leave a gap?	Map covered events, limits, exclusions and coordination rules instead of assuming more policies mean more protection.
+# Goals and retirement|advanced|finance
+How does the order of investment returns affect retirement withdrawals?	Compare sequences with the same average return and explicit spending assumptions; do not promise a safe withdrawal rate.
+Why are longevity averages insufficient for planning a particular retirement horizon?	Distinguish population estimates, uncertainty, household structure and contingency needs.
+How can a retirement projection appear precise while depending on fragile assumptions?	Vary inflation, returns, fees, contribution gaps and life events; show ranges instead of one exact future balance.
+What changes when a financial goal is jointly funded by people with different time horizons?	Compare ownership, contributions, liquidity and agreements without prescribing legal arrangements.
+How should education or caregiving costs be included in long-term planning?	Use dated cost evidence and scenario ranges; distinguish predictable commitments from uncertain future needs.
+# Financial literacy and fraud|advanced|civic
+What evidence should accompany a claim of guaranteed high investment returns?	Check the issuer, regulator, risk disclosures and exact guarantee terms; distinguish insured promises from marketing.
+How can a finance creator disclose conflicts without obscuring them in fine print?	Identify commissions, affiliate payments, holdings and paid access near the relevant recommendation or comparison.
+What should be checked before acting on tax advice from a video?	Verify tax year, jurisdiction, eligibility and current official guidance; distinguish examples from personal conclusions.
+How can a scam create convincing account statements without real underlying assets?	Explain verification principles, independent records and warning signs without teaching fraud construction.
+What makes a financial illustration educational rather than a disguised personal recommendation?	State assumptions, alternatives, uncertainty and relevant missing information; avoid promising one universally best decision.
+@009
+# Cognitive limits|foundation|science
+How do working-memory limits change with the task rather than one fixed item count?	Compare stimuli, chunking, attention and measurement; avoid presenting a famous number as a universal capacity.
+Why is recognizing information easier than recalling it in some settings?	Compare cues, familiarity, retrieval demands and study design rather than treating recognition as proof of deep learning.
+How can attention miss a visible event without the eyes failing to see it?	Use a defined inattentional-blindness experiment and distinguish perception, awareness and later report.
+What makes task switching costly even when the tasks are familiar?	Compare switching, preparation, interference and realistic workload conditions rather than assuming all interruptions are equally harmful.
+How do expectations shape perception without making perception arbitrary?	Examine a controlled task, sensory evidence and competing explanations; distinguish influence from total determination.
+# Memory and belief|intermediate|science
+How can a confident memory become inaccurate over time?	Compare retrieval, suggestion, source confusion and objective records without implying all testimony is useless.
+What distinguishes a false memory experiment from ordinary forgetting?	Inspect procedure, outcome definition, participant awareness and the limits of applying laboratory results to real cases.
+Why can repeating a claim increase its apparent truth?	Examine familiarity, prior knowledge, correction and boundary conditions rather than promising one exposure always persuades.
+How do people update beliefs when evidence contradicts their expectations?	Compare task designs, incentives, prior commitments and actual revisions rather than labeling disagreement as bias automatically.
+What can a misinformation correction change besides factual belief?	Distinguish recall, confidence, attitudes and behavior; inspect follow-up and effects in the studied population.
+# Judgment and decisions|intermediate|science
+When does framing change a decision even though the numerical outcomes match?	Compare exact wording, reference points, populations and alternative explanations in a defined experiment.
+How do base rates interact with vivid individual evidence?	Work through a transparent probability example and compare comprehension across presentations.
+What does loss aversion mean in a specified task?	Separate reference points, outcome ranges, individual variation and disagreements about generalizability.
+Why can an anchor influence estimates even when its source is weak?	Compare plausible versus arbitrary anchors, knowledge and task conditions rather than treating the effect as irresistible manipulation.
+How can a decision be rational under constraints while differing from an idealized model?	Specify goals, information, costs and time limits before judging a choice against one benchmark.
+# Habits and motivation|intermediate|science
+What distinguishes a habit from a frequently repeated deliberate action?	Compare cues, automaticity measures, outcome sensitivity and the limitations of self-report.
+Why can a change of environment disrupt an established routine?	Examine context cues, competing demands and longitudinal evidence rather than promising a universal reset technique.
+How do rewards affect motivation differently across tasks?	Compare reward type, task interest, timing and measured outcomes instead of applying one slogan about incentives.
+What can implementation-intention studies establish about following through on goals?	Inspect populations, task specificity, adherence and effect variation; distinguish planning aids from guaranteed success.
+How should a study separate motivation from the resources needed to act?	Measure access, time, money, support and opportunity rather than interpreting every failure as lack of effort.
+# Social influence|intermediate|science
+Why do conformity experiments distinguish public agreement from private belief?	Compare response settings, group unanimity, task difficulty and evidence of later opinion change.
+How does the presence of a dissenting person change group influence?	Inspect the experimental manipulation and consider information, social support and context.
+What makes pluralistic ignorance different from ordinary disagreement?	Compare private beliefs, perceived norms and observed behavior in a measured group.
+When do social norms encourage cooperation, and when do they backfire?	Compare descriptive and injunctive messages, baseline behavior and the population receiving the intervention.
+How can group identity affect the interpretation of the same evidence?	Use a bounded experiment and separate identity cues, prior belief and motivational explanations.
+# Personality and relationships|intermediate|science
+What does a personality questionnaire measure that a type label hides?	Compare continuous scores, reliability, context and the limits of dividing people into discrete categories.
+How stable are personality measures across time and situation?	Examine repeated assessments, life stages and measurement error rather than claiming people never change.
+What can attachment questionnaires establish about adult relationships?	Distinguish instruments, dimensional scoring, associations and inappropriate use as a diagnosis of a partner.
+How do researchers measure trust after a broken expectation?	Separate stated willingness, actual risk-taking, apology and subsequent behavior in a specified task.
+Why should relationship research distinguish satisfaction, conflict and coercion?	Inspect definitions and safety implications rather than treating all difficult interaction as one ordinary communication problem.
+# Emotion and self-interpretation|advanced|science
+How do researchers distinguish emotion regulation from emotion suppression?	Compare strategies, timing, physiological measures and context without ranking one strategy as best in every situation.
+What does a physiological signal reveal about emotion without uniquely identifying it?	Examine overlapping responses, interpretation and the limits of inferring a mental state from one sensor.
+Why can people misidentify the cause of their own feelings?	Compare introspective reports, experimental conditions and competing causal accounts without dismissing experience.
+How should research on stress separate subjective demand from bodily response?	Identify measures, timing, chronicity and population differences rather than using stress as one undifferentiated quantity.
+What does self-compassion research need to show beyond a favorable questionnaire score?	Compare constructs, intervention components, active controls, follow-up and actual behavior.
+# Research quality and popular claims|advanced|synthesis
+How did replication efforts change interpretations of familiar psychology findings?	Choose a specific finding and compare methods, samples, effect estimates and revisions rather than declaring the discipline invalid.
+What are the limits of generalizing from university students to all humans?	Examine sampling, culture, age and task relevance; distinguish a limitation from proof that a result is false.
+How can demand characteristics alter a social psychology experiment?	Inspect instructions, participant guesses and behavioral measures; compare alternative designs.
+Why does a brain image not automatically strengthen a psychological explanation?	Separate localization, reverse inference, causal evidence and the actual hypothesis being tested.
+How can a psychology video explain a bias without teaching viewers to diagnose everyone around them?	Use task-based examples, uncertainty and situational context rather than turning concepts into fixed labels for people.
+@010
+# Case selection and public records|foundation|civic
+What is known at the investigation stage that is not yet a court finding?	Distinguish allegations, charges, evidence summaries, rulings and final outcomes using the actual procedural stage.
+How should a true-crime chronology handle conflicting timestamps?	Record time zones, device clocks, source precision and uncertainty instead of silently forcing a dramatic sequence.
+What makes a court document reliable for one question but limited for another?	Separate sworn claims, admitted evidence, procedural decisions and facts actually determined by the court.
+How can a film describe an acquittal without implying either proven innocence or hidden guilt?	Use the applicable standard, judgment and procedural context; avoid speculation about an identifiable person's conduct.
+When should a case not become a documentary despite strong audience interest?	Consider evidence quality, participant vulnerability, privacy, unresolved allegations and a defensible public-interest rationale.
+# Witnesses and memory|intermediate|science
+How does an identification procedure affect the interpretation of an eyewitness match?	Compare lineup design, instructions, feedback, recording and current applicable research without deciding a case from general studies alone.
+What is the difference between a witness changing details and a witness knowingly lying?	Examine memory, questioning, new information and corroboration; do not infer intent from inconsistency alone.
+How can repeated interviews alter what a witness later remembers?	Inspect timing, suggestions, recorded wording and contamination risks rather than treating every later detail as independent evidence.
+What should a documentary disclose about an anonymous source?	Explain the basis for credibility, corroboration and relevant limitations without revealing identifying details or promising certainty.
+How should translated witness statements be checked?	Preserve the source language, translator qualifications, ambiguity and the distinction between quotation and interpretation.
+# Confessions and interviews|intermediate|science
+Why does a confession still require corroboration?	Compare details independently known, information supplied during questioning and evidence established outside the interview.
+How should interrogation footage be contextualized rather than used as a guilt-reading test?	Include missing time, instructions, circumstances and legal context; avoid body-language certainty claims.
+What can research on false confessions establish about a particular recording?	Distinguish general risk factors from case-specific proof and identify the relevant expert and evidentiary standards.
+How can an edited interview reverse the apparent meaning of an answer?	Trace the full question, qualifiers, sequence and surrounding statements rather than using isolated reaction shots.
+What ethical boundaries apply when interviewing someone affected by a violent crime?	Consider informed consent, withdrawal, timing, support and distribution consequences without treating a release as the entire duty.
+# Forensic interpretation|intermediate|science
+What does a DNA association establish before activity and transfer are considered?	Separate source-level likelihood, mixtures, contamination, timing and the circumstances of deposition.
+How can chain-of-custody problems affect the weight of forensic evidence?	Trace handling and documentation while distinguishing a documented gap from proof of deliberate tampering.
+Why do forensic error rates need to match the actual task?	Compare laboratory conditions, examiner decisions, sample difficulty and the difference between method and case-specific uncertainty.
+What can toxicology establish about exposure without proving impairment at an earlier moment?	Inspect sampling time, substances, metabolism, concentration and expert interpretation in the relevant context.
+How should a documentary present disputed forensic testimony?	Identify qualifications, validated methods, contrary evidence and the court's treatment without deciding expertise by presentation style.
+# Digital evidence|intermediate|technical
+What can a phone location record establish about a person rather than a device?	Distinguish tower data, GPS, account access, possession and precision; avoid mapping a point as certain presence.
+How can deleted data be recoverable without every deletion being reversible?	Explain storage, backups, synchronization and acquisition limits at a non-operational level.
+Why can two devices record different times for the same event?	Compare clock settings, synchronization, application metadata and export transformations before alleging manipulation.
+What makes a social-media screenshot insufficient as complete evidence?	Check source account, date, edits, surrounding conversation and authentication through appropriate records.
+How should investigators' digital reconstructions be distinguished from raw device records?	Separate acquired artifacts, processing decisions, inferred events and explanatory visualizations.
+# Statistics and causal claims|advanced|science
+Why is a rare event not automatically evidence of a deliberate crime?	Compare base rates, selection, alternative causes and case-specific corroboration without replacing legal judgment with one probability.
+How can a forensic likelihood ratio be mistaken for the probability of guilt?	Define the competing propositions and missing prior or contextual evidence using an explicitly illustrative example.
+What makes a geographic pattern meaningful rather than a product of selective cases?	Specify inclusion criteria, time range, population and comparison patterns before asserting a cluster.
+How should a documentary compare crime rates when definitions or reporting practices change?	Align jurisdictions, denominators, reporting and recording standards rather than ranking raw totals.
+What does a wrongful-conviction case establish about a system beyond one correction?	Distinguish documented mechanisms, selection bias and uncertainty about overall prevalence.
+# Victims, families and communities|advanced|media
+How can victim-centered storytelling preserve a person's life beyond the crime?	Use consented accounts, relevant context and agency rather than limiting the person to images of suffering.
+When does naming an uninvolved relative create unjustified harm?	Assess public relevance, existing exposure, consent and alternatives that preserve the necessary facts.
+How can a film include a community's distrust without presenting all members as holding one view?	Use multiple attributed perspectives and document the institutional history behind concerns.
+What does trauma-informed editing change about images and sound?	Evaluate necessity, repetition, warning context and participant impact without treating sensational footage as required evidence.
+How should a filmmaker respond when a participant disputes an edit's factual implication?	Review source material, evidentiary meaning and privacy concerns; distinguish correction from disagreement over interpretation.
+# Publication and correction|advanced|civic
+What should change when a case is reopened after a video has been released?	Update procedural status, new evidence and unsupported earlier conclusions while retaining a clear correction history.
+How can a creator cover an unresolved case without mobilizing viewers against a named suspect?	Keep claims attributed, discourage harassment and use official reporting channels rather than crowdsourced accusations.
+What makes a title or thumbnail defamatory in implication even when the narration is cautious?	Review words, imagery and the overall allegation with qualified jurisdiction-specific advice where needed.
+How should reenactments and synthetic media be labeled in a crime documentary?	Make clear what was generated or staged; do not create apparent surveillance footage, confessions or victim evidence.
+What evidence is needed before claiming that a documentary helped solve a case?	Trace official statements, chronology and independent contributions rather than converting attention or coincidence into causal credit.
+@011
+# Designing original unease|foundation|fiction
+How can a night-shift archive become frightening before anything supernatural appears?	Build ordinary routines, document inconsistencies and a protagonist's responsibility; establish what a changed record would cost.
+How can a village of disagreeing clocks sustain a mystery beyond its opening image?	Give different time discrepancies observable rules and consequences; avoid resolving every contradiction through an unexplained twist.
+What makes a call from a missing ferry passenger emotionally disturbing?	Establish relationships, verified details and conflicting choices rather than using the voice only as a jump scare.
+How can an impossible house remain spatially understandable to the audience?	Define navigable rooms, repeated landmarks and the precise rule broken when its interior expands.
+# Character and vulnerability|intermediate|fiction
+How can a cautious protagonist make believable choices inside a horror story?	Give information limits, competing obligations and reasonable options; avoid requiring stupidity to advance the plot.
+What changes when two characters interpret the same disturbing event differently?	Build distinct evidence and stakes for each interpretation rather than assigning one character the role of obvious fool.
+How can grief shape a horror character without becoming a supernatural diagnosis?	Treat loss as individual experience and separate emotional interpretation from the invented rules of the threat.
+How can a character's expertise both help and mislead them?	Let a real skill solve one problem while its assumptions fail under the fictional anomaly.
+# Supernatural rules|intermediate|fiction
+What makes a supernatural rule understandable without an exposition lecture?	Reveal it through repeated cause and consequence, then test a boundary that matters to a character.
+How can a story change the audience's interpretation of a rule without cheating?	Plant observable evidence that supports both readings and preserve the established consequences.
+When does explaining a monster reduce fear rather than deepen the story?	Compare the information needed for meaningful choices with unnecessary biological or historical completeness.
+How can a threat remain consistent when it is rarely visible?	Track effects, capabilities, limitations and costs in a continuity record instead of adding powers at convenience.
+# Clues and misdirection|intermediate|media
+How can a sound become a fair clue rather than merely atmosphere?	Repeat an identifiable pattern, vary its context and connect the eventual explanation to something viewers could notice.
+What distinguishes a red herring from information the story later ignores?	Give misleading evidence a plausible cause and a payoff that remains relevant after the mystery is solved.
+How can an unreliable memory be dramatized without invalidating every scene?	Establish specific limits and stable external evidence so the audience can still reason about events.
+How should a horror mystery reveal that a trusted account was incomplete?	Expose the missing context through action or records rather than replacing the entire narrative with a late speech.
+# Visual and sonic restraint|intermediate|media
+How can a static camera make a familiar space feel unsafe?	Use blocking, duration, offscreen space and a changed background detail while preserving spatial continuity.
+When is silence more effective than a sudden sound?	Compare anticipation, sound perspective and the information withheld rather than treating loudness as the only intensity control.
+How can lighting conceal a threat without making the scene unreadable?	Preserve action, geography and meaningful visual anchors; test the image at ordinary screen brightness.
+What makes an offscreen event consequential enough to frighten viewers?	Show credible effects on characters, objects and choices instead of relying on an unexplained noise alone.
+# Folklore and setting|intermediate|tradition
+How can an original ghost story acknowledge the folklore that inspired it?	Name the source tradition, distinguish borrowed motifs from invented events and respect living community knowledge.
+Why should a local sacred site not automatically become a sinister backdrop?	Consider community meaning, consent and fictional alternatives rather than using unfamiliar religious practice as evidence of danger.
+How can two regional variants enrich a story without being falsely merged?	Choose the adapted version deliberately and disclose where the fictional narrative departs from its source.
+What changes when a story is told by a resident rather than an outsider?	Compare access, assumptions, stakes and community agency instead of repeating an exotic-location template.
+# Structure and endings|advanced|fiction
+How can a horror short resolve its character conflict while leaving the phenomenon unknown?	Close a consequential choice and its cost; leave only the supernatural explanation open.
+When does an ambiguous ending feel earned rather than unfinished?	Provide evidence for bounded alternatives and resolve the questions the story explicitly promised to answer.
+How can a revelation make an earlier ordinary scene frightening in retrospect?	Preserve the original scene's observable details and change their meaning through later evidence.
+What makes a final return of the threat more than a sequel advertisement?	Connect it to an established rule, unresolved consequence or meaningful character action.
+# Audience and editorial checks|advanced|media
+How can a horror thumbnail signal fiction without pretending to show real evidence?	Avoid fabricated surveillance claims, accusations about real people and documentary labels for generated scenes.
+How can a content warning be specific without spoiling the entire plot?	Identify relevant themes and intensity while separating accessibility information from promotional suspense.
+What should be checked before using a child's perspective in horror?	Review age portrayal, consent in production, audience framing and exploitative treatment of vulnerability.
+How can an editor test whether fear depends on an accidental continuity error?	Compare story rules, geography, props and chronology; repair confusion that the narrative does not intentionally establish.
+@012
+# Cosmic distance and observation|foundation|science
+How can astronomers measure distance without traveling to an object?	Compare parallax, standard candles and other distance indicators with their scale ranges and calibration chains.
+Why does looking farther away also reveal earlier cosmic times?	Explain light travel time within an expanding universe and distinguish different definitions of distance.
+What separates an astronomical image's measured signal from its processed colors?	Trace filters, exposure combination and visualization choices without implying every processed image is fabricated.
+How do astronomers know that two observations refer to the same changing object?	Examine coordinates, time, resolution and cross-matching uncertainty in a bounded observation set.
+# Stars and their lives|intermediate|science
+Why do stars of different masses follow different evolutionary paths?	Compare energy production, pressure, fuel use and modeled lifetimes without one universal stellar lifecycle.
+How can a spectrum reveal a star's composition and motion?	Distinguish line identification, temperature, Doppler shifts and model assumptions.
+What evidence shows that a stellar nursery contains newly forming stars?	Compare wavelengths, surrounding gas, obscuration and classification uncertainty.
+How can observations distinguish a white dwarf, neutron star and stellar black hole?	Use measurable properties and inference limits rather than their appearance in illustrations.
+# Galaxies and large structures|intermediate|science
+How do galaxy rotation measurements motivate a mass problem?	Explain velocity data, visible matter estimates and alternative models without treating one plot as the whole dark matter case.
+What can a galaxy merger reveal about gravity and star formation?	Compare observed structure, simulation assumptions and different stages inferred from separate systems.
+Why do distant galaxies not all look like nearby galaxies seen through worse cameras?	Separate evolution, selection, wavelength shifts and observational limits.
+How is the cosmic web mapped when most space contains no bright galaxy?	Compare galaxy surveys, selection effects, redshift measurements and model-based interpretation.
+# Black holes|intermediate|science
+What does an event horizon mean in a physical model?	Distinguish the horizon, surrounding matter, observational signatures and the limits of intuitive surface analogies.
+How can gas near a black hole become luminous while the hole itself emits no ordinary surface light?	Explain accretion, heating and radiation while keeping the black-hole interior outside observational claims.
+What does a black-hole image actually reconstruct from telescope data?	Trace interferometry, sparse sampling, modeling and cross-checks rather than describing it as a normal photograph.
+How do black-hole mergers test gravity under extreme conditions?	Compare waveform predictions, detector sensitivity and parameter uncertainty without claiming every alternative theory is ruled out.
+# Planets and habitability|intermediate|science
+How do transit and radial-velocity methods detect different properties of exoplanets?	Compare light and motion measurements, selection biases and what needs combined observations.
+Why is a planet in a habitable zone not necessarily habitable?	Consider atmosphere, water, stellar activity and geological uncertainty rather than equating orbital distance with life.
+What can an exoplanet atmosphere's spectrum establish about its chemistry?	Inspect retrieval models, clouds, noise and competing molecular interpretations.
+How could a proposed biosignature arise without life?	Compare biological and abiotic pathways within a defined planetary environment and identify discriminating observations.
+# Cosmic history|intermediate|science
+What does the cosmic microwave background show directly?	Separate measured radiation patterns from cosmological parameters inferred through a model.
+How do astronomers estimate the universe's age?	Compare expansion history, cosmological assumptions and independent constraints rather than using one simple distance division.
+What observations support an early hot, dense universe?	Compare expansion, light-element abundances and background radiation while distinguishing evidence from unanswered origin questions.
+Why are inflation and the Big Bang not interchangeable labels?	Clarify what each framework addresses, its evidence and the boundary between established observations and debated models.
+# Hidden components|advanced|science
+How can galaxy clusters test dark matter explanations differently from individual galaxies?	Compare lensing, gas, member motions and modeling uncertainties across the same system.
+What does dark energy describe in current cosmological modeling?	Separate the inferred expansion behavior from claims about an identified material or understood mechanism.
+How do expansion-rate measurements depend on different calibration routes?	Trace data, distance anchors, model assumptions and uncertainty before interpreting a discrepancy.
+What would a convincing search for extraterrestrial technology need to rule out?	Inspect interference, instrumental effects, repeatability and natural explanations before claiming a detection.
+# Knowledge limits and media|advanced|synthesis
+How can a space documentary show scale without creating false comparisons?	Specify distances, sizes, time and visualization compression rather than combining incompatible units or perspectives.
+When does a simulation become evidence for a cosmic explanation?	Compare model assumptions, predictions and independent observations; distinguish visual plausibility from a successful test.
+How should a channel cover a preprint about a surprising astronomical result?	Check methods, uncertainty, expert critique and later revisions without presenting peer review as a guarantee or a missing seal of impossibility.
+What remains unknown even after a spectacular new telescope image?	Identify the actual observation, inference range and follow-up needed rather than claiming a single image resolves cosmic history.
+@013
+# Evidence for ancient technology|foundation|history
+How can an ancient object establish a technique without preserving its instructions?	Compare tool marks, unfinished examples, workshop debris and experimental reconstruction; label inferred stages.
+What distinguishes a lost manufacturing skill from an impossible-technology claim?	Specify the artifact, material properties, surviving evidence and tests of proposed production methods.
+Why is making a modern replica not sufficient proof of the historical method?	Compare materials, tools, labor and alternatives; distinguish feasibility from demonstrated past use.
+How should a technological tradition's continuity be investigated?	Trace dated witnesses, geographic movement and gaps rather than inferring an unbroken chain from similar forms.
+# Measurement and mechanics|intermediate|history
+What does the Antikythera mechanism reveal about astronomical computation?	Compare observed inscriptions and gears with reconstructed functions and uncertainties in missing components.
+How did ancient builders establish straight lines and levels over large distances?	Compare attested instruments, survey marks and experimental tests without assuming one method everywhere.
+What can standardized weights reveal about technical coordination?	Examine tolerances, distributions, use contexts and the difference between shared practice and centralized control.
+How should claims of extraordinary precision in ancient stonework be checked?	Define measurement procedures, sample selection, restoration effects and comparison with ordinary workmanship.
+# Materials and metallurgy|intermediate|history
+What made some ancient iron objects resist corrosion in particular environments?	Compare composition, manufacture, exposure and conservation rather than calling the material universally rustproof.
+How can crucible-steel production be reconstructed from material evidence?	Use slag, furnace remains, metallography and historical texts while separating local practices and later naming.
+What does lost-wax casting evidence establish about complex metal sculpture?	Trace molds, cores, joins and finishing without using artistic complexity as proof of unexplained technology.
+How do researchers distinguish ancient glass recipes from their weathered surfaces?	Compare sampling, chemical alteration and composition; avoid inferring original properties from appearance alone.
+# Water and buildings|intermediate|history
+How did Indian stepwells combine water access, architecture and social space?	Choose a dated example and compare hydrology, construction phases, patronage and actual use.
+What can Roman hydraulic concrete studies establish about long-term performance?	Distinguish original materials, marine exposure, chemical observations and claims about modern replication.
+How were ancient aqueduct gradients maintained across changing terrain?	Compare surveyed routes, structures and maintenance evidence rather than treating uninterrupted flow as automatic.
+What do drainage systems reveal about maintenance as well as construction?	Use access features, sediment and repair phases to investigate continuing labor rather than only original design.
+# Texts and computational knowledge|intermediate|history
+How did Indian astronomical tables encode practical calculations?	Select a work and edition; distinguish the computational rule, commentary, manuscript date and later use.
+What can a mathematical manuscript's diagrams establish about teaching practice?	Compare layout, annotations, copies and worked problems without treating every drawing as authorial.
+How did numerical notation change the cost of calculation?	Use historically grounded examples and separate notation, algorithms and institutions that taught them.
+How should translations of technical terms be checked against actual operations?	Compare terminology with described procedures and artifacts rather than relying on a modern word's superficial resemblance.
+# Navigation and transmission|intermediate|history
+How did Indian Ocean navigation combine seasonal knowledge and local pilots?	Compare texts, port evidence and attributed practical knowledge without proposing one universal ancient navigation system.
+What evidence distinguishes invention from transmission of papermaking?	Track dated material, production evidence and accounts rather than granting priority from one later legend.
+How did translation movements alter technical knowledge rather than simply preserve it?	Compare additions, recalculation and commentary in identified works across languages.
+What can shipwreck cargo reveal about movement of techniques?	Distinguish circulation of objects, travel of specialists and actual transfer of manufacturing knowledge.
+# Testing popular claims|advanced|synthesis
+What evidence would an ancient battery interpretation need beyond the object's shape?	Compare context, residues, plausible connections and alternative uses without treating a modern demonstration as proof.
+How should pyramid-building hypotheses be compared fairly?	Define transport, lifting, labor and chronology constraints using archaeological evidence rather than one spectacular replica.
+Why are ancient electricity claims often based on ambiguous images?	Inspect the complete scene, inscriptions, ritual context and alternative iconographic readings.
+How can a false lost-technology claim survive by changing its required evidence?	Trace a specific claim's revisions and distinguish genuine uncertainty from an explanation made immune to testing.
+# Responsible reconstruction|advanced|media
+What must be disclosed when a film visualizes an ancient workshop?	Label excavated features, tested analogies and invented staging; avoid attributing unattested machinery to the site.
+How can experimental archaeology show failed attempts usefully?	Record material, tools, labor and failure so the experiment constrains explanations rather than merely produces an impressive artifact.
+Why should craft communities be consulted in technology histories?	Compare living skill, historical evidence and changing practice without assuming modern artisans exactly reproduce antiquity.
+How can a channel explain ancient achievement without denying uncertainty or crediting aliens?	Center demonstrable skill, organization and evidence while preserving unresolved technical questions.
+@014
+# Historical frameworks|foundation|history
+How did the Congress of Vienna organize a balance of power in practice?	Compare settlement terms, major actors and later changes rather than treating the arrangement as permanent peace.
+What do colonial boundary records reveal about competing priorities?	Use one border's negotiations, maps and local accounts instead of assuming every line was arbitrary in the same way.
+How did the breakup of a named empire produce different forms of successor authority?	Bound time and region; compare institutions, external recognition and unresolved claims.
+Why should a present conflict not be explained by a single ancient event?	Trace intervening institutions, decisions and changing interests rather than presenting history as unavoidable destiny.
+# Borders and territory|intermediate|civic
+How can a map distinguish sovereignty claims from effective control?	Use dated sources, neutral legends and separate layers rather than allowing one boundary style to settle a dispute.
+What changes when a border follows a river that moves?	Compare treaty language, demarcation practice and specific jurisdictional responses without a universal legal conclusion.
+How do enclaves and exclaves complicate ordinary public services?	Examine transit, emergency access, policing and agreements in one documented case.
+What can diplomatic recognition change without determining every aspect of statehood?	Separate legal arguments, practical relations, institutions and international organization membership.
+# Chokepoints and infrastructure|intermediate|technical
+Why does a maritime chokepoint's importance depend on the cargo and route?	Compare volumes, alternatives, vessel constraints and cost rather than assigning one timeless strategic ranking.
+How does closing a canal redistribute shipping pressure?	Trace rerouting, travel time, insurance, port capacity and different effects across commodities.
+When does a cross-border railway create influence rather than merely transport capacity?	Examine financing, operating control, demand and contractual relationships with evidence from a named project.
+How can a port's commercial role differ from its alleged military significance?	Separate observed facilities, agreements, access and speculation about future use.
+# Trade and sanctions|intermediate|finance
+How do sanctions affect different participants through different channels?	Compare exact measures, enforcement, substitution and distribution rather than reporting a single national outcome.
+What evidence can show trade diversion after a restriction?	Align commodity definitions, partners, dates and reporting gaps; distinguish correlation from a proven evasion route.
+How do export controls differ from tariffs in their intended mechanism?	Compare legal scope, licensing, technology access and actual enforcement in one jurisdiction.
+Why can economic interdependence coexist with strategic rivalry?	Examine sector-specific dependencies, switching costs and political incentives without assuming trade guarantees peace.
+# Resources and shared environments|intermediate|civic
+What makes an upstream water project a cross-border political issue?	Compare seasonal flows, treaty provisions, data sharing and downstream exposure rather than asserting inevitable conflict.
+How does energy dependence change when fuels, suppliers and infrastructure differ?	Separate import shares, storage, substitutes and transport constraints using a defined period.
+What can critical-mineral concentration establish about geopolitical leverage?	Distinguish mining, refining, ownership and substitution rather than treating deposits as immediate usable power.
+How should climate migration scenarios be separated from present migration statistics?	State definitions, drivers, assumptions and uncertainty; avoid presenting a projection as a counted population.
+# Alliances and institutions|intermediate|history
+How do alliance commitments differ from actual crisis decisions?	Compare treaty text, capabilities, consultation and historical behavior without assuming automatic action.
+What does a military base agreement reveal about host-state agency?	Examine terms, renegotiation, domestic debate and practical access rather than depicting the host as passive.
+How do regional organizations manage disagreement among their members?	Use a specific procedure and case; separate formal rules from actual political bargaining.
+Why does a United Nations vote not necessarily describe a country's entire foreign policy?	Compare resolution text, explanations, abstentions and behavior outside the vote.
+# Evidence and forecasts|advanced|synthesis
+How should a geopolitical documentary compare official statements with independent records?	Separate public messaging, observable action, reliable reporting and unverified anonymous claims.
+What makes a geopolitical forecast testable?	Specify outcome, date range, probability, assumptions and revision criteria rather than using vague inevitability language.
+How can demographic figures mislead when used as direct measures of national power?	Compare age structure, participation, skills, institutions and measurement dates instead of raw population alone.
+How should a film represent uncertainty about a conflict's casualties?	Identify definitions, source access, estimation methods and ranges without choosing numbers for dramatic effect.
+# Ethical public explanation|advanced|media
+How can a channel explain government actions without stereotyping a population?	Distinguish institutions, leaders, social groups and dissent; attribute positions rather than assigning collective intent.
+When does a strategic map omit the people whose lives it describes?	Include settlement, livelihoods, displacement and local agency alongside routes and military symbols.
+What should change when a current-event video becomes outdated?	Date the analysis, identify revised facts and preserve the distinction between contemporary uncertainty and later knowledge.
+How can historical comparison illuminate a crisis without claiming history repeats exactly?	Define comparable mechanisms, material differences and the limits of the analogy.
+@015
+# Understanding evidence|foundation|health
+What is the difference between a symptom, a diagnosis and a risk factor?	Use a non-diagnostic example and show why the categories lead to different kinds of evidence and assessment.
+How can relative-risk reduction exaggerate the impression of a benefit?	Compare absolute risks, population, time and uncertainty with clearly illustrative numbers.
+Why can a screening test produce false positives in people without symptoms?	Explain prevalence, sensitivity, specificity and follow-up; avoid judging an individual's result.
+What does a normal reference range establish about a laboratory test?	Distinguish statistical ranges, clinical thresholds, variation and the need for context from a qualified professional.
+# Prevention and public guidance|intermediate|health
+How should a vaccine-effectiveness estimate be interpreted for a particular outcome?	Specify population, exposure period, outcome, comparator and circulating conditions rather than one universal percentage.
+What does screening overdiagnosis mean beyond a false-positive test?	Distinguish detection of a real condition from whether finding it improves outcomes; inspect program-specific evidence.
+How can health guidance change when evidence improves?	Compare the question, new data, benefit-harm balance and applicability without treating revision as automatic incompetence.
+Why do prevention recommendations differ across age groups and circumstances?	Use current official guidance and explain eligibility, baseline risk, values and evidence limits.
+# Sleep and daily health|intermediate|health
+Why are sleep duration and sleep quality different outcomes?	Compare diaries, questionnaires, devices and objective recordings without diagnosing a viewer from one measure.
+How can shift work affect research on sleep and wellbeing?	Separate schedules, light exposure, workload and confounding factors in a defined study population.
+What can a consumer sleep tracker reliably claim about its estimates?	Check validation against reference methods, software version and populations; distinguish wellness feedback from diagnosis.
+When does general sleep-hygiene content become inadequate for persistent problems?	Explain the boundary of education, evidence limitations and the role of qualified assessment without prescribing treatment.
+# Movement and sedentary behavior|intermediate|health
+How is physical activity measured differently from exercise participation?	Compare self-report, devices, duration and intensity; avoid treating a gym visit count as total activity.
+Why should sedentary time and insufficient activity not be treated as identical?	Inspect definitions, overlapping behaviors and observational limitations rather than drawing personal risk conclusions.
+How can a fitness study's participants differ from the audience watching a video?	Examine age, health, training history, supervision and exclusion criteria before generalizing a result.
+What does a claim that exercise improves wellbeing need to specify?	Identify the intervention, comparison, outcome, follow-up and harms rather than promising one routine benefits everyone.
+# Food and nutrition claims|intermediate|health
+Why can a dietary pattern be easier to study meaningfully than a single fashionable nutrient?	Compare substitution, food context, adherence and confounding without presenting one pattern as universally suitable.
+How should an observational diet association differ from a causal treatment claim?	Inspect measurement, lifestyle covariates, reverse causation and supporting experimental evidence.
+What does a supplement label establish without proving a health benefit?	Separate ingredients, dose, manufacturing claims, regulatory category and actual clinical evidence.
+How can a deficiency claim be misleading when no diagnostic context is provided?	Distinguish population prevalence, symptoms, testing and professional interpretation; avoid encouraging self-diagnosis.
+# Stress and coping research|intermediate|health
+What does a stress score measure that a hormone sample does not?	Compare subjective demand, timing, physiological variability and interpretation within a specified study.
+How can a wellness intervention's benefits be confused with attention and social support?	Inspect active comparators, contact time, expectations and the actual program components.
+Why should everyday distress not automatically be described as a mental disorder?	Respect experience while distinguishing impairment, assessment and the limits of general educational categories.
+What evidence is needed before calling a wellness practice a treatment?	Require a defined condition, appropriate study design, meaningful outcomes, harms and current professional context.
+# Digital health and misinformation|advanced|digital
+How can a symptom-checking application create both useful prompts and misleading confidence?	Examine validation, intended use, missing context and escalation language without testing it on actual private patient records.
+What data can a wellness application retain beyond the user's visible diary?	Read dated policies, permissions, integrations and deletion terms rather than relying on a private-mode label.
+Why does a compelling health testimonial not establish what caused the improvement?	Consider other care, natural variation, selection and missing comparison outcomes.
+How can an AI-generated health citation look credible while failing verification?	Check existence, relevant passages, population and conclusion before treating an answer as sourced.
+# Responsible channel practice|advanced|civic
+How should a health video state the population its evidence applies to?	Make age, condition, setting and exclusions explicit rather than placing a generic disclaimer after universal claims.
+What distinguishes discussing a red flag from diagnosing the viewer?	Use current official guidance, explain uncertainty and direct the role of professional assessment without assigning a condition.
+How can a creator correct health misinformation without amplifying it unnecessarily?	Lead with supported information, explain the error briefly and preserve links to reliable evidence.
+What should be reviewed before a thumbnail promises healing, detoxification or a cure?	Inspect the exact claim, evidence, harms and audience vulnerability rather than relying on a disclaimer in the description.
+@016
+# Documented achievement|foundation|history
+How can Helen Keller's education be told without erasing her teachers and collaborators?	Use traceable records, her own writing and disability context rather than reducing a life to a miraculous isolated breakthrough.
+What does Katherine Johnson's work reveal about skilled teamwork?	Locate documented tasks, institutions and collaborators; avoid invented dialogue or claims that one person alone enabled a program.
+How can Dashrath Manjhi's story include the community and infrastructure around it?	Compare reliable accounts, timelines, labor and local context without converting a simplified legend into a verified biography.
+How should a public account of Arunima Sinha's climbing journey be checked?	Trace firsthand statements, independent records, support and chronology; distinguish documented achievement from embellished inspirational details.
+# Failure and revision stories|intermediate|fiction
+How can an apprentice's repeated failures produce a believable learning arc?	Give each attempt new information, a different choice and a visible skill change rather than identical failures followed by sudden mastery.
+What makes a student restarting after an exam failure feel specific rather than generic?	Define the mistake, resources, support and revised habits; avoid implying success is guaranteed by positive thinking.
+How can a small business story reward sustainable choices rather than endless growth?	Make tradeoffs, financial constraints and relationships part of the resolution instead of equating worth with revenue.
+What changes when a runner returns with different goals after a setback?	Build agency, adaptation and support rather than treating recovery as proof that limitations can always be overcome.
+# Motivation and evidence|intermediate|science
+What does goal-setting research distinguish between intention and behavior?	Compare task specificity, resources, feedback and measured follow-through rather than promising that writing a goal makes it happen.
+How can feedback support persistence without encouraging a doomed approach?	Separate effort, strategy, changing evidence and opportunity costs in a bounded learning example.
+Why can a success story's visible habits be unrelated to what caused success?	Inspect confounding, selection and imitation costs rather than converting correlation into a universal routine.
+What is survivorship bias in collections of inspiring biographies?	Compare the selection process with missing unsuccessful cases and the limits of drawing advice from winners alone.
+# Values and meaningful choices|intermediate|fiction
+How can a story show courage through a small consequential action?	Give the character a credible fear, a choice and a cost without requiring spectacular victory.
+What makes asking for help a meaningful turning point?	Show the barrier, the relationship and the resulting shared action rather than treating dependence as failure.
+How can a character abandon a goal without the story framing it as weakness?	Let changed evidence or values justify a new direction and show responsibility for the transition.
+How can integrity create conflict when the dishonest option is easier?	Make incentives and consequences concrete; avoid resolving the dilemma through an arbitrary reward.
+# Quotations and attribution|intermediate|history
+How can a creator verify an inspirational quotation's earliest reliable source?	Trace publications, editions, translations and later misattributions rather than relying on repeated internet captions.
+When does paraphrasing a famous person's idea become a false quotation?	Distinguish exact wording, translation, summary and creative adaptation in the on-screen attribution.
+How should a video handle a powerful saying whose author is unknown?	State uncertainty clearly and investigate provenance without assigning it to a convenient celebrity.
+What can a short quotation lose when removed from its original context?	Read the surrounding argument and explain qualifications that change the apparent advice.
+# Audio and visual storytelling|intermediate|media
+How can a motivational short establish stakes without generic stock-footage montages?	Connect visuals to the actual action, obstacle and decision; distinguish illustration from footage of real events.
+When does music pressure the audience to feel an outcome the story has not earned?	Compare the same sequence with restrained and heightened scoring while preserving factual meaning.
+How can voiceover emphasize agency without blaming people for constraints they did not choose?	Balance action with structural context, resources and support in the wording.
+What makes a closing line arise from the story rather than function as a pasted slogan?	Tie it to a specific changed action, relationship or interpretation already established.
+# Representation and wellbeing|advanced|civic
+How can a creator avoid turning disability into an inspiration device?	Include the person's agency, ordinary goals, access barriers and own interpretation rather than praising existence alone.
+When does a message about discipline normalize harmful overwork?	Examine rest, health, competing responsibilities and the difference between chosen effort and coercive demands.
+How can a story include poverty without claiming attitude is its sole cause or cure?	Show institutions, opportunity, material constraints and community support alongside individual choices.
+What should change when a real person objects to an inspirational portrayal?	Review consent, factual accuracy, privacy and the meaning assigned to their experience.
+# Evaluating the finished message|advanced|media
+How can a team test whether viewers understood the story's actual takeaway?	Ask about decisions, constraints and changes rather than measuring only how inspired viewers report feeling.
+What separates a motivating possibility from a guaranteed success claim?	Make uncertainty, context and differing outcomes explicit while preserving a useful action or reflection.
+How should a sponsored motivational video disclose its commercial purpose?	Identify the sponsor and relevant claims without disguising advertising as an independent life lesson.
+How can a channel vary motivational stories without recycling one triumph formula?	Rotate conflicts, forms of progress, endings, communities and values while preserving concrete causal storytelling.
+@017
+# Character goals and feelings|foundation|fiction
+How can a shy cloud learn to ask for help through visible action?	Give it a specific task, a communication attempt and a shared solution rather than an adult lecture disguised as dialogue.
+How can a tiger cub apologize without receiving an instant reward?	Show recognition, repair and changed behavior; let the other character retain feelings and choices.
+What makes a toy-sharing conflict understandable to a young audience?	Clarify ownership, limited resources and a negotiated outcome without making every disagreement selfishness.
+How can a robot express two feelings at the same time?	Use simple situation cues and choices without implying one emotion must be suppressed for the story to end.
+# Everyday problem solving|intermediate|fiction
+How can two animal friends solve a broken-bridge problem by combining different skills?	Make each contribution necessary and observable; avoid solving the conflict through an unexplained magical arrival.
+What can a seed's journey show about patience without promising all seeds grow?	Use a fictional character while distinguishing real plant needs and uncertainty from the story's personification.
+How can a moon rover solve a navigation puzzle at a child's level?	Establish landmarks, a limited choice set and a testable plan rather than overwhelming the scene with technical terms.
+How can a river-cleanup story avoid blaming one villain for every environmental problem?	Show specific sources, collective actions and limits of a small project without inventing guaranteed ecological recovery.
+# Social learning through story|intermediate|fiction
+How can a character say no to a game while remaining part of the group?	Model boundaries, alternatives and respect without framing participation as the price of friendship.
+How can a misunderstanding be resolved through checking rather than guessing intentions?	Let characters ask, clarify and revise an assumption through dialogue and action.
+What makes a mistake safe enough for a character to admit?	Show a proportionate response and practical repair rather than humiliation or instant absolution.
+How can a new character join an established group without becoming identical to it?	Preserve different interests and strengths while building shared activity and mutual respect.
+# Age-appropriate structure|intermediate|media
+How does the intended age range change the number of plot steps?	Compare vocabulary, causal links, duration and repetition using audience testing rather than assuming all children need the same structure.
+When does repetition reinforce comprehension instead of merely extending runtime?	Repeat a meaningful pattern with a changed detail or choice and check what children can predict.
+How can suspense remain gentle without making the story inert?	Use manageable uncertainty, reassurance and visible options rather than threats beyond the intended audience's understanding.
+What helps a bedtime episode settle toward its ending?	Reduce unresolved demands, pacing and sound intensity while avoiding medical promises about sleep.
+# Visual clarity and movement|intermediate|media
+How can silhouette distinguish characters when the screen is small?	Test shape, scale, costume and motion at actual viewing size rather than relying on detailed facial decoration.
+What makes an animated action legible before a character explains it?	Use anticipation, staging, clear contact and consequences rather than replacing visual logic with narration.
+How should backgrounds support attention without overwhelming the main action?	Compare contrast, motion and clutter; preserve information needed to understand the scene.
+How can a series maintain believable prop sizes across episodes?	Use scale references, character turnarounds and continuity checks rather than independent attractive designs.
+# Language and accessibility|intermediate|media
+How can a story introduce an unfamiliar word without stopping for a definition?	Use action, repetition and context; check comprehension with the intended audience.
+What makes captions useful for a children's animation?	Check reading speed, speaker identification, vocabulary and important sounds without assuming captions suit every age equally.
+How can dialogue remain understandable across different accents?	Prioritize clarity, context and respectful performance rather than treating one accent as the only correct voice.
+How should a bilingual story handle code-switching meaningfully?	Anchor language changes to characters and situations while preserving enough context for the intended viewers.
+# Educational claims and representation|advanced|civic
+When does an entertaining educational label overstate what a story teaches?	Define the learning goal and evaluate actual comprehension or transfer rather than viewing time alone.
+How can a story represent a disabled child without making disability its only conflict?	Give agency, relationships and ordinary goals; use relevant community input for specific access needs.
+What should be reviewed before using cultural dress or rituals in animal-character stories?	Check attribution, context and stereotyped simplification rather than treating a culture as decorative costume.
+How can a cartoon distinguish fantasy behavior from real-world actions children may imitate?	Review foreseeable imitation, framing and age appropriateness without turning the story into a warning checklist.
+# Series planning and review|advanced|media
+How can recurring characters grow without contradicting earlier lessons?	Track prior choices and relationships; let new situations complicate understanding rather than erase development.
+What makes an episode's lesson emerge from consequence rather than a final speech?	Tie the resolution to an observable decision and preserve emotional nuance.
+How can a production review identify accidental scary details?	Check images, sounds, wording and unresolved implications with the intended age group and appropriate adult input.
+How can a channel avoid making every child-facing story a moral correction?	Include curiosity, wonder, play, cooperation and open-ended discovery as valid story goals.
+@018
+# Choosing the source|foundation|tradition
+How should an animation choose which Ganesha birth account it is adapting?	Identify the text or community tradition, define the selected version and avoid an unacknowledged composite.
+What should be preserved when adapting Hanuman's service to Rama?	Use a bounded source episode and retain motivation, speech and consequential choices rather than only feats of strength.
+How can Savitri's encounter with Yama be adapted around dialogue rather than spectacle?	Trace the selected source's exchanges, sequence and agency; disclose simplified or invented wording.
+Why should Krishna childhood episodes be attributed before character design begins?	Check the source, relationships, setting and narrative purpose so the visuals do not lock in mixed versions.
+# Narrative adaptation|intermediate|media
+How can a long epic episode become a short animation without breaking its causal structure?	Choose one conflict, preserve necessary antecedents and distinguish omitted context from changed events.
+When can narration replace dialogue without changing a character's position?	Compare the source's actual argument with the paraphrase and retain qualifications that affect meaning.
+How can a divine event remain understandable without excessive exposition?	Show the selected narrative's rules, reactions and stakes through clear staging rather than unsupported explanatory additions.
+What makes a respectful adaptation different from claiming to reproduce a text verbatim?	Label creative choices and distinguish translated passages, paraphrase and original scenes.
+# Deity iconography|intermediate|tradition
+How should multi-armed deity poses be planned before image generation?	Map attributes, hand actions, support and plausible overlap using an attributed form rather than demanding every hand face forward.
+Why does a full-body deity image not require every foot to be exposed?	Preserve complete pose framing and believable concealment by clothing, seat or vahana instead of adding unnatural limbs.
+How can animal-faced deities share one illustration style with human-faced deities?	Align linework, eye design, shading and material rendering while preserving the particular deity's anatomy and expression.
+What should be checked before assigning a weapon, flower or vahana to a divine form?	Verify the specific manifestation and source tradition rather than copying attributes from a similarly named deity.
+# Performance and emotion|intermediate|media
+How can devotion be shown through posture and attention rather than a static glowing pose?	Stage relationships, direction of gaze, offering and response in a source-consistent moment.
+How can a fierce divine form remain expressive without defaulting to generic monstrous behavior?	Use attributed emotional and symbolic context; distinguish protective fierceness from invented cruelty.
+What makes a blessing scene physically believable?	Plan relative height, hands, contact, clothing and support before adding decorative effects.
+How should emotion change across a transformation or revelation scene?	Track each character's knowledge and reaction rather than changing only the lighting and costume.
+# Scene and asset continuity|intermediate|technical
+How can a deity's attributes remain consistent across generated shots?	Create form-specific references, tracked props and pose checks; inspect each shot rather than trusting a repeated prompt alone.
+What prevents a crown or trident from being cut off by the composition?	Frame the complete silhouette with space for movement and verify the intended aspect ratio before generation.
+How can a seated vahana scene preserve weight and anatomy?	Plan the contact points, balance, occlusion and scale; do not force hidden limbs into view as proof of completeness.
+How should a temple or landscape remain stable during a scene sequence?	Use location references, camera plans and fixed landmarks instead of regenerating the entire setting independently.
+# Voices, language and music|intermediate|media
+How can a performance handle Sanskrit or regional names consistently?	Prepare an attributed pronunciation guide and review recurring terms rather than relying on phonetic guesses.
+What distinguishes an original devotional score from an unlicensed imitation of a recording?	Track composition, performance, sample and voice rights separately; document permissions and original contributions.
+How can translated dialogue preserve honorifics and relationship meaning?	Compare function, register and cultural context rather than replacing every term with a literal English equivalent.
+When should silence carry a devotional scene instead of narration?	Use clear action and relationships; avoid adding unsupported theological explanation to fill every pause.
+# Audience and sensitive scenes|advanced|civic
+How can epic violence be simplified for children without reversing the episode's moral stakes?	Adjust depiction and detail while retaining the selected source's conflict and consequences.
+How should a film handle a disputed narrative detail important to different communities?	Choose and name the adapted version; acknowledge variation without claiming one depiction exhausts the tradition.
+What should be avoided when staging worship inside a living community's sacred space?	Respect access, consent, ritual restrictions and the difference between public art and restricted practice.
+How can a thumbnail signal the story without inventing a miraculous event absent from it?	Align imagery, title and actual episode content instead of using unsupported spectacle as the central promise.
+# Final review and attribution|advanced|media
+What belongs in an iconography review of an animated deity scene?	Check form, attributes, limbs, pose, relationships and source context; record actual findings rather than a generic approval label.
+How can an adaptation credit a text without implying all imagery comes directly from it?	Separate narrative source, visual references, interpretation and original production design.
+What should change when a generated asset introduces an incorrect divine attribute?	Correct the affected references and downstream shots rather than hiding the error with a brief cut.
+How can a series maintain a coherent style while allowing distinct divine personalities?	Keep rendering and craft consistent while varying sourced expression, pose, symbolism and scene purpose.
+@019
+# Story before generation|foundation|fiction
+How can a maintenance robot discovering a garden sustain a complete short film?	Define its task, unexpected discovery, decision and consequence before choosing impressive generated environments.
+What conflict emerges when a courier delivers letters after a city's evacuation?	Give the delivery a concrete recipient, obstacle and moral choice instead of relying on abandoned-city spectacle.
+How can two astronauts with a failing translation system remain emotionally understandable?	Build observable misunderstandings, shared tasks and a changed relationship rather than arbitrary mistranslation jokes.
+What rules would make a melody from a future recording a fair mystery?	Define what the signal can contain, how it is verified and the cost of acting on it.
+# Shot planning|intermediate|media
+How can a shot list reduce the number of unusable generated clips?	Assign each shot a story function, action, framing and continuity needs before generating variations.
+When is a static shot more useful than a complex camera movement?	Compare narrative information, controllability, artifact risk and available edit points for the same scene.
+How can screen direction remain consistent across separately generated shots?	Track entrances, exits, eyelines and spatial geography with a simple scene plan.
+What makes a generated close-up valuable rather than redundant?	Connect visible reaction or detail to a story change instead of treating every cinematic image as needed coverage.
+# Characters and identity|intermediate|technical
+How can a character reference separate permanent identity from scene-specific appearance?	Track anatomy, face and proportions independently from clothing, expression, lighting and camera perspective.
+Why can a repeated name fail to preserve a generated character?	Compare actual reference conditioning, model settings and outputs rather than assuming narrative labels encode identity.
+How can costume changes occur without losing continuity?	Record what changes, when and why; keep stable identity cues and inspect transitions.
+What should be checked when generated hands interact with a prop?	Inspect grip, contact, scale, motion and object persistence instead of judging a still frame alone.
+# Environments and lighting|intermediate|technical
+How can a small number of location references support a coherent film world?	Specify layouts, landmarks, materials and time of day; separate planned variation from accidental redesign.
+What makes a lighting change read as story time rather than an asset mismatch?	Track sources, shadows, exposure and motivated transitions across neighboring shots.
+How can weather remain consistent while allowing local motion?	Distinguish stable conditions from moving rain, mist, vegetation and reflections; evaluate the sequence rather than isolated clips.
+How should depth and scale be checked in a generated establishing shot?	Use character size, perspective, access routes and later coverage as cross-checks against attractive but unusable geometry.
+# Motion and generation constraints|intermediate|technical
+How can a source image be designed around the action a video model must produce?	Ensure support, pose, space and object relationships make the intended movement plausible before generation.
+When does a shorter generated action outperform a long continuous attempt?	Compare controllability, edit coverage, temporal consistency and the information the story actually needs.
+How can a loop be tested for motion discontinuity rather than only matching frames?	Inspect velocity, direction, object state, lighting and sound over repeated playback.
+What distinguishes deliberate surreal motion from an accidental artifact?	Define the world's rules and audience cues; do not retroactively call every failed generation a creative choice.
+# Voice and sound|intermediate|media
+How can sound connect generated shots that lack perfect visual continuity?	Use spatially credible ambience, transitions and motivated offscreen events without falsifying documentary evidence.
+What makes synthetic dialogue feel like an exchange rather than separate readings?	Direct timing, intention, listening and overlap while preserving consent and voice-use rights.
+How should a film plan for pronunciation errors before final voice generation?	Prepare tested names and alternatives, then check the actual rendered speech rather than the written prompt alone.
+When can a silent sequence communicate more clearly than explanatory narration?	Build visible goals, cause and consequence; test understanding without relying on unearned music cues.
+# Editing and finishing|advanced|technical
+How should an editor classify a generated clip as usable, repairable or unsuitable?	Evaluate story function, continuity, anatomy, motion and repair cost against the intended screen time.
+When does hiding an artifact in a fast cut undermine the scene?	Check comprehension, pacing and viewer attention rather than treating speed as a universal repair method.
+How can color management keep shots consistent across multiple generation tools?	Track input profiles, transformations and delivery settings instead of applying one aggressive look to every mismatch.
+What should an export review inspect besides resolution?	Check frame timing, audio sync, captions, compression artifacts, aspect ratio and the complete final playback.
+# Rights and production evidence|advanced|civic
+How can a film document the rights behind a synthetic actor or voice?	Record the actual consent, licensed scope, retention and restrictions; possession of reference media is insufficient.
+What should be disclosed when AI imagery depicts a real historical person?	Distinguish illustration, dramatization and evidence; avoid fabricating apparent recordings or quotations.
+How can prompt and asset versioning support a reproducible revision?	Preserve source references, settings, selected outputs and edit decisions without claiming deterministic regeneration.
+What makes an AI-film production log useful for the next episode?	Record attempts, failures, costs, continuity decisions and reusable assets rather than only the final successful prompts.
+@020
+# Finding a place-based question|foundation|history
+What can Chand Baori reveal beyond the spectacle of its geometry?	Compare water access, architecture, patronage and local use with dated evidence and community perspectives.
+How should Rani ki Vav's iconography be connected to its architecture?	Use documented placement, identified forms and conservation context rather than assigning symbols from a generic chart.
+What makes Socotra's landscape scientifically distinctive without treating it as an untouched fantasy world?	Compare ecology, settlement, livelihoods and present pressures using local and research sources.
+How can Matera's cave dwellings be explained without turning former hardship into picturesque scenery?	Trace housing history, policy, conservation and residents' views alongside the visual setting.
+# Research before travel|intermediate|travel
+How can a travel film verify access to a lesser-visited site?	Check current official permissions, ownership, seasonal conditions and local arrangements rather than relying on an old itinerary.
+What should be confirmed before describing a destination as hidden or undiscovered?	Investigate residents, existing tourism and historical knowledge; do not erase people who already know and use the place.
+How can a place's popular origin story be checked?	Compare local accounts, inscriptions, archives and scholarship while respecting a legend's cultural meaning.
+What makes a location list misleading when travel times are omitted?	Build actual connections, realistic stops and uncertainty rather than grouping nearby-looking map points into an impossible day.
+# Landscape interpretation|intermediate|science
+How can a film explain a waterfall without presenting one season as permanent?	Compare catchment, rainfall, flow variation and current access; avoid turning a filmed moment into a year-round promise.
+What does a desert settlement reveal about water and seasonal mobility?	Use local hydrology and livelihoods rather than a barren-land stereotype.
+How can a cave destination be shown without confusing geology and folklore?	Explain formation evidence separately from attributed sacred or local narratives.
+What makes a mountain viewpoint's apparent isolation misleading?	Include roads, labor, settlements, land use and seasonal movement outside the framed image.
+# Community-led reporting|intermediate|community
+How can residents help define what a travel documentary should explain?	Use consented conversations about place, change and visitor behavior rather than asking only for colorful anecdotes.
+What should change when a community does not want a location publicized?	Consider privacy, sacred restrictions and ecological pressure; choose less identifying coverage where appropriate.
+How can a guide's expertise be credited beyond a brief introduction?	Attribute interpretation, translation and route knowledge throughout the story and agree on permitted use.
+How can tourism income be discussed without assuming every resident benefits?	Compare jobs, ownership, prices, access and conflicting local experiences.
+# Responsible visuals|intermediate|media
+When does a camera angle make a destination appear less inhabited than it is?	Compare the frame with surrounding settlement and explain selective views rather than presenting emptiness as fact.
+How can drone imagery distort scale or access expectations?	Distinguish aerial perspective, visitor routes, restrictions and actual terrain on the ground.
+What must be disclosed when a travel sequence combines several dates?	Track seasons, weather and changes in access so editing does not create one fictional visit.
+How can a reconstruction illustrate a ruined site without appearing to be recovered evidence?	Label known structures, comparative assumptions and invented visual detail.
+# Access and visitor experience|intermediate|travel
+How should accessibility be reported for a site with irregular paths?	Describe observed gradients, surfaces, distances, facilities and uncertainty rather than using an unsupported accessible label.
+What is lost when visitor advice assumes every traveler can hire private transport?	Compare public connections, costs, timing and limitations for different visitors.
+How can a site be experienced respectfully during active worship?	Verify rules, photography permissions, crowd conditions and local expectations instead of staging ritual access.
+What should a visitor know when a landmark's public hours differ from event access?	Check official schedules, ticket conditions and current local information with a clear date.
+# Conservation and changing demand|advanced|civic
+How can geotagging increase pressure on a fragile place?	Examine access capacity, land management and local response rather than claiming publicity is always harmful or beneficial.
+What does conservation funding actually pay for at a heritage destination?	Compare maintenance, interpretation, security and visitor facilities using published records where available.
+How can a restoration improve access while changing the evidence visitors see?	Distinguish original fabric, replacement work and interpretation choices in the film.
+What makes a tourism sustainability label worth investigating?	Check audit scope, actual practices, local effects and unsupported marketing rather than accepting a badge alone.
+# Story structure and updates|advanced|media
+How can a travel episode build a narrative beyond arriving and listing sights?	Choose a place-based question, encounters and a sourced conclusion while preserving uncertainty and resident agency.
+When should a travel video separate historical claims from personal impressions?	Label what was felt, observed, reported or verified rather than presenting all narration as equivalent evidence.
+What should be updated when a destination's access or conservation status changes?	Date the original visit, correct current advice and explain the change without rewriting the historical footage.
+How can an ending encourage curiosity without promising a perfect untouched escape?	Reflect the place's complexity, communities and practical limits rather than selling an imagined absence of modern life.

@@ -1,0 +1,122 @@
+{
+  "bank_topic_id": "BANK-001-013",
+  "measurement_input": "BANK-001-013_MEASUREMENT.json",
+  "package_version": "0.14.0",
+  "design": "Cross the two official pre-tokenization regex patterns with the two official merge-rank sets. Each hybrid is an analytical encoding, not a model encoding.",
+  "interpretation_limit": "Count differences are conditional on the fixed input. Pattern and rank effects may interact; this is not a model-quality or language-quality comparison.",
+  "rows": [
+    {
+      "sample": "English",
+      "utf8_sha256": "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+      "pretoken_chunks": {
+        "gpt2": [
+          "Hello",
+          ",",
+          " world",
+          "!"
+        ],
+        "cl100k_base": [
+          "Hello",
+          ",",
+          " world",
+          "!"
+        ]
+      },
+      "token_counts": {
+        "gpt2_pattern__gpt2_ranks": 4,
+        "gpt2_pattern__cl100k_base_ranks": 4,
+        "cl100k_base_pattern__gpt2_ranks": 4,
+        "cl100k_base_pattern__cl100k_base_ranks": 4
+      }
+    },
+    {
+      "sample": "Hindi",
+      "utf8_sha256": "d7be5996fa562294908ffe50c6aece46c34d6bed34e241dec5d1e8b5e83f7596",
+      "pretoken_chunks": {
+        "gpt2": [
+          "नमस",
+          "्",
+          "त",
+          "े",
+          " द",
+          "ु",
+          "न",
+          "ि",
+          "य",
+          "ा"
+        ],
+        "cl100k_base": [
+          "नमस",
+          "्त",
+          "े",
+          " द",
+          "ुन",
+          "िय",
+          "ा"
+        ]
+      },
+      "token_counts": {
+        "gpt2_pattern__gpt2_ranks": 23,
+        "gpt2_pattern__cl100k_base_ranks": 14,
+        "cl100k_base_pattern__gpt2_ranks": 23,
+        "cl100k_base_pattern__cl100k_base_ranks": 13
+      }
+    },
+    {
+      "sample": "Japanese",
+      "utf8_sha256": "75d9255e45b37bfc1e636a682fe80ab8eb87b7d55d6186f3568d845b475a4c3e",
+      "pretoken_chunks": {
+        "gpt2": [
+          "東京へ行く"
+        ],
+        "cl100k_base": [
+          "東京へ行く"
+        ]
+      },
+      "token_counts": {
+        "gpt2_pattern__gpt2_ranks": 9,
+        "gpt2_pattern__cl100k_base_ranks": 7,
+        "cl100k_base_pattern__gpt2_ranks": 9,
+        "cl100k_base_pattern__cl100k_base_ranks": 7
+      }
+    },
+    {
+      "sample": "Composed accent",
+      "utf8_sha256": "850f7dc43910ff890f8879c0ed26fe697c93a067ad93a7d50f466a7028a9bf4e",
+      "pretoken_chunks": {
+        "gpt2": [
+          "café"
+        ],
+        "cl100k_base": [
+          "café"
+        ]
+      },
+      "token_counts": {
+        "gpt2_pattern__gpt2_ranks": 3,
+        "gpt2_pattern__cl100k_base_ranks": 2,
+        "cl100k_base_pattern__gpt2_ranks": 3,
+        "cl100k_base_pattern__cl100k_base_ranks": 2
+      }
+    },
+    {
+      "sample": "Combining accent",
+      "utf8_sha256": "81ef060bcd98adc7824eb5c1ada83c32491b16018e11e79f00ab9d09e04b015a",
+      "pretoken_chunks": {
+        "gpt2": [
+          "cafe",
+          "́"
+        ],
+        "cl100k_base": [
+          "cafe",
+          "́"
+        ]
+      },
+      "token_counts": {
+        "gpt2_pattern__gpt2_ranks": 4,
+        "gpt2_pattern__cl100k_base_ranks": 3,
+        "cl100k_base_pattern__gpt2_ranks": 4,
+        "cl100k_base_pattern__cl100k_base_ranks": 3
+      }
+    }
+  ]
+}

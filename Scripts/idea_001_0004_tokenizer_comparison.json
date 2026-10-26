@@ -1,0 +1,48 @@
+{
+  "idea_id": "IDEA-001-0004",
+  "niche_id": "001",
+  "status": "researching",
+  "angle_slug": "how_it_works",
+  "topic": "Tokenization and model encodings",
+  "working_title": "One Text, Two Tokenizers: GPT-2 and GPT-4",
+  "story_question": "How do the GPT-2 and GPT-4 tokenizers segment the same fixed multilingual sample, and which encoding choices explain any count differences?",
+  "case": "Compare the gpt2 and cl100k_base encodings assigned to GPT-2 and GPT-4 in a pinned tiktoken source revision, using the same declared English, Hindi and Japanese strings for both.",
+  "place_period_version": "OpenAI tiktoken repository commit 4e71bbe0c078468e00fefbf94b39849389f346e5, inspected 2026-10-24; historical code mapping, not a claim about current hosted model availability or billing.",
+  "intended_audience": "General adult viewers who want to understand why words and tokens are different units.",
+  "purpose": "Show a reproducible difference in segmentation, then explain the vocabulary, pre-tokenization and byte-level boundaries without claiming access to a proprietary model's internal behavior.",
+  "created_date": "2026-10-24",
+  "updated_date": "2026-10-24",
+  "evidence_gaps": [
+    "Run both pinned encodings on the exact Unicode test strings and save token IDs, byte spans, counts, code version and execution environment.",
+    "Check normalization and visually similar Unicode forms separately; do not infer language quality or model capability from token count alone.",
+    "If the script discusses pricing or current product models, obtain separate dated primary documentation before making those claims."
+  ],
+  "blocking_gaps": [
+    "No reproducible token-count measurements or claim ledger have been completed for the selected sample."
+  ],
+  "related_ideas": [],
+  "readiness_note": "Official source-code access and the historical model-to-encoding mapping were checked. The comparison is selected, but its measurements and scripted claims are not verified; keep this idea in researching status.",
+  "source_candidates": [
+    {
+      "title": "tiktoken README at pinned commit",
+      "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/README.md",
+      "status": "checked",
+      "checked_date": "2026-10-24",
+      "check_note": "Opened the pinned README and inspected its BPE explanation and explicit get_encoding example. This is source-access evidence, not a token-count measurement."
+    },
+    {
+      "title": "tiktoken model-to-encoding mapping at pinned commit",
+      "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken/model.py",
+      "status": "checked",
+      "checked_date": "2026-10-24",
+      "check_note": "Opened the pinned mapping and located gpt-2 to gpt2 and gpt-4 to cl100k_base. This is a historical library mapping, not a claim about present hosted APIs."
+    },
+    {
+      "title": "tiktoken encoding constructors at pinned commit",
+      "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py",
+      "status": "checked",
+      "checked_date": "2026-10-24",
+      "check_note": "Opened the pinned constructors and inspected the separate gpt2 and cl100k_base definitions, regex rules and vocabulary files. No sample output was computed."
+    }
+  ]
+}

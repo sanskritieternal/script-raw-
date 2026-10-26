@@ -1,0 +1,5 @@
+# Case-source note: Mount St. Helens map dates
+
+Checked 2026-10-24. The USGS 2024 data release [Digital elevation model of Mount St. Helens, Washington and vicinity prior to the 1980 eruption](https://www.usgs.gov/data/digital-elevation-model-mount-st-helens-washington-and-vicinity-prior-1980-eruption) describes a 10 m model over 196.45 square km of a circa-1952 surface derived from contours digitized from historic topographic maps. The USGS [pre/post-1980 digital elevation map](https://www.usgs.gov/media/images/digital-elevation-map-mount-st-helens-pre-and-post-1980), dated 2012-09-21, describes shaded relief produced from lidar and cautions that scale varies with the oblique view. These are agency products suitable for a map-literacy case.
+
+Limit: The 2024 release is a reconstruction of an earlier surface, not a 1952 digital measurement. Differing acquisition methods, resolution and display geometry must be compared before measuring change. Neither page establishes classroom outcomes or proves what any historical student learned. The question concerns how a learner evaluates provenance and date.

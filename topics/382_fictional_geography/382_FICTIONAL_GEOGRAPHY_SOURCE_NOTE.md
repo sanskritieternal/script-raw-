@@ -1,0 +1,11 @@
+# Fictional geography source follow-up ? 2026-10-24
+
+## BANK-382-045 ? *Treasure Island* chart and withheld location
+
+- Primary text: Robert Louis Stevenson, *Treasure Island*, in a Project Gutenberg digitization, https://www.gutenberg.org/files/120/120-h/120-h (inspected 2026-10-24). Jim's opening says he withholds the island's bearings; Chapter VI describes the discovered map with soundings, named hills, bays, inlets and marked treasure sites; Chapter XII distinguishes a navigational copy from the map with crosses and written notes. The proposal asks how geographic detail and omissions distribute usable knowledge among characters and readers.
+- Institutional artifact context: National Library of Scotland, *Discover NLS* 16, https://www.nls.uk/media-u4/769389/discover-nls-16.pdf , identifies John Bartholomew as engraver of the first book edition's map; NLS Stevenson collection story, https://www.nls.uk/collections/stories/literature-and-poetry/the-seven-faces-of-robert-louis-stevenson/ , describes Stevenson's initial 1881 island sketch. These contextual sources do not establish that the original sketch survives or that every later map reproduces it unchanged.
+- Limit: the inspected Gutenberg text is a later digital edition, not a collation of the 1881?82 serial, 1883 first book edition and subsequent maps. The original drawing was reportedly lost in publication transfer; verify that history against correspondence/edition scholarship before narrating it as fact. Check a first-edition image and edition rights before reproducing the chart. This case does not claim the first literary map or a readership effect.
+
+## Duplicate correction and editorial boundary
+
+The initial BANK-382-045 draft addressed Tolkien's evolving *Lord of the Rings* working maps. It materially overlapped BANK-373-048 in the integrated fantasy bank, which already examines Tolkien Estate draft maps and writing chronology. BANK-382-045 retains its stable ID but now concerns Stevenson's published/in-story island chart and selective geographic disclosure. Archive routes to this ID have been updated. Existing 382 questions handle invented geography and cartographic craft; 373-048 remains the Tolkien manuscript-map home.

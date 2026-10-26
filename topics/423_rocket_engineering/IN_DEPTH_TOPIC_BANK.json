@@ -1,0 +1,1637 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "423",
+  "slug": "rocket_engineering",
+  "name": "Rocket Engineering",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Rocket Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 13,
+    "proposed_topics": 17
+  },
+  "categories": [
+    {
+      "id": "CATALOG-423-R01",
+      "title": "Spaceflight foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-423-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d2eff67df7f80cbed9f60888dc52fd2829def5e8e312f3f05e41e2dfd006d1dd",
+      "topics": [
+        {
+          "question": "Why does a rocket need oxidizer while a jet engine can use surrounding air?",
+          "coverage": "Compare propulsion environments and carried mass conceptually.",
+          "id": "BANK-423-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does the rocket equation explain diminishing returns from extra propellant?",
+          "coverage": "Use mass ratios without actionable engine construction details.",
+          "id": "BANK-423-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R02",
+      "title": "Launch systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ec092dbd0a7ef875a2b616d22de0c99514b8b4ea909f92802b70158ea9dcf960",
+      "topics": [
+        {
+          "question": "Why do propellant tanks need pressure control during ascent?",
+          "coverage": "Discuss structural loads, feed requirements and changing acceleration.",
+          "id": "BANK-423-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a rocket manage sloshing fuel during guidance maneuvers?",
+          "coverage": "Connect fluid motion, vehicle dynamics and conceptual mitigation.",
+          "id": "BANK-423-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R03",
+      "title": "Mission assurance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-423-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d486f9cbbb63467f5df737b40ceb1d1946986115db1a17e9224e9e6b534a4e70",
+      "topics": [
+        {
+          "question": "What distinguishes a test anomaly from a demonstrated design limit?",
+          "coverage": "Trace instrumentation, hypotheses and qualification evidence.",
+          "id": "BANK-423-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can launch-site weather constrain a rocket that is ready to fly?",
+          "coverage": "Compare wind, lightning and range-safety decision frameworks.",
+          "id": "BANK-423-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R04",
+      "title": "Propulsion families",
+      "level": "foundation",
+      "parent_id": "DOMAIN-423-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a39d94d08be7363f6a90158366b374648ce837a61c291d3ae60502e708098bfd",
+      "topics": [
+        {
+          "question": "How do liquid rocket cycles differ from solid motors and electric propulsion?",
+          "coverage": "Compare thrust, efficiency and mission roles without construction details.",
+          "id": "BANK-423-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-423-001",
+            "BANK-423-003",
+            "BANK-423-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R05",
+      "title": "Propulsion families",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "38598e45b8e585ce89240871e7d7e9bf5eebf70ed0a94c6cf596f5d2cf96a343",
+      "topics": [
+        {
+          "question": "Why do staging and mass ratios matter alongside engine performance?",
+          "coverage": "Trace mission energy and discarded structure conceptually.",
+          "id": "BANK-423-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-423-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R06",
+      "title": "Flight environments",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ab698df8a131b86e260340380afd6693c5fe27605c5fba1a01d32c93d9fba762",
+      "topics": [
+        {
+          "question": "How do aerodynamic loads change the demands on rocket guidance and structure?",
+          "coverage": "Separate atmosphere, control and payload interfaces.",
+          "id": "BANK-423-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-423-005",
+            "BANK-423-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R07",
+      "title": "Flight environments",
+      "level": "advanced",
+      "parent_id": "DOMAIN-423-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "af635b272b300df9eff0685efc62bfa9304f9fdf2e328ee33c9a6292cd056fe5",
+      "topics": [
+        {
+          "question": "What distinct evidence comes from static firing, abort tests and reuse inspections?",
+          "coverage": "Compare verification targets and remaining uncertainties.",
+          "id": "BANK-423-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-423-009",
+            "BANK-423-007",
+            "BANK-423-008"
+          ]
+        },
+        {
+          "id": "BANK-423-046",
+          "question": "What did the SLS core-stage Green Run establish before the Artemis I flight?",
+          "coverage": "Compare NASA’s planned integrated ground-test sequence, the first 2021 hot-fire interruption and the later full-duration hot fire with the 16 November 2022 Artemis I launch timeline. Identify what the core-stage ground test could verify and what required an integrated flight; avoid equating test completion with all future mission readiness.",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R08",
+      "title": "Launch-pad infrastructure",
+      "level": "foundation",
+      "parent_id": "DOMAIN-423-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bbd86c1d124f9f2b27c056c0fe93a76b40cde94b1242c77b8f653d7d9d13653e",
+      "topics": [
+        {
+          "question": "What does a launch pad provide beyond physically supporting a rocket?",
+          "coverage": "Map services, access and safety responsibilities conceptually.",
+          "id": "BANK-423-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R09",
+      "title": "Orbital transfer tradeoffs",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "40ce83c805bf17c31a5fd6a6c3e1a7b23cd5569a4eed553af8739a822030f05e",
+      "topics": [
+        {
+          "question": "Why can a lower-propellant transfer require more time or different launch opportunities?",
+          "coverage": "Explain conceptual trajectory tradeoffs without mission-operating instructions.",
+          "id": "BANK-423-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R10",
+      "title": "Payload integration",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a232828e9ee2f872f71ddf9e1594e7a87f545ccf1b5667db6d25c16543fc5b04",
+      "topics": [
+        {
+          "question": "How can a payload pass its own tests but fail launch integration requirements?",
+          "coverage": "Compare mechanical, thermal and electrical interfaces.",
+          "id": "BANK-423-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R11",
+      "title": "Stage-separation verification",
+      "level": "advanced",
+      "parent_id": "DOMAIN-423-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78df6b6e9375949811cf0ed5080ce29c00d116b1bfc3ea4391b1057b8e122822",
+      "topics": [
+        {
+          "question": "What evidence is needed to verify a stage-separation system beyond one successful demonstration?",
+          "coverage": "Trace environments, instrumentation and failure assumptions conceptually.",
+          "id": "BANK-423-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R12",
+      "title": "Launch abort systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-423-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "8cc488b45da83658b561d7886de37581b40e58f9bde4ef1cfb1625f115a5f383",
+      "topics": [
+        {
+          "question": "How does a launch abort system address hazards that ordinary vehicle redundancy cannot?",
+          "coverage": "Compare mission phases, escape objectives and remaining constraints conceptually without design or activation procedures.",
+          "covers_starter_ids": [
+            "BANK-423-008"
+          ],
+          "id": "BANK-423-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-423-R13",
+      "title": "Reuse inspection",
+      "level": "advanced",
+      "parent_id": "DOMAIN-423-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4bc136ffc9cedbb591033fcbe63ffd2e9e5390d4750f876369a60955e647e39e",
+      "topics": [
+        {
+          "question": "Why can a rocket's successful landing leave its next-flight readiness unresolved?",
+          "coverage": "Trace inspection evidence, fatigue assumptions, refurbishment records and acceptance responsibility without maintenance instructions.",
+          "covers_starter_ids": [
+            "BANK-423-009"
+          ],
+          "id": "BANK-423-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "031",
+      "title": "Megastructures & Engineering",
+      "directory": "031_megastructures_engineering",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "047",
+      "title": "Aviation",
+      "directory": "047_aviation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "051",
+      "title": "Industrial / Manufacturing Stories",
+      "directory": "051_industrial_manufacturing_stories",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "052",
+      "title": "Architecture",
+      "directory": "052_architecture",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "109",
+      "title": "Railways & Trains",
+      "directory": "109_railways_trains",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "110",
+      "title": "Transportation",
+      "directory": "110_transportation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/423_rocket_engineering/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "fa9f5fa2af01575eda4c9c96eccb863daebee362c993524efd618dcb81c27c84",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-423-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eebd2fcc60b79074fba9ab91b1343f25daec239b7ba000f0ce716cc7f5beda78"
+      },
+      "BANK-423-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "13ad0675f828a9332e3bf4a2639e7e30ce815e6948af627614f573726c595bb0"
+      },
+      "BANK-423-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "967b77df7a453213be74eea2f1aa55b3556d72ee30e303cd827e40ba0e334b55"
+      },
+      "BANK-423-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6f902e69871edd68c5821e83edf89d4561d5f49049b77813bb9d1f034223b404"
+      },
+      "BANK-423-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1f96b3dd5263130cae0010aec3904f8ec30932965b14969f09939538e81576b5"
+      },
+      "BANK-423-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7152e475d23d53710ec40c365820d6c87a54345062af710b4861c204cf7fdc4d"
+      },
+      "BANK-423-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0890e0da976539d0b23ce627f9ce263153141f731d8c1cfa5b3bafcae48ed8eb"
+      },
+      "BANK-423-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4efda3f5f4d6a673931a91d1f3fdeb55d5207e64ff8096df06f35b68eec5ce08"
+      },
+      "BANK-423-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1e62b2f1eb7a2d947691f4393196cba9f6f10a8296906d588d9ae1346b4d74aa"
+      }
+    },
+    "source_categories": {
+      "CATALOG-423-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "dd6b7efb82846c69d2f0dd8f235f2c21a97bb81f0b84fbe62d01c00a38427ddd"
+      },
+      "CATALOG-423-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "09730f92d651e92489ee8fd74d4e46c13a5853f61337c662ad75210d82a727a1"
+      },
+      "CATALOG-423-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "4f1602b04ad98a794a5cf6bc809fd55d9869ab92cf4888eb154601cae53a89f1"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "423_ROCKET_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "59d45bc0b3fef111f0d4737193360648cdded6c8c0dc6c94f7e4ab55db1c5a39",
+        "original_text": "# Rocket Engineering Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 423 Rocket Engineering (Transport_Engineering)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Rocket Engineering Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/423_rocket_engineering/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Rocket Engineering across four progressive tiers:\r\n- **Tier 1: Rocket Engineering Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Rocket Engineering.\r\n- **Tier 2: Rocket Engineering Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Rocket Engineering.\r\n- **Tier 3: Rocket Engineering Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Rocket Engineering.\r\n- **Tier 4: Rocket Engineering Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Rocket Engineering.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/423_rocket_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/423_rocket_engineering/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Launch Vehicle Requirement** | *Which payload and mission need drove one rocket design?* |\r\n| 2 | `famous_examples` | **A Launch Vehicle Case** | *What do test and mission records show about a celebrated rocket?* |\r\n| 3 | `hidden_stories` | **People behind the Launch** | *Which test operators or manufacturing workers are omitted?* |\r\n| 4 | `beginner_explainers` | **Propulsion and Staging** | *Why might a rocket use multiple stages for one mission?* |\r\n| 5 | `advanced_concepts` | **Guidance under Changing Conditions** | *How does a launch vehicle stay within its planned trajectory?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unresolved Anomaly** | *Which telemetry or physical evidence is needed to identify cause?* |\r\n| 7 | `technology_innovation` | **A New Engine Feature** | *What changed in tested thrust, reliability, or reuse?* |\r\n| 8 | `people_personalities` | **A Program Decision** | *How did a named team choose among design alternatives?* |\r\n| 9 | `major_events` | **A Flight Test Milestone** | *What did one flight demonstrate and leave unproven?* |\r\n| 10 | `how_it_works` | **Launch Sequence at System Level** | *How do ground, propulsion, guidance, and staging interact?* |\r\n| 11 | `rise_fall` | **A Vehicle Program Ends** | *Which documented cost, technical, or mission factors mattered?* |\r\n| 12 | `then_vs_now` | **Two Rocket Generations** | *Which payload and reliability metrics can be compared?* |\r\n| 13 | `future_developments` | **A Proposed Launch Capability** | *What tests and flights would validate its advertised use?* |\r\n| 14 | `myths_vs_facts` | **A Payload Headline** | *Is a published payload figure tied to a specific orbit and variant?* |\r\n| 15 | `documentary_stories` | **From Engine Test to Flight** | *How did one test finding change a launch program?* |\r\n| 16 | `system_boundary` | **Rocket or Launch System?** | *Which outcome includes ground facilities, upper stage, or payload?* |\r\n| 17 | `input_output_trace` | **Command to Vehicle Response** | *How do guidance commands and vehicle sensors produce a recorded response?* |\r\n| 18 | `design_tradeoff` | **Payload and Margin** | *How does a design trade payload against margin or reuse?* |\r\n| 19 | `failure_mode` | **An Officially Investigated Anomaly** | *What sequence and causal finding does the record support?* |\r\n| 20 | `testing_limits` | **Ground Test and Flight** | *Which flight conditions cannot be reproduced in a static engine test?* |\r\n| 21 | `standards_interoperability` | **Launch Interfaces** | *Which published interface and approval constraints apply to a payload?* |\r\n| 22 | `security_threat_model` | **Mission Assurance Boundaries** | *What public controls protect command integrity?* |\r\n| 23 | `maintenance_lifecycle` | **Reusable Hardware Inspection** | *What evidence supports another flight of one component?* |\r\n| 24 | `infrastructure_dependencies` | **Launch Site Dependence** | *Which facilities and range approvals constrain one mission?* |\r\n| 25 | `accessibility_usability` | **Public Mission Data** | *Can non-specialists understand a mission outcome from available records?* |\r\n| 26 | `independent_replication` | **Checking a Performance Claim** | *Can independent analysts reproduce a trajectory-level result?* |\r\n| 27 | `responsible_deployment` | **Launch Impact Review** | *Which community and environmental concerns were evaluated?* |\r\n| 28 | `field_route_capacity` | **Access to a Target Orbit** | *What payload can a version carry to a specified orbit?* |\r\n| 29 | `field_vehicle_design` | **Vehicle Architecture** | *How do stages, fairing, and payload interfaces serve a mission?* |\r\n| 30 | `field_maintenance_system` | **Launch Hardware Turnaround** | *Which inspections and facilities govern reuse?* |\r\n| 31 | `field_safety_case` | **Evidence before Flight** | *Which qualification tests and range approvals support a mission?* |\r\n| 32 | `field_construction_impact` | **Building a Launch Vehicle** | *Which material and site impacts can be measured?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Rocket Engineering: A Launch Vehicle Requirement**\r\n   - *Question:* Which payload and mission need drove one rocket design?\r\n   - *Key Focus:* Trace dated specifications and program decisions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n2. **Rocket Engineering: A Launch Vehicle Case**\r\n   - *Question:* What do test and mission records show about a celebrated rocket?\r\n   - *Key Focus:* Specify variant, flight, and outcome. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n3. **Rocket Engineering: People behind the Launch**\r\n   - *Question:* Which test operators or manufacturing workers are omitted?\r\n   - *Key Focus:* Use credited, dated program records. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n4. **Rocket Engineering: Propulsion and Staging**\r\n   - *Question:* Why might a rocket use multiple stages for one mission?\r\n   - *Key Focus:* Explain mass flow and mission constraints without build instructions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n5. **Rocket Engineering: Guidance under Changing Conditions**\r\n   - *Question:* How does a launch vehicle stay within its planned trajectory?\r\n   - *Key Focus:* Use public control and flight-data descriptions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Rocket Engineering: An Unresolved Anomaly**\r\n   - *Question:* Which telemetry or physical evidence is needed to identify cause?\r\n   - *Key Focus:* Distinguish preliminary hypotheses from final review. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n7. **Rocket Engineering: A New Engine Feature**\r\n   - *Question:* What changed in tested thrust, reliability, or reuse?\r\n   - *Key Focus:* Compare test campaigns and flight conditions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n8. **Rocket Engineering: A Program Decision**\r\n   - *Question:* How did a named team choose among design alternatives?\r\n   - *Key Focus:* Use dated decisions and shared credit. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n9. **Rocket Engineering: A Flight Test Milestone**\r\n   - *Question:* What did one flight demonstrate and leave unproven?\r\n   - *Key Focus:* Read mission objectives and postflight findings. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n10. **Rocket Engineering: Launch Sequence at System Level**\r\n   - *Question:* How do ground, propulsion, guidance, and staging interact?\r\n   - *Key Focus:* Use public sequence and outcome data; omit operational procedures. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Rocket Engineering: A Vehicle Program Ends**\r\n   - *Question:* Which documented cost, technical, or mission factors mattered?\r\n   - *Key Focus:* Compare program records and successor plans. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n12. **Rocket Engineering: Two Rocket Generations**\r\n   - *Question:* Which payload and reliability metrics can be compared?\r\n   - *Key Focus:* Align orbit, configuration, sample size, and era. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n13. **Rocket Engineering: A Proposed Launch Capability**\r\n   - *Question:* What tests and flights would validate its advertised use?\r\n   - *Key Focus:* Mark projections and uncompleted milestones. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n14. **Rocket Engineering: A Payload Headline**\r\n   - *Question:* Is a published payload figure tied to a specific orbit and variant?\r\n   - *Key Focus:* Check mission profile and source. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n15. **Rocket Engineering: From Engine Test to Flight**\r\n   - *Question:* How did one test finding change a launch program?\r\n   - *Key Focus:* Trace dated reports, redesign, and mission results. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Rocket Engineering: Rocket or Launch System?**\r\n   - *Question:* Which outcome includes ground facilities, upper stage, or payload?\r\n   - *Key Focus:* Define boundary and mission. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n17. **Rocket Engineering: Command to Vehicle Response**\r\n   - *Question:* How do guidance commands and vehicle sensors produce a recorded response?\r\n   - *Key Focus:* Use public data, not operational settings. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n18. **Rocket Engineering: Payload and Margin**\r\n   - *Question:* How does a design trade payload against margin or reuse?\r\n   - *Key Focus:* Use public mission-level comparison. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n19. **Rocket Engineering: An Officially Investigated Anomaly**\r\n   - *Question:* What sequence and causal finding does the record support?\r\n   - *Key Focus:* Use public investigation; avoid actionable failure detail. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n20. **Rocket Engineering: Ground Test and Flight**\r\n   - *Question:* Which flight conditions cannot be reproduced in a static engine test?\r\n   - *Key Focus:* Compare environments and integration evidence. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 423 (Rocket Engineering)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Rocket Engineering: A Launch Vehicle Requirement*\r\n- **Episode Slug:** `423_rocket_engineering_deep_dive_the_architecture_of_rocket_engineering_a_launch_vehicle_requ`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/423_rocket_engineering/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "a3248639673fb7a4419a6d6269ecb3226ac73d825409e1668546af726ccc61f7",
+        "original_text": "# 423 Rocket Engineering -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 423 Rocket Engineering (Transport_Engineering)  \r\n> **Storage Directory:** `topics/423_rocket_engineering/`  \r\n> **Synchronized With:** `OUTPUT/423_rocket_engineering/`, `REGISTRY/Niches/423_rocket_engineering/`, and `423_ROCKET_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 423 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/423_rocket_engineering](../../OUTPUT/423_rocket_engineering) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Rocket Engineering: A Launch Vehicle Requirement** | Tier 1: Foundational Frameworks | `history_origins` | `rocket_engineering_a_launch_vehicle_requirement` | A rigorous pedagogical investigation exploring a launch vehicle requirement through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Rocket Engineering: A Launch Vehicle Case** | Tier 1: Foundational Frameworks | `famous_examples` | `rocket_engineering_a_launch_vehicle_case` | A rigorous pedagogical investigation exploring a launch vehicle case through documented evidence. | `QUEUED` |\r\n| 3 | **Rocket Engineering: People behind the Launch** | Tier 1: Foundational Frameworks | `hidden_stories` | `rocket_engineering_people_behind_the_launch` | A rigorous pedagogical investigation exploring people behind the launch through documented evidence. | `QUEUED` |\r\n| 4 | **Rocket Engineering: Propulsion and Staging** | Tier 1: Foundational Frameworks | `beginner_explainers` | `rocket_engineering_propulsion_and_staging` | A rigorous pedagogical investigation exploring propulsion and staging through documented evidence. | `QUEUED` |\r\n| 5 | **Rocket Engineering: Guidance under Changing Conditions** | Tier 1: Foundational Frameworks | `advanced_concepts` | `rocket_engineering_guidance_under_changing_conditions` | A rigorous pedagogical investigation exploring guidance under changing conditions through documented evidence. | `QUEUED` |\r\n| 6 | **Rocket Engineering: An Unresolved Anomaly** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `rocket_engineering_an_unresolved_anomaly` | A rigorous pedagogical investigation exploring an unresolved anomaly through documented evidence. | `QUEUED` |\r\n| 7 | **Rocket Engineering: A New Engine Feature** | Tier 2: Methodological Deep Dives | `technology_innovation` | `rocket_engineering_a_new_engine_feature` | A rigorous pedagogical investigation exploring a new engine feature through documented evidence. | `QUEUED` |\r\n| 8 | **Rocket Engineering: A Program Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `rocket_engineering_a_program_decision` | A rigorous pedagogical investigation exploring a program decision through documented evidence. | `QUEUED` |\r\n| 9 | **Rocket Engineering: A Flight Test Milestone** | Tier 2: Methodological Deep Dives | `major_events` | `rocket_engineering_a_flight_test_milestone` | A rigorous pedagogical investigation exploring a flight test milestone through documented evidence. | `QUEUED` |\r\n| 10 | **Rocket Engineering: Launch Sequence at System Level** | Tier 2: Methodological Deep Dives | `how_it_works` | `rocket_engineering_launch_sequence_at_system_level` | A rigorous pedagogical investigation exploring launch sequence at system level through documented evidence. | `QUEUED` |\r\n| 11 | **Rocket Engineering: A Vehicle Program Ends** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `rocket_engineering_a_vehicle_program_ends` | A rigorous pedagogical investigation exploring a vehicle program ends through documented evidence. | `QUEUED` |\r\n| 12 | **Rocket Engineering: Two Rocket Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `rocket_engineering_two_rocket_generations` | A rigorous pedagogical investigation exploring two rocket generations through documented evidence. | `QUEUED` |\r\n| 13 | **Rocket Engineering: A Proposed Launch Capability** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `rocket_engineering_a_proposed_launch_capability` | A rigorous pedagogical investigation exploring a proposed launch capability through documented evidence. | `QUEUED` |\r\n| 14 | **Rocket Engineering: A Payload Headline** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `rocket_engineering_a_payload_headline` | A rigorous pedagogical investigation exploring a payload headline through documented evidence. | `QUEUED` |\r\n| 15 | **Rocket Engineering: From Engine Test to Flight** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `rocket_engineering_from_engine_test_to_flight` | A rigorous pedagogical investigation exploring from engine test to flight through documented evidence. | `QUEUED` |\r\n| 16 | **Rocket Engineering: Rocket or Launch System?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `rocket_engineering_rocket_or_launch_system` | A rigorous pedagogical investigation exploring rocket or launch system? through documented evidence. | `QUEUED` |\r\n| 17 | **Rocket Engineering: Command to Vehicle Response** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `rocket_engineering_command_to_vehicle_response` | A rigorous pedagogical investigation exploring command to vehicle response through documented evidence. | `QUEUED` |\r\n| 18 | **Rocket Engineering: Payload and Margin** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `rocket_engineering_payload_and_margin` | A rigorous pedagogical investigation exploring payload and margin through documented evidence. | `QUEUED` |\r\n| 19 | **Rocket Engineering: An Officially Investigated Anomaly** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `rocket_engineering_an_officially_investigated_anomaly` | A rigorous pedagogical investigation exploring an officially investigated anomaly through documented evidence. | `QUEUED` |\r\n| 20 | **Rocket Engineering: Ground Test and Flight** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `rocket_engineering_ground_test_and_flight` | A rigorous pedagogical investigation exploring ground test and flight through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Rocket Engineering: Record Extremes & Superlatives** | **98** | `extreme_case` | `rocket_engineering_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Rocket Engineering: An Unresolved Anomaly** | **96** | `mysteries_unsolved_cases` | `rocket_engineering_mysteries_unsolved_cases` | High viral search interest exploring which telemetry or physical evidence is needed to identify cause backed by field records. | `Queued` |\r\n| 23 | **Rocket Engineering: A New Engine Feature** | **95** | `technology_innovation` | `rocket_engineering_technology_innovation` | High viral search interest exploring what changed in tested thrust, reliability, or reuse backed by field records. | `Queued` |\r\n| 24 | **Rocket Engineering: A Payload Headline** | **94** | `myths_vs_facts` | `rocket_engineering_myths_vs_facts` | High viral search interest exploring is a published payload figure tied to a specific orbit and variant backed by field records. | `Queued` |\r\n| 25 | **Rocket Engineering: A Flight Test Milestone** | **93** | `major_events` | `rocket_engineering_major_events` | High viral search interest exploring what did one flight demonstrate and leave unproven backed by field records. | `Queued` |\r\n| 26 | **Rocket Engineering: People behind the Launch** | **92** | `hidden_stories` | `rocket_engineering_hidden_stories` | High viral search interest exploring which test operators or manufacturing workers are omitted backed by field records. | `Queued` |\r\n| 27 | **Rocket Engineering: From Engine Test to Flight** | **91** | `documentary_stories` | `rocket_engineering_documentary_stories` | High viral search interest exploring how did one test finding change a launch program backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/423_rocket_engineering/423_ROCKET_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`](./423_ROCKET_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/423_rocket_engineering/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/423_rocket_engineering/NICHE_423_rocket_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/423_rocket_engineering/NICHE_423_rocket_engineering.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/423_rocket_engineering/CAT_423_rocket_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/423_rocket_engineering/CAT_423_rocket_engineering.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/423_rocket_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/423_rocket_engineering/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/423_rocket_engineering/`](file:///h:/script-raw-/OUTPUT/423_rocket_engineering/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "d03eeed21b958f243518ecb81ac560f1ac46ff8a32b229f471323e15e8a6e868",
+        "original_text": "{\r\n  \"niche_id\": \"423\",\r\n  \"niche_name\": \"rocket_engineering\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Rocket Engineering: A Launch Vehicle Requirement\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"rocket_engineering_a_launch_vehicle_requirement\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a launch vehicle requirement through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Rocket Engineering: A Launch Vehicle Case\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"rocket_engineering_a_launch_vehicle_case\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a launch vehicle case through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Rocket Engineering: People behind the Launch\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"rocket_engineering_people_behind_the_launch\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind the launch through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Rocket Engineering: Propulsion and Staging\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"rocket_engineering_propulsion_and_staging\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring propulsion and staging through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Rocket Engineering: Guidance under Changing Conditions\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"rocket_engineering_guidance_under_changing_conditions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring guidance under changing conditions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Rocket Engineering: An Unresolved Anomaly\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"rocket_engineering_an_unresolved_anomaly\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unresolved anomaly through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Rocket Engineering: A New Engine Feature\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"rocket_engineering_a_new_engine_feature\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new engine feature through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Rocket Engineering: A Program Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"rocket_engineering_a_program_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a program decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Rocket Engineering: A Flight Test Milestone\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"rocket_engineering_a_flight_test_milestone\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a flight test milestone through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Rocket Engineering: Launch Sequence at System Level\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"rocket_engineering_launch_sequence_at_system_level\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring launch sequence at system level through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Rocket Engineering: A Vehicle Program Ends\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"rocket_engineering_a_vehicle_program_ends\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a vehicle program ends through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Rocket Engineering: Two Rocket Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"rocket_engineering_two_rocket_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two rocket generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Rocket Engineering: A Proposed Launch Capability\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"rocket_engineering_a_proposed_launch_capability\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed launch capability through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Rocket Engineering: A Payload Headline\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"rocket_engineering_a_payload_headline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a payload headline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Rocket Engineering: From Engine Test to Flight\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"rocket_engineering_from_engine_test_to_flight\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from engine test to flight through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Rocket Engineering: Rocket or Launch System?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"rocket_engineering_rocket_or_launch_system\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring rocket or launch system? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Rocket Engineering: Command to Vehicle Response\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"rocket_engineering_command_to_vehicle_response\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring command to vehicle response through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Rocket Engineering: Payload and Margin\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"rocket_engineering_payload_and_margin\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring payload and margin through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Rocket Engineering: An Officially Investigated Anomaly\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"rocket_engineering_an_officially_investigated_anomaly\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an officially investigated anomaly through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Rocket Engineering: Ground Test and Flight\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"rocket_engineering_ground_test_and_flight\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring ground test and flight through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Rocket Engineering: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"rocket_engineering_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Rocket Engineering: An Unresolved Anomaly\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"rocket_engineering_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which telemetry or physical evidence is needed to identify cause backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Rocket Engineering: A New Engine Feature\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"rocket_engineering_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what changed in tested thrust, reliability, or reuse backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Rocket Engineering: A Payload Headline\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"rocket_engineering_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring is a published payload figure tied to a specific orbit and variant backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Rocket Engineering: A Flight Test Milestone\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"rocket_engineering_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what did one flight demonstrate and leave unproven backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Rocket Engineering: People behind the Launch\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"rocket_engineering_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring which test operators or manufacturing workers are omitted backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Rocket Engineering: From Engine Test to Flight\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"rocket_engineering_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did one test finding change a launch program backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "423",
+      "niche_name": "rocket_engineering",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Rocket Engineering: A Launch Vehicle Requirement",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "rocket_engineering_a_launch_vehicle_requirement",
+          "reason": "A rigorous pedagogical investigation exploring a launch vehicle requirement through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Rocket Engineering: A Launch Vehicle Case",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "rocket_engineering_a_launch_vehicle_case",
+          "reason": "A rigorous pedagogical investigation exploring a launch vehicle case through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Rocket Engineering: People behind the Launch",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "rocket_engineering_people_behind_the_launch",
+          "reason": "A rigorous pedagogical investigation exploring people behind the launch through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Rocket Engineering: Propulsion and Staging",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "rocket_engineering_propulsion_and_staging",
+          "reason": "A rigorous pedagogical investigation exploring propulsion and staging through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Rocket Engineering: Guidance under Changing Conditions",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "rocket_engineering_guidance_under_changing_conditions",
+          "reason": "A rigorous pedagogical investigation exploring guidance under changing conditions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Rocket Engineering: An Unresolved Anomaly",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "rocket_engineering_an_unresolved_anomaly",
+          "reason": "A rigorous pedagogical investigation exploring an unresolved anomaly through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Rocket Engineering: A New Engine Feature",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "rocket_engineering_a_new_engine_feature",
+          "reason": "A rigorous pedagogical investigation exploring a new engine feature through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Rocket Engineering: A Program Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "rocket_engineering_a_program_decision",
+          "reason": "A rigorous pedagogical investigation exploring a program decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Rocket Engineering: A Flight Test Milestone",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "rocket_engineering_a_flight_test_milestone",
+          "reason": "A rigorous pedagogical investigation exploring a flight test milestone through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Rocket Engineering: Launch Sequence at System Level",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "rocket_engineering_launch_sequence_at_system_level",
+          "reason": "A rigorous pedagogical investigation exploring launch sequence at system level through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Rocket Engineering: A Vehicle Program Ends",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "rocket_engineering_a_vehicle_program_ends",
+          "reason": "A rigorous pedagogical investigation exploring a vehicle program ends through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Rocket Engineering: Two Rocket Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "rocket_engineering_two_rocket_generations",
+          "reason": "A rigorous pedagogical investigation exploring two rocket generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Rocket Engineering: A Proposed Launch Capability",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "rocket_engineering_a_proposed_launch_capability",
+          "reason": "A rigorous pedagogical investigation exploring a proposed launch capability through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Rocket Engineering: A Payload Headline",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "rocket_engineering_a_payload_headline",
+          "reason": "A rigorous pedagogical investigation exploring a payload headline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Rocket Engineering: From Engine Test to Flight",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "rocket_engineering_from_engine_test_to_flight",
+          "reason": "A rigorous pedagogical investigation exploring from engine test to flight through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Rocket Engineering: Rocket or Launch System?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "rocket_engineering_rocket_or_launch_system",
+          "reason": "A rigorous pedagogical investigation exploring rocket or launch system? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Rocket Engineering: Command to Vehicle Response",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "rocket_engineering_command_to_vehicle_response",
+          "reason": "A rigorous pedagogical investigation exploring command to vehicle response through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Rocket Engineering: Payload and Margin",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "rocket_engineering_payload_and_margin",
+          "reason": "A rigorous pedagogical investigation exploring payload and margin through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Rocket Engineering: An Officially Investigated Anomaly",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "rocket_engineering_an_officially_investigated_anomaly",
+          "reason": "A rigorous pedagogical investigation exploring an officially investigated anomaly through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Rocket Engineering: Ground Test and Flight",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "rocket_engineering_ground_test_and_flight",
+          "reason": "A rigorous pedagogical investigation exploring ground test and flight through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Rocket Engineering: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "rocket_engineering_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Rocket Engineering: An Unresolved Anomaly",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "rocket_engineering_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which telemetry or physical evidence is needed to identify cause backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Rocket Engineering: A New Engine Feature",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "rocket_engineering_technology_innovation",
+          "why_trending": "High viral search interest exploring what changed in tested thrust, reliability, or reuse backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Rocket Engineering: A Payload Headline",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "rocket_engineering_myths_vs_facts",
+          "why_trending": "High viral search interest exploring is a published payload figure tied to a specific orbit and variant backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Rocket Engineering: A Flight Test Milestone",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "rocket_engineering_major_events",
+          "why_trending": "High viral search interest exploring what did one flight demonstrate and leave unproven backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Rocket Engineering: People behind the Launch",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "rocket_engineering_hidden_stories",
+          "why_trending": "High viral search interest exploring which test operators or manufacturing workers are omitted backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Rocket Engineering: From Engine Test to Flight",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "rocket_engineering_documentary_stories",
+          "why_trending": "High viral search interest exploring how did one test finding change a launch program backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "fdf04b98bffbfeba27c34022c731dea712de61dfedc760599579a37e6e57ca63"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "e1a8993d36c11ea5577b53d5373b5b397a829d6cae2e8f92229555d4c95faf2e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "586e2a0affa0224850e9d314bf4a2d48a2f4722f6838c8c739580eabef0bc22a"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "c38e5f51a4b12ffe4abb6ea1d7bffd847775fcaac37a7440d2cc807d50f16d4e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "03623f4abff872727fe2e195317c9428994abda207ec29155e463174320ba814"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "65e951c51a220aa55c172364dbeb6bb7a4d09e3dd059d52e82932a468d0229ee"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-423-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-04",
+      "title": "Launch systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-05",
+      "title": "Mission design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-06",
+      "title": "Mission interfaces",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-07",
+      "title": "Mission assurance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-423-08",
+      "title": "Launch assurance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "423",
+    "slug": "rocket_engineering",
+    "name": "Rocket Engineering",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Rocket Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-423-01",
+        "title": "Propulsion",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-423-001",
+            "title": "Liquid rocket cycles",
+            "question": "Liquid rocket cycles: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Propulsion. Address Liquid rocket cycles through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Liquid rocket cycles.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-002",
+            "title": "Solid motor grain concepts",
+            "question": "Solid motor grain concepts: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Propulsion. Address Solid motor grain concepts through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Solid motor grain concepts.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-003",
+            "title": "Electric propulsion",
+            "question": "Electric propulsion: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Propulsion. Address Electric propulsion through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Electric propulsion.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-423-02",
+        "title": "Flight design",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-423-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-423-004",
+            "title": "Stage mass ratios",
+            "question": "Stage mass ratios: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Flight design. Address Stage mass ratios through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Stage mass ratios.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-005",
+            "title": "Aerodynamic loads",
+            "question": "Aerodynamic loads: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Flight design. Address Aerodynamic loads through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Aerodynamic loads.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-006",
+            "title": "Guidance and control",
+            "question": "Guidance and control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Flight design. Address Guidance and control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Guidance and control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-423-03",
+        "title": "Reliability",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-423-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-423-007",
+            "title": "Static-fire testing",
+            "question": "Static-fire testing: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Reliability. Address Static-fire testing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Static-fire testing.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-008",
+            "title": "Launch abort systems",
+            "question": "Launch abort systems: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Reliability. Address Launch abort systems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Launch abort systems.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-423-009",
+            "title": "Reuse inspection requirements",
+            "question": "Reuse inspection requirements: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Rocket Engineering; branch: Reliability. Address Reuse inspection requirements through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Reuse inspection requirements.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "031",
+        "title": "Megastructures & Engineering",
+        "directory": "031_megastructures_engineering",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "047",
+        "title": "Aviation",
+        "directory": "047_aviation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "051",
+        "title": "Industrial / Manufacturing Stories",
+        "directory": "051_industrial_manufacturing_stories",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "052",
+        "title": "Architecture",
+        "directory": "052_architecture",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "109",
+        "title": "Railways & Trains",
+        "directory": "109_railways_trains",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "110",
+        "title": "Transportation",
+        "directory": "110_transportation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Rocket Engineering: A Launch Vehicle Requirement",
+      "question": "Which payload and mission need drove one rocket design?",
+      "coverage": "Trace dated specifications and program decisions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Launch Vehicle Case",
+      "question": "What do test and mission records show about a celebrated rocket?",
+      "coverage": "Specify variant, flight, and outcome. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: People behind the Launch",
+      "question": "Which test operators or manufacturing workers are omitted?",
+      "coverage": "Use credited, dated program records. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Propulsion and Staging",
+      "question": "Why might a rocket use multiple stages for one mission?",
+      "coverage": "Explain mass flow and mission constraints without build instructions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Guidance under Changing Conditions",
+      "question": "How does a launch vehicle stay within its planned trajectory?",
+      "coverage": "Use public control and flight-data descriptions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: An Unresolved Anomaly",
+      "question": "Which telemetry or physical evidence is needed to identify cause?",
+      "coverage": "Distinguish preliminary hypotheses from final review. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A New Engine Feature",
+      "question": "What changed in tested thrust, reliability, or reuse?",
+      "coverage": "Compare test campaigns and flight conditions. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Program Decision",
+      "question": "How did a named team choose among design alternatives?",
+      "coverage": "Use dated decisions and shared credit. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Flight Test Milestone",
+      "question": "What did one flight demonstrate and leave unproven?",
+      "coverage": "Read mission objectives and postflight findings. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Launch Sequence at System Level",
+      "question": "How do ground, propulsion, guidance, and staging interact?",
+      "coverage": "Use public sequence and outcome data; omit operational procedures. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Vehicle Program Ends",
+      "question": "Which documented cost, technical, or mission factors mattered?",
+      "coverage": "Compare program records and successor plans. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Two Rocket Generations",
+      "question": "Which payload and reliability metrics can be compared?",
+      "coverage": "Align orbit, configuration, sample size, and era. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Proposed Launch Capability",
+      "question": "What tests and flights would validate its advertised use?",
+      "coverage": "Mark projections and uncompleted milestones. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: A Payload Headline",
+      "question": "Is a published payload figure tied to a specific orbit and variant?",
+      "coverage": "Check mission profile and source. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: From Engine Test to Flight",
+      "question": "How did one test finding change a launch program?",
+      "coverage": "Trace dated reports, redesign, and mission results. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Rocket or Launch System?",
+      "question": "Which outcome includes ground facilities, upper stage, or payload?",
+      "coverage": "Define boundary and mission. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Command to Vehicle Response",
+      "question": "How do guidance commands and vehicle sensors produce a recorded response?",
+      "coverage": "Use public data, not operational settings. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Payload and Margin",
+      "question": "How does a design trade payload against margin or reuse?",
+      "coverage": "Use public mission-level comparison. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: An Officially Investigated Anomaly",
+      "question": "What sequence and causal finding does the record support?",
+      "coverage": "Use public investigation; avoid actionable failure detail. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Rocket Engineering: Ground Test and Flight",
+      "question": "Which flight conditions cannot be reproduced in a static engine test?",
+      "coverage": "Compare environments and integration evidence. Evidence base: NASA propulsion-test reports, public mission and flight records, launch approvals, official investigations, and environmental reviews.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-423-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "071fd28136d448362e8f18d8ab31ed24de63750ddfda708499bd6c1e1983ff51",
+    "TOPIC_BANK_RECONCILIATION.md": "42415c233cb9fabdc51446bffe58b3d3a28d42d7c045b24a1739b695ce7070f3",
+    "TOPICS_COVERED_REPORT.md": "eec01161508af1ae68a8ba0469190b3a601b339754c91a05b70105c5decc780e",
+    "423_ROCKET_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": "07efd88f782060ab86ce5932168d62e7fcd26fac10f08c64616cf7b13c9913ed"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-423-001": [
+      "BANK-423-036"
+    ],
+    "BANK-423-003": [
+      "BANK-423-036"
+    ],
+    "BANK-423-005": [
+      "BANK-423-038"
+    ],
+    "BANK-423-006": [
+      "BANK-423-038"
+    ],
+    "BANK-423-009": [
+      "BANK-423-045"
+    ],
+    "BANK-423-002": [
+      "BANK-423-036"
+    ],
+    "BANK-423-004": [
+      "BANK-423-037"
+    ],
+    "BANK-423-007": [
+      "BANK-423-039"
+    ],
+    "BANK-423-008": [
+      "BANK-423-044"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Launch-pad infrastructure",
+      "next_step": "Map services, access and safety responsibilities conceptually. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Orbital transfer tradeoffs",
+      "next_step": "Explain conceptual trajectory tradeoffs without mission-operating instructions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Payload integration",
+      "next_step": "Compare mechanical, thermal and electrical interfaces. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Stage-separation verification",
+      "next_step": "Trace environments, instrumentation and failure assumptions conceptually. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Launch abort systems",
+      "next_step": "Compare mission phases, escape objectives and remaining constraints conceptually without design or activation procedures. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Reuse inspection",
+      "next_step": "Trace inspection evidence, fatigue assumptions, refurbishment records and acceptance responsibility without maintenance instructions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_agency_records_inspected",
+    "semantic_candidates_reviewed": 27,
+    "out_of_scope_positions": 10,
+    "neighbor_overlap": "Existing 423-039 compares test types generally; this new question follows the dated SLS Green Run and Artemis I evidence trail. Existing 423-043 concerns stage-separation verification and 423-045 reuse inspection, neither addressed by the Green Run case. Niche 422 aircraft handles atmospheric flight-test engineering; 344 astronomy and 345 planetary science address observations and samples, not SLS core-stage qualification."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Launch-team attribution needs named roles and contractor personnel records.",
+      "bank_ids": []
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-037"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-038"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "An unresolved anomaly needs a specific official investigation and causal findings.",
+      "bank_ids": []
+    },
+    "pending_topics/6": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A new-engine-feature claim needs an identified feature and design evidence.",
+      "bank_ids": []
+    },
+    "pending_topics/7": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Program-end claims require a named decision and dated program record.",
+      "bank_ids": []
+    },
+    "pending_topics/11": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-037"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-042"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A payload headline needs specified payload requirements and measured margin evidence.",
+      "bank_ids": []
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-040"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-043"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-042"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into the narrower existing question; no universal readiness, priority or performance claim is adopted.",
+      "bank_ids": [
+        "BANK-423-034"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A record superlative needs a defined metric and comparative corpus.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "An unresolved anomaly needs a specific official investigation and causal findings.",
+      "bank_ids": []
+    },
+    "trending_topics/2": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A new-engine-feature claim needs an identified feature and design evidence.",
+      "bank_ids": []
+    },
+    "trending_topics/3": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "A payload headline needs specified payload requirements and measured margin evidence.",
+      "bank_ids": []
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Out of scope pending a bounded, independently evidenced case.",
+      "reason": "Launch-team attribution needs named roles and contractor personnel records.",
+      "bank_ids": []
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The archive framing narrows to this dated primary-source case.",
+      "bank_ids": [
+        "BANK-423-046"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-423-046",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

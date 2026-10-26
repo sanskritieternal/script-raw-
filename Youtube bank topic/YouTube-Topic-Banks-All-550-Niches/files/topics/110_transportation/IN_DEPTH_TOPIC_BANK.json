@@ -1,0 +1,704 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "110",
+  "slug": "transportation",
+  "name": "Transportation",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for Transportation. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 30
+  },
+  "categories": [
+    {
+      "title": "Transport as access to activities",
+      "level": "foundation",
+      "research_profile": "community",
+      "topics": [
+        {
+          "question": "How can a transport system be evaluated by access rather than vehicle movement alone?",
+          "coverage": "Compare journeys to work, care, education and services using official data and consented accounts; distinguish speed from usable opportunity.",
+          "id": "BANK-110-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes between measuring a trip and measuring a whole day's travel needs?",
+          "coverage": "Map connected activities, transfers, waiting and care responsibilities; avoid treating one commute as every person's mobility pattern.",
+          "id": "BANK-110-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a short trip still be inaccessible?",
+          "coverage": "Examine crossings, cost, surfaces, assistance, safety and information using user-defined needs; distinguish physical distance from practical access.",
+          "id": "BANK-110-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Walking, cycling and streets",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does crossing design affect walking time and access?",
+          "coverage": "Use official design guidance, observed conditions and consented user perspectives; avoid engineering conclusions from photographs alone.",
+          "id": "BANK-110-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a cycling network more than disconnected protected segments?",
+          "coverage": "Map continuity, junctions, destinations and maintenance through public plans; distinguish installed length from a demonstrated useful network.",
+          "id": "BANK-110-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can street space be compared across movement, deliveries and public use?",
+          "coverage": "Use measured dimensions, official policy and varied local accounts; avoid assuming one allocation is best for every place.",
+          "id": "BANK-110-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can children and adults experience the same walking route differently?",
+          "coverage": "Compare sightlines, crossings, time and accompaniment with appropriate consent; do not expose children's routines or treat one family as representative.",
+          "id": "BANK-110-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D02",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Buses, public transport and transfers",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does frequent bus service offer that a timetable with a few fast trips cannot?",
+          "coverage": "Compare waiting, transfers, span and reliability with current official data; distinguish average speed from useful access throughout the day.",
+          "id": "BANK-110-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can bus priority change passenger journeys without widening a road?",
+          "coverage": "Inspect signal, lane and stop designs through official evaluations; separate demonstrated corridor outcomes from universal claims.",
+          "id": "BANK-110-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a poorly designed transfer outweigh gains on either side of a journey?",
+          "coverage": "Trace walking, wait, information, fare and accessibility in a dated example; avoid assuming a mapped connection is feasible for everyone.",
+          "id": "BANK-110-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can transit routes balance coverage and frequency under a fixed budget?",
+          "coverage": "Use an explicit illustrative network, demand and access goals; distinguish a planning tradeoff from a personalized service recommendation.",
+          "id": "BANK-110-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D03",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Roads, traffic and shared mobility",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What does induced-demand research measure after road capacity changes?",
+          "coverage": "Inspect original study design, network scope, horizon and alternatives; avoid asserting that every road project has an identical effect.",
+          "id": "BANK-110-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can congestion be distinguished from unreliability and lack of travel options?",
+          "coverage": "Compare travel-time distributions, access and mode alternatives using official metrics; avoid treating a single rush-hour image as a complete diagnosis.",
+          "id": "BANK-110-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when a ride service is shared, privately booked or integrated with public transport?",
+          "coverage": "Compare occupancy, waiting, empty travel, fares and accessibility; verify current terms and avoid universal sustainability rankings.",
+          "id": "BANK-110-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can parking policy affect a street beyond the vehicles already parked there?",
+          "coverage": "Use official data and original studies on circulation, land use, access and revenue; distinguish measured effects from political preference.",
+          "id": "BANK-110-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D04",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Freight, ports and last-mile systems",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do passenger and goods movements compete for the same urban space?",
+          "coverage": "Map deliveries, stopping, loading windows and user access through official plans; avoid treating all freight as a removable inconvenience.",
+          "id": "BANK-110-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What determines whether cargo can shift between road, rail and water?",
+          "coverage": "Compare terminals, load form, schedule, handling and infrastructure with documented cases; distinguish theoretical connectivity from an available service.",
+          "id": "BANK-110-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can last-mile delivery be evaluated beyond the speed of the final courier?",
+          "coverage": "Trace sorting, failed delivery, access, labor and return trips; use primary data where available and do not invent efficiency rates.",
+          "id": "BANK-110-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D05",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Accessibility, affordability and unequal burdens",
+      "level": "advanced",
+      "research_profile": "community",
+      "topics": [
+        {
+          "question": "What does transport affordability mean when household time and income differ?",
+          "coverage": "Compare fares, mandatory transfers, total trips and time costs with official methods; avoid one fixed threshold being presented as universally sufficient.",
+          "id": "BANK-110-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a mobility study include people who stay home because travel is difficult?",
+          "coverage": "Use ethical surveys, access needs and missing-trip questions; distinguish observed ridership from all potential demand.",
+          "id": "BANK-110-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can gendered travel-pattern research require care about household roles and context?",
+          "coverage": "Inspect sampling, trip chains, safety perceptions and within-group variation; avoid predicting an individual's needs from gender.",
+          "id": "BANK-110-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can rural transport be studied without using urban frequency as the only benchmark?",
+          "coverage": "Compare dispersed destinations, service days, assistance and local accounts; distinguish low density from absence of public responsibility.",
+          "id": "BANK-110-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D06",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Energy, environment and safety evidence",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What must be defined before comparing the emissions of two transport modes?",
+          "coverage": "Specify occupancy, energy source, route, infrastructure and lifecycle boundary; distinguish global averages from local operating conditions.",
+          "id": "BANK-110-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can electric vehicles change tailpipe emissions without resolving every transport impact?",
+          "coverage": "Compare energy, materials, tires, land use and access using primary evidence; avoid either zero-impact marketing or dismissing documented benefits.",
+          "id": "BANK-110-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can road-safety performance be compared without confusing exposure with raw crash counts?",
+          "coverage": "Use official definitions, travel measures, severity and reporting completeness; avoid declaring a road safe from a low count alone.",
+          "id": "BANK-110-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a safe-system approach change about assigning responsibility after a crash?",
+          "coverage": "Read official framework documents and evaluated interventions; distinguish systemic prevention from removing individual legal accountability.",
+          "id": "BANK-110-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D07",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    },
+    {
+      "title": "Planning, technology and public choices",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "How can a transport appraisal include benefits and costs borne by different groups?",
+          "coverage": "Use official methods, explicit distribution and uncertainty; avoid presenting one monetary total as the complete public decision.",
+          "id": "BANK-110-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be checked before accepting an autonomous-mobility demonstration as evidence of broad capability?",
+          "coverage": "Inspect operating domain, intervention, authorization and actual trial data; distinguish a staged route from general operation.",
+          "id": "BANK-110-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a city compare a pilot mobility service with a long-term commitment?",
+          "coverage": "Track subsidy, access, reliability, data rights and evaluation design; distinguish uptake during free trials from durable demand.",
+          "id": "BANK-110-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a transport explainer report a project that exists only as an announcement?",
+          "coverage": "Separate proposal, approval, funding, construction and operation with dated official records; avoid drawing a proposed line as an available route.",
+          "id": "BANK-110-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-110-D08",
+      "prerequisites": [
+        "CATALOG-110-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "community": {
+      "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+      "source_leads": [
+        "consented interviews and oral histories",
+        "community publications and local records",
+        "field notes with method and consent documented"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "031",
+      "title": "Megastructures & Engineering",
+      "directory": "031_megastructures_engineering",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "047",
+      "title": "Aviation",
+      "directory": "047_aviation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "051",
+      "title": "Industrial / Manufacturing Stories",
+      "directory": "051_industrial_manufacturing_stories",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "052",
+      "title": "Architecture",
+      "directory": "052_architecture",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "109",
+      "title": "Railways & Trains",
+      "directory": "109_railways_trains",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "111",
+      "title": "Cities & Urbanism",
+      "directory": "111_cities_urbanism",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "110",
+    "slug": "transportation",
+    "name": "Transportation",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Transportation YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-110-01",
+        "title": "Transport networks",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-110-001",
+            "title": "Hub-and-spoke versus direct routes",
+            "question": "Hub-and-spoke versus direct routes: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Transportation; branch: Transport networks. Address Hub-and-spoke versus direct routes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Hub-and-spoke versus direct routes.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-002",
+            "title": "Intermodal transfer penalties",
+            "question": "Intermodal transfer penalties: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Transportation; branch: Transport networks. Address Intermodal transfer penalties through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Intermodal transfer penalties.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-003",
+            "title": "Traffic demand models",
+            "question": "Traffic demand models: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Transportation; branch: Transport networks. Address Traffic demand models through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Traffic demand models.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-110-02",
+        "title": "Public decisions",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-110-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-110-004",
+            "title": "Road pricing and equity",
+            "question": "Road pricing and equity: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Transportation; branch: Public decisions. Address Road pricing and equity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Road pricing and equity.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-005",
+            "title": "Transit service frequency",
+            "question": "Transit service frequency: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Transportation; branch: Public decisions. Address Transit service frequency through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Transit service frequency.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-006",
+            "title": "Transport access for disabled passengers",
+            "question": "Transport access for disabled passengers: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Transportation; branch: Public decisions. Address Transport access for disabled passengers through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Transport access for disabled passengers.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-110-03",
+        "title": "Environmental accounting",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-110-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-110-007",
+            "title": "Lifecycle emissions by mode",
+            "question": "Lifecycle emissions by mode: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Transportation; branch: Environmental accounting. Address Lifecycle emissions by mode through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Lifecycle emissions by mode precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-008",
+            "title": "Occupancy and energy efficiency",
+            "question": "Occupancy and energy efficiency: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Transportation; branch: Environmental accounting. Address Occupancy and energy efficiency through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Occupancy and energy efficiency precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-110-009",
+            "title": "Noise exposure near corridors",
+            "question": "Noise exposure near corridors: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Transportation; branch: Environmental accounting. Address Noise exposure near corridors through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Noise exposure near corridors precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "031",
+        "title": "Megastructures & Engineering",
+        "directory": "031_megastructures_engineering",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "047",
+        "title": "Aviation",
+        "directory": "047_aviation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "051",
+        "title": "Industrial / Manufacturing Stories",
+        "directory": "051_industrial_manufacturing_stories",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "052",
+        "title": "Architecture",
+        "directory": "052_architecture",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "109",
+        "title": "Railways & Trains",
+        "directory": "109_railways_trains",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "111",
+        "title": "Cities & Urbanism",
+        "directory": "111_cities_urbanism",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_07"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

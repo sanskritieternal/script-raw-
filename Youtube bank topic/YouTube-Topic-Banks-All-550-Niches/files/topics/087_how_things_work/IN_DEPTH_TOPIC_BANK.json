@@ -1,0 +1,752 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "087",
+  "slug": "how_things_work",
+  "name": "How Things Work",
+  "primary_category": "Engineering_Inventions",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for How Things Work. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 33
+  },
+  "categories": [
+    {
+      "title": "Explaining everyday mechanisms",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a lever change force and motion without creating energy?",
+          "coverage": "Use a labeled original low-load model to compare pivot, distance and work; distinguish ideal mechanical advantage from friction and structural limits.",
+          "id": "BANK-087-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a pulley change the direction of a pull without always reducing the required force?",
+          "coverage": "Compare fixed and moving pulley diagrams with explicit assumptions; exclude lifting demonstrations or designs for supporting people or heavy objects.",
+          "id": "BANK-087-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a gear train trade rotational speed for torque?",
+          "coverage": "Trace tooth counts and direction in a safe original animation; include losses and avoid equating a diagram with a rated power-transmission design.",
+          "id": "BANK-087-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a simple explanation reveal a mechanism while acknowledging what it omits?",
+          "coverage": "Build a system-boundary map for a hand tool with inputs, outputs and assumptions; distinguish useful simplification from physically impossible motion.",
+          "id": "BANK-087-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Fluids, pressure and heat",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How does a siphon move liquid and what conditions stop it working?",
+          "coverage": "Compare pressure, height, continuity and documented physical models using safe water-only illustrations; exclude fuels, hazardous liquids and unsupported claims of perpetual flow.",
+          "id": "BANK-087-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a refrigerator move rather than simply create?",
+          "coverage": "Trace heat transfer, refrigerant states and electrical work through manufacturer diagrams; exclude servicing sealed systems or handling refrigerants.",
+          "id": "BANK-087-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a pressure cooker raise cooking temperature under controlled conditions?",
+          "coverage": "Explain pressure-temperature relationships and engineered controls at a conceptual level; rely on official product guidance and exclude modification or blocked-vent demonstrations.",
+          "id": "BANK-087-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a thermostatic control differ from an appliance merely having a heater?",
+          "coverage": "Compare measurement, switching, hysteresis and setpoint in a safe simulation; distinguish control logic from uniform temperature at every location.",
+          "id": "BANK-087-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes between evaporation cooling and refrigeration?",
+          "coverage": "Compare energy transfer, humidity, airflow and system boundaries; use labeled examples and avoid claiming equal performance in every climate.",
+          "id": "BANK-087-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D02",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Electricity, light and sensing",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does an LED turn electrical input into light differently from an incandescent lamp?",
+          "coverage": "Use authoritative device explanations and labeled energy flows; distinguish mechanism, efficiency measurements and product lifespan claims without wiring demonstrations.",
+          "id": "BANK-087-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a transformer change in an alternating-current circuit?",
+          "coverage": "Explain electromagnetic induction, turns ratio and load assumptions through diagrams; exclude mains experiments and avoid implying energy amplification.",
+          "id": "BANK-087-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a touch screen detect contact without seeing a finger?",
+          "coverage": "Compare documented capacitive and resistive principles with device-specific limitations; avoid claiming all gloves, styluses or screens work the same way.",
+          "id": "BANK-087-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a smoke alarm respond differently to different fire signatures?",
+          "coverage": "Use official fire-safety and manufacturer explanations of sensing methods; exclude disabling alarms or presenting a comparison as personalized placement guidance.",
+          "id": "BANK-087-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D03",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Household machines and systems",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a washing machine coordinate water, motion and spin through a cycle?",
+          "coverage": "Trace sensors, motor stages and controls using a named manufacturer's documentation; keep repair and disassembly outside the mechanism explanation.",
+          "id": "BANK-087-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a vacuum cleaner need besides strong suction to collect dust effectively?",
+          "coverage": "Compare airflow, pressure difference, nozzle, filtration and leakage in a bounded documented design; avoid reducing performance to one advertised number.",
+          "id": "BANK-087-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an induction hob heat compatible cookware while the control surface behaves differently?",
+          "coverage": "Explain field coupling, pan requirements, sensing and residual heat from official sources; exclude improvised electrical tests or claims that the surface cannot burn.",
+          "id": "BANK-087-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a toilet's flushing mechanism depend on geometry as well as stored water?",
+          "coverage": "Compare identified designs, flow paths and trap function with authorized diagrams; distinguish explanatory models from plumbing-installation advice.",
+          "id": "BANK-087-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D04",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Mobility and built infrastructure",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does an elevator balance motion, control and redundant protection systems?",
+          "coverage": "Use official engineering explanations of a named system type; separate counterweight roles from braking and exclude access to shafts or safety overrides.",
+          "id": "BANK-087-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What allows a bicycle freewheel to drive forward while permitting coasting?",
+          "coverage": "Trace documented ratchet or clutch behavior in a safe animation; distinguish freewheel function from gear shifting and avoid repair advice for damaged parts.",
+          "id": "BANK-087-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does anti-lock braking respond to wheel behavior without guaranteeing a shorter stop in every condition?",
+          "coverage": "Review manufacturer and official testing descriptions, sensors and feedback; keep driver guidance authoritative and exclude road experiments.",
+          "id": "BANK-087-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a suspension bridge carry loads while its deck still moves?",
+          "coverage": "Explain tension, compression, stiffness and documented design limits using a named bridge's public records; avoid structural conclusions from footage of motion alone.",
+          "id": "BANK-087-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D05",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Information and communications",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a QR code retain readable information after part of it is obscured?",
+          "coverage": "Explain encoding, error correction and scanner limits with an original non-sensitive code; distinguish redundancy from guaranteed readability under every damage pattern.",
+          "id": "BANK-087-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens between speaking into a microphone and hearing a voice through a digital call?",
+          "coverage": "Trace transduction, sampling, compression, transmission and playback; separate latency sources and avoid attributing every failure to network speed.",
+          "id": "BANK-087-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can satellite navigation estimate a position from timing information?",
+          "coverage": "Use official system explanations for signals, clocks and geometry; include uncertainty and distinguish receiver estimates from exact ground truth.",
+          "id": "BANK-087-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a search engine return a page quickly without rereading the whole web for each query?",
+          "coverage": "Explain crawling, indexing and retrieval at a documented conceptual level; avoid inventing proprietary ranking internals or presenting examples as current universal behavior.",
+          "id": "BANK-087-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D06",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Materials and hidden structures",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can laminated glass behave differently from an ordinary single sheet when damaged?",
+          "coverage": "Compare documented layers, fracture behavior and intended application; exclude impact tests by amateurs or claims that all laminated products are interchangeable.",
+          "id": "BANK-087-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does stainless steel still need a context when described as corrosion resistant?",
+          "coverage": "Review alloy, surface condition and exposure using primary materials references; avoid prescribing chemical treatments or promising immunity to all environments.",
+          "id": "BANK-087-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a rechargeable battery store and release energy without every chemistry working alike?",
+          "coverage": "Compare a named chemistry's documented ion movement and losses through diagrams; exclude opening cells, DIY charging or generalized performance claims.",
+          "id": "BANK-087-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What lets a textile resist water while still allowing some vapor transport?",
+          "coverage": "Compare coatings, membranes, pores and test conditions from standards or manufacturer documentation; distinguish laboratory ratings from guaranteed comfort.",
+          "id": "BANK-087-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D07",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    },
+    {
+      "title": "Failure, measurement and explanatory integrity",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a failed mechanism reveal the limits of an ideal diagram?",
+          "coverage": "Use a documented harmless case to compare friction, tolerances, wear and conditions; do not operate damaged equipment to create dramatic footage.",
+          "id": "BANK-087-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can feedback control oscillate rather than settle immediately at its target?",
+          "coverage": "Use a clearly labeled software simulation of sensor delay and response; separate conceptual behavior from a deployable controller for real machinery.",
+          "id": "BANK-087-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence is needed before claiming a device violates an ordinary physical limit?",
+          "coverage": "Define the claimed output, inputs, measurement boundaries and independent tests; avoid promoting unverified free-energy or perpetual-motion claims.",
+          "id": "BANK-087-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a cutaway animation show hidden parts without inventing a mechanism?",
+          "coverage": "Base geometry and motion on public engineering records, label simplifications and preserve uncertainty; distinguish representative illustration from the exact product design.",
+          "id": "BANK-087-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-087-D08",
+      "prerequisites": [
+        "CATALOG-087-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "064",
+      "title": "Home & Lifestyle",
+      "directory": "064_home_lifestyle",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "085",
+      "title": "DIY & Making",
+      "directory": "085_diy_making",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "086",
+      "title": "Restoration",
+      "directory": "086_restoration",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "088",
+      "title": "How It's Made",
+      "directory": "088_how_its_made",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "089",
+      "title": "Inventions & Inventors",
+      "directory": "089_inventions_inventors",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "090",
+      "title": "Why? Channel",
+      "directory": "090_why_channel",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "087",
+    "slug": "how_things_work",
+    "name": "How Things Work",
+    "primary_category": "Engineering_Inventions",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a How Things Work YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-087-01",
+        "title": "Household mechanisms",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-087-001",
+            "title": "Refrigeration and heat transfer",
+            "question": "Refrigeration and heat transfer: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Household mechanisms. Address Refrigeration and heat transfer through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Refrigeration and heat transfer.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-002",
+            "title": "Induction cooking and magnetic fields",
+            "question": "Induction cooking and magnetic fields: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Household mechanisms. Address Induction cooking and magnetic fields through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Induction cooking and magnetic fields.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-003",
+            "title": "Vacuum cleaners and pressure differences",
+            "question": "Vacuum cleaners and pressure differences: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Household mechanisms. Address Vacuum cleaners and pressure differences through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Vacuum cleaners and pressure differences.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-004",
+            "title": "Water filters and contaminant types",
+            "question": "Water filters and contaminant types: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Household mechanisms. Address Water filters and contaminant types through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Water filters and contaminant types.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-087-02",
+        "title": "Everyday infrastructure",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-087-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-087-005",
+            "title": "Elevators and counterweights",
+            "question": "Elevators and counterweights: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Everyday infrastructure. Address Elevators and counterweights through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Elevators and counterweights.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-006",
+            "title": "Traffic signals and detection",
+            "question": "Traffic signals and detection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Everyday infrastructure. Address Traffic signals and detection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Traffic signals and detection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-007",
+            "title": "Wastewater pumping stations",
+            "question": "Wastewater pumping stations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Everyday infrastructure. Address Wastewater pumping stations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Wastewater pumping stations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-008",
+            "title": "Automatic doors and sensors",
+            "question": "Automatic doors and sensors: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Everyday infrastructure. Address Automatic doors and sensors through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Automatic doors and sensors.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-087-03",
+        "title": "Hidden design tradeoffs",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-087-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-087-009",
+            "title": "Fail-safe versus fail-operational systems",
+            "question": "Fail-safe versus fail-operational systems: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Hidden design tradeoffs. Address Fail-safe versus fail-operational systems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Fail-safe versus fail-operational systems.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-010",
+            "title": "Why seals wear",
+            "question": "Why seals wear: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Hidden design tradeoffs. Address Why seals wear through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Why seals wear.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-011",
+            "title": "Energy losses in conversion",
+            "question": "Energy losses in conversion: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Hidden design tradeoffs. Address Energy losses in conversion through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Energy losses in conversion.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-087-012",
+            "title": "Maintenance access in product design",
+            "question": "Maintenance access in product design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: How Things Work; branch: Hidden design tradeoffs. Address Maintenance access in product design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Maintenance access in product design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "064",
+        "title": "Home & Lifestyle",
+        "directory": "064_home_lifestyle",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "085",
+        "title": "DIY & Making",
+        "directory": "085_diy_making",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "086",
+        "title": "Restoration",
+        "directory": "086_restoration",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "088",
+        "title": "How It's Made",
+        "directory": "088_how_its_made",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "089",
+        "title": "Inventions & Inventors",
+        "directory": "089_inventions_inventors",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "090",
+        "title": "Why? Channel",
+        "directory": "090_why_channel",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_06"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

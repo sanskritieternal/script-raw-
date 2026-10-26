@@ -1,0 +1,9 @@
+# Selected primary-source note: auctions
+
+Checked 2026-10-24. Proposed cases BANK-316-042 and BANK-316-043.
+
+FCC Auction 1000 closing public notice DA 17-314 states that the 2016-17 broadcast incentive auction included a reverse auction for broadcasters to relinquish spectrum usage rights and a forward auction for new 600 MHz licenses, with results and repacking appendices: https://docs.fcc.gov/public/attachments/da-17-314a1.pdf . The FCC public reporting system has auction result tables: https://auctiondata.fcc.gov/ . These are first-party records of rules, stages and reported payments, not proof of later service quality, consumer benefit or all bidders' private strategies. Specify which phase and which gross/net measure is being quoted. Historic auction design is not current bidding advice.
+
+Christie's first-party 9 May 2022 sale reporting records Andy Warhol's *Shot Sage Blue Marilyn* at $195,040,000 and describes the Thomas and Doris Ammann Foundation context: https://press.christies.com/warhols-marilyn-sells-for-195-millionnbsp?lang=eng . Christie's fee explainer says buyer premium is charged in addition to hammer: https://www.christies.com/en/help/auction-help-library/understanding-auction-fees . Thus identify the reported figure as a realized result and verify sale-specific conditions before deriving a hammer or seller-net amount. The auction house has a commercial stake in its presentation; its attribution/market claims require independent art-historical evidence. Do not imply that one result gives a general art-market price trend. Image and catalog reproduction rights require review.
+
+Neighbor review: BANK-042-068 already treats *Salvator Mundi* attribution/sale claims, so this case uses a different lot and focuses on price composition. 312-315 cover currency, property, tax and historical wealth, while 317 concerns grantmaking rather than auction mechanics.

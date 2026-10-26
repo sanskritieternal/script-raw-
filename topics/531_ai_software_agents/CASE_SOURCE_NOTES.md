@@ -1,0 +1,7 @@
+# Case-source note: AgentDojo 2024 agent benchmark
+
+Checked 2026-10-24. The original [AgentDojo research paper](https://arxiv.org/abs/2406.13352) and [NeurIPS 2024 publication record](https://papers.nips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html) describe an extensible test environment for tool-using agents encountering untrusted data. The authors report 97 benign tasks and 629 security test cases in that publication. Their summary distinguishes agents' failure on some ordinary tasks without attacks from failures of some security properties under prompt injection. The [research team's repository](https://github.com/ethz-spylab/agentdojo) publishes the benchmark implementation.
+
+Limits: These figures describe the 2024 paper's benchmark, not every current repository revision or deployment. The research suite is simulated and model-/configuration-dependent; an attack success measure does not prove a real account was compromised, and benign-task failure does not by itself show vulnerability. The paper abstract, conference record and repository landing page were accessible; no benchmark run or code audit was performed. This note deliberately omits attack payloads and operational misuse steps.
+
+Overlap: `BANK-531-038` is generic agent-benchmark methodology; `BANK-001-046` is the general prompt-injection trust boundary; `BANK-007-119` is a safe tutorial test. This named case examines AgentDojo's two outcome measures.

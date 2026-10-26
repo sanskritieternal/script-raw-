@@ -1,0 +1,15 @@
+﻿# Selected source check — communication
+
+Checked 2026-10-24. These records support selected premises in a 56-topic bank; they do not verify every branded method or make a conversation tactic reliable for every person.
+
+| Case | Primary source inspected | Bounded finding and limit |
+| --- | --- | --- |
+| Shannon channel model (BANK-102-048) | [Claude Shannon, A Mathematical Theory of Communication, 1948, original paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/j.1538-7305.1948.tb01338.x) | The original formalizes information, channel and noise in signal transmission. It does not by itself model why a listener interprets an utterance differently or prove that every social misunderstanding is transmission noise. |
+| Framing experiment (BANK-102-055) | [Amos Tversky and Daniel Kahneman, The Framing of Decisions and the Psychology of Choice, 1981](https://stanford.edu/class/psych205/papers/Tversky-Kahneman-1981.pdf) | Matched decision descriptions produced different choices under the study conditions. The paper does not show that wording controls all decisions or that the same magnitude applies to every audience and real-world decision. |
+| BATNA (BANK-102-059) | [Harvard Program on Negotiation, BATNA explanation](https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/?trk=public_post_comment-text) | BATNA means best alternative to a negotiated agreement. It is an option to compare with a proposed deal, not the same as a target price, a guaranteed saving or a license to pressure someone. Refresh the dated page and underlying transaction facts for production. |
+| Crisis message (BANK-102-061) | [CDC Crisis and Emergency Risk Communication manual](https://www.cdc.gov/cerc/php/cerc-manual/index.html) and [CDC public-health risk-communication principles, dated September 2026](https://www.cdc.gov/public-health-risk-communication/php/about/understanding-and-applying-risk-communication-principles.html) | CDC recommends stating knowns and unknowns, explaining risk numbers and updating information. This is agency guidance, not proof that a specific speech calmed an audience or that officials should sound certain before facts exist. |
+
+## Semantic and ethical review
+
+Existing 102 topics cover active listening, actionable feedback, bilingual inclusion, turn-taking, AI-assisted messages and permanent records. The archived apology pitch routes to verified BANK-072-025 in the relationships bank; related 073, 168, 169 and 170 scopes were reviewed. New questions use defined messages, audience tests, recorded meetings or documented exchanges. A participant's silence, interruption, body language or phrasing cannot establish honesty, personality, consent or hidden intent. Hostage and de-escalation cases require authorized public records or simulation consent, and must not become coercion scripts. The gaslighting case requires a pattern and safety context, not a phrase checklist or diagnosis. The speaking-anxiety pitch requires study-specific evidence and offers no treatment claim. Ask permission before recording private conversations or publishing transcripts.
+

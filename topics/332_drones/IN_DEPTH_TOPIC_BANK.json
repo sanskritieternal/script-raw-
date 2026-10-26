@@ -1,0 +1,1586 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "332",
+  "slug": "drones",
+  "name": "Drones",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Drones YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 12
+  },
+  "categories": [
+    {
+      "id": "CATALOG-332-R01",
+      "title": "Multirotors",
+      "level": "foundation",
+      "parent_id": "DOMAIN-332-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "628726e42d6bfaab33f95bf306f5bde01c295f5710d8010144f19fa1bbf18937",
+      "topics": [
+        {
+          "question": "How does a quadcopter steer without changing the angle of fixed wings?",
+          "coverage": "Explain differential thrust, torque and feedback conceptually; exclude hazardous modification instructions.",
+          "id": "BANK-332-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-332-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R02",
+      "title": "Navigation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-332-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c51923d7bd992fa10af2d5e36ccbbeaff982e4291529c9ebf26db0b438a0cd75",
+      "topics": [
+        {
+          "question": "Why can a drone lose reliable positioning even with visible satellites?",
+          "coverage": "Compare geometry, multipath, interference, sensors and estimation; avoid bypassing geofences or restrictions.",
+          "id": "BANK-332-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R03",
+      "title": "Mapping",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-332-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a74b3a71317b2edcfab391569e53c5e4da52b53dedd3d59907df5eddedddf9e5",
+      "topics": [
+        {
+          "question": "How do overlapping drone photographs become a terrain model?",
+          "coverage": "Trace feature matching, camera geometry, ground reference and reconstruction error; distinguish surface from bare-earth models.",
+          "id": "BANK-332-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-332-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R04",
+      "title": "Airspace integration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-332-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a502aa8fa12ffb746450178c05844edf1234b6c58347beae9b8dbde391fc6668",
+      "topics": [
+        {
+          "question": "What information must systems share before many drones can operate together?",
+          "coverage": "Compare location, intent, separation, failure procedures and authority; reserve current legal requirements for official research.",
+          "id": "BANK-332-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones?",
+          "coverage": "Examine the NASA/FAA test-site demonstration's traffic-management concept and reported gaps; separate research-flight evidence from routine permission for urban or beyond-visual-line-of-sight operations.",
+          "id": "BANK-332-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R05",
+      "title": "Inspection",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-332-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "43119f1d3caf0ea77b05ea2a0f4cc51ef5d013d88a9d86c86001c04f810d72d1",
+      "topics": [
+        {
+          "question": "What can drone imagery reveal about infrastructure and what still needs physical inspection?",
+          "coverage": "Compare visible defects, occlusion, resolution, measurement and specialist judgment without certifying a structure.",
+          "id": "BANK-332-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-332-005"
+          ]
+        },
+        {
+          "question": "How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data?",
+          "coverage": "Follow the USGS account of coordinated airspace, sensors, repeat imagery, elevation models and situational products during one eruption; avoid a flight procedure or claim that imagery alone determined rescue or hazard decisions.",
+          "id": "BANK-332-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R06",
+      "title": "Payload tradeoffs",
+      "level": "advanced",
+      "parent_id": "DOMAIN-332-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "187ced7d73fd532d08126a2b376508fb9023acc518d369bfcf2b06e840313072",
+      "topics": [
+        {
+          "question": "How does carrying an extra sensor change a drone mission's endurance and data quality?",
+          "coverage": "Compare mass, power, vibration, flight time and coverage with hypothetical parameters; exclude flight authorization claims.",
+          "id": "BANK-332-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-332-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R07",
+      "title": "Visual-inertial estimation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-332-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c03f460f7bc62a60c30b2fd2782e6ab8bad3f71be9bed4e0844d2711dc697ba6",
+      "topics": [
+        {
+          "question": "Why can combining cameras and inertial sensors help a drone estimate motion without perfect GPS?",
+          "coverage": "Trace feature tracking, acceleration, bias, scale and failure conditions conceptually.",
+          "covers_starter_ids": [
+            "BANK-332-002"
+          ],
+          "id": "BANK-332-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R08",
+      "title": "Disaster surveys",
+      "level": "advanced",
+      "parent_id": "DOMAIN-332-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7113d8c089a74904074de639c4317cb8fb49680ef3c1eaf99c82a496fd091c0e",
+      "topics": [
+        {
+          "question": "Why do drone damage maps require ground context before recovery decisions are made?",
+          "coverage": "Compare occlusion, image timing, geolocation, hidden damage, access and local reports without certifying buildings.",
+          "covers_starter_ids": [
+            "BANK-332-006"
+          ],
+          "id": "BANK-332-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R09",
+      "title": "Flight permissions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-332-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "21e4b67c9997c6b8a33db557b0d64bbf7a300cb9a452a73a3f05a4a05debf6f6",
+      "topics": [
+        {
+          "question": "Why do beyond-visual-line-of-sight missions require different coordination from a nearby recreational flight?",
+          "coverage": "Compare monitoring, communications, airspace, contingency and privacy; require current official requirements before proposing a real operation.",
+          "covers_starter_ids": [
+            "BANK-332-007",
+            "BANK-332-008",
+            "BANK-332-009"
+          ],
+          "id": "BANK-332-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-332-R10",
+      "title": "Flight privacy",
+      "level": "advanced",
+      "parent_id": "DOMAIN-332-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "087bdb7ac4d74cfbaffe3f702ca49bdee4360aaa1e3f08a71ae1265fb50feb7b",
+      "topics": [
+        {
+          "question": "How can a drone survey collect useful site information while avoiding unnecessary personal data?",
+          "coverage": "Compare task boundaries, camera angle, bystanders, identifiable details, retention, access and disclosure; actual privacy law and flight permission require separate current verification.",
+          "id": "BANK-332-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "330",
+      "title": "Robotics",
+      "directory": "330_robotics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "331",
+      "title": "Humanoid Robots",
+      "directory": "331_humanoid_robots",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "333",
+      "title": "Brain-Computer Interfaces",
+      "directory": "333_brain-computer_interfaces",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "334",
+      "title": "Virtual Worlds",
+      "directory": "334_virtual_worlds",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "335",
+      "title": "Digital Humans",
+      "directory": "335_digital_humans",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "342",
+      "title": "AI Filmmaking",
+      "directory": "342_ai_filmmaking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/332_drones/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "d9d21bce45bd5b0432f2550c4397b59102be37b791c8c379c50738115eb7836f",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-332-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e92da57522363f0010129484430603758b7af353daa5525c1adcfb8963124568"
+      },
+      "BANK-332-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5c2a71dea45967071ed6b7ba367ca3560188d36bd24c2e5ed8a27b3a0f0f64b1"
+      },
+      "BANK-332-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "497d1d86a6516d55af61b08bec6d6fa4592a9fa34394d876784d32746f160165"
+      },
+      "BANK-332-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2c4025f5e0df56080ee394d69135f3b3d40a1a1ddb447e85fa8eca42ea233848"
+      },
+      "BANK-332-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1a80a4851c7d5c304bd53531fb8c0af406699aeb1e6cc35031238bdb45da266f"
+      },
+      "BANK-332-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4dbd591cc4f29b5c1f0f4f0702acc47c083438b1c0ae9aac4e1a771380fff4eb"
+      },
+      "BANK-332-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f8e730a77ce70bd58ed61d85812715797fa6f52d35c936f4062913d45e2a6e45"
+      },
+      "BANK-332-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fa8ed01b4f28bae1fedf1daef1da2ac7f3022781e6f7c38280fca2bd3cb27f8f"
+      },
+      "BANK-332-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "609bdf8a93dc0381fcf08b83594515dea064800ea481824ba3278ba8b0826d75"
+      }
+    },
+    "source_categories": {
+      "CATALOG-332-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "a7c2fcba4dc5ee2155588bc7c657005dbd0a84ffdc804c6af35c6404f2e83315"
+      },
+      "CATALOG-332-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "9ae78efbf16b6cf8da0e619ec15a208038fb6b9dfbe727d6c2fdb7042089a1e2"
+      },
+      "CATALOG-332-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "0b329914c26712e2b3385f782bb5b2fd228a149032a36d12699cbb9f866ecc1a"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "332_DRONES_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "4b854980a328ef88a8fdd704203fca719989c1618e06ce48da73eea74cd57842",
+        "original_text": "# Drones Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 332 Drones (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Drones Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/332_drones/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Drones across four progressive tiers:\r\n- **Tier 1: Drones Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Drones.\r\n- **Tier 2: Drones Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Drones.\r\n- **Tier 3: Drones Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Drones.\r\n- **Tier 4: Drones Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Drones.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/332_drones/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/332_drones/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Drone Task Takes Flight** | *Which need and technology made one civilian use feasible?* |\r\n| 2 | `famous_examples` | **A Celebrated Drone Mission Rechecked** | *What did the aircraft accomplish versus its support crew?* |\r\n| 3 | `hidden_stories` | **The Ground Crew of a Flight** | *Who plans, checks, observes, maintains, and processes data?* |\r\n| 4 | `beginner_explainers` | **What Keeps a Drone Flying?** | *How do sensors, control, motors, battery, and pilot interact?* |\r\n| 5 | `advanced_concepts` | **Payload, Range, and Endurance** | *How does a useful payload change flight performance?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Lost Connection Investigated** | *Which public evidence explains a documented disruption?* |\r\n| 7 | `technology_innovation` | **A New Drone Sensor** | *Did it improve a defined survey or inspection outcome?* |\r\n| 8 | `people_personalities` | **A Drone Operation Decision** | *Who authorized a mission and consulted those below?* |\r\n| 9 | `major_events` | **A Regulatory or Deployment Change** | *How did one dated decision affect actual flights?* |\r\n| 10 | `how_it_works` | **From Flight Plan to Data Product** | *What happens between takeoff, sensing, processing, and delivery?* |\r\n| 11 | `rise_fall` | **A Drone Service Retired** | *Which operating, safety, or cost constraint changed viability?* |\r\n| 12 | `then_vs_now` | **One Aerial Task Across Platforms** | *Did drones improve time, quality, cost, or risk?* |\r\n| 13 | `future_developments` | **A Proposed Drone Service** | *What approvals and field evidence are needed before rollout?* |\r\n| 14 | `myths_vs_facts` | **Autonomous Flight Needs No Pilot?** | *Which supervision and airspace duties still apply?* |\r\n| 15 | `documentary_stories` | **One Authorized Drone Mission** | *What happened from briefing to delivered result?* |\r\n| 16 | `system_boundary` | **Aircraft and Ground System** | *Which functions rely on pilot, controller, network, and cloud?* |\r\n| 17 | `input_output_trace` | **A Survey Image to Map** | *Which inputs and processing create a final measurement?* |\r\n| 18 | `design_tradeoff` | **Flight Time Versus Payload** | *Which mission outcome improves or degrades with added equipment?* |\r\n| 19 | `failure_mode` | **A Flight Abort** | *What triggered one documented safe termination?* |\r\n| 20 | `testing_limits` | **A Perfect-Weather Trial** | *What weather, terrain, light, and signal conditions were excluded?* |\r\n| 21 | `standards_interoperability` | **Drone in Managed Airspace** | *Which identification and communication requirements apply?* |\r\n| 22 | `security_threat_model` | **Trust in Drone Commands and Images** | *Who can access controls or collected footage?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping an Aircraft Airworthy** | *How do batteries, propellers, sensors, and software age?* |\r\n| 24 | `infrastructure_dependencies` | **Flight Needs More Than Aircraft** | *Which airspace information, charging, positioning, and data systems matter?* |\r\n| 25 | `accessibility_usability` | **An Operator's Ground Control** | *Can intended pilots understand status and warnings?* |\r\n| 26 | `independent_replication` | **Repeating a Drone Accuracy Claim** | *Can another crew produce the same result?* |\r\n| 27 | `responsible_deployment` | **Drones Above Communities** | *Who experiences noise, surveillance, or access effects?* |\r\n| 28 | `field_training_or_control_data` | **Data Behind Automated Flight** | *Which maps or examples inform a flight feature?* |\r\n| 29 | `field_real_world_testing` | **Drone Under Operational Conditions** | *Does it perform across expected wind, light, and terrain?* |\r\n| 30 | `field_human_oversight` | **Pilot Authority During Automation** | *Can an operator understand and override decisions?* |\r\n| 31 | `field_failure_recovery` | **When a Mission Cannot Continue** | *How is a flight ended and data secured?* |\r\n| 32 | `field_hardware_dependency` | **Aircraft and Payload Limits** | *Which battery, sensor, link, and structure constrain a claim?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Drones: A Drone Task Takes Flight**\r\n   - *Question:* Which need and technology made one civilian use feasible?\r\n   - *Key Focus:* Use dated operator, regulator, and design records. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n2. **Drones: A Celebrated Drone Mission Rechecked**\r\n   - *Question:* What did the aircraft accomplish versus its support crew?\r\n   - *Key Focus:* Compare footage, logs, conditions, and ground work. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n3. **Drones: The Ground Crew of a Flight**\r\n   - *Question:* Who plans, checks, observes, maintains, and processes data?\r\n   - *Key Focus:* Credit operators and affected communities. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n4. **Drones: What Keeps a Drone Flying?**\r\n   - *Question:* How do sensors, control, motors, battery, and pilot interact?\r\n   - *Key Focus:* Trace a lawful mission at a high level. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n5. **Drones: Payload, Range, and Endurance**\r\n   - *Question:* How does a useful payload change flight performance?\r\n   - *Key Focus:* Use measured trials for a named aircraft. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Drones: A Lost Connection Investigated**\r\n   - *Question:* Which public evidence explains a documented disruption?\r\n   - *Key Focus:* Compare signal, environment, power, and flight logs. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n7. **Drones: A New Drone Sensor**\r\n   - *Question:* Did it improve a defined survey or inspection outcome?\r\n   - *Key Focus:* Compare resolution, ground truth, cost, and privacy. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n8. **Drones: A Drone Operation Decision**\r\n   - *Question:* Who authorized a mission and consulted those below?\r\n   - *Key Focus:* Trace operator, regulator, client, and local voices. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n9. **Drones: A Regulatory or Deployment Change**\r\n   - *Question:* How did one dated decision affect actual flights?\r\n   - *Key Focus:* Name jurisdiction, aircraft class, and use. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n10. **Drones: From Flight Plan to Data Product**\r\n   - *Question:* What happens between takeoff, sensing, processing, and delivery?\r\n   - *Key Focus:* Map one authorized civilian task. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Drones: A Drone Service Retired**\r\n   - *Question:* Which operating, safety, or cost constraint changed viability?\r\n   - *Key Focus:* Compare logs and alternatives. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n12. **Drones: One Aerial Task Across Platforms**\r\n   - *Question:* Did drones improve time, quality, cost, or risk?\r\n   - *Key Focus:* Match weather, area, crew, and output standard. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n13. **Drones: A Proposed Drone Service**\r\n   - *Question:* What approvals and field evidence are needed before rollout?\r\n   - *Key Focus:* Separate trial, waiver, and general availability. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n14. **Drones: Autonomous Flight Needs No Pilot?**\r\n   - *Question:* Which supervision and airspace duties still apply?\r\n   - *Key Focus:* Check current local rules and actual operation. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n15. **Drones: One Authorized Drone Mission**\r\n   - *Question:* What happened from briefing to delivered result?\r\n   - *Key Focus:* Follow consented operator and community accounts. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Drones: Aircraft and Ground System**\r\n   - *Question:* Which functions rely on pilot, controller, network, and cloud?\r\n   - *Key Focus:* Draw command and data paths. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n17. **Drones: A Survey Image to Map**\r\n   - *Question:* Which inputs and processing create a final measurement?\r\n   - *Key Focus:* Trace calibration, geolocation, validation, and uncertainty. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n18. **Drones: Flight Time Versus Payload**\r\n   - *Question:* Which mission outcome improves or degrades with added equipment?\r\n   - *Key Focus:* Compare named batteries, aircraft, and conditions. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n19. **Drones: A Flight Abort**\r\n   - *Question:* What triggered one documented safe termination?\r\n   - *Key Focus:* Use incident report and avoid operational evasion detail. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n20. **Drones: A Perfect-Weather Trial**\r\n   - *Question:* What weather, terrain, light, and signal conditions were excluded?\r\n   - *Key Focus:* State test envelope and safety margins. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 332 (Drones)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Drones: A Drone Task Takes Flight*\r\n- **Episode Slug:** `332_drones_deep_dive_the_architecture_of_drones_a_drone_task_takes_flight`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/332_drones/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "76965d6913a4c8aaa93893617606e9ea1df559c13d4e2925eb081abb8eb873b4",
+        "original_text": "# 332 Drones -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 332 Drones (Robotics_AI)  \r\n> **Storage Directory:** `topics/332_drones/`  \r\n> **Synchronized With:** `OUTPUT/332_drones/`, `REGISTRY/Niches/332_drones/`, and `332_DRONES_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 332 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/332_drones](../../OUTPUT/332_drones) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Drones: A Drone Task Takes Flight** | Tier 1: Foundational Frameworks | `history_origins` | `drones_a_drone_task_takes_flight` | A rigorous pedagogical investigation exploring a drone task takes flight through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Drones: A Celebrated Drone Mission Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `drones_a_celebrated_drone_mission_rechecked` | A rigorous pedagogical investigation exploring a celebrated drone mission rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Drones: The Ground Crew of a Flight** | Tier 1: Foundational Frameworks | `hidden_stories` | `drones_the_ground_crew_of_a_flight` | A rigorous pedagogical investigation exploring the ground crew of a flight through documented evidence. | `QUEUED` |\r\n| 4 | **Drones: What Keeps a Drone Flying?** | Tier 1: Foundational Frameworks | `beginner_explainers` | `drones_what_keeps_a_drone_flying` | A rigorous pedagogical investigation exploring what keeps a drone flying? through documented evidence. | `QUEUED` |\r\n| 5 | **Drones: Payload, Range, and Endurance** | Tier 1: Foundational Frameworks | `advanced_concepts` | `drones_payload_range_and_endurance` | A rigorous pedagogical investigation exploring payload, range, and endurance through documented evidence. | `QUEUED` |\r\n| 6 | **Drones: A Lost Connection Investigated** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `drones_a_lost_connection_investigated` | A rigorous pedagogical investigation exploring a lost connection investigated through documented evidence. | `QUEUED` |\r\n| 7 | **Drones: A New Drone Sensor** | Tier 2: Methodological Deep Dives | `technology_innovation` | `drones_a_new_drone_sensor` | A rigorous pedagogical investigation exploring a new drone sensor through documented evidence. | `QUEUED` |\r\n| 8 | **Drones: A Drone Operation Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `drones_a_drone_operation_decision` | A rigorous pedagogical investigation exploring a drone operation decision through documented evidence. | `QUEUED` |\r\n| 9 | **Drones: A Regulatory or Deployment Change** | Tier 2: Methodological Deep Dives | `major_events` | `drones_a_regulatory_or_deployment_change` | A rigorous pedagogical investigation exploring a regulatory or deployment change through documented evidence. | `QUEUED` |\r\n| 10 | **Drones: From Flight Plan to Data Product** | Tier 2: Methodological Deep Dives | `how_it_works` | `drones_from_flight_plan_to_data_product` | A rigorous pedagogical investigation exploring from flight plan to data product through documented evidence. | `QUEUED` |\r\n| 11 | **Drones: A Drone Service Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `drones_a_drone_service_retired` | A rigorous pedagogical investigation exploring a drone service retired through documented evidence. | `QUEUED` |\r\n| 12 | **Drones: One Aerial Task Across Platforms** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `drones_one_aerial_task_across_platforms` | A rigorous pedagogical investigation exploring one aerial task across platforms through documented evidence. | `QUEUED` |\r\n| 13 | **Drones: A Proposed Drone Service** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `drones_a_proposed_drone_service` | A rigorous pedagogical investigation exploring a proposed drone service through documented evidence. | `QUEUED` |\r\n| 14 | **Drones: Autonomous Flight Needs No Pilot?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `drones_autonomous_flight_needs_no_pilot` | A rigorous pedagogical investigation exploring autonomous flight needs no pilot? through documented evidence. | `QUEUED` |\r\n| 15 | **Drones: One Authorized Drone Mission** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `drones_one_authorized_drone_mission` | A rigorous pedagogical investigation exploring one authorized drone mission through documented evidence. | `QUEUED` |\r\n| 16 | **Drones: Aircraft and Ground System** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `drones_aircraft_and_ground_system` | A rigorous pedagogical investigation exploring aircraft and ground system through documented evidence. | `QUEUED` |\r\n| 17 | **Drones: A Survey Image to Map** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `drones_a_survey_image_to_map` | A rigorous pedagogical investigation exploring a survey image to map through documented evidence. | `QUEUED` |\r\n| 18 | **Drones: Flight Time Versus Payload** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `drones_flight_time_versus_payload` | A rigorous pedagogical investigation exploring flight time versus payload through documented evidence. | `QUEUED` |\r\n| 19 | **Drones: A Flight Abort** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `drones_a_flight_abort` | A rigorous pedagogical investigation exploring a flight abort through documented evidence. | `QUEUED` |\r\n| 20 | **Drones: A Perfect-Weather Trial** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `drones_a_perfect_weather_trial` | A rigorous pedagogical investigation exploring a perfect-weather trial through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Drones: Record Extremes & Superlatives** | **98** | `extreme_case` | `drones_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Drones: A Lost Connection Investigated** | **96** | `mysteries_unsolved_cases` | `drones_mysteries_unsolved_cases` | High viral search interest exploring which public evidence explains a documented disruption backed by field records. | `Queued` |\r\n| 23 | **Drones: A New Drone Sensor** | **95** | `technology_innovation` | `drones_technology_innovation` | High viral search interest exploring did it improve a defined survey or inspection outcome backed by field records. | `Queued` |\r\n| 24 | **Drones: Autonomous Flight Needs No Pilot?** | **94** | `myths_vs_facts` | `drones_myths_vs_facts` | High viral search interest exploring which supervision and airspace duties still apply backed by field records. | `Queued` |\r\n| 25 | **Drones: A Regulatory or Deployment Change** | **93** | `major_events` | `drones_major_events` | High viral search interest exploring how did one dated decision affect actual flights backed by field records. | `Queued` |\r\n| 26 | **Drones: The Ground Crew of a Flight** | **92** | `hidden_stories` | `drones_hidden_stories` | High viral search interest exploring who plans, checks, observes, maintains, and processes data backed by field records. | `Queued` |\r\n| 27 | **Drones: One Authorized Drone Mission** | **91** | `documentary_stories` | `drones_documentary_stories` | High viral search interest exploring what happened from briefing to delivered result backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/332_drones/332_DRONES_CHANNEL_TOPIC_ROADMAP.md`](./332_DRONES_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/332_drones/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/332_drones/NICHE_332_drones.md`](file:///h:/script-raw-/REGISTRY/Niches/332_drones/NICHE_332_drones.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/332_drones/CAT_332_drones.md`](file:///h:/script-raw-/REGISTRY/Niches/332_drones/CAT_332_drones.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/332_drones/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/332_drones/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/332_drones/`](file:///h:/script-raw-/OUTPUT/332_drones/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "944418d7a7f2ec944e0c56f346a86e499711effb9dcb4a28db85e59e22c77ab1",
+        "original_text": "{\r\n  \"niche_id\": \"332\",\r\n  \"niche_name\": \"drones\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Drones: A Drone Task Takes Flight\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"drones_a_drone_task_takes_flight\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a drone task takes flight through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Drones: A Celebrated Drone Mission Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"drones_a_celebrated_drone_mission_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a celebrated drone mission rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Drones: The Ground Crew of a Flight\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"drones_the_ground_crew_of_a_flight\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the ground crew of a flight through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Drones: What Keeps a Drone Flying?\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"drones_what_keeps_a_drone_flying\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what keeps a drone flying? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Drones: Payload, Range, and Endurance\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"drones_payload_range_and_endurance\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring payload, range, and endurance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Drones: A Lost Connection Investigated\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"drones_a_lost_connection_investigated\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a lost connection investigated through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Drones: A New Drone Sensor\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"drones_a_new_drone_sensor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new drone sensor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Drones: A Drone Operation Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"drones_a_drone_operation_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a drone operation decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Drones: A Regulatory or Deployment Change\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"drones_a_regulatory_or_deployment_change\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a regulatory or deployment change through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Drones: From Flight Plan to Data Product\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"drones_from_flight_plan_to_data_product\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from flight plan to data product through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Drones: A Drone Service Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"drones_a_drone_service_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a drone service retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Drones: One Aerial Task Across Platforms\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"drones_one_aerial_task_across_platforms\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one aerial task across platforms through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Drones: A Proposed Drone Service\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"drones_a_proposed_drone_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed drone service through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Drones: Autonomous Flight Needs No Pilot?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"drones_autonomous_flight_needs_no_pilot\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring autonomous flight needs no pilot? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Drones: One Authorized Drone Mission\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"drones_one_authorized_drone_mission\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one authorized drone mission through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Drones: Aircraft and Ground System\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"drones_aircraft_and_ground_system\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring aircraft and ground system through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Drones: A Survey Image to Map\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"drones_a_survey_image_to_map\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a survey image to map through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Drones: Flight Time Versus Payload\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"drones_flight_time_versus_payload\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring flight time versus payload through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Drones: A Flight Abort\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"drones_a_flight_abort\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a flight abort through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Drones: A Perfect-Weather Trial\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"drones_a_perfect_weather_trial\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a perfect-weather trial through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Drones: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"drones_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Drones: A Lost Connection Investigated\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"drones_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which public evidence explains a documented disruption backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Drones: A New Drone Sensor\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"drones_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it improve a defined survey or inspection outcome backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Drones: Autonomous Flight Needs No Pilot?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"drones_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which supervision and airspace duties still apply backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Drones: A Regulatory or Deployment Change\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"drones_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring how did one dated decision affect actual flights backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Drones: The Ground Crew of a Flight\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"drones_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who plans, checks, observes, maintains, and processes data backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Drones: One Authorized Drone Mission\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"drones_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring what happened from briefing to delivered result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "332",
+      "niche_name": "drones",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Drones: A Drone Task Takes Flight",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "drones_a_drone_task_takes_flight",
+          "reason": "A rigorous pedagogical investigation exploring a drone task takes flight through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Drones: A Celebrated Drone Mission Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "drones_a_celebrated_drone_mission_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a celebrated drone mission rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Drones: The Ground Crew of a Flight",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "drones_the_ground_crew_of_a_flight",
+          "reason": "A rigorous pedagogical investigation exploring the ground crew of a flight through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Drones: What Keeps a Drone Flying?",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "drones_what_keeps_a_drone_flying",
+          "reason": "A rigorous pedagogical investigation exploring what keeps a drone flying? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Drones: Payload, Range, and Endurance",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "drones_payload_range_and_endurance",
+          "reason": "A rigorous pedagogical investigation exploring payload, range, and endurance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Drones: A Lost Connection Investigated",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "drones_a_lost_connection_investigated",
+          "reason": "A rigorous pedagogical investigation exploring a lost connection investigated through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Drones: A New Drone Sensor",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "drones_a_new_drone_sensor",
+          "reason": "A rigorous pedagogical investigation exploring a new drone sensor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Drones: A Drone Operation Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "drones_a_drone_operation_decision",
+          "reason": "A rigorous pedagogical investigation exploring a drone operation decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Drones: A Regulatory or Deployment Change",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "drones_a_regulatory_or_deployment_change",
+          "reason": "A rigorous pedagogical investigation exploring a regulatory or deployment change through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Drones: From Flight Plan to Data Product",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "drones_from_flight_plan_to_data_product",
+          "reason": "A rigorous pedagogical investigation exploring from flight plan to data product through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Drones: A Drone Service Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "drones_a_drone_service_retired",
+          "reason": "A rigorous pedagogical investigation exploring a drone service retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Drones: One Aerial Task Across Platforms",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "drones_one_aerial_task_across_platforms",
+          "reason": "A rigorous pedagogical investigation exploring one aerial task across platforms through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Drones: A Proposed Drone Service",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "drones_a_proposed_drone_service",
+          "reason": "A rigorous pedagogical investigation exploring a proposed drone service through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Drones: Autonomous Flight Needs No Pilot?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "drones_autonomous_flight_needs_no_pilot",
+          "reason": "A rigorous pedagogical investigation exploring autonomous flight needs no pilot? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Drones: One Authorized Drone Mission",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "drones_one_authorized_drone_mission",
+          "reason": "A rigorous pedagogical investigation exploring one authorized drone mission through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Drones: Aircraft and Ground System",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "drones_aircraft_and_ground_system",
+          "reason": "A rigorous pedagogical investigation exploring aircraft and ground system through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Drones: A Survey Image to Map",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "drones_a_survey_image_to_map",
+          "reason": "A rigorous pedagogical investigation exploring a survey image to map through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Drones: Flight Time Versus Payload",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "drones_flight_time_versus_payload",
+          "reason": "A rigorous pedagogical investigation exploring flight time versus payload through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Drones: A Flight Abort",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "drones_a_flight_abort",
+          "reason": "A rigorous pedagogical investigation exploring a flight abort through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Drones: A Perfect-Weather Trial",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "drones_a_perfect_weather_trial",
+          "reason": "A rigorous pedagogical investigation exploring a perfect-weather trial through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Drones: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "drones_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Drones: A Lost Connection Investigated",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "drones_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which public evidence explains a documented disruption backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Drones: A New Drone Sensor",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "drones_technology_innovation",
+          "why_trending": "High viral search interest exploring did it improve a defined survey or inspection outcome backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Drones: Autonomous Flight Needs No Pilot?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "drones_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which supervision and airspace duties still apply backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Drones: A Regulatory or Deployment Change",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "drones_major_events",
+          "why_trending": "High viral search interest exploring how did one dated decision affect actual flights backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Drones: The Ground Crew of a Flight",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "drones_hidden_stories",
+          "why_trending": "High viral search interest exploring who plans, checks, observes, maintains, and processes data backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Drones: One Authorized Drone Mission",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "drones_documentary_stories",
+          "why_trending": "High viral search interest exploring what happened from briefing to delivered result backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "6f57f3c6c31e46f1419990ce96be80bd899ce864d37f6a1ecf7781c0f223bde1"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "d4966584cab25a7f692217f054812e983ed0711d7a9a67121392dbdc95377f39"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "5329ea91cb27107764466bb14a802fe84fa2ea32d2beb4dd3d0c1f38945af4b3"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "7af76dcfab9bbd0cd36ed3ee6107ed780f87be3cc3783b9de589491e1e09ed69"
+    },
+    {
+      "input": "Scripts\\editorial_pass_185_367.json",
+      "sha256": "789e70daf65954414970139b3278becdc8fecc87e81212fb60dfcbc34e7623fc"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-332-01",
+      "title": "Flight",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-332-02",
+      "title": "Sensing",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-332-03",
+      "title": "Applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-332-04",
+      "title": "Governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-332-05",
+      "title": "Operations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-332-06",
+      "title": "Navigation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "332",
+    "slug": "drones",
+    "name": "Drones",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Drones YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-332-01",
+        "title": "Flight systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-332-001",
+            "title": "Multirotor control",
+            "question": "Multirotor control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Flight systems. Address Multirotor control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Multirotor control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-002",
+            "title": "Visual-inertial navigation",
+            "question": "Visual-inertial navigation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Flight systems. Address Visual-inertial navigation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Visual-inertial navigation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-003",
+            "title": "Payload endurance tradeoffs",
+            "question": "Payload endurance tradeoffs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Flight systems. Address Payload endurance tradeoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Payload endurance tradeoffs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-332-02",
+        "title": "Uses",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-332-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-332-004",
+            "title": "Crop mapping",
+            "question": "Crop mapping: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Uses. Address Crop mapping through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Crop mapping.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-005",
+            "title": "Infrastructure inspection",
+            "question": "Infrastructure inspection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Uses. Address Infrastructure inspection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Infrastructure inspection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-006",
+            "title": "Disaster damage surveys",
+            "question": "Disaster damage surveys: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Drones; branch: Uses. Address Disaster damage surveys through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Disaster damage surveys.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-332-03",
+        "title": "Governance",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-332-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-332-007",
+            "title": "Airspace permissions",
+            "question": "Airspace permissions: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Drones; branch: Governance. Address Airspace permissions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Airspace permissions.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-008",
+            "title": "Flight privacy",
+            "question": "Flight privacy: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Drones; branch: Governance. Address Flight privacy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Flight privacy.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-332-009",
+            "title": "Beyond-visual-line-of-sight requirements",
+            "question": "Beyond-visual-line-of-sight requirements: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Drones; branch: Governance. Address Beyond-visual-line-of-sight requirements through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Beyond-visual-line-of-sight requirements.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "330",
+        "title": "Robotics",
+        "directory": "330_robotics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "331",
+        "title": "Humanoid Robots",
+        "directory": "331_humanoid_robots",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "333",
+        "title": "Brain-Computer Interfaces",
+        "directory": "333_brain-computer_interfaces",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "334",
+        "title": "Virtual Worlds",
+        "directory": "334_virtual_worlds",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "335",
+        "title": "Digital Humans",
+        "directory": "335_digital_humans",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "342",
+        "title": "AI Filmmaking",
+        "directory": "342_ai_filmmaking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Drones: A Drone Task Takes Flight",
+      "question": "Which need and technology made one civilian use feasible?",
+      "coverage": "Use dated operator, regulator, and design records. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Celebrated Drone Mission Rechecked",
+      "question": "What did the aircraft accomplish versus its support crew?",
+      "coverage": "Compare footage, logs, conditions, and ground work. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: The Ground Crew of a Flight",
+      "question": "Who plans, checks, observes, maintains, and processes data?",
+      "coverage": "Credit operators and affected communities. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: What Keeps a Drone Flying?",
+      "question": "How do sensors, control, motors, battery, and pilot interact?",
+      "coverage": "Trace a lawful mission at a high level. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: Payload, Range, and Endurance",
+      "question": "How does a useful payload change flight performance?",
+      "coverage": "Use measured trials for a named aircraft. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Lost Connection Investigated",
+      "question": "Which public evidence explains a documented disruption?",
+      "coverage": "Compare signal, environment, power, and flight logs. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A New Drone Sensor",
+      "question": "Did it improve a defined survey or inspection outcome?",
+      "coverage": "Compare resolution, ground truth, cost, and privacy. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Drone Operation Decision",
+      "question": "Who authorized a mission and consulted those below?",
+      "coverage": "Trace operator, regulator, client, and local voices. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Regulatory or Deployment Change",
+      "question": "How did one dated decision affect actual flights?",
+      "coverage": "Name jurisdiction, aircraft class, and use. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: From Flight Plan to Data Product",
+      "question": "What happens between takeoff, sensing, processing, and delivery?",
+      "coverage": "Map one authorized civilian task. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Drone Service Retired",
+      "question": "Which operating, safety, or cost constraint changed viability?",
+      "coverage": "Compare logs and alternatives. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: One Aerial Task Across Platforms",
+      "question": "Did drones improve time, quality, cost, or risk?",
+      "coverage": "Match weather, area, crew, and output standard. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Proposed Drone Service",
+      "question": "What approvals and field evidence are needed before rollout?",
+      "coverage": "Separate trial, waiver, and general availability. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: Autonomous Flight Needs No Pilot?",
+      "question": "Which supervision and airspace duties still apply?",
+      "coverage": "Check current local rules and actual operation. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: One Authorized Drone Mission",
+      "question": "What happened from briefing to delivered result?",
+      "coverage": "Follow consented operator and community accounts. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: Aircraft and Ground System",
+      "question": "Which functions rely on pilot, controller, network, and cloud?",
+      "coverage": "Draw command and data paths. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Survey Image to Map",
+      "question": "Which inputs and processing create a final measurement?",
+      "coverage": "Trace calibration, geolocation, validation, and uncertainty. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: Flight Time Versus Payload",
+      "question": "Which mission outcome improves or degrades with added equipment?",
+      "coverage": "Compare named batteries, aircraft, and conditions. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Flight Abort",
+      "question": "What triggered one documented safe termination?",
+      "coverage": "Use incident report and avoid operational evasion detail. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Drones: A Perfect-Weather Trial",
+      "question": "What weather, terrain, light, and signal conditions were excluded?",
+      "coverage": "State test envelope and safety margins. Evidence base: current aviation authority guidance, aircraft specifications, authorized flight records, field measurements, and consented local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-332-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "d9b366612b911d4b1c6a82263897f6189830480c925b3554a8338f9ceaa95a57",
+    "TOPIC_BANK_RECONCILIATION.md": "06248706fa7c3934aee04371af02b413c23680ff6d403c164ffa257d1ce66d85",
+    "TOPICS_COVERED_REPORT.md": "586ed645699a14e46442ffb44893775f8889fb7483350223d257a885f222884f",
+    "332_DRONES_CHANNEL_TOPIC_ROADMAP.md": "e6f93b8a806f3ffa05e9ac938a1f5cc9ff209542538def0411c25883b3272a6e"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-332-001": [
+      "BANK-332-030"
+    ],
+    "BANK-332-004": [
+      "BANK-332-032"
+    ],
+    "BANK-332-005": [
+      "BANK-332-034"
+    ],
+    "BANK-332-003": [
+      "BANK-332-035"
+    ],
+    "BANK-332-002": [
+      "BANK-332-036"
+    ],
+    "BANK-332-006": [
+      "BANK-332-037"
+    ],
+    "BANK-332-007": [
+      "BANK-332-038"
+    ],
+    "BANK-332-008": [
+      "BANK-332-039"
+    ],
+    "BANK-332-009": [
+      "BANK-332-038"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 1 (The Architecture of Drones: A Drone Task Takes Flight) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 2 (Drones: A Celebrated Drone Mission Rechecked) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 3 (Drones: The Ground Crew of a Flight) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-030"
+      ],
+      "reason": "Existing question covers archived pitch 4 (Drones: What Keeps a Drone Flying?) through: How does a quadcopter steer without changing the angle of fixed wings? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-035"
+      ],
+      "reason": "Existing question covers archived pitch 5 (Drones: Payload, Range, and Endurance) through: How does carrying an extra sensor change a drone mission's endurance and data quality? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-031"
+      ],
+      "reason": "Existing question covers archived pitch 6 (Drones: A Lost Connection Investigated) through: Why can a drone lose reliable positioning even with visible satellites? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-035"
+      ],
+      "reason": "Existing question covers archived pitch 7 (Drones: A New Drone Sensor) through: How does carrying an extra sensor change a drone mission's endurance and data quality? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 8 (Drones: A Drone Operation Decision) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 9 (Drones: A Regulatory or Deployment Change) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 10 (Drones: From Flight Plan to Data Product) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-038"
+      ],
+      "reason": "Existing question covers archived pitch 11 (Drones: A Drone Service Retired) through: Why do beyond-visual-line-of-sight missions require different coordination from a nearby recreational flight? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-035"
+      ],
+      "reason": "Existing question covers archived pitch 12 (Drones: One Aerial Task Across Platforms) through: How does carrying an extra sensor change a drone mission's endurance and data quality? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 13 (Drones: A Proposed Drone Service) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 14 (Drones: Autonomous Flight Needs No Pilot?) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 15 (Drones: One Authorized Drone Mission) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 16 (Drones: Aircraft and Ground System) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-032"
+      ],
+      "reason": "Existing question covers archived pitch 17 (Drones: A Survey Image to Map) through: How do overlapping drone photographs become a terrain model? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-035"
+      ],
+      "reason": "Existing question covers archived pitch 18 (Drones: Flight Time Versus Payload) through: How does carrying an extra sensor change a drone mission's endurance and data quality? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-038"
+      ],
+      "reason": "Existing question covers archived pitch 19 (Drones: A Flight Abort) through: Why do beyond-visual-line-of-sight missions require different coordination from a nearby recreational flight? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 20 (Drones: A Perfect-Weather Trial) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 21 (Drones: Record Extremes & Superlatives) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-031"
+      ],
+      "reason": "Existing question covers archived pitch 22 (Drones: A Lost Connection Investigated) through: Why can a drone lose reliable positioning even with visible satellites? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-332-035"
+      ],
+      "reason": "Existing question covers archived pitch 23 (Drones: A New Drone Sensor) through: How does carrying an extra sensor change a drone mission's endurance and data quality? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 24 (Drones: Autonomous Flight Needs No Pilot?) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 25 (Drones: A Regulatory or Deployment Change) through: What did NASA's 2019 UTM Technical Capability Level 4 flight demonstration test about coordinating multiple drones? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 26 (Drones: The Ground Crew of a Flight) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-332-040"
+      ],
+      "reason": "Named sourced case covers archived pitch 27 (Drones: One Authorized Drone Mission) through: How did USGS drone surveys turn Kīlauea's 2018 eruption imagery into scientific and response data? The original archive wording remains in topics_status.json and does not establish a superlative, safety finding or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-332-040",
+      "note_file": "332_DRONES_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-332-041",
+      "note_file": "332_DRONES_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-332-040",
+      "related_id": "BANK-332-034",
+      "boundary": "Named 2018 eruption data products versus generic infrastructure imagery."
+    },
+    {
+      "topic_id": "BANK-332-040",
+      "related_id": "BANK-152-011",
+      "boundary": "Drone sensing and data products versus eruption behavior and tourist hazard framing."
+    },
+    {
+      "topic_id": "BANK-332-041",
+      "related_id": "BANK-332-033",
+      "boundary": "Named NASA multi-operator demonstration versus general information-sharing requirements."
+    },
+    {
+      "topic_id": "BANK-332-041",
+      "related_id": "BANK-330-033",
+      "boundary": "Airspace coordination trial versus robot demonstration reliability generally."
+    }
+  ]
+}

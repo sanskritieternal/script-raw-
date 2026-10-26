@@ -1,0 +1,2240 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "061",
+  "slug": "software_programming",
+  "name": "Software & Programming",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-24",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "Individually authored episode questions and coverage boundaries for Software & Programming. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 63
+  },
+  "categories": [
+    {
+      "title": "Programs, data and execution",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What changes between writing source code and running a program?",
+          "coverage": "Trace a small compiled example and an interpreted example through parsing, execution and errors; use versioned language documentation rather than claiming every runtime follows one pipeline.",
+          "id": "BANK-061-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can two variables appear to contain the same object?",
+          "coverage": "Use an explicit mutable-list example to distinguish identity, equality, references and copying; show the before-and-after state without generalizing one language's rules.",
+          "id": "BANK-061-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do types constrain the values a program can represent?",
+          "coverage": "Compare a price, an optional username and a date in a named language; separate compile-time checks, runtime validation and business meaning.",
+          "id": "BANK-061-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does floating-point arithmetic change a seemingly simple calculation?",
+          "coverage": "Investigate binary representation, rounding and comparison using documented numeric behavior; contrast decimal money representations without prescribing a universal numeric type.",
+          "id": "BANK-061-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a nullable reference break a program even when every value has a declared type?",
+          "coverage": "Trace one null dereference through API contract, static checks and runtime behavior; do not infer a global monetary cost from an anecdotal estimate.",
+          "id": "BANK-061-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "How do stack frames and dynamic allocation affect object lifetime in a specific program?",
+          "coverage": "Trace one compiled example with toolchain and platform named; avoid claiming every language or object uses a universal stack-versus-heap rule.",
+          "id": "BANK-061-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "Which transformations can a compiler make without changing a program?s observable behavior?",
+          "coverage": "Use a named language, compiler release and optimization level to inspect generated code; distinguish permitted transformations from benchmark folklore.",
+          "id": "BANK-061-068",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D01",
+      "prerequisites": [],
+      "parent_id": "DOMAIN-061-G01",
+      "reading_subcategory": "Programs, data and execution"
+    },
+    {
+      "title": "Decomposition and interfaces",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can a long script be divided into functions with testable responsibilities?",
+          "coverage": "Refactor an original file-import example around parsing, validation and output; discuss explicit inputs and side effects instead of equating short functions with good design.",
+          "id": "BANK-061-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes an interface stable while its implementation changes?",
+          "coverage": "Compare two implementations behind a documented contract; inspect preconditions, returned errors and observable behavior rather than only matching method names.",
+          "id": "BANK-061-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does object composition clarify a design better than inheritance?",
+          "coverage": "Use a bounded notification example with replaceable delivery components; examine substitutability and dependencies without declaring one paradigm universally superior.",
+          "id": "BANK-061-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a command-line tool communicate failure to another program?",
+          "coverage": "Separate exit status, standard output, standard error and structured messages in a harmless local example; consult the target platform's conventions.",
+          "id": "BANK-061-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should a service boundary become an in-process module instead?",
+          "coverage": "Compare one system?s latency, deployment, failure and ownership costs at a named scale; do not infer a universal move from microservices to monoliths.",
+          "id": "BANK-061-067",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "What did Prime Video?s video-quality monitoring team actually change in its architecture?",
+          "coverage": "Trace the team?s published 2023 design, bottleneck and reported cost result for that service; do not generalize it to all of Prime Video or all microservices.",
+          "id": "BANK-061-074",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D02",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G01",
+      "reading_subcategory": "Decomposition and interfaces"
+    },
+    {
+      "title": "Algorithms and data structures",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can choosing a hash table change a lookup-heavy program?",
+          "coverage": "Compare arrays, sorted collections and hashing on an explicit workload; include memory use, key equality and worst-case assumptions rather than only average timing.",
+          "id": "BANK-061-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do stacks and queues solve different ordering problems?",
+          "coverage": "Model undo history and a work queue with original examples; trace operations and boundaries before discussing concurrency or production infrastructure.",
+          "id": "BANK-061-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a complexity estimate reveal that a single benchmark cannot?",
+          "coverage": "Compare input growth, operation counts and measured runtime for two search methods; identify constant factors and implementation effects separately.",
+          "id": "BANK-061-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a graph model dependencies in a build system?",
+          "coverage": "Represent files and prerequisites, trace topological ordering and detect a cycle; exclude unsupported claims about a particular build tool's internals.",
+          "id": "BANK-061-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should a program stream data rather than load everything into memory?",
+          "coverage": "Use a generated log file to compare memory, latency and error recovery; state file size and buffering assumptions before extending to network streams.",
+          "id": "BANK-061-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-061-D03",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G01",
+      "reading_subcategory": "Algorithms and data structures"
+    },
+    {
+      "title": "State, concurrency and asynchronous work",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why does asynchronous execution not necessarily mean parallel computation?",
+          "coverage": "Contrast waiting for independent I/O with CPU-bound work using runtime diagrams and controlled examples; verify the chosen language's scheduling model.",
+          "id": "BANK-061-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can two correct-looking updates produce a lost database change?",
+          "coverage": "Trace an interleaving against an invented counter and compare transactions or version checks; keep the demonstration on a local test database.",
+          "id": "BANK-061-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does idempotency change when a request is retried?",
+          "coverage": "Follow a simulated order submission with duplicate delivery and an idempotency key; separate transport retries from a guarantee of exactly-once processing.",
+          "id": "BANK-061-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can cancellation fail to stop an entire asynchronous operation?",
+          "coverage": "Inspect propagation, resource cleanup and partial effects in one runtime; distinguish a request to cancel from proof that every external side effect was reversed.",
+          "id": "BANK-061-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does the CAP result actually say about a distributed service during a network partition?",
+          "coverage": "Walk one partitioned replica example with consistency and availability definitions; avoid treating the result as a three-way product score.",
+          "id": "BANK-061-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "How can a race condition differ from a deadlock in the same concurrent program?",
+          "coverage": "Build two minimal traces and show the scheduling and locking assumptions; distinguish incorrect interleaving from lack of progress.",
+          "id": "BANK-061-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "How did Python?s GIL behavior change across specific CPython releases?",
+          "coverage": "Compare documented thread execution and the optional free-threaded build in a named CPython release; distinguish interpreter behavior from all Python implementations.",
+          "id": "BANK-061-073",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D04",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G02",
+      "reading_subcategory": "State, concurrency and asynchronous work"
+    },
+    {
+      "title": "Web services and data storage",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a browser action become a server request and a database query?",
+          "coverage": "Trace an original read-only web example across DNS, HTTP, routing and storage; keep protocol roles distinct and record actual product versions.",
+          "id": "BANK-061-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What belongs in a relational schema rather than application-only validation?",
+          "coverage": "Model customers and orders with keys, constraints and nullability; compare rejected records and migration costs without asserting that constraints replace all validation.",
+          "id": "BANK-061-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does a database index improve reads but complicate writes?",
+          "coverage": "Inspect query plans, selectivity and write overhead on a reproducible sample; avoid universal tuning recipes based on one table.",
+          "id": "BANK-061-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an API evolve without silently breaking older clients?",
+          "coverage": "Compare additive fields, removed fields, pagination and error shapes against a declared contract; include compatibility tests and deprecation evidence.",
+          "id": "BANK-061-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a cache return data that is fast but no longer appropriate?",
+          "coverage": "Follow invalidation, expiration and read-after-write expectations in one bounded application; distinguish stale content tolerances from correctness requirements.",
+          "id": "BANK-061-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-061-D05",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G02",
+      "reading_subcategory": "Web services and data storage"
+    },
+    {
+      "title": "Testing, debugging and observability",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can a minimal reproducible example turn an intermittent bug into a clear question?",
+          "coverage": "Reduce an original failure while preserving triggering inputs and environment; document what was removed and avoid exposing real user data.",
+          "id": "BANK-061-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a unit test prove beyond repeating the implementation?",
+          "coverage": "Compare boundary behavior, an independent oracle and a misleading test that mirrors the code; use observable requirements rather than implementation trivia.",
+          "id": "BANK-061-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When can integration tests catch failures that mocks conceal?",
+          "coverage": "Use an isolated service-and-database example with a schema mismatch; discuss test data, cleanup and reliability without requiring production access.",
+          "id": "BANK-061-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do logs, metrics and traces answer different debugging questions?",
+          "coverage": "Follow one failed request across timestamped events, aggregate error rates and spans; include correlation and redaction rather than logging all payloads.",
+          "id": "BANK-061-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a benchmark become faster while the user experience gets worse?",
+          "coverage": "Contrast a microbenchmark with end-to-end latency, warm-up, tail behavior and workload mix; label synthetic measurements and their limitations.",
+          "id": "BANK-061-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can formal verification prove about a specified program, and what remains outside the proof?",
+          "coverage": "Examine one verified component, assumptions and property statement; reject claims that mathematics makes all crashes impossible.",
+          "id": "BANK-061-071",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D06",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G02",
+      "reading_subcategory": "Testing, debugging and observability"
+    },
+    {
+      "title": "Security and dependency hygiene",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a developer review permissions before adding a dependency?",
+          "coverage": "Inspect official package metadata, requested privileges, maintenance history and a pinned version in a disposable environment; avoid treating popularity as proof of safety.",
+          "id": "BANK-061-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What distinguishes validating input from encoding output safely?",
+          "coverage": "Compare a constrained form field with rendering untrusted text using a defensive local example; consult framework guidance and omit exploit deployment instructions.",
+          "id": "BANK-061-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why should application secrets stay outside source control and logs?",
+          "coverage": "Map configuration, deployment and rotation using placeholder credentials; include accidental exposure response from official guidance without accessing actual secrets.",
+          "id": "BANK-061-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a software bill of materials reveal and leave unresolved?",
+          "coverage": "Examine dependency identity, versions, transitive components and known-vulnerability matching; distinguish inventory from a completed security audit.",
+          "id": "BANK-061-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Heartbleed expose a missing length check in affected OpenSSL releases?",
+          "coverage": "Trace CVE-2014-0160, heartbeat request handling, affected versions and the 1.0.1g fix using OpenSSL?s advisory; distinguish possible exposure from proven theft.",
+          "id": "BANK-061-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "Which memory errors does safe Rust prevent, and which risks remain?",
+          "coverage": "Use a named stable Rust edition and documented unsafe boundary; compare compiler-checked ownership with logic, concurrency and dependency risks.",
+          "id": "BANK-061-069",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "What did the 2024 US software-security report recommend about memory-safe languages?",
+          "coverage": "Read the Office of the National Cyber Director report in context, including exceptions and complementary methods; distinguish a recommendation from a legal ban on C or C++.",
+          "id": "BANK-061-075",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D07",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G03",
+      "reading_subcategory": "Security and dependency hygiene"
+    },
+    {
+      "title": "Delivery and maintenance",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can a database migration be made reviewable before release?",
+          "coverage": "Compare expand-and-contract changes, backups, compatibility and rollback limits on a local schema; require a tested recovery plan rather than promising reversible migrations.",
+          "id": "BANK-061-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a continuous-integration pipeline need to reproduce a build?",
+          "coverage": "Inspect dependency locks, toolchain versions, test fixtures and artifacts; distinguish a passing pipeline from evidence of runtime correctness.",
+          "id": "BANK-061-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a feature flag outlive the experiment it was created for?",
+          "coverage": "Trace ownership, default behavior, exposure rules and removal in an invented rollout; include technical debt and auditability without naming real users.",
+          "id": "BANK-061-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a team investigate a regression introduced several commits ago?",
+          "coverage": "Combine a reproducible failing case, revision bisection and change review; note nondeterministic-test limits and preserve unrelated local work.",
+          "id": "BANK-061-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a technical debt decision visible rather than merely postponed?",
+          "coverage": "Describe the affected behavior, cost of delay, owner and revisit trigger for one bounded shortcut; avoid equating all old code with debt.",
+          "id": "BANK-061-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Y2K remediation identify and test two-digit-year assumptions?",
+          "coverage": "Use a documented system migration, test plan and post-2000 outcome; avoid equating avoided failures with evidence that the risk was imaginary.",
+          "id": "BANK-061-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "Why did Git?s early design prioritize distributed history and content identity?",
+          "coverage": "Compare initial Git documentation and dated releases with the Linux kernel collaboration problem; avoid a precise creation-time legend.",
+          "id": "BANK-061-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "How did the left-pad package removal propagate through npm dependency graphs?",
+          "coverage": "Use dated npm and package records to trace affected builds, restoration and dependency resolution; separate documented disruption from claims the entire internet failed.",
+          "id": "BANK-061-072",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D08",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G03",
+      "reading_subcategory": "Delivery and maintenance"
+    },
+    {
+      "title": "Programming ecosystems and learning paths",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How do functional and imperative styles handle the same data transformation?",
+          "coverage": "Compare transparent original implementations for state, composition and error handling; keep language features separate from broad paradigm claims.",
+          "id": "BANK-061-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when a script becomes software maintained by several people?",
+          "coverage": "Follow packaging, review, documentation, compatibility and incident ownership; use a staged original project rather than implying enterprise infrastructure is always necessary.",
+          "id": "BANK-061-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a developer evaluate generated code before relying on it?",
+          "coverage": "Inspect requirements, boundary cases, dependency provenance and tests on a harmless example; distinguish plausible syntax from verified behavior and rights clearance.",
+          "id": "BANK-061-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When is rewriting a legacy application riskier than changing it incrementally?",
+          "coverage": "Map hidden requirements, interfaces, migration cutovers and available tests in a documented or explicitly invented case; do not infer business success from code age.",
+          "id": "BANK-061-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which design choices made C portable while leaving memory management to programmers?",
+          "coverage": "Compare a dated C standard and implementation examples with Unix-era constraints; distinguish language design from present adoption forecasts.",
+          "id": "BANK-061-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "What does a Unix-style composable command gain and lose when data formats vary?",
+          "coverage": "Use a reproducible pipeline and documented command interfaces; distinguish the historical design principle from a claim that it conquered all software.",
+          "id": "BANK-061-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        },
+        {
+          "question": "What changes when a browser runs a WebAssembly module beside JavaScript?",
+          "coverage": "Use a named browser/runtime and Wasm core specification; compare sandbox, host calls, startup and measured workload rather than assuming native speed.",
+          "id": "BANK-061-070",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "repository_roadmap"
+        }
+      ],
+      "id": "CATALOG-061-D09",
+      "prerequisites": [
+        "CATALOG-061-D01"
+      ],
+      "parent_id": "DOMAIN-061-G03",
+      "reading_subcategory": "Programming ecosystems and learning paths"
+    },
+    {
+      "id": "CATALOG-061-R01",
+      "title": "Representation across systems",
+      "level": "advanced",
+      "parent_id": "DOMAIN-061-10",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "2ad609a72370c2fdbfd4c123d11849c75954ec481187d5e83a5e8301f33ed609",
+      "topics": [
+        {
+          "question": "Why can a serialized object lose meaning when another program reads it?",
+          "coverage": "Compare schema, numeric precision, missing values, encoding and version compatibility with a small JSON example.",
+          "id": "BANK-061-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can time zones turn a correct-looking schedule into the wrong instant?",
+          "coverage": "Separate local dates, offsets, daylight transitions, recurring events and stored instants using fictional appointments.",
+          "id": "BANK-061-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can two identical-looking strings fail an equality check?",
+          "coverage": "Trace Unicode code points, normalization, combining marks and comparison rules in a named language.",
+          "id": "BANK-061-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a garbage collector reclaim and what can still leak?",
+          "coverage": "Compare reachability, retained references, external resources and profiling; distinguish memory management from closing every resource.",
+          "id": "BANK-061-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-061-R02",
+      "title": "Reviewable changes",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-061-11",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "80f923aad188fcf7760b740fed1382d7ace3f07f6ca4c78629923343814344ce",
+      "topics": [
+        {
+          "question": "What does a code review need to explain beyond whether a patch compiles?",
+          "coverage": "Trace the intended behavior change, diff, assumptions, interfaces, meaningful tests, compatibility and reviewer questions through a benign fictional patch; distinguish review from proof of security or correctness.",
+          "covers_starter_ids": [
+            "BANK-061-010"
+          ],
+          "id": "BANK-061-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "321",
+      "title": "Satellite Internet",
+      "directory": "321_satellite_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "061",
+    "slug": "software_programming",
+    "name": "Software & Programming",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Software & Programming YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-061-01",
+        "title": "Programming foundations",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-061-001",
+            "title": "Variables and state changes",
+            "question": "Variables and state changes: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Programming foundations. Address Variables and state changes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Variables and state changes.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-002",
+            "title": "Functions and side effects",
+            "question": "Functions and side effects: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Programming foundations. Address Functions and side effects through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Functions and side effects.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-003",
+            "title": "Data structures and access patterns",
+            "question": "Data structures and access patterns: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Programming foundations. Address Data structures and access patterns through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Data structures and access patterns.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-004",
+            "title": "Algorithmic complexity and input size",
+            "question": "Algorithmic complexity and input size: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Programming foundations. Address Algorithmic complexity and input size through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Algorithmic complexity and input size.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-061-02",
+        "title": "Software execution",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-061-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-061-005",
+            "title": "Compilation versus interpretation",
+            "question": "Compilation versus interpretation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Software execution. Address Compilation versus interpretation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Compilation versus interpretation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-006",
+            "title": "Memory allocation and lifetime",
+            "question": "Memory allocation and lifetime: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Software execution. Address Memory allocation and lifetime through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Memory allocation and lifetime.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-007",
+            "title": "Concurrency and race conditions",
+            "question": "Concurrency and race conditions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Software execution. Address Concurrency and race conditions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Concurrency and race conditions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-008",
+            "title": "Network calls and failure handling",
+            "question": "Network calls and failure handling: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Software execution. Address Network calls and failure handling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Network calls and failure handling.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-061-03",
+        "title": "Working practice",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-061-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-061-009",
+            "title": "Debugging from reproducible cases",
+            "question": "Debugging from reproducible cases: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Working practice. Address Debugging from reproducible cases through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Debugging from reproducible cases.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-010",
+            "title": "Version control and review",
+            "question": "Version control and review: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Working practice. Address Version control and review through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Version control and review.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-011",
+            "title": "Testing behavior rather than implementation",
+            "question": "Testing behavior rather than implementation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Working practice. Address Testing behavior rather than implementation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Testing behavior rather than implementation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-061-012",
+            "title": "Dependencies and reproducible builds",
+            "question": "Dependencies and reproducible builds: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Software & Programming; branch: Working practice. Address Dependencies and reproducible builds through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Dependencies and reproducible builds.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "321",
+        "title": "Satellite Internet",
+        "directory": "321_satellite_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_05"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/061_software_programming/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "1e9969afc10caa002fd6eb53ab323c655fb1db139c4fccf9de4e29255e6761de",
+    "source_kind": "detailed_expansion",
+    "source_records": {
+      "BANK-061-013": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8bbffd5e8f914b98aa0a1ca3bc5ddab8f1694e436a566369cd17b82c40165f8a"
+      },
+      "BANK-061-014": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2c3ee8b326308a43a59a30a20396d196d8749f8a5ce820571218213264e2ff0b"
+      },
+      "BANK-061-015": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "45ff8a4970cfc06485bdc6af9bfc4ef125a8513d53ed1ed71e35a1b6214bf795"
+      },
+      "BANK-061-016": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "76e44a80224875e99085ed4fb03bbb031a75c6b1302cf831e62d7e6e7c597df2"
+      },
+      "BANK-061-017": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "97abbcc51febcdc57c31f0805f87b7671f3cf9da89f76b62da6c2a8fe04acce5"
+      },
+      "BANK-061-018": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cac81ead9f6554dd3947bf215bc206c4a5168b3c48b8b31da0424462211b43b0"
+      },
+      "BANK-061-019": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5e154038830a3b75b26cceac15684124560205db792ca1b9b884e1ada257c491"
+      },
+      "BANK-061-020": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d75ba6595a6019173916676636e41c3f09c13be8f592bf4514f916fcabaa0e72"
+      },
+      "BANK-061-021": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6b99de7e15cb4f1c45871ea00dee274a6e4146a28481378eda57d03faac4f088"
+      },
+      "BANK-061-022": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef55eca2572b6a6779ee4bfe7605a1d74986bf6280a716dd734d51988b7543fd"
+      },
+      "BANK-061-023": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "de6d22820cf76affe48ac8894e6931b3830bb0f8df3d6129f308280d0d320b24"
+      },
+      "BANK-061-024": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c0ade7344ae5e69981c31a5cea0fdfbdcc752d2ec0118724a241f89ae3c0012d"
+      },
+      "BANK-061-025": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a61e5b9f7a066201fd1f2e7060373d73cab2b60ae92f32bd5903d4341ea97b2d"
+      },
+      "BANK-061-026": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "55272408e968b9194dfdd1a314e2fa3f97de9797b7c43f4ee3fd17c1a8496659"
+      },
+      "BANK-061-027": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "52835e69b1c4771d726ca609af25b0d1672d9cd15575a8d1a334efd5170e0315"
+      },
+      "BANK-061-028": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a3178daeaac37594e80f6465f9db193776f6833ac3455bce1c1667f52eb50ff0"
+      },
+      "BANK-061-029": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5796386df7551722a21892ea404eebea4a6ffc4c85c1eaa84cc3bf977976e780"
+      },
+      "BANK-061-030": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "011fd0fdd8a857e221e26c3c9bd2de5b3fff3b19297c97494a392523149f8e15"
+      },
+      "BANK-061-031": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3aa809845699fd83b14c9bf4f590260baa97c2f6e1215c24ea73897aff8dcf35"
+      },
+      "BANK-061-032": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "21df8877b73ee0cd032cf757ba45c0c316e5ce84da0347083d421d0a73693bac"
+      },
+      "BANK-061-033": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2e37d851754e93df0e2fc38bf056f99693eff32ee01e253209848b9e48d5a1f3"
+      },
+      "BANK-061-034": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8977bf40fe641fa91ae633377133e3e562a8638e72c89d5c2d3273e0f12a5a33"
+      },
+      "BANK-061-035": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "58a5b04fe2d1bbca83b9b5f1d5e4f1a90ed1477bffa9ef0c452f2cc6fd9f2716"
+      },
+      "BANK-061-036": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "18aaddfb3dd3bdb5cf38be4c930d5ae0fa91d591328cdaa8ac20d6a9931bcfea"
+      },
+      "BANK-061-037": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ee4f848a91b7f626a34ebb5ef47f3717cb87a351041834966c1b6b1b2501122c"
+      },
+      "BANK-061-038": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3925f88a1668cd5e5d0457f101612b8839b2577e1bed9b03e9a0bbaa1a6b09d0"
+      },
+      "BANK-061-039": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7db0920070144e48ed80b01fa6193964d47c211b691817385e0dc9507c64c3aa"
+      },
+      "BANK-061-040": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "452386fc09b04454d7d0418b51505b2cd6bb1d989b34170531481aefd30c64fb"
+      },
+      "BANK-061-041": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8a820426c06c21920e81b4eff8fd8794259d4cea2caaba1cd695e73753118061"
+      },
+      "BANK-061-042": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "32af3612560a3e7070ef53b355c0c81e417456279ccc53ac21ef6ac1ebc21bda"
+      },
+      "BANK-061-043": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ea73ac564ff8a7ba0b3de2511f9e2129932ae99ca4dfb5736b411721b60cfe85"
+      },
+      "BANK-061-044": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a5dd568eea2b9dc98e3fc5625d931692fa1b76909d9c4f39eeb3189b247fc830"
+      },
+      "BANK-061-045": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2cf5f0a0882884ca7602c873222fb9632f0c6d9de5bdde85791e3b0ae711186f"
+      },
+      "BANK-061-046": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ff647dcba7ff3a6f9426e3cd8c0b3434711ff1175f5ae005082f92c45f14e9be"
+      },
+      "BANK-061-047": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ff21d4ae6a0cb04cdddb1a8a147d2ccb3d2a9a7af50acd06e4e905129484aad1"
+      },
+      "BANK-061-048": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fe6114dd7c246b1b4097cefefb58153ed62c66e5e0b3f6b79faef466c46f9c78"
+      },
+      "BANK-061-049": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eea515ca256e23ea91a9a198b5381c92baf433123f0d4c509fdf05b682cdc4f0"
+      },
+      "BANK-061-050": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2a4f536bf53b23ccb44024083d4fac13d6e05bb0c1583021875f1a90ec5814f9"
+      },
+      "BANK-061-051": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "54d09c92f91928bc86cd7b063fe94430267fd28a70e8847a05ddd8b29d561de2"
+      },
+      "BANK-061-052": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cadfd0a59310dce2474b72908db5ba64fe06997687067aa2b351c32ca487f9f3"
+      }
+    },
+    "source_categories": {
+      "CATALOG-061-D01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "ff75ed5530910ea4d170b186595252e4f4d87ba22918de0579e596e4698164ff"
+      },
+      "CATALOG-061-D02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "4955163c7fe67905061f351f1e380b8c4867451eebdc22ea4a747b9130bdf3b6"
+      },
+      "CATALOG-061-D03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "68bbb3b9c1a343ca3c3c3b840f564b5f427e50801e7553191df1f30b256553fe"
+      },
+      "CATALOG-061-D04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "97509be2989391ae9eb2b651976f2d23aa541e33814fd11df5c8557cf8068b98"
+      },
+      "CATALOG-061-D05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "44a1888ed072340c5f95e917069ad95e22eed3b3ce82e49126c842e32cae04dc"
+      },
+      "CATALOG-061-D06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "2f021bd3f0c5dbcddecf21b520c3f4026cd904687fdbf17af87c4f7782021d08"
+      },
+      "CATALOG-061-D07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "fcd8f66135286ec8f3544943b5f90744bfa052c76ca8e632641448c75827adaa"
+      },
+      "CATALOG-061-D08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "257a88667fe8ef6bccf5c49446966346b6b6ffeb9dcc2c75f73af5c964989b80"
+      },
+      "CATALOG-061-D09": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "99f644e21b62f49588d29b79337031b964743118d826223de8070aa69bd0289f"
+      }
+    },
+    "source_initial_archive_sha256": "0342a444a47743ebdfd9aa11e9882234a5bc088bac4b90ae82de05fae18088c0",
+    "local_files": {
+      "061_SOFTWARE_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "2163a35b6b8f63a98d32d69389d44b410b2040afc94a4db7532605f05e031137",
+        "original_text": "# Software & Programming Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 061 Software & Programming (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Developers, Software Engineers, CS Students, Tech Leads, Coding Hobbyists (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/061_software_programming/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Software & Programming across four progressive tiers:\r\n- **Tier 1: Logic Gates, Assembly & The C Programming Revolution (Scratch / Beginner)** — Boolean gates, memory pointers, Dennis Ritchie's C language, stack vs heap memory, and compiled vs interpreted architectures.\r\n- **Tier 2: Object-Oriented Architecture, Data Structures & Kernel Design (Intermediate)** — Polymorphism, garbage collection algorithms, B-trees, Unix philosophy, and Linus Torvalds' Git & Linux kernel revolution.\r\n- **Tier 3: Distributed Systems, Concurrency & High-Frequency Architecture (Upper Intermediate)** — The CAP theorem, Raft consensus protocols, asynchronous event loops, race conditions, and microservices vs modular monoliths.\r\n- **Tier 4: LLM Code Synthesis, WebAssembly & The Future of Compilers (Advanced / Expert)** — AST compiler optimizations, LLVM intermediate representations, WebAssembly bytecodes, AI pair-programming models, and formal mathematical code verification.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/061_software_programming/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/061_software_programming/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How a Software Practice Emerged** | *Which problem led to one programming language, tool, or method?* |\r\n| 2 | `famous_examples` | **A Famous Program Reexamined** | *What did one influential program actually make possible?* |\r\n| 3 | `hidden_stories` | **The Maintainers Behind the Release** | *Whose testing, documentation, localization, or maintenance work is overlooked?* |\r\n| 4 | `beginner_explainers` | **What a Program Does** | *How does one small program turn an input into an output?* |\r\n| 5 | `advanced_concepts` | **Correctness Under Real Conditions** | *Which assumptions make one algorithm or system correct?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Bug With Multiple Causes** | *Which evidence distinguishes competing explanations for one documented failure?* |\r\n| 7 | `technology_innovation` | **A New Programming Tool in Use** | *Did one compiler, framework, or tool improve a measured outcome?* |\r\n| 8 | `people_personalities` | **A Design Decision's Authors** | *Who proposed and challenged one consequential software choice?* |\r\n| 9 | `major_events` | **A Release Changes the Ecosystem** | *What changed for users and maintainers after one major software release?* |\r\n| 10 | `how_it_works` | **From Source to Running Program** | *What roles do source code, build, dependencies, runtime, and operating system play?* |\r\n| 11 | `rise_fall` | **A Software Project's Trajectory** | *Why did one project grow, fork, decline, or end?* |\r\n| 12 | `then_vs_now` | **One Programming Task Across Eras** | *How did tools and constraints change for a defined task?* |\r\n| 13 | `future_developments` | **A Proposed Software Direction** | *What evidence would justify adopting one planned language or platform change?* |\r\n| 14 | `myths_vs_facts` | **Testing a Programming Slogan** | *Does a popular claim about speed, safety, or simplicity hold for a defined task?* |\r\n| 15 | `documentary_stories` | **One Bug From Report to Fix** | *How did a documented issue move through triage, reproduction, patch, and release?* |\r\n| 16 | `system_boundary` | **Where the Program Ends** | *Which behavior belongs to application, library, operating system, and external service?* |\r\n| 17 | `input_output_trace` | **Tracing One Request** | *How does one input become an output through a defined software path?* |\r\n| 18 | `design_tradeoff` | **A Software Architecture Choice** | *What did one design gain in speed, safety, simplicity, or flexibility?* |\r\n| 19 | `failure_mode` | **When a Software Assumption Failed** | *Which documented condition caused one user-visible failure?* |\r\n| 20 | `testing_limits` | **What the Test Suite Missed** | *Which conditions were covered and which escaped before one release?* |\r\n| 21 | `standards_interoperability` | **Software Meets an Open Format** | *Did one implementation interoperate with independent products?* |\r\n| 22 | `security_threat_model` | **A Software Security Boundary** | *What assets and trust assumptions did one public design address?* |\r\n| 23 | `maintenance_lifecycle` | **Who Maintains a Dependency?** | *How did updates, support windows, and compatibility shape one product?* |\r\n| 24 | `infrastructure_dependencies` | **Services Behind an App** | *Which hosting, identity, network, or data systems affect one feature?* |\r\n| 25 | `accessibility_usability` | **A Feature for More Users** | *Did one interface work for people with different access needs?* |\r\n| 26 | `independent_replication` | **Reproducing a Performance Claim** | *Can a published benchmark be rerun fairly?* |\r\n| 27 | `responsible_deployment` | **Releasing a Change Safely** | *What staged rollout and monitoring accompanied one software change?* |\r\n| 28 | `field_software_architecture` | **A Module Boundary Under Review** | *How did one architectural split affect changeability and reliability?* |\r\n| 29 | `field_interface_design` | **An API or UI Decision** | *How did one interface choice affect errors and user work?* |\r\n| 30 | `field_version_changes` | **What Changed Between Releases?** | *Which behavior changed in one version and who was affected?* |\r\n| 31 | `field_open_standards` | **An Open Standard in Practice** | *Did independent implementations agree on one standard's behavior?* |\r\n| 32 | `field_technical_debt` | **The Cost of an Earlier Shortcut** | *Which documented design shortcut later slowed or broke development?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Logic Gates, Pointers & The C Revolution\r\n1. **The Billion-Dollar Null Pointer Bug: How One Missing Check Cost Tony Hoare and the World Billions**\r\n   - *Question:* Why did computer scientist Tony Hoare apologize in 2009 for inventing the 'null pointer' in 1965, and how has it caused millions of server crashes and security breaches?\r\n   - *Key Focus:* Null references vs memory pointers, segmentation faults (SIGSEGV), Rust's Option<T> and Kotlin null safety, the economic cost of preventable runtime crashes.\r\n2. **The C Programming Language: Dennis Ritchie and the Bedrock of Modern Computing**\r\n   - *Question:* How did Dennis Ritchie create a language in 1972 that remains the untouchable foundation of Linux, Windows, macOS, and every game engine 50 years later?\r\n   - *Key Focus:* Bell Labs Unix rewrite, pointer arithmetic, manual memory management (malloc/free), bridging high-level abstraction with bare-metal machine performance.\r\n3. **Stack vs Heap: What Actually Happens to Your Computer's RAM When Code Runs**\r\n   - *Question:* Why is stack memory blazing fast but tiny, while heap memory is massive but prone to memory leaks, fragmentation, and pointer bugs?\r\n   - *Key Focus:* LIFO stack pointer adjustments, dynamic heap allocation algorithms, memory alignment and fragmentation, stack overflow crashes and buffer overflows.\r\n4. **The Y2K Bug: The 1999 Panic That Was Only Solved by Millions of Lines of Overtime**\r\n   - *Question:* Was Y2K an overhyped media hoax, or did society avoid catastrophic infrastructure collapse because programmers quietly repaired billions of lines of COBOL code?\r\n   - *Key Focus:* Early memory storage constraints (saving two bytes per date), mainframe COBOL legacy code, $300 billion global remediation effort, the upcoming 2038 Unix epoch problem.\r\n### Tier 2: Object-Oriented Design & Kernels\r\n5. **Garbage Collection: How Java and Python Clean Up Your Mess Behind the Scenes**\r\n   - *Question:* How does your computer identify dead memory objects without stopping code execution, and why do high-frequency trading platforms ban garbage-collected languages?\r\n   - *Key Focus:* Reference counting and circular reference traps, Mark-and-Sweep algorithms, generational hypothesis (Young vs Old generation), 'Stop-the-World' latency pauses.\r\n6. **Linus Torvalds and Git: How a 10-Day Rage Project Changed Software Forever**\r\n   - *Question:* How did the creator of Linux write the core of the world's most dominant version control system in just two weeks after being locked out of BitKeeper?\r\n   - *Key Focus:* Directed Acyclic Graphs (DAG), content-addressable storage using SHA-1 object hashes, decentralized branching vs centralized SVN, why Git's architecture is pure math.\r\n7. **Object-Oriented Programming vs Functional Programming: The 40-Year Holy War**\r\n   - *Question:* Why did Alan Kay say 'I made up the term object-oriented, and I can tell you I did not have C++ in mind', and why are modern languages moving to functional immutability?\r\n   - *Key Focus:* Inheritance vs composition, mutable state bugs in concurrency, pure functions and side-effect elimination, modern hybrid language synthesis (Rust, Swift, TypeScript).\r\n8. **The Unix Philosophy: Why Doing One Thing and Doing It Well Conquered the World**\r\n   - *Question:* How did Doug McIlroy's invention of the simple text pipe (|) allow tiny command-line programs to chain together into infinitely powerful data pipelines?\r\n   - *Key Focus:* Write programs that do one thing well, write programs to work together, write programs to handle text streams, 'everything is a file' abstraction in POSIX.\r\n### Tier 3: Distributed Systems & Concurrency\r\n9. **The Heartbleed Bug: How a Single Missing Bounds Check Compromised the Entire Internet**\r\n   - *Question:* How did a missing payload length check in OpenSSL's TLS heartbeat extension allow anonymous hackers to leak passwords and encryption keys from two-thirds of the web?\r\n   - *Key Focus:* Buffer over-read mechanics, leaking 64KB of server memory per heartbeat, the fragility of global internet infrastructure maintained by unpaid volunteer coders.\r\n10. **The CAP Theorem: Why You Can Never Have a Perfect Distributed Database**\r\n   - *Question:* Why does physical network latency force every distributed database on Earth (PostgreSQL, Cassandra, DynamoDB) to sacrifice either immediate consistency or availability?\r\n   - *Key Focus:* Eric Brewer's 2000 proof, CP vs AP architectures, network partitions (split-brain scenarios), eventual consistency models and Amazon's high-availability shopping cart.\r\n11. **Race Conditions and Deadlocks: The Nightmare of Multi-Threaded Concurrency**\r\n   - *Question:* What happened when the Therac-25 radiation therapy machine gave patients lethal radiation overdoses because two software tasks modified the same variable simultaneously?\r\n   - *Key Focus:* Therac-25 fatal medical bug, Dining Philosophers problem, Mutexes, semaphores, and spinlocks, lock contention vs atomic compare-and-swap operations.\r\n12. **Microservices vs Monoliths: Why Tech Giants Are Rebuilding Their Monoliths**\r\n   - *Question:* Why did Amazon Prime Video slash server costs by 90% by ditching serverless microservices and returning to a single monolithic application?\r\n   - *Key Focus:* Conway's Law (architecture mirrors communication structure), network serialization latency and JSON parsing overhead, distributed tracing headaches, modular monolith balance.\r\n### Tier 4: LLMs, WebAssembly & The Future\r\n13. **How Compilers Optimize Code: Turning Ugly Human Logic into Machine Art**\r\n   - *Question:* How does an optimizing compiler (GCC/Clang) transform human source code through Abstract Syntax Trees and LLVM IR to produce assembly faster than hand-written machine code?\r\n   - *Key Focus:* Lexing and parsing tokens, Intermediate Representation (IR), dead-code elimination, constant folding, SIMD vectorization, and cache-conscious instruction scheduling.\r\n14. **Rust and Memory Safety: The Language That Solved C's Fatal Flaw Without Garbage Collection**\r\n   - *Question:* How does Rust's compile-time Borrow Checker guarantee zero memory leaks and zero data races with zero runtime speed penalty?\r\n   - *Key Focus:* Ownership rules and lifetimes, eliminating use-after-free and double-free vulnerabilities, White House and NSA endorsements to deprecate C/C++, Linux kernel adoption.\r\n15. **WebAssembly (WASM): Running Native C++ and Rust in Web Browsers at Near-Native Speed**\r\n   - *Question:* How does Figma run a full desktop-class graphics design engine inside Google Chrome, and will WASM replace Docker containers in the cloud?\r\n   - *Key Focus:* Stack-based virtual machine bytecodes, sandboxed memory linear array, Wasmtime and WASI (WebAssembly System Interface) edge serverless runtimes, Solomon Hykes Docker quote.\r\n16. **AI Pair Programming: How LLMs and Transformers Write Code and Where They Fail**\r\n   - *Question:* Do Large Language Models understand software architecture, or are they stochastic pattern-matchers producing subtle security hallucinations?\r\n   - *Key Focus:* Attention mechanisms over code context windows, AST tokenization, hallucinated libraries and dependency confusion supply chain risks, the future role of software engineers.\r\n17. **Formal Verification: Writing Software That Is Mathematically Impossible to Crash**\r\n   - *Question:* How did Australian computer scientists mathematically prove that the seL4 operating system microkernel contains zero buffer overflows, zero null pointer bugs, and can never crash?\r\n   - *Key Focus:* Interactive theorem provers (Coq, Isabelle/HOL), formal mathematical proofs of machine code, aerospace and nuclear control software, why full verification costs $500 per line.\r\n18. **The Left-Pad Incident: How 11 Lines of Code Broke the Global Internet in 2016**\r\n   - *Question:* How did an angry developer unpublishing an 11-line open-source string-padding function break Babel, React, and build systems across Facebook, Netflix, and Spotify?\r\n   - *Key Focus:* NPM package registry dependency tree explosion, transitive dependencies, supply chain fragility, why modern web projects download 500 megabytes of node_modules.\r\n19. **Clean Code vs Fast Code: Casey Muratori's Rebuttal to Uncle Bob**\r\n   - *Question:* Does following object-oriented 'Clean Code' principles make software 15 times slower on modern hardware by thrashing CPU L1/L2 caches?\r\n   - *Key Focus:* Data-Oriented Design (DOD) vs Object-Oriented Design (OOD), polymorphic virtual function call overhead, CPU cache line spatial locality, Mike Acton's DoD manifesto.\r\n20. **The Future of Programming in 2040: Will Anyone Write Source Code Manually?**\r\n   - *Question:* Will traditional programming languages disappear as natural language specifications and AI verification systems compile intent directly into machine binaries?\r\n   - *Key Focus:* From punch cards to assembly to high-level languages to prompt specification, the enduring need for algorithmic thinking, system boundary architecture, and formal specification logic.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 061 (Software & Programming)\r\n- **Angle Preset:** `beginner_explainers`\r\n- **Episode Title:** *The Billion-Dollar Null Pointer Bug: How One Missing Check Cost Tony Hoare and the World Billions*\r\n- **Episode Slug:** `061_software_programming_beginner_explainers_billion_dollar_mistake`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/061_software_programming/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "a7ae490af20d592c99b1c519e1d32d59fc11897cbc305ecfde1bd24387cc063d",
+        "original_text": "# 061 Software & Programming -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 061 Software & Programming (Computing_Software)  \r\n> **Storage Directory:** `topics/061_software_programming/`  \r\n> **Synchronized With:** `OUTPUT/061_software_programming/`, `REGISTRY/Niches/061_software_programming/`, and `061_SOFTWARE_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 061 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/061_software_programming](../../OUTPUT/061_software_programming) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Billion-Dollar Null Pointer Bug: How One Missing Check Cost Tony Hoare and the World Billions** | Tier 1: Logic Gates, Pointers & The C Revolution | `beginner_explainers` | `null_pointer_billion_dollar_mistake_tony_hoare_memory_segfaults` | Flagship launch episode; the quintessential cautionary tale in software design and language architecture. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **The C Programming Language: Dennis Ritchie and the Bedrock of Modern Computing** | Tier 1: Logic Gates, Pointers & The C Revolution | `history_origins` | `c_programming_language_dennis_ritchie_ken_thompson_bell_labs_unix` | The foundational genesis of modern systems programming and software engineering. | `QUEUED` |\r\n| 3 | **Stack vs Heap: What Actually Happens to Your Computer's RAM When Code Runs** | Tier 1: Logic Gates, Pointers & The C Revolution | `how_it_works` | `stack_vs_heap_memory_allocation_cpu_registers_stack_overflow` | The core mental model every programmer must master to write performant, crash-free code. | `QUEUED` |\r\n| 4 | **The Y2K Bug: The 1999 Panic That Was Only Solved by Millions of Lines of Overtime** | Tier 1: Logic Gates, Pointers & The C Revolution | `myths_vs_facts` | `y2k_bug_year_2000_problem_two_digit_date_storage_cobol` | Shatters common historical revisionism and honors the unsung army of engineers who prevented disaster. | `QUEUED` |\r\n| 5 | **Garbage Collection: How Java and Python Clean Up Your Mess Behind the Scenes** | Tier 2: Object-Oriented Design & Kernels | `case_studies` | `garbage_collection_algorithms_mark_and_sweep_generational_gc_latency` | Reveals the hidden engineering tradeoffs between developer convenience and microsecond execution latency. | `QUEUED` |\r\n| 6 | **Linus Torvalds and Git: How a 10-Day Rage Project Changed Software Forever** | Tier 2: Object-Oriented Design & Kernels | `behind_the_scenes` | `git_version_control_linus_torvalds_directed_acyclic_graph_sha1` | The story of how modern open-source collaborative software development was conquered. | `QUEUED` |\r\n| 7 | **Object-Oriented Programming vs Functional Programming: The 40-Year Holy War** | Tier 2: Object-Oriented Design & Kernels | `philosophical_debates` | `oop_vs_functional_programming_encapsulation_vs_pure_functions_immutability` | The defining paradigm debate in software architecture shaping how humans model problems in code. | `QUEUED` |\r\n| 8 | **The Unix Philosophy: Why Doing One Thing and Doing It Well Conquered the World** | Tier 2: Object-Oriented Design & Kernels | `history_origins` | `unix_philosophy_ken_thompson_pipes_filters_everything_is_a_file` | The timeless minimalist software design philosophy that underpins all modern cloud and server infrastructure. | `QUEUED` |\r\n| 9 | **The Heartbleed Bug: How a Single Missing Bounds Check Compromised the Entire Internet** | Tier 3: Distributed Systems & Concurrency | `dark_secrets` | `heartbleed_openssl_cve_2014_0160_buffer_overread_tls_heartbeat` | The definitive case study in memory safety, open-source underfunding, and critical infrastructure vulnerability. | `QUEUED` |\r\n| 10 | **The CAP Theorem: Why You Can Never Have a Perfect Distributed Database** | Tier 3: Distributed Systems & Concurrency | `how_it_works` | `cap_theorem_eric_brewer_consistency_availability_partition_tolerance` | The fundamental mathematical theorem governing all cloud computing and distributed data storage. | `QUEUED` |\r\n| 11 | **Race Conditions and Deadlocks: The Nightmare of Multi-Threaded Concurrency** | Tier 3: Distributed Systems & Concurrency | `case_studies` | `concurrency_race_conditions_deadlocks_dining_philosophers_mutex_locks` | Harrowing real-world proof of how subtle multi-threaded timing bugs can turn software into a lethal physical weapon. | `QUEUED` |\r\n| 12 | **Microservices vs Monoliths: Why Tech Giants Are Rebuilding Their Monoliths** | Tier 3: Distributed Systems & Concurrency | `comparisons` | `microservices_vs_monoliths_distributed_complexity_amazon_prime_video_case` | Exposes modern software fashion trends and provides an objective engineering cost-benefit framework. | `QUEUED` |\r\n| 13 | **How Compilers Optimize Code: Turning Ugly Human Logic into Machine Art** | Tier 4: LLMs, WebAssembly & The Future | `scientific_breakthroughs` | `how_compilers_work_ast_llvm_ir_dead_code_elimination_loop_unrolling` | Demystifies the magical software black box that translates human thought into binary electricity. | `QUEUED` |\r\n| 14 | **Rust and Memory Safety: The Language That Solved C's Fatal Flaw Without Garbage Collection** | Tier 4: LLMs, WebAssembly & The Future | `how_it_works` | `rust_programming_language_borrow_checker_ownership_memory_safety` | The most important systems programming language innovation of the 21st century. | `QUEUED` |\r\n| 15 | **WebAssembly (WASM): Running Native C++ and Rust in Web Browsers at Near-Native Speed** | Tier 4: LLMs, WebAssembly & The Future | `future_predictions` | `webassembly_wasm_near_native_browser_performance_figma_revolution` | The foundational technology merging web browsers, desktop software, and cloud computing into a unified universal runtime. | `QUEUED` |\r\n| 16 | **AI Pair Programming: How LLMs and Transformers Write Code and Where They Fail** | Tier 4: LLMs, WebAssembly & The Future | `future_predictions` | `ai_pair_programming_github_copilot_transformer_llm_code_synthesis` | The most transformative technological shift currently disrupting the entire software development industry. | `QUEUED` |\r\n| 17 | **Formal Verification: Writing Software That Is Mathematically Impossible to Crash** | Tier 4: LLMs, WebAssembly & The Future | `case_studies` | `formal_verification_mathematical_software_proofs_se4_microkernel_coq` | The absolute peak of high-assurance software engineering where coding meets mathematical certainty. | `QUEUED` |\r\n| 18 | **The Left-Pad Incident: How 11 Lines of Code Broke the Global Internet in 2016** | Tier 4: LLMs, WebAssembly & The Future | `famous_examples` | `left_pad_npm_incident_2016_azer_koculu_software_supply_chain_fragility` | The defining wake-up call exposing the hyper-fragmented and precarious state of modern software dependency graphs. | `QUEUED` |\r\n| 19 | **Clean Code vs Fast Code: Casey Muratori's Rebuttal to Uncle Bob** | Tier 4: LLMs, WebAssembly & The Future | `philosophical_debates` | `clean_code_horrible_performance_casey_muratori_vs_uncle_bob_robert_martin` | The fiery contemporary engineering debate exposing how theoretical dogmas can sabotage hardware performance. | `QUEUED` |\r\n| 20 | **The Future of Programming in 2040: Will Anyone Write Source Code Manually?** | Tier 4: LLMs, WebAssembly & The Future | `future_predictions` | `the_future_of_programming_2040_natural_language_specification_and_meta_compilers` | The definitive forward-looking analysis of how human engineering skill will evolve in a post-syntax world. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Why 11 Lines of Code Broke Facebook, Netflix, and the Entire Internet (Left-Pad)** | **3.5M - 6.2M** | `famous_examples` | `why_11_lines_of_code_broke_facebook_netflix_and_the_entire_internet_(left-pad)` | Hilarious and mind-boggling story of modern tech fragility that any coder or tech fan loves. | `TRENDING CANDIDATE` |\r\n| 22 | **Why Is Python Slow? The Single Line of Code That Cripples Multi-Threading (The GIL)** | **2.8M - 4.9M** | `how_it_works` | `why_is_python_slow_the_single_line_of_code_that_cripples_multi-threading_(the_gil)` | Universal frustration for Python developers with timely context around Python 3.13 free-threaded no-GIL releases. | `TRENDING CANDIDATE` |\r\n| 23 | **The $10 Billion Cloud Bill: Why Amazon Prime Video Ditched Microservices** | **3.2M - 5.8M** | `case_studies` | `the_$10_billion_cloud_bill_why_amazon_prime_video_ditched_microservices` | Massive controversial corporate architectural reversal that dominated tech Twitter and Hacker News. | `TRENDING CANDIDATE` |\r\n| 24 | **Why C is Still Undefeated 52 Years Later (And Never Dying)** | **2.9M - 5.1M** | `history_origins` | `why_c_is_still_undefeated_52_years_later_(and_never_dying)` | Deep respect for legendary foundational technology that validates old-school engineering. | `TRENDING CANDIDATE` |\r\n| 25 | **What Actually Happens When You Type google.com and Hit Enter?** | **4.1M - 7.5M** | `beginner_explainers` | `what_actually_happens_when_you_type_google.com_and_hit_enter` | The classic, ultimate software engineering interview question explained visually with stunning pacing. | `TRENDING CANDIDATE` |\r\n| 26 | **Why the White House Warned Everyone to Stop Using C and C++** | **3.1M - 5.4M** | `dark_secrets` | `why_the_white_house_warned_everyone_to_stop_using_c_and_c++` | High-stakes governmental policy shift directly affecting millions of software developers. | `TRENDING CANDIDATE` |\r\n| 27 | **Will AI Actually Replace Software Engineers by 2030?** | **4.8M - 8.5M** | `future_predictions` | `will_ai_actually_replace_software_engineers_by_2030` | The single most urgent existential question facing millions of tech workers today. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/061_software_programming/061_SOFTWARE_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md`](./061_SOFTWARE_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/061_software_programming/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/061_software_programming/NICHE_061_software_programming.md`](file:///h:/script-raw-/REGISTRY/Niches/061_software_programming/NICHE_061_software_programming.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/061_software_programming/CAT_061_software_programming.md`](file:///h:/script-raw-/REGISTRY/Niches/061_software_programming/CAT_061_software_programming.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/061_software_programming/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/061_software_programming/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/061_software_programming/`](file:///h:/script-raw-/OUTPUT/061_software_programming/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "1839fd7d110297838d447984abfee59fe590c23f1284fd2a89c19dde46e51436",
+        "original_text": "{\r\n  \"niche_id\": \"061\",\r\n  \"niche_name\": \"software_programming\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Billion-Dollar Null Pointer Bug: How One Missing Check Cost Tony Hoare and the World Billions\",\r\n      \"tier\": \"Tier 1: Logic Gates, Pointers & The C Revolution\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"null_pointer_billion_dollar_mistake_tony_hoare_memory_segfaults\",\r\n      \"reason\": \"Flagship launch episode; the quintessential cautionary tale in software design and language architecture.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"The C Programming Language: Dennis Ritchie and the Bedrock of Modern Computing\",\r\n      \"tier\": \"Tier 1: Logic Gates, Pointers & The C Revolution\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"c_programming_language_dennis_ritchie_ken_thompson_bell_labs_unix\",\r\n      \"reason\": \"The foundational genesis of modern systems programming and software engineering.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Stack vs Heap: What Actually Happens to Your Computer's RAM When Code Runs\",\r\n      \"tier\": \"Tier 1: Logic Gates, Pointers & The C Revolution\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"stack_vs_heap_memory_allocation_cpu_registers_stack_overflow\",\r\n      \"reason\": \"The core mental model every programmer must master to write performant, crash-free code.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"The Y2K Bug: The 1999 Panic That Was Only Solved by Millions of Lines of Overtime\",\r\n      \"tier\": \"Tier 1: Logic Gates, Pointers & The C Revolution\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"y2k_bug_year_2000_problem_two_digit_date_storage_cobol\",\r\n      \"reason\": \"Shatters common historical revisionism and honors the unsung army of engineers who prevented disaster.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Garbage Collection: How Java and Python Clean Up Your Mess Behind the Scenes\",\r\n      \"tier\": \"Tier 2: Object-Oriented Design & Kernels\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"garbage_collection_algorithms_mark_and_sweep_generational_gc_latency\",\r\n      \"reason\": \"Reveals the hidden engineering tradeoffs between developer convenience and microsecond execution latency.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Linus Torvalds and Git: How a 10-Day Rage Project Changed Software Forever\",\r\n      \"tier\": \"Tier 2: Object-Oriented Design & Kernels\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"git_version_control_linus_torvalds_directed_acyclic_graph_sha1\",\r\n      \"reason\": \"The story of how modern open-source collaborative software development was conquered.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Object-Oriented Programming vs Functional Programming: The 40-Year Holy War\",\r\n      \"tier\": \"Tier 2: Object-Oriented Design & Kernels\",\r\n      \"angle\": \"philosophical_debates\",\r\n      \"slug\": \"oop_vs_functional_programming_encapsulation_vs_pure_functions_immutability\",\r\n      \"reason\": \"The defining paradigm debate in software architecture shaping how humans model problems in code.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"The Unix Philosophy: Why Doing One Thing and Doing It Well Conquered the World\",\r\n      \"tier\": \"Tier 2: Object-Oriented Design & Kernels\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"unix_philosophy_ken_thompson_pipes_filters_everything_is_a_file\",\r\n      \"reason\": \"The timeless minimalist software design philosophy that underpins all modern cloud and server infrastructure.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"The Heartbleed Bug: How a Single Missing Bounds Check Compromised the Entire Internet\",\r\n      \"tier\": \"Tier 3: Distributed Systems & Concurrency\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"heartbleed_openssl_cve_2014_0160_buffer_overread_tls_heartbeat\",\r\n      \"reason\": \"The definitive case study in memory safety, open-source underfunding, and critical infrastructure vulnerability.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"The CAP Theorem: Why You Can Never Have a Perfect Distributed Database\",\r\n      \"tier\": \"Tier 3: Distributed Systems & Concurrency\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"cap_theorem_eric_brewer_consistency_availability_partition_tolerance\",\r\n      \"reason\": \"The fundamental mathematical theorem governing all cloud computing and distributed data storage.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Race Conditions and Deadlocks: The Nightmare of Multi-Threaded Concurrency\",\r\n      \"tier\": \"Tier 3: Distributed Systems & Concurrency\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"concurrency_race_conditions_deadlocks_dining_philosophers_mutex_locks\",\r\n      \"reason\": \"Harrowing real-world proof of how subtle multi-threaded timing bugs can turn software into a lethal physical weapon.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Microservices vs Monoliths: Why Tech Giants Are Rebuilding Their Monoliths\",\r\n      \"tier\": \"Tier 3: Distributed Systems & Concurrency\",\r\n      \"angle\": \"comparisons\",\r\n      \"slug\": \"microservices_vs_monoliths_distributed_complexity_amazon_prime_video_case\",\r\n      \"reason\": \"Exposes modern software fashion trends and provides an objective engineering cost-benefit framework.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"How Compilers Optimize Code: Turning Ugly Human Logic into Machine Art\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"how_compilers_work_ast_llvm_ir_dead_code_elimination_loop_unrolling\",\r\n      \"reason\": \"Demystifies the magical software black box that translates human thought into binary electricity.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Rust and Memory Safety: The Language That Solved C's Fatal Flaw Without Garbage Collection\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"rust_programming_language_borrow_checker_ownership_memory_safety\",\r\n      \"reason\": \"The most important systems programming language innovation of the 21st century.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"WebAssembly (WASM): Running Native C++ and Rust in Web Browsers at Near-Native Speed\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"webassembly_wasm_near_native_browser_performance_figma_revolution\",\r\n      \"reason\": \"The foundational technology merging web browsers, desktop software, and cloud computing into a unified universal runtime.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"AI Pair Programming: How LLMs and Transformers Write Code and Where They Fail\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"ai_pair_programming_github_copilot_transformer_llm_code_synthesis\",\r\n      \"reason\": \"The most transformative technological shift currently disrupting the entire software development industry.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Formal Verification: Writing Software That Is Mathematically Impossible to Crash\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"formal_verification_mathematical_software_proofs_se4_microkernel_coq\",\r\n      \"reason\": \"The absolute peak of high-assurance software engineering where coding meets mathematical certainty.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"The Left-Pad Incident: How 11 Lines of Code Broke the Global Internet in 2016\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"left_pad_npm_incident_2016_azer_koculu_software_supply_chain_fragility\",\r\n      \"reason\": \"The defining wake-up call exposing the hyper-fragmented and precarious state of modern software dependency graphs.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Clean Code vs Fast Code: Casey Muratori's Rebuttal to Uncle Bob\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"philosophical_debates\",\r\n      \"slug\": \"clean_code_horrible_performance_casey_muratori_vs_uncle_bob_robert_martin\",\r\n      \"reason\": \"The fiery contemporary engineering debate exposing how theoretical dogmas can sabotage hardware performance.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Future of Programming in 2040: Will Anyone Write Source Code Manually?\",\r\n      \"tier\": \"Tier 4: LLMs, WebAssembly & The Future\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"the_future_of_programming_2040_natural_language_specification_and_meta_compilers\",\r\n      \"reason\": \"The definitive forward-looking analysis of how human engineering skill will evolve in a post-syntax world.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Why 11 Lines of Code Broke Facebook, Netflix, and the Entire Internet (Left-Pad)\",\r\n      \"trend_score\": \"3.5M - 6.2M\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"why_11_lines_of_code_broke_facebook_netflix_and_the_entire_internet_(left-pad)\",\r\n      \"why_trending\": \"Hilarious and mind-boggling story of modern tech fragility that any coder or tech fan loves.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Why Is Python Slow? The Single Line of Code That Cripples Multi-Threading (The GIL)\",\r\n      \"trend_score\": \"2.8M - 4.9M\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"why_is_python_slow_the_single_line_of_code_that_cripples_multi-threading_(the_gil)\",\r\n      \"why_trending\": \"Universal frustration for Python developers with timely context around Python 3.13 free-threaded no-GIL releases.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"The $10 Billion Cloud Bill: Why Amazon Prime Video Ditched Microservices\",\r\n      \"trend_score\": \"3.2M - 5.8M\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"the_$10_billion_cloud_bill_why_amazon_prime_video_ditched_microservices\",\r\n      \"why_trending\": \"Massive controversial corporate architectural reversal that dominated tech Twitter and Hacker News.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Why C is Still Undefeated 52 Years Later (And Never Dying)\",\r\n      \"trend_score\": \"2.9M - 5.1M\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"why_c_is_still_undefeated_52_years_later_(and_never_dying)\",\r\n      \"why_trending\": \"Deep respect for legendary foundational technology that validates old-school engineering.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"What Actually Happens When You Type google.com and Hit Enter?\",\r\n      \"trend_score\": \"4.1M - 7.5M\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"what_actually_happens_when_you_type_google.com_and_hit_enter\",\r\n      \"why_trending\": \"The classic, ultimate software engineering interview question explained visually with stunning pacing.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Why the White House Warned Everyone to Stop Using C and C++\",\r\n      \"trend_score\": \"3.1M - 5.4M\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"why_the_white_house_warned_everyone_to_stop_using_c_and_c++\",\r\n      \"why_trending\": \"High-stakes governmental policy shift directly affecting millions of software developers.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Will AI Actually Replace Software Engineers by 2030?\",\r\n      \"trend_score\": \"4.8M - 8.5M\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"will_ai_actually_replace_software_engineers_by_2030\",\r\n      \"why_trending\": \"The single most urgent existential question facing millions of tech workers today.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "061",
+      "niche_name": "software_programming",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Billion-Dollar Null Pointer Bug: How One Missing Check Cost Tony Hoare and the World Billions",
+          "tier": "Tier 1: Logic Gates, Pointers & The C Revolution",
+          "angle": "beginner_explainers",
+          "slug": "null_pointer_billion_dollar_mistake_tony_hoare_memory_segfaults",
+          "reason": "Flagship launch episode; the quintessential cautionary tale in software design and language architecture.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "The C Programming Language: Dennis Ritchie and the Bedrock of Modern Computing",
+          "tier": "Tier 1: Logic Gates, Pointers & The C Revolution",
+          "angle": "history_origins",
+          "slug": "c_programming_language_dennis_ritchie_ken_thompson_bell_labs_unix",
+          "reason": "The foundational genesis of modern systems programming and software engineering.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Stack vs Heap: What Actually Happens to Your Computer's RAM When Code Runs",
+          "tier": "Tier 1: Logic Gates, Pointers & The C Revolution",
+          "angle": "how_it_works",
+          "slug": "stack_vs_heap_memory_allocation_cpu_registers_stack_overflow",
+          "reason": "The core mental model every programmer must master to write performant, crash-free code.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "The Y2K Bug: The 1999 Panic That Was Only Solved by Millions of Lines of Overtime",
+          "tier": "Tier 1: Logic Gates, Pointers & The C Revolution",
+          "angle": "myths_vs_facts",
+          "slug": "y2k_bug_year_2000_problem_two_digit_date_storage_cobol",
+          "reason": "Shatters common historical revisionism and honors the unsung army of engineers who prevented disaster.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Garbage Collection: How Java and Python Clean Up Your Mess Behind the Scenes",
+          "tier": "Tier 2: Object-Oriented Design & Kernels",
+          "angle": "case_studies",
+          "slug": "garbage_collection_algorithms_mark_and_sweep_generational_gc_latency",
+          "reason": "Reveals the hidden engineering tradeoffs between developer convenience and microsecond execution latency.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Linus Torvalds and Git: How a 10-Day Rage Project Changed Software Forever",
+          "tier": "Tier 2: Object-Oriented Design & Kernels",
+          "angle": "behind_the_scenes",
+          "slug": "git_version_control_linus_torvalds_directed_acyclic_graph_sha1",
+          "reason": "The story of how modern open-source collaborative software development was conquered.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Object-Oriented Programming vs Functional Programming: The 40-Year Holy War",
+          "tier": "Tier 2: Object-Oriented Design & Kernels",
+          "angle": "philosophical_debates",
+          "slug": "oop_vs_functional_programming_encapsulation_vs_pure_functions_immutability",
+          "reason": "The defining paradigm debate in software architecture shaping how humans model problems in code.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "The Unix Philosophy: Why Doing One Thing and Doing It Well Conquered the World",
+          "tier": "Tier 2: Object-Oriented Design & Kernels",
+          "angle": "history_origins",
+          "slug": "unix_philosophy_ken_thompson_pipes_filters_everything_is_a_file",
+          "reason": "The timeless minimalist software design philosophy that underpins all modern cloud and server infrastructure.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "The Heartbleed Bug: How a Single Missing Bounds Check Compromised the Entire Internet",
+          "tier": "Tier 3: Distributed Systems & Concurrency",
+          "angle": "dark_secrets",
+          "slug": "heartbleed_openssl_cve_2014_0160_buffer_overread_tls_heartbeat",
+          "reason": "The definitive case study in memory safety, open-source underfunding, and critical infrastructure vulnerability.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "The CAP Theorem: Why You Can Never Have a Perfect Distributed Database",
+          "tier": "Tier 3: Distributed Systems & Concurrency",
+          "angle": "how_it_works",
+          "slug": "cap_theorem_eric_brewer_consistency_availability_partition_tolerance",
+          "reason": "The fundamental mathematical theorem governing all cloud computing and distributed data storage.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Race Conditions and Deadlocks: The Nightmare of Multi-Threaded Concurrency",
+          "tier": "Tier 3: Distributed Systems & Concurrency",
+          "angle": "case_studies",
+          "slug": "concurrency_race_conditions_deadlocks_dining_philosophers_mutex_locks",
+          "reason": "Harrowing real-world proof of how subtle multi-threaded timing bugs can turn software into a lethal physical weapon.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Microservices vs Monoliths: Why Tech Giants Are Rebuilding Their Monoliths",
+          "tier": "Tier 3: Distributed Systems & Concurrency",
+          "angle": "comparisons",
+          "slug": "microservices_vs_monoliths_distributed_complexity_amazon_prime_video_case",
+          "reason": "Exposes modern software fashion trends and provides an objective engineering cost-benefit framework.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "How Compilers Optimize Code: Turning Ugly Human Logic into Machine Art",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "scientific_breakthroughs",
+          "slug": "how_compilers_work_ast_llvm_ir_dead_code_elimination_loop_unrolling",
+          "reason": "Demystifies the magical software black box that translates human thought into binary electricity.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Rust and Memory Safety: The Language That Solved C's Fatal Flaw Without Garbage Collection",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "how_it_works",
+          "slug": "rust_programming_language_borrow_checker_ownership_memory_safety",
+          "reason": "The most important systems programming language innovation of the 21st century.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "WebAssembly (WASM): Running Native C++ and Rust in Web Browsers at Near-Native Speed",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "future_predictions",
+          "slug": "webassembly_wasm_near_native_browser_performance_figma_revolution",
+          "reason": "The foundational technology merging web browsers, desktop software, and cloud computing into a unified universal runtime.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "AI Pair Programming: How LLMs and Transformers Write Code and Where They Fail",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "future_predictions",
+          "slug": "ai_pair_programming_github_copilot_transformer_llm_code_synthesis",
+          "reason": "The most transformative technological shift currently disrupting the entire software development industry.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Formal Verification: Writing Software That Is Mathematically Impossible to Crash",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "case_studies",
+          "slug": "formal_verification_mathematical_software_proofs_se4_microkernel_coq",
+          "reason": "The absolute peak of high-assurance software engineering where coding meets mathematical certainty.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "The Left-Pad Incident: How 11 Lines of Code Broke the Global Internet in 2016",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "famous_examples",
+          "slug": "left_pad_npm_incident_2016_azer_koculu_software_supply_chain_fragility",
+          "reason": "The defining wake-up call exposing the hyper-fragmented and precarious state of modern software dependency graphs.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Clean Code vs Fast Code: Casey Muratori's Rebuttal to Uncle Bob",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "philosophical_debates",
+          "slug": "clean_code_horrible_performance_casey_muratori_vs_uncle_bob_robert_martin",
+          "reason": "The fiery contemporary engineering debate exposing how theoretical dogmas can sabotage hardware performance.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Future of Programming in 2040: Will Anyone Write Source Code Manually?",
+          "tier": "Tier 4: LLMs, WebAssembly & The Future",
+          "angle": "future_predictions",
+          "slug": "the_future_of_programming_2040_natural_language_specification_and_meta_compilers",
+          "reason": "The definitive forward-looking analysis of how human engineering skill will evolve in a post-syntax world.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Why 11 Lines of Code Broke Facebook, Netflix, and the Entire Internet (Left-Pad)",
+          "trend_score": "3.5M - 6.2M",
+          "angle": "famous_examples",
+          "slug": "why_11_lines_of_code_broke_facebook_netflix_and_the_entire_internet_(left-pad)",
+          "why_trending": "Hilarious and mind-boggling story of modern tech fragility that any coder or tech fan loves.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "Why Is Python Slow? The Single Line of Code That Cripples Multi-Threading (The GIL)",
+          "trend_score": "2.8M - 4.9M",
+          "angle": "how_it_works",
+          "slug": "why_is_python_slow_the_single_line_of_code_that_cripples_multi-threading_(the_gil)",
+          "why_trending": "Universal frustration for Python developers with timely context around Python 3.13 free-threaded no-GIL releases.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "The $10 Billion Cloud Bill: Why Amazon Prime Video Ditched Microservices",
+          "trend_score": "3.2M - 5.8M",
+          "angle": "case_studies",
+          "slug": "the_$10_billion_cloud_bill_why_amazon_prime_video_ditched_microservices",
+          "why_trending": "Massive controversial corporate architectural reversal that dominated tech Twitter and Hacker News.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "Why C is Still Undefeated 52 Years Later (And Never Dying)",
+          "trend_score": "2.9M - 5.1M",
+          "angle": "history_origins",
+          "slug": "why_c_is_still_undefeated_52_years_later_(and_never_dying)",
+          "why_trending": "Deep respect for legendary foundational technology that validates old-school engineering.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "What Actually Happens When You Type google.com and Hit Enter?",
+          "trend_score": "4.1M - 7.5M",
+          "angle": "beginner_explainers",
+          "slug": "what_actually_happens_when_you_type_google.com_and_hit_enter",
+          "why_trending": "The classic, ultimate software engineering interview question explained visually with stunning pacing.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "Why the White House Warned Everyone to Stop Using C and C++",
+          "trend_score": "3.1M - 5.4M",
+          "angle": "dark_secrets",
+          "slug": "why_the_white_house_warned_everyone_to_stop_using_c_and_c++",
+          "why_trending": "High-stakes governmental policy shift directly affecting millions of software developers.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "Will AI Actually Replace Software Engineers by 2030?",
+          "trend_score": "4.8M - 8.5M",
+          "angle": "future_predictions",
+          "slug": "will_ai_actually_replace_software_engineers_by_2030",
+          "why_trending": "The single most urgent existential question facing millions of tech workers today.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "a4ca623a366781ffaa4b41aa95aee9863a73021e3f03613bcdfd75ff139466f8"
+    },
+    {
+      "input": "Scripts\\editorial_pass_051_080.json",
+      "sha256": "d50c32629dcc1ac543f22a87c01ffca352a509bcb4c8d5cab72d86c2a6d08e04"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-061-G01",
+      "title": "Execution, design and computational structures",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-061-G02",
+      "title": "State, services and test evidence",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-061-G03",
+      "title": "Security, delivery and learning paths",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-061-10",
+      "title": "Programming boundaries",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-061-11",
+      "title": "Maintained software",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "starter_concept_crosswalk": {
+    "BANK-061-010": [
+      "BANK-061-057"
+    ],
+    "BANK-061-001": [
+      "BANK-061-014"
+    ],
+    "BANK-061-002": [
+      "BANK-061-017",
+      "BANK-061-049"
+    ],
+    "BANK-061-003": [
+      "BANK-061-021",
+      "BANK-061-022"
+    ],
+    "BANK-061-004": [
+      "BANK-061-023"
+    ],
+    "BANK-061-005": [
+      "BANK-061-013"
+    ],
+    "BANK-061-006": [
+      "BANK-061-056"
+    ],
+    "BANK-061-007": [
+      "BANK-061-027"
+    ],
+    "BANK-061-008": [
+      "BANK-061-020",
+      "BANK-061-028"
+    ],
+    "BANK-061-009": [
+      "BANK-061-035"
+    ],
+    "BANK-061-011": [
+      "BANK-061-036",
+      "BANK-061-037"
+    ],
+    "BANK-061-012": [
+      "BANK-061-045"
+    ]
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "selected_notes_only",
+    "exhaustive_coverage_claimed": false
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "be6cb1736eb558ce0a5dd34d30c18a789206fb07a8cf174d51648bd9b09080da",
+    "TOPIC_BANK_RECONCILIATION.md": "298a053afabde11883581fdf688947ecb5d22cbebb011c3e871c10305448f5e4",
+    "TOPICS_COVERED_REPORT.md": "4441db72dbf64b3e11df766db2f35088e43e1341733e540ca4fc9685cee654ab",
+    "061_SOFTWARE_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md": "97ba36a470da6130c616f371d4b2f9e089c6c930d084a62f960e0500b83f474b"
+  },
+  "organization_review": {
+    "date": "2026-10-23",
+    "source_categories_preserved": 9,
+    "method": "Manually assigned subject groupings. Source questions, scopes, category titles, IDs and prerequisites remain unchanged."
+  },
+  "open_coverage": [
+    {
+      "area": "Further case and comparison depth",
+      "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Programs, data and execution, Decomposition and interfaces, Algorithms and data structures. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+    },
+    {
+      "area": "Sources and readiness",
+      "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+    },
+    {
+      "area": "Neighboring-niche boundary review",
+      "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_notes_only",
+    "semantic_candidates_reviewed": 2,
+    "starter_concepts_reviewed": 12,
+    "all_knowledge_exhausted": false,
+    "legacy_records_explicitly_reconciled": 27,
+    "named_or_bounded_subjects_added": 18
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-058"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-059"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-060"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/3": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-061"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-056"
+      ],
+      "reason": "Garbage collection and remaining leaks already have a bounded question."
+    },
+    "pending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-062"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-049",
+        "BANK-061-019"
+      ],
+      "reason": "Paradigm comparison and composition already have scoped questions; culture-war framing adds no distinct program."
+    },
+    "pending_topics/7": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-063"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-064"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/9": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-065"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/10": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-066"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-067"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-068"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/13": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-069"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-070"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-051",
+        "BANK-463-034"
+      ],
+      "reason": "Generated-code evaluation already has a professional and learner-specific question."
+    },
+    "pending_topics/16": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-071"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/17": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-072"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-039",
+        "BANK-061-048"
+      ],
+      "reason": "Benchmark interpretation and visible technical-debt decisions already cover the trade-off without a personal debate."
+    },
+    "pending_topics/19": {
+      "decision": "out_of_scope",
+      "bank_ids": [],
+      "reason": "The 2040 source-code forecast has no specified capability or testable time-series premise; retain it as a speculative archive pitch."
+    },
+    "trending_topics/0": {
+      "decision": "merged_case",
+      "bank_ids": [
+        "BANK-061-072"
+      ],
+      "reason": "Same npm left-pad incident as pending 18; headline reach is unverified."
+    },
+    "trending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-073"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-074"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "trending_topics/3": {
+      "decision": "merged_case",
+      "bank_ids": [
+        "BANK-061-059"
+      ],
+      "reason": "Same C design/history subject as pending 2; never-dying forecast is not adopted."
+    },
+    "trending_topics/4": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-030"
+      ],
+      "reason": "The browser-to-server path already has a concrete request-and-database question; internet transport detail has a separate neighboring home."
+    },
+    "trending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-061-075"
+      ],
+      "reason": "Distinct bounded programming or historical software question; title superlatives are not findings."
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-061-051",
+        "BANK-532-034"
+      ],
+      "reason": "Evaluating generated code and model upgrades has existing questions; engineer-replacement timing is an unsupported forecast."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-061-064",
+      "note_file": "RESEARCH_NOTE_HEARTBLEED.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-061-075",
+      "note_file": "RESEARCH_NOTE_MEMORY_SAFETY_REPORT.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-061-064",
+      "related_id": "BANK-061-041",
+      "boundary": "Heartbleed is a specific OpenSSL bounds-check case; the general question separates input validation from output encoding."
+    },
+    {
+      "topic_id": "BANK-061-067",
+      "related_id": "BANK-061-074",
+      "boundary": "Service-boundary trade-offs are general; Prime Video monitoring is one reported architecture change."
+    },
+    {
+      "topic_id": "BANK-061-069",
+      "related_id": "BANK-061-075",
+      "boundary": "Rust language guarantees are one implementation subject; the 2024 report is a policy recommendation across technologies."
+    },
+    {
+      "topic_id": "BANK-061-070",
+      "related_id": "BANK-318-030",
+      "boundary": "Wasm runtime and host calls are programming mechanics; the internet bank covers network architecture."
+    },
+    {
+      "topic_id": "BANK-061-073",
+      "related_id": "BANK-061-026",
+      "boundary": "The GIL is CPython runtime behavior; asynchronous execution and parallel computation remain a general distinction."
+    },
+    {
+      "topic_id": "BANK-061-072",
+      "related_id": "BANK-514-033",
+      "boundary": "Left-pad is a dated package incident; the open-source bank asks how to respond when a maintainer stops responding."
+    }
+  ]
+}

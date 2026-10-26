@@ -1,0 +1,736 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "100",
+  "slug": "forensics_investigation",
+  "name": "Forensics & Investigation",
+  "primary_category": "Crime_Safety_Public_Services",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for Forensics & Investigation. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 32
+  },
+  "categories": [
+    {
+      "title": "Evidence and the investigation question",
+      "level": "foundation",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What makes a forensic finding relevant to one question but insufficient for another?",
+          "coverage": "Separate material identity, source and activity propositions through fictional examples; avoid treating a match as automatic proof of guilt.",
+          "id": "BANK-100-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does chain of custody support evidence integrity without establishing what the evidence means?",
+          "coverage": "Use official procedures and a fictional record to compare handling, transfer and interpretation; do not certify a real item's admissibility.",
+          "id": "BANK-100-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can contamination matter even when an instrument measures accurately?",
+          "coverage": "Compare collection context, controls, transport and laboratory handling in published methods; exclude tampering or concealment instructions.",
+          "id": "BANK-100-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a forensic laboratory's accreditation establish and leave outside its scope?",
+          "coverage": "Read the actual standard and accredited methods; distinguish quality-system assessment from a guarantee that every conclusion is correct.",
+          "id": "BANK-100-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "DNA and biological evidence",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What does a DNA association say differently from how the material arrived at a location?",
+          "coverage": "Use published forensic guidance on source and activity questions; avoid naming suspects or making case-specific guilt claims.",
+          "id": "BANK-100-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a DNA mixture create interpretation questions absent from a single-source sample?",
+          "coverage": "Explain contributors, uncertainty, model assumptions and validation at a conceptual level; exclude methods for defeating collection or testing.",
+          "id": "BANK-100-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why must a forensic probability identify the competing propositions it compares?",
+          "coverage": "Use a clearly fictional numeric example and original statistical guidance; distinguish likelihood ratios from the probability that a person is guilty.",
+          "id": "BANK-100-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a report disclose when biological material is too limited for a strong conclusion?",
+          "coverage": "Inspect validated reporting categories, uncertainty and qualified testimony; avoid presenting inconclusive results as either exclusion or confirmation.",
+          "id": "BANK-100-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D02",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Fingerprints, marks and physical comparison",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can a fingerprint comparison be explained without claiming infallibility?",
+          "coverage": "Review original validation studies, examination process and reporting limits; distinguish examiner conclusions from universal error-free identification.",
+          "id": "BANK-100-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a footwear impression reveal beyond a possible brand or model?",
+          "coverage": "Compare class features, wear, distortion and documentation in published methods; avoid individual attribution from a low-quality image.",
+          "id": "BANK-100-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can toolmark similarity require evidence about alternative sources?",
+          "coverage": "Use official method evaluations and uncertainty studies; keep explanation nonoperational and exclude instructions for altering or concealing marks.",
+          "id": "BANK-100-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should disputed comparison methods be reported when courts and scientific evaluations differ?",
+          "coverage": "Separate admissibility decisions, empirical validation and expert disagreement; do not assume court acceptance proves scientific certainty.",
+          "id": "BANK-100-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D03",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Chemistry, toxicology and trace materials",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What distinguishes detecting a substance from determining its role in an event?",
+          "coverage": "Compare sampling, concentration, timing and context using authoritative forensic sources; exclude poisoning details or case-specific medical interpretation.",
+          "id": "BANK-100-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a trace-material comparison narrow possibilities without uniquely identifying an origin?",
+          "coverage": "Review fibers, paint or glass through published methods, reference data and limitations; avoid equating similarity with a complete provenance chain.",
+          "id": "BANK-100-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a toxicology screen and a confirmatory test answer different questions?",
+          "coverage": "Inspect intended use, sensitivity, specificity and laboratory reporting guidance; do not interpret a real person's result or prescribe treatment.",
+          "id": "BANK-100-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can fire-debris analysis establish without independently explaining how a fire began?",
+          "coverage": "Use official method documentation and investigation standards at a conceptual level; exclude ignition recipes or techniques for defeating detection.",
+          "id": "BANK-100-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D04",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Scenes, reconstruction and timing",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can a scene reconstruction distinguish measured geometry from assumptions about movement?",
+          "coverage": "Use a fictional layout with recorded dimensions, alternatives and uncertainty; avoid turning animation into proof of an unobserved sequence.",
+          "id": "BANK-100-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can estimating time since death require ranges and multiple kinds of evidence?",
+          "coverage": "Consult current professional methods and original studies on variability; exclude calculations for real cases or sensational certainty from one sign.",
+          "id": "BANK-100-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a bloodstain-pattern opinion need to disclose about method and limits?",
+          "coverage": "Review published validation, assumptions and documented scene context; avoid generating practical violence or evidence-alteration instructions.",
+          "id": "BANK-100-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can accident investigation separate damage evidence from a conclusion about responsibility?",
+          "coverage": "Compare official measurements, event data, standards and alternative sequences; keep legal fault distinct from physical reconstruction.",
+          "id": "BANK-100-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D05",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Digital records and authentication",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "What does a cryptographic hash establish about a digital file?",
+          "coverage": "Explain identical bytes and integrity checks with original harmless files; distinguish content integrity from proof of authorship or truthful content.",
+          "id": "BANK-100-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a timestamp be unreliable without knowing how a device recorded it?",
+          "coverage": "Compare clock settings, time zones, file operations and official technical documentation; exclude altering real evidence or evading investigation.",
+          "id": "BANK-100-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an investigator assess whether a screenshot faithfully represents a record?",
+          "coverage": "Use published authentication methods and a fictional message example; distinguish appearance, source records and corroboration without identifying private users.",
+          "id": "BANK-100-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a digital-forensics report disclose about the tool and data extraction?",
+          "coverage": "Inspect version, validation, permissions, missing data and reproducibility in official guidance; exclude unauthorized access or unlocking procedures.",
+          "id": "BANK-100-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D06",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Testimony, statistics and miscarriages of justice",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "How can a jury-facing explanation avoid confusing a rare match with certainty of guilt?",
+          "coverage": "Use official statistical guidance, explicit populations and hypothetical examples; distinguish evidence weight from the full case assessment.",
+          "id": "BANK-100-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do official reviews of wrongful convictions reveal about overstated forensic testimony?",
+          "coverage": "Choose documented cases with judgments and inquiry records; separate established errors from allegations and protect affected people.",
+          "id": "BANK-100-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an expert acknowledge uncertainty without implying that all conclusions are equally weak?",
+          "coverage": "Compare validated result categories, strength of support and alternative explanations; avoid inventing numerical confidence where none is justified.",
+          "id": "BANK-100-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can disclosure of underlying data matter to evaluating an expert's conclusion?",
+          "coverage": "Use current official procedural rules and method records in a named jurisdiction; do not offer individualized litigation strategy.",
+          "id": "BANK-100-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D07",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    },
+    {
+      "title": "Ethical forensic media and research literacy",
+      "level": "advanced",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How should a crime documentary label an illustrative laboratory demonstration?",
+          "coverage": "Separate staged samples, real case findings and general method explanation; obtain permissions and avoid implying access to actual evidence.",
+          "id": "BANK-100-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does an error-rate study need before its results can support a public claim?",
+          "coverage": "Inspect task design, participants, ground truth, uncertainty and relevance to practice; do not transfer a rate blindly to a different method or case.",
+          "id": "BANK-100-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a forensic episode respect victims while questioning an official conclusion?",
+          "coverage": "Use primary records, attributed experts and careful status wording; avoid graphic sensationalism, private evidence exposure or directing audiences at suspects.",
+          "id": "BANK-100-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should a forensic mystery remain unresolved in the final edit?",
+          "coverage": "Identify missing records, untested assumptions and limits of public evidence; do not replace an unsupported answer with a dramatic accusation.",
+          "id": "BANK-100-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-100-D08",
+      "prerequisites": [
+        "CATALOG-100-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "010",
+      "title": "True Crime Documentary",
+      "directory": "010_true_crime_documentary",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "098",
+      "title": "Law & Justice",
+      "directory": "098_law_justice",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "099",
+      "title": "Intelligence & Espionage",
+      "directory": "099_intelligence_espionage",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "328",
+      "title": "Digital Forensics",
+      "directory": "328_digital_forensics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "100",
+    "slug": "forensics_investigation",
+    "name": "Forensics & Investigation",
+    "primary_category": "Crime_Safety_Public_Services",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Forensics & Investigation YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-100-01",
+        "title": "Forensic disciplines",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-100-001",
+            "title": "DNA profiling and population databases",
+            "question": "DNA profiling and population databases: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Forensic disciplines. Address DNA profiling and population databases through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define DNA profiling and population databases precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-002",
+            "title": "Fingerprint comparison uncertainty",
+            "question": "Fingerprint comparison uncertainty: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Forensic disciplines. Address Fingerprint comparison uncertainty through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Fingerprint comparison uncertainty precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-003",
+            "title": "Bloodstain interpretation limits",
+            "question": "Bloodstain interpretation limits: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Forensic disciplines. Address Bloodstain interpretation limits through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Bloodstain interpretation limits precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-004",
+            "title": "Forensic toxicology detection windows",
+            "question": "Forensic toxicology detection windows: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Forensic disciplines. Address Forensic toxicology detection windows through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Forensic toxicology detection windows precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-100-02",
+        "title": "Evidence handling",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-100-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-100-005",
+            "title": "Scene documentation and contamination",
+            "question": "Scene documentation and contamination: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Evidence handling. Address Scene documentation and contamination through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Scene documentation and contamination.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-006",
+            "title": "Chain-of-custody records",
+            "question": "Chain-of-custody records: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Evidence handling. Address Chain-of-custody records through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Chain-of-custody records.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-007",
+            "title": "Blinded forensic examination",
+            "question": "Blinded forensic examination: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Evidence handling. Address Blinded forensic examination through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Blinded forensic examination.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-008",
+            "title": "Expert testimony and validation",
+            "question": "Expert testimony and validation: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Evidence handling. Address Expert testimony and validation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Expert testimony and validation.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-100-03",
+        "title": "Digital and human factors",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-100-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-100-009",
+            "title": "Timestamp inconsistencies across devices",
+            "question": "Timestamp inconsistencies across devices: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Digital and human factors. Address Timestamp inconsistencies across devices through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Timestamp inconsistencies across devices precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-010",
+            "title": "Bias from contextual case information",
+            "question": "Bias from contextual case information: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Digital and human factors. Address Bias from contextual case information through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Bias from contextual case information precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-011",
+            "title": "Error rates in forensic methods",
+            "question": "Error rates in forensic methods: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Digital and human factors. Address Error rates in forensic methods through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Error rates in forensic methods precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-100-012",
+            "title": "Why a match is not a complete case theory",
+            "question": "Why a match is not a complete case theory: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Forensics & Investigation; branch: Digital and human factors. Address Why a match is not a complete case theory through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Why a match is not a complete case theory precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "010",
+        "title": "True Crime Documentary",
+        "directory": "010_true_crime_documentary",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "098",
+        "title": "Law & Justice",
+        "directory": "098_law_justice",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "099",
+        "title": "Intelligence & Espionage",
+        "directory": "099_intelligence_espionage",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "328",
+        "title": "Digital Forensics",
+        "directory": "328_digital_forensics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_07"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

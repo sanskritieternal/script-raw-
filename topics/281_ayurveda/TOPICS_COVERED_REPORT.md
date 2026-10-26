@@ -2,8 +2,8 @@
 > **Niche:** 281 Ayurveda (Medicine_Healthcare)  
 > **Storage Directory:** `topics/281_ayurveda/`  
 > **Synchronized With:** `OUTPUT/281_ayurveda/`, `REGISTRY/Niches/281_ayurveda/`, and `281_AYURVEDA_CHANNEL_TOPIC_ROADMAP.md`  
-> **Last Synced:** `2026-10-21 17:15:00`  
-> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)
+> **Last Synced:** `2026-10-22 15:09:18`  
+> **Production Format:** 10 to 30-Minute In-Depth Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)
 
 ---
 
@@ -11,67 +11,142 @@
 
 | Metric | Count | Percentage | Status |
 |---|---|---|---|
-| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |
-| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |
-| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |
-| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |
+| **Foundation Episodes Completed & Produced (Phases 0-5)** | **20** | **4.2%** | `COMPLETED IN OUTPUT (Ready for Rendering)` |
+| **Playlist Topic Bank Queue (20 Thematic Playlists)** | **292** | **61.1%** | `ACTIVE CURRICULUM QUEUE` |
+| **Botanical Documentary Franchise (20 Herbs x 8 Eps)** | **160** | **33.5%** | `PLANNED FRANCHISE REPERTORY` |
+| **Trending & High-Retention Candidates** | **6** | **1.3%** | `ALGORITHM & RETENTION OPTIMIZED` |
+| **Total Tracked Master Catalog** | **478** | **100%** | `Full Strategic Channel Architecture` |
 
 ---
 
 ## 1. Covered Topics (Done / Produced in OUTPUT)
-*Currently, 281 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*
+All 20 flagship foundation episodes are completely written through Phase 5 Final Audit in `OUTPUT/281_ayurveda/`:
 
 | # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |
 |---|---|---|---|---|---|
-| - | *No episodes compiled yet* | - | - | [OUTPUT/281_ayurveda](../../OUTPUT/281_ayurveda) | `QUEUED FOR BATCH COMPILATION` |
+| 1 | **Foundations of Ayurveda: Doshas, Agni, and Holistic Balance Explained** | Tier 1: Foundations (Scratch / Beginner) | `beginner_explainers` | [281_ayurveda_beginner_explainers_foundations_of_doshas_agni_and_balance](../../OUTPUT/281_ayurveda/281_ayurveda_beginner_explainers_foundations_of_doshas_agni_and_balance) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 2 | **Discovering Your Prakriti: How to Determine Your Ayurvedic Mind-Body Constitution** | Tier 1: Foundations (Scratch / Beginner) | `beginner_explainers` | [281_ayurveda_beginner_explainers_discovering_your_prakriti_ayurvedic_constitution](../../OUTPUT/281_ayurveda/281_ayurveda_beginner_explainers_discovering_your_prakriti_ayurvedic_constitution) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 3 | **The Philosophy of Health: Swasthya & The Definition of True Well-being** | Tier 1: Foundations (Scratch / Beginner) | `beginner_explainers` | [281_ayurveda_beginner_explainers_philosophy_of_health_swasthya_true_wellbeing](../../OUTPUT/281_ayurveda/281_ayurveda_beginner_explainers_philosophy_of_health_swasthya_true_wellbeing) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 4 | **Agni vs. Ama: The Root of Vitality and the Origin of Toxicity** | Tier 1: Foundations (Scratch / Beginner) | `beginner_explainers` | [281_ayurveda_beginner_explainers_agni_vs_ama_vitality_and_toxicity](../../OUTPUT/281_ayurveda/281_ayurveda_beginner_explainers_agni_vs_ama_vitality_and_toxicity) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 5 | **Dinacharya: The Science of the Ayurvedic Daily Circadian Routine** | Tier 2: Daily Lifestyle & Preventive Living (Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_dinacharya_science_of_circadian_routine](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_dinacharya_science_of_circadian_routine) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 6 | **Ritucharya: Seasonal Living and Preventing Disease Through Climate Transitions** | Tier 2: Daily Lifestyle & Preventive Living (Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_ritucharya_seasonal_living_and_climate_shifts](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_ritucharya_seasonal_living_and_climate_shifts) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 7 | **Ahara Vijnana: The 6 Tastes (Shad Rasa) and Ayurvedic Nutritional Science** | Tier 2: Daily Lifestyle & Preventive Living (Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_ahara_vijnana_six_tastes_nutritional_science](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_ahara_vijnana_six_tastes_nutritional_science) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 8 | **Viruddha Ahara: Incompatible Food Combinations and Gut Health** | Tier 2: Daily Lifestyle & Preventive Living (Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_viruddha_ahara_incompatible_food_combinations](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_viruddha_ahara_incompatible_food_combinations) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 9 | **Ayurvedic Sleep Science: Nidra, Insomnia, and Restorative Rest** | Tier 2: Daily Lifestyle & Preventive Living (Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_ayurvedic_sleep_science_nidra_restoration](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_ayurvedic_sleep_science_nidra_restoration) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 10 | **The Truth About Ashwagandha: Mechanism, Clinical Trials, and Safe Usage** | Tier 3: Formulations, Herbology & Therapies (Upper Intermediate) | `claim_evidence` | [281_ayurveda_claim_evidence_truth_about_ashwagandha_clinical_trials_safety](../../OUTPUT/281_ayurveda/281_ayurveda_claim_evidence_truth_about_ashwagandha_clinical_trials_safety) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 11 | **Triphala: The Chemistry and Therapeutic Power of Three Sacred Fruits** | Tier 3: Formulations, Herbology & Therapies (Upper Intermediate) | `claim_evidence` | [281_ayurveda_claim_evidence_triphala_chemistry_and_therapeutic_power](../../OUTPUT/281_ayurveda/281_ayurveda_claim_evidence_triphala_chemistry_and_therapeutic_power) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 12 | **Curcumin & Turmeric (Haridra): Ancient Panacea vs. Modern Bioavailability** | Tier 3: Formulations, Herbology & Therapies (Upper Intermediate) | `claim_evidence` | [281_ayurveda_claim_evidence_curcumin_turmeric_ancient_panacea_bioavailability](../../OUTPUT/281_ayurveda/281_ayurveda_claim_evidence_curcumin_turmeric_ancient_panacea_bioavailability) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 13 | **Panchakarma Demystified: The Five Classical Cleansing Therapies** | Tier 3: Formulations, Herbology & Therapies (Upper Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_panchakarma_demystified_five_cleansing_therapies](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_panchakarma_demystified_five_cleansing_therapies) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 14 | **Abhyanga and Snehana: The Physiology of Transdermal Herbal Oil Therapies** | Tier 3: Formulations, Herbology & Therapies (Upper Intermediate) | `how_it_works` | [281_ayurveda_how_it_works_abhyanga_and_snehana_transdermal_oil_therapies](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_abhyanga_and_snehana_transdermal_oil_therapies) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 15 | **Samprapti: The 6 Stages of Disease Progression in Ayurvedic Pathology** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `advanced_concepts` | [281_ayurveda_advanced_concepts_samprapti_six_stages_of_disease_pathology](../../OUTPUT/281_ayurveda/281_ayurveda_advanced_concepts_samprapti_six_stages_of_disease_pathology) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 16 | **Ashtavidha Pariksha: The 8-Fold Clinical Diagnostic Examination** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `advanced_concepts` | [281_ayurveda_advanced_concepts_ashtavidha_pariksha_eightfold_diagnostic_examination](../../OUTPUT/281_ayurveda/281_ayurveda_advanced_concepts_ashtavidha_pariksha_eightfold_diagnostic_examination) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 17 | **Rasa Shastra & Heavy Metal Safety: Classical Detoxification vs. Modern Toxicology** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `how_it_works` | [281_ayurveda_how_it_works_rasa_shastra_heavy_metal_safety_and_toxicology](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_rasa_shastra_heavy_metal_safety_and_toxicology) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 18 | **Ayurgenomics: How Ancient Prakriti Correlates with Modern DNA & Gene Expression** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `advanced_concepts` | [281_ayurveda_advanced_concepts_ayurgenomics_ancient_prakriti_and_modern_dna](../../OUTPUT/281_ayurveda/281_ayurveda_advanced_concepts_ayurgenomics_ancient_prakriti_and_modern_dna) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 19 | **Ayurveda for Gut Dysbiosis & Autoimmunity: Integrative Protocols** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `advanced_concepts` | [281_ayurveda_advanced_concepts_ayurveda_gut_dysbiosis_integrative_protocols](../../OUTPUT/281_ayurveda/281_ayurveda_advanced_concepts_ayurveda_gut_dysbiosis_integrative_protocols) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
+| 20 | **Critical Thinking in Herbal Medicine: Navigating Misinformation and Adulteration** | Tier 4: Advanced Concepts & Integrative Evidence (Advanced / Expert) | `how_it_works` | [281_ayurveda_how_it_works_critical_thinking_herbal_medicine_misinformation](../../OUTPUT/281_ayurveda/281_ayurveda_how_it_works_critical_thinking_herbal_medicine_misinformation) | <mark>**COMPLETED (Phases 0-5 Built)**</mark> |
 
 ---
 
-## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)
+## 2. Priority Next Launch Sequence (Suggested First 20 Uploads)
+Curated editorial launch queue balancing foundations, popular botanicals, daily living, and evidence reviews:
 
-| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |
+| # | Working Video Title | Recommended Angle | Target Tier | Launch Priority |
+|---|---|---|---|---|
+| 1 | **Ayurveda Explained: Beyond Herbs and Home Remedies** | `beginner_explainers` | Tier 1: Foundations | `QUEUED FOR PRODUCTION` |
+| 2 | **Ashwagandha: Rooted in Tradition** | `claim_evidence` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 3 | **Turmeric: The Golden Tradition** | `claim_evidence` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 4 | **Vata, Pitta, and Kapha Explained Simply** | `beginner_explainers` | Tier 1: Foundations | `QUEUED FOR PRODUCTION` |
+| 5 | **Tulsi: The Story Behind the Sacred Plant** | `history_origins` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 6 | **Amla: From Tree to Traditional Preparation** | `how_it_works` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 7 | **Agni: What Ayurveda Means by Digestive Fire** | `beginner_explainers` | Tier 1: Foundations | `QUEUED FOR PRODUCTION` |
+| 8 | **Fresh Ginger vs. Dried Ginger** | `how_it_works` | Tier 2: Daily Lifestyle & Dietetics | `QUEUED FOR PRODUCTION` |
+| 9 | **Triphala: Inside the Three-Fruit Formula** | `claim_evidence` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 10 | **A Realistic Ayurvedic Morning Routine** | `how_it_works` | Tier 2: Daily Lifestyle & Regimen | `QUEUED FOR PRODUCTION` |
+| 11 | **Brahmi vs. Mandukaparni: The Naming Confusion** | `myths_vs_facts` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 12 | **Ghee: Tradition, Nutrition, and Common Claims** | `myths_vs_facts` | Tier 2: Daily Lifestyle & Dietetics | `QUEUED FOR PRODUCTION` |
+| 13 | **Shatavari: The Plant Behind the Name** | `claim_evidence` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 14 | **Oil Pulling: Tradition and Evidence** | `how_it_works` | Tier 2: Daily Lifestyle & Regimen | `QUEUED FOR PRODUCTION` |
+| 15 | **Neem: Why the Plant Part Matters** | `how_it_works` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 16 | **Ayurvedic Body Types: What Quizzes Leave Out** | `beginner_explainers` | Tier 1: Foundations | `QUEUED FOR PRODUCTION` |
+| 17 | **Chyawanprash: What Is Inside the Jar?** | `how_it_works` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 18 | **Panchakarma: What It Actually Involves** | `how_it_works` | Tier 3: Formulations & Herbology | `QUEUED FOR PRODUCTION` |
+| 19 | **Natural Does Not Always Mean Safe** | `myths_vs_facts` | Tier 4: Advanced Concepts & Evidence | `QUEUED FOR PRODUCTION` |
+| 20 | **How to Read an Ayurvedic Supplement Label** | `how_it_works` | Tier 4: Advanced Concepts & Evidence | `QUEUED FOR PRODUCTION` |
+
+---
+
+## 3. The 20 Curated Playlists (282 Core Topics Summary)
+
+| Playlist # | Playlist Name | Core Theme | Topic Count | Key Focus |
+|---|---|---|---|---|
+| **1** | **Ayurveda Foundations** | Tradition Examined Through Research & Foundations | **18** | Beginner playlist explaining one core foundational concept per video. |
+| **2** | **Individual Herb Documentaries** | Botanical Stories | **24** | Deep-dive monographs giving each plant a recognizable botanical and evidence identity. |
+| **3** | **Kitchen Spices Through an Ayurvedic Lens** | Practical Lifestyle Education & Dietetics | **16** | Everyday culinary botanicals analyzed for flavor, digestive impact, and traditional uses. |
+| **4** | **Plant Anatomy and Identification** | Botanical Stories | **12** | Visual series exploring macro and micro botanical features, morphology, and authentication. |
+| **5** | **Ayurvedic Food Principles** | Practical Lifestyle Education & Dietetics | **16** | Ahara philosophy, meal timing, food compatibility, and culinary preparation dynamics. |
+| **6** | **Recipe and Food Demonstration Videos** | Practical Lifestyle Education & Dietetics | **14** | Step-by-step wholesome cooking without turning food into medical treatments. |
+| **7** | **Dinacharya: Daily Routine** | Practical Lifestyle Education & Daily Regimen | **14** | Actionable daily routines, circadian balance, and self-care practices for modern living. |
+| **8** | **Ritucharya: Seasonal Living** | Practical Lifestyle Education & Daily Regimen | **12** | Aligning nutrition, hydration, and habits with seasonal climate shifts and transitions. |
+| **9** | **Digestion and Gut Health Education** | Tradition Examined Through Research & Clinical Science | **12** | Bridging Agni, microbiome science, bloating, motility, and evidence-based GI evaluation. |
+| **10** | **Sleep, Stress, and Mental Wellbeing** | Practical Lifestyle Education & Mental Health | **12** | Ayurvedic Nidra, adaptogens, neurobiology, slow breathing, and sleep architecture. |
+| **11** | **Skin, Scalp, and Hair** | Botanical Stories & Practical Care | **12** | Traditional topical oils and botanicals compared with modern dermatological science. |
+| **12** | **Women’s Health and Life Stages** | Tradition Examined Through Research & Clinical Care | **12** | Qualified clinician-focused explainers across cycles, perimenopause, and maternal care. |
+| **13** | **Men’s Health and Healthy Ageing** | Tradition Examined Through Research & Healthy Ageing | **12** | Rasayana concepts, hormonal health, muscle maintenance, and supplement evaluation. |
+| **14** | **Classical Formulations and Preparation Methods** | Tradition Examined Through Research & Pharmaceutics | **12** | Inside traditional pharmaceutics: churnas, kwathas, ghritas, tailas, and asavas. |
+| **15** | **Panchakarma and Clinical Therapies** | Tradition Examined Through Research & Clinical Therapies | **14** | In-depth clinical exploration of classical fivefold detox therapies vs commercial spas. |
+| **16** | **Classical Texts, History, and People** | Tradition Examined Through Research & History | **16** | Manuscript history, historical figures, Brihat Trayi, Laghu Trayi, and medical evolution. |
+| **17** | **Research, Safety, and Product Literacy** | Tradition Examined Through Research & Product Safety | **16** | Critical thinking, reading clinical trials, testing certificates, and consumer safety. |
+| **18** | **Myth-Checking and Comparison Videos** | Tradition Examined Through Research & Myth-Busting | **16** | Rigorous investigation of viral wellness myths, exaggerated claims, and internet misconceptions. |
+| **19** | **Field Documentaries and Behind-the-Scenes Stories** | Botanical Stories & Field Reporting | **16** | Visual documentary series touring farms, botanical labs, processing centers, and archives. |
+| **20** | **Shorts and Recurring Micro-Series** | Short-Form Micro-Series & Audience Engagement | **16** | 60-second high-density visual explainers, quizzes, label audits, and terminology breakdowns. |
+
+---
+
+## 4. Botanical Documentary Franchise (20 Plants x 8 Episodes = 160 Episodes)
+Repeatable 8-episode documentary structure covering Botanical Identity, Anatomy, Traditional Context, Preparation, Research, Safety, Product Literacy, and Origin Story:
+
+| # | Botanical Name | Common Name | Commercial Part | 8-Part Series Status |
+|---|---|---|---|---|
+| 1 | *Withania somnifera* | **Ashwagandha** | Roots | `PLANNED (8 Episodes)` |
+| 2 | *Curcuma longa* | **Turmeric** | Rhizome | `PLANNED (8 Episodes)` |
+| 3 | *Ocimum sanctum / tenuiflorum* | **Tulsi** | Leaves & aerial parts | `PLANNED (8 Episodes)` |
+| 4 | *Phyllanthus emblica* | **Amla** | Fruit | `PLANNED (8 Episodes)` |
+| 5 | *Azadirachta indica* | **Neem** | Leaves, bark, seeds | `PLANNED (8 Episodes)` |
+| 6 | *Bacopa monnieri* | **Brahmi** | Whole creeping herb | `PLANNED (8 Episodes)` |
+| 7 | *Centella asiatica* | **Mandukaparni** | Fan-shaped leaves | `PLANNED (8 Episodes)` |
+| 8 | *Asparagus racemosus* | **Shatavari** | Tuberous roots | `PLANNED (8 Episodes)` |
+| 9 | *Tinospora cordifolia* | **Guduchi / Giloy** | Stem | `PLANNED (8 Episodes)` |
+| 10 | *Glycyrrhiza glabra* | **Mulethi / Yashtimadhu** | Root & stolon | `PLANNED (8 Episodes)` |
+| 11 | *Terminalia chebula* | **Haritaki** | Fruit pericarp | `PLANNED (8 Episodes)` |
+| 12 | *Terminalia bellirica* | **Bibhitaki** | Fruit | `PLANNED (8 Episodes)` |
+| 13 | *Terminalia arjuna* | **Arjuna** | Stem bark | `PLANNED (8 Episodes)` |
+| 14 | *Commiphora mukul* | **Guggulu** | Oleo-gum resin | `PLANNED (8 Episodes)` |
+| 15 | *Boerhavia diffusa* | **Punarnava** | Root & whole plant | `PLANNED (8 Episodes)` |
+| 16 | *Rubia cordifolia* | **Manjistha** | Roots & stems | `PLANNED (8 Episodes)` |
+| 17 | *Eclipta alba* | **Bhringraj** | Whole herb | `PLANNED (8 Episodes)` |
+| 18 | *Nardostachys jatamansi* | **Jatamansi** | Rhizomes & roots | `PLANNED (8 Episodes)` |
+| 19 | *Convolvulus pluricaulis* | **Shankhapushpi** | Whole flowering plant | `PLANNED (8 Episodes)` |
+| 20 | *Tribulus terrestris* | **Gokshura** | Spiny fruit & root | `PLANNED (8 Episodes)` |
+
+---
+
+## 5. Trending & High-Retention Topics (Algorithm & Search Optimized)
+
+| # | Trending Concept | Trend Velocity | Angle | Recommended Slug | Retention Hook & Value | Status |
 |---|---|---|---|---|---|---|
-| 1 | **The Architecture of Ayurveda: in Historical Sources** | Tier 1: Foundational Frameworks | `history_origins` | `ayurveda_in_historical_sources` | A rigorous pedagogical investigation exploring in historical sources through documented evidence. | `QUEUED (Priority #1 Launch)` |
-| 2 | **Ayurveda: A Widely Promoted Ayurvedic Remedy** | Tier 1: Foundational Frameworks | `famous_examples` | `ayurveda_a_widely_promoted_ayurvedic_remedy` | A rigorous pedagogical investigation exploring a widely promoted ayurvedic remedy through documented evidence. | `QUEUED` |
-| 3 | **Ayurveda: Patients and Practitioners in the Record** | Tier 1: Foundational Frameworks | `hidden_stories` | `ayurveda_patients_and_practitioners_in_the_record` | A rigorous pedagogical investigation exploring patients and practitioners in the record through documented evidence. | `QUEUED` |
-| 4 | **Ayurveda: Tradition, Product, and Clinical Claim** | Tier 1: Foundational Frameworks | `beginner_explainers` | `ayurveda_tradition_product_and_clinical_claim` | A rigorous pedagogical investigation exploring tradition, product, and clinical claim through documented evidence. | `QUEUED` |
-| 5 | **Ayurveda: Studying a Complex Intervention** | Tier 1: Foundational Frameworks | `advanced_concepts` | `ayurveda_studying_a_complex_intervention` | A rigorous pedagogical investigation exploring studying a complex intervention through documented evidence. | `QUEUED` |
-| 6 | **Ayurveda: A Reported Effect With Uncertain Cause** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `ayurveda_a_reported_effect_with_uncertain_cause` | A rigorous pedagogical investigation exploring a reported effect with uncertain cause through documented evidence. | `QUEUED` |
-| 7 | **Ayurveda: Testing and Tracking Preparations** | Tier 2: Methodological Deep Dives | `technology_innovation` | `ayurveda_testing_and_tracking_preparations` | A rigorous pedagogical investigation exploring testing and tracking preparations through documented evidence. | `QUEUED` |
-| 8 | **Ayurveda: A Practitioner or Researcher's Influence** | Tier 2: Methodological Deep Dives | `people_personalities` | `ayurveda_a_practitioner_or_researcher_s_influence` | A rigorous pedagogical investigation exploring a practitioner or researcher's influence through documented evidence. | `QUEUED` |
-| 9 | **Ayurveda: A Change in Ayurvedic Regulation** | Tier 2: Methodological Deep Dives | `major_events` | `ayurveda_a_change_in_ayurvedic_regulation` | A rigorous pedagogical investigation exploring a change in ayurvedic regulation through documented evidence. | `QUEUED` |
-| 10 | **Ayurveda: From Product Label to Safety Check** | Tier 2: Methodological Deep Dives | `how_it_works` | `ayurveda_from_product_label_to_safety_check` | A rigorous pedagogical investigation exploring from product label to safety check through documented evidence. | `QUEUED` |
-| 11 | **Ayurveda: A Treatment's Reputation Over Time** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `ayurveda_a_treatment_s_reputation_over_time` | A rigorous pedagogical investigation exploring a treatment's reputation over time through documented evidence. | `QUEUED` |
-| 12 | **Ayurveda: A Historical Claim and a Modern Test** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `ayurveda_a_historical_claim_and_a_modern_test` | A rigorous pedagogical investigation exploring a historical claim and a modern test through documented evidence. | `QUEUED` |
-| 13 | **Ayurveda: The Next Evidence Question** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `ayurveda_the_next_evidence_question` | A rigorous pedagogical investigation exploring the next evidence question through documented evidence. | `QUEUED` |
-| 14 | **Ayurveda: Natural Does Not Establish Safety** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `ayurveda_natural_does_not_establish_safety` | A rigorous pedagogical investigation exploring natural does not establish safety through documented evidence. | `QUEUED` |
-| 15 | **Ayurveda: A Product Claim's Paper Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `ayurveda_a_product_claim_s_paper_trail` | A rigorous pedagogical investigation exploring a product claim's paper trail through documented evidence. | `QUEUED` |
-| 16 | **Ayurveda: One Claim, One Outcome** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `claim_evidence` | `ayurveda_one_claim_one_outcome` | A rigorous pedagogical investigation exploring one claim, one outcome through documented evidence. | `QUEUED` |
-| 17 | **Ayurveda: Integrative Care Handoffs** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `care_pathway` | `ayurveda_integrative_care_handoffs` | A rigorous pedagogical investigation exploring integrative care handoffs through documented evidence. | `QUEUED` |
-| 18 | **Ayurveda: Benefits and Harms in One Study** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `benefit_harm` | `ayurveda_benefits_and_harms_in_one_study` | A rigorous pedagogical investigation exploring benefits and harms in one study through documented evidence. | `QUEUED` |
-| 19 | **Ayurveda: Plausibility and Patient Outcomes** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `mechanism_vs_outcome` | `ayurveda_plausibility_and_patient_outcomes` | A rigorous pedagogical investigation exploring plausibility and patient outcomes through documented evidence. | `QUEUED` |
-| 20 | **Ayurveda: Who Was Actually Studied?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `population_difference` | `ayurveda_who_was_actually_studied` | A rigorous pedagogical investigation exploring who was actually studied? through documented evidence. | `QUEUED` |
+| 1 | **Shilajit: The Himalayan Resin Explained — Testosterone, Fulvic Acid & Lab Scams** | **Trending #1 (Ultra High Volume)** | `claim_evidence` | `shilajit_resin_fulvic_acid_testosterone_lab_testing` | Massive viral explosion across fitness & wellness YouTube; consumers desperate for lab purity checks. | `Queued` |
+| 2 | **The Golden Milk Trend: Ancient Turmeric Latte Recipe vs Viral TikTok Mistakes** | **High Ever-Green Trend** | `myths_vs_facts` | `golden_milk_turmeric_latte_ayurvedic_science_vs_tiktok` | Global viral drink; breaks down critical fat-piperine absorption mistakes viewers make. | `Queued` |
+| 3 | **Castor Oil Packs & Navel Oiling (Nabhi Chikitsa): Fact vs Pseudoscience** | **Viral Trend (High TikTok & Shorts Spike)** | `myths_vs_facts` | `castor_oil_nabhi_chikitsa_navel_oiling_science_vs_hype` | Flooding social feeds; requires grounded historical text verification vs modern internet claims. | `Queued` |
+| 4 | **Somatic Fasting (Langhana): How Ayurvedic Fasting Stimulates Autophagy** | **Trending Scientific Angle** | `how_it_works` | `ayurvedic_fasting_langhana_autophagy_cellular_longevity` | Bridges ancient fasting classifications (Langhana) with modern Nobel Prize autophagy science. | `Queued` |
+| 5 | **Copper Water Vessels (Tamra Jal): Antimicrobial Power vs Copper Toxicity Risks** | **High Search Everyday Query** | `how_it_works` | `copper_water_tamra_jal_antimicrobial_benefits_and_toxicity` | Ubiquitous household health habit; viewers need safety guidelines (8-hour limit) to avoid heavy metal toxicity. | `Queued` |
+| 6 | **Adaptogens for High-Performance: Ashwagandha vs Holy Basil (Tulsi) for Cortisol** | **High Productivity/Wellness Crossover** | `claim_evidence` | `adaptogens_ashwagandha_vs_tulsi_holy_basil_cortisol_stress` | High RPM audience of biohackers, entrepreneurs, and busy professionals seeking burnout relief. | `Queued` |
 
 ---
 
-## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)
-
-| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |
-|---|---|---|---|---|---|---|
-| 21 | **Ayurveda: Record Extremes & Superlatives** | **98** | `extreme_case` | `ayurveda_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |
-| 22 | **Ayurveda: A Reported Effect With Uncertain Cause** | **96** | `mysteries_unsolved_cases` | `ayurveda_mysteries_unsolved_cases` | High viral search interest exploring what evidence would separate treatment effect from recovery, placebo, or selection backed by field records. | `Queued` |
-| 23 | **Ayurveda: Testing and Tracking Preparations** | **95** | `technology_innovation` | `ayurveda_technology_innovation` | High viral search interest exploring can one testing or traceability method improve the safety of ayurvedic products backed by field records. | `Queued` |
-| 24 | **Ayurveda: Natural Does Not Establish Safety** | **94** | `myths_vs_facts` | `ayurveda_myths_vs_facts` | High viral search interest exploring which safety claim about a named product survives product-specific testing backed by field records. | `Queued` |
-| 25 | **Ayurveda: A Change in Ayurvedic Regulation** | **93** | `major_events` | `ayurveda_major_events` | High viral search interest exploring what changed after one dated safety or practice rule backed by field records. | `Queued` |
-| 26 | **Ayurveda: Patients and Practitioners in the Record** | **92** | `hidden_stories` | `ayurveda_hidden_stories` | High viral search interest exploring whose experience is missing from a familiar history of ayurvedic care backed by field records. | `Queued` |
-| 27 | **Ayurveda: A Product Claim's Paper Trail** | **91** | `documentary_stories` | `ayurveda_documentary_stories` | High viral search interest exploring how did one ayurvedic claim move from source text to modern marketing backed by field records. | `Queued` |
-
----
-
-## 4. Cross-Document Sync & File Linkages
-This report is wired directly into the repository structure:
-- **Master Channel Roadmap:** [`topics/281_ayurveda/281_AYURVEDA_CHANNEL_TOPIC_ROADMAP.md`](./281_AYURVEDA_CHANNEL_TOPIC_ROADMAP.md)
-- **Machine Status File:** [`topics/281_ayurveda/topics_status.json`](./topics_status.json)
+## 6. Cross-Document Sync & File Linkages
+- **Master Channel Roadmap:** [`topics/281_ayurveda/281_AYURVEDA_CHANNEL_TOPIC_ROADMAP.md`](file:///h:/script-raw-/topics/281_ayurveda/281_AYURVEDA_CHANNEL_TOPIC_ROADMAP.md)
+- **Output Topic Roadmap:** [`OUTPUT/281_ayurveda/AYURVEDA_CHANNEL_TOPIC_ROADMAP.md`](file:///h:/script-raw-/OUTPUT/281_ayurveda/AYURVEDA_CHANNEL_TOPIC_ROADMAP.md)
+- **Machine Status JSON:** [`topics/281_ayurveda/topics_status.json`](file:///h:/script-raw-/topics/281_ayurveda/topics_status.json)
 - **Niche Registry Home:** [`REGISTRY/Niches/281_ayurveda/NICHE_281_ayurveda.md`](file:///h:/script-raw-/REGISTRY/Niches/281_ayurveda/NICHE_281_ayurveda.md)
 - **Category Configuration:** [`REGISTRY/Niches/281_ayurveda/CAT_281_ayurveda.md`](file:///h:/script-raw-/REGISTRY/Niches/281_ayurveda/CAT_281_ayurveda.md)
 - **Angle Plan Data:** [`REGISTRY/Niches/281_ayurveda/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/281_ayurveda/ANGLE_PLAN.json)
@@ -79,3 +154,7 @@ This report is wired directly into the repository structure:
 
 ---
 *Generated by Script-Raw Workspace Topic Tracking Engine.*
+
+## Reconciled topic-bank connection
+
+[Main topic bank](IN_DEPTH_TOPIC_BANK.md) · [Reconciliation, counts and remaining coverage](TOPIC_BANK_RECONCILIATION.md). The original execution report above is preserved; its production/trend claims were not independently re-verified by this topic-bank work.

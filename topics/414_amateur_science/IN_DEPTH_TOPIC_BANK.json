@@ -1,0 +1,1538 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "414",
+  "slug": "amateur_science",
+  "name": "Amateur Science",
+  "primary_category": "Math_Scientific_Methods",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Amateur Science YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-414-R01",
+      "title": "Experimental foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-414-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f71d93a4081870224ab9fdc117489e5882a42d06f641d4e7d3a556e941b96159",
+      "topics": [
+        {
+          "question": "Why does a control group not solve every experimental problem?",
+          "coverage": "Compare confounding, measurement and assignment in a safe example.",
+          "id": "BANK-414-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a household measurement be calibrated without laboratory equipment?",
+          "coverage": "Use reference comparisons and acknowledge traceability limits.",
+          "id": "BANK-414-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-414-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R02",
+      "title": "Experimental methods",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-414-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c67f13a7de733caadc06f3aff5254613e953b67e50f8ed4914320b9a1b3f50db",
+      "topics": [
+        {
+          "question": "When do repeated measurements fail to count as independent replicates?",
+          "coverage": "Separate multiple readings from independent experimental units.",
+          "id": "BANK-414-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a small experiment be preregistered before results are known?",
+          "coverage": "Record hypotheses, exclusions and planned comparisons.",
+          "id": "BANK-414-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R03",
+      "title": "Interpreting results",
+      "level": "advanced",
+      "parent_id": "DOMAIN-414-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5a84ee736f0316517f9132a55aa2928caa7ce6f8beaa84081f7217764bb17d06",
+      "topics": [
+        {
+          "question": "What can a null result establish in an amateur experiment?",
+          "coverage": "Discuss sensitivity, uncertainty and competing explanations.",
+          "id": "BANK-414-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can citizen-science observations be audited for sampling bias?",
+          "coverage": "Map participation, geography and missing observations.",
+          "id": "BANK-414-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did a GLOBE Clouds satellite-matching correction change the matched citizen-observation dataset?",
+          "coverage": "Use GLOBE?s version notes for the erroneous 0.15-hour versus intended 0.25-hour window and the reprocessed matches; distinguish a processing correction from changes to volunteer observations or proof of individual accuracy.",
+          "id": "BANK-414-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R04",
+      "title": "Safe experiments",
+      "level": "foundation",
+      "parent_id": "DOMAIN-414-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c152ed43cb03a485129c8fa37eb5e69b1df273c6f31a363a87879beb9d749bb6",
+      "topics": [
+        {
+          "question": "How can plant-growth and evaporation experiments isolate a meaningful variable?",
+          "coverage": "Compare controls, repeat measurements and low-risk materials.",
+          "id": "BANK-414-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-414-001",
+            "BANK-414-003",
+            "BANK-414-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R05",
+      "title": "Safe experiments",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-414-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "cf06a5b9dc08b36c1ade47195f2316419fc1edf32a52086ba69ef4e8afd8eff2",
+      "topics": [
+        {
+          "question": "How does a pendulum experiment separate timing error from a real pattern?",
+          "coverage": "Track length, repeated observations and uncertainty.",
+          "id": "BANK-414-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-414-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R06",
+      "title": "Reproducible reporting",
+      "level": "advanced",
+      "parent_id": "DOMAIN-414-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bf075de5be6847532763d625992297db386865898f7a930a548ffc27823c293d",
+      "topics": [
+        {
+          "question": "What must an amateur experiment report so another person can repeat it?",
+          "coverage": "Include calibration, independent replicates, error bars and safety exclusions.",
+          "id": "BANK-414-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-414-006",
+            "BANK-414-005",
+            "BANK-414-008",
+            "BANK-414-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R07",
+      "title": "Community weather monitoring",
+      "level": "foundation",
+      "parent_id": "DOMAIN-414-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "358a9381db9724d4da2caa5c4d42f81d54597ffc9fc6b527befe53e7d14d4044",
+      "topics": [
+        {
+          "question": "How can a neighborhood weather network compare sensors fairly?",
+          "coverage": "Standardize placement records and instrument checks.",
+          "id": "BANK-414-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R08",
+      "title": "Simple optics experiments",
+      "level": "foundation",
+      "parent_id": "DOMAIN-414-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "eb7f047476d0dfa44bf40c55e90f53e6abe27e0e1c9e91063062c5fd9006c195",
+      "topics": [
+        {
+          "question": "How can a low-risk lens experiment separate focus from magnification?",
+          "coverage": "Control geometry and record measurement uncertainty.",
+          "id": "BANK-414-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R09",
+      "title": "Open laboratory notebooks",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-414-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c93c5cbd52d58d19782ab93844d1de253b1eeaf713edd6e929116e5a8d9fd644",
+      "topics": [
+        {
+          "question": "What should an open notebook preserve when an experiment changes midstream?",
+          "coverage": "Record original plans, deviations and failed attempts.",
+          "id": "BANK-414-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-414-R10",
+      "title": "Observational study design",
+      "level": "advanced",
+      "parent_id": "DOMAIN-414-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4fe95f218d6f88d2bcae83909d8d1a12867f84aa26ee5f9780e51f5007be9e1c",
+      "topics": [
+        {
+          "question": "What can an amateur observational study infer without controlling exposure?",
+          "coverage": "Compare sampling, confounding and appropriate questions.",
+          "id": "BANK-414-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/414_amateur_science/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "9818dd244e550ab005c11225afd06fe44388934b3bcf21e914780c43879f62c8",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-414-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "df346d78c5a5a2526ba5d3c443fced91dd57230505d4510d89ef03c434a429b5"
+      },
+      "BANK-414-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b0814b019ffcad7eea114c553d9ab1db7de523451e6e06ce0369b989584bffb2"
+      },
+      "BANK-414-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "aad3c88f4817d455919131983ecea88faad16d3dbdc265743e88786940d915b5"
+      },
+      "BANK-414-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b7ba967a442a3c2812018b718c7890b9a2a0a07466062dd24ec5db4836aecf81"
+      },
+      "BANK-414-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5b81231597c24ab3c87eb1b1e355b0a7fce9e24daaf205edb13a2e065adb936b"
+      },
+      "BANK-414-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9b78eab5536292e9722841c1d02dd12fa2e6dfdd85075c991fd8ca1e95456f81"
+      },
+      "BANK-414-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4ceba0a7c6abf056f4417a17c172b56c92d25feb57e2102c2f56a8c68100e72b"
+      },
+      "BANK-414-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "66859461d03c240cb0cfb54c57f8ea61af866b5435236a33c5801282cb8fd666"
+      },
+      "BANK-414-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5fdd1094e6e9821d4be76c1065ae40b57c900e26cd3a66c9946a3d12534cccb0"
+      }
+    },
+    "source_categories": {
+      "CATALOG-414-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "09c5313d8b017b635a63e895630319e1cdfde70d40b5bdc39787f1d3e78450be"
+      },
+      "CATALOG-414-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "f0c759180d76e38737f0df6294e36b8b5e4fe0456dcfabbf664bd5b9d9201676"
+      },
+      "CATALOG-414-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "61bac608fddbfb6f77905373cee11c4bdc5c246463bfb62d610ff0775f17ccef"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "414_AMATEUR_SCIENCE_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "d55760a83db91df5fd56cd492c788084d135494344fb0b128e12a6702fa0dd34",
+        "original_text": "# Amateur Science Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 414 Amateur Science (Math_Scientific_Methods)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Amateur Science Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/414_amateur_science/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Amateur Science across four progressive tiers:\r\n- **Tier 1: Amateur Science Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Amateur Science.\r\n- **Tier 2: Amateur Science Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Amateur Science.\r\n- **Tier 3: Amateur Science Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Amateur Science.\r\n- **Tier 4: Amateur Science Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Amateur Science.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/414_amateur_science/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/414_amateur_science/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Volunteer Observation Program** | *Which dated project made nonprofessional observations useful for one question?* |\r\n| 2 | `famous_examples` | **A Citizen-Science Result Rechecked** | *What did volunteer measurements actually establish?* |\r\n| 3 | `hidden_stories` | **Volunteers behind the Data** | *Whose repeated classification or sampling work was essential?* |\r\n| 4 | `beginner_explainers` | **Question to Record** | *How can one observable variable be defined and logged?* |\r\n| 5 | `advanced_concepts` | **Bias in Volunteer Data** | *How do self-selected participants or uneven coverage affect inference?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unconfirmed Observation** | *What independent evidence is needed before announcing a finding?* |\r\n| 7 | `technology_innovation` | **An Affordable Sensor** | *Does a new device improve the accuracy or reach of one project?* |\r\n| 8 | `people_personalities` | **A Volunteer Finds a Pattern** | *How did a named contributor's observation enter scientific review?* |\r\n| 9 | `major_events` | **A Project Changes Protocol** | *What data comparability changed after a dated method update?* |\r\n| 10 | `how_it_works` | **From Field Note to Data Set** | *How are observations submitted, checked, corrected, and preserved?* |\r\n| 11 | `rise_fall` | **A Crowdsourced Claim Corrected** | *Which measurement or selection issue changed a conclusion?* |\r\n| 12 | `then_vs_now` | **One Site over Time** | *Can volunteer observations support a trend?* |\r\n| 13 | `future_developments` | **A Proposed Citizen Project** | *Which training, sampling, and data-management questions remain?* |\r\n| 14 | `myths_vs_facts` | **More Data Means Better Data?** | *When does inconsistent sampling overwhelm a larger count?* |\r\n| 15 | `documentary_stories` | **One Observation's Journey** | *How did a report become a verified data point or rejection?* |\r\n| 16 | `observation_to_explanation` | **Pattern versus Cause** | *What alternative processes could create a reported correlation?* |\r\n| 17 | `measurement_method` | **Calibration before Collection** | *Which standard or reference check supports a volunteer measurement?* |\r\n| 18 | `scale_and_timespan` | **From Local to Regional Claim** | *How far can one volunteer network's data generalize?* |\r\n| 19 | `field_vs_lab` | **Field Sensor and Reference Lab** | *How do controls and environments differ?* |\r\n| 20 | `natural_variation` | **Expected Noise** | *Which background variation must a project measure?* |\r\n| 21 | `mechanism_chain` | **From Observation to Hypothesis** | *Which proposed causal steps are tested?* |\r\n| 22 | `extreme_case` | **An Outlier Submission** | *Is a striking report real, error, or rare condition?* |\r\n| 23 | `classification_debate` | **What Counts as a Positive Case?** | *How does an operational definition change a project's tally?* |\r\n| 24 | `interacting_systems` | **Several Drivers at One Site** | *Which weather, land use, or human factors overlap?* |\r\n| 25 | `data_gap` | **Missing Metadata** | *Which absent time, site, or instrument detail blocks reuse?* |\r\n| 26 | `prediction_test` | **A Pre-Registered Check** | *What future observation would challenge a favored explanation?* |\r\n| 27 | `human_impact` | **Who Benefits from the Project?** | *Do local participants gain access to results and decisions?* |\r\n| 28 | `field_proof_or_test` | **Evidence for a Claim** | *Does a hypothesis need repeat measurement, experiment, or formal proof?* |\r\n| 29 | `field_definition_choice` | **What Is Being Counted?** | *Which definition makes two volunteer observations comparable?* |\r\n| 30 | `field_model_assumptions` | **A Volunteer-Data Model** | *Which coverage and error assumptions drive the result?* |\r\n| 31 | `field_counterexample` | **A Case That Breaks the Rule** | *Which observation contradicts a proposed generalization?* |\r\n| 32 | `field_teaching_difficulty` | **Training New Contributors** | *Where do volunteers misread the protocol, and which examples help?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Amateur Science: A Volunteer Observation Program**\r\n   - *Question:* Which dated project made nonprofessional observations useful for one question?\r\n   - *Key Focus:* Trace protocol, data, and credited contributors. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n2. **Amateur Science: A Citizen-Science Result Rechecked**\r\n   - *Question:* What did volunteer measurements actually establish?\r\n   - *Key Focus:* Read methods, validation, uncertainty, and publication. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n3. **Amateur Science: Volunteers behind the Data**\r\n   - *Question:* Whose repeated classification or sampling work was essential?\r\n   - *Key Focus:* Use contribution and credit records. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n4. **Amateur Science: Question to Record**\r\n   - *Question:* How can one observable variable be defined and logged?\r\n   - *Key Focus:* Specify unit, site, date, instrument, and consent. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n5. **Amateur Science: Bias in Volunteer Data**\r\n   - *Question:* How do self-selected participants or uneven coverage affect inference?\r\n   - *Key Focus:* Map sampling frame and missing places. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Amateur Science: An Unconfirmed Observation**\r\n   - *Question:* What independent evidence is needed before announcing a finding?\r\n   - *Key Focus:* Check calibration, replication, and alternative causes. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n7. **Amateur Science: An Affordable Sensor**\r\n   - *Question:* Does a new device improve the accuracy or reach of one project?\r\n   - *Key Focus:* Compare calibration and reference data. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n8. **Amateur Science: A Volunteer Finds a Pattern**\r\n   - *Question:* How did a named contributor's observation enter scientific review?\r\n   - *Key Focus:* Trace submission, verification, and credit. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n9. **Amateur Science: A Project Changes Protocol**\r\n   - *Question:* What data comparability changed after a dated method update?\r\n   - *Key Focus:* Compare manuals and old versus new records. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n10. **Amateur Science: From Field Note to Data Set**\r\n   - *Question:* How are observations submitted, checked, corrected, and preserved?\r\n   - *Key Focus:* Follow an actual project workflow. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Amateur Science: A Crowdsourced Claim Corrected**\r\n   - *Question:* Which measurement or selection issue changed a conclusion?\r\n   - *Key Focus:* Use original and revised analysis. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n12. **Amateur Science: One Site over Time**\r\n   - *Question:* Can volunteer observations support a trend?\r\n   - *Key Focus:* Check consistent methods, missing periods, and external drivers. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n13. **Amateur Science: A Proposed Citizen Project**\r\n   - *Question:* Which training, sampling, and data-management questions remain?\r\n   - *Key Focus:* Treat design as conditional. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n14. **Amateur Science: More Data Means Better Data?**\r\n   - *Question:* When does inconsistent sampling overwhelm a larger count?\r\n   - *Key Focus:* Compare validation and bias metrics. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n15. **Amateur Science: One Observation's Journey**\r\n   - *Question:* How did a report become a verified data point or rejection?\r\n   - *Key Focus:* Trace dated review and response. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Amateur Science: Pattern versus Cause**\r\n   - *Question:* What alternative processes could create a reported correlation?\r\n   - *Key Focus:* Specify plausible confounders and tests. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n17. **Amateur Science: Calibration before Collection**\r\n   - *Question:* Which standard or reference check supports a volunteer measurement?\r\n   - *Key Focus:* Record procedure and drift. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n18. **Amateur Science: From Local to Regional Claim**\r\n   - *Question:* How far can one volunteer network's data generalize?\r\n   - *Key Focus:* Map site density and time coverage. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n19. **Amateur Science: Field Sensor and Reference Lab**\r\n   - *Question:* How do controls and environments differ?\r\n   - *Key Focus:* Compare matched samples and uncertainty. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n20. **Amateur Science: Expected Noise**\r\n   - *Question:* Which background variation must a project measure?\r\n   - *Key Focus:* Use repeated observations and uncertainty interval. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 414 (Amateur Science)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Amateur Science: A Volunteer Observation Program*\r\n- **Episode Slug:** `414_amateur_science_deep_dive_the_architecture_of_amateur_science_a_volunteer_observation_`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/414_amateur_science/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "1c8102f659577c07fc76c6a61b14fd4913b65a583d3cd87f07285f070ade20f1",
+        "original_text": "# 414 Amateur Science -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 414 Amateur Science (Math_Scientific_Methods)  \r\n> **Storage Directory:** `topics/414_amateur_science/`  \r\n> **Synchronized With:** `OUTPUT/414_amateur_science/`, `REGISTRY/Niches/414_amateur_science/`, and `414_AMATEUR_SCIENCE_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 414 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/414_amateur_science](../../OUTPUT/414_amateur_science) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Amateur Science: A Volunteer Observation Program** | Tier 1: Foundational Frameworks | `history_origins` | `amateur_science_a_volunteer_observation_program` | A rigorous pedagogical investigation exploring a volunteer observation program through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Amateur Science: A Citizen-Science Result Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `amateur_science_a_citizen_science_result_rechecked` | A rigorous pedagogical investigation exploring a citizen-science result rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Amateur Science: Volunteers behind the Data** | Tier 1: Foundational Frameworks | `hidden_stories` | `amateur_science_volunteers_behind_the_data` | A rigorous pedagogical investigation exploring volunteers behind the data through documented evidence. | `QUEUED` |\r\n| 4 | **Amateur Science: Question to Record** | Tier 1: Foundational Frameworks | `beginner_explainers` | `amateur_science_question_to_record` | A rigorous pedagogical investigation exploring question to record through documented evidence. | `QUEUED` |\r\n| 5 | **Amateur Science: Bias in Volunteer Data** | Tier 1: Foundational Frameworks | `advanced_concepts` | `amateur_science_bias_in_volunteer_data` | A rigorous pedagogical investigation exploring bias in volunteer data through documented evidence. | `QUEUED` |\r\n| 6 | **Amateur Science: An Unconfirmed Observation** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `amateur_science_an_unconfirmed_observation` | A rigorous pedagogical investigation exploring an unconfirmed observation through documented evidence. | `QUEUED` |\r\n| 7 | **Amateur Science: An Affordable Sensor** | Tier 2: Methodological Deep Dives | `technology_innovation` | `amateur_science_an_affordable_sensor` | A rigorous pedagogical investigation exploring an affordable sensor through documented evidence. | `QUEUED` |\r\n| 8 | **Amateur Science: A Volunteer Finds a Pattern** | Tier 2: Methodological Deep Dives | `people_personalities` | `amateur_science_a_volunteer_finds_a_pattern` | A rigorous pedagogical investigation exploring a volunteer finds a pattern through documented evidence. | `QUEUED` |\r\n| 9 | **Amateur Science: A Project Changes Protocol** | Tier 2: Methodological Deep Dives | `major_events` | `amateur_science_a_project_changes_protocol` | A rigorous pedagogical investigation exploring a project changes protocol through documented evidence. | `QUEUED` |\r\n| 10 | **Amateur Science: From Field Note to Data Set** | Tier 2: Methodological Deep Dives | `how_it_works` | `amateur_science_from_field_note_to_data_set` | A rigorous pedagogical investigation exploring from field note to data set through documented evidence. | `QUEUED` |\r\n| 11 | **Amateur Science: A Crowdsourced Claim Corrected** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `amateur_science_a_crowdsourced_claim_corrected` | A rigorous pedagogical investigation exploring a crowdsourced claim corrected through documented evidence. | `QUEUED` |\r\n| 12 | **Amateur Science: One Site over Time** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `amateur_science_one_site_over_time` | A rigorous pedagogical investigation exploring one site over time through documented evidence. | `QUEUED` |\r\n| 13 | **Amateur Science: A Proposed Citizen Project** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `amateur_science_a_proposed_citizen_project` | A rigorous pedagogical investigation exploring a proposed citizen project through documented evidence. | `QUEUED` |\r\n| 14 | **Amateur Science: More Data Means Better Data?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `amateur_science_more_data_means_better_data` | A rigorous pedagogical investigation exploring more data means better data? through documented evidence. | `QUEUED` |\r\n| 15 | **Amateur Science: One Observation's Journey** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `amateur_science_one_observation_s_journey` | A rigorous pedagogical investigation exploring one observation's journey through documented evidence. | `QUEUED` |\r\n| 16 | **Amateur Science: Pattern versus Cause** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `observation_to_explanation` | `amateur_science_pattern_versus_cause` | A rigorous pedagogical investigation exploring pattern versus cause through documented evidence. | `QUEUED` |\r\n| 17 | **Amateur Science: Calibration before Collection** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `measurement_method` | `amateur_science_calibration_before_collection` | A rigorous pedagogical investigation exploring calibration before collection through documented evidence. | `QUEUED` |\r\n| 18 | **Amateur Science: From Local to Regional Claim** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `scale_and_timespan` | `amateur_science_from_local_to_regional_claim` | A rigorous pedagogical investigation exploring from local to regional claim through documented evidence. | `QUEUED` |\r\n| 19 | **Amateur Science: Field Sensor and Reference Lab** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_vs_lab` | `amateur_science_field_sensor_and_reference_lab` | A rigorous pedagogical investigation exploring field sensor and reference lab through documented evidence. | `QUEUED` |\r\n| 20 | **Amateur Science: Expected Noise** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `natural_variation` | `amateur_science_expected_noise` | A rigorous pedagogical investigation exploring expected noise through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Amateur Science: An Outlier Submission** | **98** | `extreme_case` | `amateur_science_extreme_case` | High viral search interest exploring is a striking report real, error, or rare condition backed by field records. | `Queued` |\r\n| 22 | **Amateur Science: An Unconfirmed Observation** | **96** | `mysteries_unsolved_cases` | `amateur_science_mysteries_unsolved_cases` | High viral search interest exploring what independent evidence is needed before announcing a finding backed by field records. | `Queued` |\r\n| 23 | **Amateur Science: An Affordable Sensor** | **95** | `technology_innovation` | `amateur_science_technology_innovation` | High viral search interest exploring does a new device improve the accuracy or reach of one project backed by field records. | `Queued` |\r\n| 24 | **Amateur Science: More Data Means Better Data?** | **94** | `myths_vs_facts` | `amateur_science_myths_vs_facts` | High viral search interest exploring when does inconsistent sampling overwhelm a larger count backed by field records. | `Queued` |\r\n| 25 | **Amateur Science: A Project Changes Protocol** | **93** | `major_events` | `amateur_science_major_events` | High viral search interest exploring what data comparability changed after a dated method update backed by field records. | `Queued` |\r\n| 26 | **Amateur Science: Volunteers behind the Data** | **92** | `hidden_stories` | `amateur_science_hidden_stories` | High viral search interest exploring whose repeated classification or sampling work was essential backed by field records. | `Queued` |\r\n| 27 | **Amateur Science: One Observation's Journey** | **91** | `documentary_stories` | `amateur_science_documentary_stories` | High viral search interest exploring how did a report become a verified data point or rejection backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/414_amateur_science/414_AMATEUR_SCIENCE_CHANNEL_TOPIC_ROADMAP.md`](./414_AMATEUR_SCIENCE_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/414_amateur_science/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/414_amateur_science/NICHE_414_amateur_science.md`](file:///h:/script-raw-/REGISTRY/Niches/414_amateur_science/NICHE_414_amateur_science.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/414_amateur_science/CAT_414_amateur_science.md`](file:///h:/script-raw-/REGISTRY/Niches/414_amateur_science/CAT_414_amateur_science.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/414_amateur_science/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/414_amateur_science/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/414_amateur_science/`](file:///h:/script-raw-/OUTPUT/414_amateur_science/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "6c918f83c1f134c0536dece2aba43efa852778b9d7cebcbf6dea6f5d867c6698",
+        "original_text": "{\r\n  \"niche_id\": \"414\",\r\n  \"niche_name\": \"amateur_science\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Amateur Science: A Volunteer Observation Program\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"amateur_science_a_volunteer_observation_program\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a volunteer observation program through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Amateur Science: A Citizen-Science Result Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"amateur_science_a_citizen_science_result_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a citizen-science result rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Amateur Science: Volunteers behind the Data\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"amateur_science_volunteers_behind_the_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring volunteers behind the data through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Amateur Science: Question to Record\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"amateur_science_question_to_record\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring question to record through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Amateur Science: Bias in Volunteer Data\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"amateur_science_bias_in_volunteer_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring bias in volunteer data through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Amateur Science: An Unconfirmed Observation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"amateur_science_an_unconfirmed_observation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unconfirmed observation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Amateur Science: An Affordable Sensor\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"amateur_science_an_affordable_sensor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an affordable sensor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Amateur Science: A Volunteer Finds a Pattern\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"amateur_science_a_volunteer_finds_a_pattern\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a volunteer finds a pattern through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Amateur Science: A Project Changes Protocol\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"amateur_science_a_project_changes_protocol\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a project changes protocol through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Amateur Science: From Field Note to Data Set\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"amateur_science_from_field_note_to_data_set\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from field note to data set through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Amateur Science: A Crowdsourced Claim Corrected\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"amateur_science_a_crowdsourced_claim_corrected\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a crowdsourced claim corrected through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Amateur Science: One Site over Time\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"amateur_science_one_site_over_time\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one site over time through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Amateur Science: A Proposed Citizen Project\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"amateur_science_a_proposed_citizen_project\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed citizen project through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Amateur Science: More Data Means Better Data?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"amateur_science_more_data_means_better_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring more data means better data? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Amateur Science: One Observation's Journey\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"amateur_science_one_observation_s_journey\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one observation's journey through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Amateur Science: Pattern versus Cause\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"observation_to_explanation\",\r\n      \"slug\": \"amateur_science_pattern_versus_cause\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring pattern versus cause through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Amateur Science: Calibration before Collection\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"amateur_science_calibration_before_collection\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring calibration before collection through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Amateur Science: From Local to Regional Claim\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"scale_and_timespan\",\r\n      \"slug\": \"amateur_science_from_local_to_regional_claim\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from local to regional claim through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Amateur Science: Field Sensor and Reference Lab\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"amateur_science_field_sensor_and_reference_lab\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring field sensor and reference lab through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Amateur Science: Expected Noise\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"natural_variation\",\r\n      \"slug\": \"amateur_science_expected_noise\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring expected noise through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Amateur Science: An Outlier Submission\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"amateur_science_extreme_case\",\r\n      \"why_trending\": \"High viral search interest exploring is a striking report real, error, or rare condition backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Amateur Science: An Unconfirmed Observation\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"amateur_science_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what independent evidence is needed before announcing a finding backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Amateur Science: An Affordable Sensor\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"amateur_science_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring does a new device improve the accuracy or reach of one project backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Amateur Science: More Data Means Better Data?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"amateur_science_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring when does inconsistent sampling overwhelm a larger count backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Amateur Science: A Project Changes Protocol\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"amateur_science_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what data comparability changed after a dated method update backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Amateur Science: Volunteers behind the Data\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"amateur_science_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose repeated classification or sampling work was essential backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Amateur Science: One Observation's Journey\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"amateur_science_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a report become a verified data point or rejection backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "414",
+      "niche_name": "amateur_science",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Amateur Science: A Volunteer Observation Program",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "amateur_science_a_volunteer_observation_program",
+          "reason": "A rigorous pedagogical investigation exploring a volunteer observation program through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Amateur Science: A Citizen-Science Result Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "amateur_science_a_citizen_science_result_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a citizen-science result rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Amateur Science: Volunteers behind the Data",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "amateur_science_volunteers_behind_the_data",
+          "reason": "A rigorous pedagogical investigation exploring volunteers behind the data through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Amateur Science: Question to Record",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "amateur_science_question_to_record",
+          "reason": "A rigorous pedagogical investigation exploring question to record through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Amateur Science: Bias in Volunteer Data",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "amateur_science_bias_in_volunteer_data",
+          "reason": "A rigorous pedagogical investigation exploring bias in volunteer data through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Amateur Science: An Unconfirmed Observation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "amateur_science_an_unconfirmed_observation",
+          "reason": "A rigorous pedagogical investigation exploring an unconfirmed observation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Amateur Science: An Affordable Sensor",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "amateur_science_an_affordable_sensor",
+          "reason": "A rigorous pedagogical investigation exploring an affordable sensor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Amateur Science: A Volunteer Finds a Pattern",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "amateur_science_a_volunteer_finds_a_pattern",
+          "reason": "A rigorous pedagogical investigation exploring a volunteer finds a pattern through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Amateur Science: A Project Changes Protocol",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "amateur_science_a_project_changes_protocol",
+          "reason": "A rigorous pedagogical investigation exploring a project changes protocol through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Amateur Science: From Field Note to Data Set",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "amateur_science_from_field_note_to_data_set",
+          "reason": "A rigorous pedagogical investigation exploring from field note to data set through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Amateur Science: A Crowdsourced Claim Corrected",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "amateur_science_a_crowdsourced_claim_corrected",
+          "reason": "A rigorous pedagogical investigation exploring a crowdsourced claim corrected through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Amateur Science: One Site over Time",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "amateur_science_one_site_over_time",
+          "reason": "A rigorous pedagogical investigation exploring one site over time through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Amateur Science: A Proposed Citizen Project",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "amateur_science_a_proposed_citizen_project",
+          "reason": "A rigorous pedagogical investigation exploring a proposed citizen project through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Amateur Science: More Data Means Better Data?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "amateur_science_more_data_means_better_data",
+          "reason": "A rigorous pedagogical investigation exploring more data means better data? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Amateur Science: One Observation's Journey",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "amateur_science_one_observation_s_journey",
+          "reason": "A rigorous pedagogical investigation exploring one observation's journey through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Amateur Science: Pattern versus Cause",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "observation_to_explanation",
+          "slug": "amateur_science_pattern_versus_cause",
+          "reason": "A rigorous pedagogical investigation exploring pattern versus cause through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Amateur Science: Calibration before Collection",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "measurement_method",
+          "slug": "amateur_science_calibration_before_collection",
+          "reason": "A rigorous pedagogical investigation exploring calibration before collection through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Amateur Science: From Local to Regional Claim",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "scale_and_timespan",
+          "slug": "amateur_science_from_local_to_regional_claim",
+          "reason": "A rigorous pedagogical investigation exploring from local to regional claim through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Amateur Science: Field Sensor and Reference Lab",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_vs_lab",
+          "slug": "amateur_science_field_sensor_and_reference_lab",
+          "reason": "A rigorous pedagogical investigation exploring field sensor and reference lab through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Amateur Science: Expected Noise",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "natural_variation",
+          "slug": "amateur_science_expected_noise",
+          "reason": "A rigorous pedagogical investigation exploring expected noise through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Amateur Science: An Outlier Submission",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "amateur_science_extreme_case",
+          "why_trending": "High viral search interest exploring is a striking report real, error, or rare condition backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Amateur Science: An Unconfirmed Observation",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "amateur_science_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what independent evidence is needed before announcing a finding backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Amateur Science: An Affordable Sensor",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "amateur_science_technology_innovation",
+          "why_trending": "High viral search interest exploring does a new device improve the accuracy or reach of one project backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Amateur Science: More Data Means Better Data?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "amateur_science_myths_vs_facts",
+          "why_trending": "High viral search interest exploring when does inconsistent sampling overwhelm a larger count backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Amateur Science: A Project Changes Protocol",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "amateur_science_major_events",
+          "why_trending": "High viral search interest exploring what data comparability changed after a dated method update backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Amateur Science: Volunteers behind the Data",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "amateur_science_hidden_stories",
+          "why_trending": "High viral search interest exploring whose repeated classification or sampling work was essential backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Amateur Science: One Observation's Journey",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "amateur_science_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a report become a verified data point or rejection backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "d83cb76b77458f059eaf13ba0f65010af562ee8f8c5c56d4bb139b6cf56347f1"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "a9b9685a666802b08a03af8ff4434fefefd5b1d455136eabc229d8a41e9aaa0e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "24981762627b6b21c80fee9914b51acb3e92e0e2d19c6efac32cca6e9ae5d9c3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "7a20761f7ab22dc736c7f21e9340a8b3de9e31ee2f5feb7111ed629c61b13e99"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "5abfb6e4fba127e6ea078b4c7593f64675bc16032efe8a58a040dca13e874b24"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "14edf5f2cfab2e74b6cd127741b26c99117e1b5d3c7baf288606231b764c9799"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-414-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-04",
+      "title": "Observational science",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-05",
+      "title": "Safe experiments",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-06",
+      "title": "Research records",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-414-07",
+      "title": "Study design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "414",
+    "slug": "amateur_science",
+    "name": "Amateur Science",
+    "primary_category": "Math_Scientific_Methods",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Amateur Science YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-414-01",
+        "title": "Home-scale investigations",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-414-001",
+            "title": "Plant growth with controlled variables",
+            "question": "Plant growth with controlled variables: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Amateur Science; branch: Home-scale investigations. Address Plant growth with controlled variables through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Plant growth with controlled variables precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-002",
+            "title": "Pendulum period measurement",
+            "question": "Pendulum period measurement: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Amateur Science; branch: Home-scale investigations. Address Pendulum period measurement through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Pendulum period measurement precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-003",
+            "title": "Water evaporation experiments",
+            "question": "Water evaporation experiments: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Amateur Science; branch: Home-scale investigations. Address Water evaporation experiments through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Water evaporation experiments precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-414-02",
+        "title": "Measurement",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-414-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-414-004",
+            "title": "Instrument calibration",
+            "question": "Instrument calibration: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Amateur Science; branch: Measurement. Address Instrument calibration through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Instrument calibration.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-005",
+            "title": "Replicate observations",
+            "question": "Replicate observations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Amateur Science; branch: Measurement. Address Replicate observations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Replicate observations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-006",
+            "title": "Error bars",
+            "question": "Error bars: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Amateur Science; branch: Measurement. Address Error bars through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Error bars.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-414-03",
+        "title": "Ethics and safety",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-414-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-414-007",
+            "title": "Low-risk experiment selection",
+            "question": "Low-risk experiment selection: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Amateur Science; branch: Ethics and safety. Address Low-risk experiment selection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Low-risk experiment selection.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-008",
+            "title": "Avoiding hazardous chemical demonstrations",
+            "question": "Avoiding hazardous chemical demonstrations: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Amateur Science; branch: Ethics and safety. Address Avoiding hazardous chemical demonstrations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Avoiding hazardous chemical demonstrations.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-414-009",
+            "title": "Sharing methods for reproducibility",
+            "question": "Sharing methods for reproducibility: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Amateur Science; branch: Ethics and safety. Address Sharing methods for reproducibility through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Sharing methods for reproducibility.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Amateur Science: A Volunteer Observation Program",
+      "question": "Which dated project made nonprofessional observations useful for one question?",
+      "coverage": "Trace protocol, data, and credited contributors. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: A Citizen-Science Result Rechecked",
+      "question": "What did volunteer measurements actually establish?",
+      "coverage": "Read methods, validation, uncertainty, and publication. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Volunteers behind the Data",
+      "question": "Whose repeated classification or sampling work was essential?",
+      "coverage": "Use contribution and credit records. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Question to Record",
+      "question": "How can one observable variable be defined and logged?",
+      "coverage": "Specify unit, site, date, instrument, and consent. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Bias in Volunteer Data",
+      "question": "How do self-selected participants or uneven coverage affect inference?",
+      "coverage": "Map sampling frame and missing places. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: An Unconfirmed Observation",
+      "question": "What independent evidence is needed before announcing a finding?",
+      "coverage": "Check calibration, replication, and alternative causes. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: An Affordable Sensor",
+      "question": "Does a new device improve the accuracy or reach of one project?",
+      "coverage": "Compare calibration and reference data. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: A Volunteer Finds a Pattern",
+      "question": "How did a named contributor's observation enter scientific review?",
+      "coverage": "Trace submission, verification, and credit. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: A Project Changes Protocol",
+      "question": "What data comparability changed after a dated method update?",
+      "coverage": "Compare manuals and old versus new records. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: From Field Note to Data Set",
+      "question": "How are observations submitted, checked, corrected, and preserved?",
+      "coverage": "Follow an actual project workflow. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: A Crowdsourced Claim Corrected",
+      "question": "Which measurement or selection issue changed a conclusion?",
+      "coverage": "Use original and revised analysis. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: One Site over Time",
+      "question": "Can volunteer observations support a trend?",
+      "coverage": "Check consistent methods, missing periods, and external drivers. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: A Proposed Citizen Project",
+      "question": "Which training, sampling, and data-management questions remain?",
+      "coverage": "Treat design as conditional. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: More Data Means Better Data?",
+      "question": "When does inconsistent sampling overwhelm a larger count?",
+      "coverage": "Compare validation and bias metrics. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: One Observation's Journey",
+      "question": "How did a report become a verified data point or rejection?",
+      "coverage": "Trace dated review and response. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Pattern versus Cause",
+      "question": "What alternative processes could create a reported correlation?",
+      "coverage": "Specify plausible confounders and tests. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Calibration before Collection",
+      "question": "Which standard or reference check supports a volunteer measurement?",
+      "coverage": "Record procedure and drift. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: From Local to Regional Claim",
+      "question": "How far can one volunteer network's data generalize?",
+      "coverage": "Map site density and time coverage. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Field Sensor and Reference Lab",
+      "question": "How do controls and environments differ?",
+      "coverage": "Compare matched samples and uncertainty. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Amateur Science: Expected Noise",
+      "question": "Which background variation must a project measure?",
+      "coverage": "Use repeated observations and uncertainty interval. Evidence base: original project protocols, calibrated records and metadata, validation reports, published analyses, citizen-science data guidance, and participant agreements.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-414-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "8d5e96c5be6ca83b1f708e31518ea3041ee0cbb97ce62369972a5a1842594768",
+    "TOPIC_BANK_RECONCILIATION.md": "90fa7f8c248344cf19bf6d9cb4facdae45f82ca509b64321bae76a039d546341",
+    "TOPICS_COVERED_REPORT.md": "3606590f5e65917b6c85d48365150bfc31681602bef84c8817d01e013c1636cc",
+    "414_AMATEUR_SCIENCE_CHANNEL_TOPIC_ROADMAP.md": "615ceb48ab8700f3336c1d6bb0d5ed6f30124b6ba90df9f5646b32b9b74b061d"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-414-006": [
+      "BANK-414-038"
+    ],
+    "BANK-414-004": [
+      "BANK-414-031"
+    ],
+    "BANK-414-001": [
+      "BANK-414-036"
+    ],
+    "BANK-414-003": [
+      "BANK-414-036"
+    ],
+    "BANK-414-007": [
+      "BANK-414-036"
+    ],
+    "BANK-414-002": [
+      "BANK-414-037"
+    ],
+    "BANK-414-005": [
+      "BANK-414-038"
+    ],
+    "BANK-414-008": [
+      "BANK-414-038"
+    ],
+    "BANK-414-009": [
+      "BANK-414-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Community weather monitoring",
+      "next_step": "Standardize placement records and instrument checks. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Simple optics experiments",
+      "next_step": "Control geometry and record measurement uncertainty. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Open laboratory notebooks",
+      "next_step": "Record original plans, deviations and failed attempts. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Observational study design",
+      "next_step": "Compare sampling, confounding and appropriate questions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-038 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-038"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-034 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-034"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-031 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-031"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-041 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-041"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-038 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-038"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-033 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-033"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-042 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-042"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-031 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-031"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-031 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-031"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-032 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-032"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-034 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-034"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-031 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-031"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-414-035 covers the actionable part of this broad archived pitch; a specific observation, specimen or jurisdictional rule must be verified before use.",
+      "bank_ids": [
+        "BANK-414-035"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional dataset/site supplies a bounded example; claim and access limits are documented in the linked note.",
+      "bank_ids": [
+        "BANK-414-043"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-414-043",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ]
+}

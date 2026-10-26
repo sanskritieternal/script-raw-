@@ -1,0 +1,1442 @@
+{
+  "date": "2026-10-24",
+  "source_verification": "not_performed",
+  "exhaustive_claim": false,
+  "banks": {
+    "046": {
+      "reviewed_before_ids": [
+        "BANK-046-013",
+        "BANK-046-014",
+        "BANK-046-015",
+        "BANK-046-016",
+        "BANK-046-017",
+        "BANK-046-018",
+        "BANK-046-019",
+        "BANK-046-020",
+        "BANK-046-021",
+        "BANK-046-022",
+        "BANK-046-023",
+        "BANK-046-024",
+        "BANK-046-025",
+        "BANK-046-026",
+        "BANK-046-027",
+        "BANK-046-028",
+        "BANK-046-029",
+        "BANK-046-030",
+        "BANK-046-031",
+        "BANK-046-032",
+        "BANK-046-033",
+        "BANK-046-034",
+        "BANK-046-035",
+        "BANK-046-036",
+        "BANK-046-037",
+        "BANK-046-038",
+        "BANK-046-039",
+        "BANK-046-040",
+        "BANK-046-041",
+        "BANK-046-042",
+        "BANK-046-043",
+        "BANK-046-044",
+        "BANK-046-045",
+        "BANK-046-046",
+        "BANK-046-047",
+        "BANK-046-048"
+      ],
+      "starter_decisions": [
+        {
+          "starter_id": "BANK-046-001",
+          "starter_title": "Earthquake building failure patterns",
+          "target_ids": [
+            "BANK-046-049"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-049",
+              "question": "How can post-earthquake building surveys separate structural failure patterns from damage caused by local ground conditions?",
+              "coverage": "Compare collapse mechanisms, nonstructural damage, soil movement, building types, survey coverage and missing exposure data; distinguish descriptive reconnaissance from a diagnosis or retrofit design for an individual property."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-002",
+          "starter_title": "Tsunami warning lead times",
+          "target_ids": [
+            "BANK-046-050"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-050",
+              "question": "Why does a tsunami warning's usable lead time differ from the time between an earthquake and a wave's arrival?",
+              "coverage": "Trace detection, interpretation, message transmission, receipt and feasible movement in a conceptual coastal time budget; distinguish regional warning latency from local travel time without emergency instructions or present safety guarantees."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-003",
+          "starter_title": "Flood forecasting uncertainty",
+          "target_ids": [
+            "BANK-046-051"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-051",
+              "question": "How can uncertain rainfall become a range of possible river levels in a flood forecast?",
+              "coverage": "Compare rainfall scenarios, catchment wetness, routing, river geometry, forecast horizon, ensemble spread and calibration; distinguish probability information from a promised local outcome or a live warning."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-004",
+          "starter_title": "Wildfire evacuation bottlenecks",
+          "target_ids": [
+            "BANK-046-052"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-052",
+              "question": "How can a wildfire evacuation bottleneck arise even when individual roads appear to have spare capacity?",
+              "coverage": "Compare departure timing, merging traffic, blocked links, vehicle access, changing fire exposure and uncertain movement records through a fictional network; exclude route recommendations and operational evacuation procedures."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-005",
+          "starter_title": "Emergency communication failures",
+          "target_ids": [
+            "BANK-185-034"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-185-034",
+              "question": "How can a rescue team preserve coordination when its main communication link fails?",
+              "coverage": "Follow a fictional mountain operation through dispatch, field teams, relays and fallback channels; compare shared information and confirmation rather than equipment shopping or radio procedures."
+            }
+          ],
+          "decision": "reviewed_primary_home_referral",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-006",
+          "starter_title": "Shelter access and disability",
+          "target_ids": [
+            "BANK-046-053"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-053",
+              "question": "Why can reaching an emergency shelter still leave a disabled evacuee without usable support?",
+              "coverage": "Compare entrances, toilets, communication, assistance, power-dependent needs, companion arrangements and referral responsibilities in a publicly documented shelter assessment; distinguish arrival from meaningful access without medical or emergency advice."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-007",
+          "starter_title": "Supply distribution after disasters",
+          "target_ids": [
+            "BANK-046-054"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-054",
+              "question": "How can disaster relief supplies accumulate at a depot while affected households still cannot obtain them?",
+              "coverage": "Trace needs assessment, incoming donations, sorting, storage, last-mile transport, identification requirements and public accountability in a hypothetical distribution system; distinguish stock totals from equitable delivery without directing an active response."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-008",
+          "starter_title": "Recovery housing and displacement",
+          "target_ids": [
+            "BANK-046-037",
+            "BANK-046-048"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-037",
+              "question": "Why can rebuilding restore structures while leaving livelihoods disrupted?",
+              "coverage": "Compare housing, employment, schooling and service access over a defined recovery period."
+            },
+            {
+              "topic_id": "BANK-046-048",
+              "question": "Why can rebuilding the same number of homes leave a community with less access to work and care?",
+              "coverage": "Map location, transport, tenure, services and household needs through a recovery timeline."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-009",
+          "starter_title": "The 2004 Indian Ocean tsunami records",
+          "target_ids": [
+            "BANK-046-024"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-024",
+              "question": "How did a tsunami's source and coastline shape its local impacts?",
+              "coverage": "Use scientific reconstruction to distinguish wave propagation, local topography and documented observations.",
+              "additional_scope": "Selected case boundary: use the 2004 Indian Ocean tsunami to investigate source, propagation and local coastline effects through later-identified scientific records. This is an editorial case selection; no record has been researched or verified here."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-010",
+          "starter_title": "The 2011 Tohoku evacuation experience",
+          "target_ids": [
+            "BANK-046-055"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-055",
+              "question": "How can records from the 2011 Tohoku disaster reconstruct the gap between an evacuation plan and the journeys people actually made?",
+              "coverage": "Propose correlating dated plans, warning timelines, surviving transport records, local refuge locations and consented accounts from a bounded municipality; compare intended and observed movement without inventing a source, assigning blame from an anecdote or claiming this reconstruction has been performed."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-011",
+          "starter_title": "Cyclone shelter development in Bangladesh",
+          "target_ids": [
+            "BANK-046-056"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-056",
+              "question": "How did cyclone shelters in Bangladesh develop as institutions for everyday use as well as emergency refuge?",
+              "coverage": "Investigate a later-selected shelter program through building functions, maintenance, local management, access, warning links and changing settlement needs; distinguish documented institutional development from an unverified claim that construction alone explains mortality changes."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-046-012",
+          "starter_title": "Community response to urban floods",
+          "target_ids": [
+            "BANK-046-032",
+            "BANK-046-036"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-046-032",
+              "question": "How are spontaneous volunteers incorporated into an organized response?",
+              "coverage": "Investigate a documented coordination system, role boundaries and lessons without directing readers into active disaster zones.",
+              "additional_scope": "Selected case boundary: choose one documented urban-flood response and follow how resident initiatives and spontaneous volunteers connected with formal coordination. Preserve disagreement and role limits; the case and records remain to be researched."
+            },
+            {
+              "topic_id": "BANK-046-036",
+              "question": "What can community networks explain about recovery after a disaster?",
+              "coverage": "Compare mutual aid, local institutions and uneven access to assistance without replacing policy analysis with individual heroism.",
+              "additional_scope": "Related case boundary: in the same selected urban-flood setting, distinguish immediate volunteer coordination in032 from household and community recovery networks over subsequent months."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        }
+      ],
+      "added_ids": [
+        "BANK-046-049",
+        "BANK-046-050",
+        "BANK-046-051",
+        "BANK-046-052",
+        "BANK-046-053",
+        "BANK-046-054",
+        "BANK-046-055",
+        "BANK-046-056"
+      ],
+      "gap_decisions": [
+        {
+          "original_gap": {
+            "area": "Further case and comparison depth",
+            "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Risk and event reconstruction, Earthquakes and geologic hazards, Water and weather disasters. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Sources and readiness",
+            "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Neighboring-niche boundary review",
+            "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        }
+      ],
+      "depth_decision": "Reviewed every original starter against all current question/scope pairs; added missing mechanisms and institutions, used existing primary homes, and selected named cases within existing scope where that avoids a name-only clone.",
+      "remaining_work": "Actual case records, current permissions and rules, competing evidence and script-level claims remain to be researched; these mappings do not certify factual findings."
+    },
+    "047": {
+      "reviewed_before_ids": [
+        "BANK-047-013",
+        "BANK-047-014",
+        "BANK-047-015",
+        "BANK-047-016",
+        "BANK-047-017",
+        "BANK-047-018",
+        "BANK-047-019",
+        "BANK-047-020",
+        "BANK-047-021",
+        "BANK-047-022",
+        "BANK-047-023",
+        "BANK-047-024",
+        "BANK-047-025",
+        "BANK-047-026",
+        "BANK-047-027",
+        "BANK-047-028",
+        "BANK-047-029",
+        "BANK-047-030",
+        "BANK-047-031",
+        "BANK-047-032",
+        "BANK-047-033",
+        "BANK-047-034",
+        "BANK-047-035",
+        "BANK-047-036",
+        "BANK-047-037",
+        "BANK-047-038",
+        "BANK-047-039",
+        "BANK-047-040",
+        "BANK-047-041",
+        "BANK-047-042",
+        "BANK-047-043",
+        "BANK-047-044",
+        "BANK-047-045",
+        "BANK-047-046",
+        "BANK-047-047",
+        "BANK-047-048"
+      ],
+      "starter_decisions": [
+        {
+          "starter_id": "BANK-047-001",
+          "starter_title": "Lift and angle of attack",
+          "target_ids": [
+            "BANK-047-013",
+            "BANK-422-030"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-013",
+              "question": "How do lift, drag, thrust and weight interact during different phases of flight?",
+              "coverage": "Use a clearly bounded conceptual explanation without implying one force diagram describes every maneuver."
+            },
+            {
+              "topic_id": "BANK-422-030",
+              "question": "Why does an aircraft stall depend on angle of attack rather than speed alone?",
+              "coverage": "Explain airflow separation and operating-condition dependence."
+            }
+          ],
+          "decision": "reviewed_primary_home_referral",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-002",
+          "starter_title": "Aircraft stability and control",
+          "target_ids": [
+            "BANK-047-049"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-049",
+              "question": "How is an aircraft's tendency to recover from a disturbance different from its ability to respond to a control input?",
+              "coverage": "Compare static and dynamic stability, restoring tendencies, damping, control authority and feedback conceptually using labeled disturbances; distinguish design tradeoffs from flying instruction or an assessment of a particular aircraft."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-003",
+          "starter_title": "Jet engine bypass ratio",
+          "target_ids": [
+            "BANK-047-050"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-050",
+              "question": "Why does sending more air around a jet engine's core change the compromises of a turbofan?",
+              "coverage": "Compare bypass and core streams, thrust production, propulsive efficiency, fan diameter, drag, mass, noise and mission speed at a conceptual level; do not infer overall efficiency from bypass ratio alone."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-004",
+          "starter_title": "Pressurization and cabin systems",
+          "target_ids": [
+            "BANK-047-045"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-045",
+              "question": "How does a pressurized cabin create an environment different from the air outside?",
+              "coverage": "Explain pressure differential, ventilation, structural cycles and operating constraints conceptually; exclude intervention procedures."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-005",
+          "starter_title": "Air-traffic separation",
+          "target_ids": [
+            "BANK-047-022"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-022",
+              "question": "What does air traffic control coordinate beyond telling aircraft where to turn?",
+              "coverage": "Explain sequencing, separation, airspace responsibilities and information exchange without providing operational instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-006",
+          "starter_title": "Weather-related route decisions",
+          "target_ids": [
+            "BANK-047-051"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-051",
+              "question": "Why can an airline's weather-related route decision change even when the destination forecast remains similar?",
+              "coverage": "Compare en-route convection, winds, airspace availability, alternate availability, forecast uncertainty and changing information across planning stages; exclude live dispatch advice, fuel calculations and operational procedures."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-007",
+          "starter_title": "Maintenance checks and documentation",
+          "target_ids": [
+            "BANK-047-030"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-030",
+              "question": "What does an aircraft maintenance record reveal about professional decision-making?",
+              "coverage": "Discuss documented inspections, responsibilities and recordkeeping without diagnosing an aircraft from isolated entries."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-008",
+          "starter_title": "Airport turnaround coordination",
+          "target_ids": [
+            "BANK-234-031"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-234-031",
+              "question": "What must happen before an aircraft can leave its gate again?",
+              "coverage": "Compare cleaning, fueling, baggage, catering, maintenance checks and sequencing without operational shortcuts."
+            }
+          ],
+          "decision": "reviewed_primary_home_referral",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-009",
+          "starter_title": "The transition to jet airliners",
+          "target_ids": [
+            "BANK-047-017"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-017",
+              "question": "How did the transition from piston engines to jets change airline operations?",
+              "coverage": "Compare selected routes, maintenance, economics and airport requirements without assuming immediate universal replacement."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-010",
+          "starter_title": "Flight recorder evidence",
+          "target_ids": [
+            "BANK-047-026"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-026",
+              "question": "How can flight recorders and wreckage support different parts of an investigation?",
+              "coverage": "Explain evidence correlation, limitations and chain of custody without treating any single recording as complete context."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-011",
+          "starter_title": "Human factors in incident reports",
+          "target_ids": [
+            "BANK-047-027",
+            "BANK-047-029"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-027",
+              "question": "Why do aviation investigations examine organizational conditions as well as crew actions?",
+              "coverage": "Trace a published report's causal analysis, training, design and oversight findings."
+            },
+            {
+              "topic_id": "BANK-047-029",
+              "question": "How did crew resource management change ideas about cockpit authority?",
+              "coverage": "Trace training history, communication research and documented implementation without reducing safety to a catchphrase."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-047-012",
+          "starter_title": "General aviation versus airline safety statistics",
+          "target_ids": [
+            "BANK-047-052"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-047-052",
+              "question": "Why is comparing airline and general-aviation accident totals insufficient to compare their risks?",
+              "coverage": "Compare mission types, flight hours, departures, passenger exposure, fleet and operating contexts, reporting definitions and uncertainty; use illustrative denominators and no current rates or personal flight-safety recommendations."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        }
+      ],
+      "added_ids": [
+        "BANK-047-049",
+        "BANK-047-050",
+        "BANK-047-051",
+        "BANK-047-052"
+      ],
+      "gap_decisions": [
+        {
+          "original_gap": {
+            "area": "Further case and comparison depth",
+            "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Flight fundamentals and evidence, Design and propulsion histories, Navigation and air traffic systems. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Sources and readiness",
+            "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Neighboring-niche boundary review",
+            "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        }
+      ],
+      "depth_decision": "Reviewed every original starter against all current question/scope pairs; added missing mechanisms and institutions, used existing primary homes, and selected named cases within existing scope where that avoids a name-only clone.",
+      "remaining_work": "Actual case records, current permissions and rules, competing evidence and script-level claims remain to be researched; these mappings do not certify factual findings."
+    },
+    "048": {
+      "reviewed_before_ids": [
+        "BANK-048-013",
+        "BANK-048-014",
+        "BANK-048-015",
+        "BANK-048-016",
+        "BANK-048-017",
+        "BANK-048-018",
+        "BANK-048-019",
+        "BANK-048-020",
+        "BANK-048-021",
+        "BANK-048-022",
+        "BANK-048-023",
+        "BANK-048-024",
+        "BANK-048-025",
+        "BANK-048-026",
+        "BANK-048-027",
+        "BANK-048-028",
+        "BANK-048-029",
+        "BANK-048-030",
+        "BANK-048-031",
+        "BANK-048-032",
+        "BANK-048-033",
+        "BANK-048-034",
+        "BANK-048-035",
+        "BANK-048-036",
+        "BANK-048-037",
+        "BANK-048-038",
+        "BANK-048-039",
+        "BANK-048-040",
+        "BANK-048-041",
+        "BANK-048-042",
+        "BANK-048-043",
+        "BANK-048-044",
+        "BANK-048-045",
+        "BANK-048-046",
+        "BANK-048-047"
+      ],
+      "starter_decisions": [
+        {
+          "starter_id": "BANK-048-001",
+          "starter_title": "Hull displacement and stability",
+          "target_ids": [
+            "BANK-048-048"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-048",
+              "question": "Why does a ship that floats adequately still need a separate analysis of stability?",
+              "coverage": "Distinguish displacement and buoyancy from centers of mass and buoyancy, restoring tendencies, cargo movement and free-surface effects; describe ballast's role conceptually without loading, navigation or corrective operating instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-002",
+          "starter_title": "Ballast management",
+          "target_ids": [
+            "BANK-048-048",
+            "BANK-048-045"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-048",
+              "question": "Why does a ship that floats adequately still need a separate analysis of stability?",
+              "coverage": "Distinguish displacement and buoyancy from centers of mass and buoyancy, restoring tendencies, cargo movement and free-surface effects; describe ballast's role conceptually without loading, navigation or corrective operating instructions."
+            },
+            {
+              "topic_id": "BANK-048-045",
+              "question": "Why can ballast water move organisms between ecosystems?",
+              "coverage": "Explain uptake, survival, discharge, treatment and monitoring conceptually; verify regulations during eventual research."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-003",
+          "starter_title": "Celestial navigation history",
+          "target_ids": [
+            "BANK-048-049"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-049",
+              "question": "Why did celestial navigation connect observations of the sky with reliable time at sea?",
+              "coverage": "Compare historical latitude and longitude problems, observation conditions, horizon and instrument uncertainty, time references and the combination with other voyage evidence; provide no navigation calculations or sailing directions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-004",
+          "starter_title": "Modern bridge instrumentation",
+          "target_ids": [
+            "BANK-048-050"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-050",
+              "question": "Why can several modern bridge displays disagree without one display being an independent check of all the others?",
+              "coverage": "Compare radar, positioning, electronic charts, identification broadcasts, shared sensors, data age and reference settings conceptually; distinguish correlated dependencies from independent evidence without bridge-operation or evasion instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-005",
+          "starter_title": "Containerization and port labor",
+          "target_ids": [
+            "BANK-048-029"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-029",
+              "question": "How did containerization change the location and labor of ports?",
+              "coverage": "Compare handling systems, inland connections, employment and urban land use through a documented port transition."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-006",
+          "starter_title": "Shipping alliances and route networks",
+          "target_ids": [
+            "BANK-048-051"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-051",
+              "question": "How can shipping lines share vessel capacity while retaining separate customer-facing businesses?",
+              "coverage": "Compare service strings, port calls, slot arrangements, schedules, transfers, network disruption and the difference between operational coordination and corporate ownership; actual alliance membership, contracts and competition rules require later dated research."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-007",
+          "starter_title": "Maritime insurance and risk",
+          "target_ids": [
+            "BANK-048-031"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-031",
+              "question": "How do marine insurance records illuminate historical risk?",
+              "coverage": "Compare premiums, losses, declared cargo and incomplete coverage without equating insured trade with all trade."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-008",
+          "starter_title": "Ship registration and flag states",
+          "target_ids": [
+            "BANK-048-052"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-052",
+              "question": "How can a ship's flag state, registered owner and operating company point to different institutions?",
+              "coverage": "Map registration, ownership, management, crew employment, classification and port-state oversight through a fictional vessel; distinguish each role and its records without assuming present legal duties or judging a real ship's compliance."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-009",
+          "starter_title": "Indian Ocean monsoon navigation",
+          "target_ids": [
+            "BANK-048-017"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-017",
+              "question": "How did seasonal winds influence Indian Ocean sailing calendars?",
+              "coverage": "Compare documented routes, timing and local knowledge without treating every voyage as predictable."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-010",
+          "starter_title": "Shipwreck archaeology",
+          "target_ids": [
+            "BANK-048-013",
+            "BANK-048-037"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-013",
+              "question": "What can a shipwreck reveal that a written voyage account cannot?",
+              "coverage": "Compare hull remains, cargo, location and preservation while acknowledging missing context and disturbed material."
+            },
+            {
+              "topic_id": "BANK-048-037",
+              "question": "How is a wreck site documented without removing its context?",
+              "coverage": "Explain professional mapping, conservation planning and authorized research rather than offering salvage instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-011",
+          "starter_title": "Invasive species and ballast water",
+          "target_ids": [
+            "BANK-048-045"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-045",
+              "question": "Why can ballast water move organisms between ecosystems?",
+              "coverage": "Explain uptake, survival, discharge, treatment and monitoring conceptually; verify regulations during eventual research."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-048-012",
+          "starter_title": "Port cities and migrant communities",
+          "target_ids": [
+            "BANK-048-053"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-048-053",
+              "question": "How can port records distinguish temporary seafaring labor from the formation of a resident migrant neighborhood?",
+              "coverage": "Correlate crew lists, residence and household records, businesses, language institutions and community accounts in one later-selected port; distinguish settlement from repeated arrivals and keep missing identities explicit."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        }
+      ],
+      "added_ids": [
+        "BANK-048-048",
+        "BANK-048-049",
+        "BANK-048-050",
+        "BANK-048-051",
+        "BANK-048-052",
+        "BANK-048-053"
+      ],
+      "gap_decisions": [
+        {
+          "original_gap": {
+            "area": "Further case and comparison depth",
+            "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Reading maritime evidence, Indian Ocean networks, Ships and navigation. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Sources and readiness",
+            "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Neighboring-niche boundary review",
+            "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        }
+      ],
+      "depth_decision": "Reviewed every original starter against all current question/scope pairs; added missing mechanisms and institutions, used existing primary homes, and selected named cases within existing scope where that avoids a name-only clone.",
+      "remaining_work": "Actual case records, current permissions and rules, competing evidence and script-level claims remain to be researched; these mappings do not certify factual findings."
+    },
+    "049": {
+      "reviewed_before_ids": [
+        "BANK-049-013",
+        "BANK-049-014",
+        "BANK-049-015",
+        "BANK-049-016",
+        "BANK-049-017",
+        "BANK-049-018",
+        "BANK-049-019",
+        "BANK-049-020",
+        "BANK-049-021",
+        "BANK-049-022",
+        "BANK-049-023",
+        "BANK-049-024",
+        "BANK-049-025",
+        "BANK-049-026",
+        "BANK-049-027",
+        "BANK-049-028",
+        "BANK-049-029",
+        "BANK-049-030",
+        "BANK-049-031",
+        "BANK-049-032",
+        "BANK-049-033",
+        "BANK-049-034",
+        "BANK-049-035",
+        "BANK-049-036",
+        "BANK-049-037",
+        "BANK-049-038",
+        "BANK-049-039",
+        "BANK-049-040",
+        "BANK-049-041",
+        "BANK-049-042",
+        "BANK-049-043",
+        "BANK-049-044",
+        "BANK-049-045",
+        "BANK-049-046",
+        "BANK-049-047",
+        "BANK-049-048"
+      ],
+      "starter_decisions": [
+        {
+          "starter_id": "BANK-049-001",
+          "starter_title": "Indian Ocean piracy and imperial records",
+          "target_ids": [
+            "BANK-049-018"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-018",
+              "question": "What does piracy in the Indian Ocean reveal about overlapping jurisdictions?",
+              "coverage": "Use a specific voyage or prosecution to examine merchant interests, rulers and contested authority."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-002",
+          "starter_title": "Caribbean privateering commissions",
+          "target_ids": [
+            "BANK-049-013",
+            "BANK-049-017"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-013",
+              "question": "Who had the power to label someone a pirate rather than a privateer?",
+              "coverage": "Compare commissions, jurisdiction, wartime status and contemporary disputes within a named case."
+            },
+            {
+              "topic_id": "BANK-049-017",
+              "question": "How did Caribbean piracy depend on imperial competition and trade routes?",
+              "coverage": "Bound the period, compare institutions and avoid presenting all seaborne raiding as one timeless culture."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-003",
+          "starter_title": "Zheng Yi Sao's maritime organization",
+          "target_ids": [
+            "BANK-049-026"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-026",
+              "question": "What can Ching Shih's career reveal about maritime coalitions and negotiation?",
+              "coverage": "Use dated sources to distinguish documented organization from modern embellishment."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-004",
+          "starter_title": "Barbary corsairs and diplomacy",
+          "target_ids": [
+            "BANK-049-049"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-049",
+              "question": "How did diplomacy and captive-redemption institutions connect North African corsair activity with other Mediterranean states?",
+              "coverage": "Investigate a bounded period through treaties, consular correspondence, ransom intermediaries and competing accounts of captivity; distinguish institutions and jurisdictions rather than presenting one timeless category of pirate or romanticizing coercion."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-005",
+          "starter_title": "Social banditry as a historical interpretation",
+          "target_ids": [
+            "BANK-049-029"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-029",
+              "question": "When does the idea of a social bandit illuminate history and when does it romanticize it?",
+              "coverage": "Compare scholarly models with a documented local case, including coercion and victims' experiences."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-006",
+          "starter_title": "Bushrangers and colonial law",
+          "target_ids": [
+            "BANK-049-050"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-050",
+              "question": "How did the documentary categories of Australia's convict system shape who was recorded as an absconder or bushranger?",
+              "coverage": "Compare transportation status, labor assignments, policing notices, court records, land access and press descriptions in one colony and period; distinguish administrative labels, documented acts and later legend without assuming either universal resistance or guilt from a label."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-007",
+          "starter_title": "Robin Hood's textual development",
+          "target_ids": [
+            "BANK-049-051"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-051",
+              "question": "How did separate Robin Hood stories acquire the appearance of one continuous biography?",
+              "coverage": "Compare surviving ballad witnesses, collected cycles, printing, editorial sequence and later adaptations; distinguish textual development from proof that a single historical person experienced the narrated events."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-008",
+          "starter_title": "Dacoity records and source bias",
+          "target_ids": [
+            "BANK-049-031"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-031",
+              "question": "How did colonial records describe resistance as criminality?",
+              "coverage": "Compare administrative categories with community accounts and specific actions without assuming every accusation was fabricated.",
+              "additional_scope": "Selected case boundary: investigate dacoity classifications in a clearly identified colonial jurisdiction and period. Compare recorded acts, administrative terminology and community accounts without presuming either fabricated charges or resistance from the label alone."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-009",
+          "starter_title": "Pirate codes and surviving documents",
+          "target_ids": [
+            "BANK-049-021"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-021",
+              "question": "What evidence supports claims about pirate agreements and crew governance?",
+              "coverage": "Compare surviving articles, testimony and later generalization rather than assuming every ship used identical rules."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-010",
+          "starter_title": "Treasure legends versus cargo manifests",
+          "target_ids": [
+            "BANK-049-023",
+            "BANK-049-039"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-023",
+              "question": "What did pirates do with captured cargo beyond searching for gold?",
+              "coverage": "Trace resale markets, supplies and documented goods without offering modern criminal methods."
+            },
+            {
+              "topic_id": "BANK-049-039",
+              "question": "Why do hidden-treasure stories attach to famous fugitives?",
+              "coverage": "Follow the earliest documented claim and later retellings without encouraging unauthorized searching."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-011",
+          "starter_title": "Romanticized violence in popular retellings",
+          "target_ids": [
+            "BANK-049-016",
+            "BANK-049-041"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-016",
+              "question": "How should a documentary distinguish documented violence from a romantic reputation?",
+              "coverage": "Compare victims' accounts, court findings and later storytelling without using charisma as exoneration."
+            },
+            {
+              "topic_id": "BANK-049-041",
+              "question": "How should an outlaw biography include people harmed by the protagonist?",
+              "coverage": "Find recoverable victims' perspectives, distinguish verified losses and avoid treating unnamed people as scenery."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-049-012",
+          "starter_title": "Separating historical piracy from modern crime",
+          "target_ids": [
+            "BANK-049-042"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-049-042",
+              "question": "What makes comparisons between historical piracy and modern maritime crime misleading?",
+              "coverage": "Separate institutions, technology, jurisdiction and economic conditions rather than assuming direct continuity."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        }
+      ],
+      "added_ids": [
+        "BANK-049-049",
+        "BANK-049-050",
+        "BANK-049-051"
+      ],
+      "gap_decisions": [
+        {
+          "original_gap": {
+            "area": "Further case and comparison depth",
+            "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Categories and historical sources, Piracy in different seas, Life and organization aboard raiding vessels. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Sources and readiness",
+            "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Neighboring-niche boundary review",
+            "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        }
+      ],
+      "depth_decision": "Reviewed every original starter against all current question/scope pairs; added missing mechanisms and institutions, used existing primary homes, and selected named cases within existing scope where that avoids a name-only clone.",
+      "remaining_work": "Actual case records, current permissions and rules, competing evidence and script-level claims remain to be researched; these mappings do not certify factual findings."
+    },
+    "050": {
+      "reviewed_before_ids": [
+        "BANK-050-013",
+        "BANK-050-014",
+        "BANK-050-015",
+        "BANK-050-016",
+        "BANK-050-017",
+        "BANK-050-018",
+        "BANK-050-019",
+        "BANK-050-020",
+        "BANK-050-021",
+        "BANK-050-022",
+        "BANK-050-023",
+        "BANK-050-024",
+        "BANK-050-025",
+        "BANK-050-026",
+        "BANK-050-027",
+        "BANK-050-028",
+        "BANK-050-029",
+        "BANK-050-030",
+        "BANK-050-031",
+        "BANK-050-032",
+        "BANK-050-033",
+        "BANK-050-034",
+        "BANK-050-035",
+        "BANK-050-036",
+        "BANK-050-037",
+        "BANK-050-038",
+        "BANK-050-039",
+        "BANK-050-040",
+        "BANK-050-041",
+        "BANK-050-042",
+        "BANK-050-043",
+        "BANK-050-044",
+        "BANK-050-045",
+        "BANK-050-046",
+        "BANK-050-047",
+        "BANK-050-048"
+      ],
+      "starter_decisions": [
+        {
+          "starter_id": "BANK-050-001",
+          "starter_title": "Ship manifests and wreck identification",
+          "target_ids": [
+            "BANK-050-025",
+            "BANK-048-040"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-025",
+              "question": "How can a documented cargo be confused with what actually reached a wreck site?",
+              "coverage": "Compare manifests, loading changes, salvage records and post-loss dispersal with the limits of each source."
+            },
+            {
+              "topic_id": "BANK-048-040",
+              "question": "What does a wreck identification require beyond a matching ship name?",
+              "coverage": "Correlate location, dimensions, cargo, construction and loss records while clearly labeling uncertainty."
+            }
+          ],
+          "decision": "reviewed_primary_home_referral",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-002",
+          "starter_title": "Coin hoards and archaeological context",
+          "target_ids": [
+            "BANK-050-021",
+            "BANK-050-022"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-021",
+              "question": "What can coin dates establish about when a hoard was buried?",
+              "coverage": "Explain earliest possible deposition, circulation and missing evidence without equating the newest coin with an exact burial date."
+            },
+            {
+              "topic_id": "BANK-050-022",
+              "question": "How do containers and arrangement help interpret a hoard?",
+              "coverage": "Compare excavation context, wear, grouping and alternative explanations for deposition."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-003",
+          "starter_title": "Lost settlements and survey records",
+          "target_ids": [
+            "BANK-050-049"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-049",
+              "question": "Why can a settlement disappear from later survey records without the place simply being buried and forgotten?",
+              "coverage": "Compare renamed or merged entries, moved settlements, tax categories, map scale, boundaries and archival survival in a later-selected locality; distinguish documentary disappearance from demonstrated physical abandonment without giving search locations."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-004",
+          "starter_title": "Treasure maps and provenance",
+          "target_ids": [
+            "BANK-050-017"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-017",
+              "question": "How can an old map be tested for its original purpose and date?",
+              "coverage": "Compare paper, provenance, cartographic conventions and archival context without giving unauthorized search directions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-005",
+          "starter_title": "Magnetometry for buried metal",
+          "target_ids": [
+            "BANK-050-050"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-050",
+              "question": "Why can a magnetic survey detect altered soil while missing some buried metal objects?",
+              "coverage": "Compare magnetic susceptibility, remanent magnetization, ferrous and nonferrous materials, background geology and anomaly ambiguity conceptually; distinguish sensor response from identification of treasure and provide no survey setup or search instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-006",
+          "starter_title": "Side-scan sonar interpretation",
+          "target_ids": [
+            "BANK-050-051"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-051",
+              "question": "Why can a dark region in a side-scan sonar image represent an acoustic shadow rather than empty seabed?",
+              "coverage": "Compare reflected intensity, geometry, object height, bottom texture, occlusion and independent confirmation; distinguish an image feature from a wreck identification without planning a survey or directing access to a site."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-007",
+          "starter_title": "Metal-detector discrimination limits",
+          "target_ids": [
+            "BANK-050-052"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-052",
+              "question": "Why can a metal detector's discrimination label fail to identify the material or historical significance of a buried object?",
+              "coverage": "Compare signal response, object shape, depth, orientation, corrosion, mixed targets and ground mineralization conceptually; exclude tuning settings, search methods, digging instructions and authentication from a display label."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-008",
+          "starter_title": "False positives in remote sensing",
+          "target_ids": [
+            "BANK-050-041",
+            "BANK-002-046"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-041",
+              "question": "What can non-invasive survey methods detect and leave ambiguous?",
+              "coverage": "Compare published instrument capabilities, interpretation limits and professional ground verification without planning unauthorized searches."
+            },
+            {
+              "topic_id": "BANK-002-046",
+              "question": "What does geophysical mapping reveal before an archaeological excavation?",
+              "coverage": "Compare radar or magnetometry anomalies with ground truth; avoid describing every anomaly as a wall or tomb."
+            }
+          ],
+          "decision": "reviewed_primary_home_referral",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-009",
+          "starter_title": "Reporting archaeological finds",
+          "target_ids": [
+            "BANK-050-053"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-053",
+              "question": "What information helps a heritage authority evaluate a reported find before anyone assumes its identity or ownership?",
+              "coverage": "Map the distinction between observation, location confidentiality, access permission, safe preservation of context, reporting channels and specialist assessment; all actual reporting duties and permissions require later jurisdiction-specific official research, with no collection or recovery instructions."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-010",
+          "starter_title": "Salvage ownership disputes",
+          "target_ids": [
+            "BANK-050-027"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-027",
+              "question": "How should competing claims to a recovered wreck cargo be presented?",
+              "coverage": "Use case-specific ownership histories and published decisions without offering legal advice or declaring discovery to be title."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-011",
+          "starter_title": "Protected wreck permits",
+          "target_ids": [
+            "BANK-050-039"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-039",
+              "question": "What must a filming plan establish before entering a historic site?",
+              "coverage": "Use site-specific authorization, conservation requirements and local consultation without assuming public visibility permits access.",
+              "additional_scope": "Selected case boundary: examine filming access to a legally protected wreck, distinguishing site entry, filming, research, artifact disturbance and recovery permissions. Actual status and permit requirements remain for dated jurisdiction-specific official research."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        },
+        {
+          "starter_id": "BANK-050-012",
+          "starter_title": "Why unproven treasure claims attract fraud",
+          "target_ids": [
+            "BANK-050-034",
+            "BANK-050-048"
+          ],
+          "scope_evidence": [
+            {
+              "topic_id": "BANK-050-034",
+              "question": "Why do treasure claims attract investment before physical evidence appears?",
+              "coverage": "Examine promotional incentives, selective disclosure and dated outcomes without advising speculation."
+            },
+            {
+              "topic_id": "BANK-050-048",
+              "question": "How can a treasure documentary show an unresolved search without selling speculation as a result?",
+              "coverage": "Separate claims, tested locations, negative evidence, incentives and legal boundaries."
+            }
+          ],
+          "decision": "mapped_to_individually_reviewed_scope",
+          "reason": "Selected against the actual question and coverage, including the explicit named-case boundary where present. Weak lexical matches were rejected; a shared title alone was not treated as coverage."
+        }
+      ],
+      "added_ids": [
+        "BANK-050-049",
+        "BANK-050-050",
+        "BANK-050-051",
+        "BANK-050-052",
+        "BANK-050-053"
+      ],
+      "gap_decisions": [
+        {
+          "original_gap": {
+            "area": "Further case and comparison depth",
+            "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Treasure claims and evidence, Archives, maps and oral accounts, Archaeological hoards. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Sources and readiness",
+            "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        },
+        {
+          "original_gap": {
+            "area": "Neighboring-niche boundary review",
+            "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+          },
+          "decision": "reviewed_against_scoped_proposals",
+          "reason": "See the explicit starter mappings and additions; source verification remains pending."
+        }
+      ],
+      "depth_decision": "Reviewed every original starter against all current question/scope pairs; added missing mechanisms and institutions, used existing primary homes, and selected named cases within existing scope where that avoids a name-only clone.",
+      "remaining_work": "Actual case records, current permissions and rules, competing evidence and script-level claims remain to be researched; these mappings do not certify factual findings."
+    }
+  },
+  "validation": {
+    "banks": 5,
+    "starter_decisions": 60,
+    "added_since_editorial_baseline": 26,
+    "new_proposals_in_this_starter_repair": 26,
+    "errors": []
+  }
+}

@@ -1,0 +1,2016 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "063",
+  "slug": "consumer_technology",
+  "name": "Consumer Technology",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "Individually authored episode questions and coverage boundaries for Consumer Technology. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 54
+  },
+  "categories": [
+    {
+      "title": "Understanding connected products",
+      "level": "foundation",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How does a smart device depend on a companion app and a cloud account?",
+          "coverage": "Map setup, local controls, remote services and failure modes for a documented product; identify which functions require internet access without assuming all devices work alike.",
+          "id": "BANK-063-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a product specification omit about daily usability?",
+          "coverage": "Compare an actual task sequence, accessibility, setup time and recovery from errors; separate stated features from conditions observed in a reproducible trial.",
+          "id": "BANK-063-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can two phones with similar camera specifications produce different results?",
+          "coverage": "Compare optics, processing, exposure and a controlled scene set; distinguish subjective preference from measurable artifacts and avoid megapixel-only rankings.",
+          "id": "BANK-063-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can product-generation names obscure meaningful hardware differences?",
+          "coverage": "Resolve exact regional model numbers, chipsets and supported bands from official records; treat retailer shorthand as a lead requiring confirmation.",
+          "id": "BANK-063-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can contemporary records establish about the 2007 iPhone demonstration?",
+          "coverage": "Compare keynote footage, product release timing and attributable participant accounts; distinguish staged presentation from a demonstrated deception or specific prototype failure.",
+          "id": "BANK-063-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did capacitive touch become useful in particular phone designs?",
+          "coverage": "Compare dated devices, sensor design and input software; do not imply every resistive screen required a stylus.",
+          "id": "BANK-063-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the EU common-charger directive require and when did iPhone adopt USB-C?",
+          "coverage": "Read the directive's categories and application dates against Apple's dated iPhone 15 announcement; do not assert a documented single-cause account of Apple's decision.",
+          "id": "BANK-063-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which iPhone models and markets changed to eSIM-only hardware?",
+          "coverage": "Compare dated regional technical specifications; separate a U.S. model change from all iPhones globally.",
+          "id": "BANK-063-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D01",
+      "prerequisites": [],
+      "parent_id": "DOMAIN-063-G01",
+      "reading_subcategory": "Understanding connected products"
+    },
+    {
+      "title": "Displays, audio and capture",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does display brightness mean under different measurement conditions?",
+          "coverage": "Separate peak-window, full-screen and sustained output with test conditions; include ambient light and readability without comparing incompatible advertised numbers.",
+          "id": "BANK-063-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can headphone noise cancellation be tested without confusing it with isolation?",
+          "coverage": "Compare powered and unpowered behavior, fit and frequency-dependent attenuation; use safe playback levels and avoid medical claims about hearing protection.",
+          "id": "BANK-063-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes between optical zoom, sensor cropping and software enlargement?",
+          "coverage": "Follow a fixed subject through documented capture modes; inspect detail and artifacts rather than accepting every zoom multiplier as equivalent.",
+          "id": "BANK-063-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a video call sound poor even with a good microphone?",
+          "coverage": "Trace room acoustics, placement, codec, network and processing settings; use permission-cleared recordings and distinguish capture problems from transmission problems.",
+          "id": "BANK-063-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did a named phone's night-mode pipeline combine exposures?",
+          "coverage": "Use a versioned camera implementation and controlled images; compare sensor, processing and lens assumptions before claiming superiority to a DSLR.",
+          "id": "BANK-063-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What design choices keep two true-wireless earbuds synchronized?",
+          "coverage": "Use a specified generation and protocol documentation; distinguish Bluetooth audio profiles, radio scheduling and vendor-specific behavior.",
+          "id": "BANK-063-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can passthrough latency in a named headset be measured?",
+          "coverage": "Specify capture path, test conditions and firmware; do not treat an advertised milliseconds figure as a universal perceptual threshold.",
+          "id": "BANK-063-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D02",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G01",
+      "reading_subcategory": "Displays, audio and capture"
+    },
+    {
+      "title": "Batteries and charging",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How should battery-life tests account for the way a device is used?",
+          "coverage": "Specify brightness, radios, applications, temperature and standby time; distinguish repeated controlled tests from an all-day marketing claim.",
+          "id": "BANK-063-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a charger with a larger wattage label charge a device at the same speed?",
+          "coverage": "Inspect negotiated profiles, device limits, cable support and charge-stage behavior; exclude improvised adapters and rely on official compatibility data.",
+          "id": "BANK-063-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a battery-health percentage reveal and leave uncertain?",
+          "coverage": "Review manufacturer estimation methods, cycle definitions and service guidance; separate estimated capacity from a complete safety or runtime diagnosis.",
+          "id": "BANK-063-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which use and chemistry factors age a named phone lithium-ion battery?",
+          "coverage": "Specify model, chemistry, cycle and temperature conditions; avoid a universal two-year failure or dendrite explanation.",
+          "id": "BANK-063-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D03",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G01",
+      "reading_subcategory": "Batteries and charging"
+    },
+    {
+      "title": "Home devices and interoperability",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a smart-home purchase be evaluated for operation during an internet outage?",
+          "coverage": "Test permitted local commands, automations and account dependencies in an owned setup; record firmware and distinguish router failure from cloud failure.",
+          "id": "BANK-063-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a shared interoperability standard guarantee for a smart-home device?",
+          "coverage": "Compare certified functions, controller requirements and vendor extensions using current specifications; do not equate a logo with identical feature support.",
+          "id": "BANK-063-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a household compare robot-vacuum results across different floors?",
+          "coverage": "Define debris, thresholds, rugs, obstacles and maintenance state; keep mapping privacy and replacement parts in scope rather than relying on a single cleaning score.",
+          "id": "BANK-063-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can adding a smart camera create privacy obligations for other people?",
+          "coverage": "Map capture area, recording, account access and deletion controls; use official rules for the jurisdiction and obtain consent for any demonstration involving identifiable people.",
+          "id": "BANK-063-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D04",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G01",
+      "reading_subcategory": "Home devices and interoperability"
+    },
+    {
+      "title": "Privacy, accounts and recurring costs",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "What remains usable when a connected product's subscription is cancelled?",
+          "coverage": "Inspect dated terms, local storage, exports and basic controls for the exact plan; distinguish confirmed retained features from assumptions about future policy.",
+          "id": "BANK-063-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a device's privacy notice be connected to its actual settings?",
+          "coverage": "Map data categories, defaults, optional telemetry and deletion paths; do not claim an interface test proves all backend behavior.",
+          "id": "BANK-063-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a family verify before giving a connected device to a child?",
+          "coverage": "Review age rules, parental controls, purchases, contacts and data handling from official sources; evaluate setup tradeoffs without claiming any setting eliminates risk.",
+          "id": "BANK-063-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do app-store permissions differ from access granted inside a product account?",
+          "coverage": "Compare operating-system permissions, OAuth scopes and shared-account roles with a bounded example; avoid conflating denial of one permission with complete data isolation.",
+          "id": "BANK-063-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a named smart TV's automatic-content-recognition setting collect?",
+          "coverage": "Inspect versioned product notice, controls and network behavior with consent; distinguish documented collection from speculative surveillance.",
+          "id": "BANK-063-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D05",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G02",
+      "reading_subcategory": "Privacy, accounts and recurring costs"
+    },
+    {
+      "title": "Support, repair and ownership",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "How does an advertised support period translate into usable device life?",
+          "coverage": "Separate security updates, feature updates, repairs and cloud-service availability; verify the exact model's dated commitment and exceptions.",
+          "id": "BANK-063-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a teardown reveal that a repairability score may hide?",
+          "coverage": "Compare fasteners, adhesives, calibration, parts pairing and manuals using authorized documentation; exclude hazardous disassembly instructions.",
+          "id": "BANK-063-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a device trade-in be assessed beyond its quoted value?",
+          "coverage": "Examine eligibility, inspection adjustments, transfer of accounts and return terms; require current local terms rather than treating a quote as a guaranteed payout.",
+          "id": "BANK-063-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens when a company shuts down the service behind a product?",
+          "coverage": "Trace documented announcements, export windows, replacement functions and consumer remedies in one case; avoid assuming all owners had identical outcomes.",
+          "id": "BANK-063-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did a particular repair-policy dispute reveal about parts pairing?",
+          "coverage": "Use dated manufacturer repair terms, device/software version and regulator or court record; avoid treating all repair restrictions as one universal mechanism.",
+          "id": "BANK-063-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did dated records establish about iPhone assembly at Foxconn's Zhengzhou complex?",
+          "coverage": "Use facility-specific company, labor, production and inspection records; separate headcount at a stated date from permanent employment and avoid one-factory-made-modernity claims.",
+          "id": "BANK-063-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did the Phoebus cartel document lamp-life targets?",
+          "coverage": "Use the surviving agreement and production/test records; separate a specific historical coordination case from a claim that every modern phone is intentionally slowed.",
+          "id": "BANK-063-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did a particular generation of 3D televisions lose manufacturer support?",
+          "coverage": "Use dated sales, broadcaster, content and product records; compare competing factors instead of claiming a single proven flop cause.",
+          "id": "BANK-063-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D06",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G02",
+      "reading_subcategory": "Support, repair and ownership"
+    },
+    {
+      "title": "Reviews, marketing and measurement",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can sponsored technology content disclose its evidence and commercial relationships?",
+          "coverage": "Separate product access, payment, affiliate incentives and editorial method; inspect applicable disclosure rules and do not infer dishonesty solely from sponsorship.",
+          "id": "BANK-063-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a benchmark lead to a different conclusion from a long-term usability review?",
+          "coverage": "Compare controlled measurements, sample variation, software changes and lived tasks; define the question each review method can actually answer.",
+          "id": "BANK-063-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an AI feature demonstration be checked for hidden assistance?",
+          "coverage": "Examine workflow boundaries, connectivity, human intervention and edited footage using original test material; avoid asserting undisclosed manipulation without evidence.",
+          "id": "BANK-063-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a comparison fair when one device has received a major update?",
+          "coverage": "Record firmware, settings, reset conditions and retest dates for both products; distinguish launch performance from current observed behavior.",
+          "id": "BANK-063-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does Samsung's Moon-photo processing disclosure say about image reconstruction?",
+          "coverage": "Use the manufacturer's dated explanation and controlled captures; distinguish multi-frame processing and learned detail from a simple pasted-image claim.",
+          "id": "BANK-063-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D07",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G03",
+      "reading_subcategory": "Reviews, marketing and measurement"
+    },
+    {
+      "title": "Accessibility, sustainability and emerging categories",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "When can a wearable's wellness number be mistaken for a clinical measurement?",
+          "coverage": "Compare the manufacturer's intended use, validation population and known limitations; leave diagnosis and treatment outside a consumer feature review.",
+          "id": "BANK-063-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an accessibility feature be evaluated with the people expected to use it?",
+          "coverage": "Define a consented task study, assistive settings and failure reporting; include individual differences instead of treating one reviewer as representative.",
+          "id": "BANK-063-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence is needed to assess a product's environmental claim?",
+          "coverage": "Specify lifecycle boundary, repair life, energy, materials and independent disclosures; separate measured reductions from offsets and unsupported green language.",
+          "id": "BANK-063-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a new gadget category be evaluated before a stable benchmark exists?",
+          "coverage": "Define useful tasks, baseline alternatives, constraints and reproducible observations; label judgments and avoid presenting early prototypes as mature products.",
+          "id": "BANK-063-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a smartwatch's optical pulse sensor infer under stated conditions?",
+          "coverage": "Separate photoplethysmography pulse estimates from blood-oxygen and clinical claims, with motion, skin and model limitations.",
+          "id": "BANK-063-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do field measurements reveal about a specific Guiyu electronics-recycling practice?",
+          "coverage": "Specify site, year, material and exposure measure; avoid a single timeless description of all e-waste movement.",
+          "id": "BANK-063-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a particular foldable-phone hinge and display teardown establish?",
+          "coverage": "Specify device generation and tear-down method; separate material choice and observed durability from marketing cycle claims.",
+          "id": "BANK-063-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-063-D08",
+      "prerequisites": [
+        "CATALOG-063-D01"
+      ],
+      "parent_id": "DOMAIN-063-G03",
+      "reading_subcategory": "Accessibility, sustainability and emerging categories"
+    },
+    {
+      "id": "CATALOG-063-R01",
+      "title": "Interoperability and discontinuation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-063-09",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "366cdb2738724c7fbb94234074dc9094a115f770cc5814639e622ee947bba915",
+      "topics": [
+        {
+          "question": "What happens when a smart product depends on an app that no longer supports the owner's phone?",
+          "coverage": "Trace onboarding, accounts, local functions, firmware and practical ownership limits.",
+          "id": "BANK-063-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a device support a wireless standard yet fail to work with another certified product?",
+          "coverage": "Compare optional features, profiles, versions, implementations and test conditions rather than treating a logo as a full compatibility guarantee.",
+          "id": "BANK-063-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a factory reset remove and what may remain in a provider's cloud account?",
+          "coverage": "Separate local storage, paired devices, server records, backups and deletion policies.",
+          "id": "BANK-063-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a review evaluate a device that shares access among household members?",
+          "coverage": "Compare permissions, guest access, account recovery, consent and changed relationships without exposing control-bypass methods.",
+          "id": "BANK-063-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-063-R02",
+      "title": "Display and wireless-audio mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-063-10",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "0777936798d3745c1cadf93d27a1a8e5fcb0c75ad449327ec28055b197d66a48",
+      "topics": [
+        {
+          "question": "How do OLED and LCD displays make different compromises under the same viewing conditions?",
+          "coverage": "Compare pixel light production, backlighting, contrast, motion, brightness, power and long-term measurement limits; avoid declaring a universal better display.",
+          "covers_starter_ids": [
+            "BANK-063-001"
+          ],
+          "id": "BANK-063-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a wireless audio codec label fail to predict the sound or delay a listener will experience?",
+          "coverage": "Trace source, encoding, negotiated mode, bitrate, radio conditions, buffering and playback through a versioned test plan; distinguish codec support from an end-to-end result.",
+          "covers_starter_ids": [
+            "BANK-063-004"
+          ],
+          "id": "BANK-063-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "321",
+      "title": "Satellite Internet",
+      "directory": "321_satellite_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "063",
+    "slug": "consumer_technology",
+    "name": "Consumer Technology",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Consumer Technology YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-063-01",
+        "title": "Device technologies",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-063-001",
+            "title": "OLED and LCD tradeoffs",
+            "question": "OLED and LCD tradeoffs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Consumer Technology; branch: Device technologies. Address OLED and LCD tradeoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind OLED and LCD tradeoffs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-002",
+            "title": "Camera sensor size and processing",
+            "question": "Camera sensor size and processing: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Consumer Technology; branch: Device technologies. Address Camera sensor size and processing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Camera sensor size and processing.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-003",
+            "title": "Battery charging protocols",
+            "question": "Battery charging protocols: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Consumer Technology; branch: Device technologies. Address Battery charging protocols through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Battery charging protocols.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-004",
+            "title": "Wireless audio codecs",
+            "question": "Wireless audio codecs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Consumer Technology; branch: Device technologies. Address Wireless audio codecs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Wireless audio codecs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-063-02",
+        "title": "Buying and ownership",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-063-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-063-005",
+            "title": "Security-update support periods",
+            "question": "Security-update support periods: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Buying and ownership. Address Security-update support periods through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Security-update support periods.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-006",
+            "title": "Repairability and replacement parts",
+            "question": "Repairability and replacement parts: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Buying and ownership. Address Repairability and replacement parts through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Repairability and replacement parts.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-007",
+            "title": "Subscription-dependent device features",
+            "question": "Subscription-dependent device features: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Buying and ownership. Address Subscription-dependent device features through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Subscription-dependent device features.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-008",
+            "title": "Testing manufacturer battery-life claims",
+            "question": "Testing manufacturer battery-life claims: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Buying and ownership. Address Testing manufacturer battery-life claims through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Testing manufacturer battery-life claims.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-063-03",
+        "title": "Connected ecosystems",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-063-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-063-009",
+            "title": "Smart-home interoperability",
+            "question": "Smart-home interoperability: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Connected ecosystems. Address Smart-home interoperability through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Smart-home interoperability.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-010",
+            "title": "Cloud account lock-in",
+            "question": "Cloud account lock-in: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Connected ecosystems. Address Cloud account lock-in through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Cloud account lock-in.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-011",
+            "title": "Device permissions and telemetry",
+            "question": "Device permissions and telemetry: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Connected ecosystems. Address Device permissions and telemetry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Device permissions and telemetry.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-063-012",
+            "title": "Accessibility features across operating systems",
+            "question": "Accessibility features across operating systems: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Consumer Technology; branch: Connected ecosystems. Address Accessibility features across operating systems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Accessibility features across operating systems.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "321",
+        "title": "Satellite Internet",
+        "directory": "321_satellite_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_05"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/063_consumer_technology/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "905eba8f0c88a1f12ad7a0816fbeeb9da436e79af24490199494e09ef41a6367",
+    "source_kind": "detailed_expansion",
+    "source_records": {
+      "BANK-063-013": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "09184a11bdfc035f16dffb10bdb1d6b371c6ca79374fa59f54ab8908ce52f6e6"
+      },
+      "BANK-063-014": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "253dde12653384d20fee063653b53ccee6767823022f269edde3eb8da2441400"
+      },
+      "BANK-063-015": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4415262f9fbcebbf13cc63f6b4e8567256e4c1a9579bbde397d103890650dfe6"
+      },
+      "BANK-063-016": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a382fb34beb2e293a413a481b5dd5feeaffe49e87e40612e3c6df6398f26af64"
+      },
+      "BANK-063-017": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "790dcabf65027bb59e29b8122d84773d402205ac17e5cf70d9c5615bd2f398f8"
+      },
+      "BANK-063-018": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "03bc6b54c3f8829e87c5f27c8c8bc3383ab5cb9a8e7b45db1413ddcc3833a7d3"
+      },
+      "BANK-063-019": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e0b3484b56f8f316f226c62b0e40e131ca7720d7372d4508d1d81154e526abbc"
+      },
+      "BANK-063-020": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7ff7d156b176bee4e09df183a5a2988361654098ffb1ac405421591c3c51c805"
+      },
+      "BANK-063-021": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "13c25c5fa4a0a7e094af5bafd271b4ed73a0b27c666992ed2e014f7836f8f3c4"
+      },
+      "BANK-063-022": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c39acd2924b417970f86ba5747889edc52cb35fa28b26d3d0c665504f38e210d"
+      },
+      "BANK-063-023": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cc6deb45d236125fa6fa6cd1b1fff763fcf478b076dcb45c60af447757bbc49c"
+      },
+      "BANK-063-024": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "21f6e6730cb1c12d905a9e34dbccb4fe199652a3fddfae58d79660f8eef4e165"
+      },
+      "BANK-063-025": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "23d21e83ca54c82d44a709453918d51eb303116a62eec76541201f822574f068"
+      },
+      "BANK-063-026": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "db481c2ef6ca087301bde2e955d710a9e4ac0ebbe859f2f36466015c837e1453"
+      },
+      "BANK-063-027": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "45a78bb092015a62db4dcf92dab81a55af4190416c854c2746edbe0bc1105261"
+      },
+      "BANK-063-028": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ce5eef8bb106382bfcd89a78034d8d45a82bcc17b9b23a99ab7e25ab8cdd2057"
+      },
+      "BANK-063-029": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "54ecb8d61b6a6065a5567a51c37c918df4bb0e2be2a551963fd9b1d2641b8141"
+      },
+      "BANK-063-030": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "496a3b6db256cb7dc1615fd86cadcc25b2517e62f8b92f0bd502172d4f48a5c4"
+      },
+      "BANK-063-031": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5e9581645912e57e6b7cec577de02624f569b7a46044d6ca4cdb08c46c7fce9c"
+      },
+      "BANK-063-032": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "75dc0ba317bdaeab312d5f84fc9b9605ebb34c4726d5c48fa9eece6dbf1c8fe5"
+      },
+      "BANK-063-033": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1e1c26885a02d80ad8da252324c185321852bc20b5c19f764a17c6d716f6bd14"
+      },
+      "BANK-063-034": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a2faaa02b05f621703201c020a21a2487776a86c74afa6cc216905958b2afd0c"
+      },
+      "BANK-063-035": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7f362e4dcf8d0794fce028ddeb24cc13f745f82e2c23f90ae05e43a34b3846bf"
+      },
+      "BANK-063-036": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "573024455072e16272c43e7551d126edaea644fa05a67b3c218cc0b3efeb071c"
+      },
+      "BANK-063-037": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e74c5dbbce9dd9dd6816ab1a1e02ad60ba6d146e2c029d8e5ce5cf2278bb1636"
+      },
+      "BANK-063-038": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ea3d5d1860a0d0fe720e5c280e2cd8cdbe1ee001a685f68f2bc621167812ea53"
+      },
+      "BANK-063-039": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f4ff3ba51cd57ecd5ba434e9bcdec8c3e7e89b44450a30c1882e01004550858a"
+      },
+      "BANK-063-040": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d4d9c602a4e162e7ecb609d859b9515ac367c4687b2c6282307f459a087ef6cf"
+      },
+      "BANK-063-041": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c02de7cdf65c34bf38a65a8b2599d838b65aa31449500e81d8736e47cbc6e61a"
+      },
+      "BANK-063-042": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b9a007706955a19706b8d848cbc263276dbf1fadcf6a087a4bb341f33cc06acd"
+      },
+      "BANK-063-043": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d4416a510d286b1bb64921089e99e3aab8d85cd4ab234aa5c28a3c3126298f8c"
+      }
+    },
+    "source_categories": {
+      "CATALOG-063-D01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "055f56fe625361bb678d7f9d4fa56210f99add6c7da8e394b7d8aa84b1efea4a"
+      },
+      "CATALOG-063-D02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "2357772539cab2152424bff1d68c991eb4f382fd2145f91e9c6ae8aa39d5c3f2"
+      },
+      "CATALOG-063-D03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "2ed0179f58f421a4ffe90852a8746029867a61f24ce6f77b43265f1965d21433"
+      },
+      "CATALOG-063-D04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "267b2a74269ba4ae16425156e4f5e93db5f0b08554c163fa014ae4a858fd365f"
+      },
+      "CATALOG-063-D05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "e74c06b4796654131bff26031641efe877930cb09bd4e8249b1f4518fff7b360"
+      },
+      "CATALOG-063-D06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "e90538d1ffbb7513e4360d0328e15ae3e62437e5d88f5a0a2a4675c4d459e917"
+      },
+      "CATALOG-063-D07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "355980f7a82471d404181c1ec667af47ee15377582431c078ebc93e77f707775"
+      },
+      "CATALOG-063-D08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "9a8ab5c6b027d883cd6b2a8b3a3acc805636049b97e11387b8eb88c8dceb94d4"
+      }
+    },
+    "source_initial_archive_sha256": "ecf0763bffa76ebd561cc9515892d41899e5284874178a590b7cc14a31f2df4d",
+    "local_files": {
+      "063_CONSUMER_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "2497b7dd79712b9110c725eeeda727fd253f8439cf1f961aad4cbbca43313e99",
+        "original_text": "# Consumer Technology Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 063 Consumer Technology (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Gadget Lovers, Tech Consumers, Smartphone Buffs, Reviewers, Smart Home Builders (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/063_consumer_technology/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Consumer Technology across four progressive tiers:\r\n- **Tier 1: The Smartphone Revolution, Touchscreens & Lithium Batteries (Scratch / Beginner)** — Capacitive vs resistive touchscreens, the 2007 iPhone keynote staging, lithium-ion battery dendrites, and cellular 3G/4G/5G radio spectrum bands.\r\n- **Tier 2: Smart Ecosystems, Computational Photography & Wearables (Intermediate)** — Multi-frame computational HDR image stacking, OLED burn-in vs Mini-LED local dimming, smartwatch photoplethysmography (PPG) heart sensors, and Bluetooth LE audio codecs.\r\n- **Tier 3: Right to Repair, Planned Obsolescence & Supply Chain Geopolitics (Upper Intermediate)** — Serialized hardware parts pairing, the Foxconn Zhengzhou iPhone City production hub, e-waste toxic dumping in Guiyu, and European USB-C mandate regulatory battles.\r\n- **Tier 4: Spatial Computing, Foldable Displays & Ambient AI Hardware (Advanced / Expert)** — Ultra-Thin Glass (UTG) hinge mechanical tolerances, micro-OLED passthrough spatial computing (Vision Pro), ambient audio smart glasses, and on-device neural NPU silicon.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/063_consumer_technology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/063_consumer_technology/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Consumer Device Category Emerges** | *Which need, component, price, and distribution choices enabled one device category?* |\r\n| 2 | `famous_examples` | **A Hit Gadget Reexamined** | *What did one celebrated device deliver beyond its marketing promise?* |\r\n| 3 | `hidden_stories` | **People Behind a Device** | *Whose assembly, repair, software, accessibility, or support work is overlooked?* |\r\n| 4 | `beginner_explainers` | **The Device and Its Services** | *Which functions run on a consumer device and which depend on apps, accounts, or cloud services?* |\r\n| 5 | `advanced_concepts` | **A Device's Real Cost of Use** | *How do purchase price, subscriptions, consumables, energy, and replacement interact?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexplained Product Failure** | *Which documented causes could explain one repeated consumer-device problem?* |\r\n| 7 | `technology_innovation` | **A New Feature in Daily Use** | *Did one consumer-device innovation improve a measurable task?* |\r\n| 8 | `people_personalities` | **A Product Decision and Its Makers** | *Who chose one consequential feature or limitation?* |\r\n| 9 | `major_events` | **A Product Recall or Support End** | *What changed for owners after one recall or end-of-support notice?* |\r\n| 10 | `how_it_works` | **From Tap to Result** | *How does one consumer-tech task pass through hardware, software, data, and service?* |\r\n| 11 | `rise_fall` | **A Gadget's Market Life** | *Why did one product line grow, decline, or disappear?* |\r\n| 12 | `then_vs_now` | **One Household Task Across Device Generations** | *Did a new device make the task easier, cheaper, or more reliable?* |\r\n| 13 | `future_developments` | **A Proposed Consumer Feature** | *What evidence would show that a planned feature benefits users?* |\r\n| 14 | `myths_vs_facts` | **A Gadget Claim Checked** | *Does a battery, speed, safety, or privacy slogan match independent evidence?* |\r\n| 15 | `documentary_stories` | **One Device From Launch to Retirement** | *How did a product move through updates, failures, repair, and disposal?* |\r\n| 16 | `system_boundary` | **Where a Device Ends** | *Which parts of one feature depend on device, app, network, cloud, or third party?* |\r\n| 17 | `input_output_trace` | **What Data a Device Uses** | *Which inputs produce one advertised output and where do they go?* |\r\n| 18 | `design_tradeoff` | **A Gadget Design Compromise** | *What did thinness, battery life, cost, durability, or repairability gain or sacrifice?* |\r\n| 19 | `failure_mode` | **A Product Failure's Chain** | *How did one documented defect reach consumers?* |\r\n| 20 | `testing_limits` | **The Limits of a Product Test** | *Which real use conditions did a lab test or certification omit?* |\r\n| 21 | `standards_interoperability` | **Devices That Should Work Together** | *Did one device meet a named interface standard across brands?* |\r\n| 22 | `security_threat_model` | **Trust in a Connected Device** | *What data and control boundaries should one product protect?* |\r\n| 23 | `maintenance_lifecycle` | **Updates and Repair Across Years** | *How did software support and parts availability affect a device's useful life?* |\r\n| 24 | `infrastructure_dependencies` | **What a Smart Product Needs** | *Which power, network, account, or service dependencies affect one feature?* |\r\n| 25 | `accessibility_usability` | **Can More People Use It?** | *How well does a device support different sensory, motor, and cognitive needs?* |\r\n| 26 | `independent_replication` | **Checking a Product Benchmark** | *Can a maker's claim be reproduced by independent testers?* |\r\n| 27 | `responsible_deployment` | **Introducing a Connected Product** | *What testing, disclosures, update plans, and support accompanied launch?* |\r\n| 28 | `field_software_architecture` | **Software Behind a Gadget** | *How are device firmware, app, and cloud responsibilities divided?* |\r\n| 29 | `field_interface_design` | **A Control People Understand** | *Did a device's physical or digital controls reduce errors?* |\r\n| 30 | `field_version_changes` | **A Firmware Update's Effects** | *Which features or behaviors changed in one product update?* |\r\n| 31 | `field_open_standards` | **Open Compatibility in Practice** | *Does a claimed open standard allow independent devices to interoperate?* |\r\n| 32 | `field_technical_debt` | **Old Decisions in a New Device** | *Which legacy interface or dependency raises current cost or limits support?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: The Smartphone Revolution & Battery Chemistry\r\n1. **The 2007 iPhone Keynote: Steve Jobs' Masterclass in Illusion, Staging, and Golden Phones**\r\n   - *Question:* How did Steve Jobs present a prototype phone that constantly ran out of memory, dropped calls, and froze, by following an exact 'Golden Path' sequence of rehearsed taps?\r\n   - *Key Focus:* The 128MB prototype memory limit, staging Wi-Fi frequencies to hide crowd interference, AT&T portable cell tower rigging, the 'widescreen iPod, phone, internet communicator' triple reveal.\r\n2. **Capacitive vs Resistive Touchscreens: Why Early Smart-Phones Required a Stylus**\r\n   - *Question:* Why did early PDAs and GPS units require hard stylus pressure on flexing plastic layers, and how did Indium Tin Oxide (ITO) grids sense the tiny electrical charge of human skin?\r\n   - *Key Focus:* Pressure-sensitive resistive flexible membranes vs projected capacitive electrostatic field distortion, multi-touch gesture algorithms (pinch-to-zoom), Gorilla Glass chemical strengthening.\r\n3. **Lithium-Ion Batteries: Why Your Phone Battery Dies in 2 Years and What Causes Dendrites**\r\n   - *Question:* How does shuttling lithium ions between graphite anodes and cobalt cathodes degrade over 500 charge cycles, and why can microscopic metallic dendrites cause explosive thermal runaways?\r\n   - *Key Focus:* Solid Electrolyte Interphase (SEI) layer growth, lithium dendrite short circuits, fast charging thermal stress, why 20% to 80% charging habits genuinely prolong battery longevity.\r\n4. **From 1G to 5G: The Invisible Radio Waves Carrying Billions of Gigabytes Through the Air**\r\n   - *Question:* How did mobile communications evolve from crackling 1980s 1G analog voice towers to 5G millimeter-wave beamforming antennas transmitting 1 gigabit per second?\r\n   - *Key Focus:* 2G digital GSM/CDMA, 3G mobile web data packets, 4G LTE OFDM modulation, 5G Massive MIMO beamforming and millimeter wave propagation limits through walls and rain.\r\n### Tier 2: Smart Ecosystems & Computational Displays\r\n5. **Computational Photography: Why a Tiny Phone Lens Takes Better Night Photos Than a DSLR**\r\n   - *Question:* How does a smartphone camera sensor the size of a fingernail take breathtaking astrophotography by burst-capturing 15 underexposed RAW frames and aligning them with machine learning?\r\n   - *Key Focus:* Multi-frame HDR exposure stacking, optical image stabilization gyro tracking, semantic segmentation masks (isolating faces, sky, foliage), synthetic bokeh depth mapping.\r\n6. **OLED vs Mini-LED vs Micro-LED: The Battle for the Perfect Black Pixel**\r\n   - *Question:* Why do organic light-emitting diodes (OLED) deliver infinite contrast ratios by turning individual subpixels completely off, and why is Micro-LED the holy grail that engineers can't mass-produce?\r\n   - *Key Focus:* Self-emissive organic compounds vs Mini-LED thousands of local dimming zones, blue subpixel organic degradation (burn-in risk), Micro-LED pick-and-place manufacturing bottlenecks.\r\n7. **Inside the Smartwatch: How Green LEDs Measure Your Heart Rate and Blood Oxygen**\r\n   - *Question:* How does shining flashing green and infrared light through wrist skin measure blood volume expansion (photoplethysmography) and detect atrial fibrillation heart arrhythmias?\r\n   - *Key Focus:* Hemoglobin green light absorption physics, Photoplethysmography (PPG) waveform filtering, ECG single-lead electrical potential tracking between crown and back glass, FDA medical clearances.\r\n8. **Bluetooth LE and True Wireless Audio: The Miracle of Apple AirPods Synchronization**\r\n   - *Question:* Why did early wireless earbuds suffer audio lag and dropouts between ears until custom silicon chips (H1/W1) broadcast independent synchronized audio streams to each ear?\r\n   - *Key Focus:* Bluetooth Low Energy (LE) sniff subrating, dual-ear snooping protocols, active noise cancellation inverse phase acoustic wave generation, beamforming microphone arrays.\r\n### Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\r\n9. **Right to Repair: How Tech Companies Lock You Out of Fixing Your Own Devices**\r\n   - *Question:* Why does swapping a genuine screen from one brand new iPhone into an identical brand new iPhone disable Face ID, True Tone, and battery health reporting?\r\n   - *Key Focus:* Microcontroller parts serialization and cryptographically paired serial numbers, proprietary pentalobe screws, glue vs pull-tab batteries, Louis Rossmann and iFixit legislative battles.\r\n10. **Foxconn Zhengzhou: Inside the 300,000-Worker 'iPhone City' That Built the Modern World**\r\n   - *Question:* How does a single factory complex in central China produce 500,000 iPhones per day with its own power plants, customs posts, and 300,000 workers living in factory dorms?\r\n   - *Key Focus:* The JIT component supply funnel from Japan/Korea/Taiwan, 400 manual assembly steps per phone, strict security airport scanners, supply chain diversification to India and Vietnam.\r\n11. **Planned Obsolescence: The Lightbulb Cartel and Why Your Old Phone Feels Slow**\r\n   - *Question:* Did the 1924 Phoebus Cartel really fine lightbulb makers whose bulbs lasted over 1,000 hours, and why did Apple secretly throttle older iPhone processors in 2017 (Batterygate)?\r\n   - *Key Focus:* Phoebus Cartel historical documentation, Apple Batterygate CPU power-management throttling to prevent sudden shutdowns on worn batteries, $500M class-action settlement, psychological vs engineered obsolescence.\r\n12. **E-Waste and Guiyu: The Toxic Graveyards Where First-World Gadgets Go to Burn**\r\n   - *Question:* Where do the 50 million tons of discarded laptops and smartphones go every year, and how do informal workers boil circuit boards over lead pots to extract gold?\r\n   - *Key Focus:* Guiyu and Agbogbloshie informal e-waste hubs, toxic heavy metal groundwater contamination (lead, cadmium, mercury), open-air wire burning, modern closed-loop robotic recyclers (Apple Liam/Daisy).\r\n13. **How the European Union Forced Apple to Abandon the Lightning Cable for USB-C**\r\n   - *Question:* How did a single European directive in Brussels compel the world's most valuable tech company to abandon its lucrative proprietary MFi licensing program and adopt USB-C?\r\n   - *Key Focus:* The Common Charger Directive 2022/2380, e-waste reduction estimates (11,000 tons annually), Apple's $100M+ annual Made for iPhone (MFi) royalty revenue loss, the global 'Brussels Effect'.\r\n### Tier 4: Spatial Computing, Foldables & Ambient AI\r\n14. **Foldable Phones: The Ultra-Thin Glass and Water-Drop Hinges Defying Material Physics**\r\n   - *Question:* How can glass bend in half like a piece of paper 200,000 times without shattering, and how do waterdrop hinges eliminate the middle crease?\r\n   - *Key Focus:* Schott and Corning Ultra-Thin Glass (UTG) flexible 30-micron glass sheets, water-drop teardrop hinge radius mechanical cams, dust-sweeper bristle micro-cleaners, polymer layers.\r\n15. **Apple Vision Pro and Spatial Computing: Micro-OLEDs and the 12-Millisecond Passthrough Barrier**\r\n   - *Question:* Why does virtual reality cause motion sickness if latency exceeds 20 milliseconds, and how does custom silicon (R1 chip) stream 12 cameras to 4K postage-stamp displays in 12 milliseconds?\r\n   - *Key Focus:* Micro-OLED on silicon wafers (23 million pixels across two postage stamps), eye tracking using ring LEDs and foveated rendering, the photon-to-motion latency limit, spatial audio ray-tracing.\r\n16. **Smart Glasses and Ambient Audio: Why Big Tech Wants to Replace Your Screen with Your Face**\r\n   - *Question:* Why did Google Glass fail miserably in 2013 while Ray-Ban Meta smart glasses became a mainstream hit in 2024?\r\n   - *Key Focus:* Social acceptability and removing obvious display prisms, open-ear directional audio speakers, multimodal AI cameras answering questions about what you see, privacy LED norms.\r\n17. **On-Device Neural NPUs: Running 7-Billion-Parameter AI Locally on Your Phone**\r\n   - *Question:* How do dedicated Neural Processing Units (NPUs) multiply 4-bit and 8-bit quantized matrix weights at 45 TOPS (trillion operations per second) using under 5 watts of battery power?\r\n   - *Key Focus:* Systolic array tensor matrix multipliers, INT4/INT8 model quantization, private local processing vs cloud server round-trips, the battle between Qualcomm, Apple, and MediaTek.\r\n18. **The Death of the 3.5mm Headphone Jack: The Boldest Corporate Squeeze in Tech History**\r\n   - *Question:* When Phil Schiller claimed it took 'courage' to remove the 100-year-old analog audio jack from the iPhone 7, was it to save space for taptic engines or to force a $30 billion AirPods ecosystem?\r\n   - *Key Focus:* Taptic engine haptic feedback hardware expansion, water resistance IP67 seals, consumer backlash to the $9 Lightning dongle, how every Android competitor copied the move within 2 years.\r\n19. **The Matter Smart Home Standard: How Big Tech Finally Agreed to Talk to Each Other**\r\n   - *Question:* Why did Apple, Google, Amazon, and Samsung spend 15 years trapping customers in walled smart home gardens before unifying under a single open protocol called Matter?\r\n   - *Key Focus:* Thread mesh networking IPv6 radio packets, local network control eliminating cloud lag, eliminating bridge hubs, interoperability allowing Google Assistant to control Apple HomeKit plugs.\r\n20. **Consumer Technology in 2035: Beyond the Glass Rectangle**\r\n   - *Question:* What happens when augmented reality contact lenses, neural wristbands, and ambient home sensors make the smartphone completely obsolete?\r\n   - *Key Focus:* Mojo Vision micro-LED contact lens prototypes, Meta EMG neural motor-neuron wristbands, voice/vision multimodal AI agents, the transition from active device usage to passive ambient intelligence.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 063 (Consumer Technology)\r\n- **Angle Preset:** `beginner_explainers`\r\n- **Episode Title:** *The 2007 iPhone Keynote: Steve Jobs' Masterclass in Illusion, Staging, and Golden Phones*\r\n- **Episode Slug:** `063_consumer_technology_beginner_explainers_2007_iphone_keynote`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/063_consumer_technology/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "667561e5bce3885ba6eaec124df34a291ef7b5298611b15ae6932b384c6c74b9",
+        "original_text": "# 063 Consumer Technology -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 063 Consumer Technology (Computing_Software)  \r\n> **Storage Directory:** `topics/063_consumer_technology/`  \r\n> **Synchronized With:** `OUTPUT/063_consumer_technology/`, `REGISTRY/Niches/063_consumer_technology/`, and `063_CONSUMER_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 063 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/063_consumer_technology](../../OUTPUT/063_consumer_technology) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The 2007 iPhone Keynote: Steve Jobs' Masterclass in Illusion, Staging, and Golden Phones** | Tier 1: The Smartphone Revolution & Battery Chemistry | `beginner_explainers` | `steve_jobs_2007_iphone_keynote_golden_path_prototype_illusion` | Flagship launch episode; the most legendary product launch in corporate tech history that created the modern smartphone era. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Capacitive vs Resistive Touchscreens: Why Early Smart-Phones Required a Stylus** | Tier 1: The Smartphone Revolution & Battery Chemistry | `how_it_works` | `capacitive_vs_resistive_touchscreens_indium_tin_oxide_multitouch` | The foundational interface breakthrough that replaced physical mechanical keypads with software-defined glass. | `QUEUED` |\r\n| 3 | **Lithium-Ion Batteries: Why Your Phone Battery Dies in 2 Years and What Causes Dendrites** | Tier 1: The Smartphone Revolution & Battery Chemistry | `scientific_breakthroughs` | `lithium_ion_battery_chemistry_dendrites_anode_cathode_charging_cycles` | Demystifies the electrochemical powerhouse inside every modern gadget and provides actionable battery preservation habits. | `QUEUED` |\r\n| 4 | **From 1G to 5G: The Invisible Radio Waves Carrying Billions of Gigabytes Through the Air** | Tier 1: The Smartphone Revolution & Battery Chemistry | `timeline_evolution` | `cellular_networks_evolution_1g_analog_to_5g_millimeter_wave_mimo` | The essential telecommunications infrastructure underpinning the mobile internet economy. | `QUEUED` |\r\n| 5 | **Computational Photography: Why a Tiny Phone Lens Takes Better Night Photos Than a DSLR** | Tier 2: Smart Ecosystems & Computational Displays | `case_studies` | `computational_photography_multi_frame_hdr_night_mode_semantic_segmentation` | The software revolution that eliminated traditional optical lens physics as the sole arbiter of photographic quality. | `QUEUED` |\r\n| 6 | **OLED vs Mini-LED vs Micro-LED: The Battle for the Perfect Black Pixel** | Tier 2: Smart Ecosystems & Computational Displays | `comparisons` | `oled_vs_mini_led_vs_micro_led_display_technology_burn_in_local_dimming` | The technical breakdown of the display screens humanity stares at for 8 hours a day. | `QUEUED` |\r\n| 7 | **Inside the Smartwatch: How Green LEDs Measure Your Heart Rate and Blood Oxygen** | Tier 2: Smart Ecosystems & Computational Displays | `how_it_works` | `smartwatch_sensors_photoplethysmography_ppg_heart_rate_ecg_pulse_oximetry` | Explains how consumer fashion accessories transformed into clinical-grade early-warning medical diagnostic devices. | `QUEUED` |\r\n| 8 | **Bluetooth LE and True Wireless Audio: The Miracle of Apple AirPods Synchronization** | Tier 2: Smart Ecosystems & Computational Displays | `behind_the_scenes` | `apple_airpods_true_wireless_stereo_bluetooth_le_h1_chip_latency` | The engineering triumph that killed the 3.5mm headphone jack and created a $30 billion standalone audio accessory empire. | `QUEUED` |\r\n| 9 | **Right to Repair: How Tech Companies Lock You Out of Fixing Your Own Devices** | Tier 3: Right to Repair, Planned Obsolescence & Supply Chains | `ethical_debates` | `right_to_repair_parts_serialization_apple_louis_rossmann_ifixit` | The defining consumer rights, property ownership, and ecological battle in modern electronics. | `QUEUED` |\r\n| 10 | **Foxconn Zhengzhou: Inside the 300,000-Worker 'iPhone City' That Built the Modern World** | Tier 3: Right to Repair, Planned Obsolescence & Supply Chains | `behind_the_scenes` | `foxconn_zhengzhou_iphone_city_assembly_lines_supply_chain_scale` | Reveals the jaw-dropping human and logistical mega-scale required to feed global smartphone demand. | `QUEUED` |\r\n| 11 | **Planned Obsolescence: The Lightbulb Cartel and Why Your Old Phone Feels Slow** | Tier 3: Right to Repair, Planned Obsolescence & Supply Chains | `dark_secrets` | `planned_obsolescence_phoebus_cartel_apple_batterygate_slowdown` | Investigates one of the most widespread consumer suspicions with documented industrial history and legal evidence. | `QUEUED` |\r\n| 12 | **E-Waste and Guiyu: The Toxic Graveyards Where First-World Gadgets Go to Burn** | Tier 3: Right to Repair, Planned Obsolescence & Supply Chains | `dark_secrets` | `electronic_waste_guiyu_china_agbogbloshie_ghana_informal_gold_recovery` | The tragic ecological and human cost of modern upgrade cycles and disposable electronics. | `QUEUED` |\r\n| 13 | **How the European Union Forced Apple to Abandon the Lightning Cable for USB-C** | Tier 3: Right to Repair, Planned Obsolescence & Supply Chains | `case_studies` | `european_union_usb_c_mandate_apple_lightning_port_death_common_charger` | The most powerful demonstration of international consumer regulation overcoming corporate hardware monopoly. | `QUEUED` |\r\n| 14 | **Foldable Phones: The Ultra-Thin Glass and Water-Drop Hinges Defying Material Physics** | Tier 4: Spatial Computing, Foldables & Ambient AI | `scientific_breakthroughs` | `foldable_smartphones_ultra_thin_glass_utg_waterdrop_hinge_crease` | The most impressive mechanical and materials engineering breakthrough in modern smartphone design. | `QUEUED` |\r\n| 15 | **Apple Vision Pro and Spatial Computing: Micro-OLEDs and the 12-Millisecond Passthrough Barrier** | Tier 4: Spatial Computing, Foldables & Ambient AI | `how_it_works` | `apple_vision_pro_spatial_computing_micro_oled_r1_chip_passthrough` | The peak of contemporary consumer hardware integration and sensory computing. | `QUEUED` |\r\n| 16 | **Smart Glasses and Ambient Audio: Why Big Tech Wants to Replace Your Screen with Your Face** | Tier 4: Spatial Computing, Foldables & Ambient AI | `future_predictions` | `smart_glasses_meta_ray_ban_ambient_audio_multimodal_ai_cameras` | The transition from handheld touchscreen glass to hands-free ambient sensory computing. | `QUEUED` |\r\n| 17 | **On-Device Neural NPUs: Running 7-Billion-Parameter AI Locally on Your Phone** | Tier 4: Spatial Computing, Foldables & Ambient AI | `how_it_works` | `neural_processing_units_npu_apple_neural_engine_snapdragon_on_device_ai` | The silicon architectural foundation enabling private, offline generative artificial intelligence on mobile devices. | `QUEUED` |\r\n| 18 | **The Death of the 3.5mm Headphone Jack: The Boldest Corporate Squeeze in Tech History** | Tier 4: Spatial Computing, Foldables & Ambient AI | `behind_the_scenes` | `death_of_the_headphone_jack_iphone_7_courage_dongle_airpods_billions` | A masterclass in how dominant hardware platforms force ecosystem transitions despite massive public outrage. | `QUEUED` |\r\n| 19 | **The Matter Smart Home Standard: How Big Tech Finally Agreed to Talk to Each Other** | Tier 4: Spatial Computing, Foldables & Ambient AI | `history_origins` | `matter_smart_home_standard_thread_mesh_networking_interoperability` | The landmark industry truce that fixed the single most frustrating bottleneck in consumer smart home adoption. | `QUEUED` |\r\n| 20 | **Consumer Technology in 2035: Beyond the Glass Rectangle** | Tier 4: Spatial Computing, Foldables & Ambient AI | `future_predictions` | `the_future_of_consumer_tech_2035_post_smartphone_ambient_hardware` | The ultimate forward-looking synthesis of how human-computer interaction will evolve over the next decade. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Why You Should NEVER Charge Your Phone to 100% Overnight** | **5.2M - 9.5M** | `beginner_explainers` | `why_you_should_never_charge_your_phone_to_100%_overnight` | Universal everyday concern that every human with a smartphone wonders about and wants answered. | `TRENDING CANDIDATE` |\r\n| 22 | **The Fake Moon Photography Scandal: Did Samsung Fake Your Zoom Photos?** | **4.5M - 8.0M** | `myths_vs_facts` | `the_fake_moon_photography_scandal_did_samsung_fake_your_zoom_photos` | Massive viral controversy examining where computational photography ends and pure AI hallucination begins. | `TRENDING CANDIDATE` |\r\n| 23 | **Why iPhones in the US Don't Have a SIM Card Tray Anymore (eSIM)** | **2.8M - 4.9M** | `how_it_works` | `why_iphones_in_the_us_dont_have_a_sim_card_tray_anymore_(esim)` | Practical everyday realization with interesting hardware space and carrier lock-in implications. | `TRENDING CANDIDATE` |\r\n| 24 | **How Apple Secretly Staged the 2007 iPhone Keynote So It Wouldn't Crash** | **3.8M - 6.8M** | `behind_the_scenes` | `how_apple_secretly_staged_the_2007_iphone_keynote_so_it_wouldnt_crash` | Incredible insider backstage storytelling about the most iconic presentation in corporate history. | `TRENDING CANDIDATE` |\r\n| 25 | **Why Fast Charging Your Phone at 120W Isn't Actually Destroying the Battery** | **3.1M - 5.5M** | `scientific_breakthroughs` | `why_fast_charging_your_phone_at_120w_isnt_actually_destroying_the_battery` | Debunks a very common piece of conservative battery mythology with modern charging engineering. | `TRENDING CANDIDATE` |\r\n| 26 | **Why Did Everyone Stop Buying 3D TVs? The Biggest Flop in Tech History** | **3.4M - 6.0M** | `timeline_evolution` | `why_did_everyone_stop_buying_3d_tvs_the_biggest_flop_in_tech_history` | Nostalgic, hilarious post-mortem on an expensive hardware gimmick everyone remembers. | `TRENDING CANDIDATE` |\r\n| 27 | **What Your Smart TV Is Secretly Watching You Do (ACR Technology)** | **3.9M - 7.2M** | `dark_secrets` | `what_your_smart_tv_is_secretly_watching_you_do_(acr_technology)` | Eye-opening privacy revelation that empowers viewers to change settings on their living room TVs immediately. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/063_consumer_technology/063_CONSUMER_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md`](./063_CONSUMER_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/063_consumer_technology/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/063_consumer_technology/NICHE_063_consumer_technology.md`](file:///h:/script-raw-/REGISTRY/Niches/063_consumer_technology/NICHE_063_consumer_technology.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/063_consumer_technology/CAT_063_consumer_technology.md`](file:///h:/script-raw-/REGISTRY/Niches/063_consumer_technology/CAT_063_consumer_technology.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/063_consumer_technology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/063_consumer_technology/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/063_consumer_technology/`](file:///h:/script-raw-/OUTPUT/063_consumer_technology/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "55c318c027569f604b672373680789ead15ad4fd2f7a328632d9b6c975542978",
+        "original_text": "{\r\n  \"niche_id\": \"063\",\r\n  \"niche_name\": \"consumer_technology\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The 2007 iPhone Keynote: Steve Jobs' Masterclass in Illusion, Staging, and Golden Phones\",\r\n      \"tier\": \"Tier 1: The Smartphone Revolution & Battery Chemistry\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"steve_jobs_2007_iphone_keynote_golden_path_prototype_illusion\",\r\n      \"reason\": \"Flagship launch episode; the most legendary product launch in corporate tech history that created the modern smartphone era.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Capacitive vs Resistive Touchscreens: Why Early Smart-Phones Required a Stylus\",\r\n      \"tier\": \"Tier 1: The Smartphone Revolution & Battery Chemistry\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"capacitive_vs_resistive_touchscreens_indium_tin_oxide_multitouch\",\r\n      \"reason\": \"The foundational interface breakthrough that replaced physical mechanical keypads with software-defined glass.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Lithium-Ion Batteries: Why Your Phone Battery Dies in 2 Years and What Causes Dendrites\",\r\n      \"tier\": \"Tier 1: The Smartphone Revolution & Battery Chemistry\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"lithium_ion_battery_chemistry_dendrites_anode_cathode_charging_cycles\",\r\n      \"reason\": \"Demystifies the electrochemical powerhouse inside every modern gadget and provides actionable battery preservation habits.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"From 1G to 5G: The Invisible Radio Waves Carrying Billions of Gigabytes Through the Air\",\r\n      \"tier\": \"Tier 1: The Smartphone Revolution & Battery Chemistry\",\r\n      \"angle\": \"timeline_evolution\",\r\n      \"slug\": \"cellular_networks_evolution_1g_analog_to_5g_millimeter_wave_mimo\",\r\n      \"reason\": \"The essential telecommunications infrastructure underpinning the mobile internet economy.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Computational Photography: Why a Tiny Phone Lens Takes Better Night Photos Than a DSLR\",\r\n      \"tier\": \"Tier 2: Smart Ecosystems & Computational Displays\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"computational_photography_multi_frame_hdr_night_mode_semantic_segmentation\",\r\n      \"reason\": \"The software revolution that eliminated traditional optical lens physics as the sole arbiter of photographic quality.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"OLED vs Mini-LED vs Micro-LED: The Battle for the Perfect Black Pixel\",\r\n      \"tier\": \"Tier 2: Smart Ecosystems & Computational Displays\",\r\n      \"angle\": \"comparisons\",\r\n      \"slug\": \"oled_vs_mini_led_vs_micro_led_display_technology_burn_in_local_dimming\",\r\n      \"reason\": \"The technical breakdown of the display screens humanity stares at for 8 hours a day.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Inside the Smartwatch: How Green LEDs Measure Your Heart Rate and Blood Oxygen\",\r\n      \"tier\": \"Tier 2: Smart Ecosystems & Computational Displays\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"smartwatch_sensors_photoplethysmography_ppg_heart_rate_ecg_pulse_oximetry\",\r\n      \"reason\": \"Explains how consumer fashion accessories transformed into clinical-grade early-warning medical diagnostic devices.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Bluetooth LE and True Wireless Audio: The Miracle of Apple AirPods Synchronization\",\r\n      \"tier\": \"Tier 2: Smart Ecosystems & Computational Displays\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"apple_airpods_true_wireless_stereo_bluetooth_le_h1_chip_latency\",\r\n      \"reason\": \"The engineering triumph that killed the 3.5mm headphone jack and created a $30 billion standalone audio accessory empire.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Right to Repair: How Tech Companies Lock You Out of Fixing Your Own Devices\",\r\n      \"tier\": \"Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\",\r\n      \"angle\": \"ethical_debates\",\r\n      \"slug\": \"right_to_repair_parts_serialization_apple_louis_rossmann_ifixit\",\r\n      \"reason\": \"The defining consumer rights, property ownership, and ecological battle in modern electronics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Foxconn Zhengzhou: Inside the 300,000-Worker 'iPhone City' That Built the Modern World\",\r\n      \"tier\": \"Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"foxconn_zhengzhou_iphone_city_assembly_lines_supply_chain_scale\",\r\n      \"reason\": \"Reveals the jaw-dropping human and logistical mega-scale required to feed global smartphone demand.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Planned Obsolescence: The Lightbulb Cartel and Why Your Old Phone Feels Slow\",\r\n      \"tier\": \"Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"planned_obsolescence_phoebus_cartel_apple_batterygate_slowdown\",\r\n      \"reason\": \"Investigates one of the most widespread consumer suspicions with documented industrial history and legal evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"E-Waste and Guiyu: The Toxic Graveyards Where First-World Gadgets Go to Burn\",\r\n      \"tier\": \"Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"electronic_waste_guiyu_china_agbogbloshie_ghana_informal_gold_recovery\",\r\n      \"reason\": \"The tragic ecological and human cost of modern upgrade cycles and disposable electronics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"How the European Union Forced Apple to Abandon the Lightning Cable for USB-C\",\r\n      \"tier\": \"Tier 3: Right to Repair, Planned Obsolescence & Supply Chains\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"european_union_usb_c_mandate_apple_lightning_port_death_common_charger\",\r\n      \"reason\": \"The most powerful demonstration of international consumer regulation overcoming corporate hardware monopoly.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Foldable Phones: The Ultra-Thin Glass and Water-Drop Hinges Defying Material Physics\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"foldable_smartphones_ultra_thin_glass_utg_waterdrop_hinge_crease\",\r\n      \"reason\": \"The most impressive mechanical and materials engineering breakthrough in modern smartphone design.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Apple Vision Pro and Spatial Computing: Micro-OLEDs and the 12-Millisecond Passthrough Barrier\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"apple_vision_pro_spatial_computing_micro_oled_r1_chip_passthrough\",\r\n      \"reason\": \"The peak of contemporary consumer hardware integration and sensory computing.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Smart Glasses and Ambient Audio: Why Big Tech Wants to Replace Your Screen with Your Face\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"smart_glasses_meta_ray_ban_ambient_audio_multimodal_ai_cameras\",\r\n      \"reason\": \"The transition from handheld touchscreen glass to hands-free ambient sensory computing.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"On-Device Neural NPUs: Running 7-Billion-Parameter AI Locally on Your Phone\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"neural_processing_units_npu_apple_neural_engine_snapdragon_on_device_ai\",\r\n      \"reason\": \"The silicon architectural foundation enabling private, offline generative artificial intelligence on mobile devices.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"The Death of the 3.5mm Headphone Jack: The Boldest Corporate Squeeze in Tech History\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"death_of_the_headphone_jack_iphone_7_courage_dongle_airpods_billions\",\r\n      \"reason\": \"A masterclass in how dominant hardware platforms force ecosystem transitions despite massive public outrage.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"The Matter Smart Home Standard: How Big Tech Finally Agreed to Talk to Each Other\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"matter_smart_home_standard_thread_mesh_networking_interoperability\",\r\n      \"reason\": \"The landmark industry truce that fixed the single most frustrating bottleneck in consumer smart home adoption.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Consumer Technology in 2035: Beyond the Glass Rectangle\",\r\n      \"tier\": \"Tier 4: Spatial Computing, Foldables & Ambient AI\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"the_future_of_consumer_tech_2035_post_smartphone_ambient_hardware\",\r\n      \"reason\": \"The ultimate forward-looking synthesis of how human-computer interaction will evolve over the next decade.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Why You Should NEVER Charge Your Phone to 100% Overnight\",\r\n      \"trend_score\": \"5.2M - 9.5M\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"why_you_should_never_charge_your_phone_to_100%_overnight\",\r\n      \"why_trending\": \"Universal everyday concern that every human with a smartphone wonders about and wants answered.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"The Fake Moon Photography Scandal: Did Samsung Fake Your Zoom Photos?\",\r\n      \"trend_score\": \"4.5M - 8.0M\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"the_fake_moon_photography_scandal_did_samsung_fake_your_zoom_photos\",\r\n      \"why_trending\": \"Massive viral controversy examining where computational photography ends and pure AI hallucination begins.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Why iPhones in the US Don't Have a SIM Card Tray Anymore (eSIM)\",\r\n      \"trend_score\": \"2.8M - 4.9M\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"why_iphones_in_the_us_dont_have_a_sim_card_tray_anymore_(esim)\",\r\n      \"why_trending\": \"Practical everyday realization with interesting hardware space and carrier lock-in implications.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"How Apple Secretly Staged the 2007 iPhone Keynote So It Wouldn't Crash\",\r\n      \"trend_score\": \"3.8M - 6.8M\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"how_apple_secretly_staged_the_2007_iphone_keynote_so_it_wouldnt_crash\",\r\n      \"why_trending\": \"Incredible insider backstage storytelling about the most iconic presentation in corporate history.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Why Fast Charging Your Phone at 120W Isn't Actually Destroying the Battery\",\r\n      \"trend_score\": \"3.1M - 5.5M\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"why_fast_charging_your_phone_at_120w_isnt_actually_destroying_the_battery\",\r\n      \"why_trending\": \"Debunks a very common piece of conservative battery mythology with modern charging engineering.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Why Did Everyone Stop Buying 3D TVs? The Biggest Flop in Tech History\",\r\n      \"trend_score\": \"3.4M - 6.0M\",\r\n      \"angle\": \"timeline_evolution\",\r\n      \"slug\": \"why_did_everyone_stop_buying_3d_tvs_the_biggest_flop_in_tech_history\",\r\n      \"why_trending\": \"Nostalgic, hilarious post-mortem on an expensive hardware gimmick everyone remembers.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"What Your Smart TV Is Secretly Watching You Do (ACR Technology)\",\r\n      \"trend_score\": \"3.9M - 7.2M\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"what_your_smart_tv_is_secretly_watching_you_do_(acr_technology)\",\r\n      \"why_trending\": \"Eye-opening privacy revelation that empowers viewers to change settings on their living room TVs immediately.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "063",
+      "niche_name": "consumer_technology",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The 2007 iPhone Keynote: Steve Jobs' Masterclass in Illusion, Staging, and Golden Phones",
+          "tier": "Tier 1: The Smartphone Revolution & Battery Chemistry",
+          "angle": "beginner_explainers",
+          "slug": "steve_jobs_2007_iphone_keynote_golden_path_prototype_illusion",
+          "reason": "Flagship launch episode; the most legendary product launch in corporate tech history that created the modern smartphone era.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Capacitive vs Resistive Touchscreens: Why Early Smart-Phones Required a Stylus",
+          "tier": "Tier 1: The Smartphone Revolution & Battery Chemistry",
+          "angle": "how_it_works",
+          "slug": "capacitive_vs_resistive_touchscreens_indium_tin_oxide_multitouch",
+          "reason": "The foundational interface breakthrough that replaced physical mechanical keypads with software-defined glass.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Lithium-Ion Batteries: Why Your Phone Battery Dies in 2 Years and What Causes Dendrites",
+          "tier": "Tier 1: The Smartphone Revolution & Battery Chemistry",
+          "angle": "scientific_breakthroughs",
+          "slug": "lithium_ion_battery_chemistry_dendrites_anode_cathode_charging_cycles",
+          "reason": "Demystifies the electrochemical powerhouse inside every modern gadget and provides actionable battery preservation habits.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "From 1G to 5G: The Invisible Radio Waves Carrying Billions of Gigabytes Through the Air",
+          "tier": "Tier 1: The Smartphone Revolution & Battery Chemistry",
+          "angle": "timeline_evolution",
+          "slug": "cellular_networks_evolution_1g_analog_to_5g_millimeter_wave_mimo",
+          "reason": "The essential telecommunications infrastructure underpinning the mobile internet economy.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Computational Photography: Why a Tiny Phone Lens Takes Better Night Photos Than a DSLR",
+          "tier": "Tier 2: Smart Ecosystems & Computational Displays",
+          "angle": "case_studies",
+          "slug": "computational_photography_multi_frame_hdr_night_mode_semantic_segmentation",
+          "reason": "The software revolution that eliminated traditional optical lens physics as the sole arbiter of photographic quality.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "OLED vs Mini-LED vs Micro-LED: The Battle for the Perfect Black Pixel",
+          "tier": "Tier 2: Smart Ecosystems & Computational Displays",
+          "angle": "comparisons",
+          "slug": "oled_vs_mini_led_vs_micro_led_display_technology_burn_in_local_dimming",
+          "reason": "The technical breakdown of the display screens humanity stares at for 8 hours a day.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Inside the Smartwatch: How Green LEDs Measure Your Heart Rate and Blood Oxygen",
+          "tier": "Tier 2: Smart Ecosystems & Computational Displays",
+          "angle": "how_it_works",
+          "slug": "smartwatch_sensors_photoplethysmography_ppg_heart_rate_ecg_pulse_oximetry",
+          "reason": "Explains how consumer fashion accessories transformed into clinical-grade early-warning medical diagnostic devices.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Bluetooth LE and True Wireless Audio: The Miracle of Apple AirPods Synchronization",
+          "tier": "Tier 2: Smart Ecosystems & Computational Displays",
+          "angle": "behind_the_scenes",
+          "slug": "apple_airpods_true_wireless_stereo_bluetooth_le_h1_chip_latency",
+          "reason": "The engineering triumph that killed the 3.5mm headphone jack and created a $30 billion standalone audio accessory empire.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Right to Repair: How Tech Companies Lock You Out of Fixing Your Own Devices",
+          "tier": "Tier 3: Right to Repair, Planned Obsolescence & Supply Chains",
+          "angle": "ethical_debates",
+          "slug": "right_to_repair_parts_serialization_apple_louis_rossmann_ifixit",
+          "reason": "The defining consumer rights, property ownership, and ecological battle in modern electronics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Foxconn Zhengzhou: Inside the 300,000-Worker 'iPhone City' That Built the Modern World",
+          "tier": "Tier 3: Right to Repair, Planned Obsolescence & Supply Chains",
+          "angle": "behind_the_scenes",
+          "slug": "foxconn_zhengzhou_iphone_city_assembly_lines_supply_chain_scale",
+          "reason": "Reveals the jaw-dropping human and logistical mega-scale required to feed global smartphone demand.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Planned Obsolescence: The Lightbulb Cartel and Why Your Old Phone Feels Slow",
+          "tier": "Tier 3: Right to Repair, Planned Obsolescence & Supply Chains",
+          "angle": "dark_secrets",
+          "slug": "planned_obsolescence_phoebus_cartel_apple_batterygate_slowdown",
+          "reason": "Investigates one of the most widespread consumer suspicions with documented industrial history and legal evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "E-Waste and Guiyu: The Toxic Graveyards Where First-World Gadgets Go to Burn",
+          "tier": "Tier 3: Right to Repair, Planned Obsolescence & Supply Chains",
+          "angle": "dark_secrets",
+          "slug": "electronic_waste_guiyu_china_agbogbloshie_ghana_informal_gold_recovery",
+          "reason": "The tragic ecological and human cost of modern upgrade cycles and disposable electronics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "How the European Union Forced Apple to Abandon the Lightning Cable for USB-C",
+          "tier": "Tier 3: Right to Repair, Planned Obsolescence & Supply Chains",
+          "angle": "case_studies",
+          "slug": "european_union_usb_c_mandate_apple_lightning_port_death_common_charger",
+          "reason": "The most powerful demonstration of international consumer regulation overcoming corporate hardware monopoly.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Foldable Phones: The Ultra-Thin Glass and Water-Drop Hinges Defying Material Physics",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "scientific_breakthroughs",
+          "slug": "foldable_smartphones_ultra_thin_glass_utg_waterdrop_hinge_crease",
+          "reason": "The most impressive mechanical and materials engineering breakthrough in modern smartphone design.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Apple Vision Pro and Spatial Computing: Micro-OLEDs and the 12-Millisecond Passthrough Barrier",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "how_it_works",
+          "slug": "apple_vision_pro_spatial_computing_micro_oled_r1_chip_passthrough",
+          "reason": "The peak of contemporary consumer hardware integration and sensory computing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Smart Glasses and Ambient Audio: Why Big Tech Wants to Replace Your Screen with Your Face",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "future_predictions",
+          "slug": "smart_glasses_meta_ray_ban_ambient_audio_multimodal_ai_cameras",
+          "reason": "The transition from handheld touchscreen glass to hands-free ambient sensory computing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "On-Device Neural NPUs: Running 7-Billion-Parameter AI Locally on Your Phone",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "how_it_works",
+          "slug": "neural_processing_units_npu_apple_neural_engine_snapdragon_on_device_ai",
+          "reason": "The silicon architectural foundation enabling private, offline generative artificial intelligence on mobile devices.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "The Death of the 3.5mm Headphone Jack: The Boldest Corporate Squeeze in Tech History",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "behind_the_scenes",
+          "slug": "death_of_the_headphone_jack_iphone_7_courage_dongle_airpods_billions",
+          "reason": "A masterclass in how dominant hardware platforms force ecosystem transitions despite massive public outrage.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "The Matter Smart Home Standard: How Big Tech Finally Agreed to Talk to Each Other",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "history_origins",
+          "slug": "matter_smart_home_standard_thread_mesh_networking_interoperability",
+          "reason": "The landmark industry truce that fixed the single most frustrating bottleneck in consumer smart home adoption.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Consumer Technology in 2035: Beyond the Glass Rectangle",
+          "tier": "Tier 4: Spatial Computing, Foldables & Ambient AI",
+          "angle": "future_predictions",
+          "slug": "the_future_of_consumer_tech_2035_post_smartphone_ambient_hardware",
+          "reason": "The ultimate forward-looking synthesis of how human-computer interaction will evolve over the next decade.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Why You Should NEVER Charge Your Phone to 100% Overnight",
+          "trend_score": "5.2M - 9.5M",
+          "angle": "beginner_explainers",
+          "slug": "why_you_should_never_charge_your_phone_to_100%_overnight",
+          "why_trending": "Universal everyday concern that every human with a smartphone wonders about and wants answered.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "The Fake Moon Photography Scandal: Did Samsung Fake Your Zoom Photos?",
+          "trend_score": "4.5M - 8.0M",
+          "angle": "myths_vs_facts",
+          "slug": "the_fake_moon_photography_scandal_did_samsung_fake_your_zoom_photos",
+          "why_trending": "Massive viral controversy examining where computational photography ends and pure AI hallucination begins.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "Why iPhones in the US Don't Have a SIM Card Tray Anymore (eSIM)",
+          "trend_score": "2.8M - 4.9M",
+          "angle": "how_it_works",
+          "slug": "why_iphones_in_the_us_dont_have_a_sim_card_tray_anymore_(esim)",
+          "why_trending": "Practical everyday realization with interesting hardware space and carrier lock-in implications.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "How Apple Secretly Staged the 2007 iPhone Keynote So It Wouldn't Crash",
+          "trend_score": "3.8M - 6.8M",
+          "angle": "behind_the_scenes",
+          "slug": "how_apple_secretly_staged_the_2007_iphone_keynote_so_it_wouldnt_crash",
+          "why_trending": "Incredible insider backstage storytelling about the most iconic presentation in corporate history.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "Why Fast Charging Your Phone at 120W Isn't Actually Destroying the Battery",
+          "trend_score": "3.1M - 5.5M",
+          "angle": "scientific_breakthroughs",
+          "slug": "why_fast_charging_your_phone_at_120w_isnt_actually_destroying_the_battery",
+          "why_trending": "Debunks a very common piece of conservative battery mythology with modern charging engineering.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "Why Did Everyone Stop Buying 3D TVs? The Biggest Flop in Tech History",
+          "trend_score": "3.4M - 6.0M",
+          "angle": "timeline_evolution",
+          "slug": "why_did_everyone_stop_buying_3d_tvs_the_biggest_flop_in_tech_history",
+          "why_trending": "Nostalgic, hilarious post-mortem on an expensive hardware gimmick everyone remembers.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "What Your Smart TV Is Secretly Watching You Do (ACR Technology)",
+          "trend_score": "3.9M - 7.2M",
+          "angle": "dark_secrets",
+          "slug": "what_your_smart_tv_is_secretly_watching_you_do_(acr_technology)",
+          "why_trending": "Eye-opening privacy revelation that empowers viewers to change settings on their living room TVs immediately.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "3ccbf9ebfac5e5a804534623e5393faf334a4128a56ccf2e3298df7d14979532"
+    },
+    {
+      "input": "Scripts\\editorial_pass_051_080.json",
+      "sha256": "88f921cc567199ae4a772cf31f81da1ea5ef7c07b44507de9972f81702925552"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-063-G01",
+      "title": "Connected devices, media and energy",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-063-G02",
+      "title": "Accounts, support and practical ownership",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-063-G03",
+      "title": "Reviews, access and environmental claims",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-063-09",
+      "title": "Connected-device ownership",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-063-10",
+      "title": "Device comparison",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "starter_concept_crosswalk": {
+    "BANK-063-001": [
+      "BANK-063-048"
+    ],
+    "BANK-063-004": [
+      "BANK-063-049"
+    ],
+    "BANK-063-002": [
+      "BANK-063-015"
+    ],
+    "BANK-063-003": [
+      "BANK-063-022"
+    ],
+    "BANK-063-005": [
+      "BANK-063-032"
+    ],
+    "BANK-063-006": [
+      "BANK-063-033"
+    ],
+    "BANK-063-007": [
+      "BANK-063-028"
+    ],
+    "BANK-063-008": [
+      "BANK-063-021"
+    ],
+    "BANK-063-009": [
+      "BANK-063-025"
+    ],
+    "BANK-063-010": [
+      "BANK-063-013"
+    ],
+    "BANK-063-011": [
+      "BANK-063-029"
+    ],
+    "BANK-063-012": [
+      "BANK-063-041"
+    ]
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "aa71c9ef8fe7412a204c857e72397ff98457590259551c07ffa15fb47a37bf44",
+    "TOPIC_BANK_RECONCILIATION.md": "241b2de2b7b3fe06b055db0e52e39eb50140917bf234e0ef40718758236a3623",
+    "TOPICS_COVERED_REPORT.md": "923345258767c79c974c61cf24b91c7bc7075505aa55ecf4e477e68a972ca945",
+    "063_CONSUMER_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md": "d622bf41202f40ed1ff95f91aad58eecca6eea05a29f70fc1890cdbdf1003f97"
+  },
+  "organization_review": {
+    "date": "2026-10-23",
+    "source_categories_preserved": 8,
+    "method": "Manually assigned subject groupings. Source questions, scopes, category titles, IDs and prerequisites remain unchanged."
+  },
+  "open_coverage": [
+    {
+      "area": "Further case and comparison depth",
+      "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Understanding connected products, Displays, audio and capture, Batteries and charging. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+    },
+    {
+      "area": "Sources and readiness",
+      "next_step": "The EU common-charger directive and Apple's iPhone 15 announcement have bounded source review. The records establish regulation scope/timing and product adoption, not Apple's private decision-making. Other performance, labor, repair, health and privacy premises need versioned primary evidence. No idea or episode was approved."
+    },
+    {
+      "area": "Neighboring-niche boundary review",
+      "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "not_performed",
+    "semantic_candidates_reviewed": 2,
+    "starter_concepts_reviewed": 12,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "routed",
+      "reason": "Distinct dated keynote case; 'golden phones' and intentional deception need attributable evidence.",
+      "bank_ids": [
+        "BANK-063-050"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "routed",
+      "reason": "Distinct input-design comparison; resistive technology is not equivalent to stylus-only use.",
+      "bank_ids": [
+        "BANK-063-051"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "routed",
+      "reason": "Named chemistry/use case within battery-health question; two-year death is not universal.",
+      "bank_ids": [
+        "BANK-063-052",
+        "BANK-063-023"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "routed",
+      "reason": "Radio generations require specified standards and deployments; the broad label is already within hardware-generation comparison.",
+      "bank_ids": [
+        "BANK-063-016"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "routed",
+      "reason": "Named processing pipeline case; DSLR superiority depends on controlled conditions.",
+      "bank_ids": [
+        "BANK-063-053",
+        "BANK-063-015"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "routed",
+      "reason": "Existing display comparison/measurement questions cover OLED, mini-LED and micro-LED without a universal winner.",
+      "bank_ids": [
+        "BANK-063-048",
+        "BANK-063-017"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "routed",
+      "reason": "Named optical-sensor case; no clinical-equivalence claim.",
+      "bank_ids": [
+        "BANK-063-054",
+        "BANK-063-040"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "routed",
+      "reason": "Named earbud synchronization case; codec label alone is insufficient.",
+      "bank_ids": [
+        "BANK-063-055",
+        "BANK-063-049"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "routed",
+      "reason": "Named repair-policy case within broader repairability evaluation; jurisdiction and date need checking.",
+      "bank_ids": [
+        "BANK-063-056",
+        "BANK-063-033"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "routed",
+      "reason": "Distinct named consumer-product assembly case; the quoted workforce scale and conditions require dated facility-specific evidence.",
+      "bank_ids": [
+        "BANK-063-066"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "routed",
+      "reason": "Historical lamp-cartel case distinct from modern support-life evaluation; no automatic phone-obsolescence inference.",
+      "bank_ids": [
+        "BANK-063-057",
+        "BANK-063-032"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "routed",
+      "reason": "Named Guiyu field-evidence case within environmental-claim standard.",
+      "bank_ids": [
+        "BANK-063-058",
+        "BANK-063-042"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "routed",
+      "reason": "Dated directive and product-adoption case; causal language about Apple's decision remains unproven.",
+      "bank_ids": [
+        "BANK-063-059"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "routed",
+      "reason": "Named teardown case within emerging-category evaluation.",
+      "bank_ids": [
+        "BANK-063-060",
+        "BANK-063-043"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "routed",
+      "reason": "Named headset measurement case; archived 12-millisecond figure needs test conditions.",
+      "bank_ids": [
+        "BANK-063-061"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "routed",
+      "reason": "Smart-glasses category and privacy questions already cover this speculative market thesis.",
+      "bank_ids": [
+        "BANK-063-043",
+        "BANK-063-029"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "routed",
+      "reason": "Local AI feature question covers model/hardware demonstration; parameter count and performance need named phone/model.",
+      "bank_ids": [
+        "BANK-063-038"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "routed",
+      "reason": "Headphone-jack removal is a product-design and usability comparison; corporate motive needs attributable records.",
+      "bank_ids": [
+        "BANK-063-014"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "routed",
+      "reason": "Existing Matter and interoperability questions cover certification limits.",
+      "bank_ids": [
+        "BANK-063-025",
+        "BANK-063-045"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "routed",
+      "reason": "2035 product forecast belongs to conditional scenario review, not a factual current device case.",
+      "bank_ids": [
+        "BANK-063-043"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "routed",
+      "reason": "Charging practice and battery-health questions already cover use-dependent degradation; 'never' is unsupported.",
+      "bank_ids": [
+        "BANK-063-021",
+        "BANK-063-023"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "routed",
+      "reason": "Named Moon-processing case; same image-processing question, with no unreviewed scandal verdict.",
+      "bank_ids": [
+        "BANK-063-062",
+        "BANK-063-015"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "routed",
+      "reason": "Named model/region specification case; U.S. cannot stand for all markets.",
+      "bank_ids": [
+        "BANK-063-063"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "routed",
+      "reason": "Same 2007 keynote case as pending_topics/0; prototype failure claim requires participant evidence.",
+      "bank_ids": [
+        "BANK-063-050"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "routed",
+      "reason": "Same battery-aging case as pending_topics/2; 120W effects need model, temperature and charge-profile data.",
+      "bank_ids": [
+        "BANK-063-052",
+        "BANK-063-022"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "routed",
+      "reason": "Named 3D-TV support and adoption case; no single-cause flop conclusion.",
+      "bank_ids": [
+        "BANK-063-064"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "routed",
+      "reason": "Named ACR setting case within privacy-notice verification.",
+      "bank_ids": [
+        "BANK-063-065",
+        "BANK-063-029"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-063-059",
+      "note_file": "RESEARCH_NOTES/BANK-063-059.md"
+    }
+  ]
+}

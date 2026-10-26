@@ -1,0 +1,9 @@
+# Selected primary-text note: cosmology and creation
+
+Checked 2026-10-24. Proposed cases BANK-291-044 and BANK-291-045.
+
+The US Conference of Catholic Bishops hosts Genesis chapters 1 and 2 in the New American Bible Revised Edition, with passage notes distinguishing 1:1-2:3 from the account beginning 2:4: https://bible.usccb.org/bible/genesis/1 and https://bible.usccb.org/bible/genesis/2 . This is a traceable contemporary Catholic institutional edition and interpretation, not the original Hebrew manuscript or a statement of every Jewish and Christian reading. Identify NABRE when citing its English wording; compare the complete units rather than treating chapter breaks as the sole literary boundary. Text and notes cannot establish physical chronology or validate a scientific theory. Check translation rights before extended quotation.
+
+SuttaCentral presents Digha Nikaya 27 (Agganna Sutta) with Pali alongside Bhikkhu Sujato's English translation and numbered passages: https://suttacentral.net/dn27/en/sujato?lang=en&layout=sidebyside&notes=asterisk&reference=main&script=latin . Its setting names Vasettha and Bharadvaja and its origin account connects to an argument about conduct and social classes. This edition/translation supports a source-specific reading, not a universal Buddhist cosmology or empirical origin model. The translator's introduction is modern interpretation; distinguish it from the translated canonical narrative and credit the translator. Check reuse terms for long excerpts.
+
+Neighbor review: BANK-004-026 already treats Rigveda 10.129 and retired BANK-291-040 points there; BANK-012-035 already owns early hot dense universe evidence and retired BANK-291-038 points there. BANK-268/269 cover philosophy and Vedic text transmission; 290 compares myths across traditions. These additions concern two named within-tradition textual arguments.

@@ -1,0 +1,5 @@
+# Case-source note: Canada’s national flag
+
+Checked 2026-10-24. Canadian Heritage’s [history of the National Flag of Canada](https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html) reports the 1964 parliamentary committee, Stanley’s single-leaf concept, Beddoe’s working rendering, St-Cyr’s 11-point revision, the Commons vote, the 1965-01-28 proclamation and 1965-02-15 inauguration. Its page reproduces or identifies contemporary committee imagery, Matheson’s note, 1971 specifications and proclamation. The agency [timeline](https://www.canada.ca/en/canadian-heritage/services/flag-canada-history/timeline-national-flag.html) independently states the adoption dates.
+
+Limit: These are retrospective institutional presentations with selected reproduced records, not a full transcript or all submissions. Attribute each design stage rather than claiming Stanley alone made the final drawing. Public responses, all-community meanings and current flag-use rules require separate evidence.

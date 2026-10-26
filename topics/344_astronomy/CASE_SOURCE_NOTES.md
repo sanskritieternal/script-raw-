@@ -1,0 +1,8 @@
+# Selected observatory and mission source notes — astronomy
+
+Inspected 2026-10-24 for `BANK-344-042` and `BANK-344-043`.
+
+- [NASA/STScI, Hubble Deep Field release](https://science.nasa.gov/missions/hubble/hubbles-deepest-view-of-the-universe-unveils-bewildering-galaxies-across-billions-of-years/) (January 15, 1996): records 342 WFPC2 exposures from December 18–28, 1995, the director's observing-time decision, and initial interpretation of a small sky field. [NASA Hubble Deep Fields retrospective](https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/) explains multi-filter combination and later galaxy-count estimates. Counts changed with later analysis; the selected field is not an all-sky census and a color composite is not unaided-eye vision.
+- [NASA Fermi analysis of GRB 221009A](https://science.nasa.gov/science-research/astrophysics/gamma-ray-bursts/nasas-fermi-finds-new-feature-in-brightest-gamma-ray-burst-yet-seen/) (2024): describes the October 9, 2022 event, detector saturation and a later spectral feature observed after saturation. [NASA Swift mission account](https://science.nasa.gov/mission/swift/science/) describes afterglow follow-up. The peak was not directly recorded by saturated detectors; proposed rarity and positron-annihilation explanations are model-dependent, not direct single-instrument measurements.
+
+The NASA/STScI pages were accessible. They are mission and observatory accounts, useful for dated observation history but not a substitute for full calibration files, instrument teams' uncertainty analysis or independent population estimates. `GRB 221009A` is an observed event; avoid an absolute all-time superlative beyond the defined detected sample.

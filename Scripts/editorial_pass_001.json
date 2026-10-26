@@ -1,0 +1,88 @@
+{
+  "001": [
+    {
+      "parent": "Learning, representations and causal questions",
+      "title": "Learning with scarce feedback",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does principal-component analysis preserve when it reduces a dataset to fewer dimensions?",
+          "coverage": "Follow centered synthetic features, variance directions, projection and reconstruction loss; distinguish a visually separated projection from validated classes or causal factors."
+        },
+        {
+          "question": "How can active learning choose which examples a person should label next?",
+          "coverage": "Compare uncertainty sampling, diversity and a random-label baseline at a fixed annotation budget; examine biased sampling and an independent test set."
+        },
+        {
+          "question": "Why does a contextual bandit need to explore options that currently look worse?",
+          "coverage": "Trace actions, partial feedback, exploration cost and regret in a fictional recommendation task; distinguish one-step feedback from multi-step reinforcement learning."
+        },
+        {
+          "question": "What does knowledge distillation transfer from a teacher model to a smaller student?",
+          "coverage": "Compare training targets, student capacity, matched-task outcomes and inherited errors; distinguish learning from teacher outputs from reducing the bit width of unchanged weights."
+        },
+        {
+          "question": "How can a low-rank adapter change a model without updating every stored weight?",
+          "coverage": "Illustrate a weight update as a product of smaller matrices; separate trainable parameters, retained base weights and task evaluation from a tutorial or universal memory promise."
+        }
+      ]
+    },
+    {
+      "parent": "Data provenance, language and access",
+      "title": "Scripts and cross-language retrieval",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can visually identical text have different character sequences in an AI dataset?",
+          "coverage": "Compare composed and combining-character forms, normalization and span offsets with a declared Unicode sample; inspect matching and annotation errors rather than infer meaning from byte equality."
+        },
+        {
+          "question": "How can transliterated names prevent a document search from finding the right source?",
+          "coverage": "Compare native-script, Romanized and variant-spelling queries for a consented or fictional entity; distinguish entity resolution and retrieval recall from the quality of a generated translation."
+        },
+        {
+          "question": "How can a tokenizer comparison separate morphological structure from the length of a written word?",
+          "coverage": "Use qualified annotations for a declared language pair with different word-formation patterns; inspect segmentation, length-normalized task errors and vocabulary coverage without ranking languages as intrinsically harder."
+        }
+      ]
+    },
+    {
+      "parent": "Retrieval, tools and deployed systems",
+      "title": "Search selection and lifecycle controls",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does a reranker decide after a document retriever has already selected candidates?",
+          "coverage": "Trace candidate generation, relevance scores, ordering and missing-candidate limits in a small controlled collection; evaluate retrieval recall separately from reranking precision and final answer support."
+        },
+        {
+          "question": "What must an application retire when a model endpoint is withdrawn?",
+          "coverage": "Map versioned prompts, evaluation baselines, dependent tools, stored embeddings and fallback behavior in a hypothetical migration; separate replacing a service from disposing of physical hardware."
+        },
+        {
+          "question": "How does abstaining change the relationship between model accuracy and the number of requests answered?",
+          "coverage": "Plot a risk-coverage tradeoff on labeled synthetic predictions as a declared threshold varies; include subgroup coverage and decision costs rather than equating fewer answers with a safer system."
+        }
+      ]
+    },
+    {
+      "parent": "Applied AI, robotics and scientific systems",
+      "title": "Longitudinal deployment and changing users",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can an AI evaluation distinguish initial novelty from a lasting change in how people perform a task?",
+          "coverage": "Plan repeated baseline and follow-up observations, learning effects, participant attrition and task substitution in a hypothetical low-stakes deployment; distinguish a longitudinal outcome from a one-session productivity comparison."
+        },
+        {
+          "question": "Why can a personalized assistant become less useful when a household or team changes?",
+          "coverage": "Trace shared versus individual preferences, consent to stored history, stale assumptions and re-evaluation after membership changes using fictional records; distinguish application memory governance from retraining model weights."
+        }
+      ]
+    }
+  ]
+}

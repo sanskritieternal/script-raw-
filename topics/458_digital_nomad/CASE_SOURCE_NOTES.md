@@ -1,0 +1,5 @@
+# Case-source note: Estonia’s teleworking visa
+
+Checked 2026-10-24. Estonia’s official [Aliens Act, §62⁵](https://www.riigiteataja.ee/en/eli/ee/510042023008/consolide/current) marks the teleworking-visa provision as entering into force 2020-07-01 and defines a location-independent worker through foreign employer, foreign company or mainly foreign clients. The Estonian foreign ministry’s [long-stay visa information](https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa) lists teleworking among visa purposes. The statute is the primary legal text; the ministry page is current administrative context.
+
+Limit: The linked consolidation may be amended after 2020 and the English rendering can differ from legally controlling Estonian text. The question is historical and analytical, not eligibility, tax, employment or travel advice. It does not establish how many visas were issued, effects on housing, or any person’s permission to work. Recheck operative law and official consular guidance for any current decision.

@@ -1,0 +1,1660 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "327",
+  "slug": "privacy",
+  "name": "Privacy",
+  "primary_category": "Cybersecurity_Digital_Systems",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Privacy YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 12,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-327-R01",
+      "title": "Data flows",
+      "level": "foundation",
+      "parent_id": "DOMAIN-327-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "027beb6fb81fed012c70ab1f15f9d4672019c42c0e73137342372e617c69d180",
+      "topics": [
+        {
+          "question": "Why does deleting an app not necessarily delete the data it collected?",
+          "coverage": "Trace device storage, accounts, backups, processors and retention without assuming a named service's practices.",
+          "id": "BANK-327-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R02",
+      "title": "Metadata",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-327-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1bd1a87aaaf5cfe36486975275192e76fcee735089e60dd2cd2041abe8d05a73",
+      "topics": [
+        {
+          "question": "How can metadata reveal information even when message content is encrypted?",
+          "coverage": "Compare timing, participants, location inference and aggregation; exclude instructions for tracking individuals.",
+          "id": "BANK-327-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R03",
+      "title": "Consent",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-327-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "798dc8a89a714ed15a7e636fac01361e943c952ed99c96e752036480fcef6172",
+      "topics": [
+        {
+          "question": "Why is a long privacy notice different from meaningful user choice?",
+          "coverage": "Compare comprehension, defaults, purpose, alternatives and interface design without legal compliance claims.",
+          "id": "BANK-327-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-327-007"
+          ]
+        },
+        {
+          "question": "What did the FTC's 2023 BetterHelp order reveal about privacy promises and advertising data flows?",
+          "coverage": "Compare the FTC complaint allegations with its final consent order on sensitive health-data sharing, consent and retention. Treat allegations as allegations and the order as a settlement record; avoid asserting current compliance or giving legal advice.",
+          "id": "BANK-327-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R04",
+      "title": "Anonymization",
+      "level": "advanced",
+      "parent_id": "DOMAIN-327-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7f94a1f40b31c9e85bf70ecf03842e45d1d80ec01e93678df24daa831ba29b4f",
+      "topics": [
+        {
+          "question": "Why can removing names fail to make a dataset anonymous?",
+          "coverage": "Explain linkage, rare combinations, background information and privacy-risk evaluation using invented records.",
+          "id": "BANK-327-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-327-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R05",
+      "title": "Differential privacy",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-327-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "09fdd3dd7bfbcc4e54ea08b70c26016bc1c0ae22e53958126d6903075b4e71ec",
+      "topics": [
+        {
+          "question": "How does differential privacy limit what an output reveals about one record?",
+          "coverage": "Compare neighboring datasets, randomized mechanisms, privacy budgets and utility using invented data rather than reidentification instructions.",
+          "id": "BANK-327-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-327-005"
+          ]
+        },
+        {
+          "question": "How did the 2020 Census TopDown algorithm balance disclosure protection and redistricting-data utility?",
+          "coverage": "Use the Census Bureau?s 2022 technical account of the 2020 P.L. 94-171 product to examine noisy measurements, policy invariants and privacy-loss accounting, while noting product-specific accuracy and coverage limits.",
+          "id": "BANK-327-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R06",
+      "title": "Retention",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-327-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "df44ce7914b0c6aefd6a526b23a1cdd21f1421d80801f474b1091505697bc02f",
+      "topics": [
+        {
+          "question": "Why does a data retention rule need more than a scheduled deletion job?",
+          "coverage": "Trace purpose, replicas, backups, logs, exceptions and evidence of implementation.",
+          "id": "BANK-327-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-327-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R07",
+      "title": "Minimization",
+      "level": "advanced",
+      "parent_id": "DOMAIN-327-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a2c4fe3b189d41e63192d89f15145911f6b2210b9851e73218cf2221e96de9a5",
+      "topics": [
+        {
+          "question": "How can a service collect less data while still meeting its actual requirements?",
+          "coverage": "Compare required functions, optional personalization, aggregation and on-device processing without promising complete anonymity.",
+          "id": "BANK-327-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-327-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R08",
+      "title": "End-to-end encryption",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-327-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "76795446ef5f56ea7c71a1f8d2c24df2e2b83a6beef1fa2c72401a51046e8b38",
+      "topics": [
+        {
+          "question": "What does end-to-end encryption protect when the sender's or receiver's device is still vulnerable?",
+          "coverage": "Separate transit, endpoints, metadata, backups and identity verification without tool-specific security guarantees.",
+          "covers_starter_ids": [
+            "BANK-327-004"
+          ],
+          "id": "BANK-327-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R09",
+      "title": "Access requests",
+      "level": "advanced",
+      "parent_id": "DOMAIN-327-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7bcb5706a6cc4d14c36c94bc37e615603d75309d4bf877b8f06928d40613bc4e",
+      "topics": [
+        {
+          "question": "Why can responding to a personal-data access request be technically complex?",
+          "coverage": "Trace identity checks, distributed records, third-party information, retention and applicable legal scope pending research.",
+          "covers_starter_ids": [
+            "BANK-327-008"
+          ],
+          "id": "BANK-327-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R10",
+      "title": "Personalization",
+      "level": "advanced",
+      "parent_id": "DOMAIN-327-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5a8bcf67dd55ad258485db4e79205ae05873d4267d71aa837bd2287b9ae0a2e6",
+      "topics": [
+        {
+          "question": "How can a product compare the benefit of personalization against the additional data it needs?",
+          "coverage": "Specify purpose, measurable improvement, alternatives, local processing and user choice rather than assuming collection always helps.",
+          "covers_starter_ids": [
+            "BANK-327-009"
+          ],
+          "id": "BANK-327-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R11",
+      "title": "Purpose limitation",
+      "level": "foundation",
+      "parent_id": "DOMAIN-327-10",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6e60578a4afc5392d1b85a8d06d4fd00f402a1d8f1405a67366492eddf487349",
+      "topics": [
+        {
+          "question": "Why should a service define its purpose for personal data before collecting it?",
+          "coverage": "Compare original need, later reuse, compatible purposes and user expectations; reserve actual legal obligations for current jurisdiction-specific research.",
+          "covers_starter_ids": [
+            "BANK-327-001"
+          ],
+          "id": "BANK-327-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-327-R12",
+      "title": "Privacy defaults",
+      "level": "advanced",
+      "parent_id": "DOMAIN-327-11",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7a405559c26d82bde32403de06ff1d828d900a1075efe31204bd9f8066c173be",
+      "topics": [
+        {
+          "question": "How can a service offer the same privacy choices yet produce different outcomes through its default settings?",
+          "coverage": "Compare opt-in paths, friction, repeated prompts, comprehension and reversibility with a hypothetical interface; distinguish a usable choice from legal consent certification.",
+          "id": "BANK-327-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/327_privacy/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "9f964517e63af1f8f57c820396b0679ceed4b051da5658859291b2ec2041beff",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-327-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ec955e8393aacc250ad81423095fe3bb9df33765b4ba0f7d91d49aed26fa7789"
+      },
+      "BANK-327-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a21bfcab2d32a2da968d6e5f2418ed6199f8213ebc6adef1c610e2b152dae5b1"
+      },
+      "BANK-327-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fad8250c00a26bdeb10a0d2552b82eebeb30345fffbc4a7c40b7a1cb55d26f7e"
+      },
+      "BANK-327-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3e5fed3f294e37a7276859a467227cbf70b56798729e4da9b7a078f5e0c89f95"
+      },
+      "BANK-327-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "732046a1eede4f8727dfddf489ad56be9c21f822689183d1302131669e95fe98"
+      },
+      "BANK-327-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "800b2b9b7ef7e45ccc1a0d46ac145fea97c97f8f880ec226aaffe8115bd0e98e"
+      },
+      "BANK-327-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ccf607fc3c7af20222437ad9ba606bfd7627a5a893075bb69775e2b0f362b5b7"
+      },
+      "BANK-327-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c8f1ee89e4f8ffa9a88190043e5b44d214a1887b20fd75a6c20c5520eea0f7ce"
+      },
+      "BANK-327-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0904da3de59f28bba57ed3ebf71d300d080b41ac1959cb32cf938e9bd8d5c424"
+      }
+    },
+    "source_categories": {
+      "CATALOG-327-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "59c2718a1b10e2db24f02a036758922be79797ae5ffb4e7c84df22c532a4dd3c"
+      },
+      "CATALOG-327-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d0ec49fb32aac9998daf58208044dad87aaef65982f3edb3eac94c467e33fc59"
+      },
+      "CATALOG-327-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "2bd17d5153b0a07a98768b2e5fee37fb361bde47a63d986de4962ba058ae8338"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "327_PRIVACY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "da4f14f08899efeb37f92f85bcf6ba9bf1a0649241141a4a5cc5309abb793da0",
+        "original_text": "# Privacy Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 327 Privacy (Cybersecurity_Digital_Systems)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Privacy Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/327_privacy/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Privacy across four progressive tiers:\r\n- **Tier 1: Privacy Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Privacy.\r\n- **Tier 2: Privacy Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Privacy.\r\n- **Tier 3: Privacy Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Privacy.\r\n- **Tier 4: Privacy Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Privacy.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/327_privacy/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/327_privacy/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Privacy Practice Emerges** | *Which data practice prompted a documented privacy response?* |\r\n| 2 | `famous_examples` | **A Privacy Case Revisited** | *What harm and remedy are supported by case evidence?* |\r\n| 3 | `hidden_stories` | **People Behind Data Records** | *Whose information or labor is overlooked in a privacy debate?* |\r\n| 4 | `beginner_explainers` | **What Happens to One Data Point** | *Where does a volunteered detail travel after collection?* |\r\n| 5 | `advanced_concepts` | **Privacy Beyond Secrecy** | *Can data processing harm people even without a breach?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unclear Data Recipient** | *What evidence shows who received a dataset?* |\r\n| 7 | `technology_innovation` | **A Privacy Feature Tested** | *Does one feature reduce a defined risk in actual use?* |\r\n| 8 | `people_personalities` | **A Data Governance Decision** | *Who approved one use of personal data and who could object?* |\r\n| 9 | `major_events` | **A Data Practice Changes** | *What changed after a public inquiry or policy decision?* |\r\n| 10 | `how_it_works` | **Privacy Controls in a Service** | *How do access, retention, and deletion work for one record?* |\r\n| 11 | `rise_fall` | **Collection Expands or Contracts** | *Did a service truly minimize data over time?* |\r\n| 12 | `then_vs_now` | **A User's Data Journey Across Versions** | *What collection and control changed?* |\r\n| 13 | `future_developments` | **A Proposed Privacy Safeguard** | *What evidence would demonstrate reduced individual risk?* |\r\n| 14 | `myths_vs_facts` | **Anonymous by Removing Names?** | *Can records still be linked to people?* |\r\n| 15 | `documentary_stories` | **A Person Seeks Their Data** | *Can a user see, correct, or delete a record?* |\r\n| 16 | `system_boundary` | **Who Controls the Data?** | *Which controller, processor, vendor, and user can decide processing?* |\r\n| 17 | `input_output_trace` | **From Consent Screen to Processing** | *What does an action permit and what flows actually occur?* |\r\n| 18 | `design_tradeoff` | **Useful Data and Individual Risk** | *What data is necessary for a named task?* |\r\n| 19 | `failure_mode` | **A Privacy Control That Fails** | *Why did a deletion or opt-out request not take effect?* |\r\n| 20 | `testing_limits` | **A Privacy Audit's Blind Spots** | *Which partners, backups, or inferred data were outside the test?* |\r\n| 21 | `standards_interoperability` | **Portable Privacy Preferences** | *Can a user's choice follow data between services?* |\r\n| 22 | `security_threat_model` | **Privacy Risk Versus Breach Risk** | *Who can infer or misuse information even with access controls?* |\r\n| 23 | `maintenance_lifecycle` | **Retention After Product Change** | *How are old records and backups governed over time?* |\r\n| 24 | `infrastructure_dependencies` | **Privacy Across Vendors** | *Which analytics, hosting, and support systems receive data?* |\r\n| 25 | `accessibility_usability` | **A Choice People Can Exercise** | *Can intended users find and understand privacy controls?* |\r\n| 26 | `independent_replication` | **Verifying a Data-Flow Claim** | *Can an auditor repeat the observation without exposing users?* |\r\n| 27 | `responsible_deployment` | **A New Data Use** | *Who benefits and who may face surveillance or exclusion?* |\r\n| 28 | `field_attack_surface` | **Exposure of Personal Data** | *Which interfaces can unintentionally reveal a record?* |\r\n| 29 | `field_data_protection` | **A Record's Full Lifecycle** | *How is personal data protected from collection to deletion?* |\r\n| 30 | `field_incident_response` | **Responding to a Privacy Event** | *How were affected people informed and supported?* |\r\n| 31 | `field_identity_controls` | **Who May View or Correct Data?** | *How do identity checks protect a request without excluding users?* |\r\n| 32 | `field_security_usability` | **Private by Usable Design** | *Do controls make the safer choice understandable?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Privacy: A Privacy Practice Emerges**\r\n   - *Question:* Which data practice prompted a documented privacy response?\r\n   - *Key Focus:* Use dated records and avoid claiming one universal origin. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n2. **Privacy: A Privacy Case Revisited**\r\n   - *Question:* What harm and remedy are supported by case evidence?\r\n   - *Key Focus:* Separate allegations, findings, and individual experience. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n3. **Privacy: People Behind Data Records**\r\n   - *Question:* Whose information or labor is overlooked in a privacy debate?\r\n   - *Key Focus:* Use consented accounts and avoid exposing identifiers. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n4. **Privacy: What Happens to One Data Point**\r\n   - *Question:* Where does a volunteered detail travel after collection?\r\n   - *Key Focus:* Map collection, inference, sharing, retention, and deletion. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n5. **Privacy: Beyond Secrecy**\r\n   - *Question:* Can data processing harm people even without a breach?\r\n   - *Key Focus:* Examine inference, context, power, and affected groups. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Privacy: An Unclear Data Recipient**\r\n   - *Question:* What evidence shows who received a dataset?\r\n   - *Key Focus:* Inspect disclosures, contracts, technical flow, and gaps. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n7. **Privacy: A Privacy Feature Tested**\r\n   - *Question:* Does one feature reduce a defined risk in actual use?\r\n   - *Key Focus:* Check defaults, usability, data flows, and residual exposure. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n8. **Privacy: A Data Governance Decision**\r\n   - *Question:* Who approved one use of personal data and who could object?\r\n   - *Key Focus:* Trace authority, affected people, and decision record. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n9. **Privacy: A Data Practice Changes**\r\n   - *Question:* What changed after a public inquiry or policy decision?\r\n   - *Key Focus:* Compare actual processing before and after by date. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n10. **Privacy: Controls in a Service**\r\n   - *Question:* How do access, retention, and deletion work for one record?\r\n   - *Key Focus:* Use a named system and version; test user-visible outcomes. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Privacy: Collection Expands or Contracts**\r\n   - *Question:* Did a service truly minimize data over time?\r\n   - *Key Focus:* Compare fields, inference, partners, and storage periods. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n12. **Privacy: A User's Data Journey Across Versions**\r\n   - *Question:* What collection and control changed?\r\n   - *Key Focus:* Compare notices and measured behavior for dated releases. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n13. **Privacy: A Proposed Privacy Safeguard**\r\n   - *Question:* What evidence would demonstrate reduced individual risk?\r\n   - *Key Focus:* Specify threat, coverage, use, and audit method. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n14. **Privacy: Anonymous by Removing Names?**\r\n   - *Question:* Can records still be linked to people?\r\n   - *Key Focus:* Assess context and reidentification risk without demonstrating targeting. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n15. **Privacy: A Person Seeks Their Data**\r\n   - *Question:* Can a user see, correct, or delete a record?\r\n   - *Key Focus:* Follow consented steps, response time, and limits. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Privacy: Who Controls the Data?**\r\n   - *Question:* Which controller, processor, vendor, and user can decide processing?\r\n   - *Key Focus:* Map one service and dated contracts. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n17. **Privacy: From Consent Screen to Processing**\r\n   - *Question:* What does an action permit and what flows actually occur?\r\n   - *Key Focus:* Compare interface words with technical and contractual evidence. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n18. **Privacy: Useful Data and Individual Risk**\r\n   - *Question:* What data is necessary for a named task?\r\n   - *Key Focus:* Test minimization, alternatives, and affected users. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n19. **Privacy: A Privacy Control That Fails**\r\n   - *Question:* Why did a deletion or opt-out request not take effect?\r\n   - *Key Focus:* Use a documented case and avoid exposing private records. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n20. **Privacy: A Privacy Audit's Blind Spots**\r\n   - *Question:* Which partners, backups, or inferred data were outside the test?\r\n   - *Key Focus:* State audit scope and uncertainty. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 327 (Privacy)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Privacy: A Privacy Practice Emerges*\r\n- **Episode Slug:** `327_privacy_deep_dive_the_architecture_of_privacy_a_privacy_practice_emerges`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/327_privacy/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "51ffcda8ebfb2270ff2e55d19cd81499631c8ace7b29a06cb716e8bc3e3472a8",
+        "original_text": "# 327 Privacy -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 327 Privacy (Cybersecurity_Digital_Systems)  \r\n> **Storage Directory:** `topics/327_privacy/`  \r\n> **Synchronized With:** `OUTPUT/327_privacy/`, `REGISTRY/Niches/327_privacy/`, and `327_PRIVACY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 327 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/327_privacy](../../OUTPUT/327_privacy) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Privacy: A Privacy Practice Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `privacy_a_privacy_practice_emerges` | A rigorous pedagogical investigation exploring a privacy practice emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Privacy: A Privacy Case Revisited** | Tier 1: Foundational Frameworks | `famous_examples` | `privacy_a_privacy_case_revisited` | A rigorous pedagogical investigation exploring a privacy case revisited through documented evidence. | `QUEUED` |\r\n| 3 | **Privacy: People Behind Data Records** | Tier 1: Foundational Frameworks | `hidden_stories` | `privacy_people_behind_data_records` | A rigorous pedagogical investigation exploring people behind data records through documented evidence. | `QUEUED` |\r\n| 4 | **Privacy: What Happens to One Data Point** | Tier 1: Foundational Frameworks | `beginner_explainers` | `privacy_what_happens_to_one_data_point` | A rigorous pedagogical investigation exploring what happens to one data point through documented evidence. | `QUEUED` |\r\n| 5 | **Privacy: Beyond Secrecy** | Tier 1: Foundational Frameworks | `advanced_concepts` | `privacy_beyond_secrecy` | A rigorous pedagogical investigation exploring beyond secrecy through documented evidence. | `QUEUED` |\r\n| 6 | **Privacy: An Unclear Data Recipient** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `privacy_an_unclear_data_recipient` | A rigorous pedagogical investigation exploring an unclear data recipient through documented evidence. | `QUEUED` |\r\n| 7 | **Privacy: A Privacy Feature Tested** | Tier 2: Methodological Deep Dives | `technology_innovation` | `privacy_a_privacy_feature_tested` | A rigorous pedagogical investigation exploring a privacy feature tested through documented evidence. | `QUEUED` |\r\n| 8 | **Privacy: A Data Governance Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `privacy_a_data_governance_decision` | A rigorous pedagogical investigation exploring a data governance decision through documented evidence. | `QUEUED` |\r\n| 9 | **Privacy: A Data Practice Changes** | Tier 2: Methodological Deep Dives | `major_events` | `privacy_a_data_practice_changes` | A rigorous pedagogical investigation exploring a data practice changes through documented evidence. | `QUEUED` |\r\n| 10 | **Privacy: Controls in a Service** | Tier 2: Methodological Deep Dives | `how_it_works` | `privacy_controls_in_a_service` | A rigorous pedagogical investigation exploring controls in a service through documented evidence. | `QUEUED` |\r\n| 11 | **Privacy: Collection Expands or Contracts** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `privacy_collection_expands_or_contracts` | A rigorous pedagogical investigation exploring collection expands or contracts through documented evidence. | `QUEUED` |\r\n| 12 | **Privacy: A User's Data Journey Across Versions** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `privacy_a_user_s_data_journey_across_versions` | A rigorous pedagogical investigation exploring a user's data journey across versions through documented evidence. | `QUEUED` |\r\n| 13 | **Privacy: A Proposed Privacy Safeguard** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `privacy_a_proposed_privacy_safeguard` | A rigorous pedagogical investigation exploring a proposed privacy safeguard through documented evidence. | `QUEUED` |\r\n| 14 | **Privacy: Anonymous by Removing Names?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `privacy_anonymous_by_removing_names` | A rigorous pedagogical investigation exploring anonymous by removing names? through documented evidence. | `QUEUED` |\r\n| 15 | **Privacy: A Person Seeks Their Data** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `privacy_a_person_seeks_their_data` | A rigorous pedagogical investigation exploring a person seeks their data through documented evidence. | `QUEUED` |\r\n| 16 | **Privacy: Who Controls the Data?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `privacy_who_controls_the_data` | A rigorous pedagogical investigation exploring who controls the data? through documented evidence. | `QUEUED` |\r\n| 17 | **Privacy: From Consent Screen to Processing** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `privacy_from_consent_screen_to_processing` | A rigorous pedagogical investigation exploring from consent screen to processing through documented evidence. | `QUEUED` |\r\n| 18 | **Privacy: Useful Data and Individual Risk** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `privacy_useful_data_and_individual_risk` | A rigorous pedagogical investigation exploring useful data and individual risk through documented evidence. | `QUEUED` |\r\n| 19 | **Privacy: A Privacy Control That Fails** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `privacy_a_privacy_control_that_fails` | A rigorous pedagogical investigation exploring a privacy control that fails through documented evidence. | `QUEUED` |\r\n| 20 | **Privacy: A Privacy Audit's Blind Spots** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `privacy_a_privacy_audit_s_blind_spots` | A rigorous pedagogical investigation exploring a privacy audit's blind spots through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Privacy: Record Extremes & Superlatives** | **98** | `extreme_case` | `privacy_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Privacy: An Unclear Data Recipient** | **96** | `mysteries_unsolved_cases` | `privacy_mysteries_unsolved_cases` | High viral search interest exploring what evidence shows who received a dataset backed by field records. | `Queued` |\r\n| 23 | **Privacy: A Privacy Feature Tested** | **95** | `technology_innovation` | `privacy_technology_innovation` | High viral search interest exploring does one feature reduce a defined risk in actual use backed by field records. | `Queued` |\r\n| 24 | **Privacy: Anonymous by Removing Names?** | **94** | `myths_vs_facts` | `privacy_myths_vs_facts` | High viral search interest exploring can records still be linked to people backed by field records. | `Queued` |\r\n| 25 | **Privacy: A Data Practice Changes** | **93** | `major_events` | `privacy_major_events` | High viral search interest exploring what changed after a public inquiry or policy decision backed by field records. | `Queued` |\r\n| 26 | **Privacy: People Behind Data Records** | **92** | `hidden_stories` | `privacy_hidden_stories` | High viral search interest exploring whose information or labor is overlooked in a privacy debate backed by field records. | `Queued` |\r\n| 27 | **Privacy: A Person Seeks Their Data** | **91** | `documentary_stories` | `privacy_documentary_stories` | High viral search interest exploring can a user see, correct, or delete a record backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/327_privacy/327_PRIVACY_CHANNEL_TOPIC_ROADMAP.md`](./327_PRIVACY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/327_privacy/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/327_privacy/NICHE_327_privacy.md`](file:///h:/script-raw-/REGISTRY/Niches/327_privacy/NICHE_327_privacy.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/327_privacy/CAT_327_privacy.md`](file:///h:/script-raw-/REGISTRY/Niches/327_privacy/CAT_327_privacy.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/327_privacy/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/327_privacy/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/327_privacy/`](file:///h:/script-raw-/OUTPUT/327_privacy/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "954dc6f3922d6c0def4c91717a2bc14975ae0c37d081d9475406daf852a3b606",
+        "original_text": "{\r\n  \"niche_id\": \"327\",\r\n  \"niche_name\": \"privacy\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Privacy: A Privacy Practice Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"privacy_a_privacy_practice_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a privacy practice emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Privacy: A Privacy Case Revisited\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"privacy_a_privacy_case_revisited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a privacy case revisited through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Privacy: People Behind Data Records\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"privacy_people_behind_data_records\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind data records through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Privacy: What Happens to One Data Point\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"privacy_what_happens_to_one_data_point\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what happens to one data point through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Privacy: Beyond Secrecy\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"privacy_beyond_secrecy\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring beyond secrecy through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Privacy: An Unclear Data Recipient\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"privacy_an_unclear_data_recipient\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unclear data recipient through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Privacy: A Privacy Feature Tested\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"privacy_a_privacy_feature_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a privacy feature tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Privacy: A Data Governance Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"privacy_a_data_governance_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a data governance decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Privacy: A Data Practice Changes\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"privacy_a_data_practice_changes\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a data practice changes through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Privacy: Controls in a Service\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"privacy_controls_in_a_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring controls in a service through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Privacy: Collection Expands or Contracts\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"privacy_collection_expands_or_contracts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring collection expands or contracts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Privacy: A User's Data Journey Across Versions\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"privacy_a_user_s_data_journey_across_versions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a user's data journey across versions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Privacy: A Proposed Privacy Safeguard\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"privacy_a_proposed_privacy_safeguard\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed privacy safeguard through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Privacy: Anonymous by Removing Names?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"privacy_anonymous_by_removing_names\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring anonymous by removing names? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Privacy: A Person Seeks Their Data\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"privacy_a_person_seeks_their_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a person seeks their data through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Privacy: Who Controls the Data?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"privacy_who_controls_the_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring who controls the data? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Privacy: From Consent Screen to Processing\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"privacy_from_consent_screen_to_processing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from consent screen to processing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Privacy: Useful Data and Individual Risk\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"privacy_useful_data_and_individual_risk\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring useful data and individual risk through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Privacy: A Privacy Control That Fails\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"privacy_a_privacy_control_that_fails\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a privacy control that fails through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Privacy: A Privacy Audit's Blind Spots\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"privacy_a_privacy_audit_s_blind_spots\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a privacy audit's blind spots through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Privacy: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"privacy_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Privacy: An Unclear Data Recipient\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"privacy_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what evidence shows who received a dataset backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Privacy: A Privacy Feature Tested\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"privacy_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring does one feature reduce a defined risk in actual use backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Privacy: Anonymous by Removing Names?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"privacy_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring can records still be linked to people backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Privacy: A Data Practice Changes\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"privacy_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed after a public inquiry or policy decision backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Privacy: People Behind Data Records\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"privacy_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose information or labor is overlooked in a privacy debate backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Privacy: A Person Seeks Their Data\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"privacy_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring can a user see, correct, or delete a record backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "327",
+      "niche_name": "privacy",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Privacy: A Privacy Practice Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "privacy_a_privacy_practice_emerges",
+          "reason": "A rigorous pedagogical investigation exploring a privacy practice emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Privacy: A Privacy Case Revisited",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "privacy_a_privacy_case_revisited",
+          "reason": "A rigorous pedagogical investigation exploring a privacy case revisited through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Privacy: People Behind Data Records",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "privacy_people_behind_data_records",
+          "reason": "A rigorous pedagogical investigation exploring people behind data records through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Privacy: What Happens to One Data Point",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "privacy_what_happens_to_one_data_point",
+          "reason": "A rigorous pedagogical investigation exploring what happens to one data point through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Privacy: Beyond Secrecy",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "privacy_beyond_secrecy",
+          "reason": "A rigorous pedagogical investigation exploring beyond secrecy through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Privacy: An Unclear Data Recipient",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "privacy_an_unclear_data_recipient",
+          "reason": "A rigorous pedagogical investigation exploring an unclear data recipient through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Privacy: A Privacy Feature Tested",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "privacy_a_privacy_feature_tested",
+          "reason": "A rigorous pedagogical investigation exploring a privacy feature tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Privacy: A Data Governance Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "privacy_a_data_governance_decision",
+          "reason": "A rigorous pedagogical investigation exploring a data governance decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Privacy: A Data Practice Changes",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "privacy_a_data_practice_changes",
+          "reason": "A rigorous pedagogical investigation exploring a data practice changes through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Privacy: Controls in a Service",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "privacy_controls_in_a_service",
+          "reason": "A rigorous pedagogical investigation exploring controls in a service through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Privacy: Collection Expands or Contracts",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "privacy_collection_expands_or_contracts",
+          "reason": "A rigorous pedagogical investigation exploring collection expands or contracts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Privacy: A User's Data Journey Across Versions",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "privacy_a_user_s_data_journey_across_versions",
+          "reason": "A rigorous pedagogical investigation exploring a user's data journey across versions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Privacy: A Proposed Privacy Safeguard",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "privacy_a_proposed_privacy_safeguard",
+          "reason": "A rigorous pedagogical investigation exploring a proposed privacy safeguard through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Privacy: Anonymous by Removing Names?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "privacy_anonymous_by_removing_names",
+          "reason": "A rigorous pedagogical investigation exploring anonymous by removing names? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Privacy: A Person Seeks Their Data",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "privacy_a_person_seeks_their_data",
+          "reason": "A rigorous pedagogical investigation exploring a person seeks their data through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Privacy: Who Controls the Data?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "privacy_who_controls_the_data",
+          "reason": "A rigorous pedagogical investigation exploring who controls the data? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Privacy: From Consent Screen to Processing",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "privacy_from_consent_screen_to_processing",
+          "reason": "A rigorous pedagogical investigation exploring from consent screen to processing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Privacy: Useful Data and Individual Risk",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "privacy_useful_data_and_individual_risk",
+          "reason": "A rigorous pedagogical investigation exploring useful data and individual risk through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Privacy: A Privacy Control That Fails",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "privacy_a_privacy_control_that_fails",
+          "reason": "A rigorous pedagogical investigation exploring a privacy control that fails through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Privacy: A Privacy Audit's Blind Spots",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "privacy_a_privacy_audit_s_blind_spots",
+          "reason": "A rigorous pedagogical investigation exploring a privacy audit's blind spots through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Privacy: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "privacy_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Privacy: An Unclear Data Recipient",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "privacy_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what evidence shows who received a dataset backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Privacy: A Privacy Feature Tested",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "privacy_technology_innovation",
+          "why_trending": "High viral search interest exploring does one feature reduce a defined risk in actual use backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Privacy: Anonymous by Removing Names?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "privacy_myths_vs_facts",
+          "why_trending": "High viral search interest exploring can records still be linked to people backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Privacy: A Data Practice Changes",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "privacy_major_events",
+          "why_trending": "High viral search interest exploring what changed after a public inquiry or policy decision backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Privacy: People Behind Data Records",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "privacy_hidden_stories",
+          "why_trending": "High viral search interest exploring whose information or labor is overlooked in a privacy debate backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Privacy: A Person Seeks Their Data",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "privacy_documentary_stories",
+          "why_trending": "High viral search interest exploring can a user see, correct, or delete a record backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "03c1efc4bd55ca91205fb40983d49b41ed2e505ec6599b462c9617cb7aeeb865"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "b1889a56b4040c69add85aff24294f40bc49f5c4f920be627601ecb05dcb04eb"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "1a6be69dc449d6cb82145d777a0504ed85cf4dd139133315107d43f33f9d8010"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "0b46906c2073c3ac23a9da02b3658e46a62ae59d2e055a560158506fc51106b9"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "5d4e8015e0ad502148aaccf251ff40229fcdc23a33934c30f9153f918d13149e"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-327-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-02",
+      "title": "Identification",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-03",
+      "title": "Design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-04",
+      "title": "Measurement",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-05",
+      "title": "Statistics",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-06",
+      "title": "Lifecycle",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-07",
+      "title": "Communication",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-08",
+      "title": "Rights",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-09",
+      "title": "Products",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-10",
+      "title": "Governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-327-11",
+      "title": "Interfaces",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "327",
+    "slug": "privacy",
+    "name": "Privacy",
+    "primary_category": "Cybersecurity_Digital_Systems",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Privacy YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-327-01",
+        "title": "Data governance",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-327-001",
+            "title": "Purpose limitation",
+            "question": "Purpose limitation: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Privacy; branch: Data governance. Address Purpose limitation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Purpose limitation.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-002",
+            "title": "Data minimization",
+            "question": "Data minimization: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Privacy; branch: Data governance. Address Data minimization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Data minimization.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-003",
+            "title": "Retention schedules",
+            "question": "Retention schedules: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Privacy; branch: Data governance. Address Retention schedules through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Retention schedules.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-327-02",
+        "title": "Technical measures",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-327-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-327-004",
+            "title": "End-to-end encryption",
+            "question": "End-to-end encryption: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Privacy; branch: Technical measures. Address End-to-end encryption through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind End-to-end encryption.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-005",
+            "title": "Differential privacy",
+            "question": "Differential privacy: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Privacy; branch: Technical measures. Address Differential privacy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Differential privacy.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-006",
+            "title": "Pseudonymization limits",
+            "question": "Pseudonymization limits: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Privacy; branch: Technical measures. Address Pseudonymization limits through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Pseudonymization limits.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-327-03",
+        "title": "User experience",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-327-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-327-007",
+            "title": "Consent interface clarity",
+            "question": "Consent interface clarity: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Privacy; branch: User experience. Address Consent interface clarity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Consent interface clarity.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-008",
+            "title": "Data access requests",
+            "question": "Data access requests: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Privacy; branch: User experience. Address Data access requests through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Data access requests.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-327-009",
+            "title": "Privacy tradeoffs in personalization",
+            "question": "Privacy tradeoffs in personalization: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Privacy; branch: User experience. Address Privacy tradeoffs in personalization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Privacy tradeoffs in personalization.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Privacy: A Privacy Practice Emerges",
+      "question": "Which data practice prompted a documented privacy response?",
+      "coverage": "Use dated records and avoid claiming one universal origin. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Privacy Case Revisited",
+      "question": "What harm and remedy are supported by case evidence?",
+      "coverage": "Separate allegations, findings, and individual experience. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: People Behind Data Records",
+      "question": "Whose information or labor is overlooked in a privacy debate?",
+      "coverage": "Use consented accounts and avoid exposing identifiers. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: What Happens to One Data Point",
+      "question": "Where does a volunteered detail travel after collection?",
+      "coverage": "Map collection, inference, sharing, retention, and deletion. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Beyond Secrecy",
+      "question": "Can data processing harm people even without a breach?",
+      "coverage": "Examine inference, context, power, and affected groups. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: An Unclear Data Recipient",
+      "question": "What evidence shows who received a dataset?",
+      "coverage": "Inspect disclosures, contracts, technical flow, and gaps. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Privacy Feature Tested",
+      "question": "Does one feature reduce a defined risk in actual use?",
+      "coverage": "Check defaults, usability, data flows, and residual exposure. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Data Governance Decision",
+      "question": "Who approved one use of personal data and who could object?",
+      "coverage": "Trace authority, affected people, and decision record. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Data Practice Changes",
+      "question": "What changed after a public inquiry or policy decision?",
+      "coverage": "Compare actual processing before and after by date. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Controls in a Service",
+      "question": "How do access, retention, and deletion work for one record?",
+      "coverage": "Use a named system and version; test user-visible outcomes. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Collection Expands or Contracts",
+      "question": "Did a service truly minimize data over time?",
+      "coverage": "Compare fields, inference, partners, and storage periods. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A User's Data Journey Across Versions",
+      "question": "What collection and control changed?",
+      "coverage": "Compare notices and measured behavior for dated releases. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Proposed Privacy Safeguard",
+      "question": "What evidence would demonstrate reduced individual risk?",
+      "coverage": "Specify threat, coverage, use, and audit method. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Anonymous by Removing Names?",
+      "question": "Can records still be linked to people?",
+      "coverage": "Assess context and reidentification risk without demonstrating targeting. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Person Seeks Their Data",
+      "question": "Can a user see, correct, or delete a record?",
+      "coverage": "Follow consented steps, response time, and limits. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Who Controls the Data?",
+      "question": "Which controller, processor, vendor, and user can decide processing?",
+      "coverage": "Map one service and dated contracts. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: From Consent Screen to Processing",
+      "question": "What does an action permit and what flows actually occur?",
+      "coverage": "Compare interface words with technical and contractual evidence. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: Useful Data and Individual Risk",
+      "question": "What data is necessary for a named task?",
+      "coverage": "Test minimization, alternatives, and affected users. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Privacy Control That Fails",
+      "question": "Why did a deletion or opt-out request not take effect?",
+      "coverage": "Use a documented case and avoid exposing private records. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Privacy: A Privacy Audit's Blind Spots",
+      "question": "Which partners, backups, or inferred data were outside the test?",
+      "coverage": "State audit scope and uncertainty. Evidence base: NIST privacy frameworks, dated product disclosures, contracts, data-flow observations, audits, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-327-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "6e5f5aa1ba71e0fb10591c2e63420bf8eedc36cf7e0d138a024359df324a6edf",
+    "TOPIC_BANK_RECONCILIATION.md": "04bcf2d05bbdff782efb2266e5f38d0fc9f259598adf846dc9c04d7994f540b8",
+    "TOPICS_COVERED_REPORT.md": "4ddcc4bd6c3a5d4ee29eec6086a91904be8898de7504b0988496d768a83981d9",
+    "327_PRIVACY_CHANNEL_TOPIC_ROADMAP.md": "f4551b66723901922b2e8c6c657f45f08f16e86e415e790197ae1acc4cdda154"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-327-007": [
+      "BANK-327-032"
+    ],
+    "BANK-327-006": [
+      "BANK-327-033"
+    ],
+    "BANK-327-005": [
+      "BANK-327-034"
+    ],
+    "BANK-327-003": [
+      "BANK-327-035"
+    ],
+    "BANK-327-002": [
+      "BANK-327-036"
+    ],
+    "BANK-327-004": [
+      "BANK-327-037"
+    ],
+    "BANK-327-008": [
+      "BANK-327-038"
+    ],
+    "BANK-327-009": [
+      "BANK-327-039"
+    ],
+    "BANK-327-001": [
+      "BANK-327-040"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "General practice history lacks a named event; purpose, consent and minimization are active.",
+      "bank_ids": [
+        "BANK-327-040",
+        "BANK-327-032"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "A named FTC order anchors a public privacy case.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Human consequences are addressed via data flow and access-request questions; no individual story is identified.",
+      "bank_ids": [
+        "BANK-327-030",
+        "BANK-327-038"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Data-flow and retention questions trace a data point.",
+      "bank_ids": [
+        "BANK-327-030",
+        "BANK-327-035"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Metadata and inferred-record risk make privacy broader than secrecy.",
+      "bank_ids": [
+        "BANK-327-031",
+        "BANK-327-033"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "new_bounded_case",
+      "reason": "FTC BetterHelp case documents alleged recipient and purpose mismatch; do not speculate beyond complaint.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Census TopDown is a named, product-specific privacy method.",
+      "bank_ids": [
+        "BANK-327-043"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Purpose definition and minimization make the governance decision bounded.",
+      "bank_ids": [
+        "BANK-327-040",
+        "BANK-327-036"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "FTC final order is a dated change to a named practice; current behavior unverified.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Consent, retention and access controls cover the generic service architecture.",
+      "bank_ids": [
+        "BANK-327-032",
+        "BANK-327-035",
+        "BANK-327-038"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Minimization and purpose limit collection changes without an unspecified trend claim.",
+      "bank_ids": [
+        "BANK-327-036",
+        "BANK-327-040"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "No service versions specified; app-data-flow question supplies method.",
+      "bank_ids": [
+        "BANK-327-030"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "new_bounded_case",
+      "reason": "Census TopDown is a deployed safeguard with documented limits.",
+      "bank_ids": [
+        "BANK-327-043"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Existing reidentification question directly covers removing names.",
+      "bank_ids": [
+        "BANK-327-033"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "reason": "Access-request complexity is already active; no identified person or jurisdiction is supplied.",
+      "bank_ids": [
+        "BANK-327-038"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Purpose limitation and access requests cover control boundaries.",
+      "bank_ids": [
+        "BANK-327-040",
+        "BANK-327-038"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "new_bounded_case",
+      "reason": "BetterHelp complaint and order distinguish notice/consent from downstream processing.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "new_bounded_case",
+      "reason": "Census TopDown gives a named utility/privacy tradeoff for one data product.",
+      "bank_ids": [
+        "BANK-327-043"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "new_bounded_case",
+      "reason": "FTC order provides a bounded alleged privacy-promise failure.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "A generic audit gap is covered by data-flow, retention and control questions; no audit record named.",
+      "bank_ids": [
+        "BANK-327-030",
+        "BANK-327-035"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No metric, denominator or dated comparative dataset supports a privacy superlative.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "Same recipient pitch as pending/5; route to BetterHelp.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "Same feature pitch as pending/6; route to Census TopDown.",
+      "bank_ids": [
+        "BANK-327-043"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Same anonymization pitch as pending/13.",
+      "bank_ids": [
+        "BANK-327-033"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Same changed-practice pitch as pending/8; route to BetterHelp.",
+      "bank_ids": [
+        "BANK-327-042"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Same unspecified people-behind-records pitch as pending/2.",
+      "bank_ids": [
+        "BANK-327-030"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Same access-request pitch as pending/14.",
+      "bank_ids": [
+        "BANK-327-038"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-327-042",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-327-043",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 8,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false,
+    "summary": "Routed every archived pitch by stable position; retained broad existing scopes and added two dated institutional cases with explicit evidence limits."
+  }
+}

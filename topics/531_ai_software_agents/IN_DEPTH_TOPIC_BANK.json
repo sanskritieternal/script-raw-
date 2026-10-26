@@ -1,0 +1,1625 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "531",
+  "slug": "ai_software_agents",
+  "name": "AI Software Agents",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a AI Software Agents YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 9
+  },
+  "categories": [
+    {
+      "id": "CATALOG-531-R01",
+      "title": "Agent foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-531-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1d9f20dafe9f0ea578dde815f5db1a72d7b8f9de4160ee0bc82ddf40e49dee07",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-531-R02",
+      "title": "Agent reliability",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-531-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0b926106b516447707e34cabbc65dec57390688a684f7d28bdfd54db4182c71c",
+      "topics": [
+        {
+          "question": "What did AgentDojo's 2024 benchmark separate between ordinary task success and prompt-injection outcomes?",
+          "coverage": "Read the original AgentDojo paper and published benchmark description for benign user tasks, untrusted tool-output attacks and distinct success measures; keep results bound to the tested models, task suite and 2024 version.",
+          "id": "BANK-531-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R03",
+      "title": "Agent governance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "72aa52da6106e980bf1323819ae895b7fa22c896529e492b262345daea211e29",
+      "topics": [
+        {
+          "question": "Why can multi-agent workflows amplify correlated mistakes?",
+          "coverage": "Trace shared assumptions, coordination and independent checks.",
+          "id": "BANK-531-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R04",
+      "title": "Agent control",
+      "level": "foundation",
+      "parent_id": "DOMAIN-531-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7f563dbe4b5664eb8c974a55efdc6448d9d2b7c08d692188b34cf1eee17f5950",
+      "topics": [
+        {
+          "question": "How do reactive loops and explicit planning handle a changing task differently?",
+          "coverage": "Compare state, goals and tool responses.",
+          "id": "BANK-531-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-531-001",
+            "BANK-531-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R05",
+      "title": "Agent control",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-531-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "355e4f3eec076da8414c6764e8f350df7faa5a58af2e408b68211b07aa7a7cb5",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-531-R06",
+      "title": "Agent control",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6a2408b09a45c02b22859d6912cdf037d01275e6cb46413c975799b2d4f3893c",
+      "topics": [
+        {
+          "question": "How should agent benchmarks account for leakage, cost and latency?",
+          "coverage": "Use end-to-end completion criteria and transparent boundaries.",
+          "id": "BANK-531-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-531-008",
+            "BANK-531-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R07",
+      "title": "Memory evaluation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0cf93013c9180c94ba347f86fc36f3dfed630195caf021c256407b5c73a36361",
+      "topics": [
+        {
+          "question": "How can a task-specific agent test whether a stored memory remains useful after a user's circumstances change?",
+          "coverage": "Build dated task episodes with corrected preferences, stale facts and justified forgetting; separate retrieval accuracy from task success.",
+          "id": "BANK-531-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R08",
+      "title": "Delegation protocols",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "b33158d972f5279fea1c4d75a461378dc94dfe78e8dc67a45de4063d76878d09",
+      "topics": [
+        {
+          "question": "What must an agent delegate explicitly when a subagent can act on shared artifacts?",
+          "coverage": "Specify ownership, accepted inputs, cancellation, write conflicts and evidence returned at handoff in a sandbox workflow.",
+          "id": "BANK-531-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R09",
+      "title": "Spending controls",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-531-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "62159fa95c9a5058f907dd4e73aea23aef75daa2846c34a7cff9666ca050d0cb",
+      "topics": [
+        {
+          "question": "How can an agent enforce a cumulative task budget when several tools charge independently?",
+          "coverage": "Track reservations, settled costs, retries and concurrent calls against one task ledger; exclude financial advice.",
+          "id": "BANK-531-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R10",
+      "title": "Authorized browser testing",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a80695b001f69c57faa33f59afb68f6fef7fdba410dbc8b9831084173bd6161e",
+      "topics": [
+        {
+          "question": "How can a browser-agent test distinguish completing a form from successfully changing the intended external state?",
+          "coverage": "Use a consenting sandbox with redirects, delayed confirmation and duplicate submission tests; inspect final state and audit artifacts.",
+          "id": "BANK-531-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-531-R11",
+      "title": "Compensating actions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-531-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e605d087d27530460965b46a1b5b57a0f2739307b321a2e85d798805a75bc424",
+      "topics": [
+        {
+          "question": "How should an agent recover when the first of two authorized actions succeeds and the second fails?",
+          "coverage": "Compare compensating actions, irreversible boundaries and explicit handoff using a simulated workflow rather than assume transaction rollback.",
+          "id": "BANK-531-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "007",
+      "title": "AI Tools / AI Tutorials",
+      "directory": "007_ai_tools_ai_tutorials",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "533",
+      "title": "No-Code & Low-Code Development",
+      "directory": "533_no-code_low-code_development",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/531_ai_software_agents/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "8bbc37991b382593461ac0c9640c48a54213ce1d5f68882597346050515484b8",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-531-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b282b6783d9d711582aa7507ce8643598e3b63703a7d4e9aa0e41fdf441c9e54"
+      },
+      "BANK-531-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "24e6d24d3de1b303bbea5c9bee038ad95bf0aef04eeeecdcea04d3c9d792506d"
+      },
+      "BANK-531-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0b31701ec8449954051862311ce835dd97f93ef44a010787b83b903a689d017f"
+      },
+      "BANK-531-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f64403867cd8f5ace11327f4fa58409b902a3f1458703d507b6f9cc78d19c18e"
+      },
+      "BANK-531-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0ed40bcd78f75c9b811ca8f2dcac737602883717722d9a2d70d7699bef4b42c5"
+      },
+      "BANK-531-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "afe4ce902a916e48fb318e394a9bbf7e02086c33c1f732fa4c561e050e02ec2f"
+      },
+      "BANK-531-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "705a9dc047cfd4f26991a004c5a1c28e686a31f46513ea7c53e05241d974a132"
+      },
+      "BANK-531-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "00ba53f1a51561a7e72f47f55f7bfb4acfe93eecdea8b8317abe7f60ae6b88f0"
+      },
+      "BANK-531-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "37145a15010d0e0bcd47650cafe5d35f660e62a2e9503c28c036905c4008dbe9"
+      }
+    },
+    "source_categories": {
+      "CATALOG-531-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "ec32fff6dbe74bafb0b8ba4f7f2530438d03b95cc35f350cf597d7f6732f6222"
+      },
+      "CATALOG-531-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "04a52f24a7d727da9602195e7ade6a6cbe57827033e5f18a3a096305f5699f65"
+      },
+      "CATALOG-531-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "32fc5dab7616ddeb7e53bd22faa70cdbef44dd49eca17e4befa9ef8e2748b6c9"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "531_AI_SOFTWARE_AGENTS_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "1836b1c6ecc0af7aba2076ca212251b211f4430e6893039a787f3fe0db27f7a7",
+        "original_text": "# AI Software Agents Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 531 AI Software Agents (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** AI Software Agents Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/531_ai_software_agents/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of AI Software Agents across four progressive tiers:\r\n- **Tier 1: AI Software Agents Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in AI Software Agents.\r\n- **Tier 2: AI Software Agents Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of AI Software Agents.\r\n- **Tier 3: AI Software Agents Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in AI Software Agents.\r\n- **Tier 4: AI Software Agents Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for AI Software Agents.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (23 Curated Formats)\r\n\r\nEvery episode is produced using one of the 23 niche angle presets defined in [`REGISTRY/Niches/531_ai_software_agents/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/531_ai_software_agents/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **AI Software Agents: History & Origins** | *Which documented problem led to the development of a versioned agent handling one bounded task?* |\r\n| 2 | `famous_examples` | **AI Software Agents: Famous Examples** | *What does a widely cited example of a versioned agent handling one bounded task establish and leave uncertain?* |\r\n| 3 | `hidden_stories` | **AI Software Agents: Hidden Stories** | *Whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task?* |\r\n| 4 | `beginner_explainers` | **AI Software Agents: Beginner Explainers** | *Which definitions and boundaries are needed to understand a versioned agent handling one bounded task?* |\r\n| 5 | `advanced_concepts` | **AI Software Agents: Advanced Concepts** | *Which methodological assumption changes how a versioned agent handling one bounded task should be interpreted?* |\r\n| 6 | `mysteries_unsolved_cases` | **AI Software Agents: Mysteries & Unsolved Cases** | *What specific evidence gap remains unresolved for a versioned agent handling one bounded task?* |\r\n| 7 | `technology_innovation` | **AI Software Agents: Technology & Innovation** | *What changed after a documented technical or material innovation affected a versioned agent handling one bounded task?* |\r\n| 8 | `people_personalities` | **AI Software Agents: People & Personalities** | *How did credited people and institutions shape a versioned agent handling one bounded task?* |\r\n| 9 | `major_events` | **AI Software Agents: Major Events** | *What changed around a dated turning point involving a versioned agent handling one bounded task?* |\r\n| 10 | `how_it_works` | **AI Software Agents: How It Works** | *How do the documented components or stages of a versioned agent handling one bounded task connect?* |\r\n| 11 | `rise_fall` | **AI Software Agents: Rise & Fall** | *Which evidence explains increasing or declining use or reception of a versioned agent handling one bounded task?* |\r\n| 12 | `then_vs_now` | **AI Software Agents: Then vs Now** | *Are earlier and later accounts of a versioned agent handling one bounded task comparable on the same terms?* |\r\n| 13 | `future_developments` | **AI Software Agents: Future Developments** | *Which conditions would need to hold for a proposed future change involving a versioned agent handling one bounded task?* |\r\n| 14 | `myths_vs_facts` | **AI Software Agents: Myths vs Facts** | *Does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task?* |\r\n| 15 | `documentary_stories` | **AI Software Agents: Documentary Stories** | *How can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence?* |\r\n| 16 | `field_tool_permission_boundaries` | **Tool Permission Boundaries** | *Which actions may one agent perform without a person approving them?* |\r\n| 17 | `field_planning_versus_execution` | **Planning Versus Execution** | *Where did an agent's plan diverge from its recorded actions?* |\r\n| 18 | `field_agent_evaluation_sets` | **Agent Evaluation Sets** | *Does one evaluation test realistic failures rather than only successful demos?* |\r\n| 19 | `field_memory_and_state` | **Memory And State** | *What information survives between runs and who can inspect or remove it?* |\r\n| 20 | `field_recovery_and_escalation` | **Recovery And Escalation** | *When should a failed tool action trigger retry, rollback or human escalation?* |\r\n| 21 | `field_prompt_injection_at_tool_boundaries` | **Prompt Injection At Tool Boundaries** | *Can untrusted retrieved text influence an authorized tool action?* |\r\n| 22 | `field_human_oversight_costs` | **Human Oversight Costs** | *How much review work accompanies a reported agent success rate?* |\r\n| 23 | `field_workflow_or_agent` | **Workflow Or Agent** | *Does a task benefit from dynamic action selection over a fixed workflow?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of AI Software Agents: History & Origins**\r\n   - *Question:* Which documented problem led to the development of a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..\r\n2. **AI Software Agents: Famous Examples**\r\n   - *Question:* What does a widely cited example of a versioned agent handling one bounded task establish and leave uncertain?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..\r\n3. **AI Software Agents: Hidden Stories**\r\n   - *Question:* Whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, investigate documented labor, access and omitted perspectives among operators and affected users without inventing testimony. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among operators and affected users without inventing testimony..\r\n4. **AI Software Agents: Beginner Explainers**\r\n   - *Question:* Which definitions and boundaries are needed to understand a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..\r\n5. **AI Software Agents: Advanced Concepts**\r\n   - *Question:* Which methodological assumption changes how a versioned agent handling one bounded task should be interpreted?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..\r\n### Tier 2: Methodological Deep Dives\r\n6. **AI Software Agents: Mysteries & Unsolved Cases**\r\n   - *Question:* What specific evidence gap remains unresolved for a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..\r\n7. **AI Software Agents: Technology & Innovation**\r\n   - *Question:* What changed after a documented technical or material innovation affected a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..\r\n8. **AI Software Agents: People & Personalities**\r\n   - *Question:* How did credited people and institutions shape a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..\r\n9. **AI Software Agents: Major Events**\r\n   - *Question:* What changed around a dated turning point involving a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..\r\n10. **AI Software Agents: How It Works**\r\n   - *Question:* How do the documented components or stages of a versioned agent handling one bounded task connect?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **AI Software Agents: Rise & Fall**\r\n   - *Question:* Which evidence explains increasing or declining use or reception of a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..\r\n12. **AI Software Agents: Then vs Now**\r\n   - *Question:* Are earlier and later accounts of a versioned agent handling one bounded task comparable on the same terms?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..\r\n13. **AI Software Agents: Future Developments**\r\n   - *Question:* Which conditions would need to hold for a proposed future change involving a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..\r\n14. **AI Software Agents: Myths vs Facts**\r\n   - *Question:* Does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..\r\n15. **AI Software Agents: Documentary Stories**\r\n   - *Question:* How can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence?\r\n   - *Key Focus:* For a versioned agent handling one bounded task, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **AI Software Agents: Tool Permission Boundaries**\r\n   - *Question:* Which actions may one agent perform without a person approving them?\r\n   - *Key Focus:* Trace tool schemas, authorization checks and actual permitted actions in a versioned task. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace tool schemas, authorization checks and actual permitted actions in a versioned task..\r\n17. **AI Software Agents: Planning Versus Execution**\r\n   - *Question:* Where did an agent's plan diverge from its recorded actions?\r\n   - *Key Focus:* Compare a sanitized plan, tool trace and outcome without treating private reasoning as observable evidence. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Compare a sanitized plan, tool trace and outcome without treating private reasoning as observable evidence..\r\n18. **AI Software Agents: Agent Evaluation Sets**\r\n   - *Question:* Does one evaluation test realistic failures rather than only successful demos?\r\n   - *Key Focus:* Inspect task sampling, scoring, retries and unseen cases against a stated use setting. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Inspect task sampling, scoring, retries and unseen cases against a stated use setting..\r\n19. **AI Software Agents: Memory And State**\r\n   - *Question:* What information survives between runs and who can inspect or remove it?\r\n   - *Key Focus:* Trace stored state, provenance, retention and reset behavior in one documented implementation. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace stored state, provenance, retention and reset behavior in one documented implementation..\r\n20. **AI Software Agents: Recovery And Escalation**\r\n   - *Question:* When should a failed tool action trigger retry, rollback or human escalation?\r\n   - *Key Focus:* Inspect bounded failure tests and recovery records without executing destructive actions. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Inspect bounded failure tests and recovery records without executing destructive actions..\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 531 (AI Software Agents)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of AI Software Agents: History & Origins*\r\n- **Episode Slug:** `531_ai_software_agents_deep_dive_the_architecture_of_ai_software_agents_history_origins`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/531_ai_software_agents/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "f29a6c08b6d3de2622a2e9b252fc921b36666c40d9dd45bee6feeeba0788d853",
+        "original_text": "# 531 AI Software Agents -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 531 AI Software Agents (Robotics_AI)  \r\n> **Storage Directory:** `topics/531_ai_software_agents/`  \r\n> **Synchronized With:** `OUTPUT/531_ai_software_agents/`, `REGISTRY/Niches/531_ai_software_agents/`, and `531_AI_SOFTWARE_AGENTS_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 531 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/531_ai_software_agents](../../OUTPUT/531_ai_software_agents) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of AI Software Agents: History & Origins** | Tier 1: Foundational Frameworks | `history_origins` | `ai_software_agents_history_origins` | A rigorous pedagogical investigation exploring history & origins through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **AI Software Agents: Famous Examples** | Tier 1: Foundational Frameworks | `famous_examples` | `ai_software_agents_famous_examples` | A rigorous pedagogical investigation exploring famous examples through documented evidence. | `QUEUED` |\r\n| 3 | **AI Software Agents: Hidden Stories** | Tier 1: Foundational Frameworks | `hidden_stories` | `ai_software_agents_hidden_stories` | A rigorous pedagogical investigation exploring hidden stories through documented evidence. | `QUEUED` |\r\n| 4 | **AI Software Agents: Beginner Explainers** | Tier 1: Foundational Frameworks | `beginner_explainers` | `ai_software_agents_beginner_explainers` | A rigorous pedagogical investigation exploring beginner explainers through documented evidence. | `QUEUED` |\r\n| 5 | **AI Software Agents: Advanced Concepts** | Tier 1: Foundational Frameworks | `advanced_concepts` | `ai_software_agents_advanced_concepts` | A rigorous pedagogical investigation exploring advanced concepts through documented evidence. | `QUEUED` |\r\n| 6 | **AI Software Agents: Mysteries & Unsolved Cases** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `ai_software_agents_mysteries_unsolved_cases` | A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence. | `QUEUED` |\r\n| 7 | **AI Software Agents: Technology & Innovation** | Tier 2: Methodological Deep Dives | `technology_innovation` | `ai_software_agents_technology_innovation` | A rigorous pedagogical investigation exploring technology & innovation through documented evidence. | `QUEUED` |\r\n| 8 | **AI Software Agents: People & Personalities** | Tier 2: Methodological Deep Dives | `people_personalities` | `ai_software_agents_people_personalities` | A rigorous pedagogical investigation exploring people & personalities through documented evidence. | `QUEUED` |\r\n| 9 | **AI Software Agents: Major Events** | Tier 2: Methodological Deep Dives | `major_events` | `ai_software_agents_major_events` | A rigorous pedagogical investigation exploring major events through documented evidence. | `QUEUED` |\r\n| 10 | **AI Software Agents: How It Works** | Tier 2: Methodological Deep Dives | `how_it_works` | `ai_software_agents_how_it_works` | A rigorous pedagogical investigation exploring how it works through documented evidence. | `QUEUED` |\r\n| 11 | **AI Software Agents: Rise & Fall** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `ai_software_agents_rise_fall` | A rigorous pedagogical investigation exploring rise & fall through documented evidence. | `QUEUED` |\r\n| 12 | **AI Software Agents: Then vs Now** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `ai_software_agents_then_vs_now` | A rigorous pedagogical investigation exploring then vs now through documented evidence. | `QUEUED` |\r\n| 13 | **AI Software Agents: Future Developments** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `ai_software_agents_future_developments` | A rigorous pedagogical investigation exploring future developments through documented evidence. | `QUEUED` |\r\n| 14 | **AI Software Agents: Myths vs Facts** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `ai_software_agents_myths_vs_facts` | A rigorous pedagogical investigation exploring myths vs facts through documented evidence. | `QUEUED` |\r\n| 15 | **AI Software Agents: Documentary Stories** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `ai_software_agents_documentary_stories` | A rigorous pedagogical investigation exploring documentary stories through documented evidence. | `QUEUED` |\r\n| 16 | **AI Software Agents: Tool Permission Boundaries** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_tool_permission_boundaries` | `ai_software_agents_tool_permission_boundaries` | A rigorous pedagogical investigation exploring tool permission boundaries through documented evidence. | `QUEUED` |\r\n| 17 | **AI Software Agents: Planning Versus Execution** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_planning_versus_execution` | `ai_software_agents_planning_versus_execution` | A rigorous pedagogical investigation exploring planning versus execution through documented evidence. | `QUEUED` |\r\n| 18 | **AI Software Agents: Agent Evaluation Sets** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_agent_evaluation_sets` | `ai_software_agents_agent_evaluation_sets` | A rigorous pedagogical investigation exploring agent evaluation sets through documented evidence. | `QUEUED` |\r\n| 19 | **AI Software Agents: Memory And State** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_memory_and_state` | `ai_software_agents_memory_and_state` | A rigorous pedagogical investigation exploring memory and state through documented evidence. | `QUEUED` |\r\n| 20 | **AI Software Agents: Recovery And Escalation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_recovery_and_escalation` | `ai_software_agents_recovery_and_escalation` | A rigorous pedagogical investigation exploring recovery and escalation through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **AI Software Agents: Record Extremes & Superlatives** | **98** | `extreme_case` | `ai_software_agents_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **AI Software Agents: Mysteries & Unsolved Cases** | **96** | `mysteries_unsolved_cases` | `ai_software_agents_mysteries_unsolved_cases` | High viral search interest exploring what specific evidence gap remains unresolved for a versioned agent handling one bounded task backed by field records. | `Queued` |\r\n| 23 | **AI Software Agents: Technology & Innovation** | **95** | `technology_innovation` | `ai_software_agents_technology_innovation` | High viral search interest exploring what changed after a documented technical or material innovation affected a versioned agent handling one bounded task backed by field records. | `Queued` |\r\n| 24 | **AI Software Agents: Myths vs Facts** | **94** | `myths_vs_facts` | `ai_software_agents_myths_vs_facts` | High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task backed by field records. | `Queued` |\r\n| 25 | **AI Software Agents: Major Events** | **93** | `major_events` | `ai_software_agents_major_events` | High viral search interest exploring what changed around a dated turning point involving a versioned agent handling one bounded task backed by field records. | `Queued` |\r\n| 26 | **AI Software Agents: Hidden Stories** | **92** | `hidden_stories` | `ai_software_agents_hidden_stories` | High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task backed by field records. | `Queued` |\r\n| 27 | **AI Software Agents: Documentary Stories** | **91** | `documentary_stories` | `ai_software_agents_documentary_stories` | High viral search interest exploring how can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/531_ai_software_agents/531_AI_SOFTWARE_AGENTS_CHANNEL_TOPIC_ROADMAP.md`](./531_AI_SOFTWARE_AGENTS_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/531_ai_software_agents/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/531_ai_software_agents/NICHE_531_ai_software_agents.md`](file:///h:/script-raw-/REGISTRY/Niches/531_ai_software_agents/NICHE_531_ai_software_agents.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/531_ai_software_agents/CAT_531_ai_software_agents.md`](file:///h:/script-raw-/REGISTRY/Niches/531_ai_software_agents/CAT_531_ai_software_agents.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/531_ai_software_agents/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/531_ai_software_agents/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/531_ai_software_agents/`](file:///h:/script-raw-/OUTPUT/531_ai_software_agents/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "e1848776d8af8a9ffc7632e5197c9c802b07c15f5fc102d1da62551e78250fa9",
+        "original_text": "{\r\n  \"niche_id\": \"531\",\r\n  \"niche_name\": \"ai_software_agents\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of AI Software Agents: History & Origins\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"ai_software_agents_history_origins\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring history & origins through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"AI Software Agents: Famous Examples\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"ai_software_agents_famous_examples\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring famous examples through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"AI Software Agents: Hidden Stories\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ai_software_agents_hidden_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring hidden stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"AI Software Agents: Beginner Explainers\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"ai_software_agents_beginner_explainers\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring beginner explainers through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"AI Software Agents: Advanced Concepts\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"ai_software_agents_advanced_concepts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring advanced concepts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"AI Software Agents: Mysteries & Unsolved Cases\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ai_software_agents_mysteries_unsolved_cases\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"AI Software Agents: Technology & Innovation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ai_software_agents_technology_innovation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring technology & innovation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"AI Software Agents: People & Personalities\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"ai_software_agents_people_personalities\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people & personalities through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"AI Software Agents: Major Events\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ai_software_agents_major_events\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring major events through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"AI Software Agents: How It Works\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"ai_software_agents_how_it_works\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how it works through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"AI Software Agents: Rise & Fall\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"ai_software_agents_rise_fall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring rise & fall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"AI Software Agents: Then vs Now\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"ai_software_agents_then_vs_now\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring then vs now through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"AI Software Agents: Future Developments\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"ai_software_agents_future_developments\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring future developments through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"AI Software Agents: Myths vs Facts\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ai_software_agents_myths_vs_facts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring myths vs facts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"AI Software Agents: Documentary Stories\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ai_software_agents_documentary_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring documentary stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"AI Software Agents: Tool Permission Boundaries\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_tool_permission_boundaries\",\r\n      \"slug\": \"ai_software_agents_tool_permission_boundaries\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring tool permission boundaries through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"AI Software Agents: Planning Versus Execution\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_planning_versus_execution\",\r\n      \"slug\": \"ai_software_agents_planning_versus_execution\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring planning versus execution through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"AI Software Agents: Agent Evaluation Sets\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_agent_evaluation_sets\",\r\n      \"slug\": \"ai_software_agents_agent_evaluation_sets\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring agent evaluation sets through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"AI Software Agents: Memory And State\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_memory_and_state\",\r\n      \"slug\": \"ai_software_agents_memory_and_state\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring memory and state through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"AI Software Agents: Recovery And Escalation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_recovery_and_escalation\",\r\n      \"slug\": \"ai_software_agents_recovery_and_escalation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring recovery and escalation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"AI Software Agents: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"ai_software_agents_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"AI Software Agents: Mysteries & Unsolved Cases\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ai_software_agents_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what specific evidence gap remains unresolved for a versioned agent handling one bounded task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"AI Software Agents: Technology & Innovation\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ai_software_agents_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what changed after a documented technical or material innovation affected a versioned agent handling one bounded task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"AI Software Agents: Myths vs Facts\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ai_software_agents_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"AI Software Agents: Major Events\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ai_software_agents_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed around a dated turning point involving a versioned agent handling one bounded task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"AI Software Agents: Hidden Stories\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ai_software_agents_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"AI Software Agents: Documentary Stories\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ai_software_agents_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "531",
+      "niche_name": "ai_software_agents",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of AI Software Agents: History & Origins",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "ai_software_agents_history_origins",
+          "reason": "A rigorous pedagogical investigation exploring history & origins through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "AI Software Agents: Famous Examples",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "ai_software_agents_famous_examples",
+          "reason": "A rigorous pedagogical investigation exploring famous examples through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "AI Software Agents: Hidden Stories",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "ai_software_agents_hidden_stories",
+          "reason": "A rigorous pedagogical investigation exploring hidden stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "AI Software Agents: Beginner Explainers",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "ai_software_agents_beginner_explainers",
+          "reason": "A rigorous pedagogical investigation exploring beginner explainers through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "AI Software Agents: Advanced Concepts",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "ai_software_agents_advanced_concepts",
+          "reason": "A rigorous pedagogical investigation exploring advanced concepts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "AI Software Agents: Mysteries & Unsolved Cases",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ai_software_agents_mysteries_unsolved_cases",
+          "reason": "A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "AI Software Agents: Technology & Innovation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "ai_software_agents_technology_innovation",
+          "reason": "A rigorous pedagogical investigation exploring technology & innovation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "AI Software Agents: People & Personalities",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "ai_software_agents_people_personalities",
+          "reason": "A rigorous pedagogical investigation exploring people & personalities through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "AI Software Agents: Major Events",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "ai_software_agents_major_events",
+          "reason": "A rigorous pedagogical investigation exploring major events through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "AI Software Agents: How It Works",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "ai_software_agents_how_it_works",
+          "reason": "A rigorous pedagogical investigation exploring how it works through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "AI Software Agents: Rise & Fall",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "ai_software_agents_rise_fall",
+          "reason": "A rigorous pedagogical investigation exploring rise & fall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "AI Software Agents: Then vs Now",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "ai_software_agents_then_vs_now",
+          "reason": "A rigorous pedagogical investigation exploring then vs now through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "AI Software Agents: Future Developments",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "ai_software_agents_future_developments",
+          "reason": "A rigorous pedagogical investigation exploring future developments through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "AI Software Agents: Myths vs Facts",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "ai_software_agents_myths_vs_facts",
+          "reason": "A rigorous pedagogical investigation exploring myths vs facts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "AI Software Agents: Documentary Stories",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "ai_software_agents_documentary_stories",
+          "reason": "A rigorous pedagogical investigation exploring documentary stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "AI Software Agents: Tool Permission Boundaries",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_tool_permission_boundaries",
+          "slug": "ai_software_agents_tool_permission_boundaries",
+          "reason": "A rigorous pedagogical investigation exploring tool permission boundaries through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "AI Software Agents: Planning Versus Execution",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_planning_versus_execution",
+          "slug": "ai_software_agents_planning_versus_execution",
+          "reason": "A rigorous pedagogical investigation exploring planning versus execution through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "AI Software Agents: Agent Evaluation Sets",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_agent_evaluation_sets",
+          "slug": "ai_software_agents_agent_evaluation_sets",
+          "reason": "A rigorous pedagogical investigation exploring agent evaluation sets through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "AI Software Agents: Memory And State",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_memory_and_state",
+          "slug": "ai_software_agents_memory_and_state",
+          "reason": "A rigorous pedagogical investigation exploring memory and state through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "AI Software Agents: Recovery And Escalation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_recovery_and_escalation",
+          "slug": "ai_software_agents_recovery_and_escalation",
+          "reason": "A rigorous pedagogical investigation exploring recovery and escalation through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "AI Software Agents: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "ai_software_agents_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "AI Software Agents: Mysteries & Unsolved Cases",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ai_software_agents_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what specific evidence gap remains unresolved for a versioned agent handling one bounded task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "AI Software Agents: Technology & Innovation",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "ai_software_agents_technology_innovation",
+          "why_trending": "High viral search interest exploring what changed after a documented technical or material innovation affected a versioned agent handling one bounded task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "AI Software Agents: Myths vs Facts",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "ai_software_agents_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "AI Software Agents: Major Events",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "ai_software_agents_major_events",
+          "why_trending": "High viral search interest exploring what changed around a dated turning point involving a versioned agent handling one bounded task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "AI Software Agents: Hidden Stories",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "ai_software_agents_hidden_stories",
+          "why_trending": "High viral search interest exploring whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "AI Software Agents: Documentary Stories",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "ai_software_agents_documentary_stories",
+          "why_trending": "High viral search interest exploring how can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "11c9d40a54a498664856997eea2e6d262911833827d37b73fa124465c7b15904"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "fa140aac2ea78e8922082f9d3cbcee41370ee34e273b95df5b9b9a353c079d5c"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "f54c74e37c0d5e6ba8590fd0c0eada60e415e6814a731e733040ca2ca0782bd3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "a9889decd17f29f5d66734edf8648ae253f89494ded4e64454a3eed1a5cd729a"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "d61ca9dc3354a780a33025399c86e5c6269ec252e7ecdcc400c5937d52eebbd9"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "45af620a7f9b1f22bf9244a6a189245c23c3f60a67be2b412d4f2222c87ac5db"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-531-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-531-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-531-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-531-04",
+      "title": "Agent system design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-531-05",
+      "title": "Agent action governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "531",
+    "slug": "ai_software_agents",
+    "name": "AI Software Agents",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a AI Software Agents YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-531-01",
+        "title": "Agent architectures",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-531-001",
+            "title": "Tool-use loops",
+            "question": "Tool-use loops: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Agent architectures. Address Tool-use loops through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Tool-use loops.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-002",
+            "title": "Planning versus reactive control",
+            "question": "Planning versus reactive control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Agent architectures. Address Planning versus reactive control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Planning versus reactive control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-003",
+            "title": "Persistent state",
+            "question": "Persistent state: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Agent architectures. Address Persistent state through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Persistent state.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-531-02",
+        "title": "Reliability",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-531-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-531-004",
+            "title": "Permission boundaries",
+            "question": "Permission boundaries: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Reliability. Address Permission boundaries through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Permission boundaries.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-005",
+            "title": "Recovery after tool failure",
+            "question": "Recovery after tool failure: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Reliability. Address Recovery after tool failure through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Recovery after tool failure.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-006",
+            "title": "Human approval handoffs",
+            "question": "Human approval handoffs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Software Agents; branch: Reliability. Address Human approval handoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Human approval handoffs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-531-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-531-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-531-007",
+            "title": "Task completion measures",
+            "question": "Task completion measures: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Software Agents; branch: Evaluation. Address Task completion measures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Task completion measures precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-008",
+            "title": "Agent benchmark leakage",
+            "question": "Agent benchmark leakage: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Software Agents; branch: Evaluation. Address Agent benchmark leakage through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Agent benchmark leakage precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-531-009",
+            "title": "Cost and latency accounting",
+            "question": "Cost and latency accounting: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Software Agents; branch: Evaluation. Address Cost and latency accounting through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Cost and latency accounting precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "007",
+        "title": "AI Tools / AI Tutorials",
+        "directory": "007_ai_tools_ai_tutorials",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "533",
+        "title": "No-Code & Low-Code Development",
+        "directory": "533_no-code_low-code_development",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of AI Software Agents: History & Origins",
+      "question": "Which documented problem led to the development of a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Famous Examples",
+      "question": "What does a widely cited example of a versioned agent handling one bounded task establish and leave uncertain?",
+      "coverage": "For a versioned agent handling one bounded task, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Hidden Stories",
+      "question": "Whose contribution or experience is missing from the usual account of a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, investigate documented labor, access and omitted perspectives among operators and affected users without inventing testimony. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among operators and affected users without inventing testimony..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Beginner Explainers",
+      "question": "Which definitions and boundaries are needed to understand a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Advanced Concepts",
+      "question": "Which methodological assumption changes how a versioned agent handling one bounded task should be interpreted?",
+      "coverage": "For a versioned agent handling one bounded task, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Mysteries & Unsolved Cases",
+      "question": "What specific evidence gap remains unresolved for a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Technology & Innovation",
+      "question": "What changed after a documented technical or material innovation affected a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: People & Personalities",
+      "question": "How did credited people and institutions shape a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Major Events",
+      "question": "What changed around a dated turning point involving a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: How It Works",
+      "question": "How do the documented components or stages of a versioned agent handling one bounded task connect?",
+      "coverage": "For a versioned agent handling one bounded task, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Rise & Fall",
+      "question": "Which evidence explains increasing or declining use or reception of a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Then vs Now",
+      "question": "Are earlier and later accounts of a versioned agent handling one bounded task comparable on the same terms?",
+      "coverage": "For a versioned agent handling one bounded task, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Future Developments",
+      "question": "Which conditions would need to hold for a proposed future change involving a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Myths vs Facts",
+      "question": "Does the original evidence support a commonly repeated claim about a versioned agent handling one bounded task?",
+      "coverage": "For a versioned agent handling one bounded task, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Documentary Stories",
+      "question": "How can a source-led documentary explain a versioned agent handling one bounded task without overstating its evidence?",
+      "coverage": "For a versioned agent handling one bounded task, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Tool Permission Boundaries",
+      "question": "Which actions may one agent perform without a person approving them?",
+      "coverage": "Trace tool schemas, authorization checks and actual permitted actions in a versioned task. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace tool schemas, authorization checks and actual permitted actions in a versioned task..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Planning Versus Execution",
+      "question": "Where did an agent's plan diverge from its recorded actions?",
+      "coverage": "Compare a sanitized plan, tool trace and outcome without treating private reasoning as observable evidence. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Compare a sanitized plan, tool trace and outcome without treating private reasoning as observable evidence..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Agent Evaluation Sets",
+      "question": "Does one evaluation test realistic failures rather than only successful demos?",
+      "coverage": "Inspect task sampling, scoring, retries and unseen cases against a stated use setting. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Inspect task sampling, scoring, retries and unseen cases against a stated use setting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Memory And State",
+      "question": "What information survives between runs and who can inspect or remove it?",
+      "coverage": "Trace stored state, provenance, retention and reset behavior in one documented implementation. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Trace stored state, provenance, retention and reset behavior in one documented implementation..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Software Agents: Recovery And Escalation",
+      "question": "When should a failed tool action trigger retry, rollback or human escalation?",
+      "coverage": "Inspect bounded failure tests and recovery records without executing destructive actions. Evidence base: Evidence: versioned tool schemas, sanitized execution traces, task evaluations and incident records. Choose a named source, version, period and case before scripting. Inspect bounded failure tests and recovery records without executing destructive actions..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-531-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "daecdfce9609473e8ad50fea33a799595cb08075366efd344248f196d8145def",
+    "TOPIC_BANK_RECONCILIATION.md": "4784d846961046a56e86f270121e4f15cfe1078b9e6e872f17165e2aca959f2d",
+    "TOPICS_COVERED_REPORT.md": "6787f08ea9d0bed4e0dbbb2c7e6c6280d8f77cf79a919c4d0bdd439e7751eec4",
+    "531_AI_SOFTWARE_AGENTS_CHANNEL_TOPIC_ROADMAP.md": "5a4b4d67c365110f2cece060f87f00602454f5726d94ba5cffdb1af5a3efdd17"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-531-008": [
+      "BANK-531-038"
+    ],
+    "BANK-531-003": [
+      "BANK-001-081"
+    ],
+    "BANK-531-007": [
+      "BANK-001-079"
+    ],
+    "BANK-531-004": [
+      "BANK-001-082"
+    ],
+    "BANK-531-001": [
+      "BANK-531-036"
+    ],
+    "BANK-531-002": [
+      "BANK-531-036"
+    ],
+    "BANK-531-005": [
+      "BANK-001-080"
+    ],
+    "BANK-531-006": [
+      "BANK-001-080"
+    ],
+    "BANK-531-009": [
+      "BANK-531-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Memory evaluation",
+      "next_step": "Build dated task episodes with corrected preferences, stale facts and justified forgetting; separate retrieval accuracy from task success. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Delegation protocols",
+      "next_step": "Specify ownership, accepted inputs, cancellation, write conflicts and evidence returned at handoff in a sandbox workflow. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Spending controls",
+      "next_step": "Track reservations, settled costs, retries and concurrent calls against one task ledger; exclude financial advice. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Authorized browser testing",
+      "next_step": "Use a consenting sandbox with redirects, delayed confirmation and duplicate submission tests; inspect final state and audit artifacts. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Compensating actions",
+      "next_step": "Compare compensating actions, irreversible boundaries and explicit handoff using a simulated workflow rather than assume transaction rollback. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible.",
+    "followup_2026_10_24": "BANK-531-038 addresses general benchmark leakage, cost and latency; this named AgentDojo case asks why benign task completion and attack success are separate measurements. BANK-001-046 explains prompt injection as a general trust-boundary problem, and BANK-007-119 designs a safe tutorial sandbox; neither owns the 2024 paper's benchmark-design question. 326 cybersecurity covers wider threat classes and 532 LLM systems covers model infrastructure. No exact AgentDojo active question was found globally. No attack payloads or misuse instructions are needed."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How does an AI agent decide when to call a tool rather than answer directly?",
+      "coverage": "Separate model choice, interface constraints and permission.",
+      "id": "BANK-531-030",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-001-078",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R01"
+    },
+    {
+      "question": "Why does a long-running agent need state beyond a conversation transcript?",
+      "coverage": "Map task progress, artifacts and recovery points.",
+      "id": "BANK-531-031",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-531-003"
+      ],
+      "duplicate_of": "BANK-001-081",
+      "retirement_reason": "Long-running state beyond a transcript duplicates checkpoints, progress and recovery records already present in the agent foundation proposal.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R01"
+    },
+    {
+      "question": "How can a tool response inject instructions into an agent's workflow?",
+      "coverage": "Explain trust boundaries through harmless authorized examples.",
+      "id": "BANK-531-032",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-001-046",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R02"
+    },
+    {
+      "question": "What makes an agent's declaration of completion insufficient evidence?",
+      "coverage": "Check artifacts, acceptance criteria and external state.",
+      "id": "BANK-531-033",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-531-007"
+      ],
+      "duplicate_of": "BANK-001-079",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R02"
+    },
+    {
+      "question": "How can action permissions be limited without blocking useful agent work?",
+      "coverage": "Compare scope, approvals and reversible operations.",
+      "id": "BANK-531-034",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-531-004"
+      ],
+      "duplicate_of": "BANK-001-082",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R03"
+    },
+    {
+      "question": "How can a failed tool call become a safe recovery rather than an endless retry loop?",
+      "coverage": "Map error classes and human handoffs.",
+      "id": "BANK-531-037",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-531-005",
+        "BANK-531-006"
+      ],
+      "duplicate_of": "BANK-001-080",
+      "retirement_reason": "The foundation question is already scoped in the primary proposal; specialist additions in this pass address different system decisions.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-531-R05"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A broad agent history needs named systems and dated source versions.",
+      "bank_ids": []
+    },
+    "pending_topics/1": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The 2024 AgentDojo paper provides a named benchmark case.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A hidden-story claim needs specific published records, not conjecture about private systems.",
+      "bank_ids": []
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal contrasts reactive loops and explicit planning.",
+      "bank_ids": [
+        "BANK-531-036"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses benchmark cost, latency and leakage.",
+      "bank_ids": [
+        "BANK-531-038"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal leaves open general benchmark-validity questions.",
+      "bank_ids": [
+        "BANK-531-038"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "AgentDojo is a named evaluation environment for tool-using agents.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "People profiles require attributed author or operator accounts; technical results alone do not supply them.",
+      "bank_ids": []
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The 2024 publication is a dated research event, not proof of broad deployment change.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal explains agent loop and plan distinctions.",
+      "bank_ids": [
+        "BANK-531-036"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper separates ordinary task failure from security-test outcomes.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A then-versus-now comparison requires matched agent configurations and benchmark versions.",
+      "bank_ids": []
+    },
+    "pending_topics/12": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "Future-agent claims need a specified capability scenario and measured evidence.",
+      "bank_ids": []
+    },
+    "pending_topics/13": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The named paper tests the false equivalence of benign task success and attack resistance.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper and publication record provide an auditable benchmark evidence trail.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The benchmark tests untrusted tool-output boundaries without authorizing real-account actions.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers planning versus reactive execution.",
+      "bank_ids": [
+        "BANK-531-036"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers general agent-evaluation design.",
+      "bank_ids": [
+        "BANK-531-038"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers memory usefulness as circumstances change.",
+      "bank_ids": [
+        "BANK-531-039"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses recovery after partial authorized action.",
+      "bank_ids": [
+        "BANK-531-043"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A benchmark superlative needs fixed task set, version, cost and scoring rules.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal scopes unresolved evaluation methodology.",
+      "bank_ids": [
+        "BANK-531-038"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "AgentDojo is a named published agent-testing environment.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper distinguishes benign task completion from security-test outcomes.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "NeurIPS 2024 publication is a dated research milestone, not a universal turning point.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "Hidden-story framing needs documentary evidence about an actual system or author.",
+      "bank_ids": []
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The paper and repository form a traceable technical record.",
+      "bank_ids": [
+        "BANK-531-044"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-531-044",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

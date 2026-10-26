@@ -1,0 +1,331 @@
+{
+  "bank_topic_id": "BANK-001-013",
+  "idea_id": "IDEA-001-0004",
+  "measurement_date_local": "2026-10-24",
+  "source_revision": "https://github.com/openai/tiktoken/tree/4e71bbe0c078468e00fefbf94b39849389f346e5",
+  "package_version": "0.14.0",
+  "python_version": "3.11.16",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "input_policy": "Literal code points; no normalization or case conversion before either encoding.",
+  "model_mapping_checked": {
+    "gpt-2": "gpt2",
+    "gpt-4": "cl100k_base"
+  },
+  "samples": [
+    {
+      "sample": "English",
+      "text": "Hello, world!",
+      "unicode_codepoints": [
+        "U+0048",
+        "U+0065",
+        "U+006C",
+        "U+006C",
+        "U+006F",
+        "U+002C",
+        "U+0020",
+        "U+0077",
+        "U+006F",
+        "U+0072",
+        "U+006C",
+        "U+0064",
+        "U+0021"
+      ],
+      "utf8_sha256": "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+      "is_nfc": true,
+      "encodings": {
+        "gpt2": {
+          "token_count": 4,
+          "token_ids": [
+            15496,
+            11,
+            995,
+            0
+          ],
+          "token_bytes_hex": [
+            "48656c6c6f",
+            "2c",
+            "20776f726c64",
+            "21"
+          ],
+          "round_trip_verified": true
+        },
+        "cl100k_base": {
+          "token_count": 4,
+          "token_ids": [
+            9906,
+            11,
+            1917,
+            0
+          ],
+          "token_bytes_hex": [
+            "48656c6c6f",
+            "2c",
+            "20776f726c64",
+            "21"
+          ],
+          "round_trip_verified": true
+        }
+      }
+    },
+    {
+      "sample": "Hindi",
+      "text": "नमस्ते दुनिया",
+      "unicode_codepoints": [
+        "U+0928",
+        "U+092E",
+        "U+0938",
+        "U+094D",
+        "U+0924",
+        "U+0947",
+        "U+0020",
+        "U+0926",
+        "U+0941",
+        "U+0928",
+        "U+093F",
+        "U+092F",
+        "U+093E"
+      ],
+      "utf8_sha256": "d7be5996fa562294908ffe50c6aece46c34d6bed34e241dec5d1e8b5e83f7596",
+      "is_nfc": true,
+      "encodings": {
+        "gpt2": {
+          "token_count": 23,
+          "token_ids": [
+            11976,
+            101,
+            11976,
+            106,
+            11976,
+            116,
+            24231,
+            235,
+            11976,
+            97,
+            24231,
+            229,
+            28225,
+            99,
+            24231,
+            223,
+            11976,
+            101,
+            11976,
+            123,
+            11976,
+            107,
+            48077
+          ],
+          "token_bytes_hex": [
+            "e0a4",
+            "a8",
+            "e0a4",
+            "ae",
+            "e0a4",
+            "b8",
+            "e0a5",
+            "8d",
+            "e0a4",
+            "a4",
+            "e0a5",
+            "87",
+            "20e0a4",
+            "a6",
+            "e0a5",
+            "81",
+            "e0a4",
+            "a8",
+            "e0a4",
+            "bf",
+            "e0a4",
+            "af",
+            "e0a4be"
+          ],
+          "round_trip_verified": true
+        },
+        "cl100k_base": {
+          "token_count": 13,
+          "token_ids": [
+            61196,
+            88344,
+            79468,
+            31584,
+            97,
+            35470,
+            15272,
+            99,
+            73753,
+            61196,
+            43411,
+            107,
+            24810
+          ],
+          "token_bytes_hex": [
+            "e0a4a8",
+            "e0a4ae",
+            "e0a4b8",
+            "e0a58de0a4",
+            "a4",
+            "e0a587",
+            "20e0a4",
+            "a6",
+            "e0a581",
+            "e0a4a8",
+            "e0a4bfe0a4",
+            "af",
+            "e0a4be"
+          ],
+          "round_trip_verified": true
+        }
+      }
+    },
+    {
+      "sample": "Japanese",
+      "text": "東京へ行く",
+      "unicode_codepoints": [
+        "U+6771",
+        "U+4EAC",
+        "U+3078",
+        "U+884C",
+        "U+304F"
+      ],
+      "utf8_sha256": "75d9255e45b37bfc1e636a682fe80ab8eb87b7d55d6186f3568d845b475a4c3e",
+      "is_nfc": true,
+      "encodings": {
+        "gpt2": {
+          "token_count": 9,
+          "token_ids": [
+            30266,
+            109,
+            12859,
+            105,
+            2515,
+            116,
+            26193,
+            234,
+            31917
+          ],
+          "token_bytes_hex": [
+            "e69d",
+            "b1",
+            "e4ba",
+            "ac",
+            "e381",
+            "b8",
+            "e8a1",
+            "8c",
+            "e3818f"
+          ],
+          "round_trip_verified": true
+        },
+        "cl100k_base": {
+          "token_count": 7,
+          "token_ids": [
+            14276,
+            109,
+            47653,
+            2243,
+            116,
+            23039,
+            47884
+          ],
+          "token_bytes_hex": [
+            "e69d",
+            "b1",
+            "e4baac",
+            "e381",
+            "b8",
+            "e8a18c",
+            "e3818f"
+          ],
+          "round_trip_verified": true
+        }
+      }
+    },
+    {
+      "sample": "Composed accent",
+      "text": "café",
+      "unicode_codepoints": [
+        "U+0063",
+        "U+0061",
+        "U+0066",
+        "U+00E9"
+      ],
+      "utf8_sha256": "850f7dc43910ff890f8879c0ed26fe697c93a067ad93a7d50f466a7028a9bf4e",
+      "is_nfc": true,
+      "encodings": {
+        "gpt2": {
+          "token_count": 3,
+          "token_ids": [
+            66,
+            1878,
+            2634
+          ],
+          "token_bytes_hex": [
+            "63",
+            "6166",
+            "c3a9"
+          ],
+          "round_trip_verified": true
+        },
+        "cl100k_base": {
+          "token_count": 2,
+          "token_ids": [
+            936,
+            59958
+          ],
+          "token_bytes_hex": [
+            "6361",
+            "66c3a9"
+          ],
+          "round_trip_verified": true
+        }
+      }
+    },
+    {
+      "sample": "Combining accent",
+      "text": "café",
+      "unicode_codepoints": [
+        "U+0063",
+        "U+0061",
+        "U+0066",
+        "U+0065",
+        "U+0301"
+      ],
+      "utf8_sha256": "81ef060bcd98adc7824eb5c1ada83c32491b16018e11e79f00ab9d09e04b015a",
+      "is_nfc": false,
+      "encodings": {
+        "gpt2": {
+          "token_count": 4,
+          "token_ids": [
+            66,
+            8635,
+            136,
+            223
+          ],
+          "token_bytes_hex": [
+            "63",
+            "616665",
+            "cc",
+            "81"
+          ],
+          "round_trip_verified": true
+        },
+        "cl100k_base": {
+          "token_count": 3,
+          "token_ids": [
+            936,
+            1897,
+            54939
+          ],
+          "token_bytes_hex": [
+            "6361",
+            "6665",
+            "cc81"
+          ],
+          "round_trip_verified": true
+        }
+      }
+    }
+  ],
+  "limit": "Measured encoder outputs for these strings only; no model capability, price, hosted-API or language-quality conclusion."
+}

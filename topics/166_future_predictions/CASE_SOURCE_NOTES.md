@@ -1,0 +1,12 @@
+# Future-scenario source notes (2026-10-24)
+
+Selected dated primary sources support bounded milestones and scenarios. A project target, standard deadline or contract is not a prediction of completion.
+
+| Case | Primary source | Claim boundary |
+|---|---|---|
+| Fusion | [Commonwealth Fusion Systems, SPARC project description](https://www.cfs.energy/technology/sparc/) states its intended machine milestone; [US Department of Energy fusion roadmap (2026)](https://www.energy.gov/documents/fusion-science-and-technology-roadmap) describes pilot-plant research needs. | Company schedule is aspirational. Plasma gain, plant net electricity, grid delivery and commercial economics are different thresholds; no dated success is established here. |
+| Post-quantum migration | [NIST project and standards page](https://csrc.nist.gov/projects/post-quantum-cryptography) documents 2024 FIPS standards and a transition timeline. | The transition target is a standards/security-planning milestone, not a prediction that a quantum computer has broken RSA or that every network will migrate on time. |
+| Starship HLS | [NASA Human Landing System contract account](https://www.nasa.gov/humans-in-space/nextstep-h-human-landing-system/) records NASA's award and sustaining-lander work. | A NASA contract is not proof of operational Moon or Mars architecture, a total $100 billion cost or a launch date. Verify each current milestone in later dated NASA records before production. |
+| Population projection | [UN World Population Prospects 2024 summary](https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf) gives a mid-2080s central global peak and uncertainty. | A scenario range can change with fertility, mortality and migration; this is not a guaranteed date. |
+
+Semantic review: `BANK-166-010` addresses future grid scenarios broadly; new fusion case distinguishes successive energy milestones. `BANK-166-024` concerns a quantum internet, while NIST's migration is classical systems using post-quantum algorithms. `BANK-166-015` asks about Mars terraforming; NASA HLS is a contracted lunar-lander architecture, distinct from Mars settlement. Neighbor `BANK-032-060` covers dated Starship booster-recovery tests, not HLS contract-to-capability reasoning. Existing `BANK-166-019`, `016`, `037` and `040` absorb robot, brain-interface, population and AGI forecasts; their archived promotional claims remain unverified.

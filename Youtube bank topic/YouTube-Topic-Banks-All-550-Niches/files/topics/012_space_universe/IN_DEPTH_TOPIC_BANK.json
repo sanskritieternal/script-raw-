@@ -1,0 +1,736 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "012",
+  "slug": "space_universe",
+  "name": "Space / Universe",
+  "primary_category": "Space_Astronomy",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for Space / Universe. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 32
+  },
+  "categories": [
+    {
+      "title": "Cosmic distance and observation",
+      "level": "foundation",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can astronomers measure distance without traveling to an object?",
+          "coverage": "Compare parallax, standard candles and other distance indicators with their scale ranges and calibration chains.",
+          "id": "BANK-012-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does looking farther away also reveal earlier cosmic times?",
+          "coverage": "Explain light travel time within an expanding universe and distinguish different definitions of distance.",
+          "id": "BANK-012-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What separates an astronomical image's measured signal from its processed colors?",
+          "coverage": "Trace filters, exposure combination and visualization choices without implying every processed image is fabricated.",
+          "id": "BANK-012-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do astronomers know that two observations refer to the same changing object?",
+          "coverage": "Examine coordinates, time, resolution and cross-matching uncertainty in a bounded observation set.",
+          "id": "BANK-012-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Stars and their lives",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "Why do stars of different masses follow different evolutionary paths?",
+          "coverage": "Compare energy production, pressure, fuel use and modeled lifetimes without one universal stellar lifecycle.",
+          "id": "BANK-012-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a spectrum reveal a star's composition and motion?",
+          "coverage": "Distinguish line identification, temperature, Doppler shifts and model assumptions.",
+          "id": "BANK-012-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence shows that a stellar nursery contains newly forming stars?",
+          "coverage": "Compare wavelengths, surrounding gas, obscuration and classification uncertainty.",
+          "id": "BANK-012-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can observations distinguish a white dwarf, neutron star and stellar black hole?",
+          "coverage": "Use measurable properties and inference limits rather than their appearance in illustrations.",
+          "id": "BANK-012-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D02",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Galaxies and large structures",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How do galaxy rotation measurements motivate a mass problem?",
+          "coverage": "Explain velocity data, visible matter estimates and alternative models without treating one plot as the whole dark matter case.",
+          "id": "BANK-012-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a galaxy merger reveal about gravity and star formation?",
+          "coverage": "Compare observed structure, simulation assumptions and different stages inferred from separate systems.",
+          "id": "BANK-012-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do distant galaxies not all look like nearby galaxies seen through worse cameras?",
+          "coverage": "Separate evolution, selection, wavelength shifts and observational limits.",
+          "id": "BANK-012-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How is the cosmic web mapped when most space contains no bright galaxy?",
+          "coverage": "Compare galaxy surveys, selection effects, redshift measurements and model-based interpretation.",
+          "id": "BANK-012-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D03",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Black holes",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What does an event horizon mean in a physical model?",
+          "coverage": "Distinguish the horizon, surrounding matter, observational signatures and the limits of intuitive surface analogies.",
+          "id": "BANK-012-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can gas near a black hole become luminous while the hole itself emits no ordinary surface light?",
+          "coverage": "Explain accretion, heating and radiation while keeping the black-hole interior outside observational claims.",
+          "id": "BANK-012-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a black-hole image actually reconstruct from telescope data?",
+          "coverage": "Trace interferometry, sparse sampling, modeling and cross-checks rather than describing it as a normal photograph.",
+          "id": "BANK-012-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do black-hole mergers test gravity under extreme conditions?",
+          "coverage": "Compare waveform predictions, detector sensitivity and parameter uncertainty without claiming every alternative theory is ruled out.",
+          "id": "BANK-012-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D04",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Planets and habitability",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How do transit and radial-velocity methods detect different properties of exoplanets?",
+          "coverage": "Compare light and motion measurements, selection biases and what needs combined observations.",
+          "id": "BANK-012-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is a planet in a habitable zone not necessarily habitable?",
+          "coverage": "Consider atmosphere, water, stellar activity and geological uncertainty rather than equating orbital distance with life.",
+          "id": "BANK-012-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can an exoplanet atmosphere's spectrum establish about its chemistry?",
+          "coverage": "Inspect retrieval models, clouds, noise and competing molecular interpretations.",
+          "id": "BANK-012-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How could a proposed biosignature arise without life?",
+          "coverage": "Compare biological and abiotic pathways within a defined planetary environment and identify discriminating observations.",
+          "id": "BANK-012-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D05",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Cosmic history",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What does the cosmic microwave background show directly?",
+          "coverage": "Separate measured radiation patterns from cosmological parameters inferred through a model.",
+          "id": "BANK-012-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do astronomers estimate the universe's age?",
+          "coverage": "Compare expansion history, cosmological assumptions and independent constraints rather than using one simple distance division.",
+          "id": "BANK-012-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What observations support an early hot, dense universe?",
+          "coverage": "Compare expansion, light-element abundances and background radiation while distinguishing evidence from unanswered origin questions.",
+          "id": "BANK-012-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why are inflation and the Big Bang not interchangeable labels?",
+          "coverage": "Clarify what each framework addresses, its evidence and the boundary between established observations and debated models.",
+          "id": "BANK-012-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D06",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Hidden components",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can galaxy clusters test dark matter explanations differently from individual galaxies?",
+          "coverage": "Compare lensing, gas, member motions and modeling uncertainties across the same system.",
+          "id": "BANK-012-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does dark energy describe in current cosmological modeling?",
+          "coverage": "Separate the inferred expansion behavior from claims about an identified material or understood mechanism.",
+          "id": "BANK-012-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do expansion-rate measurements depend on different calibration routes?",
+          "coverage": "Trace data, distance anchors, model assumptions and uncertainty before interpreting a discrepancy.",
+          "id": "BANK-012-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What would a convincing search for extraterrestrial technology need to rule out?",
+          "coverage": "Inspect interference, instrumental effects, repeatability and natural explanations before claiming a detection.",
+          "id": "BANK-012-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D07",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    },
+    {
+      "title": "Knowledge limits and media",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a space documentary show scale without creating false comparisons?",
+          "coverage": "Specify distances, sizes, time and visualization compression rather than combining incompatible units or perspectives.",
+          "id": "BANK-012-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does a simulation become evidence for a cosmic explanation?",
+          "coverage": "Compare model assumptions, predictions and independent observations; distinguish visual plausibility from a successful test.",
+          "id": "BANK-012-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a channel cover a preprint about a surprising astronomical result?",
+          "coverage": "Check methods, uncertainty, expert critique and later revisions without presenting peer review as a guarantee or a missing seal of impossibility.",
+          "id": "BANK-012-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What remains unknown even after a spectacular new telescope image?",
+          "coverage": "Identify the actual observation, inference range and follow-up needed rather than claiming a single image resolves cosmic history.",
+          "id": "BANK-012-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-012-D08",
+      "prerequisites": [
+        "CATALOG-012-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "032",
+      "title": "Space Exploration",
+      "directory": "032_space_exploration",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "159",
+      "title": "Satellites & Earth Observation",
+      "directory": "159_satellites_earth_observation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "344",
+      "title": "Astronomy",
+      "directory": "344_astronomy",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "345",
+      "title": "Planetary Science",
+      "directory": "345_planetary_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "346",
+      "title": "Moon Science",
+      "directory": "346_moon_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "347",
+      "title": "Solar Science",
+      "directory": "347_solar_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "012",
+    "slug": "space_universe",
+    "name": "Space / Universe",
+    "primary_category": "Space_Astronomy",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Space / Universe YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-012-01",
+        "title": "Cosmic structure",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-012-001",
+            "title": "Galaxy formation and mergers",
+            "question": "Galaxy formation and mergers: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic structure. Address Galaxy formation and mergers through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Galaxy formation and mergers precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-002",
+            "title": "The lifecycle of massive stars",
+            "question": "The lifecycle of massive stars: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic structure. Address The lifecycle of massive stars through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define The lifecycle of massive stars precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-003",
+            "title": "Black-hole event horizons",
+            "question": "Black-hole event horizons: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic structure. Address Black-hole event horizons through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Black-hole event horizons precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-004",
+            "title": "The cosmic microwave background",
+            "question": "The cosmic microwave background: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic structure. Address The cosmic microwave background through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define The cosmic microwave background precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-012-02",
+        "title": "Observation",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-012-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-012-005",
+            "title": "Redshift and expanding space",
+            "question": "Redshift and expanding space: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Observation. Address Redshift and expanding space through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Redshift and expanding space precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-006",
+            "title": "Gravitational-wave astronomy",
+            "question": "Gravitational-wave astronomy: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Observation. Address Gravitational-wave astronomy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Gravitational-wave astronomy precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-007",
+            "title": "Exoplanet transit measurements",
+            "question": "Exoplanet transit measurements: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Observation. Address Exoplanet transit measurements through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Exoplanet transit measurements precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-008",
+            "title": "Radio interferometry",
+            "question": "Radio interferometry: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Observation. Address Radio interferometry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Radio interferometry precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-012-03",
+        "title": "Cosmic questions",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-012-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-012-009",
+            "title": "Dark matter alternatives and tests",
+            "question": "Dark matter alternatives and tests: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic questions. Address Dark matter alternatives and tests through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Dark matter alternatives and tests precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-010",
+            "title": "Cosmic inflation and its evidence",
+            "question": "Cosmic inflation and its evidence: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic questions. Address Cosmic inflation and its evidence through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Cosmic inflation and its evidence precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-011",
+            "title": "The observable universe's horizon",
+            "question": "The observable universe's horizon: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic questions. Address The observable universe's horizon through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define The observable universe's horizon precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-012-012",
+            "title": "The search for habitable environments",
+            "question": "The search for habitable environments: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Space / Universe; branch: Cosmic questions. Address The search for habitable environments through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define The search for habitable environments precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "032",
+        "title": "Space Exploration",
+        "directory": "032_space_exploration",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "159",
+        "title": "Satellites & Earth Observation",
+        "directory": "159_satellites_earth_observation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "344",
+        "title": "Astronomy",
+        "directory": "344_astronomy",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "345",
+        "title": "Planetary Science",
+        "directory": "345_planetary_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "346",
+        "title": "Moon Science",
+        "directory": "346_moon_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "347",
+        "title": "Solar Science",
+        "directory": "347_solar_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_01"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

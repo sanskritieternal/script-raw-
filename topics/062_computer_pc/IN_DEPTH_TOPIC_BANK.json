@@ -1,0 +1,2030 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "062",
+  "slug": "computer_pc",
+  "name": "Computer & PC",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-24",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "Individually authored episode questions and coverage boundaries for Computer & PC. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 48
+  },
+  "categories": [
+    {
+      "title": "Reading the computer as a system",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What happens between pressing a PC's power button and seeing the login screen?",
+          "coverage": "Trace firmware, device initialization, boot selection and operating-system startup using vendor diagrams; distinguish stages without giving firmware-flashing instructions.",
+          "id": "BANK-062-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do CPU cores, clock speed and instruction behavior jointly affect work?",
+          "coverage": "Compare a documented processor workload with serial and parallel portions; reject rankings based on clock rate alone.",
+          "id": "BANK-062-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do RAM capacity and storage capacity solve different problems?",
+          "coverage": "Follow a large working dataset through memory, paging and persistent files; use operating-system counters instead of treating free memory as the only performance measure.",
+          "id": "BANK-062-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a motherboard determine which upgrades can actually work?",
+          "coverage": "Read socket, chipset, firmware, physical-clearance and memory-support documentation for a named board revision; avoid compatibility claims based only on matching connectors.",
+          "id": "BANK-062-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which PCIe lanes are available to a device on one motherboard?",
+          "coverage": "Map CPU and chipset lanes, link generation and shared slots using a named board manual, then test actual link width and workload rather than quote raw bandwidth alone.",
+          "id": "BANK-062-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D01",
+      "prerequisites": [],
+      "parent_id": "DOMAIN-062-G01",
+      "reading_subcategory": "Reading the computer as a system"
+    },
+    {
+      "title": "Processors and graphics",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can a CPU with more cores finish a particular task more slowly?",
+          "coverage": "Compare scheduling, thermal limits, per-core work and software scaling under controlled conditions; identify benchmark versions and avoid a universal brand verdict.",
+          "id": "BANK-062-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does integrated graphics share resources with the rest of a PC?",
+          "coverage": "Trace system memory, display outputs and power budgets using actual architecture documentation; distinguish graphics capability from discrete video-memory labels.",
+          "id": "BANK-062-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does GPU utilization fail to reveal about a rendering bottleneck?",
+          "coverage": "Compare compute activity, memory bandwidth, VRAM allocation, decoding and CPU feeding through a defined workload; do not infer capability from one dashboard percentage.",
+          "id": "BANK-062-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do video-memory capacity and graphics speed need separate evaluation?",
+          "coverage": "Contrast a workload that fits in memory with one that spills or fails; include precision and software support instead of comparing gigabytes alone.",
+          "id": "BANK-062-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What limited Pentium 4 NetBurst clock scaling, and what changed afterward?",
+          "coverage": "Compare dated processor models, thermal guidance, power and instructions per clock; avoid a false hard 4 GHz barrier or a single-cause account of Intel?s architecture shift.",
+          "id": "BANK-062-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        },
+        {
+          "question": "When does ray tracing improve a rendered scene enough to justify its PC cost?",
+          "coverage": "Compare the same game or renderer with rasterization and selected ray-traced effects, holding resolution, quality settings and hardware fixed.",
+          "id": "BANK-062-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        },
+        {
+          "question": "What did Apple?s first M1 Mac change about PC architecture comparisons?",
+          "coverage": "Compare a named 2020 M1 Mac with a contemporary x86 system for workload, power, integrated memory and software compatibility; avoid architecture-wide winner claims.",
+          "id": "BANK-062-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        },
+        {
+          "question": "Which workloads benefit from an AMD 3D V-Cache processor, and why?",
+          "coverage": "Compare named X3D and non-X3D models under matched memory, GPU and game settings; relate cache behavior to observed results without universal victory claims.",
+          "id": "BANK-062-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D02",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G01",
+      "reading_subcategory": "Processors and graphics"
+    },
+    {
+      "title": "Storage and data protection",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "When does an SSD interface become less important than its sustained workload behavior?",
+          "coverage": "Inspect latency, caching, temperature and steady-state writes from reproducible tests; keep SATA, PCIe generation and device controller behavior distinct.",
+          "id": "BANK-062-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is a second partition on the same drive not an independent backup?",
+          "coverage": "Model device failure, deletion and recovery boundaries; consult backup documentation and demonstrate only with disposable files.",
+          "id": "BANK-062-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a restore test reveal gaps in an apparently successful backup?",
+          "coverage": "Specify selected files, application state, encryption keys and recovery time; compare restored content against a known baseline without using private user data.",
+          "id": "BANK-062-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do drive-health indicators establish about future reliability?",
+          "coverage": "Read manufacturer definitions and error records; distinguish warning signals, uncertainty and recoverability without promising that any status predicts failure precisely.",
+          "id": "BANK-062-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does an SSD slow after its write cache fills?",
+          "coverage": "Test a named NAND type, controller, capacity and firmware across sustained writes and recovery time; distinguish SLC caching from intrinsic QLC speed.",
+          "id": "BANK-062-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D03",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G01",
+      "reading_subcategory": "Storage and data protection"
+    },
+    {
+      "title": "Cooling, power and physical design",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can a cooling limit change a processor's sustained performance?",
+          "coverage": "Compare temperatures, clock behavior and power under a repeatable workload; use vendor operating limits and avoid encouraging thermal-protection bypasses.",
+          "id": "BANK-062-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a power supply's wattage label not establish its complete suitability?",
+          "coverage": "Examine connectors, documented protections, transient requirements and independent test methods; exclude opening power supplies or improvising electrical connections.",
+          "id": "BANK-062-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do case airflow and dust affect maintenance decisions?",
+          "coverage": "Map intake, exhaust, filters and accessibility using manufacturer service guidance; keep electrical cleaning precautions and model-specific disassembly boundaries explicit.",
+          "id": "BANK-062-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a laptop upgrade different from a desktop upgrade?",
+          "coverage": "Compare soldered parts, service manuals, battery access and chassis clearance for specific models; avoid assuming replaceability from the product family's name.",
+          "id": "BANK-062-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a motherboard VRM support a specific CPU under changing load?",
+          "coverage": "Trace voltage conversion, phases, thermal limits and board power settings on one documented board; do not infer quality or safety from phase count alone.",
+          "id": "BANK-062-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        },
+        {
+          "question": "Why can a PC power supply fail during a brief GPU load spike?",
+          "coverage": "Use a named GPU, PSU and ATX revision to compare sustained draw, excursions, connectors and protection behavior; distinguish shutdown evidence from a wattage-label anecdote.",
+          "id": "BANK-062-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D04",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G02",
+      "reading_subcategory": "Cooling, power and physical design"
+    },
+    {
+      "title": "Operating systems and troubleshooting",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can Task Manager or another system monitor mislead a performance diagnosis?",
+          "coverage": "Relate sampling intervals, per-process totals and resource categories to a controlled task; confirm tool definitions before interpreting a high or low percentage.",
+          "id": "BANK-062-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What separates a driver problem from an application or hardware problem?",
+          "coverage": "Design a reversible diagnosis using event records, version history and a known-good workload; exclude destructive resets as an unexplained first step.",
+          "id": "BANK-062-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can startup programs slow access to an otherwise fast PC?",
+          "coverage": "Measure login-to-ready time and background resource competition in an isolated account; distinguish startup impact labels from observed delay.",
+          "id": "BANK-062-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an operating-system reinstall be planned so recovery is possible?",
+          "coverage": "Inventory backups, application access, licenses, encryption recovery and official installation media; outline decision checkpoints rather than issuing a blanket erase procedure.",
+          "id": "BANK-062-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did Intel identify in the 13th and 14th generation desktop Vmin instability issue?",
+          "coverage": "Trace Intel?s dated root-cause statements, affected desktop SKUs, board settings and BIOS microcode versions; distinguish prevention from repair of degraded processors.",
+          "id": "BANK-062-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D05",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G02",
+      "reading_subcategory": "Operating systems and troubleshooting"
+    },
+    {
+      "title": "Networks and peripherals",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can slow Wi-Fi be separated from a slow internet connection?",
+          "coverage": "Compare local transfer, signal conditions, router placement and wired baselines; state device capabilities and avoid unauthorized network scanning.",
+          "id": "BANK-062-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a USB-C connector support different data, charging and display functions?",
+          "coverage": "Read host, cable and peripheral specifications together; distinguish connector shape, protocol support and power negotiation using verified documentation.",
+          "id": "BANK-062-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when a display is used for text, color work or fast motion?",
+          "coverage": "Compare resolution, scaling, refresh behavior, calibration and viewing conditions; avoid reducing suitability to a single panel specification.",
+          "id": "BANK-062-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a keyboard, mouse or audio delay be isolated across a setup?",
+          "coverage": "Separate device, connection, driver and application stages with controlled substitution; report reproducible observations instead of attributing every delay to wireless technology.",
+          "id": "BANK-062-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-062-D06",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G02",
+      "reading_subcategory": "Networks and peripherals"
+    },
+    {
+      "title": "Workload matching and buying evidence",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How should a PC be evaluated for video editing rather than gaming alone?",
+          "coverage": "Define footage codec, resolution, effects, export path and application version; use representative project tests instead of transferring unrelated benchmark scores.",
+          "id": "BANK-062-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What hardware constraints matter when testing a local language model?",
+          "coverage": "Compare model size, precision, context memory, runtime support and measured speed; treat compatibility and acceptable responsiveness as different questions.",
+          "id": "BANK-062-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a used PC listing be checked for missing or misleading specifications?",
+          "coverage": "Compare exact component IDs, service history, support status and seller evidence; distinguish disclosed facts from claims that require inspection or return protection.",
+          "id": "BANK-062-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does a small upgrade have better evidence than replacing an entire system?",
+          "coverage": "Identify the bottleneck, compatible alternatives, measured workload and total cost; leave prices and personal purchase choices for dated research.",
+          "id": "BANK-062-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does enabling XMP or EXPO change an actual PC workload?",
+          "coverage": "Use a specified CPU, motherboard, BIOS and DDR profile; test stability and task time with the profile on and off, separating rated speed from achieved benefit.",
+          "id": "BANK-062-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D07",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G03",
+      "reading_subcategory": "Workload matching and buying evidence"
+    },
+    {
+      "title": "Accessibility, repair and end of life",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "What should accessible PC setup consider beyond larger text?",
+          "coverage": "Examine input alternatives, screen-reader support, audio cues and application compatibility with consented user testing; avoid assuming one setting serves all users.",
+          "id": "BANK-062-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do service documentation and spare-part access change repair feasibility?",
+          "coverage": "Compare a named machine's procedures, diagnostics, part availability and local repair rules; keep warranty and legal statements jurisdiction-specific.",
+          "id": "BANK-062-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a computer be prepared for transfer without exposing the previous owner's data?",
+          "coverage": "Consult current vendor sanitization guidance for storage type and encryption state; distinguish account sign-out from verified erasure and keep demonstrations on spare media.",
+          "id": "BANK-062-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens to a computer after it enters an electronics recycling stream?",
+          "coverage": "Trace collection, reuse, material recovery and hazardous handling through authorized facilities; do not infer responsible disposal from a recycling logo alone.",
+          "id": "BANK-062-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did built-in optical drives disappear from many desktop PCs?",
+          "coverage": "Compare dated case designs, software distribution, media use and external-drive options; identify markets where discs remain relevant instead of declaring the format dead.",
+          "id": "BANK-062-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ],
+      "id": "CATALOG-062-D08",
+      "prerequisites": [
+        "CATALOG-062-D01"
+      ],
+      "parent_id": "DOMAIN-062-G03",
+      "reading_subcategory": "Accessibility, repair and end of life"
+    },
+    {
+      "id": "CATALOG-062-R01",
+      "title": "Firmware, clocks and device identity",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-062-09",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "bf82705127d0ed81538e4bb6bc304972b0d89c899b7f5c2d7496ab6d6c58697a",
+      "topics": [
+        {
+          "question": "What happens before an operating system begins to load?",
+          "coverage": "Trace firmware initialization, device discovery, boot selection and handoff conceptually; exclude bypassing security controls.",
+          "id": "BANK-062-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a computer keep time after it is turned off?",
+          "coverage": "Compare hardware clocks, firmware settings, network synchronization and operating-system interpretation.",
+          "id": "BANK-062-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when a storage drive reports healthy status but files fail integrity checks?",
+          "coverage": "Separate hardware indicators, filesystem metadata, memory errors, application writes and backups without diagnosing a real device.",
+          "id": "BANK-062-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-062-R02",
+      "title": "Working sets and memory transfer",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-062-10",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "0103490a225ad68f96c49fd6ad2f9fb02523c4111f39a9910abbd807b70cd145",
+      "topics": [
+        {
+          "question": "Why can a workload fit in RAM yet run slowly because of cache misses or limited memory bandwidth?",
+          "coverage": "Compare cache hierarchy, locality, working set, access patterns, latency and bandwidth using labeled benign benchmarks; distinguish capacity from the rate and pattern of moving data.",
+          "covers_starter_ids": [
+            "BANK-062-001",
+            "BANK-062-002"
+          ],
+          "id": "BANK-062-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-062-R03",
+      "title": "Version compatibility and recovery",
+      "level": "advanced",
+      "parent_id": "DOMAIN-062-11",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "3c514e1b95b23b6c8c396f8ea8835462c9764eb9d86f06c0fe77f39717cbba42",
+      "topics": [
+        {
+          "question": "What should a firmware-update explanation establish about compatibility and recovery before describing a change?",
+          "coverage": "Compare exact model, supported version, release notes, configuration retention, recovery documentation and vendor responsibilities; exclude flashing instructions, bypasses or a guarantee that updating fixes an observed fault.",
+          "covers_starter_ids": [
+            "BANK-062-007"
+          ],
+          "id": "BANK-062-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "321",
+      "title": "Satellite Internet",
+      "directory": "321_satellite_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "062",
+    "slug": "computer_pc",
+    "name": "Computer & PC",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Computer & PC YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-062-01",
+        "title": "PC architecture",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-062-001",
+            "title": "CPU cache and memory hierarchy",
+            "question": "CPU cache and memory hierarchy: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: PC architecture. Address CPU cache and memory hierarchy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind CPU cache and memory hierarchy.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-002",
+            "title": "RAM capacity versus bandwidth",
+            "question": "RAM capacity versus bandwidth: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: PC architecture. Address RAM capacity versus bandwidth through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind RAM capacity versus bandwidth.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-003",
+            "title": "GPU compute versus graphics workloads",
+            "question": "GPU compute versus graphics workloads: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: PC architecture. Address GPU compute versus graphics workloads through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind GPU compute versus graphics workloads.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-004",
+            "title": "Storage latency and queue depth",
+            "question": "Storage latency and queue depth: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: PC architecture. Address Storage latency and queue depth through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Storage latency and queue depth.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-062-02",
+        "title": "Build and maintenance",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-062-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-062-005",
+            "title": "Power-supply sizing assumptions",
+            "question": "Power-supply sizing assumptions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: Build and maintenance. Address Power-supply sizing assumptions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Power-supply sizing assumptions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-006",
+            "title": "Cooling airflow and dust",
+            "question": "Cooling airflow and dust: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: Build and maintenance. Address Cooling airflow and dust through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cooling airflow and dust.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-007",
+            "title": "Firmware updates and recovery",
+            "question": "Firmware updates and recovery: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: Build and maintenance. Address Firmware updates and recovery through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Firmware updates and recovery.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-008",
+            "title": "Diagnosing boot failures systematically",
+            "question": "Diagnosing boot failures systematically: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Computer & PC; branch: Build and maintenance. Address Diagnosing boot failures systematically through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Diagnosing boot failures systematically.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-062-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-062-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-062-009",
+            "title": "Reading benchmark methodology",
+            "question": "Reading benchmark methodology: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Computer & PC; branch: Evaluation. Address Reading benchmark methodology through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Reading benchmark methodology.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-010",
+            "title": "VRAM limits in local AI",
+            "question": "VRAM limits in local AI: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Computer & PC; branch: Evaluation. Address VRAM limits in local AI through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to VRAM limits in local AI.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-011",
+            "title": "Laptop thermal throttling",
+            "question": "Laptop thermal throttling: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Computer & PC; branch: Evaluation. Address Laptop thermal throttling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Laptop thermal throttling.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-062-012",
+            "title": "Upgrade value over a system's lifespan",
+            "question": "Upgrade value over a system's lifespan: what changes across products, versions and user settings?",
+            "coverage": "Primary context: Computer & PC; branch: Evaluation. Address Upgrade value over a system's lifespan through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Upgrade value over a system's lifespan.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "321",
+        "title": "Satellite Internet",
+        "directory": "321_satellite_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_05"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/062_computer_pc/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "1f57ecae514d869b8f5de7ea9ce590a969f7b8aaa3e4a9c8e57889dfabe6b208",
+    "source_kind": "detailed_expansion",
+    "source_records": {
+      "BANK-062-013": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3bffb8676c0ee7536325802873b7984f207a78b2125092c1488175639c1bc710"
+      },
+      "BANK-062-014": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b22d962a54793fb1760301c1e5fc48fa3f37fc3d7ff50c8cec22eef41c55f932"
+      },
+      "BANK-062-015": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3ca7337cf6b0219b4c9dc4653a458b06c9d7b489ca75150f9cb6773b898ce226"
+      },
+      "BANK-062-016": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3f287baec6fd7197b681abfab29be8611ddbef09be1c8c64e523aa6b8c692c0c"
+      },
+      "BANK-062-017": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6fa945b94e9079171559aa8890a0897c2e34806a2acdd36dd65aa168eb9c6845"
+      },
+      "BANK-062-018": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "54750994b9c19a06f9304a1a0890173c41058ac50bf069ec22d1c96d7b5d77e5"
+      },
+      "BANK-062-019": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bb35666fa0c3b9faf14193e6895fc4818674d25469e1e9c993b89a2a1060c40a"
+      },
+      "BANK-062-020": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0ba341c8a44b735d662976117394f1ed1750d34eb8d68b958ddc337141a28e24"
+      },
+      "BANK-062-021": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0f33619bbc42a48b4807043405264f75de996b63ef2c6fad75eedcb03c51db4f"
+      },
+      "BANK-062-022": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dce249a5104991eb0a4942e14e8cd7d297ef6f3ff4b562900a8d00fccd642371"
+      },
+      "BANK-062-023": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3592c013d649b4b75cb5b7168da7f589245176c118aef067358b4d9282773173"
+      },
+      "BANK-062-024": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c006994cf451b89e25bf5f0f00d7481caf0896a8226d74bc31f257ba4837d375"
+      },
+      "BANK-062-025": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9b11cb5b3c20e9728b0d193f7c9af763f5634535c5fec6add227aeab2d6cf7c4"
+      },
+      "BANK-062-026": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "656f57c9151cd86d8aa06efb5d7abea6026211b1dfcb63941a5262654d273f5f"
+      },
+      "BANK-062-027": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "061accfe59a0f4f9958f17b5f9b92c4a14eb22162f770e80cd3745c2fb0124ab"
+      },
+      "BANK-062-028": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d23cdb50d75a4906da01ec61dd878d6433901bca2b1e586c8962e4b560e2f3f9"
+      },
+      "BANK-062-029": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "271e3e2b94fccefe740f1c815502a896aed38ff660cf86033db8d7806e231fcc"
+      },
+      "BANK-062-030": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "38c9a10157af451176b42096b7e97c68048c4936855179824c9d7b4545e07122"
+      },
+      "BANK-062-031": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b50914441da8443636b7858e54a1ecd2e32329d05f1d0af5f3f62af12dc6abeb"
+      },
+      "BANK-062-032": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dc65f1329850664bbbe64c86084220655a342036209971f71e4958a733913bc3"
+      },
+      "BANK-062-033": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cffdbbdae218f9ad02fdb583d1c3baf3de4cf26a6506f548283425a801e346d0"
+      },
+      "BANK-062-034": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c632c071f2dba8b8b2754ffb587125a251e2e96db4819bf8f5089363d845f07c"
+      },
+      "BANK-062-035": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "849319436558c769c9504f676e6a402b0aec81d4fc692ae03477fd92ace8dc02"
+      },
+      "BANK-062-036": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4c062614b629f95660f3e206ae2af131c400f1af56473ff024b3efa278bac00b"
+      },
+      "BANK-062-037": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "84ddd809d4905d1f093af9857b81211a23146747834373ba2aa5b80fcfb5b923"
+      },
+      "BANK-062-038": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a8bde0949d71ec36c2c5e9c3aeda7d5b95ddb6bb82774c8ea6330bd439403ba8"
+      },
+      "BANK-062-039": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "93f9068cffae734c23710a4e6b05ec901c4fc0656c6b1d311f7e94c54770a462"
+      },
+      "BANK-062-040": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "78b093e3795102b7fce25d7f75b3fe7be5e60ca1089d25c05f9a4a7eb3b8ecc6"
+      },
+      "BANK-062-041": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "58912c3559ecb62987041b9ca4187b535fb757925ec7514c7a59c7d4708ffa11"
+      },
+      "BANK-062-042": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6bb6bc069521b2b3249a5e0ce253fd6e8aeb86a6016fcc5731e9048d4ded9b91"
+      },
+      "BANK-062-043": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eec97c1623eb56237da241c563506e07bdc1ffcbd9c896491f2acb2e6f06f7ae"
+      },
+      "BANK-062-044": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "73e87e336af491f7ba99893eea23db22e327c551e3203414162942fc2dfed065"
+      }
+    },
+    "source_categories": {
+      "CATALOG-062-D01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "e838701a5e4e223de7deee46a7b494bfc9e6df074b13016112fbab7386680954"
+      },
+      "CATALOG-062-D02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "d81812d8bb1daf1f275b18fdcae7be59ed68bba1301bf258a2e906b337e50f38"
+      },
+      "CATALOG-062-D03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "85437e30132f2c3a50c61a6c1d496acbc3492d3f37e7c1217247c4a376fb1fb1"
+      },
+      "CATALOG-062-D04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "b6ee3beb664452c5374685f7277e63c0d0d249ce5201e565c913e484e9e37f27"
+      },
+      "CATALOG-062-D05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "310ce8a1e943da256ccbdb7f2f35ff23bbc69d9c390d7fd8d370d3c747a06acf"
+      },
+      "CATALOG-062-D06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "f2b716e87bf93d58606e851e301288467f2a84cf8bc2d954607affba2b4bb2b2"
+      },
+      "CATALOG-062-D07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "c8f25a3daff6298958fb658d0328c7bdcf28f22972edcff1d3197233a3e43e04"
+      },
+      "CATALOG-062-D08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "b1ee065f9f5bccaa9febc6491e26888cf95650df99186ac15b00ec83b75ba7d7"
+      }
+    },
+    "source_initial_archive_sha256": "22331aa9242fdf4f7f696742e14b686fb13a93263dbff7e0f7a3cd238b06d25e",
+    "local_files": {
+      "062_COMPUTER_PC_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "a56cd2b8cc63051e71b1610d32a8c99a5030d5549ed4af63f56a980842e8788f",
+        "original_text": "# Computer & PC Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 062 Computer & PC (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** PC Builders, Hardware Enthusiasts, Overclockers, System Architects, Retro-Computing Geeks (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/062_computer_pc/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Computer & PC across four progressive tiers:\r\n- **Tier 1: Silicon Architecture, Motherboard Buses & Power Delivery (Scratch / Beginner)** — CPU die layout, PCIe 5.0 lanes, VRM power phases, BIOS/UEFI firmware handoffs, and thermal interface material (TIM) heat transfer.\r\n- **Tier 2: The GPU Revolution, Clock Cycles & Extreme Overclocking (Intermediate)** — Rasterization pipelines vs ray tracing RT cores, CUDA matrix streaming, liquid nitrogen sub-zero benching, and x86 CISC vs ARM RISC microcode.\r\n- **Tier 3: Storage Evolution, Silicon Degradation & Memory Timings (Upper Intermediate)** — Spinning platters to 3D TLC/QLC NAND flash, CAS latency sub-timings, electromigration atomic drift, and transient load line power spikes.\r\n- **Tier 4: Quantum Computing Chips, Neuromorphic Hardware & The Optical Bus (Advanced / Expert)** — Superconducting transmon qubits, dilution refrigerators at 15 millikelvin, memristor neuromorphic processing, and silicon photonics optical interconnects.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/062_computer_pc/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/062_computer_pc/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How a Personal Computer Model Began** | *Which component, price, software, and distribution choices shaped one early PC?* |\r\n| 2 | `famous_examples` | **A Landmark PC Reexamined** | *What did one celebrated computer make accessible, and to whom?* |\r\n| 3 | `hidden_stories` | **People Behind a PC** | *Whose component, assembly, repair, software, or support work is overlooked?* |\r\n| 4 | `beginner_explainers` | **Inside a PC** | *How do processor, memory, storage, firmware, and peripherals cooperate?* |\r\n| 5 | `advanced_concepts` | **Where Performance Bottlenecks Form** | *Why does one workload strain memory, storage, processor, or cooling?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexplained Hardware Failure** | *Which component or compatibility issue explains a documented PC fault?* |\r\n| 7 | `technology_innovation` | **A Component Generation in Use** | *Did one hardware change improve a defined user task?* |\r\n| 8 | `people_personalities` | **A PC Design Decision** | *Who chose a consequential component or platform rule?* |\r\n| 9 | `major_events` | **A PC Platform Shift** | *What changed when one processor, connector, or operating system generation arrived?* |\r\n| 10 | `how_it_works` | **From Power-On to Application** | *How do firmware, hardware, operating system, drivers, and app connect?* |\r\n| 11 | `rise_fall` | **A PC Model's Market Life** | *Why did one machine succeed, decline, or persist?* |\r\n| 12 | `then_vs_now` | **One PC Task Across Eras** | *How did time, energy, cost, and access change for the same task?* |\r\n| 13 | `future_developments` | **A Proposed PC Design** | *What evidence would establish a new architecture's benefit?* |\r\n| 14 | `myths_vs_facts` | **A PC Specification Claim Checked** | *Does a headline processor, memory, or battery claim match observed use?* |\r\n| 15 | `documentary_stories` | **One PC From Launch to Retirement** | *How did a model move through release, updates, repairs, and reuse?* |\r\n| 16 | `system_boundary` | **What Is the PC System?** | *Which behavior depends on board, firmware, operating system, peripheral, or network?* |\r\n| 17 | `input_output_trace` | **A User Action Through Hardware** | *How do input, memory, computation, storage, and display produce one result?* |\r\n| 18 | `design_tradeoff` | **A Portable PC Compromise** | *How did size, battery, performance, cooling, and repairability compete?* |\r\n| 19 | `failure_mode` | **A Documented PC Failure** | *Which conditions contributed to a known defect or reliability issue?* |\r\n| 20 | `testing_limits` | **A Hardware Benchmark's Limits** | *Which tasks and settings did one PC test represent?* |\r\n| 21 | `standards_interoperability` | **PC Components Working Together** | *Did one firmware or connector standard deliver compatible operation?* |\r\n| 22 | `security_threat_model` | **Firmware and Device Trust** | *Which public protections address one PC trust boundary?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping a PC Useful** | *How do updates, parts availability, and repair policy affect service life?* |\r\n| 24 | `infrastructure_dependencies` | **What a PC Needs Beyond the Box** | *Which power, network, account, or software services affect a defined task?* |\r\n| 25 | `accessibility_usability` | **A PC Configuration for More Users** | *Which physical and software choices support different access needs?* |\r\n| 26 | `independent_replication` | **Can a PC Benchmark Be Reproduced?** | *Do independent tests support a maker's performance claim?* |\r\n| 27 | `responsible_deployment` | **A PC Fleet Upgrade** | *How was one hardware change rolled out and supported in an organization?* |\r\n| 28 | `field_software_architecture` | **Software Layers on a PC** | *How did firmware, drivers, OS, and apps divide responsibility on one platform?* |\r\n| 29 | `field_interface_design` | **Ports and Human Controls** | *How did one PC's connectors, keyboard, or settings affect everyday use?* |\r\n| 30 | `field_version_changes` | **A Hardware Revision's Effects** | *What changed between two revisions of one PC model?* |\r\n| 31 | `field_open_standards` | **An Interoperable PC Interface** | *How did a published hardware standard enable or limit component choice?* |\r\n| 32 | `field_technical_debt` | **Legacy Compatibility Costs** | *Which earlier PC platform choice constrained later hardware or software?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Silicon Architecture & Power Delivery\r\n1. **Why Did Intel Fail to Break 4 GHz for 15 Years? The NetBurst Thermal Wall That Changed PC History**\r\n   - *Question:* Why did Intel promise in 2000 that Pentium 4 would reach 10 GHz, only to hit a catastrophic 130-watt thermal meltdown at 3.8 GHz that forced an entire architectural surrender?\r\n   - *Key Focus:* 31-stage NetBurst execution pipeline, pipeline stall penalties, dynamic power dissipation scaling with frequency cubed (P = C*V^2*f), Israeli design team saving Intel with Core 2 Duo (Conroe).\r\n2. **How a CPU Actually Works: From Quartz Crystals and Clocks to Fetch-Decode-Execute**\r\n   - *Question:* How does an electrical pulse from a vibrating quartz crystal coordinate billions of microscopic silicon transistors through the fetch, decode, execute, and writeback cycle 4 billion times a second?\r\n   - *Key Focus:* Program counter, instruction register and control unit decoding micro-ops, arithmetic logic unit (ALU), L1/L2 cache latency differences, branch prediction.\r\n3. **Motherboard VRMs: The 16-Phase Power Station Keeping Your $600 CPU from Burning**\r\n   - *Question:* How does your motherboard cleanly step down 12 volts from the power supply to an ultra-precise 1.25 volts at 250 amperes without boiling its MOSFETs?\r\n   - *Key Focus:* Buck converter topology, high-side and low-side MOSFETs, ferrite chokes and solid capacitors, pulse-width modulation (PWM) multi-phase switching, Vdroop and Load-Line Calibration (LLC).\r\n4. **Thermal Paste vs Liquid Metal: The Microscopic Battle for Heat Transfer**\r\n   - *Question:* Why does a 0.1-millimeter microscopic air gap trap heat like an oven, and how does gallium-indium liquid metal drop temperatures by 15°C while threatening to short-circuit motherboards?\r\n   - *Key Focus:* Surface roughness and microscopic air voids, thermal conductivity ratings (silicone paste 8 W/mK vs liquid metal 73 W/mK), CPU delidding, gallium galvanic corrosion of aluminum heat sinks.\r\n5. **PCIe Lanes and Chipsets: How Data Moves at 64 GB/s Across the Motherboard**\r\n   - *Question:* What is the difference between lanes wired directly to the CPU and lanes routed through the motherboard chipset, and why do high-end NVMe drives share bandwidth with graphics cards?\r\n   - *Key Focus:* Differential signaling and NRZ vs PAM4 encoding in PCIe 5.0/6.0, direct CPU lanes vs DMI chipset multiplexing, slot bifurcation (x16 to x8/x8), latency implications.\r\n### Tier 2: The GPU Revolution & Overclocking\r\n6. **Ray Tracing vs Rasterization: The 30-Year Battle for Photorealistic Gaming Graphics**\r\n   - *Question:* Why did GPUs fake lighting with rasterized tricks for three decades, and how do dedicated RT cores calculate millions of bounding volume hierarchy (BVH) ray bounces in real time?\r\n   - *Key Focus:* Rasterization polygon projection and depth z-buffering, Bounding Volume Hierarchy (BVH) ray traversal, temporal anti-aliasing and AI denoising (DLSS), rendering physical light physics.\r\n7. **x86 vs ARM: Why Apple Silicon M1 Shocked the Entire PC Industry**\r\n   - *Question:* How did a mobile phone chip architecture humiliate 100-watt desktop Intel and AMD processors while using a tiny fan-less battery chassis?\r\n   - *Key Focus:* CISC variable-length decoding legacy overhead vs RISC fixed-length instructions, massive 8-wide decode engines, Unified Memory Architecture (UMA) on-package bandwidth, memory reordering.\r\n8. **Liquid Nitrogen Overclocking: Breaking 9 GHz at -196°C**\r\n   - *Question:* What happens to silicon transistors when cooled to -196°C with bubbling liquid nitrogen, and why do chips suddenly stop working if they get too cold (the Cold Bug)?\r\n   - *Key Focus:* Carrier mobility increase at sub-zero temperatures, condensation insulation with kneaded eraser putty, the silicon 'Cold Bug' and 'Cold Boot Bug', pushing 2.0+ volts into flagship dies.\r\n9. **Nvidia CUDA: The Secret Software Moat That Created a $3 Trillion AI Monopoly**\r\n   - *Question:* How did Jensen Huang spend hundreds of millions in 2006 to add non-gaming compute logic to every GeForce graphics card, laying the foundation for modern ChatGPT and AI dominance?\r\n   - *Key Focus:* General-Purpose computing on GPUs (GPGPU), SIMT (Single Instruction, Multiple Threads) parallel execution, PyTorch and TensorFlow deep integration, why AMD's ROCm struggled to catch up.\r\n10. **GPU Power Transients: Why 450-Watt Graphics Cards Were Tripping 1,000-Watt Power Supplies**\r\n   - *Question:* Why did modern RTX 30 and 40 series graphics cards shut down high-end power supplies in 10 microseconds, and why did new 12VHPWR power cables melt?\r\n   - *Key Focus:* Microsecond transient spikes exceeding 250% TDP, power supply overcurrent protection (OCP) tripping, ATX 3.0 specification revisions, terminal pin contact resistance in 12VHPWR connectors.\r\n### Tier 3: Storage Evolution & Silicon Degradation\r\n11. **The Evolution of Solid State Drives: From 2.5-Inch SATA to PCIe 5.0 Blowtorches**\r\n   - *Question:* How did storage jump from 500 MB/s SATA bottlenecks to 14,000 MB/s NVMe drives, and why do the newest Gen 5 SSDs require active cooling fans?\r\n   - *Key Focus:* AHCI legacy spinning disk queue limits vs NVMe 64,000 deep parallel queues, 3D charge-trap NAND stacking (232+ layers), controller thermal throttling at 80°C.\r\n12. **SLC, MLC, TLC, and QLC: Why Cheaper SSDs Slow Down to Hard Drive Speeds During Large Transfers**\r\n   - *Question:* How does storing 4 bits of data in a single microscopic floating gate require distinguishing between 16 precise voltage levels, and what happens when the fast pseudo-SLC cache fills up?\r\n   - *Key Focus:* Voltage charge drift, write endurance cycles (TBW) collapsing from 10,000 to 300 cycles, SLC caching buffer tricks, sudden drop to 80 MB/s sustained write speeds.\r\n13. **Electromigration: The Invisible Atomic River That Slowly Kills Overclocked CPUs**\r\n   - *Question:* How does a flood of moving electrons physically knock copper atoms down microscopic wire traces until a $500 CPU develops voids, short circuits, and crashes?\r\n   - *Key Focus:* Black's Equation for Mean Time to Failure (MTTF), exponential acceleration by temperature and current density (J^2), the danger of manual fixed high Vcore overclocks.\r\n14. **RAM Sub-Timings: How Tuning 30 Secondary Numbers Gives Free Gaming Performance**\r\n   - *Question:* Why does buying 6000 MHz RAM only give you half its potential performance unless you manually tighten obscure secondary numbers like tRFC and tREFI in BIOS?\r\n   - *Key Focus:* DRAM capacitor refresh cycles, CAS Latency (tCL) vs turnaround timings (tRFC), refreshing capacitor rows before charge drains, 1% low FPS stabilization in gaming.\r\n15. **The Intel 13th and 14th Gen Instability Crisis: Microcode, Oxidation, and Elevated Voltages**\r\n   - *Question:* Why were flagship Core i9 processors crashing in Unreal Engine games and game server farms across the globe throughout 2024?\r\n   - *Key Focus:* Elevated VID microcode requests during idle/low-load states, Vmin shift causing permanent ring bus silicon degradation, manufacturing via oxidation defects, warranty extensions.\r\n### Tier 4: Quantum Chips, Neuromorphic & Optical Buses\r\n16. **Quantum Computing Chips: Qubits Suspended in Gold Cryogenic Chandelier Fridges**\r\n   - *Question:* How do IBM and Google cool niobium-aluminum superconducting chips to 15 millikelvin—colder than deep space—to manipulate quantum superposition and entanglement?\r\n   - *Key Focus:* Transmon qubits and Josephson junctions, microwave pulse quantum logic gates, dilution refrigerators using Helium-3/Helium-4 phase separation, quantum decoherence error rates.\r\n17. **Neuromorphic Chips: Silicon Brains That Process Information with Spiking Neurons**\r\n   - *Question:* Why do traditional computers waste 90% of their power shuttling data between separate CPU and RAM chips, and how do neuromorphic chips merge memory and compute like real brain synapses?\r\n   - *Key Focus:* The Von Neumann bottleneck, Spiking Neural Networks (SNNs), Intel Loihi 2 and IBM TrueNorth chips, memristor analog weight storage, 1,000x energy efficiency for edge AI.\r\n18. **Silicon Photonics: Replacing Copper Traces on Motherboards with Microscopic Laser Beams**\r\n   - *Question:* When copper wires hit an electrical impedance wall at 100 GHz, how will microscopic glass waveguides etched directly into silicon dies transport data at the speed of light?\r\n   - *Key Focus:* Co-Packaged Optics (CPO), micro-ring resonators and optical modulators, eliminating electrical resistance heat loss, TSMC and Intel optical engine roadmaps.\r\n19. **The Death of Moore's Law: 3D Chiplets, Gate-All-Around (GAA), and Backside Power**\r\n   - *Question:* How are engineers keeping transistor scaling alive after hitting the limits of FinFETs by wrapping gates entirely around silicon ribbons and routing power from behind the wafer?\r\n   - *Key Focus:* Gate-All-Around (GAAFET / RibbonFET) nanosheets, Intel PowerVia and TSMC A16 backside power delivery networks, 3D V-Cache vertical silicon stacking, economic packaging costs.\r\n20. **The Personal Computer in 2040: What Replaces the Desktop Tower?**\r\n   - *Question:* Will traditional desktop towers with fans and copper heatsinks exist in 2040, or will computing dissolve into decentralized ambient nodes and high-bandwidth optical wireless displays?\r\n   - *Key Focus:* Diamond wafer substrate thermal dissipation, localized AI accelerator nodes, high-bandwidth wireless mmWave display protocols, the eternal survival of enthusiast modular building.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 062 (Computer & PC)\r\n- **Angle Preset:** `beginner_explainers`\r\n- **Episode Title:** *Why Did Intel Fail to Break 4 GHz for 15 Years? The NetBurst Thermal Wall That Changed PC History*\r\n- **Episode Slug:** `062_computer_pc_beginner_explainers_the_netburst_thermal_wall`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/062_computer_pc/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "d9888d92d8811c71cdfda42c038296ff78be1941f027f6c480eccc92d1f6b759",
+        "original_text": "# 062 Computer & PC -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 062 Computer & PC (Computing_Software)  \r\n> **Storage Directory:** `topics/062_computer_pc/`  \r\n> **Synchronized With:** `OUTPUT/062_computer_pc/`, `REGISTRY/Niches/062_computer_pc/`, and `062_COMPUTER_PC_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 062 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/062_computer_pc](../../OUTPUT/062_computer_pc) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **Why Did Intel Fail to Break 4 GHz for 15 Years? The NetBurst Thermal Wall That Changed PC History** | Tier 1: Silicon Architecture & Power Delivery | `beginner_explainers` | `intel_pentium_4_netburst_thermal_wall_10ghz_myth_conroe_core_2_duo` | Flagship launch episode; the most critical architectural turning point that ended the raw clock speed race and birthed multi-core computing. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **How a CPU Actually Works: From Quartz Crystals and Clocks to Fetch-Decode-Execute** | Tier 1: Silicon Architecture & Power Delivery | `how_it_works` | `how_a_cpu_works_fetch_decode_execute_instruction_cycle_registers` | The foundational masterclass demystifying the central processing engine of all modern computing. | `QUEUED` |\r\n| 3 | **Motherboard VRMs: The 16-Phase Power Station Keeping Your $600 CPU from Burning** | Tier 1: Silicon Architecture & Power Delivery | `behind_the_scenes` | `motherboard_vrm_voltage_regulator_modules_mosfets_chokes_phases` | Explains the most critical, overlooked hardware component separating budget motherboards from stable enthusiast platforms. | `QUEUED` |\r\n| 4 | **Thermal Paste vs Liquid Metal: The Microscopic Battle for Heat Transfer** | Tier 1: Silicon Architecture & Power Delivery | `case_studies` | `thermal_interface_materials_tim_paste_vs_liquid_metal_delidding` | Essential practical cooling physics that fascinates every PC builder and overclocker. | `QUEUED` |\r\n| 5 | **PCIe Lanes and Chipsets: How Data Moves at 64 GB/s Across the Motherboard** | Tier 1: Silicon Architecture & Power Delivery | `how_it_works` | `pcie_lanes_pcie_5_architecture_cpu_direct_vs_chipset_lanes_bandwidth` | Solves common PC building bottlenecks and explains high-speed motherboard bus routing. | `QUEUED` |\r\n| 6 | **Ray Tracing vs Rasterization: The 30-Year Battle for Photorealistic Gaming Graphics** | Tier 2: The GPU Revolution & Overclocking | `history_origins` | `gpu_ray_tracing_vs_rasterization_bvh_trees_nvidia_rt_cores_rendering` | The defining visual paradigm shift of modern computer graphics hardware. | `QUEUED` |\r\n| 7 | **x86 vs ARM: Why Apple Silicon M1 Shocked the Entire PC Industry** | Tier 2: The GPU Revolution & Overclocking | `comparisons` | `x86_vs_arm_cisc_vs_risc_apple_m1_silicon_efficiency_instruction_sets` | The most consequential hardware architecture battle of the decade, reshaping personal computers forever. | `QUEUED` |\r\n| 8 | **Liquid Nitrogen Overclocking: Breaking 9 GHz at -196°C** | Tier 2: The GPU Revolution & Overclocking | `famous_examples` | `extreme_overclocking_liquid_nitrogen_ln2_cold_bug_der8auer_9ghz` | The exhilarating motorsport of competitive PC benchmarking pushing silicon to the absolute thermodynamic limit. | `QUEUED` |\r\n| 9 | **Nvidia CUDA: The Secret Software Moat That Created a $3 Trillion AI Monopoly** | Tier 2: The GPU Revolution & Overclocking | `case_studies` | `nvidia_cuda_architecture_gpgpu_jensen_huang_ai_monopoly_history` | The brilliant 20-year hardware and software strategic gamble that produced the modern AI revolution. | `QUEUED` |\r\n| 10 | **GPU Power Transients: Why 450-Watt Graphics Cards Were Tripping 1,000-Watt Power Supplies** | Tier 2: The GPU Revolution & Overclocking | `dark_secrets` | `gpu_transient_power_spikes_atx_3_0_12vhpwr_connector_melting` | A real-world engineering scandal exposing electrical limits at the cutting edge of PC component power. | `QUEUED` |\r\n| 11 | **The Evolution of Solid State Drives: From 2.5-Inch SATA to PCIe 5.0 Blowtorches** | Tier 3: Storage Evolution & Silicon Degradation | `timeline_evolution` | `ssd_evolution_sata_vs_nvme_pcie_5_3d_nand_flash_controllers` | Explains how storage went from being the slowest mechanical bottleneck in a PC to matching system memory bandwidth. | `QUEUED` |\r\n| 12 | **SLC, MLC, TLC, and QLC: Why Cheaper SSDs Slow Down to Hard Drive Speeds During Large Transfers** | Tier 3: Storage Evolution & Silicon Degradation | `how_it_works` | `nand_flash_memory_slc_mlc_tlc_qlc_voltage_states_slc_cache_exhaustion` | Essential consumer literacy exposing why cheap high-capacity SSDs deceive buyers on real-world write speeds. | `QUEUED` |\r\n| 13 | **Electromigration: The Invisible Atomic River That Slowly Kills Overclocked CPUs** | Tier 3: Storage Evolution & Silicon Degradation | `scientific_breakthroughs` | `electromigration_black_equation_cpu_degradation_high_voltage` | The physics of irreversible hardware degradation that every overclocker and PC enthusiast must respect. | `QUEUED` |\r\n| 14 | **RAM Sub-Timings: How Tuning 30 Secondary Numbers Gives Free Gaming Performance** | Tier 3: Storage Evolution & Silicon Degradation | `behind_the_scenes` | `ram_memory_timings_cas_latency_trfc_trefi_sub_timings_tuning` | The dark art of memory overclocking demystified with clear electrical and memory-controller physics. | `QUEUED` |\r\n| 15 | **The Intel 13th and 14th Gen Instability Crisis: Microcode, Oxidation, and Elevated Voltages** | Tier 3: Storage Evolution & Silicon Degradation | `case_studies` | `intel_13th_14th_gen_crash_instability_vimin_shift_via_oxidation` | The defining modern desktop hardware reliability disaster of the current decade. | `QUEUED` |\r\n| 16 | **Quantum Computing Chips: Qubits Suspended in Gold Cryogenic Chandelier Fridges** | Tier 4: Quantum Chips, Neuromorphic & Optical Buses | `how_it_works` | `quantum_computing_chips_superconducting_transmon_qubits_dilution_refrigerator` | The frontier of non-classical computing hardware operating at the boundary of quantum mechanics. | `QUEUED` |\r\n| 17 | **Neuromorphic Chips: Silicon Brains That Process Information with Spiking Neurons** | Tier 4: Quantum Chips, Neuromorphic & Optical Buses | `scientific_breakthroughs` | `neuromorphic_computing_spiking_neural_networks_intel_loihi_memristors` | The biomimetic computing revolution designed to shatter the fundamental Von Neumann architecture bottleneck. | `QUEUED` |\r\n| 18 | **Silicon Photonics: Replacing Copper Traces on Motherboards with Microscopic Laser Beams** | Tier 4: Quantum Chips, Neuromorphic & Optical Buses | `future_predictions` | `silicon_photonics_optical_interconnects_co_packaged_optics_data_centers` | The inevitable next generational leap for supercomputer and PC motherboard interconnects. | `QUEUED` |\r\n| 19 | **The Death of Moore's Law: 3D Chiplets, Gate-All-Around (GAA), and Backside Power** | Tier 4: Quantum Chips, Neuromorphic & Optical Buses | `case_studies` | `death_of_moores_law_gate_all_around_gaa_ribbonfet_backside_power_delivery` | The heroic, ultra-advanced nano-engineering preserving computational progress at atomic scales. | `QUEUED` |\r\n| 20 | **The Personal Computer in 2040: What Replaces the Desktop Tower?** | Tier 4: Quantum Chips, Neuromorphic & Optical Buses | `future_predictions` | `future_of_the_pc_2040_ambient_compute_neural_interfaces_modular_silicon` | The visionary philosophical and engineering synthesis of where the personal computing hobby and industry is heading. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Why Buying Faster RAM Might Do Absolutely Nothing for Your PC (XMP / EXPO)** | **4.5M - 8.2M** | `beginner_explainers` | `why_buying_faster_ram_might_do_absolutely_nothing_for_your_pc_(xmp_/_expo)` | The #1 most common PC building mistake that millions of gamers don't realize they made. | `TRENDING CANDIDATE` |\r\n| 22 | **The Intel 13th & 14th Gen Disaster: What Actually Caused the Crashes?** | **3.8M - 6.8M** | `case_studies` | `the_intel_13th_&_14th_gen_disaster_what_actually_caused_the_crashes` | High relevance, massive ongoing hardware news topic with deep technical curiosity. | `TRENDING CANDIDATE` |\r\n| 23 | **Why Your Graphics Card Needs a Support Bracket (GPU Sag Cracking Circuit Boards)** | **2.9M - 5.1M** | `how_it_works` | `why_your_graphics_card_needs_a_support_bracket_(gpu_sag_cracking_circuit_boards)` | Practical, immediate hardware safety tip that saves expensive $1,500 GPUs from dying. | `TRENDING CANDIDATE` |\r\n| 24 | **How to Clean Dust from a PC Without Damaging Fans (The Vacuum Myth)** | **3.2M - 5.6M** | `diy_hacks` | `how_to_clean_dust_from_a_pc_without_damaging_fans_(the_vacuum_myth)` | High-utility everyday maintenance advice that prevents catastrophic static damage. | `TRENDING CANDIDATE` |\r\n| 25 | **Why Did AMD's 3D V-Cache Crush Intel in Gaming? The Cache Magic Explained** | **3.5M - 6.1M** | `scientific_breakthroughs` | `why_did_amds_3d_v-cache_crush_intel_in_gaming_the_cache_magic_explained` | Fascinating architectural explanation of how the Ryzen 7800X3D became the undisputed king of gaming CPUs. | `TRENDING CANDIDATE` |\r\n| 26 | **The $100 PC Case That Stole the Entire Market: The Lian Li O11 Dynamic Phenomenon** | **2.4M - 4.2M** | `famous_examples` | `the_$100_pc_case_that_stole_the_entire_market_the_lian_li_o11_dynamic_phenomenon` | Engaging product design and aesthetic history of the most popular PC case in modern history. | `TRENDING CANDIDATE` |\r\n| 27 | **Why Did We Stop Putting Optical CD/DVD Drives in Desktop PCs?** | **2.7M - 4.8M** | `timeline_evolution` | `why_did_we_stop_putting_optical_cd/dvd_drives_in_desktop_pcs` | Nostalgic, fascinating retrospection on a piece of technology that everyone used daily and vanished. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/062_computer_pc/062_COMPUTER_PC_CHANNEL_TOPIC_ROADMAP.md`](./062_COMPUTER_PC_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/062_computer_pc/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/062_computer_pc/NICHE_062_computer_pc.md`](file:///h:/script-raw-/REGISTRY/Niches/062_computer_pc/NICHE_062_computer_pc.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/062_computer_pc/CAT_062_computer_pc.md`](file:///h:/script-raw-/REGISTRY/Niches/062_computer_pc/CAT_062_computer_pc.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/062_computer_pc/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/062_computer_pc/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/062_computer_pc/`](file:///h:/script-raw-/OUTPUT/062_computer_pc/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "93dca9e91359d669628c8a1e7df8fc1d0882c16e3e4f32399b3d27501088d61d",
+        "original_text": "{\r\n  \"niche_id\": \"062\",\r\n  \"niche_name\": \"computer_pc\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"Why Did Intel Fail to Break 4 GHz for 15 Years? The NetBurst Thermal Wall That Changed PC History\",\r\n      \"tier\": \"Tier 1: Silicon Architecture & Power Delivery\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"intel_pentium_4_netburst_thermal_wall_10ghz_myth_conroe_core_2_duo\",\r\n      \"reason\": \"Flagship launch episode; the most critical architectural turning point that ended the raw clock speed race and birthed multi-core computing.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"How a CPU Actually Works: From Quartz Crystals and Clocks to Fetch-Decode-Execute\",\r\n      \"tier\": \"Tier 1: Silicon Architecture & Power Delivery\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"how_a_cpu_works_fetch_decode_execute_instruction_cycle_registers\",\r\n      \"reason\": \"The foundational masterclass demystifying the central processing engine of all modern computing.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Motherboard VRMs: The 16-Phase Power Station Keeping Your $600 CPU from Burning\",\r\n      \"tier\": \"Tier 1: Silicon Architecture & Power Delivery\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"motherboard_vrm_voltage_regulator_modules_mosfets_chokes_phases\",\r\n      \"reason\": \"Explains the most critical, overlooked hardware component separating budget motherboards from stable enthusiast platforms.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Thermal Paste vs Liquid Metal: The Microscopic Battle for Heat Transfer\",\r\n      \"tier\": \"Tier 1: Silicon Architecture & Power Delivery\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"thermal_interface_materials_tim_paste_vs_liquid_metal_delidding\",\r\n      \"reason\": \"Essential practical cooling physics that fascinates every PC builder and overclocker.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"PCIe Lanes and Chipsets: How Data Moves at 64 GB/s Across the Motherboard\",\r\n      \"tier\": \"Tier 1: Silicon Architecture & Power Delivery\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"pcie_lanes_pcie_5_architecture_cpu_direct_vs_chipset_lanes_bandwidth\",\r\n      \"reason\": \"Solves common PC building bottlenecks and explains high-speed motherboard bus routing.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Ray Tracing vs Rasterization: The 30-Year Battle for Photorealistic Gaming Graphics\",\r\n      \"tier\": \"Tier 2: The GPU Revolution & Overclocking\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"gpu_ray_tracing_vs_rasterization_bvh_trees_nvidia_rt_cores_rendering\",\r\n      \"reason\": \"The defining visual paradigm shift of modern computer graphics hardware.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"x86 vs ARM: Why Apple Silicon M1 Shocked the Entire PC Industry\",\r\n      \"tier\": \"Tier 2: The GPU Revolution & Overclocking\",\r\n      \"angle\": \"comparisons\",\r\n      \"slug\": \"x86_vs_arm_cisc_vs_risc_apple_m1_silicon_efficiency_instruction_sets\",\r\n      \"reason\": \"The most consequential hardware architecture battle of the decade, reshaping personal computers forever.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Liquid Nitrogen Overclocking: Breaking 9 GHz at -196\\u00b0C\",\r\n      \"tier\": \"Tier 2: The GPU Revolution & Overclocking\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"extreme_overclocking_liquid_nitrogen_ln2_cold_bug_der8auer_9ghz\",\r\n      \"reason\": \"The exhilarating motorsport of competitive PC benchmarking pushing silicon to the absolute thermodynamic limit.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Nvidia CUDA: The Secret Software Moat That Created a $3 Trillion AI Monopoly\",\r\n      \"tier\": \"Tier 2: The GPU Revolution & Overclocking\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"nvidia_cuda_architecture_gpgpu_jensen_huang_ai_monopoly_history\",\r\n      \"reason\": \"The brilliant 20-year hardware and software strategic gamble that produced the modern AI revolution.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"GPU Power Transients: Why 450-Watt Graphics Cards Were Tripping 1,000-Watt Power Supplies\",\r\n      \"tier\": \"Tier 2: The GPU Revolution & Overclocking\",\r\n      \"angle\": \"dark_secrets\",\r\n      \"slug\": \"gpu_transient_power_spikes_atx_3_0_12vhpwr_connector_melting\",\r\n      \"reason\": \"A real-world engineering scandal exposing electrical limits at the cutting edge of PC component power.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"The Evolution of Solid State Drives: From 2.5-Inch SATA to PCIe 5.0 Blowtorches\",\r\n      \"tier\": \"Tier 3: Storage Evolution & Silicon Degradation\",\r\n      \"angle\": \"timeline_evolution\",\r\n      \"slug\": \"ssd_evolution_sata_vs_nvme_pcie_5_3d_nand_flash_controllers\",\r\n      \"reason\": \"Explains how storage went from being the slowest mechanical bottleneck in a PC to matching system memory bandwidth.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"SLC, MLC, TLC, and QLC: Why Cheaper SSDs Slow Down to Hard Drive Speeds During Large Transfers\",\r\n      \"tier\": \"Tier 3: Storage Evolution & Silicon Degradation\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"nand_flash_memory_slc_mlc_tlc_qlc_voltage_states_slc_cache_exhaustion\",\r\n      \"reason\": \"Essential consumer literacy exposing why cheap high-capacity SSDs deceive buyers on real-world write speeds.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Electromigration: The Invisible Atomic River That Slowly Kills Overclocked CPUs\",\r\n      \"tier\": \"Tier 3: Storage Evolution & Silicon Degradation\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"electromigration_black_equation_cpu_degradation_high_voltage\",\r\n      \"reason\": \"The physics of irreversible hardware degradation that every overclocker and PC enthusiast must respect.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"RAM Sub-Timings: How Tuning 30 Secondary Numbers Gives Free Gaming Performance\",\r\n      \"tier\": \"Tier 3: Storage Evolution & Silicon Degradation\",\r\n      \"angle\": \"behind_the_scenes\",\r\n      \"slug\": \"ram_memory_timings_cas_latency_trfc_trefi_sub_timings_tuning\",\r\n      \"reason\": \"The dark art of memory overclocking demystified with clear electrical and memory-controller physics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"The Intel 13th and 14th Gen Instability Crisis: Microcode, Oxidation, and Elevated Voltages\",\r\n      \"tier\": \"Tier 3: Storage Evolution & Silicon Degradation\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"intel_13th_14th_gen_crash_instability_vimin_shift_via_oxidation\",\r\n      \"reason\": \"The defining modern desktop hardware reliability disaster of the current decade.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Quantum Computing Chips: Qubits Suspended in Gold Cryogenic Chandelier Fridges\",\r\n      \"tier\": \"Tier 4: Quantum Chips, Neuromorphic & Optical Buses\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"quantum_computing_chips_superconducting_transmon_qubits_dilution_refrigerator\",\r\n      \"reason\": \"The frontier of non-classical computing hardware operating at the boundary of quantum mechanics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Neuromorphic Chips: Silicon Brains That Process Information with Spiking Neurons\",\r\n      \"tier\": \"Tier 4: Quantum Chips, Neuromorphic & Optical Buses\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"neuromorphic_computing_spiking_neural_networks_intel_loihi_memristors\",\r\n      \"reason\": \"The biomimetic computing revolution designed to shatter the fundamental Von Neumann architecture bottleneck.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Silicon Photonics: Replacing Copper Traces on Motherboards with Microscopic Laser Beams\",\r\n      \"tier\": \"Tier 4: Quantum Chips, Neuromorphic & Optical Buses\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"silicon_photonics_optical_interconnects_co_packaged_optics_data_centers\",\r\n      \"reason\": \"The inevitable next generational leap for supercomputer and PC motherboard interconnects.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"The Death of Moore's Law: 3D Chiplets, Gate-All-Around (GAA), and Backside Power\",\r\n      \"tier\": \"Tier 4: Quantum Chips, Neuromorphic & Optical Buses\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"death_of_moores_law_gate_all_around_gaa_ribbonfet_backside_power_delivery\",\r\n      \"reason\": \"The heroic, ultra-advanced nano-engineering preserving computational progress at atomic scales.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Personal Computer in 2040: What Replaces the Desktop Tower?\",\r\n      \"tier\": \"Tier 4: Quantum Chips, Neuromorphic & Optical Buses\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"future_of_the_pc_2040_ambient_compute_neural_interfaces_modular_silicon\",\r\n      \"reason\": \"The visionary philosophical and engineering synthesis of where the personal computing hobby and industry is heading.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Why Buying Faster RAM Might Do Absolutely Nothing for Your PC (XMP / EXPO)\",\r\n      \"trend_score\": \"4.5M - 8.2M\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"why_buying_faster_ram_might_do_absolutely_nothing_for_your_pc_(xmp_/_expo)\",\r\n      \"why_trending\": \"The #1 most common PC building mistake that millions of gamers don't realize they made.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"The Intel 13th & 14th Gen Disaster: What Actually Caused the Crashes?\",\r\n      \"trend_score\": \"3.8M - 6.8M\",\r\n      \"angle\": \"case_studies\",\r\n      \"slug\": \"the_intel_13th_&_14th_gen_disaster_what_actually_caused_the_crashes\",\r\n      \"why_trending\": \"High relevance, massive ongoing hardware news topic with deep technical curiosity.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Why Your Graphics Card Needs a Support Bracket (GPU Sag Cracking Circuit Boards)\",\r\n      \"trend_score\": \"2.9M - 5.1M\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"why_your_graphics_card_needs_a_support_bracket_(gpu_sag_cracking_circuit_boards)\",\r\n      \"why_trending\": \"Practical, immediate hardware safety tip that saves expensive $1,500 GPUs from dying.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"How to Clean Dust from a PC Without Damaging Fans (The Vacuum Myth)\",\r\n      \"trend_score\": \"3.2M - 5.6M\",\r\n      \"angle\": \"diy_hacks\",\r\n      \"slug\": \"how_to_clean_dust_from_a_pc_without_damaging_fans_(the_vacuum_myth)\",\r\n      \"why_trending\": \"High-utility everyday maintenance advice that prevents catastrophic static damage.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Why Did AMD's 3D V-Cache Crush Intel in Gaming? The Cache Magic Explained\",\r\n      \"trend_score\": \"3.5M - 6.1M\",\r\n      \"angle\": \"scientific_breakthroughs\",\r\n      \"slug\": \"why_did_amds_3d_v-cache_crush_intel_in_gaming_the_cache_magic_explained\",\r\n      \"why_trending\": \"Fascinating architectural explanation of how the Ryzen 7800X3D became the undisputed king of gaming CPUs.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"The $100 PC Case That Stole the Entire Market: The Lian Li O11 Dynamic Phenomenon\",\r\n      \"trend_score\": \"2.4M - 4.2M\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"the_$100_pc_case_that_stole_the_entire_market_the_lian_li_o11_dynamic_phenomenon\",\r\n      \"why_trending\": \"Engaging product design and aesthetic history of the most popular PC case in modern history.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Why Did We Stop Putting Optical CD/DVD Drives in Desktop PCs?\",\r\n      \"trend_score\": \"2.7M - 4.8M\",\r\n      \"angle\": \"timeline_evolution\",\r\n      \"slug\": \"why_did_we_stop_putting_optical_cd/dvd_drives_in_desktop_pcs\",\r\n      \"why_trending\": \"Nostalgic, fascinating retrospection on a piece of technology that everyone used daily and vanished.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "062",
+      "niche_name": "computer_pc",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "Why Did Intel Fail to Break 4 GHz for 15 Years? The NetBurst Thermal Wall That Changed PC History",
+          "tier": "Tier 1: Silicon Architecture & Power Delivery",
+          "angle": "beginner_explainers",
+          "slug": "intel_pentium_4_netburst_thermal_wall_10ghz_myth_conroe_core_2_duo",
+          "reason": "Flagship launch episode; the most critical architectural turning point that ended the raw clock speed race and birthed multi-core computing.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "How a CPU Actually Works: From Quartz Crystals and Clocks to Fetch-Decode-Execute",
+          "tier": "Tier 1: Silicon Architecture & Power Delivery",
+          "angle": "how_it_works",
+          "slug": "how_a_cpu_works_fetch_decode_execute_instruction_cycle_registers",
+          "reason": "The foundational masterclass demystifying the central processing engine of all modern computing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Motherboard VRMs: The 16-Phase Power Station Keeping Your $600 CPU from Burning",
+          "tier": "Tier 1: Silicon Architecture & Power Delivery",
+          "angle": "behind_the_scenes",
+          "slug": "motherboard_vrm_voltage_regulator_modules_mosfets_chokes_phases",
+          "reason": "Explains the most critical, overlooked hardware component separating budget motherboards from stable enthusiast platforms.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Thermal Paste vs Liquid Metal: The Microscopic Battle for Heat Transfer",
+          "tier": "Tier 1: Silicon Architecture & Power Delivery",
+          "angle": "case_studies",
+          "slug": "thermal_interface_materials_tim_paste_vs_liquid_metal_delidding",
+          "reason": "Essential practical cooling physics that fascinates every PC builder and overclocker.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "PCIe Lanes and Chipsets: How Data Moves at 64 GB/s Across the Motherboard",
+          "tier": "Tier 1: Silicon Architecture & Power Delivery",
+          "angle": "how_it_works",
+          "slug": "pcie_lanes_pcie_5_architecture_cpu_direct_vs_chipset_lanes_bandwidth",
+          "reason": "Solves common PC building bottlenecks and explains high-speed motherboard bus routing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Ray Tracing vs Rasterization: The 30-Year Battle for Photorealistic Gaming Graphics",
+          "tier": "Tier 2: The GPU Revolution & Overclocking",
+          "angle": "history_origins",
+          "slug": "gpu_ray_tracing_vs_rasterization_bvh_trees_nvidia_rt_cores_rendering",
+          "reason": "The defining visual paradigm shift of modern computer graphics hardware.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "x86 vs ARM: Why Apple Silicon M1 Shocked the Entire PC Industry",
+          "tier": "Tier 2: The GPU Revolution & Overclocking",
+          "angle": "comparisons",
+          "slug": "x86_vs_arm_cisc_vs_risc_apple_m1_silicon_efficiency_instruction_sets",
+          "reason": "The most consequential hardware architecture battle of the decade, reshaping personal computers forever.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Liquid Nitrogen Overclocking: Breaking 9 GHz at -196°C",
+          "tier": "Tier 2: The GPU Revolution & Overclocking",
+          "angle": "famous_examples",
+          "slug": "extreme_overclocking_liquid_nitrogen_ln2_cold_bug_der8auer_9ghz",
+          "reason": "The exhilarating motorsport of competitive PC benchmarking pushing silicon to the absolute thermodynamic limit.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Nvidia CUDA: The Secret Software Moat That Created a $3 Trillion AI Monopoly",
+          "tier": "Tier 2: The GPU Revolution & Overclocking",
+          "angle": "case_studies",
+          "slug": "nvidia_cuda_architecture_gpgpu_jensen_huang_ai_monopoly_history",
+          "reason": "The brilliant 20-year hardware and software strategic gamble that produced the modern AI revolution.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "GPU Power Transients: Why 450-Watt Graphics Cards Were Tripping 1,000-Watt Power Supplies",
+          "tier": "Tier 2: The GPU Revolution & Overclocking",
+          "angle": "dark_secrets",
+          "slug": "gpu_transient_power_spikes_atx_3_0_12vhpwr_connector_melting",
+          "reason": "A real-world engineering scandal exposing electrical limits at the cutting edge of PC component power.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "The Evolution of Solid State Drives: From 2.5-Inch SATA to PCIe 5.0 Blowtorches",
+          "tier": "Tier 3: Storage Evolution & Silicon Degradation",
+          "angle": "timeline_evolution",
+          "slug": "ssd_evolution_sata_vs_nvme_pcie_5_3d_nand_flash_controllers",
+          "reason": "Explains how storage went from being the slowest mechanical bottleneck in a PC to matching system memory bandwidth.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "SLC, MLC, TLC, and QLC: Why Cheaper SSDs Slow Down to Hard Drive Speeds During Large Transfers",
+          "tier": "Tier 3: Storage Evolution & Silicon Degradation",
+          "angle": "how_it_works",
+          "slug": "nand_flash_memory_slc_mlc_tlc_qlc_voltage_states_slc_cache_exhaustion",
+          "reason": "Essential consumer literacy exposing why cheap high-capacity SSDs deceive buyers on real-world write speeds.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Electromigration: The Invisible Atomic River That Slowly Kills Overclocked CPUs",
+          "tier": "Tier 3: Storage Evolution & Silicon Degradation",
+          "angle": "scientific_breakthroughs",
+          "slug": "electromigration_black_equation_cpu_degradation_high_voltage",
+          "reason": "The physics of irreversible hardware degradation that every overclocker and PC enthusiast must respect.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "RAM Sub-Timings: How Tuning 30 Secondary Numbers Gives Free Gaming Performance",
+          "tier": "Tier 3: Storage Evolution & Silicon Degradation",
+          "angle": "behind_the_scenes",
+          "slug": "ram_memory_timings_cas_latency_trfc_trefi_sub_timings_tuning",
+          "reason": "The dark art of memory overclocking demystified with clear electrical and memory-controller physics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "The Intel 13th and 14th Gen Instability Crisis: Microcode, Oxidation, and Elevated Voltages",
+          "tier": "Tier 3: Storage Evolution & Silicon Degradation",
+          "angle": "case_studies",
+          "slug": "intel_13th_14th_gen_crash_instability_vimin_shift_via_oxidation",
+          "reason": "The defining modern desktop hardware reliability disaster of the current decade.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Quantum Computing Chips: Qubits Suspended in Gold Cryogenic Chandelier Fridges",
+          "tier": "Tier 4: Quantum Chips, Neuromorphic & Optical Buses",
+          "angle": "how_it_works",
+          "slug": "quantum_computing_chips_superconducting_transmon_qubits_dilution_refrigerator",
+          "reason": "The frontier of non-classical computing hardware operating at the boundary of quantum mechanics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Neuromorphic Chips: Silicon Brains That Process Information with Spiking Neurons",
+          "tier": "Tier 4: Quantum Chips, Neuromorphic & Optical Buses",
+          "angle": "scientific_breakthroughs",
+          "slug": "neuromorphic_computing_spiking_neural_networks_intel_loihi_memristors",
+          "reason": "The biomimetic computing revolution designed to shatter the fundamental Von Neumann architecture bottleneck.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Silicon Photonics: Replacing Copper Traces on Motherboards with Microscopic Laser Beams",
+          "tier": "Tier 4: Quantum Chips, Neuromorphic & Optical Buses",
+          "angle": "future_predictions",
+          "slug": "silicon_photonics_optical_interconnects_co_packaged_optics_data_centers",
+          "reason": "The inevitable next generational leap for supercomputer and PC motherboard interconnects.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "The Death of Moore's Law: 3D Chiplets, Gate-All-Around (GAA), and Backside Power",
+          "tier": "Tier 4: Quantum Chips, Neuromorphic & Optical Buses",
+          "angle": "case_studies",
+          "slug": "death_of_moores_law_gate_all_around_gaa_ribbonfet_backside_power_delivery",
+          "reason": "The heroic, ultra-advanced nano-engineering preserving computational progress at atomic scales.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Personal Computer in 2040: What Replaces the Desktop Tower?",
+          "tier": "Tier 4: Quantum Chips, Neuromorphic & Optical Buses",
+          "angle": "future_predictions",
+          "slug": "future_of_the_pc_2040_ambient_compute_neural_interfaces_modular_silicon",
+          "reason": "The visionary philosophical and engineering synthesis of where the personal computing hobby and industry is heading.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Why Buying Faster RAM Might Do Absolutely Nothing for Your PC (XMP / EXPO)",
+          "trend_score": "4.5M - 8.2M",
+          "angle": "beginner_explainers",
+          "slug": "why_buying_faster_ram_might_do_absolutely_nothing_for_your_pc_(xmp_/_expo)",
+          "why_trending": "The #1 most common PC building mistake that millions of gamers don't realize they made.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "The Intel 13th & 14th Gen Disaster: What Actually Caused the Crashes?",
+          "trend_score": "3.8M - 6.8M",
+          "angle": "case_studies",
+          "slug": "the_intel_13th_&_14th_gen_disaster_what_actually_caused_the_crashes",
+          "why_trending": "High relevance, massive ongoing hardware news topic with deep technical curiosity.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "Why Your Graphics Card Needs a Support Bracket (GPU Sag Cracking Circuit Boards)",
+          "trend_score": "2.9M - 5.1M",
+          "angle": "how_it_works",
+          "slug": "why_your_graphics_card_needs_a_support_bracket_(gpu_sag_cracking_circuit_boards)",
+          "why_trending": "Practical, immediate hardware safety tip that saves expensive $1,500 GPUs from dying.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "How to Clean Dust from a PC Without Damaging Fans (The Vacuum Myth)",
+          "trend_score": "3.2M - 5.6M",
+          "angle": "diy_hacks",
+          "slug": "how_to_clean_dust_from_a_pc_without_damaging_fans_(the_vacuum_myth)",
+          "why_trending": "High-utility everyday maintenance advice that prevents catastrophic static damage.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "Why Did AMD's 3D V-Cache Crush Intel in Gaming? The Cache Magic Explained",
+          "trend_score": "3.5M - 6.1M",
+          "angle": "scientific_breakthroughs",
+          "slug": "why_did_amds_3d_v-cache_crush_intel_in_gaming_the_cache_magic_explained",
+          "why_trending": "Fascinating architectural explanation of how the Ryzen 7800X3D became the undisputed king of gaming CPUs.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "The $100 PC Case That Stole the Entire Market: The Lian Li O11 Dynamic Phenomenon",
+          "trend_score": "2.4M - 4.2M",
+          "angle": "famous_examples",
+          "slug": "the_$100_pc_case_that_stole_the_entire_market_the_lian_li_o11_dynamic_phenomenon",
+          "why_trending": "Engaging product design and aesthetic history of the most popular PC case in modern history.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "Why Did We Stop Putting Optical CD/DVD Drives in Desktop PCs?",
+          "trend_score": "2.7M - 4.8M",
+          "angle": "timeline_evolution",
+          "slug": "why_did_we_stop_putting_optical_cd/dvd_drives_in_desktop_pcs",
+          "why_trending": "Nostalgic, fascinating retrospection on a piece of technology that everyone used daily and vanished.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "536b56be8f60dabb40481579bce7974c0426d338de9ebb31e9462d9b6472ffba"
+    },
+    {
+      "input": "Scripts\\editorial_pass_051_080.json",
+      "sha256": "ceb15be261311d45e55d316aff0dace2c1a8f8ce2134fef3cfe19ffd6fbfa480"
+    },
+    {
+      "input": "Scripts\\editorial_pass_051_080.json",
+      "sha256": "11a6fe458b474d212ad3f176f0794b2efc09690738e404b7dd7b102da0f33dc8"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-062-G01",
+      "title": "Computer systems, compute and storage",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-062-G02",
+      "title": "Power, operating systems and connections",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-062-G03",
+      "title": "Workloads, access and lifecycle",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-062-09",
+      "title": "PC interfaces",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-062-10",
+      "title": "Computer performance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-062-11",
+      "title": "Computer firmware",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "starter_concept_crosswalk": {
+    "BANK-062-001": [
+      "BANK-062-049"
+    ],
+    "BANK-062-002": [
+      "BANK-062-049"
+    ],
+    "BANK-062-003": [
+      "BANK-062-018",
+      "BANK-062-019"
+    ],
+    "BANK-062-004": [
+      "BANK-062-021"
+    ],
+    "BANK-062-005": [
+      "BANK-062-026"
+    ],
+    "BANK-062-006": [
+      "BANK-062-027"
+    ],
+    "BANK-062-007": [
+      "BANK-062-045",
+      "BANK-062-050"
+    ],
+    "BANK-062-008": [
+      "BANK-062-013",
+      "BANK-062-030"
+    ],
+    "BANK-062-009": [
+      "BANK-062-017"
+    ],
+    "BANK-062-010": [
+      "BANK-062-038"
+    ],
+    "BANK-062-011": [
+      "BANK-062-025"
+    ],
+    "BANK-062-012": [
+      "BANK-062-040"
+    ]
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "selected_bounded_note_only",
+    "exhaustive_coverage_claimed": false
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "509064eef636bbcb312651c40bc4c7af93316b3df46702c935419962da38880e",
+    "TOPIC_BANK_RECONCILIATION.md": "7df57a3655c3e46f0e0e1736887f043b818d2baa39ffdc308d1c0e72cf934d96",
+    "TOPICS_COVERED_REPORT.md": "4cb53e0bdc070abb255a1bd5429f202902131460608a531c324d151dcadee579",
+    "062_COMPUTER_PC_CHANNEL_TOPIC_ROADMAP.md": "a37718dee1dd1debdabce3949db313bd96b8426dbd835686b6afa289753723dc"
+  },
+  "organization_review": {
+    "date": "2026-10-23",
+    "source_categories_preserved": 8,
+    "method": "Manually assigned subject groupings. Source questions, scopes, category titles, IDs and prerequisites remain unchanged."
+  },
+  "open_coverage": [
+    {
+      "area": "Further case and comparison depth",
+      "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Reading the computer as a system, Processors and graphics, Storage and data protection. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+    },
+    {
+      "area": "Sources and readiness",
+      "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+    },
+    {
+      "area": "Neighboring-niche boundary review",
+      "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 1,
+    "starter_concepts_reviewed": 12,
+    "all_knowledge_exhausted": false,
+    "summary": "All 20 pending and 7 trending archived pitches have explicit dispositions. Eleven distinct versioned or model-specific PC cases were added; 16 pitches route to existing active scopes or a shared new case. Selected primary sources and scope boundaries are in SELECTED_SOURCE_NOTE.md. Coverage remains open."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "Why can a fast USB-shaped connector deliver a slower connection than expected?",
+      "coverage": "Compare connector shape, protocol, cable capability, host, device and power negotiation with version-specific verification deferred.",
+      "id": "BANK-062-046",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-062-034",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Read host, cable and peripheral specifications together; distinguish connector shape, protocol support and power negotiation using verified documentation. / Compare connector shape, protocol, cable capability, host, device and power negotiation with version-specific verification deferred. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-062-R01"
+    }
+  ],
+  "research_followups": [
+    {
+      "topic_id": "BANK-062-053",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-062-056",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-062-058",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-062-055",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-062-060",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "authored_case",
+      "reason": "case added: NetBurst dated clock/heat comparison",
+      "bank_ids": [
+        "BANK-062-051"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "existing CPU execution scope",
+      "bank_ids": [
+        "BANK-062-014"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "authored_case",
+      "reason": "case added: board VRM, not phase count alone",
+      "bank_ids": [
+        "BANK-062-052"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "cooling scope; model and paste conditions needed",
+      "bank_ids": [
+        "BANK-062-025"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "authored_case",
+      "reason": "case added: board-specific PCIe lane map",
+      "bank_ids": [
+        "BANK-062-053"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "authored_case",
+      "reason": "case added: bounded graphics workload",
+      "bank_ids": [
+        "BANK-062-054"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "authored_case",
+      "reason": "case added: dated M1 system comparison",
+      "bank_ids": [
+        "BANK-062-055"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "cooling scope; overclock record conditions needed",
+      "bank_ids": [
+        "BANK-062-025"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "reason": "AI workload scope; market-cap claim unverified",
+      "bank_ids": [
+        "BANK-062-038"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "authored_case",
+      "reason": "case added: transient versus steady PSU load",
+      "bank_ids": [
+        "BANK-062-056"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "SSD interface scope already covers transition",
+      "bank_ids": [
+        "BANK-062-021"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "authored_case",
+      "reason": "case added: sustained NAND/cache test",
+      "bank_ids": [
+        "BANK-062-057"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "cooling/reliability scope; voltage/temperature needed",
+      "bank_ids": [
+        "BANK-062-025"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "memory behavior scope; free gain unverified",
+      "bank_ids": [
+        "BANK-062-049"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "authored_case",
+      "reason": "case added: Intel desktop Vmin and microcode",
+      "bank_ids": [
+        "BANK-062-058"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "external quantum processor primary home",
+      "bank_ids": [
+        "BANK-512-036"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "CPU comparison scope; select actual neuromorphic chip",
+      "bank_ids": [
+        "BANK-062-014"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "board compatibility scope; replacement claim unverified",
+      "bank_ids": [
+        "BANK-062-016"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "external chiplet interface primary home",
+      "bank_ids": [
+        "BANK-511-041"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "upgrade versus replacement scenarios; no 2040 prediction",
+      "bank_ids": [
+        "BANK-062-040"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "authored_case",
+      "reason": "case added: XMP/EXPO versioned workload test",
+      "bank_ids": [
+        "BANK-062-060"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "direct overlap with Intel desktop Vmin case",
+      "bank_ids": [
+        "BANK-062-058"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "case support needs actual card and slot guidance",
+      "bank_ids": [
+        "BANK-062-027"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "dust maintenance already scoped; follow hardware guidance",
+      "bank_ids": [
+        "BANK-062-027"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "authored_case",
+      "reason": "case added: named X3D workload comparison",
+      "bank_ids": [
+        "BANK-062-059"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "case design belongs to airflow/maintenance; sales claim unverified",
+      "bank_ids": [
+        "BANK-062-027"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "authored_case",
+      "reason": "case added: optical-drive form-factor history",
+      "bank_ids": [
+        "BANK-062-061"
+      ]
+    }
+  }
+}

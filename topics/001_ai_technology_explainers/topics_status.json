@@ -17,7 +17,15 @@
       "angle": "beginner_explainers",
       "slug": "how_ai_actually_works_machine_learning_from_scratch",
       "reason": "Flagship beginner episode; establishes foundational mechanics for every subsequent video.",
-      "status": "QUEUED (Priority #1 Launch)"
+      "status": "QUEUED (Priority #1 Launch)",
+      "bank_ids": [
+        "BANK-001-136",
+        "BANK-001-020"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "What does it really mean when we say an algorithm \"learns\" from data?",
+      "original_key_focus": "Pattern recognition, weight adjustments, statistical probability vs human reasoning, gradient descent simplified."
     },
     {
       "id": 2,
@@ -26,7 +34,15 @@
       "angle": "beginner_explainers",
       "slug": "ai_vs_machine_learning_vs_deep_learning_taxonomy",
       "reason": "Clears widespread confusion; maps history from 1956 Dartmouth to modern foundation models.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-135",
+        "BANK-001-134"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do symbolic AI, rule-based systems, neural networks, and modern LLMs differ structurally?",
+      "original_key_focus": "The taxonomy of AI, historical milestones (Turing, Dartmouth 1956, Expert Systems, Deep Learning era)."
     },
     {
       "id": 3,
@@ -35,7 +51,15 @@
       "angle": "how_it_works",
       "slug": "anatomy_of_a_neural_network_nodes_layers_activation",
       "reason": "Visual deep dive into how raw numbers transform through matrix weights and biases.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-151",
+        "BANK-001-152"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How does a mathematical perceptron turn raw numeric inputs into classifications and decisions?",
+      "original_key_focus": "Input, hidden, and output layers, activation thresholds (ReLU, Sigmoid), forward propagation."
     },
     {
       "id": 4,
@@ -44,7 +68,16 @@
       "angle": "myths_vs_facts",
       "slug": "ai_claims_vs_reality_seven_myths_debunked",
       "reason": "Cuts through marketing hype and public fear regarding sentience, bias, and reasoning.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-134",
+        "BANK-001-201",
+        "BANK-001-050"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Where does public AI hype diverge from verified technical benchmark evidence?",
+      "original_key_focus": "\"Sentience\" delusions, deterministic vs probabilistic outputs, stochastic parrots debate, true failure modes."
     },
     {
       "id": 5,
@@ -53,7 +86,15 @@
       "angle": "how_it_works",
       "slug": "attention_is_all_you_need_transformer_architecture",
       "reason": "Explains self-attention vectors and why Transformers replaced recurrent neural networks.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-157",
+        "BANK-001-158"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How does the Transformer architecture process token relationships simultaneously instead of sequentially?",
+      "original_key_focus": "Self-attention mechanism, Query-Key-Value vectors, parallelized training, overcoming RNN/LSTM memory bottlenecks."
     },
     {
       "id": 6,
@@ -62,7 +103,16 @@
       "angle": "how_it_works",
       "slug": "how_llms_generate_text_tokens_embeddings_probabilities",
       "reason": "Details tokenization, high-dimensional vector math, and temperature probability distributions.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-013",
+        "BANK-001-023",
+        "BANK-001-024"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "What happens inside an LLM in the fractions of a second between pressing enter and receiving text?",
+      "original_key_focus": "Tokenization, embedding spaces, next-token probability distribution, temperature and top-p sampling."
     },
     {
       "id": 7,
@@ -71,7 +121,15 @@
       "angle": "technology_innovation",
       "slug": "how_diffusion_models_generate_images_physics_and_noise",
       "reason": "Visual explainer of forward Gaussian noise addition and reverse U-Net denoising.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-163",
+        "BANK-001-164"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Why do modern image generators add random noise to images just to learn how to remove it?",
+      "original_key_focus": "Forward diffusion (noise addition), reverse diffusion (denoising U-Net), text-conditioning via CLIP embeddings."
     },
     {
       "id": 8,
@@ -80,7 +138,16 @@
       "angle": "how_it_works",
       "slug": "computer_vision_demystified_convolutions_and_vision_transformers",
       "reason": "From basic edge detection filters to spatial Vision Transformers in robotics and cars.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-060",
+        "BANK-001-061",
+        "BANK-001-157"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do Convolutional Neural Networks (CNNs) detect edges, textures, and composite faces?",
+      "original_key_focus": "Kernels, convolutions, feature extraction hierarchies, pooling layers, modern Vision Transformers (ViT)."
     },
     {
       "id": 9,
@@ -89,7 +156,15 @@
       "angle": "technology_innovation",
       "slug": "neural_speech_synthesis_and_voice_cloning_mechanics",
       "reason": "Deconstructs acoustic spectrogram modeling, WaveNet, and neural audio codecs.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-167",
+        "BANK-001-168"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do modern neural codecs and acoustic models replicate human vocal timbre and cadence?",
+      "original_key_focus": "Spectrograms, WaveNet, diffusion audio, zero-shot voice synthesis, acoustic feature extraction."
     },
     {
       "id": 10,
@@ -98,7 +173,16 @@
       "angle": "hidden_stories",
       "slug": "secret_labor_behind_ai_data_labeling_and_rlhf",
       "reason": "Highlights the critical human labor, data annotation work, and safety training behind models.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-102",
+        "BANK-001-106",
+        "BANK-001-176"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "What human workforce and annotation protocols make foundational models polite and functional?",
+      "original_key_focus": "Data annotation sweatshops, Reinforcement Learning from Human Feedback (RLHF), safety red-teaming."
     },
     {
       "id": 11,
@@ -107,7 +191,16 @@
       "angle": "data_provenance",
       "slug": "where_ai_training_data_comes_from_scraping_and_copyright",
       "reason": "Explains Common Crawl, deduplication filtering, fair use controversies, and synthetic data.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-171",
+        "BANK-001-104",
+        "BANK-001-186"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How are multi-terabyte datasets like Common Crawl curated, filtered, and contested under fair use?",
+      "original_key_focus": "Web scrapers, deduplication, synthetic dataset generation, copyright lawsuits, open vs proprietary datasets."
     },
     {
       "id": 12,
@@ -116,7 +209,16 @@
       "angle": "infrastructure_compute",
       "slug": "inside_ai_data_centers_gpu_clusters_and_energy_grid",
       "reason": "The hardware reality: FP8 tensor cores, high-bandwidth memory (HBM), and power constraints.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-033",
+        "BANK-001-091",
+        "BANK-001-093"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Why does AI require specialized tensor core chips and gigawatt power grids to train modern models?",
+      "original_key_focus": "Floating-point precision (FP16, FP8), H100 GPU clusters, inter-node networking (NVLink), cooling and energy demands."
     },
     {
       "id": 13,
@@ -125,7 +227,16 @@
       "angle": "evaluation_benchmarks",
       "slug": "ai_benchmarks_model_cards_and_evaluation_limits",
       "reason": "Exposes benchmark gaming, test-set contamination, and how to read AI model disclosure cards.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-100",
+        "BANK-001-040",
+        "BANK-001-022"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do MMLU, GSM8K, and HumanEval measure capability, and why does benchmark contamination occur?",
+      "original_key_focus": "Evaluation metrics, model card documentation standards, data contamination, real-world generalization limits."
     },
     {
       "id": 14,
@@ -134,7 +245,16 @@
       "angle": "technology_innovation",
       "slug": "small_language_models_quantization_and_local_edge_ai",
       "reason": "How 4-bit quantization (GGUF) and distillation allow smartphone and laptop inference.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-034",
+        "BANK-001-035",
+        "BANK-001-092"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How can models originally requiring server farms be compressed to run on laptops and phones?",
+      "original_key_focus": "Model pruning, parameter quantization (4-bit, GGUF), distillation, edge AI deployment."
     },
     {
       "id": 15,
@@ -143,7 +263,15 @@
       "angle": "advanced_concepts",
       "slug": "mechanistic_interpretability_inside_ai_black_box",
       "reason": "Revealing hidden neural representations using sparse autoencoders and circuit analysis.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-119",
+        "BANK-001-120"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Can we trace and decode individual feature circuits inside deep neural networks?",
+      "original_key_focus": "Polysemantic neurons, sparse autoencoders, reverse-engineering neural circuits, Anthropic interpretability research."
     },
     {
       "id": 16,
@@ -152,7 +280,16 @@
       "angle": "mysteries_unsolved_cases",
       "slug": "why_ai_hallucinates_probabilistic_limits_and_rag",
       "reason": "Investigates why probability-based generation inherently produces plausible untruths.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-038",
+        "BANK-001-039",
+        "BANK-001-031"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Is hallucination an incurable mathematical property of probabilistic generative models?",
+      "original_key_focus": "Objective loss vs ground truth, retrieval-augmented generation (RAG), calibration, citation verification."
     },
     {
       "id": 17,
@@ -161,7 +298,16 @@
       "angle": "safety_tradeoffs",
       "slug": "ai_alignment_problem_and_existential_safety_tradeoffs",
       "reason": "Covers reward gaming, instrumental goals, scalable oversight, and constitutional AI.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-089",
+        "BANK-001-181",
+        "BANK-001-179"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do researchers ensure autonomous systems remain aligned with human values and safety bounds?",
+      "original_key_focus": "Specification gaming, instrumental convergence, reward hacking, constitutional AI principles."
     },
     {
       "id": 18,
@@ -170,7 +316,16 @@
       "angle": "future_developments",
       "slug": "autonomous_ai_agents_reasoning_memory_and_api_tools",
       "reason": "Explains ReAct loops, planning horizons, vector retrieval, and multi-agent coordination.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-078",
+        "BANK-001-079",
+        "BANK-001-081"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "How do LLM agents decompose goals, utilize external APIs, maintain memory, and self-correct?",
+      "original_key_focus": "Tool use, ReAct prompting loops, vector databases for memory, multi-agent orchestration frameworks."
     },
     {
       "id": 19,
@@ -179,7 +334,15 @@
       "angle": "rise_fall",
       "slug": "economics_of_ai_hype_cycles_tco_and_enterprise_roi",
       "reason": "Real business impact: cost per token, infrastructure capital expenditures, and ROI realities.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-048",
+        "BANK-001-047"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Are enterprise companies achieving positive ROI from generative AI or facing an adoption plateau?",
+      "original_key_focus": "Total cost of ownership (TCO), unit economics of inference, productivity studies, historical tech bubble parallels."
     },
     {
       "id": 20,
@@ -188,7 +351,16 @@
       "angle": "future_developments",
       "slug": "the_road_to_agi_scaling_limits_and_world_models",
       "reason": "Discusses reasoning models, test-time compute, physical embodiment, and world simulation.",
-      "status": "QUEUED"
+      "status": "QUEUED",
+      "bank_ids": [
+        "BANK-001-202",
+        "BANK-001-198",
+        "BANK-001-199"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once.",
+      "question": "Why do scaling laws alone face limits, and what new paradigms (reasoning models, world models) are required?",
+      "original_key_focus": "Scaling laws vs compute walls, system 2 deliberative reasoning, embodied AI, world simulation models."
     }
   ],
   "trending_topics": [
@@ -198,7 +370,12 @@
       "velocity": "Trending #1 (Ultra High Search)",
       "angle": "technology_innovation",
       "slug": "test_time_compute_reasoning_models_o1_explained",
-      "hook": "Massive viral shift from pre-training scaling to inference-time search and reasoning chains."
+      "hook": "Massive viral shift from pre-training scaling to inference-time search and reasoning chains.",
+      "bank_ids": [
+        "BANK-001-200"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     },
     {
       "id": 22,
@@ -206,7 +383,13 @@
       "velocity": "High Public Urgency & Viral Trend",
       "angle": "safety_tradeoffs",
       "slug": "how_to_detect_deepfakes_and_ai_voice_scams",
-      "hook": "Huge consumer concern regarding phone scams, biometric fraud, and watermarking technology."
+      "hook": "Huge consumer concern regarding phone scams, biometric fraud, and watermarking technology.",
+      "bank_ids": [
+        "BANK-001-182",
+        "BANK-001-184"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     },
     {
       "id": 23,
@@ -214,7 +397,12 @@
       "velocity": "Evergreen Existential Inquiry",
       "angle": "mysteries_unsolved_cases",
       "slug": "can_ai_ever_be_conscious_neuroscience_vs_computation",
-      "hook": "High viewer philosophical curiosity; compares Integrated Information Theory with neural nets."
+      "hook": "High viewer philosophical curiosity; compares Integrated Information Theory with neural nets.",
+      "bank_ids": [
+        "BANK-001-201"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     },
     {
       "id": 24,
@@ -222,7 +410,13 @@
       "velocity": "High Tech / Geopolitics Crossover",
       "angle": "infrastructure_compute",
       "slug": "nuclear_power_energy_grid_and_future_ai_data_centers",
-      "hook": "Covers big tech investments in SMRs (small modular reactors) to meet gigawatt training demands."
+      "hook": "Covers big tech investments in SMRs (small modular reactors) to meet gigawatt training demands.",
+      "bank_ids": [
+        "BANK-001-049",
+        "BANK-001-205"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained the original candidate and mapped it to energy accounting plus a distinct supply-agreement question. A dated facility or power project must be selected before research; announcements are not treated as delivered supply."
     },
     {
       "id": 25,
@@ -230,7 +424,13 @@
       "velocity": "Massive Visual Appeal & Viral Trend",
       "angle": "myths_vs_facts",
       "slug": "humanoid_robots_with_ai_brains_figure_tesla_boston_dynamics",
-      "hook": "Breakdown of end-to-end visual-motor policies vs teleoperated video marketing stunts."
+      "hook": "Breakdown of end-to-end visual-motor policies vs teleoperated video marketing stunts.",
+      "bank_ids": [
+        "BANK-001-076",
+        "BANK-001-077"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     },
     {
       "id": 26,
@@ -238,7 +438,12 @@
       "velocity": "Broad Digital Lifestyle Impact",
       "angle": "then_vs_now",
       "slug": "how_ai_search_is_killing_traditional_google_web",
-      "hook": "Zero-click searches, publisher crises, and the transition from 10 blue links to synthesized answers."
+      "hook": "Zero-click searches, publisher crises, and the transition from 10 blue links to synthesized answers.",
+      "bank_ids": [
+        "BANK-001-196"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     },
     {
       "id": 27,
@@ -246,7 +451,23 @@
       "velocity": "High Tech Documentary Interest",
       "angle": "rise_fall",
       "slug": "why_autonomous_driving_faced_the_edge_case_trap",
-      "hook": "Explains why 99% accuracy was easy, but the final 1% of rare real-world anomalies resisted scaling."
+      "hook": "Explains why 99% accuracy was easy, but the final 1% of rare real-world anomalies resisted scaling.",
+      "bank_ids": [
+        "BANK-001-197"
+      ],
+      "planning_status": "historical_reference_not_additional_active_proposal",
+      "reconciliation_note": "Retained as an original roadmap reference; the linked bounded questions carry the active coverage and are counted once."
     }
-  ]
+  ],
+  "catalog_summary": {
+    "active_proposals": 210,
+    "categories": 11,
+    "subcategories": 41,
+    "archived_starters": 12,
+    "legacy_references": 27
+  },
+  "catalog_file": "IN_DEPTH_TOPIC_BANK.json",
+  "main_reading_file": "IN_DEPTH_TOPIC_BANK.md",
+  "catalog_updated": "2026-10-23",
+  "summary_note": "summary counts original legacy tracking records only; catalog_summary counts reconciled active BANK proposals. Legacy trending velocity/hook claims are preserved historical wording, not verified current trends."
 }

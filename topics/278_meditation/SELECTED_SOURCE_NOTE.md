@@ -1,0 +1,9 @@
+# Selected primary-study note: meditation
+
+Checked 2026-10-24. Proposed cases BANK-278-127 and BANK-278-128.
+
+Hoge et al., JAMA Psychiatry 2023, TAME randomized noninferiority trial, enrolled 276 adults with diagnosed anxiety disorders at three US urban academic centers; 208 completed. It compared an eight-week MBSR course with flexibly dosed escitalopram and prespecified clinician-rated anxiety severity at week eight. The report describes a result meeting its noninferiority margin and reports adverse events: https://pubmed.ncbi.nlm.nih.gov/36350591/ ; registration https://clinicaltrials.gov/study/NCT03522844 . The claim applies to this course, comparator, eligibility and outcome, not to generic meditation, self-treatment, other conditions or all follow-up periods. Noninferiority is not proof of identical effects; review full protocol/analysis before scripting numerical claims.
+
+Simonsson et al., JMIR Mental Health 2026, secondary analysis of a randomized trial, studied brief digitally delivered mindfulness, self-compassion and gratitude sessions against usual internet use in US/UK adult samples. The abstract reports 5,049 randomized participants, in-session distress and before/after negative-affect measures, and a duration comparison: https://pubmed.ncbi.nlm.nih.gov/42735902/ . These measures cannot establish the prevalence of lasting impairment, retreat risk, effects of all traditions, or clinical safety for an individual. Name each intervention and comparator. Do not convert an observation about risk into unsupervised practice advice.
+
+Neighbor review: 277 covers mantra-specific sound/recitation, including a 2001 breathing study; 279 covers deliberate breath regulation and physiological endpoints; 280 treats whole yoga programs. BANK-278-082/085/126 already ask generic anxiety and adverse-experience questions. The additions are two identified trial designs and their limited outcome interpretations.

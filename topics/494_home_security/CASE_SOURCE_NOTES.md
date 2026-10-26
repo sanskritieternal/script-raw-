@@ -1,0 +1,7 @@
+# Case-source note: CPSC Kidde TruSense alarm recall
+
+Checked 2026-10-24. The U.S. Consumer Product Safety Commission's [May 6, 2021 recall 21-130](https://www.cpsc.gov/Recalls/2021/Kidde-Recalls-TruSense-Smoke-and-Combination-Smoke-Carbon-Monoxide-Alarms-Due-to-Risk-of-Failure-to-Alert-Consumers-to-a-Fire) identifies Kidde TruSense model series 2040, 2050, 2060 and 2070 smoke or combination smoke/carbon-monoxide alarms, with specified front markings, as subject to a potential failure to alert consumers to a fire. It listed about 226,000 units and reported no incidents or injuries at the recall date.
+
+Claim limit: The recall establishes a dated, model-specific hazard notice, not a measured failure rate, proof that any particular household missed an alert, or evidence of today's alarm performance. Its no-reported-incidents statement is time-bound and does not prove no incidents occurred. The notice concerns fire alerts; do not turn it into an unsupported carbon-monoxide alert claim. This editorial case is not current replacement or installation advice; any consumer action should use the live CPSC notice and qualified local guidance.
+
+Overlap: `BANK-487-044` already examines the FTC Ring camera video-access case. This CPSC product-recall question is separate from that privacy case, `BANK-494-039`'s camera-versus-alarm distinction, and `BANK-494-040`'s household placement question.

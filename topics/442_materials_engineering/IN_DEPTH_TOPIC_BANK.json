@@ -1,0 +1,1612 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "442",
+  "slug": "materials_engineering",
+  "name": "Materials Engineering",
+  "primary_category": "Engineering_Inventions",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Materials Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 16
+  },
+  "categories": [
+    {
+      "id": "CATALOG-442-R01",
+      "title": "Materials foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-442-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2c5631a3dcf47c62088ed7194bd77a0d49b1f0c4cc573fa10bfcdec1794318ac",
+      "topics": [
+        {
+          "question": "Why can a strong material still fail by brittle fracture?",
+          "coverage": "Separate strength, toughness and defects.",
+          "id": "BANK-442-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do crystal structure and microstructure describe different scales of a metal?",
+          "coverage": "Connect grains, phases and properties through conceptual examples.",
+          "id": "BANK-442-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R02",
+      "title": "Selection methods",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-442-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ca02822f6f1e4bca6f0a2cae87fb25232860d6b1383933d8174406cca733ec47",
+      "topics": [
+        {
+          "question": "How can a material be chosen when weight, stiffness and cost compete?",
+          "coverage": "Use explicit performance constraints rather than a universal best material.",
+          "id": "BANK-442-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a material's surface fail while its bulk remains intact?",
+          "coverage": "Compare oxidation, wear and localized damage.",
+          "id": "BANK-442-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does high strength-to-weight ratio not automatically make a material the best lightweight choice?",
+          "coverage": "Compare stiffness, joining, damage tolerance and cost under a specific design brief.",
+          "covers_starter_ids": [
+            "BANK-442-001"
+          ],
+          "id": "BANK-442-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R03",
+      "title": "Evidence and lifecycle",
+      "level": "advanced",
+      "parent_id": "DOMAIN-442-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0432d6e837762913811f65072e3462753c3256f0a6737b872b08135e5d78a805",
+      "topics": [
+        {
+          "question": "How can laboratory aging tests misrepresent decades of service?",
+          "coverage": "Discuss acceleration assumptions and interacting degradation mechanisms.",
+          "id": "BANK-442-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes recycled feedstock harder to qualify for demanding components?",
+          "coverage": "Trace contamination, variability and property assurance.",
+          "id": "BANK-442-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R04",
+      "title": "Material behavior",
+      "level": "foundation",
+      "parent_id": "DOMAIN-442-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6029746b8818e1b2b001a6fbc2d4f027e4227aafb12b79cc4f00369a4704bc71",
+      "topics": [
+        {
+          "question": "How do creep and wear differ from short-duration strength failure?",
+          "coverage": "Compare time, temperature and surface interaction.",
+          "id": "BANK-442-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-442-002",
+            "BANK-442-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R05",
+      "title": "Material behavior",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-442-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "76ab9f82968c6a082a83ef77986cb8c18372b2e5fbae891f31dd2e65b929df04",
+      "topics": [
+        {
+          "question": "How do heat treatment, additive processing and composite layup create different microstructures?",
+          "coverage": "Trace process-property relationships.",
+          "id": "BANK-442-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-442-004",
+            "BANK-442-006",
+            "BANK-442-005"
+          ]
+        },
+        {
+          "question": "Why did laser-energy density matter more than build orientation for tensile results in NIST?s Inconel 718 study?",
+          "coverage": "Compare the 2020 study?s named laser-powder-bed specimen conditions, defects, microstructure and tensile measurements; do not turn coupon results into certification of an in-service component.",
+          "id": "BANK-442-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R06",
+      "title": "Material lifecycle",
+      "level": "advanced",
+      "parent_id": "DOMAIN-442-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "345e43699950e67c5bf6384963fd64d7badc86078c8b1ba69daa9d39d4cbb2aa",
+      "topics": [
+        {
+          "question": "Why can corrosion testing and failure analysis change a material-selection decision?",
+          "coverage": "Connect environmental exposure and evidence from damaged components.",
+          "id": "BANK-442-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-442-008",
+            "BANK-442-009"
+          ]
+        },
+        {
+          "question": "How does recycling compatibility depend on joining and coating choices?",
+          "coverage": "Map separation, contamination and design tradeoffs.",
+          "id": "BANK-442-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-442-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R07",
+      "title": "Biomaterials",
+      "level": "foundation",
+      "parent_id": "DOMAIN-442-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "43feae0d7d4d648b2bfe0143f79a571a1363633ecc00d99976245aa7fea23b19",
+      "topics": [
+        {
+          "question": "How can biocompatibility differ between two uses of the same material?",
+          "coverage": "Distinguish contact conditions, application and professional testing.",
+          "id": "BANK-442-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R08",
+      "title": "Ceramic toughening",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-442-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "628130432dca08a74442d509ac83993edf00604d0c6d2bcd1b126a3e5b8416c4",
+      "topics": [
+        {
+          "question": "How can ceramic structures resist crack growth despite brittle constituents?",
+          "coverage": "Explain toughening mechanisms and limits.",
+          "id": "BANK-442-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R09",
+      "title": "Polymer aging",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-442-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d6b4be3a86a9298a9f95ce7aa90bb5d8e7b3e6533199ef850eb7a63e20972b21",
+      "topics": [
+        {
+          "question": "Why can polymer properties change without visible damage?",
+          "coverage": "Compare temperature, light, stress and chemical exposure.",
+          "id": "BANK-442-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-442-R10",
+      "title": "Material traceability",
+      "level": "advanced",
+      "parent_id": "DOMAIN-442-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "cd337d13c5a1b25095f28c257ca552a5fe3aa49dfd31b9fc006166e700642e7a",
+      "topics": [
+        {
+          "question": "What must traceability preserve from certificate to finished component?",
+          "coverage": "Connect batches, processing and configuration records.",
+          "id": "BANK-442-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "113",
+      "title": "Energy & Power",
+      "directory": "113_energy_power",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "114",
+      "title": "Water",
+      "directory": "114_water",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "157",
+      "title": "Materials Science",
+      "directory": "157_materials_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "158",
+      "title": "Batteries & Energy Storage",
+      "directory": "158_batteries_energy_storage",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "160",
+      "title": "Data Centers & Infrastructure",
+      "directory": "160_data_centers_infrastructure",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "161",
+      "title": "Electricity & Electronics",
+      "directory": "161_electricity_electronics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/442_materials_engineering/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "d17e498d8a8eddbe7bb2a004acfc70f68e10092ff88e6d93e530ca74c998a6d2",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-442-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b91d37f1a897b75e5cf505bfca4817011c609dd44c39e92a7a7c4ef239da7e0e"
+      },
+      "BANK-442-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d19d9d6184ff634505c81c629bf49eed9372edf926f0f968ec4bb800fca6c2bf"
+      },
+      "BANK-442-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "682825f4e574f986e0d7a28c8f929bc584c3533c2aee21f86525bc8edd80abf4"
+      },
+      "BANK-442-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1e82ee6918e012f2bc37146b26477f84a6deea5a81da7fee459443b5cf0d0c7b"
+      },
+      "BANK-442-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e324b2e24b3e73e6f5c1408a4c4941e18a0281a4ae73ca6a50db79609d213bef"
+      },
+      "BANK-442-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "79da50d2f1ea94a39ad55ab028797a801a156a0d2e7769bee2bb76ff4020cd6d"
+      },
+      "BANK-442-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6c7b784c2e3693c283004ddf393036f5c48e34eaf2891d7c16ccc6c731bd69d7"
+      },
+      "BANK-442-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6faea68cd0daf6a157daf557da8733d8d82e1ef2efe1fe815ce3317c6256e742"
+      },
+      "BANK-442-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1f02261acb62aeb07e5a9ca6d6ff1f61704b40b8cf2f6dbeba3c1db1938bdc1c"
+      }
+    },
+    "source_categories": {
+      "CATALOG-442-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "4d4bc6a5e8f22274ef2cab4e3d3408bb8115e02e476987b4fd217cfae06cde5e"
+      },
+      "CATALOG-442-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "61dc85ae4af1b3a646ed90d588a0b34eb86f9fc13a4779d15ecc620b87beaef9"
+      },
+      "CATALOG-442-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "7a7b53ca8857ea3fbd5ea762749291a55ef26291da0273d494b06f3dd2eb42bd"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "442_MATERIALS_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "07bc7ce9feac73a9e18fe8c07e8287ccabf6ebd1830ea23186728aa1d4c7ccc3",
+        "original_text": "# Materials Engineering Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 442 Materials Engineering (Engineering_Inventions)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Materials Engineering Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/442_materials_engineering/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Materials Engineering across four progressive tiers:\r\n- **Tier 1: Materials Engineering Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Materials Engineering.\r\n- **Tier 2: Materials Engineering Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Materials Engineering.\r\n- **Tier 3: Materials Engineering Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Materials Engineering.\r\n- **Tier 4: Materials Engineering Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Materials Engineering.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/442_materials_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/442_materials_engineering/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Material Enters Engineering Use** | *Which measurements and production improvements enabled adoption?* |\r\n| 2 | `famous_examples` | **A Material in a Real Component** | *Why was it selected and what performance was measured?* |\r\n| 3 | `hidden_stories` | **Testing and Manufacturing Labor** | *Who prepared samples, controlled processes, and inspected quality?* |\r\n| 4 | `beginner_explainers` | **Structure, Processing, Properties, Performance** | *How do these four stages connect for a named material?* |\r\n| 5 | `advanced_concepts` | **Property Variability** | *How do defects, microstructure, and environment change strength?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Component Failed Early** | *Which loading, corrosion, or manufacturing evidence could distinguish causes?* |\r\n| 7 | `technology_innovation` | **A New Alloy or Composite** | *What benefit survived independent testing and scale-up?* |\r\n| 8 | `people_personalities` | **A Materials Team's Decision** | *What tradeoffs shaped one design choice?* |\r\n| 9 | `major_events` | **A Material-Related Recall** | *What defect and verification changed design or process?* |\r\n| 10 | `how_it_works` | **From Lab Coupon to Component** | *How do formulation, processing, test, qualification, and service connect?* |\r\n| 11 | `rise_fall` | **A Material Replaced** | *Was cost, durability, regulation, or supply decisive?* |\r\n| 12 | `then_vs_now` | **Material Data across Decades** | *How did test methods and reporting improve?* |\r\n| 13 | `future_developments` | **Candidate Material for a New Use** | *What test and manufacturing milestones are still required?* |\r\n| 14 | `myths_vs_facts` | **A Miracle Material?** | *Which tradeoffs and test conditions limit headline properties?* |\r\n| 15 | `documentary_stories` | **A Failure Investigation's Record** | *How did collection, microscopy, testing, and redesign unfold?* |\r\n| 16 | `system_boundary` | **The Material in Its Assembly** | *Which interfaces and loads affect performance?* |\r\n| 17 | `input_output_trace` | **Processing to Measured Property** | *How do input composition and process history change output?* |\r\n| 18 | `design_tradeoff` | **Strength versus Toughness or Cost** | *Which property matters most under the actual load?* |\r\n| 19 | `failure_mode` | **A Crack's Growth** | *What observed evidence supports fatigue, overload, or corrosion?* |\r\n| 20 | `testing_limits` | **What a Coupon Test Can Prove** | *How does a specimen differ from a manufactured part?* |\r\n| 21 | `standards_interoperability` | **A Test Standard's Scope** | *Does a named method fit the material and use?* |\r\n| 22 | `security_threat_model` | **Integrity of Materials Data** | *Could tampered records or counterfeit batches undermine assurance?* |\r\n| 23 | `maintenance_lifecycle` | **Property Change in Service** | *How do heat, wear, and corrosion alter lifetime?* |\r\n| 24 | `infrastructure_dependencies` | **Critical Material Supply** | *What happens if a grade or precursor is unavailable?* |\r\n| 25 | `accessibility_usability` | **Repairable Material Choice** | *Can field workers inspect and join the material?* |\r\n| 26 | `independent_replication` | **Repeating a Material Result** | *Do another lab and batch reproduce the property?* |\r\n| 27 | `responsible_deployment` | **From Discovery to Safe Use** | *Which qualification and monitoring steps precede use?* |\r\n| 28 | `field_prototype_testing` | **A Component under Real Loads** | *Which bench and field tests reveal different failures?* |\r\n| 29 | `field_design_tolerance` | **Manufacturing Variation** | *How much dimensional and property spread can design accept?* |\r\n| 30 | `field_manufacturing_method` | **Process Affects Microstructure** | *How do casting, forming, or printing change a specific property?* |\r\n| 31 | `field_failure_investigation` | **Preserving Failure Evidence** | *Which fracture surface and records must be secured?* |\r\n| 32 | `field_repair_path` | **Can a Damaged Part Be Restored?** | *Which repair method preserves qualified properties?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Materials Engineering: A Material Enters Engineering Use**\r\n   - *Question:* Which measurements and production improvements enabled adoption?\r\n   - *Key Focus:* Trace dated standards. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n2. **Materials Engineering: A Material in a Real Component**\r\n   - *Question:* Why was it selected and what performance was measured?\r\n   - *Key Focus:* Name grade and service conditions. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n3. **Materials Engineering: Testing and Manufacturing Labor**\r\n   - *Question:* Who prepared samples, controlled processes, and inspected quality?\r\n   - *Key Focus:* Use production records. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n4. **Materials Engineering: Structure, Processing, Properties, Performance**\r\n   - *Question:* How do these four stages connect for a named material?\r\n   - *Key Focus:* Use one application. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n5. **Materials Engineering: Property Variability**\r\n   - *Question:* How do defects, microstructure, and environment change strength?\r\n   - *Key Focus:* Use distributions, not single values. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Materials Engineering: A Component Failed Early**\r\n   - *Question:* Which loading, corrosion, or manufacturing evidence could distinguish causes?\r\n   - *Key Focus:* Preserve failed part. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n7. **Materials Engineering: A New Alloy or Composite**\r\n   - *Question:* What benefit survived independent testing and scale-up?\r\n   - *Key Focus:* Compare commercial grade. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n8. **Materials Engineering: A Materials Team's Decision**\r\n   - *Question:* What tradeoffs shaped one design choice?\r\n   - *Key Focus:* Use attributed engineering record. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n9. **Materials Engineering: A Material-Related Recall**\r\n   - *Question:* What defect and verification changed design or process?\r\n   - *Key Focus:* Read official investigation. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n10. **Materials Engineering: From Lab Coupon to Component**\r\n   - *Question:* How do formulation, processing, test, qualification, and service connect?\r\n   - *Key Focus:* Track sample lineage. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Materials Engineering: A Material Replaced**\r\n   - *Question:* Was cost, durability, regulation, or supply decisive?\r\n   - *Key Focus:* Use dated product evidence. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n12. **Materials Engineering: Material Data across Decades**\r\n   - *Question:* How did test methods and reporting improve?\r\n   - *Key Focus:* Compare like specimens. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n13. **Materials Engineering: Candidate Material for a New Use**\r\n   - *Question:* What test and manufacturing milestones are still required?\r\n   - *Key Focus:* Frame conditional. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n14. **Materials Engineering: A Miracle Material?**\r\n   - *Question:* Which tradeoffs and test conditions limit headline properties?\r\n   - *Key Focus:* Check full property set. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n15. **Materials Engineering: A Failure Investigation's Record**\r\n   - *Question:* How did collection, microscopy, testing, and redesign unfold?\r\n   - *Key Focus:* Use official report. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Materials Engineering: The Material in Its Assembly**\r\n   - *Question:* Which interfaces and loads affect performance?\r\n   - *Key Focus:* Define component and environment. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n17. **Materials Engineering: Processing to Measured Property**\r\n   - *Question:* How do input composition and process history change output?\r\n   - *Key Focus:* Record provenance. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n18. **Materials Engineering: Strength versus Toughness or Cost**\r\n   - *Question:* Which property matters most under the actual load?\r\n   - *Key Focus:* Compare candidate grades. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n19. **Materials Engineering: A Crack's Growth**\r\n   - *Question:* What observed evidence supports fatigue, overload, or corrosion?\r\n   - *Key Focus:* Avoid premature diagnosis. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n20. **Materials Engineering: What a Coupon Test Can Prove**\r\n   - *Question:* How does a specimen differ from a manufactured part?\r\n   - *Key Focus:* State scale and conditioning. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 442 (Materials Engineering)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Materials Engineering: A Material Enters Engineering Use*\r\n- **Episode Slug:** `442_materials_engineering_deep_dive_the_architecture_of_materials_engineering_a_material_enters_`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/442_materials_engineering/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "d93bdc8ac6ba469437bc492b1a7b91a96c9c27cbc56d4b6eda6a6e1b30bad1b0",
+        "original_text": "# 442 Materials Engineering -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 442 Materials Engineering (Engineering_Inventions)  \r\n> **Storage Directory:** `topics/442_materials_engineering/`  \r\n> **Synchronized With:** `OUTPUT/442_materials_engineering/`, `REGISTRY/Niches/442_materials_engineering/`, and `442_MATERIALS_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 442 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/442_materials_engineering](../../OUTPUT/442_materials_engineering) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Materials Engineering: A Material Enters Engineering Use** | Tier 1: Foundational Frameworks | `history_origins` | `materials_engineering_a_material_enters_engineering_use` | A rigorous pedagogical investigation exploring a material enters engineering use through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Materials Engineering: A Material in a Real Component** | Tier 1: Foundational Frameworks | `famous_examples` | `materials_engineering_a_material_in_a_real_component` | A rigorous pedagogical investigation exploring a material in a real component through documented evidence. | `QUEUED` |\r\n| 3 | **Materials Engineering: Testing and Manufacturing Labor** | Tier 1: Foundational Frameworks | `hidden_stories` | `materials_engineering_testing_and_manufacturing_labor` | A rigorous pedagogical investigation exploring testing and manufacturing labor through documented evidence. | `QUEUED` |\r\n| 4 | **Materials Engineering: Structure, Processing, Properties, Performance** | Tier 1: Foundational Frameworks | `beginner_explainers` | `materials_engineering_structure_processing_properties_perfor` | A rigorous pedagogical investigation exploring structure, processing, properties, performance through documented evidence. | `QUEUED` |\r\n| 5 | **Materials Engineering: Property Variability** | Tier 1: Foundational Frameworks | `advanced_concepts` | `materials_engineering_property_variability` | A rigorous pedagogical investigation exploring property variability through documented evidence. | `QUEUED` |\r\n| 6 | **Materials Engineering: A Component Failed Early** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `materials_engineering_a_component_failed_early` | A rigorous pedagogical investigation exploring a component failed early through documented evidence. | `QUEUED` |\r\n| 7 | **Materials Engineering: A New Alloy or Composite** | Tier 2: Methodological Deep Dives | `technology_innovation` | `materials_engineering_a_new_alloy_or_composite` | A rigorous pedagogical investigation exploring a new alloy or composite through documented evidence. | `QUEUED` |\r\n| 8 | **Materials Engineering: A Materials Team's Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `materials_engineering_a_materials_team_s_decision` | A rigorous pedagogical investigation exploring a materials team's decision through documented evidence. | `QUEUED` |\r\n| 9 | **Materials Engineering: A Material-Related Recall** | Tier 2: Methodological Deep Dives | `major_events` | `materials_engineering_a_material_related_recall` | A rigorous pedagogical investigation exploring a material-related recall through documented evidence. | `QUEUED` |\r\n| 10 | **Materials Engineering: From Lab Coupon to Component** | Tier 2: Methodological Deep Dives | `how_it_works` | `materials_engineering_from_lab_coupon_to_component` | A rigorous pedagogical investigation exploring from lab coupon to component through documented evidence. | `QUEUED` |\r\n| 11 | **Materials Engineering: A Material Replaced** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `materials_engineering_a_material_replaced` | A rigorous pedagogical investigation exploring a material replaced through documented evidence. | `QUEUED` |\r\n| 12 | **Materials Engineering: Material Data across Decades** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `materials_engineering_material_data_across_decades` | A rigorous pedagogical investigation exploring material data across decades through documented evidence. | `QUEUED` |\r\n| 13 | **Materials Engineering: Candidate Material for a New Use** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `materials_engineering_candidate_material_for_a_new_use` | A rigorous pedagogical investigation exploring candidate material for a new use through documented evidence. | `QUEUED` |\r\n| 14 | **Materials Engineering: A Miracle Material?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `materials_engineering_a_miracle_material` | A rigorous pedagogical investigation exploring a miracle material? through documented evidence. | `QUEUED` |\r\n| 15 | **Materials Engineering: A Failure Investigation's Record** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `materials_engineering_a_failure_investigation_s_record` | A rigorous pedagogical investigation exploring a failure investigation's record through documented evidence. | `QUEUED` |\r\n| 16 | **Materials Engineering: The Material in Its Assembly** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `materials_engineering_the_material_in_its_assembly` | A rigorous pedagogical investigation exploring the material in its assembly through documented evidence. | `QUEUED` |\r\n| 17 | **Materials Engineering: Processing to Measured Property** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `materials_engineering_processing_to_measured_property` | A rigorous pedagogical investigation exploring processing to measured property through documented evidence. | `QUEUED` |\r\n| 18 | **Materials Engineering: Strength versus Toughness or Cost** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `materials_engineering_strength_versus_toughness_or_cost` | A rigorous pedagogical investigation exploring strength versus toughness or cost through documented evidence. | `QUEUED` |\r\n| 19 | **Materials Engineering: A Crack's Growth** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `materials_engineering_a_crack_s_growth` | A rigorous pedagogical investigation exploring a crack's growth through documented evidence. | `QUEUED` |\r\n| 20 | **Materials Engineering: What a Coupon Test Can Prove** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `materials_engineering_what_a_coupon_test_can_prove` | A rigorous pedagogical investigation exploring what a coupon test can prove through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Materials Engineering: Record Extremes & Superlatives** | **98** | `extreme_case` | `materials_engineering_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Materials Engineering: A Component Failed Early** | **96** | `mysteries_unsolved_cases` | `materials_engineering_mysteries_unsolved_cases` | High viral search interest exploring which loading, corrosion, or manufacturing evidence could distinguish causes backed by field records. | `Queued` |\r\n| 23 | **Materials Engineering: A New Alloy or Composite** | **95** | `technology_innovation` | `materials_engineering_technology_innovation` | High viral search interest exploring what benefit survived independent testing and scale-up backed by field records. | `Queued` |\r\n| 24 | **Materials Engineering: A Miracle Material?** | **94** | `myths_vs_facts` | `materials_engineering_myths_vs_facts` | High viral search interest exploring which tradeoffs and test conditions limit headline properties backed by field records. | `Queued` |\r\n| 25 | **Materials Engineering: A Material-Related Recall** | **93** | `major_events` | `materials_engineering_major_events` | High viral search interest exploring what defect and verification changed design or process backed by field records. | `Queued` |\r\n| 26 | **Materials Engineering: Testing and Manufacturing Labor** | **92** | `hidden_stories` | `materials_engineering_hidden_stories` | High viral search interest exploring who prepared samples, controlled processes, and inspected quality backed by field records. | `Queued` |\r\n| 27 | **Materials Engineering: A Failure Investigation's Record** | **91** | `documentary_stories` | `materials_engineering_documentary_stories` | High viral search interest exploring how did collection, microscopy, testing, and redesign unfold backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/442_materials_engineering/442_MATERIALS_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`](./442_MATERIALS_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/442_materials_engineering/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/442_materials_engineering/NICHE_442_materials_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/442_materials_engineering/NICHE_442_materials_engineering.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/442_materials_engineering/CAT_442_materials_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/442_materials_engineering/CAT_442_materials_engineering.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/442_materials_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/442_materials_engineering/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/442_materials_engineering/`](file:///h:/script-raw-/OUTPUT/442_materials_engineering/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "2e8db0b553f4ac960a9f7cc041b4d97aaa529e59456f719367ab57f1a096c4ec",
+        "original_text": "{\r\n  \"niche_id\": \"442\",\r\n  \"niche_name\": \"materials_engineering\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Materials Engineering: A Material Enters Engineering Use\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"materials_engineering_a_material_enters_engineering_use\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a material enters engineering use through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Materials Engineering: A Material in a Real Component\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"materials_engineering_a_material_in_a_real_component\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a material in a real component through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Materials Engineering: Testing and Manufacturing Labor\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"materials_engineering_testing_and_manufacturing_labor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring testing and manufacturing labor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Materials Engineering: Structure, Processing, Properties, Performance\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"materials_engineering_structure_processing_properties_perfor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring structure, processing, properties, performance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Materials Engineering: Property Variability\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"materials_engineering_property_variability\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring property variability through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Materials Engineering: A Component Failed Early\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"materials_engineering_a_component_failed_early\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a component failed early through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Materials Engineering: A New Alloy or Composite\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"materials_engineering_a_new_alloy_or_composite\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new alloy or composite through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Materials Engineering: A Materials Team's Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"materials_engineering_a_materials_team_s_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a materials team's decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Materials Engineering: A Material-Related Recall\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"materials_engineering_a_material_related_recall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a material-related recall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Materials Engineering: From Lab Coupon to Component\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"materials_engineering_from_lab_coupon_to_component\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from lab coupon to component through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Materials Engineering: A Material Replaced\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"materials_engineering_a_material_replaced\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a material replaced through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Materials Engineering: Material Data across Decades\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"materials_engineering_material_data_across_decades\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring material data across decades through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Materials Engineering: Candidate Material for a New Use\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"materials_engineering_candidate_material_for_a_new_use\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring candidate material for a new use through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Materials Engineering: A Miracle Material?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"materials_engineering_a_miracle_material\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a miracle material? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Materials Engineering: A Failure Investigation's Record\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"materials_engineering_a_failure_investigation_s_record\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a failure investigation's record through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Materials Engineering: The Material in Its Assembly\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"materials_engineering_the_material_in_its_assembly\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the material in its assembly through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Materials Engineering: Processing to Measured Property\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"materials_engineering_processing_to_measured_property\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring processing to measured property through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Materials Engineering: Strength versus Toughness or Cost\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"materials_engineering_strength_versus_toughness_or_cost\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring strength versus toughness or cost through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Materials Engineering: A Crack's Growth\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"materials_engineering_a_crack_s_growth\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a crack's growth through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Materials Engineering: What a Coupon Test Can Prove\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"materials_engineering_what_a_coupon_test_can_prove\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what a coupon test can prove through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Materials Engineering: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"materials_engineering_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Materials Engineering: A Component Failed Early\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"materials_engineering_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which loading, corrosion, or manufacturing evidence could distinguish causes backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Materials Engineering: A New Alloy or Composite\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"materials_engineering_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what benefit survived independent testing and scale-up backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Materials Engineering: A Miracle Material?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"materials_engineering_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which tradeoffs and test conditions limit headline properties backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Materials Engineering: A Material-Related Recall\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"materials_engineering_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what defect and verification changed design or process backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Materials Engineering: Testing and Manufacturing Labor\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"materials_engineering_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who prepared samples, controlled processes, and inspected quality backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Materials Engineering: A Failure Investigation's Record\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"materials_engineering_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did collection, microscopy, testing, and redesign unfold backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "442",
+      "niche_name": "materials_engineering",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Materials Engineering: A Material Enters Engineering Use",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "materials_engineering_a_material_enters_engineering_use",
+          "reason": "A rigorous pedagogical investigation exploring a material enters engineering use through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Materials Engineering: A Material in a Real Component",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "materials_engineering_a_material_in_a_real_component",
+          "reason": "A rigorous pedagogical investigation exploring a material in a real component through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Materials Engineering: Testing and Manufacturing Labor",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "materials_engineering_testing_and_manufacturing_labor",
+          "reason": "A rigorous pedagogical investigation exploring testing and manufacturing labor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Materials Engineering: Structure, Processing, Properties, Performance",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "materials_engineering_structure_processing_properties_perfor",
+          "reason": "A rigorous pedagogical investigation exploring structure, processing, properties, performance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Materials Engineering: Property Variability",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "materials_engineering_property_variability",
+          "reason": "A rigorous pedagogical investigation exploring property variability through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Materials Engineering: A Component Failed Early",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "materials_engineering_a_component_failed_early",
+          "reason": "A rigorous pedagogical investigation exploring a component failed early through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Materials Engineering: A New Alloy or Composite",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "materials_engineering_a_new_alloy_or_composite",
+          "reason": "A rigorous pedagogical investigation exploring a new alloy or composite through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Materials Engineering: A Materials Team's Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "materials_engineering_a_materials_team_s_decision",
+          "reason": "A rigorous pedagogical investigation exploring a materials team's decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Materials Engineering: A Material-Related Recall",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "materials_engineering_a_material_related_recall",
+          "reason": "A rigorous pedagogical investigation exploring a material-related recall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Materials Engineering: From Lab Coupon to Component",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "materials_engineering_from_lab_coupon_to_component",
+          "reason": "A rigorous pedagogical investigation exploring from lab coupon to component through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Materials Engineering: A Material Replaced",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "materials_engineering_a_material_replaced",
+          "reason": "A rigorous pedagogical investigation exploring a material replaced through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Materials Engineering: Material Data across Decades",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "materials_engineering_material_data_across_decades",
+          "reason": "A rigorous pedagogical investigation exploring material data across decades through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Materials Engineering: Candidate Material for a New Use",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "materials_engineering_candidate_material_for_a_new_use",
+          "reason": "A rigorous pedagogical investigation exploring candidate material for a new use through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Materials Engineering: A Miracle Material?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "materials_engineering_a_miracle_material",
+          "reason": "A rigorous pedagogical investigation exploring a miracle material? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Materials Engineering: A Failure Investigation's Record",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "materials_engineering_a_failure_investigation_s_record",
+          "reason": "A rigorous pedagogical investigation exploring a failure investigation's record through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Materials Engineering: The Material in Its Assembly",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "materials_engineering_the_material_in_its_assembly",
+          "reason": "A rigorous pedagogical investigation exploring the material in its assembly through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Materials Engineering: Processing to Measured Property",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "materials_engineering_processing_to_measured_property",
+          "reason": "A rigorous pedagogical investigation exploring processing to measured property through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Materials Engineering: Strength versus Toughness or Cost",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "materials_engineering_strength_versus_toughness_or_cost",
+          "reason": "A rigorous pedagogical investigation exploring strength versus toughness or cost through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Materials Engineering: A Crack's Growth",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "materials_engineering_a_crack_s_growth",
+          "reason": "A rigorous pedagogical investigation exploring a crack's growth through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Materials Engineering: What a Coupon Test Can Prove",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "materials_engineering_what_a_coupon_test_can_prove",
+          "reason": "A rigorous pedagogical investigation exploring what a coupon test can prove through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Materials Engineering: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "materials_engineering_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Materials Engineering: A Component Failed Early",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "materials_engineering_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which loading, corrosion, or manufacturing evidence could distinguish causes backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Materials Engineering: A New Alloy or Composite",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "materials_engineering_technology_innovation",
+          "why_trending": "High viral search interest exploring what benefit survived independent testing and scale-up backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Materials Engineering: A Miracle Material?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "materials_engineering_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which tradeoffs and test conditions limit headline properties backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Materials Engineering: A Material-Related Recall",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "materials_engineering_major_events",
+          "why_trending": "High viral search interest exploring what defect and verification changed design or process backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Materials Engineering: Testing and Manufacturing Labor",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "materials_engineering_hidden_stories",
+          "why_trending": "High viral search interest exploring who prepared samples, controlled processes, and inspected quality backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Materials Engineering: A Failure Investigation's Record",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "materials_engineering_documentary_stories",
+          "why_trending": "High viral search interest exploring how did collection, microscopy, testing, and redesign unfold backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "8aa7e8a035291e1791f650db49e40c76b1f4c1d9efdd3a4a4ecf77dc94633749"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "e165a403a81a3b88173395d884aa353479092fbacadbda212562172e589828fa"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "1c1260e9d7bb1fe277c9ed6c8bf871583f4b97c71da27ceb61881114489d9b45"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "bc28b118acaf1d6186b989e00ab77644c3f0812742bf421fdeef02b67ef8383e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "969803215f357fd8dc17af1a0ae3d1261eb24cef4ee69597f2a3dc1115f9eac0"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "3d0d0d9936382830da4cef7af6b00b8afbad24ac087b99d8ab246905c1b64de9"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-442-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-04",
+      "title": "Material families",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-05",
+      "title": "Material mechanisms",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-06",
+      "title": "Material lifecycle",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-442-07",
+      "title": "Material assurance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "442",
+    "slug": "materials_engineering",
+    "name": "Materials Engineering",
+    "primary_category": "Engineering_Inventions",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Materials Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-442-01",
+        "title": "Material selection",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-442-001",
+            "title": "Strength-to-weight design",
+            "question": "Strength-to-weight design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Material selection. Address Strength-to-weight design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Strength-to-weight design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-002",
+            "title": "Creep resistance",
+            "question": "Creep resistance: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Material selection. Address Creep resistance through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Creep resistance.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-003",
+            "title": "Wear-resistant surfaces",
+            "question": "Wear-resistant surfaces: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Material selection. Address Wear-resistant surfaces through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Wear-resistant surfaces.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-442-02",
+        "title": "Processing",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-442-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-442-004",
+            "title": "Heat treatment",
+            "question": "Heat treatment: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Processing. Address Heat treatment through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Heat treatment.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-005",
+            "title": "Additive manufacturing microstructures",
+            "question": "Additive manufacturing microstructures: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Processing. Address Additive manufacturing microstructures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Additive manufacturing microstructures.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-006",
+            "title": "Composite layup",
+            "question": "Composite layup: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Materials Engineering; branch: Processing. Address Composite layup through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Composite layup.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-442-03",
+        "title": "Lifecycle",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-442-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-442-007",
+            "title": "Material recycling compatibility",
+            "question": "Material recycling compatibility: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Materials Engineering; branch: Lifecycle. Address Material recycling compatibility through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Material recycling compatibility precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-008",
+            "title": "Corrosion testing",
+            "question": "Corrosion testing: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Materials Engineering; branch: Lifecycle. Address Corrosion testing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Corrosion testing precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-442-009",
+            "title": "Failure analysis",
+            "question": "Failure analysis: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Materials Engineering; branch: Lifecycle. Address Failure analysis through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Failure analysis precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "113",
+        "title": "Energy & Power",
+        "directory": "113_energy_power",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "114",
+        "title": "Water",
+        "directory": "114_water",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "157",
+        "title": "Materials Science",
+        "directory": "157_materials_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "158",
+        "title": "Batteries & Energy Storage",
+        "directory": "158_batteries_energy_storage",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "160",
+        "title": "Data Centers & Infrastructure",
+        "directory": "160_data_centers_infrastructure",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "161",
+        "title": "Electricity & Electronics",
+        "directory": "161_electricity_electronics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Materials Engineering: A Material Enters Engineering Use",
+      "question": "Which measurements and production improvements enabled adoption?",
+      "coverage": "Trace dated standards. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Material in a Real Component",
+      "question": "Why was it selected and what performance was measured?",
+      "coverage": "Name grade and service conditions. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Testing and Manufacturing Labor",
+      "question": "Who prepared samples, controlled processes, and inspected quality?",
+      "coverage": "Use production records. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Structure, Processing, Properties, Performance",
+      "question": "How do these four stages connect for a named material?",
+      "coverage": "Use one application. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Property Variability",
+      "question": "How do defects, microstructure, and environment change strength?",
+      "coverage": "Use distributions, not single values. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Component Failed Early",
+      "question": "Which loading, corrosion, or manufacturing evidence could distinguish causes?",
+      "coverage": "Preserve failed part. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A New Alloy or Composite",
+      "question": "What benefit survived independent testing and scale-up?",
+      "coverage": "Compare commercial grade. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Materials Team's Decision",
+      "question": "What tradeoffs shaped one design choice?",
+      "coverage": "Use attributed engineering record. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Material-Related Recall",
+      "question": "What defect and verification changed design or process?",
+      "coverage": "Read official investigation. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: From Lab Coupon to Component",
+      "question": "How do formulation, processing, test, qualification, and service connect?",
+      "coverage": "Track sample lineage. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Material Replaced",
+      "question": "Was cost, durability, regulation, or supply decisive?",
+      "coverage": "Use dated product evidence. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Material Data across Decades",
+      "question": "How did test methods and reporting improve?",
+      "coverage": "Compare like specimens. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Candidate Material for a New Use",
+      "question": "What test and manufacturing milestones are still required?",
+      "coverage": "Frame conditional. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Miracle Material?",
+      "question": "Which tradeoffs and test conditions limit headline properties?",
+      "coverage": "Check full property set. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Failure Investigation's Record",
+      "question": "How did collection, microscopy, testing, and redesign unfold?",
+      "coverage": "Use official report. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: The Material in Its Assembly",
+      "question": "Which interfaces and loads affect performance?",
+      "coverage": "Define component and environment. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Processing to Measured Property",
+      "question": "How do input composition and process history change output?",
+      "coverage": "Record provenance. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: Strength versus Toughness or Cost",
+      "question": "Which property matters most under the actual load?",
+      "coverage": "Compare candidate grades. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: A Crack's Growth",
+      "question": "What observed evidence supports fatigue, overload, or corrosion?",
+      "coverage": "Avoid premature diagnosis. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Materials Engineering: What a Coupon Test Can Prove",
+      "question": "How does a specimen differ from a manufactured part?",
+      "coverage": "State scale and conditioning. Evidence base: NIST Materials Genome Initiative data and quality guidance, applicable test standards, batch records, independent measurements, and failure reports.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-442-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "294d969148dd3094181277d2b4957831756a38581adb401f1131192433a23e2a",
+    "TOPIC_BANK_RECONCILIATION.md": "38110f14732642a5fa42daccfefc029eb3b660520649293dff34f3ac5a5c3f19",
+    "TOPICS_COVERED_REPORT.md": "0d493861487b188c8340bcf90555cb5bed510676006768105e2c90a5d33b66c5",
+    "442_MATERIALS_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": "2fcddfcae7db8db2179d7ad5b3214b1f0d148f137f8ac5e5ab598433713d8259"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-442-004": [
+      "BANK-442-037"
+    ],
+    "BANK-442-006": [
+      "BANK-442-037"
+    ],
+    "BANK-442-008": [
+      "BANK-442-038"
+    ],
+    "BANK-442-009": [
+      "BANK-442-038"
+    ],
+    "BANK-442-001": [
+      "BANK-442-040"
+    ],
+    "BANK-442-002": [
+      "BANK-442-036"
+    ],
+    "BANK-442-003": [
+      "BANK-442-036"
+    ],
+    "BANK-442-005": [
+      "BANK-442-037"
+    ],
+    "BANK-442-007": [
+      "BANK-442-039"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Biomaterials",
+      "next_step": "Distinguish contact conditions, application and professional testing. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Ceramic toughening",
+      "next_step": "Explain toughening mechanisms and limits. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Polymer aging",
+      "next_step": "Compare temperature, light, stress and chemical exposure. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Material traceability",
+      "next_step": "Connect batches, processing and configuration records. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-037 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-037"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-044 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-044"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-032 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-032"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-039 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-039"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-034 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-034"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-032 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-032"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-040 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-040"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-039 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-039"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-030 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-030"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-030 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-030"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No defined property, test standard, sample population or audited record is supplied.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "The named institutional study/source set gives a bounded answer with limitations in the linked note.",
+      "bank_ids": [
+        "BANK-442-045"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-040 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-040"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-044 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-044"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-442-038 covers the method or material principle; this broad archived pitch needs a specified source, date and domain before scripting.",
+      "bank_ids": [
+        "BANK-442-038"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-442-045",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ]
+}

@@ -1,0 +1,3665 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "278",
+  "slug": "meditation",
+  "name": "Meditation",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "purpose": "A channel-planning catalog of contemplative methods, philosophical sources, lived practice, secular adaptations, research, sound/media and access. Its Hindu textual core is complemented by explicitly attributed cross-tradition comparisons.",
+  "roadmap": "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md",
+  "counts": {
+    "categories": 26,
+    "proposed_topics": 126
+  },
+  "scope_routing": [
+    {
+      "name": "278 Meditation",
+      "directory": "278_meditation",
+      "roadmap": "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for contemplative attention, named meditation methods, japa, meditation experience and meditation-program research."
+    },
+    {
+      "name": "279 Pranayama",
+      "directory": "279_pranayama",
+      "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for deliberate breath regulation, named pranayama techniques, traditional breath concepts, respiratory variables and protocol research."
+    },
+    {
+      "name": "280 Yoga",
+      "directory": "280_yoga",
+      "roadmap": "280_YOGA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for yoga philosophy, ethics, whole-system history, posture families, schools, sequencing and teaching systems."
+    }
+  ],
+  "research_profiles": {
+    "TEXT": {
+      "requirements": "Inspect a named primary-text edition, passage locator, translator and commentary; compare attributions and keep spiritual or symbolic claims in their source context.",
+      "source_leads": [
+        "IIT Kanpur Gita Supersite corpus (entry point listed in the batch guide)",
+        "the named work in a traceable edition",
+        "authorized public teaching materials for the tradition concerned"
+      ]
+    },
+    "STUDY": {
+      "requirements": "Select actual study reports and registrations; extract intervention, population, comparator, outcomes, follow-up, adverse events, funding and limitations. Use current official guidance for clinical context.",
+      "source_leads": [
+        "ClinicalTrials.gov for study registrations",
+        "original journal reports and their supplementary protocols",
+        "NCCIH official guidance as orientation, not a substitute for original studies"
+      ]
+    },
+    "COMMUNITY": {
+      "requirements": "Use a named community or program, authorized public documents and consented participant accounts; preserve differences of interpretation and do not generalize testimony into clinical evidence.",
+      "source_leads": [
+        "the relevant institution's own curriculum and public policies",
+        "consented interviews with participants and qualified teachers",
+        "dated archival materials when making historical claims"
+      ]
+    },
+    "HISTORY": {
+      "requirements": "Locate dated books, archival records, correspondence, photographs or institutional publications; distinguish contemporary evidence, later recollection and disputed chronology.",
+      "source_leads": [
+        "the named author's dated original publications",
+        "institutional archives and catalog records",
+        "independent scholarship used to test historical interpretation"
+      ]
+    },
+    "DIGITAL": {
+      "requirements": "Inspect the named product version, dated terms, privacy policy and actual validation studies; distinguish engagement, measurement accuracy, benefit claims and financial incentives.",
+      "source_leads": [
+        "the provider's product documentation and privacy policy",
+        "original device/app validation studies",
+        "app change logs, funding disclosures and applicable official regulatory records"
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "CATALOG-278-01",
+      "title": "Foundations and vocabulary",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-001",
+          "question": "Meditation, relaxation, and concentration: where do their aims differ?",
+          "coverage": "Compare definitions, attention tasks, and intended outcomes without treating the terms as interchangeable.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-003",
+          "question": "What counts as an object of meditation?",
+          "coverage": "Compare breath sensation, a mantra, a visual form, and open awareness as differently defined objects.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-004",
+          "question": "Can meditation include thoughts rather than eliminate them?",
+          "coverage": "Compare instructions on noticing, returning, and nonattachment in two documented methods.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-005",
+          "question": "State versus trait: what does a meditation study measure?",
+          "coverage": "Separate experiences during a session from changes measured outside practice.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-006",
+          "question": "Spiritual liberation and stress reduction: how do meditation goals differ?",
+          "coverage": "Compare an attributed traditional goal with the outcomes of a named secular program.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-01",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-02",
+      "title": "Attention and mental processes",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-007",
+          "question": "Focused attention versus open monitoring: what changes in the task?",
+          "coverage": "Compare operational definitions, selected objects, distraction handling, and study measures.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-008",
+          "question": "Mind wandering during breath observation: what gets noticed?",
+          "coverage": "Examine attention shifts, awareness of distraction, and return instructions in one research protocol.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-009",
+          "question": "Metacognition and meditation: what does knowing you are distracted mean?",
+          "coverage": "Separate self-reported awareness from behavioral measures of monitoring.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-010",
+          "question": "Interoception and meditation: can body awareness be measured?",
+          "coverage": "Compare perceived sensitivity, objective task performance, and confidence in those judgments.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-011",
+          "question": "Decentering: how do researchers study a changed relationship to thoughts?",
+          "coverage": "Compare questionnaire items, interview reports, and possible overlap with other constructs.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-012",
+          "question": "Effort and non-striving: why do meditation instructions sound contradictory?",
+          "coverage": "Contrast task effort with attitudes toward results in two named teaching systems.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-02",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-03",
+      "title": "Posture and practice environment",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "COMMUNITY",
+      "topics": [
+        {
+          "id": "BANK-278-013",
+          "question": "Chair sitting versus floor sitting: how do meditation settings accommodate participants?",
+          "coverage": "Document support, access, and teaching choices; avoid prescribing a universally correct posture.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-014",
+          "question": "Eyes open or closed: how do traditions explain their choice?",
+          "coverage": "Compare visual attention and ritual context in two named communities.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-015",
+          "question": "Silence versus guided speech: what role does the teacher's voice play?",
+          "coverage": "Analyze cue frequency, participant autonomy, and differences in recorded teaching formats.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-016",
+          "question": "Home practice versus retreat practice: what changes beyond session length?",
+          "coverage": "Compare supervision, schedules, community support, and participant selection.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-017",
+          "question": "Walking meditation: how do movement and attention interact in one lineage?",
+          "coverage": "Document the method's purpose and context without giving a universal step-by-step routine.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-018",
+          "question": "How can a meditation space accommodate sensory differences?",
+          "coverage": "Explore lighting, sound, seating, communication, and participant choice through consented accounts.",
+          "angle": "lived_practice",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-03",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-04",
+      "title": "Yoga Sutra and commentarial meditation",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-019",
+          "question": "Abhyasa and vairagya: why are practice and dispassion paired?",
+          "coverage": "Read Yoga Sutra 1.12-16 with a named commentary and identify translation differences.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-020",
+          "question": "The obstacles of Yoga Sutra 1.30: how are they explained in context?",
+          "coverage": "Distinguish textual obstacles and accompanying signs from modern psychiatric diagnosis.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-021",
+          "question": "Maitri and the other attitudes in Yoga Sutra 1.33: what is their role?",
+          "coverage": "Analyze the four attitudes, their objects, and their place in the surrounding argument.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-022",
+          "question": "Ishvara pranidhana: how do commentators explain devotion in meditative yoga?",
+          "coverage": "Compare two attributed readings without flattening theological differences.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-023",
+          "question": "What distinguishes samprajnata and asamprajnata in Yoga Sutra commentary?",
+          "coverage": "Track terminology, interpretive disagreements, and the limits of translating meditative attainment.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-024",
+          "question": "Samyama: why are dharana, dhyana, and samadhi studied together?",
+          "coverage": "Follow chapter 3's sequence while treating extraordinary powers as attributed textual claims.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-04",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-05",
+      "title": "Bhagavad Gita and Upanishadic contemplation",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-025",
+          "question": "Meditation in Bhagavad Gita chapter 6: what is the chapter's argument?",
+          "coverage": "Read the dialogue on discipline, moderation, wandering attention, and the yogin in context.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-026",
+          "question": "The restless mind in Bhagavad Gita 6.34-35: what response does Krishna give?",
+          "coverage": "Compare translations and commentary on practice and detachment without promising mental control.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-027",
+          "question": "The lamp image in Bhagavad Gita 6.19: what does the metaphor convey?",
+          "coverage": "Connect the image to nearby verses and distinguish poetic analogy from physiology.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-028",
+          "question": "Om in the Mandukya Upanishad: how are sound and states interpreted?",
+          "coverage": "Separate the base text from later commentary and modern sound-healing claims.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-029",
+          "question": "The chariot image in the Katha Upanishad: how does it frame inner discipline?",
+          "coverage": "Map the metaphor's elements and compare their interpretation in two editions.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-030",
+          "question": "Meditative posture and breath in the Shvetashvatara Upanishad: what can be inferred?",
+          "coverage": "Study the passage as historical evidence; avoid turning it into unsupervised instruction.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-05",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-06",
+      "title": "Japa and mantra contemplation",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-031",
+          "question": "Spoken, whispered, and mental japa: how does one tradition distinguish them?",
+          "coverage": "Use a named manual and teacher account to compare categories and devotional purpose.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-032",
+          "question": "Mala beads: what roles do counting and material objects play in japa?",
+          "coverage": "Document one community's counting conventions, symbolism, and variation.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-033",
+          "question": "Ajapa japa and deliberate repetition: how are they distinguished?",
+          "coverage": "Compare a specified lineage's vocabulary, claimed aims, and teaching boundaries.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-034",
+          "question": "So'ham and hamsa: how do breath-mantra interpretations vary?",
+          "coverage": "Identify the exact source, transliteration, translation, and attribution of each reading.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-035",
+          "question": "Nama japa and mantra diksha: why are not all repetitions taught alike?",
+          "coverage": "Distinguish public devotional practice from restricted initiation within a named community.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-036",
+          "question": "Can mantra meditation research separate repetition from belief and expectation?",
+          "coverage": "Examine control tasks, participant familiarity, and what one study can actually isolate.",
+          "angle": "ritual_sequence",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-06",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-07",
+      "title": "Bhakti and devotional contemplation",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "COMMUNITY",
+      "topics": [
+        {
+          "id": "BANK-278-037",
+          "question": "Form meditation in Krishna bhakti: how are image, poetry, and remembrance connected?",
+          "coverage": "Choose one sampradaya and documented teaching; avoid presenting it as all Vaishnava practice.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-038",
+          "question": "Shiva contemplation and linga symbolism: how does one lineage explain the relationship?",
+          "coverage": "Use attributed textual and practitioner interpretations, distinguishing image worship from meditation.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-039",
+          "question": "Devi dhyana verses: what does a visualization description contain?",
+          "coverage": "Analyze one public dhyana shloka's imagery and provenance without inventing iconography.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-040",
+          "question": "Smarana and kirtana: where does remembrance fit among devotional activities?",
+          "coverage": "Follow one text or lineage's categories rather than constructing a universal hierarchy.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-041",
+          "question": "Darshan and meditation: how do practitioners describe different encounters?",
+          "coverage": "Compare consented accounts of seeing a deity image and sustained internal contemplation.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-042",
+          "question": "Viraha in bhakti poetry: how is longing related to remembrance?",
+          "coverage": "Study a named poet and translation, respecting poetic and theological context.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-07",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-08",
+      "title": "Buddhist meditation traditions",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-043",
+          "question": "Anapanasati: how is breath mindfulness framed in a selected Buddhist text?",
+          "coverage": "Read a named edition with commentary; distinguish it from breath-control pranayama.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-044",
+          "question": "Satipatthana: what do the four establishments organize?",
+          "coverage": "Compare a specified translation's categories and commentarial framing.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-045",
+          "question": "Samatha and vipassana: why are the terms not simply two modern products?",
+          "coverage": "Contrast usage in selected texts and a contemporary teaching tradition.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-046",
+          "question": "Metta meditation: how do goodwill and loving-kindness translations differ?",
+          "coverage": "Examine the intended attitude and audience in a named textual or teaching source.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-047",
+          "question": "Zazen in a Soto institution: what does the institution say its practice is for?",
+          "coverage": "Use authorized public teaching materials and distinguish institutional ideals from individual experience.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-048",
+          "question": "Tonglen in Tibetan Buddhism: what context is lost in secular adaptations?",
+          "coverage": "Compare an authorized lineage explanation with one documented adaptation.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-08",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-09",
+      "title": "Other contemplative traditions and comparison",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-049",
+          "question": "Jain preksha meditation: how does a named institution describe its curriculum?",
+          "coverage": "Separate contemporary institutional development, Jain concepts, and health claims.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-050",
+          "question": "Sikh simran: why does translation as meditation need qualification?",
+          "coverage": "Use Sikh primary and institutional sources to preserve devotional and communal meanings.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-051",
+          "question": "Christian centering prayer: what makes it a prayer practice?",
+          "coverage": "Compare its own theological account with generic attention-training descriptions.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-052",
+          "question": "Sufi dhikr: how do sound, remembrance, and community shape one practice?",
+          "coverage": "Study one named order's public account without assuming a single Sufi method.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-053",
+          "question": "Secular mindfulness and Buddhist sati: which meanings change in translation?",
+          "coverage": "Compare a source passage, commentary, and defined clinical curriculum.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-054",
+          "question": "Can contemplative traditions be compared without ranking spiritual attainment?",
+          "coverage": "Build a comparison of aims, authority, practice setting, and evidence limits.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-09",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-10",
+      "title": "Yoga nidra, imagery, and rest",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-055",
+          "question": "Yoga nidra: why must an episode name the teaching system?",
+          "coverage": "Compare two documented curricula and distinguish shared labels from identical protocols.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-056",
+          "question": "Body scan and yoga nidra: where do their structures overlap and diverge?",
+          "coverage": "Compare sequence, intention, imagery, and claims in named public manuals.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-057",
+          "question": "Sankalpa in a yoga nidra curriculum: how is intention explained?",
+          "coverage": "Attribute the concept to its source rather than equating it with guaranteed manifestation.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-058",
+          "question": "Guided imagery versus object meditation: what is the participant asked to do?",
+          "coverage": "Analyze two scripts with permission and distinguish imagery generation from attention stabilization.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-059",
+          "question": "Yoga nidra and sleep: what would establish whether participants were asleep?",
+          "coverage": "Examine subjective reports, sleep staging, and limitations of a selected study.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-060",
+          "question": "NSDR and yoga nidra: what does a new label preserve or change?",
+          "coverage": "Trace a named public protocol's components, attribution, and evidence without assuming equivalence.",
+          "angle": "then_vs_now",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-10",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-11",
+      "title": "Everyday practice and learning",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "COMMUNITY",
+      "topics": [
+        {
+          "id": "BANK-278-061",
+          "question": "What makes a meditation habit sustainable in a real household?",
+          "coverage": "Document time, caregiving, space, and motivation through consented participant accounts.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-062",
+          "question": "Practice diaries: what can they reveal and what can they distort?",
+          "coverage": "Compare recalled minutes, recorded sessions, and qualitative observations.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-063",
+          "question": "Boredom in meditation: how do teachers and participants interpret it?",
+          "coverage": "Explore differing meanings without treating boredom as failure or proof of progress.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-064",
+          "question": "Expectations of bliss: how do unusual-experience stories shape beginners?",
+          "coverage": "Compare promotional language with ordinary participant accounts and research definitions.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-065",
+          "question": "How do people restart meditation after a long interruption?",
+          "coverage": "Document support and changing goals rather than prescribing a universal schedule.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-066",
+          "question": "Group accountability versus private practice: what support do learners value?",
+          "coverage": "Compare participant perspectives while separating preference from measured effectiveness.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-11",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-12",
+      "title": "Secular mindfulness programs",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-067",
+          "question": "MBSR: what is included beyond sitting meditation?",
+          "coverage": "Map one authorized curriculum's education, movement, discussion, and home practice components.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-068",
+          "question": "MBCT: what distinguishes its curriculum from general mindfulness courses?",
+          "coverage": "Use the program manual and study population; avoid presenting it as self-directed treatment.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-069",
+          "question": "Mindfulness in schools: what exactly does one program teach?",
+          "coverage": "Examine age, consent, curriculum, teacher training, and the comparator in an evaluation.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-070",
+          "question": "Workplace mindfulness: who defines success for employees and employers?",
+          "coverage": "Compare stress measures, organizational conditions, voluntary participation, and conflicts of interest.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-071",
+          "question": "Compassion training versus mindfulness training: what differs in the intervention?",
+          "coverage": "Select two named curricula and compare exercises, outcomes, and control conditions.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-072",
+          "question": "Teacher-led courses versus app courses: are the interventions comparable?",
+          "coverage": "Compare human support, dosage, adherence, participant selection, and attrition.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-12",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-13",
+      "title": "Brain and cognitive research",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-073",
+          "question": "Meditation and the default mode network: what does a brain scan establish?",
+          "coverage": "Examine task design, connectivity metrics, reverse inference, and one study's limitations.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-074",
+          "question": "EEG rhythms during meditation: why is a brainwave label not a spiritual certificate?",
+          "coverage": "Compare recording methods, artifacts, baseline conditions, and interpretation limits.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-075",
+          "question": "Attention-task improvements: do they transfer beyond the trained task?",
+          "coverage": "Distinguish immediate performance, practice effects, and real-world outcomes.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-076",
+          "question": "Meditation and brain structure: how do cross-sectional studies handle self-selection?",
+          "coverage": "Examine prior differences, lifestyle factors, sample size, and longitudinal alternatives.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-077",
+          "question": "Emotional reactivity: how is it tested in a meditation experiment?",
+          "coverage": "Compare stimuli, self-reports, physiological measures, and follow-up timing.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-078",
+          "question": "Expert meditators: who qualifies as an expert in a study?",
+          "coverage": "Evaluate hours estimates, lineage differences, recruitment bias, and population comparability.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-13",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-14",
+      "title": "Health claims and evidence literacy",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-079",
+          "question": "Meditation for stress: how does an active-control trial change the conclusion?",
+          "coverage": "Compare attention, expectation, contact time, outcome scales, and reported harms.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-080",
+          "question": "Meditation and insomnia symptoms: which sleep outcomes were measured?",
+          "coverage": "Separate sleep quality questionnaires, sleep onset, diagnosed insomnia, and objective recordings.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-081",
+          "question": "Meditation and chronic pain: which part of pain is an outcome?",
+          "coverage": "Distinguish intensity, unpleasantness, functioning, medication use, and durability.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-082",
+          "question": "Meditation and anxiety: how do diagnosed conditions differ from everyday worry?",
+          "coverage": "Compare eligibility criteria, treatment context, and the boundaries of generalization.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-083",
+          "question": "Does meditation improve memory: which memory task and which participants?",
+          "coverage": "Separate working memory, episodic memory, practice effects, and cognitive health claims.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-084",
+          "question": "How should a video report a null meditation trial?",
+          "coverage": "Explain effect estimates, uncertainty, attrition, preregistration, and the absence of a guaranteed benefit.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the TAME trial compare when it tested an eight-week MBSR course against escitalopram for diagnosed anxiety disorders?",
+          "coverage": "Read the 2023 randomized noninferiority report and trial registration for enrolled adults, course/drug comparator, prespecified margin, week-eight clinician outcome, attrition and adverse-event reporting; avoid treatment recommendations.",
+          "id": "BANK-278-127",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-14",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-15",
+      "title": "Difficult experiences and participant support",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-085",
+          "question": "How do meditation studies define and record adverse experiences?",
+          "coverage": "Compare solicited reports, passive reporting, severity, causality, and missing follow-up.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-087",
+          "question": "Trauma-sensitive meditation: what participant choices does a program offer?",
+          "coverage": "Review a specified curriculum's consent, opt-outs, teacher scope, and referral arrangements.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-088",
+          "question": "Meditation-related distress: how do accounts distinguish discomfort and impairment?",
+          "coverage": "Use consented accounts alongside clinical assessment frameworks without diagnosing individuals.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-089",
+          "question": "When a teacher's explanation differs from a clinician's: how are concerns handled?",
+          "coverage": "Examine a documented support process, authority boundaries, and participant autonomy.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-090",
+          "question": "Why should meditation videos include ways to pause and seek support?",
+          "coverage": "Assess communication and escalation practices in a named program; avoid universal treatment advice.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the 2026 brief digital meditation trial count as a distressing experience?",
+          "coverage": "Examine the secondary randomized-trial analysis of five- and ten-minute mindfulness, self-compassion and gratitude sessions versus ordinary internet use; separate in-session distress, negative affect and longer-term impairment.",
+          "id": "BANK-278-128",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-15",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-16",
+      "title": "Teachers, institutions, and transmission",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-278-091",
+          "question": "Vivekananda's Raja Yoga: how did one book frame meditation for its readers?",
+          "coverage": "Study publication context, source selection, intended audience, and later reception.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-092",
+          "question": "Ramana Maharshi and self-inquiry: how do recorded teachings frame the question of self?",
+          "coverage": "Compare authorized editions and distinguish dialogue context from modern slogans.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-093",
+          "question": "Maharishi Mahesh Yogi and TM: how did institutional teaching develop?",
+          "coverage": "Use dated institutional records, independent history, and clear separation of efficacy claims.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-094",
+          "question": "S. N. Goenka's retreat movement: how is a course structured institutionally?",
+          "coverage": "Study public course rules, transmission history, volunteer organization, and participant support.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-095",
+          "question": "Thich Nhat Hanh and engaged mindfulness: how are contemplation and ethics connected?",
+          "coverage": "Use authorized writings and community materials within their historical setting.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-096",
+          "question": "Jon Kabat-Zinn and the clinical adaptation of mindfulness: what changed?",
+          "coverage": "Compare founding accounts, curriculum records, and the language of contemporary research.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-16",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-17",
+      "title": "Art, sound, and contemplative media",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "COMMUNITY",
+      "topics": [
+        {
+          "id": "BANK-278-097",
+          "question": "Meditation music versus silence: what does the soundtrack add to the experience?",
+          "coverage": "Compare listener expectations, sound design, and study conditions without promising brainwave entrainment.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-098",
+          "question": "Singing bowls in meditation videos: how are provenance and health claims presented?",
+          "coverage": "Investigate a specified instrument tradition and distinguish cultural history from marketing.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-099",
+          "question": "Mandala viewing: how does devotional use differ from generic relaxation imagery?",
+          "coverage": "Choose a named tradition and respect distinctions between public art and restricted ritual.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-100",
+          "question": "Nature imagery in guided meditation: what does the visual design assume?",
+          "coverage": "Analyze accessibility, cultural familiarity, sensory preference, and imagery scripts.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-101",
+          "question": "What makes a meditation voiceover understandable and unpressured?",
+          "coverage": "Study pacing, silence, opt-out language, pronunciation, and consent-based user feedback.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-102",
+          "question": "432 Hz and 963 Hz meditation claims: what evidence would frequency-specific effects require?",
+          "coverage": "Distinguish tuning, tone frequency, preference, expectancy, and controlled causal evidence.",
+          "angle": "art_and_devotion",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-17",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-18",
+      "title": "Apps, access, and commercial culture",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "DIGITAL",
+      "topics": [
+        {
+          "id": "BANK-278-103",
+          "question": "Meditation app privacy: what happens to mood and practice logs?",
+          "coverage": "Inspect a named app's dated policy, permissions, retention terms, and user controls.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-104",
+          "question": "Streaks and badges: how do apps define meditation progress?",
+          "coverage": "Compare engagement metrics with participant goals and evidence of benefit.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-105",
+          "question": "AI meditation guides: what should be checked before trusting personalized scripts?",
+          "coverage": "Evaluate disclosure, unsupported claims, handling of distress, privacy, and human escalation.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-106",
+          "question": "Who is excluded by a paid meditation subscription?",
+          "coverage": "Compare cost, language availability, disability access, and free alternatives in one market.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-107",
+          "question": "Do meditation app trials study the same product users download today?",
+          "coverage": "Match version, content changes, sponsor involvement, and the intervention described in the paper.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-108",
+          "question": "Influencer meditation credentials: what does a certificate actually document?",
+          "coverage": "Examine issuing bodies, training scope, assessment, and the limits of credential comparisons.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-18",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-19",
+      "title": "Study design and research frontiers",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-278-109",
+          "question": "How would a dismantling study test the components of a mindfulness course?",
+          "coverage": "Define the component contrast, active controls, adherence measures, and feasible conclusions.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-110",
+          "question": "Meditation dose-response: why are minutes practiced hard to interpret?",
+          "coverage": "Examine self-selection, adherence measurement, quality of practice, and reverse causation.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-111",
+          "question": "Can a meditation study be meaningfully blinded?",
+          "coverage": "Compare participant expectations, assessor blinding, outcome type, and design limitations.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-112",
+          "question": "Long-term follow-up: do measured meditation effects persist after a course?",
+          "coverage": "Track continued practice, dropouts, co-interventions, and changing comparison groups.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-113",
+          "question": "How can qualitative research capture meditation experiences missed by scales?",
+          "coverage": "Assess sampling, interview prompts, reflexivity, negative cases, and the limits of generalization.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-114",
+          "question": "What would a transparent preregistered meditation trial report?",
+          "coverage": "Map hypotheses, eligibility, primary outcomes, harms, analysis choices, and deviations.",
+          "angle": "future_developments",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-19",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-20",
+      "title": "Editorial comparison and series synthesis",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-278-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-278-115",
+          "question": "Breath awareness versus pranayama: when is observing different from regulating?",
+          "coverage": "Compare named instructions and route detailed breathing-method episodes to niche 279.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-116",
+          "question": "Meditation versus yoga as a whole: what disappears when one component stands for all?",
+          "coverage": "Use a defined yoga framework and route broader philosophy and movement to niche 280.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-117",
+          "question": "Is meditation always secular: how do institutions describe their commitments?",
+          "coverage": "Compare explicitly religious, pluralistic, and secular program statements without ranking them.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-118",
+          "question": "Translation choices across dhyana, bhavana, and mindfulness: what cannot be equated?",
+          "coverage": "Compare selected passages and their translators rather than offering universal one-word definitions.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-119",
+          "question": "How can a documentary represent meditation without staging spiritual attainment?",
+          "coverage": "Design interviews, illustrative visuals, attribution, and explicit boundaries around unverifiable experience.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-278-120",
+          "question": "Building a personal practice story without claiming a universal result: what belongs in the film?",
+          "coverage": "Separate one person's timeline, other life changes, consent, and research context.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-278-20",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-278-R01",
+      "title": "Practice families",
+      "level": "foundation",
+      "parent_id": "DOMAIN-278-21",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "905ac9ae18539d570b701f945ef8077c14fa599e2287cd3519c7e37ea4f741d5",
+      "topics": [
+        {
+          "question": "Why do concentration, open monitoring and devotional meditation ask different things of attention?",
+          "coverage": "Compare goals, instructions and tradition-specific meanings; avoid treating meditation as a single intervention.",
+          "id": "BANK-278-121",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-278-R02",
+      "title": "Outcomes",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-278-22",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "c3cac547154b425cb003bd6f55498de1f8fe0616337c9000d1e8991237973e51",
+      "topics": [
+        {
+          "question": "Why can meditation studies produce different results for apparently similar practices?",
+          "coverage": "Compare participants, duration, controls, self-report, dropout and outcome definitions; exclude treatment recommendations.",
+          "id": "BANK-278-122",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-278-R03",
+      "title": "Interpretation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-278-23",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "092082f33cc8a6f19246c70c46f1e7db2952ccea92f67670bafd4febcbad7254",
+      "topics": [
+        {
+          "question": "How do traditions distinguish an unusual meditation experience from a lasting transformation?",
+          "coverage": "Compare teacher interpretation, texts, duration and community standards without diagnosing individual experiences.",
+          "id": "BANK-278-123",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-278-R04",
+      "title": "Secularization",
+      "level": "advanced",
+      "parent_id": "DOMAIN-278-24",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "fa348322938bd60011880475ae8894821845f000fccb6d6a3ba67143e7e11ddb",
+      "topics": [
+        {
+          "question": "What changes when meditation moves from a religious setting into a workplace program?",
+          "coverage": "Compare purpose, ethics, authority, access and evidence claims; avoid assuming secularization preserves every original goal.",
+          "id": "BANK-278-124",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-278-R05",
+      "title": "Attention objects",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-278-25",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "662346f6d97b5d3ec3a579e0caff8c60a06d53eb963e1c7cb5c00da7420efd83",
+      "topics": [
+        {
+          "question": "How does choosing breath, sound or an image change a meditation task?",
+          "coverage": "Compare attentional demand, instruction, distraction and tradition-specific goals without prescribing practice for health outcomes.",
+          "id": "BANK-278-125",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-278-R06",
+      "title": "Adverse experiences",
+      "level": "advanced",
+      "parent_id": "DOMAIN-278-22",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "4fd071f854d285e12dc458f0955815014c58883a79f57c09fd46eff748418ad1",
+      "topics": [
+        {
+          "question": "How should meditation research record experiences that participants find difficult?",
+          "coverage": "Compare definitions, monitoring, dropout, support and reporting bias; avoid diagnosing or promising harm-free practice.",
+          "id": "BANK-278-126",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "suggested_series": [
+    {
+      "title": "Meditation foundations",
+      "learning_outcome": "Distinguish definitions, objects, attention tasks and expectations before studying named methods.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-278-001",
+        "BANK-278-003",
+        "BANK-278-007",
+        "BANK-278-008",
+        "BANK-278-005",
+        "BANK-278-070"
+      ]
+    },
+    {
+      "title": "Hindu contemplative sources",
+      "learning_outcome": "Read selected Yoga Sutra, Gita, Upanishadic and japa questions in their own interpretive setting.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-278-002",
+        "BANK-278-019",
+        "BANK-278-025",
+        "BANK-278-028",
+        "BANK-278-031",
+        "BANK-278-037"
+      ]
+    },
+    {
+      "title": "Methods without flattening traditions",
+      "learning_outcome": "Compare specific methods and adaptations while preserving purpose and provenance.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-278-043",
+        "BANK-278-046",
+        "BANK-278-048",
+        "BANK-278-049",
+        "BANK-278-051",
+        "BANK-278-055"
+      ]
+    },
+    {
+      "title": "Reading meditation evidence",
+      "learning_outcome": "Evaluate intervention design, brain claims, outcomes and potential harms.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-278-067",
+        "BANK-278-078",
+        "BANK-278-079",
+        "BANK-278-082",
+        "BANK-278-085",
+        "BANK-278-115"
+      ]
+    }
+  ],
+  "handoff": [
+    "Retain the BANK ID in editorial notes. Name the exact case, edition, lineage, population, protocol or product version before promoting a broad question to an episode.",
+    "Inspect source passages and reports; add honest source-access records and a bounded idea through the existing registry workflow. Empty verified_sources lists mean this bank has not performed claim-level episode research.",
+    "Reuse an existing registered angle; confirm its current scope in ANGLE_PLAN.json. These catalog entries do not change Q1-Q42, CAT defaults, existing CONFIG snapshots or production gates.",
+    "If creating a formal depth plan, map the selected question to stable TOP IDs inside the niche Planning directory. Create a formal IDEA record only with its required evidence plan and readiness review; do not promote all proposals automatically.",
+    "Verify material claims in Phase 1 with exact locators. Attribute spiritual, historical and symbolic interpretations. Health outcomes require original evidence and current guidance; proposals do not supply personal medical advice.",
+    "Check neighboring banks for the same story question. Reuse the primary home and link the related topic; change the research question when a second niche needs its own episode.",
+    "Keep topic proposals, ready ideas, produced text packages and published videos as distinct statuses. Do not mark these proposals completed or trending based on their presence here."
+  ],
+  "coverage_limits": "This first batch does not exhaust Buddhist schools, Hindu contemplative lineages, regional practices, women's histories, non-English primary sources, or disability-led accounts. Expand named traditions and source editions after case selection; no school's definition stands for meditation everywhere.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/278_meditation/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "532e13db51a528b2dfa4316dda8c77fabc6385237f8c27315ea47ff68a754e65",
+    "source_kind": "detailed_pilot",
+    "source_records": {
+      "BANK-278-001": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d7d261fff93d30a4fc16dd3073118c769478540d97f37a5f0abb55ab50070694"
+      },
+      "BANK-278-002": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "33a6543675e9fc3ee56ea8b46882b04955c1b0e185024abff1adcc9a81c45c30"
+      },
+      "BANK-278-003": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bfc225dcd4ebf09c7248e06b045276278767426f10f798db43b50a34d0ca9a61"
+      },
+      "BANK-278-004": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "edcbe28bccbd24e87470bd5077ca09313276d46432e0c25470ad5c9f7a44c56a"
+      },
+      "BANK-278-005": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1f3dbd8f5f7c90ed04d8b8f3fbb5b1b5a241c7dc313566946816cc5e557a2779"
+      },
+      "BANK-278-006": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6aeb9ece542ff2be4a6a992f3633a7a7725355ffb5d4e244e2724de88b6bb24f"
+      },
+      "BANK-278-007": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "40ee98dd1a846a9d046c384849310a686ae97b5355b2285d8412873465d1560b"
+      },
+      "BANK-278-008": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "710d59d50a478a8349bc24a6c3b58c940ccf7cdb586bb8f8b3f4a16c8f21b0bf"
+      },
+      "BANK-278-009": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0a9d0dcc35a53dfc447d1db3f7ee56859f8317175d7ed85608545e67973fa23c"
+      },
+      "BANK-278-010": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "56a3269d546390c97a828c9e5f57cc1eb02c9a5429e654c3ef8e8d17bec1da2a"
+      },
+      "BANK-278-011": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bb4cd2579101d457c9640f2fd7ff142b1a3f7d5b08e12a68816cfaac7e50f697"
+      },
+      "BANK-278-012": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "584e1e3b603db878ec0628dfb6bdc10452af23b291da4575bc52267b4034c2a1"
+      },
+      "BANK-278-013": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "47cb55c0a43d2f538d4481c886746e205d2eaeb433b026b68eadb41dd96f7f14"
+      },
+      "BANK-278-014": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4600921d5da5600182441cc52638d5cc887190de280eaa299c1eacaf7d4623f2"
+      },
+      "BANK-278-015": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5b00d3feb75d89159bd3bff99461141b44bc22dba86d872c0250d8714b7dd326"
+      },
+      "BANK-278-016": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "db195e36766d8e6deba4a174303e7edbdc56eeca9a9162e9ea6a0dc07ff2956c"
+      },
+      "BANK-278-017": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4edb3da5674af0d1297cf40997c0fc22fa7231fed4c54208848417a793a80e7c"
+      },
+      "BANK-278-018": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c45810126e35617512761d0a821cce4ea688f76f2060c4ee03a376f200132b41"
+      },
+      "BANK-278-019": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "83f526e932105a973fd8de0a5a8393923c19d7f8ebe0400cc305afcdbbe14db4"
+      },
+      "BANK-278-020": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "310053ebda0d1ec57530e15d5dbb0a62a50fb8a34d309a2ab9ba83c37bf78a45"
+      },
+      "BANK-278-021": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f1425336b7b52c12b59577e464bbabcf116bfcdf0421f5fbcdfb00019379dc54"
+      },
+      "BANK-278-022": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "17bb70353ada4127d7edb277bb52e420c058835d5d12da9f812faebe9aba667d"
+      },
+      "BANK-278-023": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7899cf4026d3128a1683e1278fcfbef66308210c2e69b9d10faf0cb2c0a856b0"
+      },
+      "BANK-278-024": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e246a32fc55989dfa4eaf3393f896def880348d61a4429d138807b5c7c47092b"
+      },
+      "BANK-278-025": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2b695e5cf733c56b78e541d72029fdfdeb845f3a7358cdcd65ac53a967ff4863"
+      },
+      "BANK-278-026": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2b9ca7b10866f36358b7a3b22e2929ead05d4823ab87333df738e1a1b07853c2"
+      },
+      "BANK-278-027": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c279b6847f999a9e18ffa4aa74d4b6829cc577a17f2cc7a66f4ef5d0cfba067e"
+      },
+      "BANK-278-028": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "647fcf3efbe52145f04cf12ad2aed5aa489b2b86aee162a09bea5f6c4e38fd23"
+      },
+      "BANK-278-029": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5f1bc567302b00ff939ede2f01e4f45f6e37a55dff4056d0c5cc133ce1395278"
+      },
+      "BANK-278-030": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "94d3f4b7b3d3646dedf05da40ce7cdf5d04dae45a6219abb445879adf94bed5a"
+      },
+      "BANK-278-031": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "42f0c7ac1a6b7840e4e8a275059ca87578ca1abc48cef0bf00aa5c1d1aeab64d"
+      },
+      "BANK-278-032": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7b50ff94b4ce8834ebbf7e4ae9fda900bbbab47d6f5f7f39929c0b0e78a11b39"
+      },
+      "BANK-278-033": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "48e91347b79ff212796cd919fd5f7f80c4a198fe83b5205a0d808d55303a0195"
+      },
+      "BANK-278-034": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a795be3ad39577358683d00cc3b4158ee27288224b0e12dd188e7db8f516eb14"
+      },
+      "BANK-278-035": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "86b0e2efa637af22892c71c4d1c1fc83ad6bca17abb0abfa8aee2a64399016a0"
+      },
+      "BANK-278-036": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9bcb6da283d2dac8b21d22fa8ebbd5fc97ec55b1263db0b3026d53db3a77143e"
+      },
+      "BANK-278-037": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9f8b1760c6c0b78a95e72934b5079d64958b02825facec910f716d5c860e2d02"
+      },
+      "BANK-278-038": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bf6b1bce943507bc076ca6d4de1f679ce2c47c243c1b9f963b048742dc66190b"
+      },
+      "BANK-278-039": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "beb8c6c1418e7a3e2d160367e0559b83297e0a5f4cbb875934d44bdf7fe5f3e9"
+      },
+      "BANK-278-040": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ed6d1012a6fe0ba8e0887e992bdeed945aaf1943b3afc5daf85d1c2e8007d5c7"
+      },
+      "BANK-278-041": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "204dce8fc35fb6d8ff1dc5b5f2c83927b45acf6093cf9e9cbd4fce7530f3fc6a"
+      },
+      "BANK-278-042": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ed42237a3f43fca5e9dfbf09432421b2329f618eaec95c505884b45c7b650fd2"
+      },
+      "BANK-278-043": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2e62a0072ae99ff2cb5f5a5b85c041a7237b9e634d237b66e10f4704cafd94d5"
+      },
+      "BANK-278-044": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "13de7997b04cff41a0a473c5ad159d7ea4f052a8a72cec514d6073776f5a997d"
+      },
+      "BANK-278-045": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2246e9a5a1df2318c681ae6489abf531e5dc5fe5b6af8a3ca478f362ea1ea34f"
+      },
+      "BANK-278-046": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c42b5e0d10634f66eb648ddaaf7b53f0225e1a537ebcbd22900b1833053a9af1"
+      },
+      "BANK-278-047": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9448dddcf5c8db6571fb76bfb3c1820f56c25be1727120833397dc93f936d79b"
+      },
+      "BANK-278-048": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "07096cfbbdd2b7e5afcc7d5f6abb50d0665c8637b3135231ef6e3c34ba9431ab"
+      },
+      "BANK-278-049": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "796b8900ccdcd6087a1eb7595ee0e93f274981e1e43ac9d47db1bf3f3be5598f"
+      },
+      "BANK-278-050": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8292058f9677dfa142b5fc2ab2ae818b6256f2e4984a86d2742fb6e06b8fafc0"
+      },
+      "BANK-278-051": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "453cb40c0b1843245e7de39de7b9379440b0cb36413d970dcd1ffe63068844e2"
+      },
+      "BANK-278-052": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1614906343d2c78b117bbd9bada4e239ccdfa77e0a7ab544072169da69455b65"
+      },
+      "BANK-278-053": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fc93f4572cf8ec518318ec1224d84213bd3dee795201dfcac0b700083099b6b3"
+      },
+      "BANK-278-054": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6b8acad74a5c0d030f3d8508ff5e495e7ad0ec42582929f6a6c2724d1209726b"
+      },
+      "BANK-278-055": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5485ccad0c9436f05b38d01c5c832478e848bccfc4c6c5bf89251b4fe4721cc3"
+      },
+      "BANK-278-056": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8ddd4231a752f0fc583b0d93aa2942b67b0c6b27b3bf231ab4a4bee06858acd9"
+      },
+      "BANK-278-057": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a7174797cc262ff60ab2c084a209ea74fccf7092407b9860db7b1800ffbdad55"
+      },
+      "BANK-278-058": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "546627c414b40c1a0caafcbaa8c9822cade45881333868c8bad6bdbc3c239429"
+      },
+      "BANK-278-059": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "12ef8f2857b26474fcc9e4972a49993961e6cca9b766ddc765acf306e9d5177a"
+      },
+      "BANK-278-060": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5af4b8dd4416a6014d0930c7e9dcf5d000bd974432a247f2600d972a08aa2b22"
+      },
+      "BANK-278-061": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "43ab17a10a0b8c2d56821d978a1aceaa0e974b164912a74b032c786fa85f4788"
+      },
+      "BANK-278-062": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cfb6d5698d00e617fe4f967523e40d90227eacc685a8dd783b30b20f85ed76cd"
+      },
+      "BANK-278-063": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6aed9f72fb53c38146be0d58238caaf76a84095debc134d777a6f3bf4bedf5a8"
+      },
+      "BANK-278-064": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ac31cc261b7a5419f732cedc980405cd8f06aa411a6177c6dca1265ff8961e69"
+      },
+      "BANK-278-065": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "76bf5374046752c94c79a34651a5ff78f09df0f75bf14c5166d3c5df65f02b55"
+      },
+      "BANK-278-066": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8c215618602b1dc6af091852422302ac0535259a250641b2a53f6a395a7b17b2"
+      },
+      "BANK-278-067": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "496c147cc10da7fd1e69a29cdae574631693d053e013fbf6458337e1ed8f943b"
+      },
+      "BANK-278-068": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5aadc49044cd49ae99a64a4173ad98a240d3fc450dc14e015d21733105444805"
+      },
+      "BANK-278-069": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6af18f65157c91bdf633d6f7bf56bc32d45638ce1292efd9d5b9f60c9dee0f5f"
+      },
+      "BANK-278-070": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "35260e12530840ece9b9bd2feba0605c1a3aaa3982cc620eeb738e9391f47cbd"
+      },
+      "BANK-278-071": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d3444c2d2e2e234f9df5408707396a9e66c5eb2c2a83c4de6d7328f583473eee"
+      },
+      "BANK-278-072": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "24e066a1baef373ee76fc13c5abc3a46e47bd0f0273a227016ce11204116923f"
+      },
+      "BANK-278-073": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4cdbc8bd230901759ea5d6f8612e105827316c1cd15bdffb883cbcbf6ef22e79"
+      },
+      "BANK-278-074": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f2913cafbb4645b28c30c54f0253b0306e3c8966017e49bdd44b2e48d1e87cfd"
+      },
+      "BANK-278-075": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "777dcc69ac002c416d437f55660c3caf3b1ebfeedb68c544abe3a63dd5a1f0e9"
+      },
+      "BANK-278-076": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a0577ef09028e918f46b32e6cac5dbf124527ede3b0aa4c3ced26e5c9e88ae9d"
+      },
+      "BANK-278-077": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "efb6b784b43da4e5c31b6b78e8bfb2d818b4a9336535212c20324c4ec31c0439"
+      },
+      "BANK-278-078": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "478abd7e64f85fef37ea7d19207620c7a7c6efa5058ccf7697fbec4966e3a045"
+      },
+      "BANK-278-079": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "316cc876d6cb0c78495dc24c178ac1aaeb78a3be0b3c090dcff9da66c6622293"
+      },
+      "BANK-278-080": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a2b9e0f5db645fa2e3e8e8e60cb3fa73525c934738d694188cd1874d5fd6ea4f"
+      },
+      "BANK-278-081": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "165a0956955aed2a000fd5ce2586faafad6b8dcdefeb537fb1501eb73be6c5ed"
+      },
+      "BANK-278-082": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f0f1d9bb4aef1681b81abe33eff53d3da2a10bdec460537a14c6c4fe7d61ae16"
+      },
+      "BANK-278-083": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "55cb6df6aafeb1769430d210813f364f8d01b0ad35021849dbefc6d11f33e2f9"
+      },
+      "BANK-278-084": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "62838a4234ba6c17528d675187a97c375c5b8c75b13d4caba26766dddf4edc89"
+      },
+      "BANK-278-085": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "892dc15bcf42fdaca9c115a54afc8c43c715ec0ec21190a17ae2eb9bff9c6add"
+      },
+      "BANK-278-086": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9071d3baebe8fe6279d196d3b7698998b970bb18e9d933a8ed9dca3c1053fbce"
+      },
+      "BANK-278-087": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "42c9dd793533d9c060923f18cbb174bb8b64ab57a83c722b32b1d119a8a9a665"
+      },
+      "BANK-278-088": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4a142c92463255d588d5fb3a768f4207e562ccc9af6169c9f00334515a921c68"
+      },
+      "BANK-278-089": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2f9402188bbfc13e83b5f444ee6b055316c10a000b8cdc511c18a7d074c1c201"
+      },
+      "BANK-278-090": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1c7ae26e12dfd734488d7ec3e219503616415e0f3a7489ff2bdb2ff32d53a2c8"
+      },
+      "BANK-278-091": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b85eaa0428c2b834b32f35182dce534e7cff78de391d1ab91fd667e33a5e88fb"
+      },
+      "BANK-278-092": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9bcd40cad00d7f1c702fbbe70f9fa368c8f0f7f30bc7ec416889a3babad50822"
+      },
+      "BANK-278-093": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9ef4f8be9528fe30d4efa7605039339327e94cb9085dc9978de0dbec2e70ffba"
+      },
+      "BANK-278-094": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b6c360e67c2618aeb8c6380b51015e6e9ec9b2fbb72b8155c04762bb1d0bfed7"
+      },
+      "BANK-278-095": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "77614e844e420a184a1cddb8717962316b6a11f16748a7cd97bc77475a9972b7"
+      },
+      "BANK-278-096": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eba3d31f370419ff7b75420bc84ff7041ada44dca8d699154e3972ed9ed60d62"
+      },
+      "BANK-278-097": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "26dc61f7159332f7305e59ffa47d5737c016eed174ed9c222dd02bfcf0af08e5"
+      },
+      "BANK-278-098": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a8b70f19f4bacfbba0ce6ade6d906c387442721450f841db8266af9f3c6df87d"
+      },
+      "BANK-278-099": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "49b7af9ea80119f1b6785c03628596f491041c4aeba79a2d6deb0d1d087d64d1"
+      },
+      "BANK-278-100": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eb7a50bc9c087d1d5b8f2770fb375ffe3fc86b3e12b1cfe8d10ec0cac6ddfb3d"
+      },
+      "BANK-278-101": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "20f07bd6bcce4c3605b510a80ccf42ee57934da7ca887fa18ccf7129c6f0415a"
+      },
+      "BANK-278-102": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "aeffb05831b161508800944603e930fdc679bdf6f8ca4f6b8779e8a610a33631"
+      },
+      "BANK-278-103": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7b2d109afed5bfd512d19da14c43e19ec9c8665c3ee50d2b2f46d50131552d5e"
+      },
+      "BANK-278-104": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5e255acc1066f73327a32e13086c8e235e5b37cb9ed4a53c35cd45429dc439c5"
+      },
+      "BANK-278-105": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f535abb6d6e426c2430cbea3fc5607a0cf08a861bc23eb6e40d1ec5bbaf495b8"
+      },
+      "BANK-278-106": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bee2a3fbf8d479f0116fdaf56b69c05a3feec301c1d870c423845f7ebf6dbce7"
+      },
+      "BANK-278-107": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3782d8c0960649489dc2f81faa86b37ebcc134fa98b69e7d3d84f2373cab82a5"
+      },
+      "BANK-278-108": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dd25f01a462a5e03ae17b7a1d8ae6a972ee5c03f2894e8aa9c35eb4837bcf06b"
+      },
+      "BANK-278-109": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "00b5805a6b8c339984ecb29e0afe0ae3db50f09027970228f478ff3e21f1cd37"
+      },
+      "BANK-278-110": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9d2dd7f7c3759b8bda578021fb2593d087918122e899646a098bb97482501014"
+      },
+      "BANK-278-111": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7c00287725cb7a8660e04de467946d4475270189db18722ce2a1a729d86a67fe"
+      },
+      "BANK-278-112": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f6657a38a5d677fc20994d4ad86b6f06c32725f8762f59bb8be591107ca3ee33"
+      },
+      "BANK-278-113": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6035bb3a112242e43ef611ccbd9a60b67564e0be691c2068e211b9815fa4ef2d"
+      },
+      "BANK-278-114": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a06c13a64e73fabdb73d23aac92f89ac275974b98d7ed147c258ac1617f4c6e3"
+      },
+      "BANK-278-115": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "60f6a0189caae32160bb0d55000032bb85f3ddf1574e6a04646beb3b8a8aeb76"
+      },
+      "BANK-278-116": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fc2a265cffcf6f964aa5b4942eb0f6075208ef169d63bf4bf0c18612b5cee536"
+      },
+      "BANK-278-117": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a02eb752de27d807b71b3aa01d6b45bb0aedb0969a25637192fbb376916aefb2"
+      },
+      "BANK-278-118": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1a584c96ce34124f5a162b5c65ba7c77fb833e0bfcaf88ee9b25dddd6a50df37"
+      },
+      "BANK-278-119": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef6ef55f8642fd2b64f212a7b5251ae349a6fb25b835f519e8273fa0602e8021"
+      },
+      "BANK-278-120": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "335f3876769eae9d0fc92086f1a68c95c9472e843086cf5f45224e84f44f4cd7"
+      }
+    },
+    "source_categories": {
+      "CATALOG-278-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "510247b676aea413216de33729a19babab9be0a01ace7223d17f826f0a6dff57"
+      },
+      "CATALOG-278-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "cbc8a1a7585027af6f71c23413c030938043596b5f7e2045e9c3baeed3e1b379"
+      },
+      "CATALOG-278-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "064cb469c1bb90281ea895dae6db90cf259efbb2f4e30f03a2a4c62fe177da25"
+      },
+      "CATALOG-278-04": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3f537e596363ec7099ef0d89d2b9584319c7d28e12cab07908ecd4ca6ab2196c"
+      },
+      "CATALOG-278-05": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3f8682b02b1603d7af9be7e51648ee0f666e70671363fbe3a914ae9fb6210314"
+      },
+      "CATALOG-278-06": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "68ad4bdd5999989c675f09a3783014808bf2dd289155c84823d58fd2bc0499ca"
+      },
+      "CATALOG-278-07": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "4cb5e2eed64de6bbf98214ada0317ad283a6e27fbc6e0b982fef91762c387719"
+      },
+      "CATALOG-278-08": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "1c7a4ae82b38f8d795037031d0a55193605323a3d78d65b9fb74e14773a18423"
+      },
+      "CATALOG-278-09": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "0c46835f1f90fe5142f444a6af1a4b1a7c35615e77e873de3eaa963ea9c0b5ba"
+      },
+      "CATALOG-278-10": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6291153e53f848ea779f220ec13d4bed31c1a45830951d0416ff9eb71188f2d1"
+      },
+      "CATALOG-278-11": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "9e38860748dde9d566acdb13db3ae2e637a899a66769a4b7dd48ee6d5ad29c34"
+      },
+      "CATALOG-278-12": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "1d0c1baff144a403e4bc3a287ca48bff9376740c3da54886be0b6d31d1470be4"
+      },
+      "CATALOG-278-13": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "91a5850006adf63b54e0a749b9b831144aebc627d07e5cddf3979f04f2ed6581"
+      },
+      "CATALOG-278-14": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "c0ca5b0ab7f7f14f48bfb3d6b0c4c2d7c64bcf9ae5b962e55f72a0ca9ee7416b"
+      },
+      "CATALOG-278-15": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "500cfd810832194928984514e96c9f01dd5b13d0cc670a93b85e9d4bea85b966"
+      },
+      "CATALOG-278-16": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "aa13136e2550c5c2beb131b3637a2aa561b1df53ea7c3300acc72b2c73ca40c6"
+      },
+      "CATALOG-278-17": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "568e3adf2e77afd421b53827374764a57dcced70635fad6cd6f75dc613e95dd5"
+      },
+      "CATALOG-278-18": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "dd20bf29634154a2597c55596a53ece28e326b03f55a9d982cd8973bcbb35758"
+      },
+      "CATALOG-278-19": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3293a4db0e66bf514735d2c516e092b625a4515509b2d9273db5136924541a89"
+      },
+      "CATALOG-278-20": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "115da307f8ee9c1bf28bde3682b86897ab70deabe600d5ed1611397aff8349fa"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "1e9fc032dae835caf6cf9b9c038df0f86520a9f66f619a6da3db8705ee404bdc",
+        "original_text": "# Meditation Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 278 Meditation (Hindu_Traditions)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Meditation Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/278_meditation/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Meditation across four progressive tiers:\r\n- **Tier 1: Meditation Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Meditation.\r\n- **Tier 2: Meditation Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Meditation.\r\n- **Tier 3: Meditation Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Meditation.\r\n- **Tier 4: Meditation Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Meditation.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/278_meditation/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/278_meditation/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Named Meditation Practice in Its Sources** | *Where does one specified practice first appear in surviving texts?* |\r\n| 2 | `famous_examples` | **A Well-Known Meditation Program Examined** | *What does one widely cited program include beyond meditation?* |\r\n| 3 | `hidden_stories` | **Teachers and Participants Beyond the Founder** | *Whose work and experience are missing from one practice history?* |\r\n| 4 | `beginner_explainers` | **Which Meditation Do We Mean?** | *How does one named method define attention, setting, and purpose?* |\r\n| 5 | `advanced_concepts` | **Practice, Comparator, and Outcome** | *How can a study isolate the effect of a particular meditation program?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Effect With Uncertain Cause** | *What cannot a small meditation study establish about a reported outcome?* |\r\n| 7 | `technology_innovation` | **A Meditation App Under Evaluation** | *Does one app reproduce the studied practice and support user safety?* |\r\n| 8 | `people_personalities` | **A Teacher's Documented Influence** | *What did one teacher change in a named meditation lineage?* |\r\n| 9 | `major_events` | **A Practice Moves into Healthcare** | *What changed when one program entered a clinical setting?* |\r\n| 10 | `how_it_works` | **A Meditation Session as Taught** | *How do teachers describe the stages and purpose of one public method?* |\r\n| 11 | `rise_fall` | **Changing Use of a Practice** | *Why did participation in one program grow or decline?* |\r\n| 12 | `then_vs_now` | **A Traditional Practice and a Clinical Adaptation** | *Which elements were retained or removed in one adaptation?* |\r\n| 13 | `future_developments` | **The Next Study Needed** | *Which research question would clarify benefit or harm for a defined group?* |\r\n| 14 | `myths_vs_facts` | **A Universal Meditation Benefit?** | *Does a sweeping claim fit evidence for the exact method and population?* |\r\n| 15 | `documentary_stories` | **One Program's Evidence Trail** | *How did a meditation program move from teaching to public health claims?* |\r\n| 16 | `text_source` | **A Meditation Passage in Context** | *What does one named text actually say about a practice?* |\r\n| 17 | `interpretive_lineages` | **Two Readings of Contemplation** | *How do named traditions understand a similar meditation term differently?* |\r\n| 18 | `lived_practice` | **A Practitioner's Own Purpose** | *What does one consented practitioner say the practice means in daily life?* |\r\n| 19 | `ritual_sequence` | **Meditation Within an Observance** | *Where does one contemplative segment occur in a named tradition?* |\r\n| 20 | `language_translation` | **A Word Rendered as Meditation** | *What gets lost when a source term is translated simply as meditation?* |\r\n| 21 | `regional_variants` | **A Method in Two Settings** | *How does one named method change between communities or clinics?* |\r\n| 22 | `art_and_devotion` | **Contemplation in Art or Poetry** | *How does one artwork portray a named meditative ideal?* |\r\n| 23 | `community_memory` | **Remembering a Teacher or Practice** | *How does lineage memory compare with dated teaching records?* |\r\n| 24 | `ethics_in_context` | **Consent and Vulnerability in Instruction** | *What safeguards does one program use for participants who report distress?* |\r\n| 25 | `source_and_history` | **A Practice's Textual History** | *What evidence links an older source to a current meditation method?* |\r\n| 26 | `encounter_and_exchange` | **A Method Crosses Traditions** | *How was one practice adapted across religious or secular settings?* |\r\n| 27 | `contemporary_voice` | **A Teacher and a Participant Disagree** | *What do different present participants say the practice is for?* |\r\n| 28 | `field_textual_lineage` | **A Contemplative Instruction Across Editions** | *How does wording vary in one source tradition?* |\r\n| 29 | `field_regional_practice` | **A Local Meditation Community** | *How is one method taught and supported in a named place?* |\r\n| 30 | `field_translation_choice` | **Two Renderings of a Practice Term** | *How do translation choices change what a reader thinks to do?* |\r\n| 31 | `field_ritual_context` | **Contemplation in a Local Rite** | *How do practitioners explain its place within one observance?* |\r\n| 32 | `field_community_interpretation` | **A Community Defines Its Meditation** | *How do members explain aims, boundaries, and variation?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Meditation: A Named Meditation Practice in Its Sources**\r\n   - *Question:* Where does one specified practice first appear in surviving texts?\r\n   - *Key Focus:* Distinguish source date, later teaching, and present form. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n2. **Meditation: A Well-Known Meditation Program Examined**\r\n   - *Question:* What does one widely cited program include beyond meditation?\r\n   - *Key Focus:* Compare manual, teacher training, participant group, and measured outcome. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n3. **Meditation: Teachers and Participants Beyond the Founder**\r\n   - *Question:* Whose work and experience are missing from one practice history?\r\n   - *Key Focus:* Use consented accounts and dated institutional records. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n4. **Meditation: Which Meditation Do We Mean?**\r\n   - *Question:* How does one named method define attention, setting, and purpose?\r\n   - *Key Focus:* Attribute the method to its community; distinguish it from broad wellness branding. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n5. **Meditation: Practice, Comparator, and Outcome**\r\n   - *Question:* How can a study isolate the effect of a particular meditation program?\r\n   - *Key Focus:* Specify components, comparison group, adherence, follow-up, and harms. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Meditation: An Effect With Uncertain Cause**\r\n   - *Question:* What cannot a small meditation study establish about a reported outcome?\r\n   - *Key Focus:* Examine expectancy, selection, co-interventions, and missing follow-up. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n7. **Meditation: A Meditation App Under Evaluation**\r\n   - *Question:* Does one app reproduce the studied practice and support user safety?\r\n   - *Key Focus:* Compare content, supervision, privacy, engagement, and evidence. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n8. **Meditation: A Teacher's Documented Influence**\r\n   - *Question:* What did one teacher change in a named meditation lineage?\r\n   - *Key Focus:* Use writings, recordings, and students' accounts with attribution. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n9. **Meditation: A Practice Moves into Healthcare**\r\n   - *Question:* What changed when one program entered a clinical setting?\r\n   - *Key Focus:* Compare original aim, adapted curriculum, evidence, and oversight. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n10. **Meditation: A Meditation Session as Taught**\r\n   - *Question:* How do teachers describe the stages and purpose of one public method?\r\n   - *Key Focus:* Document the local curriculum without giving a therapeutic protocol. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Meditation: Changing Use of a Practice**\r\n   - *Question:* Why did participation in one program grow or decline?\r\n   - *Key Focus:* Check enrollment definitions, institutions, media, and access. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n12. **Meditation: A Traditional Practice and a Clinical Adaptation**\r\n   - *Question:* Which elements were retained or removed in one adaptation?\r\n   - *Key Focus:* Compare source tradition, modern manual, teachers, and stated goals. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n13. **Meditation: The Next Study Needed**\r\n   - *Question:* Which research question would clarify benefit or harm for a defined group?\r\n   - *Key Focus:* State comparator, outcomes, safety reporting, and follow-up. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n14. **Meditation: A Universal Meditation Benefit?**\r\n   - *Question:* Does a sweeping claim fit evidence for the exact method and population?\r\n   - *Key Focus:* Distinguish clinical findings from personal and spiritual testimony. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n15. **Meditation: One Program's Evidence Trail**\r\n   - *Question:* How did a meditation program move from teaching to public health claims?\r\n   - *Key Focus:* Follow manuals, trials, reviews, marketing, and corrections. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Meditation: A Meditation Passage in Context**\r\n   - *Question:* What does one named text actually say about a practice?\r\n   - *Key Focus:* Check original language, edition, surrounding passage, and commentary. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n17. **Meditation: Two Readings of Contemplation**\r\n   - *Question:* How do named traditions understand a similar meditation term differently?\r\n   - *Key Focus:* Attribute each interpretation and avoid combining methods. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n18. **Meditation: A Practitioner's Own Purpose**\r\n   - *Question:* What does one consented practitioner say the practice means in daily life?\r\n   - *Key Focus:* Separate personal meaning from evidence of clinical efficacy. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n19. **Meditation: Within an Observance**\r\n   - *Question:* Where does one contemplative segment occur in a named tradition?\r\n   - *Key Focus:* Document local public practice and respect restricted elements. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n20. **Meditation: A Word Rendered as Meditation**\r\n   - *Question:* What gets lost when a source term is translated simply as meditation?\r\n   - *Key Focus:* Compare grammar, historical context, and living usage. Evidence base: specified primary texts and translations, teaching manuals, registered trials and systematic reviews, current clinical guidance, adverse-event reports, and consented accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 278 (Meditation)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Meditation: A Named Meditation Practice in Its Sources*\r\n- **Episode Slug:** `278_meditation_deep_dive_the_architecture_of_meditation_a_named_meditation_practice_i`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/278_meditation/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "a4baf2d1e3f73eae083d90efd543a29dfeefe87bbbfa95ffc905f1b3183c5e67",
+        "original_text": "# 278 Meditation -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 278 Meditation (Hindu_Traditions)  \r\n> **Storage Directory:** `topics/278_meditation/`  \r\n> **Synchronized With:** `OUTPUT/278_meditation/`, `REGISTRY/Niches/278_meditation/`, and `278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 278 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/278_meditation](../../OUTPUT/278_meditation) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Meditation: A Named Meditation Practice in Its Sources** | Tier 1: Foundational Frameworks | `history_origins` | `meditation_a_named_meditation_practice_in_its_sources` | A rigorous pedagogical investigation exploring a named meditation practice in its sources through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Meditation: A Well-Known Meditation Program Examined** | Tier 1: Foundational Frameworks | `famous_examples` | `meditation_a_well_known_meditation_program_examined` | A rigorous pedagogical investigation exploring a well-known meditation program examined through documented evidence. | `QUEUED` |\r\n| 3 | **Meditation: Teachers and Participants Beyond the Founder** | Tier 1: Foundational Frameworks | `hidden_stories` | `meditation_teachers_and_participants_beyond_the_founder` | A rigorous pedagogical investigation exploring teachers and participants beyond the founder through documented evidence. | `QUEUED` |\r\n| 4 | **Meditation: Which Meditation Do We Mean?** | Tier 1: Foundational Frameworks | `beginner_explainers` | `meditation_which_meditation_do_we_mean` | A rigorous pedagogical investigation exploring which meditation do we mean? through documented evidence. | `QUEUED` |\r\n| 5 | **Meditation: Practice, Comparator, and Outcome** | Tier 1: Foundational Frameworks | `advanced_concepts` | `meditation_practice_comparator_and_outcome` | A rigorous pedagogical investigation exploring practice, comparator, and outcome through documented evidence. | `QUEUED` |\r\n| 6 | **Meditation: An Effect With Uncertain Cause** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `meditation_an_effect_with_uncertain_cause` | A rigorous pedagogical investigation exploring an effect with uncertain cause through documented evidence. | `QUEUED` |\r\n| 7 | **Meditation: A Meditation App Under Evaluation** | Tier 2: Methodological Deep Dives | `technology_innovation` | `meditation_a_meditation_app_under_evaluation` | A rigorous pedagogical investigation exploring a meditation app under evaluation through documented evidence. | `QUEUED` |\r\n| 8 | **Meditation: A Teacher's Documented Influence** | Tier 2: Methodological Deep Dives | `people_personalities` | `meditation_a_teacher_s_documented_influence` | A rigorous pedagogical investigation exploring a teacher's documented influence through documented evidence. | `QUEUED` |\r\n| 9 | **Meditation: A Practice Moves into Healthcare** | Tier 2: Methodological Deep Dives | `major_events` | `meditation_a_practice_moves_into_healthcare` | A rigorous pedagogical investigation exploring a practice moves into healthcare through documented evidence. | `QUEUED` |\r\n| 10 | **Meditation: A Meditation Session as Taught** | Tier 2: Methodological Deep Dives | `how_it_works` | `meditation_a_meditation_session_as_taught` | A rigorous pedagogical investigation exploring a meditation session as taught through documented evidence. | `QUEUED` |\r\n| 11 | **Meditation: Changing Use of a Practice** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `meditation_changing_use_of_a_practice` | A rigorous pedagogical investigation exploring changing use of a practice through documented evidence. | `QUEUED` |\r\n| 12 | **Meditation: A Traditional Practice and a Clinical Adaptation** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `meditation_a_traditional_practice_and_a_clinical_adaptation` | A rigorous pedagogical investigation exploring a traditional practice and a clinical adaptation through documented evidence. | `QUEUED` |\r\n| 13 | **Meditation: The Next Study Needed** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `meditation_the_next_study_needed` | A rigorous pedagogical investigation exploring the next study needed through documented evidence. | `QUEUED` |\r\n| 14 | **Meditation: A Universal Meditation Benefit?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `meditation_a_universal_meditation_benefit` | A rigorous pedagogical investigation exploring a universal meditation benefit? through documented evidence. | `QUEUED` |\r\n| 15 | **Meditation: One Program's Evidence Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `meditation_one_program_s_evidence_trail` | A rigorous pedagogical investigation exploring one program's evidence trail through documented evidence. | `QUEUED` |\r\n| 16 | **Meditation: A Meditation Passage in Context** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `text_source` | `meditation_a_meditation_passage_in_context` | A rigorous pedagogical investigation exploring a meditation passage in context through documented evidence. | `QUEUED` |\r\n| 17 | **Meditation: Two Readings of Contemplation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `interpretive_lineages` | `meditation_two_readings_of_contemplation` | A rigorous pedagogical investigation exploring two readings of contemplation through documented evidence. | `QUEUED` |\r\n| 18 | **Meditation: A Practitioner's Own Purpose** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `lived_practice` | `meditation_a_practitioner_s_own_purpose` | A rigorous pedagogical investigation exploring a practitioner's own purpose through documented evidence. | `QUEUED` |\r\n| 19 | **Meditation: Within an Observance** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `ritual_sequence` | `meditation_within_an_observance` | A rigorous pedagogical investigation exploring within an observance through documented evidence. | `QUEUED` |\r\n| 20 | **Meditation: A Word Rendered as Meditation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `language_translation` | `meditation_a_word_rendered_as_meditation` | A rigorous pedagogical investigation exploring a word rendered as meditation through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Meditation: Record Extremes & Superlatives** | **98** | `extreme_case` | `meditation_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Meditation: An Effect With Uncertain Cause** | **96** | `mysteries_unsolved_cases` | `meditation_mysteries_unsolved_cases` | High viral search interest exploring what cannot a small meditation study establish about a reported outcome backed by field records. | `Queued` |\r\n| 23 | **Meditation: A Meditation App Under Evaluation** | **95** | `technology_innovation` | `meditation_technology_innovation` | High viral search interest exploring does one app reproduce the studied practice and support user safety backed by field records. | `Queued` |\r\n| 24 | **Meditation: A Universal Meditation Benefit?** | **94** | `myths_vs_facts` | `meditation_myths_vs_facts` | High viral search interest exploring does a sweeping claim fit evidence for the exact method and population backed by field records. | `Queued` |\r\n| 25 | **Meditation: A Practice Moves into Healthcare** | **93** | `major_events` | `meditation_major_events` | High viral search interest exploring what changed when one program entered a clinical setting backed by field records. | `Queued` |\r\n| 26 | **Meditation: Teachers and Participants Beyond the Founder** | **92** | `hidden_stories` | `meditation_hidden_stories` | High viral search interest exploring whose work and experience are missing from one practice history backed by field records. | `Queued` |\r\n| 27 | **Meditation: One Program's Evidence Trail** | **91** | `documentary_stories` | `meditation_documentary_stories` | High viral search interest exploring how did a meditation program move from teaching to public health claims backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/278_meditation/278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md`](./278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/278_meditation/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/278_meditation/NICHE_278_meditation.md`](file:///h:/script-raw-/REGISTRY/Niches/278_meditation/NICHE_278_meditation.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/278_meditation/CAT_278_meditation.md`](file:///h:/script-raw-/REGISTRY/Niches/278_meditation/CAT_278_meditation.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/278_meditation/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/278_meditation/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/278_meditation/`](file:///h:/script-raw-/OUTPUT/278_meditation/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "f6a63b4315aa22fd72194b8f145e633e94b36816914ad47c232cffbac09e820d",
+        "original_text": "{\r\n  \"niche_id\": \"278\",\r\n  \"niche_name\": \"meditation\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Meditation: A Named Meditation Practice in Its Sources\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"meditation_a_named_meditation_practice_in_its_sources\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a named meditation practice in its sources through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Meditation: A Well-Known Meditation Program Examined\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"meditation_a_well_known_meditation_program_examined\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a well-known meditation program examined through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Meditation: Teachers and Participants Beyond the Founder\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"meditation_teachers_and_participants_beyond_the_founder\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring teachers and participants beyond the founder through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Meditation: Which Meditation Do We Mean?\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"meditation_which_meditation_do_we_mean\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring which meditation do we mean? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Meditation: Practice, Comparator, and Outcome\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"meditation_practice_comparator_and_outcome\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring practice, comparator, and outcome through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Meditation: An Effect With Uncertain Cause\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"meditation_an_effect_with_uncertain_cause\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an effect with uncertain cause through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Meditation: A Meditation App Under Evaluation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"meditation_a_meditation_app_under_evaluation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a meditation app under evaluation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Meditation: A Teacher's Documented Influence\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"meditation_a_teacher_s_documented_influence\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a teacher's documented influence through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Meditation: A Practice Moves into Healthcare\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"meditation_a_practice_moves_into_healthcare\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a practice moves into healthcare through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Meditation: A Meditation Session as Taught\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"meditation_a_meditation_session_as_taught\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a meditation session as taught through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Meditation: Changing Use of a Practice\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"meditation_changing_use_of_a_practice\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring changing use of a practice through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Meditation: A Traditional Practice and a Clinical Adaptation\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"meditation_a_traditional_practice_and_a_clinical_adaptation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a traditional practice and a clinical adaptation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Meditation: The Next Study Needed\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"meditation_the_next_study_needed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the next study needed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Meditation: A Universal Meditation Benefit?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"meditation_a_universal_meditation_benefit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a universal meditation benefit? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Meditation: One Program's Evidence Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"meditation_one_program_s_evidence_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one program's evidence trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Meditation: A Meditation Passage in Context\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"text_source\",\r\n      \"slug\": \"meditation_a_meditation_passage_in_context\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a meditation passage in context through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Meditation: Two Readings of Contemplation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"interpretive_lineages\",\r\n      \"slug\": \"meditation_two_readings_of_contemplation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two readings of contemplation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Meditation: A Practitioner's Own Purpose\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"lived_practice\",\r\n      \"slug\": \"meditation_a_practitioner_s_own_purpose\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a practitioner's own purpose through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Meditation: Within an Observance\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"ritual_sequence\",\r\n      \"slug\": \"meditation_within_an_observance\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring within an observance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Meditation: A Word Rendered as Meditation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"language_translation\",\r\n      \"slug\": \"meditation_a_word_rendered_as_meditation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a word rendered as meditation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Meditation: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"meditation_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Meditation: An Effect With Uncertain Cause\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"meditation_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what cannot a small meditation study establish about a reported outcome backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Meditation: A Meditation App Under Evaluation\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"meditation_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring does one app reproduce the studied practice and support user safety backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Meditation: A Universal Meditation Benefit?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"meditation_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does a sweeping claim fit evidence for the exact method and population backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Meditation: A Practice Moves into Healthcare\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"meditation_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed when one program entered a clinical setting backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Meditation: Teachers and Participants Beyond the Founder\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"meditation_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose work and experience are missing from one practice history backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Meditation: One Program's Evidence Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"meditation_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a meditation program move from teaching to public health claims backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "278",
+      "niche_name": "meditation",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Meditation: A Named Meditation Practice in Its Sources",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "meditation_a_named_meditation_practice_in_its_sources",
+          "reason": "A rigorous pedagogical investigation exploring a named meditation practice in its sources through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Meditation: A Well-Known Meditation Program Examined",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "meditation_a_well_known_meditation_program_examined",
+          "reason": "A rigorous pedagogical investigation exploring a well-known meditation program examined through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Meditation: Teachers and Participants Beyond the Founder",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "meditation_teachers_and_participants_beyond_the_founder",
+          "reason": "A rigorous pedagogical investigation exploring teachers and participants beyond the founder through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Meditation: Which Meditation Do We Mean?",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "meditation_which_meditation_do_we_mean",
+          "reason": "A rigorous pedagogical investigation exploring which meditation do we mean? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Meditation: Practice, Comparator, and Outcome",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "meditation_practice_comparator_and_outcome",
+          "reason": "A rigorous pedagogical investigation exploring practice, comparator, and outcome through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Meditation: An Effect With Uncertain Cause",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "meditation_an_effect_with_uncertain_cause",
+          "reason": "A rigorous pedagogical investigation exploring an effect with uncertain cause through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Meditation: A Meditation App Under Evaluation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "meditation_a_meditation_app_under_evaluation",
+          "reason": "A rigorous pedagogical investigation exploring a meditation app under evaluation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Meditation: A Teacher's Documented Influence",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "meditation_a_teacher_s_documented_influence",
+          "reason": "A rigorous pedagogical investigation exploring a teacher's documented influence through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Meditation: A Practice Moves into Healthcare",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "meditation_a_practice_moves_into_healthcare",
+          "reason": "A rigorous pedagogical investigation exploring a practice moves into healthcare through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Meditation: A Meditation Session as Taught",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "meditation_a_meditation_session_as_taught",
+          "reason": "A rigorous pedagogical investigation exploring a meditation session as taught through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Meditation: Changing Use of a Practice",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "meditation_changing_use_of_a_practice",
+          "reason": "A rigorous pedagogical investigation exploring changing use of a practice through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Meditation: A Traditional Practice and a Clinical Adaptation",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "meditation_a_traditional_practice_and_a_clinical_adaptation",
+          "reason": "A rigorous pedagogical investigation exploring a traditional practice and a clinical adaptation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Meditation: The Next Study Needed",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "meditation_the_next_study_needed",
+          "reason": "A rigorous pedagogical investigation exploring the next study needed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Meditation: A Universal Meditation Benefit?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "meditation_a_universal_meditation_benefit",
+          "reason": "A rigorous pedagogical investigation exploring a universal meditation benefit? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Meditation: One Program's Evidence Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "meditation_one_program_s_evidence_trail",
+          "reason": "A rigorous pedagogical investigation exploring one program's evidence trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Meditation: A Meditation Passage in Context",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "text_source",
+          "slug": "meditation_a_meditation_passage_in_context",
+          "reason": "A rigorous pedagogical investigation exploring a meditation passage in context through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Meditation: Two Readings of Contemplation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "interpretive_lineages",
+          "slug": "meditation_two_readings_of_contemplation",
+          "reason": "A rigorous pedagogical investigation exploring two readings of contemplation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Meditation: A Practitioner's Own Purpose",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "lived_practice",
+          "slug": "meditation_a_practitioner_s_own_purpose",
+          "reason": "A rigorous pedagogical investigation exploring a practitioner's own purpose through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Meditation: Within an Observance",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "ritual_sequence",
+          "slug": "meditation_within_an_observance",
+          "reason": "A rigorous pedagogical investigation exploring within an observance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Meditation: A Word Rendered as Meditation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "language_translation",
+          "slug": "meditation_a_word_rendered_as_meditation",
+          "reason": "A rigorous pedagogical investigation exploring a word rendered as meditation through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Meditation: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "meditation_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Meditation: An Effect With Uncertain Cause",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "meditation_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what cannot a small meditation study establish about a reported outcome backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Meditation: A Meditation App Under Evaluation",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "meditation_technology_innovation",
+          "why_trending": "High viral search interest exploring does one app reproduce the studied practice and support user safety backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Meditation: A Universal Meditation Benefit?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "meditation_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does a sweeping claim fit evidence for the exact method and population backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Meditation: A Practice Moves into Healthcare",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "meditation_major_events",
+          "why_trending": "High viral search interest exploring what changed when one program entered a clinical setting backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Meditation: Teachers and Participants Beyond the Founder",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "meditation_hidden_stories",
+          "why_trending": "High viral search interest exploring whose work and experience are missing from one practice history backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Meditation: One Program's Evidence Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "meditation_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a meditation program move from teaching to public health claims backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "bank_type": "detailed_pilot",
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "4ca90729aa2b4869a1a528ebb1fb43ba1334c5977bf9bac13e68d21cc995cd79"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "534b8135dc4bd3e9814a659d00ebd462a930de722132c248589a093d5f8e7c16"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-278-01",
+      "title": "Foundations and vocabulary",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-02",
+      "title": "Attention and mental processes",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-03",
+      "title": "Posture and practice environment",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-04",
+      "title": "Yoga Sutra and commentarial meditation",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-05",
+      "title": "Bhagavad Gita and Upanishadic contemplation",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-06",
+      "title": "Japa and mantra contemplation",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-07",
+      "title": "Bhakti and devotional contemplation",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-08",
+      "title": "Buddhist meditation traditions",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-09",
+      "title": "Other contemplative traditions and comparison",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-10",
+      "title": "Yoga nidra, imagery, and rest",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-11",
+      "title": "Everyday practice and learning",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-12",
+      "title": "Secular mindfulness programs",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-13",
+      "title": "Brain and cognitive research",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-14",
+      "title": "Health claims and evidence literacy",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-15",
+      "title": "Difficult experiences and participant support",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-16",
+      "title": "Teachers, institutions, and transmission",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-17",
+      "title": "Art, sound, and contemplative media",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-18",
+      "title": "Apps, access, and commercial culture",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-19",
+      "title": "Study design and research frontiers",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-20",
+      "title": "Editorial comparison and series synthesis",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-278-21",
+      "title": "Concepts",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-278-22",
+      "title": "Research",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-278-23",
+      "title": "Experience",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-278-24",
+      "title": "Institutions",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-278-25",
+      "title": "Practice",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "cfeda61f986fa06d94a79ac2de496ab79aaa3034c9473dd848c3cfba4e8195b8",
+    "TOPIC_BANK_RECONCILIATION.md": "c43c4de7753dc424fb12d3b4d05f580d362f127c39ab5e4fbcdcfcd8f38d50a6",
+    "TOPICS_COVERED_REPORT.md": "a0983c93c7b401419bb3e901dbd9a88371c55860e3880f48c0f52b8ffc1486e8",
+    "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md": "147368bcf1c2dbf80b1f9a77e302b90a413a0ed587985103599d902add72b836"
+  },
+  "starter_concept_crosswalk": {},
+  "retired_duplicate_proposals": [
+    {
+      "id": "BANK-278-002",
+      "question": "What does dhyana mean in Yoga Sutra chapter 3?",
+      "coverage": "Read dharana, dhyana, and samadhi together; compare translations of the same passage.",
+      "angle": "beginner_explainers",
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-278-024",
+      "retirement_reason": "Both source records close-read the same dharana/dhyana/samadhi sequence in Yoga Sutra3; keep one episode, full original record inactive.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-278-01"
+    },
+    {
+      "id": "BANK-278-086",
+      "question": "Retreat intensity: what support and screening does one retreat provide?",
+      "coverage": "Document policies, access to help, withdrawal options, and participant perspectives.",
+      "angle": "ethics_in_context",
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-023-022",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Inspect activities, costs, screening, accessibility, withdrawal options and support using actual published terms. / Document policies, access to help, withdrawal options, and participant perspectives. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-278-15"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Anapanasati offers a named text-practice question.",
+      "bank_ids": [
+        "BANK-278-043"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The TAME trial supplies a named MBSR program and explicit comparator.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Kabat-Zinn institutional adaptation already active; no additional teacher archive supplied.",
+      "bank_ids": [
+        "BANK-278-096"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Practice, relaxation and concentration distinctions already active.",
+      "bank_ids": [
+        "BANK-278-001"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "TAME reports a defined intervention, comparator and clinical outcome.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Dismantling/causal attribution question already active.",
+      "bank_ids": [
+        "BANK-278-109"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "App trial versus live product already active; no particular app named.",
+      "bank_ids": [
+        "BANK-278-107"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Clinical adaptation has a named founder scope.",
+      "bank_ids": [
+        "BANK-278-096"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "TAME provides a specific clinical-course comparison.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "MBSR course components already active.",
+      "bank_ids": [
+        "BANK-278-067"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Religious-to-workplace movement already active.",
+      "bank_ids": [
+        "BANK-278-124"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Secular mindfulness and Buddhist sati translation already active.",
+      "bank_ids": [
+        "BANK-278-053"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "new_bounded_case",
+      "reason": "Brief-trial distress and affect measures give a specific next-study boundary.",
+      "bank_ids": [
+        "BANK-278-128"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "new_bounded_case",
+      "reason": "One noninferiority result is not universal benefit.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "TAME publication and registration provide a bounded evidence trail.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Gita chapter 6 meditation passage is active.",
+      "bank_ids": [
+        "BANK-278-025"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Dhyana/bhavana/mindfulness translation boundaries active.",
+      "bank_ids": [
+        "BANK-278-118"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Personal practice story is active without universalization.",
+      "bank_ids": [
+        "BANK-278-120"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "out_of_scope",
+      "reason": "No named observance or consent-based field account supplied.",
+      "bank_ids": []
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Translation choices are active.",
+      "bank_ids": [
+        "BANK-278-118"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No defined record metric or comparative series.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Component-causality problem already active.",
+      "bank_ids": [
+        "BANK-278-109"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "App trial version mismatch already active.",
+      "bank_ids": [
+        "BANK-278-107"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "new_bounded_case",
+      "reason": "One diagnosed-anxiety trial cannot support universal claims.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "TAME is a bounded health-care program comparison.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Clinical adaptation and teacher history already active.",
+      "bank_ids": [
+        "BANK-278-096"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Published trial and registration make one evidence trail.",
+      "bank_ids": [
+        "BANK-278-127"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-278-127",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-278-128",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 7,
+    "starter_concepts_reviewed": 0,
+    "all_knowledge_exhausted": false,
+    "summary": "Routed 27 archives; added named TAME anxiety trial and 2026 short-session adverse-experience analysis. Existing tradition, app, mechanism and broad safety scopes retained; no universal benefit or clinical readiness inferred."
+  }
+}

@@ -1,0 +1,2068 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "032",
+  "slug": "space_exploration",
+  "name": "Space Exploration",
+  "primary_category": "Space_Astronomy",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "Individually authored episode questions and coverage boundaries for Space Exploration. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 58
+  },
+  "categories": [
+    {
+      "title": "Mission questions and constraints",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a scientific question determine a space mission's instruments?",
+          "coverage": "Trace requirements, measurements, precision, resources and alternatives through an actual mission design.",
+          "id": "BANK-032-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a launch date constrain where a spacecraft can go?",
+          "coverage": "Explain orbital geometry, transfer opportunities and mission-specific limits rather than one universal launch window.",
+          "id": "BANK-032-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a robotic mission's autonomy different from independence from Earth?",
+          "coverage": "Compare onboard decisions, ground planning, communication delay and failure handling.",
+          "id": "BANK-032-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a mission meet an engineering objective while missing a scientific one?",
+          "coverage": "Separate launch, navigation, instrument function and the data needed to answer the original question.",
+          "id": "BANK-032-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D01",
+      "prerequisites": [],
+      "parent_id": "DOMAIN-032-G01",
+      "reading_subcategory": "Mission questions and constraints"
+    },
+    {
+      "title": "Launch and transfer",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do staging and payload requirements interact in a launch design?",
+          "coverage": "Use explicit mass and performance assumptions without interpreting a simplified calculation as a complete rocket design.",
+          "id": "BANK-032-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is reaching orbit different from merely reaching space?",
+          "coverage": "Compare trajectory, speed, energy and mission definitions with properly labeled diagrams.",
+          "id": "BANK-032-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can gravity assists alter a spacecraft's route and timing?",
+          "coverage": "Trace a documented encounter, reference frames and tradeoffs without calling the maneuver free propulsion in every sense.",
+          "id": "BANK-032-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a reusable stage's recovery requirements affect its payload mission?",
+          "coverage": "Compare reserves, trajectory, hardware and refurbishment evidence rather than reuse as an isolated feature.",
+          "id": "BANK-032-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D02",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G01",
+      "reading_subcategory": "Launch and transfer"
+    },
+    {
+      "title": "Landing on other worlds",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why do lunar and Martian landings require different descent strategies?",
+          "coverage": "Compare atmosphere, gravity, terrain, sensing and actual mission constraints.",
+          "id": "BANK-032-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can terrain-relative navigation improve during a landing?",
+          "coverage": "Explain references, onboard sensing, uncertainty and remaining hazards using official mission descriptions.",
+          "id": "BANK-032-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do engineers test a landing system that cannot be fully reproduced on Earth?",
+          "coverage": "Compare simulations, component tests, analog environments and the gaps between them.",
+          "id": "BANK-032-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a landing site suitable for science be difficult for engineering?",
+          "coverage": "Balance illumination, terrain, communications, hazards and target access rather than choosing by visual interest alone.",
+          "id": "BANK-032-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D03",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G01",
+      "reading_subcategory": "Landing on other worlds"
+    },
+    {
+      "title": "Rovers and surface science",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does rover wheel design reflect terrain and lifetime assumptions?",
+          "coverage": "Compare documented loads, materials, damage and operating strategies across identified missions.",
+          "id": "BANK-032-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a rover's drill sample establish about the surrounding region?",
+          "coverage": "Consider location, sampling bias, contamination and interpretation beyond one target.",
+          "id": "BANK-032-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can route planning preserve a rover's scientific options?",
+          "coverage": "Compare energy, terrain, communications, instrument use and uncertain findings.",
+          "id": "BANK-032-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a robotic arm require more than reaching a visible rock?",
+          "coverage": "Trace positioning, contact, force, instrument geometry and calibration in a sourced example.",
+          "id": "BANK-032-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D04",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G01",
+      "reading_subcategory": "Rovers and surface science"
+    },
+    {
+      "title": "Deep-space operations",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do communication delay and bandwidth shape mission decisions?",
+          "coverage": "Compare data volume, onboard storage, prioritization and ground contact schedules.",
+          "id": "BANK-032-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a spacecraft do when it loses reliable attitude information?",
+          "coverage": "Explain documented redundancy and safe-state principles without inventing a mission's recovery procedure.",
+          "id": "BANK-032-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How are software updates managed when physical access is impossible?",
+          "coverage": "Compare verification, transmission, fallback and operational risk in published mission accounts.",
+          "id": "BANK-032-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a healthy spacecraft still have limited science time?",
+          "coverage": "Inspect power, thermal conditions, communication, pointing and instrument constraints.",
+          "id": "BANK-032-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D05",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G02",
+      "reading_subcategory": "Deep-space operations"
+    },
+    {
+      "title": "Mission histories",
+      "level": "intermediate",
+      "research_profile": "history",
+      "topics": [
+        {
+          "question": "How did Apollo navigation depend on cooperation between astronauts and ground teams?",
+          "coverage": "Use mission records to distinguish onboard capability, planning and support rather than a lone-pilot narrative.",
+          "id": "BANK-032-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What shaped Voyager's instrument and trajectory choices?",
+          "coverage": "Compare original objectives, resource constraints and later extensions without presenting later discoveries as the original plan.",
+          "id": "BANK-032-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Mars rover missions change their approach to mobility and autonomy?",
+          "coverage": "Compare actual generations, tasks, terrain experience and operational lessons.",
+          "id": "BANK-032-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a failed mission teach when the evidence is incomplete?",
+          "coverage": "Separate established causes, contributing factors, uncertainty and changes made afterward.",
+          "id": "BANK-032-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D06",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G02",
+      "reading_subcategory": "Mission histories"
+    },
+    {
+      "title": "Samples, contamination and protection",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can a sample-return mission preserve both scientific value and contamination control?",
+          "coverage": "Trace collection, containment, transport and laboratory handling using the actual mission framework.",
+          "id": "BANK-032-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why are clean instruments not automatically suitable for every planetary-protection requirement?",
+          "coverage": "Distinguish contamination types, mission categories and verification standards.",
+          "id": "BANK-032-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a returned sample reveal that remote sensing cannot?",
+          "coverage": "Compare available measurements, context and the limits of extrapolating a small specimen to an entire world.",
+          "id": "BANK-032-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an unexpected chemical result be checked before announcing evidence of life?",
+          "coverage": "Inspect contamination, abiotic explanations, controls and independent analysis.",
+          "id": "BANK-032-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D07",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G02",
+      "reading_subcategory": "Samples, contamination and protection"
+    },
+    {
+      "title": "Economics and public interpretation",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can robotic and crewed missions be compared without assuming one universal winner?",
+          "coverage": "Specify objectives, duration, risk, capability, cost and alternatives.",
+          "id": "BANK-032-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a space mission budget include beyond the launch vehicle?",
+          "coverage": "Trace development, operations, ground systems, data analysis and long-term obligations.",
+          "id": "BANK-032-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a documentary label mission concepts that have not secured approval or funding?",
+          "coverage": "Separate proposals, studies, contracts and hardware milestones with dates.",
+          "id": "BANK-032-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a mission's extension demonstrate about planning under uncertainty?",
+          "coverage": "Compare original design, actual condition, new opportunities and tradeoffs rather than calling every extension effortless.",
+          "id": "BANK-032-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-032-D08",
+      "prerequisites": [
+        "CATALOG-032-D01"
+      ],
+      "parent_id": "DOMAIN-032-G03",
+      "reading_subcategory": "Economics and public interpretation"
+    },
+    {
+      "id": "CATALOG-032-R01",
+      "title": "Archives, navigation and end of life",
+      "level": "advanced",
+      "parent_id": "DOMAIN-032-09",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "23180d05a00ffe6d5e8f93ba8efb7c77f1149493e444fc5074bae1c87e966803",
+      "topics": [
+        {
+          "question": "How does a spacecraft navigate when a round trip message takes too long for direct control?",
+          "coverage": "Compare onboard autonomy, prediction, tracking and delayed verification in a conceptual deep-space mission.",
+          "id": "BANK-032-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens to scientific data between a spacecraft's storage and a public archive?",
+          "coverage": "Trace prioritization, compression, transmission, calibration, metadata and release delays.",
+          "id": "BANK-032-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do mission teams decide which observations to sacrifice when resources become scarce?",
+          "coverage": "Compare power, pointing, time, instrument health and scientific objectives without assuming a single optimization rule.",
+          "id": "BANK-032-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a responsible spacecraft end-of-mission plan try to protect?",
+          "coverage": "Separate debris, planetary contamination, radio use, records and future mission access with policy verification deferred.",
+          "id": "BANK-032-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-032-R02",
+      "title": "Instrument reliability",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-032-G01",
+      "research_profile": "synthesis",
+      "prerequisites": [],
+      "local_group_identity": "e0285c19f3b0581625c737ce73b8530fc2bb80a161798667022ef28c0dd7c0fb",
+      "topics": [
+        {
+          "question": "Why can radiation protection for spacecraft electronics require more than adding shielding?",
+          "coverage": "Compare accumulated exposure, individual upset events, component selection, redundancy and error checks in a public documented design; distinguish instrument reliability from crew exposure or a universal safe shielding thickness.",
+          "covers_starter_ids": [
+            "BANK-032-004"
+          ],
+          "origin": "editorial_starter_scope_review",
+          "id": "BANK-032-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-032-R03",
+      "title": "Named mission evidence and design tradeoffs",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-032-G01",
+      "research_profile": "science",
+      "prerequisites": [],
+      "topics": [
+        {
+          "question": "How did the Apollo 11 crew and ground team decide to continue through the 1201 and 1202 alarms?",
+          "coverage": "Use mission elapsed times, computer priority design, radar-switch state, crew calls and fuel countdown; do not place all alarms in the final 60 seconds.",
+          "id": "BANK-032-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Sputnik 1 and Vostok 1 differ as engineering and political milestones?",
+          "coverage": "Compare mission objectives, flight records, launch systems and public claims; avoid a single winner account of an entire space race.",
+          "id": "BANK-032-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did Curiosity use a powered descent stage and sky crane rather than a conventional lander?",
+          "coverage": "Trace mass, atmosphere, aeroshell and landing-site constraints against the actual EDL sequence; separate telemetry from dramatic narration.",
+          "id": "BANK-032-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do Saturn V stage records show about liftoff thrust, propellant flow and delivered payload?",
+          "coverage": "Specify stage and instant for dimensions or fuel-rate numbers and keep nominal design separate from flown performance.",
+          "id": "BANK-032-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did New Horizons plan a one-pass Pluto observation sequence under communication delay?",
+          "coverage": "Compare encounter geometry, instruments, stored data and downlink; distinguish geological evidence from the phrase living world.",
+          "id": "BANK-032-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did launch capacity and orbital construction shape the ISS assembly sequence?",
+          "coverage": "Trace selected modules, launches, docking and EVA dependencies using dated program records; do not conflate station mass with a single launch.",
+          "id": "BANK-032-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What are the approved requirements and remaining decisions for ending ISS operations and controlling reentry?",
+          "coverage": "Separate funded deorbit capability, operations target dates, debris footprint assumptions and international partner decisions; do not promise a precise year or point.",
+          "id": "BANK-032-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which risks does a spacewalk suit and support plan control during a selected EVA?",
+          "coverage": "Select a named NASA or commercial EVA; distinguish suit life support, tether, vehicle interface, rescue, testing and mission-first wording.",
+          "id": "BANK-032-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a xenon ion propulsion mission exchange low thrust for high total velocity change?",
+          "coverage": "Use a named flight system with power, propellant and operating time; do not call its exhaust speed the spacecraft speed.",
+          "id": "BANK-032-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How was the James Webb Space Telescope deployment tested and monitored after launch?",
+          "coverage": "Trace launch configuration, sunshield and mirror deployment telemetry, contingencies and later commissioning; separate successful deployment from all later science.",
+          "id": "BANK-032-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do dated Starship flight tests demonstrate about booster recovery and fully reusable architecture?",
+          "coverage": "Identify flight number, hardware version, launch permit and observed outcome; one booster catch is not full operational reusability.",
+          "id": "BANK-032-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which assumptions determine whether nuclear thermal propulsion could shorten a Mars transit?",
+          "coverage": "Compare reactor concept, propellant, specific impulse, mission geometry, radiation, launch safety and demonstrated-versus-proposed status; avoid an unconditional half-time promise.",
+          "id": "BANK-032-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which orbital conditions make a collision cascade plausible, and what mitigations alter the model?",
+          "coverage": "Define altitude, object population, encounter rate and removal assumptions; avoid claiming all access to space becomes impossible.",
+          "id": "BANK-032-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the Mars MOXIE oxygen experiment demonstrate, and what remains for mission-scale ISRU?",
+          "coverage": "Use measured run outputs and power/thermal limits; distinguish oxygen production from complete propellant and storage infrastructure.",
+          "id": "BANK-032-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does Parker Solar Probe keep instruments within operating limits near the Sun?",
+          "coverage": "Trace heat shield, trajectory and perihelion telemetry; solar atmosphere is a science target, not a literal fire layer.",
+          "id": "BANK-032-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do flown solar-sail missions demonstrate about photon-pressure propulsion?",
+          "coverage": "Use named mission area-to-mass ratio, deployment and measured trajectory change; distinguish sunlight from speculative interstellar schemes.",
+          "id": "BANK-032-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How is the overview effect documented, and what can astronaut testimony not establish?",
+          "coverage": "Compare original interviews, selection effects and psychological measures; avoid a universal consciousness-change claim.",
+          "id": "BANK-032-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which technical and operational decisions changed the first Starliner crew-flight return plan?",
+          "coverage": "Use NASA and Boeing dated anomaly, risk and crew-return records; avoid ?stranded? as a substitute for flight-plan evidence.",
+          "id": "BANK-032-067",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do lunar heat-shield decisions and lander fueling demonstrations affect Artemis flight schedules?",
+          "coverage": "Use dated NASA baseline and contractor milestone records; separate Artemis II and III dependencies from unscheduled future promises.",
+          "id": "BANK-032-068",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Chang?e 6 obtain and return lunar far-side samples, and what were the handling constraints?",
+          "coverage": "Trace mission sequence, relay, sampling locality and custody; interpretation of samples belongs primarily to niche 346.",
+          "id": "BANK-032-069",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does Europa Clipper use a multi-year transfer before its Europa flybys?",
+          "coverage": "Compare launch vehicle, gravity-assist route, radiation-limited flyby plan and actual mission status; the ocean?s habitability is niche 345 science.",
+          "id": "BANK-032-070",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "history": {
+      "requirements": "Compare dated primary records, material evidence and historical scholarship. Distinguish event dates, the dates of surviving witnesses, later retellings and disagreement. Do not invent quotations, intentions or an unbroken lineage.",
+      "source_leads": [
+        "dated archival records and original publications",
+        "inscriptions, artifacts or photographs with provenance",
+        "critical editions and historical scholarship"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "012",
+      "title": "Space / Universe",
+      "directory": "012_space_universe",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "159",
+      "title": "Satellites & Earth Observation",
+      "directory": "159_satellites_earth_observation",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "344",
+      "title": "Astronomy",
+      "directory": "344_astronomy",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "345",
+      "title": "Planetary Science",
+      "directory": "345_planetary_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "346",
+      "title": "Moon Science",
+      "directory": "346_moon_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "347",
+      "title": "Solar Science",
+      "directory": "347_solar_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "032",
+    "slug": "space_exploration",
+    "name": "Space Exploration",
+    "primary_category": "Space_Astronomy",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Space Exploration YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-032-01",
+        "title": "Mission design",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-032-001",
+            "title": "Launch windows and transfer trajectories",
+            "question": "Launch windows and transfer trajectories: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Space Exploration; branch: Mission design. Address Launch windows and transfer trajectories through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Launch windows and transfer trajectories.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-002",
+            "title": "Planetary landing guidance",
+            "question": "Planetary landing guidance: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Space Exploration; branch: Mission design. Address Planetary landing guidance through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Planetary landing guidance.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-003",
+            "title": "Deep-space communication delays",
+            "question": "Deep-space communication delays: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Space Exploration; branch: Mission design. Address Deep-space communication delays through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Deep-space communication delays.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-004",
+            "title": "Radiation protection for instruments",
+            "question": "Radiation protection for instruments: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Space Exploration; branch: Mission design. Address Radiation protection for instruments through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Radiation protection for instruments.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-032-02",
+        "title": "Mission histories",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-032-01"
+        ],
+        "research_profile": "history",
+        "topics": [
+          {
+            "id": "BANK-032-005",
+            "title": "Apollo navigation and ground support",
+            "question": "Apollo navigation and ground support: what do contemporary records establish, and what remains uncertain?",
+            "coverage": "Primary context: Space Exploration; branch: Mission histories. Address Apollo navigation and ground support through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Locate Apollo navigation and ground support in a bounded time and place; build a chronology from identified records.",
+              "Compare at least two independent witnesses or explain why only one survives.",
+              "Analyze institutions, material conditions and overlooked participants rather than attributing everything to a single figure.",
+              "Separate documented conclusions, interpretive debates and gaps that a reconstruction cannot resolve."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-006",
+            "title": "Voyager instrument choices",
+            "question": "Voyager instrument choices: what do contemporary records establish, and what remains uncertain?",
+            "coverage": "Primary context: Space Exploration; branch: Mission histories. Address Voyager instrument choices through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Locate Voyager instrument choices in a bounded time and place; build a chronology from identified records.",
+              "Compare at least two independent witnesses or explain why only one survives.",
+              "Analyze institutions, material conditions and overlooked participants rather than attributing everything to a single figure.",
+              "Separate documented conclusions, interpretive debates and gaps that a reconstruction cannot resolve."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-007",
+            "title": "Mars rover mobility evolution",
+            "question": "Mars rover mobility evolution: what do contemporary records establish, and what remains uncertain?",
+            "coverage": "Primary context: Space Exploration; branch: Mission histories. Address Mars rover mobility evolution through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Locate Mars rover mobility evolution in a bounded time and place; build a chronology from identified records.",
+              "Compare at least two independent witnesses or explain why only one survives.",
+              "Analyze institutions, material conditions and overlooked participants rather than attributing everything to a single figure.",
+              "Separate documented conclusions, interpretive debates and gaps that a reconstruction cannot resolve."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-008",
+            "title": "Sample-return contamination controls",
+            "question": "Sample-return contamination controls: what do contemporary records establish, and what remains uncertain?",
+            "coverage": "Primary context: Space Exploration; branch: Mission histories. Address Sample-return contamination controls through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Locate Sample-return contamination controls in a bounded time and place; build a chronology from identified records.",
+              "Compare at least two independent witnesses or explain why only one survives.",
+              "Analyze institutions, material conditions and overlooked participants rather than attributing everything to a single figure.",
+              "Separate documented conclusions, interpretive debates and gaps that a reconstruction cannot resolve."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-032-03",
+        "title": "Exploration decisions",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-032-01"
+        ],
+        "research_profile": "synthesis",
+        "topics": [
+          {
+            "id": "BANK-032-009",
+            "title": "Robotic versus crewed mission tradeoffs",
+            "question": "Robotic versus crewed mission tradeoffs: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: Space Exploration; branch: Exploration decisions. Address Robotic versus crewed mission tradeoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Robotic versus crewed mission tradeoffs and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-010",
+            "title": "Planetary protection standards",
+            "question": "Planetary protection standards: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: Space Exploration; branch: Exploration decisions. Address Planetary protection standards through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Planetary protection standards and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-011",
+            "title": "Launch vehicle reusability evidence",
+            "question": "Launch vehicle reusability evidence: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: Space Exploration; branch: Exploration decisions. Address Launch vehicle reusability evidence through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Launch vehicle reusability evidence and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-032-012",
+            "title": "Space mission budget and schedule risk",
+            "question": "Space mission budget and schedule risk: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: Space Exploration; branch: Exploration decisions. Address Space mission budget and schedule risk through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Space mission budget and schedule risk and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "history": {
+        "requirements": "Compare dated primary records, material evidence and historical scholarship. Distinguish event dates, the dates of surviving witnesses, later retellings and disagreement. Do not invent quotations, intentions or an unbroken lineage.",
+        "source_leads": [
+          "dated archival records and original publications",
+          "inscriptions, artifacts or photographs with provenance",
+          "critical editions and historical scholarship"
+        ]
+      },
+      "synthesis": {
+        "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+        "source_leads": [
+          "the original sources behind the compared claims",
+          "explicit definitions and measurement methods",
+          "independent critiques with traceable evidence"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "012",
+        "title": "Space / Universe",
+        "directory": "012_space_universe",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "159",
+        "title": "Satellites & Earth Observation",
+        "directory": "159_satellites_earth_observation",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "344",
+        "title": "Astronomy",
+        "directory": "344_astronomy",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "345",
+        "title": "Planetary Science",
+        "directory": "345_planetary_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "346",
+        "title": "Moon Science",
+        "directory": "346_moon_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "347",
+        "title": "Solar Science",
+        "directory": "347_solar_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_03"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/032_space_exploration/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "aaa9f2ffab3b78f78bd91d5e529ebb8d418db9aebd05c005c48efe1d92c1d368",
+    "source_kind": "detailed_expansion",
+    "source_records": {
+      "BANK-032-013": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dde16554bdaed8ba5332895bc70f667bb57a99a1b665b0f2b5211910cbe261ba"
+      },
+      "BANK-032-014": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "694aa4288899c27afab6ceaaf01766d2803fb786ee9cc780ee9c5b15641db561"
+      },
+      "BANK-032-015": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7bf1d32eb2b4bf70f1d48eff3257ec2bf9aea118800edaeb9baa995c99201b2f"
+      },
+      "BANK-032-016": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "306d0b545cc74cfa5d01061bc68562da6a7f2f0685a1ffad2212ae56a0e5adf7"
+      },
+      "BANK-032-017": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "00b3e5ecb472a8660fd6c8cd1ec6e993c014af27b2835c4d176b6715791272de"
+      },
+      "BANK-032-018": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bf3ba9520f372fd445319e35a10ed28cf56149c10e9dda6338cdc31daa4c4c7c"
+      },
+      "BANK-032-019": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ac3ee6ff2b263069a46b2eb24c809854732fbe49ad87c6e6772ca00c2aec9c97"
+      },
+      "BANK-032-020": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "83e37b6360596368464bcf04d460250bae3c271f8a2f7acdcb4051fc7f8a9ac1"
+      },
+      "BANK-032-021": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ca64adc4769d09e2469691b975c5936567bccf8aada09215dbb49bd3ab735de3"
+      },
+      "BANK-032-022": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d6824a491d741e1a6a198b9e9894ee804520e9350f033d45e5d4e1829d900ed5"
+      },
+      "BANK-032-023": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1ad20c29b490b2454c30e7f35973ec2d3d9303b5f497ddbc9fe7876782896db3"
+      },
+      "BANK-032-024": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c38c40022dd7cb31634c27755ab603f3b14185c3a962003becb6cd8ef6662f56"
+      },
+      "BANK-032-025": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1b1fe4a12cb18ae0456d54b6730fe7d788f72a7b85c17fb73df55d538f4d9e34"
+      },
+      "BANK-032-026": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "934eef7bffbbb58fc8d3ac37bb8080506a90116670b6bc90226570eecb682634"
+      },
+      "BANK-032-027": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f3f6d138bc4513b29b25c7a822c034d8646d4daa267c62bd5a2d8510cc9976bf"
+      },
+      "BANK-032-028": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f723b462f6ac742446e088722e3e66cab757fc5f6e0fd8b4ed037d4c42bb97f2"
+      },
+      "BANK-032-029": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a51f7bae55ea62d0b23981d5899264f82d93fefeb816f7fb9100dea0af1c07ea"
+      },
+      "BANK-032-030": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4c17c2fc9b7ef952d5e51795a2d3a07ba41653de6880b0d9aeeb61e7711df74e"
+      },
+      "BANK-032-031": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7d8f8387bb20580f98888c321f2ec0ed84bedd907d1a99ad2737a1f65ca93c69"
+      },
+      "BANK-032-032": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "64d98632770fc4ff3ffbbfa7bf279c7b981ddd57ec66fa1c8586e2658e9647c9"
+      },
+      "BANK-032-033": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "60f382583bc13f6ac26614d2005fea4cd0e66b865cf8a5dfb0b6fcccb4287d59"
+      },
+      "BANK-032-034": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "caaf719468339a93ca77419a35aa14f2d6c4ee40afbffdad373ec4b218b829de"
+      },
+      "BANK-032-035": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9c5f36db83a4779bb6f74bff152a96394d0c7033751daaab2da7037c7f2e07f2"
+      },
+      "BANK-032-036": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7be9282f104d06e5a5e485d36bf44fcf296643c16b3f3049bf7003c18af7dd53"
+      },
+      "BANK-032-037": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e3cec1d530333581019974a2e737045921240c6317bf12fdeb9245ca7b3b29ac"
+      },
+      "BANK-032-038": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f869fdc5bb3df3593b9f324d976e36201fc0b4bd4bec9515baf9a7c810e5873c"
+      },
+      "BANK-032-039": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ba910442643d1e01ef59fc5352c4e489b04ce9a65f29f4628869c9d4f5f9f25c"
+      },
+      "BANK-032-040": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d1d5a18ae6ef9a4d6637e9b29ff95ace3c19ca52844e85012b153797fefa9f0f"
+      },
+      "BANK-032-041": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f1e1bd570fb6c410c14edcfa014a869823b939b8bcda718e939f4c6fc6202fc4"
+      },
+      "BANK-032-042": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "490652deae868c5f3299f221806a0489c2d5143941986cc3b2a9f8ec88ce8968"
+      },
+      "BANK-032-043": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5bdd986cd209675171dd9f933fa182c189f1fca4af2a44e440601c2058fb59d5"
+      },
+      "BANK-032-044": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0fc516fae0a8b03194c58007585969187e9f3e94e530d48cba69e74b8f19354e"
+      }
+    },
+    "source_categories": {
+      "CATALOG-032-D01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "992c6a86d677ce27e948d34283ac0ad8369f04d01d9e1d9ba5f267101205e6d0"
+      },
+      "CATALOG-032-D02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "2ba14a9c82d5411aada8a626ebeb2a658f9c901226fd9e9a65b649e56f874620"
+      },
+      "CATALOG-032-D03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "b3d2699076cb716c0234986757e03a13d1c18a0d182d273d6f6927ff08c5bbef"
+      },
+      "CATALOG-032-D04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "8f4359aae73d0b2273fa2b6bbdab191b2ab6a4f422208f0572f3a12f4746f359"
+      },
+      "CATALOG-032-D05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "bc69fd1e8bf5ea63eae44c7070901081db1786a1d31f89329a2adff3f7b8807e"
+      },
+      "CATALOG-032-D06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "1383c73c3c8651d60526eb71ee7a7556c1d94e8521c0c0fe0548472a18a37ab7"
+      },
+      "CATALOG-032-D07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "fbad3ad8c461d7bc2c0557ecee4b0f01fa4ef10bf3978aa2485e1e4505323a3f"
+      },
+      "CATALOG-032-D08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "5a6f0055644834928476b9f0fa4a9c5bc1705bd4a66877762071a9552f52a2cf"
+      }
+    },
+    "source_initial_archive_sha256": "d1cbf3c0c37879e8ee113aa0e679151193f4b5f39ca540f9396edf065aff6b6f",
+    "local_files": {
+      "032_SPACE_EXPLORATION_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "e285960f34b17399462ee6914dbff1e49db72f5816c1bcbd3bf59d8aa5a3e072",
+        "original_text": "# Space Exploration Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 032 Space Exploration (Space_Astronomy)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Aerospace Engineers, Space Enthusiasts, Astronomy Buffs, Tech Observers (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/032_space_exploration/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Space Exploration across four progressive tiers:\r\n- **Tier 1: Rocketry Foundations, Orbital Mechanics & Early Spaceflight (Scratch / Beginner)** — Tsiolkovsky rocket equation, Hohmann transfer orbits, staging mass ratios, and the V-2 to Sputnik Space Race origins.\r\n- **Tier 2: Lunar Landings, Deep Space Probes & Robotic Rovers (Intermediate)** — Apollo Lunar Module guidance computers (AGC), gravity assist slingshots (Voyager), Mars rover entry/descent/landing (Sky Crane), and sample return.\r\n- **Tier 3: Space Stations, In-Orbit Assembly & Orbital Telecommunications (Upper Intermediate)** — ISS modular orbital mechanics, extravehicular activity (EVA) suit engineering, ion electric propulsion, and reusable booster landings.\r\n- **Tier 4: Interplanetary Colonization, Propulsion Breakthroughs & Deep Space Telescopy (Advanced / Expert)** — Nuclear thermal rockets (NTR), in-situ resource utilization (ISRU) methane synthesis, James Webb optical cryo-alignment, and interstellar solar sails.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/032_space_exploration/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/032_space_exploration/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **Why a Mission Was Conceived** | *Which scientific or operational question drove one space mission?* |\r\n| 2 | `famous_examples` | **A Landmark Mission Reexamined** | *What did one celebrated mission measure versus what later accounts claim?* |\r\n| 3 | `hidden_stories` | **The Teams Behind a Spacecraft** | *Whose engineering, operations, and analysis work is absent from a mission narrative?* |\r\n| 4 | `beginner_explainers` | **From Launch to Data** | *How does an uncrewed mission travel, operate instruments, and return results?* |\r\n| 5 | `advanced_concepts` | **A Mission's Design Tradeoffs** | *How do mass, power, data rate, trajectory, and science time constrain one spacecraft?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexplained Mission Signal** | *Which technical or scientific explanations fit one anomaly?* |\r\n| 7 | `technology_innovation` | **A Spacecraft Capability Proven** | *Which new component expanded what a mission could do?* |\r\n| 8 | `people_personalities` | **A Mission Decision Maker** | *How did a named scientist or engineer influence one documented choice?* |\r\n| 9 | `major_events` | **A Mission's Critical Maneuver** | *What did one launch, flyby, landing, or recovery event establish?* |\r\n| 10 | `how_it_works` | **Operating a Scientific Instrument** | *How does one space instrument turn a target into calibrated data?* |\r\n| 11 | `rise_fall` | **A Mission That Changed Scope** | *Why was one mission curtailed, extended, or repurposed?* |\r\n| 12 | `then_vs_now` | **Two Missions to the Same Target** | *How did instruments and questions differ across two dated missions?* |\r\n| 13 | `future_developments` | **A Planned Mission's Testable Goals** | *What must a proposed mission measure to answer its stated question?* |\r\n| 14 | `myths_vs_facts` | **Checking a Spaceflight Claim** | *Does a public claim about distance, cost, or discovery match mission records?* |\r\n| 15 | `documentary_stories` | **A Mission Through Its Archive** | *How did one mission move from concept to released data?* |\r\n| 16 | `observation_to_explanation` | **From Telemetry to Discovery** | *Which steps turn one received signal into a physical claim?* |\r\n| 17 | `measurement_method` | **A Space Instrument's Measurement** | *What quantity did one instrument actually record?* |\r\n| 18 | `scale_and_timespan` | **Light-Time and Mission Timing** | *How do distance and communication delay change a mission decision?* |\r\n| 19 | `field_vs_lab` | **Qualification Versus Flight** | *Which ground tests did a component pass, and how did it behave in space?* |\r\n| 20 | `natural_variation` | **Signal Against Space Weather** | *Can natural environmental variation explain a reported anomaly?* |\r\n| 21 | `mechanism_chain` | **A Maneuver's Physical Chain** | *How do navigation data, propulsion, and gravity produce one trajectory change?* |\r\n| 22 | `extreme_case` | **A Mission at an Operating Limit** | *What did a high-radiation, cold, or long-duration mission reveal about design margins?* |\r\n| 23 | `classification_debate` | **What Counts as Mission Success?** | *How do science and engineering teams define success differently for one mission?* |\r\n| 24 | `interacting_systems` | **Spacecraft and Environment** | *How did thermal, power, communication, and target conditions interact?* |\r\n| 25 | `data_gap` | **A Missing Observation Window** | *Which mission gap most limits one scientific conclusion?* |\r\n| 26 | `prediction_test` | **A Mission Model Meets Telemetry** | *What did a dated navigation or instrument model predict before flight data arrived?* |\r\n| 27 | `human_impact` | **Who Benefits from Mission Data?** | *How did one mission's data enter research, education, or policy?* |\r\n| 28 | `field_observation_window` | **A Target in View** | *How did orbital geometry and scheduling limit one observation?* |\r\n| 29 | `field_instrument_limit` | **A Sensor's Detection Threshold** | *Which sensitivity or resolution limit matters for one mission claim?* |\r\n| 30 | `field_orbital_dynamics` | **Choosing a Transfer Orbit** | *Which trajectory constraints determined one mission's route?* |\r\n| 31 | `field_mission_tradeoff` | **Science Within a Budget** | *Which science goal was gained or lost in one documented design trade?* |\r\n| 32 | `field_planetary_environment` | **Operating at the Target** | *Which measured conditions challenged a probe, lander, or rover?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Rocketry Foundations & Early Spaceflight\r\n1. **Apollo 11: The Critical 1202 Alarm and the Final 60 Seconds of Lunar Descent**\r\n   - *Question:* How did Neil Armstrong and Buzz Aldrin land the Eagle on the Sea of Tranquility with 20 seconds of fuel remaining while computers rebooted?\r\n   - *Key Focus:* Margaret Hamilton's asynchronous Apollo Guidance Computer software, radar rendezvous overflow, manual joystick takeover, fuel slosh.\r\n2. **The Tsiolkovsky Rocket Equation: The Tyranny of the Fuel-to-Mass Ratio**\r\n   - *Question:* Why must 90% of a rocket's total launch pad mass be propellant just to lift a tiny payload into low Earth orbit?\r\n   - *Key Focus:* Konstantin Tsiolkovsky, Delta-v requirements, specific impulse (Isp), why multistage rocketry is physically mandatory.\r\n3. **Orbital Mechanics 101: How Moving Faster Drops You into a Lower Orbit**\r\n   - *Question:* Why is navigation in space completely counter-intuitive: why burning engines forward raises your orbit and slows you down?\r\n   - *Key Focus:* Johannes Kepler's laws, Hohmann transfer orbits, orbital rendezvous phasing, prograde vs retrograde burns.\r\n4. **Sputnik & Yuri Gagarin: How the Soviet Union Won the First Rounds of the Space Race**\r\n   - *Question:* How did Chief Designer Sergei Korolev hide his identity while beating America into orbit with a modified intercontinental ballistic missile?\r\n   - *Key Focus:* R-7 Semyorka rocket, Sputnik's 20 MHz radio beep, Vostok 1 spherical ejection capsule, Gagarin's 108-minute orbit.\r\n### Tier 2: Lunar Landings & Deep Space Probes\r\n5. **Gravity Assists: How Voyager Used Planetary Slingshots to Escape the Solar System**\r\n   - *Question:* How did Gary Flandro calculate a once-in-176-year planetary alignment that allowed two probes to steal orbital energy from Jupiter and Saturn?\r\n   - *Key Focus:* Conservation of momentum, hyperbolic flybys, stealing orbital velocity from gas giants, Pale Blue Dot photograph.\r\n6. **Seven Minutes of Terror: The Insane Physics of the Mars Curiosity Sky Crane**\r\n   - *Question:* How do you decelerate a 1-ton rover from 13,000 mph to zero in Mars' thin atmosphere using heat shields, parachutes, and rocket cables?\r\n   - *Key Focus:* Atmospheric entry ablation, supersonic disk-gap-band parachute deployment, radar altimetry, tethered rocket-powered sky crane.\r\n7. **Saturn V: The Machine That Stood 363 Feet Tall and Burned 15 Tons of Fuel per Second**\r\n   - *Question:* How did Wernher von Braun's team cure the violent combustion instability in the massive F-1 rocket engines that threatened to blow the rocket apart?\r\n   - *Key Focus:* RP-1 kerosene and liquid oxygen turbopumps, combustion chamber injector baffles, 7.5 million pounds of thrust, 100% launch success.\r\n8. **New Horizons: Flying by Pluto at 36,000 MPH and Unveiling a Living World**\r\n   - *Question:* What did humanity's fastest launch vehicle discover when it swept past Pluto after a 9.5-year journey across 3 billion miles of darkness?\r\n   - *Key Focus:* Sputnik Planitia nitrogen ice heart, convecting glacial cells, cryovolcanoes, Charon's dark red tholin north pole.\r\n### Tier 3: Space Stations & Orbital Telecommunications\r\n9. **The International Space Station: Assembling a 450-Ton Habitat in Zero Gravity**\r\n   - *Question:* How did 15 nations connect 16 pressurized modules, solar arrays spanning a football field, and cooling radiators during 160 spacewalks?\r\n   - *Key Focus:* Zarya and Unity module docking, Canadarm2 robotic manipulation, orbital ammonia cooling loops, living continuously in orbit since 2000.\r\n10. **Falcon 9 & Reusability: How Propulsive Landing Landed the Rocket Business**\r\n   - *Question:* Why did aerospace giants believe landing a 14-story orbital booster on an autonomous droneship in rolling seas was impossible?\r\n   - *Key Focus:* Titanium grid fins aerodynamic steering, Merlin 1D throttle control, supersonic retro-propulsion, cutting launch costs by 70%.\r\n11. **Spacewalk Hazards: The Extravehicular Mobility Unit (EMU) as an Independent Spaceship**\r\n   - *Question:* How does an astronaut survive in a vacuum of 250°F swings, and what happened when water flooded Luca Parmitano's helmet in 2013?\r\n   - *Key Focus:* Liquid cooling and ventilation garments, micrometeorite shielding layers, pure oxygen pre-breathe to avoid decompression sickness, sublimation cooling.\r\n12. **Ion Propulsion: How Xenon Gas Accelerates Spacecraft to Millions of Miles per Hour**\r\n   - *Question:* Why does a thruster that produces the gentle force of a sheet of paper resting on your hand allow probes to explore multiple asteroids?\r\n   - *Key Focus:* Hall effect thrusters, electrostatic ion acceleration, specific impulse of 3,000+ seconds, Dawn mission visiting Vesta and Ceres.\r\n### Tier 4: Interplanetary Colonization & Frontier Telescopy\r\n13. **James Webb Space Telescope: Unfolding a Golden Honeycomb in Deep Space**\r\n   - *Question:* How did engineers execute 344 single-point failures to deploy a tennis-court-sized sunshield and gold beryllium mirrors at Lagrange Point 2?\r\n   - *Key Focus:* Kapton 5-layer sunshield thermal differential (300K drop), cryocooler at 7 Kelvin, micro-actuator hex mirror alignment.\r\n14. **Starship: The Architecture of Fully Reusable Heavy-Lift Interplanetary Transit**\r\n   - *Question:* Why did SpaceX choose stainless steel and liquid methane over carbon fiber to build a 150-ton payload rocket caught by mechanical chopsticks?\r\n   - *Key Focus:* Full-flow staged combustion cycle (Raptor engine), belly-flop atmospheric skydive, Mechazilla tower catch arms, orbital propellant transfer.\r\n15. **Nuclear Thermal Propulsion: How Atomic Rockets Cut Mars Transit Time in Half**\r\n   - *Question:* How does pumping liquid hydrogen through an ultra-hot nuclear fission core double specific impulse compared to chemical rockets?\r\n   - *Key Focus:* Project Rover and NERVA testing, modern DRACO (Demonstration Rocket for Agile Cislunar Operations), reducing cosmic radiation exposure for astronauts.\r\n16. **The Kessler Syndrome: How Space Debris Could Trap Humanity on Earth**\r\n   - *Question:* Can high-velocity collisions between defunct satellites create an exponential cascade of shrapnel that renders Low Earth Orbit unusable?\r\n   - *Key Focus:* Donald J. Kessler's 1978 paper, tracking 30,000 objects over 10cm, anti-satellite missile tests, active debris removal harpoons and lasers.\r\n17. **In-Situ Resource Utilization (ISRU): Making Fuel from the Martian Atmosphere**\r\n   - *Question:* How did the MOXIE instrument on the Perseverance rover successfully extract breathable oxygen from Mars' carbon dioxide atmosphere?\r\n   - *Key Focus:* Sabatier catalytic reaction (CO2 + 4H2 -> CH4 + 2H2O), solid oxide electrolysis, manufacturing return propellant on the Martian surface.\r\n18. **The Parker Solar Probe: Flying into the Fiery Atmosphere of the Sun at 430,000 MPH**\r\n   - *Question:* How does a carbon-composite foam shield protect scientific instruments from 2,500°F solar heat as it touches the Sun's corona?\r\n   - *Key Focus:* Fastest human-made object in history, solving the coronal heating paradox, Alfvén critical surface crossing, solar wind origin.\r\n19. **Solar Sails: Propelling Starships with the Momentum of Pure Starlight**\r\n   - *Question:* How does reflected photon momentum push ultra-thin reflective aluminized mylar sheets across the solar system without any fuel?\r\n   - *Key Focus:* LightSail 2, JAXA IKAROS mission, Breakthrough Starshot 100-gigawatt ground laser array aiming for Alpha Centauri at 20% speed of light.\r\n20. **The Overview Effect: How Seeing Earth from Space Changes Human Consciousness**\r\n   - *Question:* Why do astronauts from opposing nations weep and experience permanent shifts in identity upon viewing the fragile borderless blue sphere?\r\n   - *Key Focus:* Frank White's psychological concept, Edgar Mitchell's epiphany on Apollo 14, thin atmospheric blue line, cognitive reorganization.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 032 (Space Exploration)\r\n- **Angle Preset:** `beginner_explainers`\r\n- **Episode Title:** *Apollo 11: The Critical 1202 Alarm and the Final 60 Seconds of Lunar Descent*\r\n- **Episode Slug:** `032_space_exploration_beginner_explainers_apollo_11_lunar_descent`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/032_space_exploration/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "732e43f9fd1610b18f63daec075a223d39aecdc7d35c2f355c4e85035475babc",
+        "original_text": "# 032 Space Exploration -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 032 Space Exploration (Space_Astronomy)  \r\n> **Storage Directory:** `topics/032_space_exploration/`  \r\n> **Synchronized With:** `OUTPUT/032_space_exploration/`, `REGISTRY/Niches/032_space_exploration/`, and `032_SPACE_EXPLORATION_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 032 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/032_space_exploration](../../OUTPUT/032_space_exploration) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **Apollo 11: The Critical 1202 Alarm and the Final 60 Seconds of Lunar Descent** | Tier 1: Rocketry Foundations & Early Spaceflight | `beginner_explainers` | `apollo_11_lunar_module_descent_1202_program_alarm_armstrong` | Flagship launch episode; the most dramatic human achievement in exploration history. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **The Tsiolkovsky Rocket Equation: The Tyranny of the Fuel-to-Mass Ratio** | Tier 1: Rocketry Foundations & Early Spaceflight | `how_it_works` | `tsiolkovsky_rocket_equation_delta_v_exhaust_velocity_staging` | The foundational mathematical law governing every spacecraft ever launched by humanity. | `QUEUED` |\r\n| 3 | **Orbital Mechanics 101: How Moving Faster Drops You into a Lower Orbit** | Tier 1: Rocketry Foundations & Early Spaceflight | `famous_examples` | `orbital_mechanics_hohmann_transfer_elliptical_orbits_rendezvous` | Essential astrodynamics education for anyone wanting to understand spaceflight trajectories. | `QUEUED` |\r\n| 4 | **Sputnik & Yuri Gagarin: How the Soviet Union Won the First Rounds of the Space Race** | Tier 1: Rocketry Foundations & Early Spaceflight | `history_origins` | `sputnik_yuri_gagarin_sergei_korolev_r7_semyorka_space_race` | The geopolitical ignition point that transformed space from speculative science fiction into national priority. | `QUEUED` |\r\n| 5 | **Gravity Assists: How Voyager Used Planetary Slingshots to Escape the Solar System** | Tier 2: Lunar Landings & Deep Space Probes | `technology_innovation` | `gravity_assist_slingshot_voyager_grand_tour_orbital_energy` | The navigational breakthrough that enabled human probes to reach the interstellar void. | `QUEUED` |\r\n| 6 | **Seven Minutes of Terror: The Insane Physics of the Mars Curiosity Sky Crane** | Tier 2: Lunar Landings & Deep Space Probes | `incident_timeline` | `mars_curiosity_sky_crane_entry_descent_landing_supersonic_parachute` | The most audacious, high-risk mechanical engineering feat in planetary robotics history. | `QUEUED` |\r\n| 7 | **Saturn V: The Machine That Stood 363 Feet Tall and Burned 15 Tons of Fuel per Second** | Tier 2: Lunar Landings & Deep Space Probes | `famous_examples` | `saturn_v_rocket_f1_engines_combustion_instability_von_braun` | The undisputed heavy-lift masterpiece of the 20th century. | `QUEUED` |\r\n| 8 | **New Horizons: Flying by Pluto at 36,000 MPH and Unveiling a Living World** | Tier 2: Lunar Landings & Deep Space Probes | `documentary_stories` | `new_horizons_pluto_flyby_sputnik_planitia_nitrogen_glaciers` | Transformed Pluto from a blurry pixel into a geologically dynamic, breathtaking planetary body. | `QUEUED` |\r\n| 9 | **The International Space Station: Assembling a 450-Ton Habitat in Zero Gravity** | Tier 3: Space Stations & Orbital Telecommunications | `famous_examples` | `iss_international_space_station_orbital_assembly_truss_canadarm2` | The longest continuous human presence in space and the greatest peacetime international collaboration. | `QUEUED` |\r\n| 10 | **Falcon 9 & Reusability: How Propulsive Landing Landed the Rocket Business** | Tier 3: Space Stations & Orbital Telecommunications | `rise_fall` | `spacex_falcon_9_reusable_booster_propulsive_landing_grid_fins` | The commercial revolution that permanently shattered expendable rocketry economics. | `QUEUED` |\r\n| 11 | **Spacewalk Hazards: The Extravehicular Mobility Unit (EMU) as an Independent Spaceship** | Tier 3: Space Stations & Orbital Telecommunications | `extreme_case` | `spacesuit_engineering_emu_luca_parmitano_water_leak_spacewalk` | Deconstructs the human body's ultimate survival shell in open vacuum. | `QUEUED` |\r\n| 12 | **Ion Propulsion: How Xenon Gas Accelerates Spacecraft to Millions of Miles per Hour** | Tier 3: Space Stations & Orbital Telecommunications | `field_vs_lab` | `ion_propulsion_hall_effect_thrusters_xenon_dawn_mission` | The revolutionary electric propulsion technology unlocking deep solar system endurance. | `QUEUED` |\r\n| 13 | **James Webb Space Telescope: Unfolding a Golden Honeycomb in Deep Space** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `technology_innovation` | `jwst_unfolding_344_single_point_failures_sunshield_lagrange_point` | The most complex precision robotic deployment in astronomical engineering history. | `QUEUED` |\r\n| 14 | **Starship: The Architecture of Fully Reusable Heavy-Lift Interplanetary Transit** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `future_developments` | `spacex_starship_super_heavy_raptor_methalox_catch_tower` | The next-generation launch system designed to enable permanent human settlements on Mars. | `QUEUED` |\r\n| 15 | **Nuclear Thermal Propulsion: How Atomic Rockets Cut Mars Transit Time in Half** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `field_experimental_setup` | `nuclear_thermal_propulsion_draco_project_rover_mars_transit` | The indispensable propulsion technology required for safe, rapid crewed missions to Mars. | `QUEUED` |\r\n| 16 | **The Kessler Syndrome: How Space Debris Could Trap Humanity on Earth** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `myths_vs_facts` | `kessler_syndrome_orbital_debris_cascading_collisions_leo` | The looming environmental crisis threatening global telecommunications, weather satellites, and future space exploration. | `QUEUED` |\r\n| 17 | **In-Situ Resource Utilization (ISRU): Making Fuel from the Martian Atmosphere** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `measurement_method` | `isru_sabatier_reactor_making_methane_oxygen_mars_atmosphere` | The fundamental engineering concept that makes human round-trip planetary exploration economically viable. | `QUEUED` |\r\n| 18 | **The Parker Solar Probe: Flying into the Fiery Atmosphere of the Sun at 430,000 MPH** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `famous_examples` | `parker_solar_probe_fastest_human_object_carbon_composite_shield` | Extreme thermal engineering probing the mysterious thermonuclear engine of our Solar System. | `QUEUED` |\r\n| 19 | **Solar Sails: Propelling Starships with the Momentum of Pure Starlight** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `then_vs_now` | `solar_sails_photon_momentum_breakthrough_starshot_interstellar` | The only currently conceivable physical technology capable of reaching another star within a human lifespan. | `QUEUED` |\r\n| 20 | **The Overview Effect: How Seeing Earth from Space Changes Human Consciousness** | Tier 4: Interplanetary Colonization & Frontier Telescopy | `human_impact` | `overview_effect_astronaut_psychology_earth_borders_fragility` | The profound philosophical and psychological legacy of human space exploration for civilization on Earth. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **SpaceX Starship Flight 5: The Historic Chopstick Catch of the Super Heavy Booster** | **Trending #1 (Massive Global Aerospace Record Velocity)** | `technology_innovation` | `starship_flight_5_super_heavy_booster_chopstick_tower_catch` | The historic October 2024 achievement of catching a 230-foot rocket booster out of the sky using giant mechanical tower arms. | `TRENDING CANDIDATE` |\r\n| 22 | **Boeing Starliner Disaster: Why Suni Williams and Butch Wilmore Got Stranded on the ISS** | **High Live News & NASA Investigation Search** | `incident_timeline` | `boeing_starliner_calypso_thruster_helium_leaks_crew_stranded` | Reaction control thruster failures, helium manifold leaks, and NASA's decision to return Starliner uncrewed while rebooking on Crew-9. | `TRENDING CANDIDATE` |\r\n| 23 | **Polaris Dawn: The First Commercial Civilian Spacewalk in History** | **High Commercial Space Search** | `famous_examples` | `polaris_dawn_jared_isaacman_spacex_eva_suit_van_allen_belt` | Jared Isaacman and Sarah Gillis venting the entire Crew Dragon cabin to perform the highest-altitude spacewalk since Apollo. | `TRENDING CANDIDATE` |\r\n| 24 | **Artemis II & III Timeline Delays: The Lunar Heat Shield & Starship Tanker Bottlenecks** | **High NASA Moon Mission Search** | `evidence_integrity` | `artemis_program_timeline_delays_orion_heat_shield_charring_starship_tankers` | Orion spacecraft Avcoat ablative heat shield erosion mysteries from Artemis I and the requirement for 10+ orbital refueling tanker flights. | `TRENDING CANDIDATE` |\r\n| 25 | **China's Chang'e 6: The First Samples Ever Recovered from the Far Side of the Moon** | **High Space Geopolitics & Science Search** | `documentary_stories` | `change_6_china_far_side_lunar_sample_return_south_pole_aitken` | Retrieving volcanic basalt from the South Pole-Aitken Basin using the Queqiao-2 relay satellite, beating NASA to far-side lunar samples. | `TRENDING CANDIDATE` |\r\n| 26 | **Europa Clipper Launched: NASA's Giant Flagship on a 1.8-Billion-Mile Journey to an Alien Ocean** | **High Astrobiology & Mission Launch Search** | `future_developments` | `europa_clipper_launch_radiation_transistor_fix_subsurface_ocean` | Successfully resolving MOSFET radiation switch flaws to launch on Falcon Heavy toward Jupiter's ice-covered ocean moon. | `TRENDING CANDIDATE` |\r\n| 27 | **The End of the ISS in 2030: How NASA Will Crash the 450-Ton Station into Point Nemo** | **High Deorbit & Space Station Future CTR** | `rise_fall` | `iss_deorbit_united_states_deorbit_vehicle_spacex_point_nemo` | NASA awarding SpaceX $843 million to build a specialized high-thrust deorbit vehicle to steer the space station into the Pacific oceanic graveyard. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/032_space_exploration/032_SPACE_EXPLORATION_CHANNEL_TOPIC_ROADMAP.md`](./032_SPACE_EXPLORATION_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/032_space_exploration/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/032_space_exploration/NICHE_032_space_exploration.md`](file:///h:/script-raw-/REGISTRY/Niches/032_space_exploration/NICHE_032_space_exploration.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/032_space_exploration/CAT_032_space_exploration.md`](file:///h:/script-raw-/REGISTRY/Niches/032_space_exploration/CAT_032_space_exploration.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/032_space_exploration/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/032_space_exploration/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/032_space_exploration/`](file:///h:/script-raw-/OUTPUT/032_space_exploration/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "a55fda306f167eafe9892e87e8331b8d1bddf542929a4b3f4844181db4c00dfa",
+        "original_text": "{\r\n  \"niche_id\": \"032\",\r\n  \"niche_name\": \"space_exploration\",\r\n  \"last_synced\": \"2026-10-21T17:15:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"Apollo 11: The Critical 1202 Alarm and the Final 60 Seconds of Lunar Descent\",\r\n      \"tier\": \"Tier 1: Rocketry Foundations & Early Spaceflight\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"apollo_11_lunar_module_descent_1202_program_alarm_armstrong\",\r\n      \"reason\": \"Flagship launch episode; the most dramatic human achievement in exploration history.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"The Tsiolkovsky Rocket Equation: The Tyranny of the Fuel-to-Mass Ratio\",\r\n      \"tier\": \"Tier 1: Rocketry Foundations & Early Spaceflight\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"tsiolkovsky_rocket_equation_delta_v_exhaust_velocity_staging\",\r\n      \"reason\": \"The foundational mathematical law governing every spacecraft ever launched by humanity.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Orbital Mechanics 101: How Moving Faster Drops You into a Lower Orbit\",\r\n      \"tier\": \"Tier 1: Rocketry Foundations & Early Spaceflight\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"orbital_mechanics_hohmann_transfer_elliptical_orbits_rendezvous\",\r\n      \"reason\": \"Essential astrodynamics education for anyone wanting to understand spaceflight trajectories.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Sputnik & Yuri Gagarin: How the Soviet Union Won the First Rounds of the Space Race\",\r\n      \"tier\": \"Tier 1: Rocketry Foundations & Early Spaceflight\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"sputnik_yuri_gagarin_sergei_korolev_r7_semyorka_space_race\",\r\n      \"reason\": \"The geopolitical ignition point that transformed space from speculative science fiction into national priority.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Gravity Assists: How Voyager Used Planetary Slingshots to Escape the Solar System\",\r\n      \"tier\": \"Tier 2: Lunar Landings & Deep Space Probes\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"gravity_assist_slingshot_voyager_grand_tour_orbital_energy\",\r\n      \"reason\": \"The navigational breakthrough that enabled human probes to reach the interstellar void.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Seven Minutes of Terror: The Insane Physics of the Mars Curiosity Sky Crane\",\r\n      \"tier\": \"Tier 2: Lunar Landings & Deep Space Probes\",\r\n      \"angle\": \"incident_timeline\",\r\n      \"slug\": \"mars_curiosity_sky_crane_entry_descent_landing_supersonic_parachute\",\r\n      \"reason\": \"The most audacious, high-risk mechanical engineering feat in planetary robotics history.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Saturn V: The Machine That Stood 363 Feet Tall and Burned 15 Tons of Fuel per Second\",\r\n      \"tier\": \"Tier 2: Lunar Landings & Deep Space Probes\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"saturn_v_rocket_f1_engines_combustion_instability_von_braun\",\r\n      \"reason\": \"The undisputed heavy-lift masterpiece of the 20th century.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"New Horizons: Flying by Pluto at 36,000 MPH and Unveiling a Living World\",\r\n      \"tier\": \"Tier 2: Lunar Landings & Deep Space Probes\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"new_horizons_pluto_flyby_sputnik_planitia_nitrogen_glaciers\",\r\n      \"reason\": \"Transformed Pluto from a blurry pixel into a geologically dynamic, breathtaking planetary body.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"The International Space Station: Assembling a 450-Ton Habitat in Zero Gravity\",\r\n      \"tier\": \"Tier 3: Space Stations & Orbital Telecommunications\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"iss_international_space_station_orbital_assembly_truss_canadarm2\",\r\n      \"reason\": \"The longest continuous human presence in space and the greatest peacetime international collaboration.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Falcon 9 & Reusability: How Propulsive Landing Landed the Rocket Business\",\r\n      \"tier\": \"Tier 3: Space Stations & Orbital Telecommunications\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"spacex_falcon_9_reusable_booster_propulsive_landing_grid_fins\",\r\n      \"reason\": \"The commercial revolution that permanently shattered expendable rocketry economics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Spacewalk Hazards: The Extravehicular Mobility Unit (EMU) as an Independent Spaceship\",\r\n      \"tier\": \"Tier 3: Space Stations & Orbital Telecommunications\",\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"spacesuit_engineering_emu_luca_parmitano_water_leak_spacewalk\",\r\n      \"reason\": \"Deconstructs the human body's ultimate survival shell in open vacuum.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Ion Propulsion: How Xenon Gas Accelerates Spacecraft to Millions of Miles per Hour\",\r\n      \"tier\": \"Tier 3: Space Stations & Orbital Telecommunications\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"ion_propulsion_hall_effect_thrusters_xenon_dawn_mission\",\r\n      \"reason\": \"The revolutionary electric propulsion technology unlocking deep solar system endurance.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"James Webb Space Telescope: Unfolding a Golden Honeycomb in Deep Space\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"jwst_unfolding_344_single_point_failures_sunshield_lagrange_point\",\r\n      \"reason\": \"The most complex precision robotic deployment in astronomical engineering history.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Starship: The Architecture of Fully Reusable Heavy-Lift Interplanetary Transit\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"spacex_starship_super_heavy_raptor_methalox_catch_tower\",\r\n      \"reason\": \"The next-generation launch system designed to enable permanent human settlements on Mars.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Nuclear Thermal Propulsion: How Atomic Rockets Cut Mars Transit Time in Half\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"field_experimental_setup\",\r\n      \"slug\": \"nuclear_thermal_propulsion_draco_project_rover_mars_transit\",\r\n      \"reason\": \"The indispensable propulsion technology required for safe, rapid crewed missions to Mars.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"The Kessler Syndrome: How Space Debris Could Trap Humanity on Earth\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"kessler_syndrome_orbital_debris_cascading_collisions_leo\",\r\n      \"reason\": \"The looming environmental crisis threatening global telecommunications, weather satellites, and future space exploration.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"In-Situ Resource Utilization (ISRU): Making Fuel from the Martian Atmosphere\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"isru_sabatier_reactor_making_methane_oxygen_mars_atmosphere\",\r\n      \"reason\": \"The fundamental engineering concept that makes human round-trip planetary exploration economically viable.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"The Parker Solar Probe: Flying into the Fiery Atmosphere of the Sun at 430,000 MPH\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"parker_solar_probe_fastest_human_object_carbon_composite_shield\",\r\n      \"reason\": \"Extreme thermal engineering probing the mysterious thermonuclear engine of our Solar System.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Solar Sails: Propelling Starships with the Momentum of Pure Starlight\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"solar_sails_photon_momentum_breakthrough_starshot_interstellar\",\r\n      \"reason\": \"The only currently conceivable physical technology capable of reaching another star within a human lifespan.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Overview Effect: How Seeing Earth from Space Changes Human Consciousness\",\r\n      \"tier\": \"Tier 4: Interplanetary Colonization & Frontier Telescopy\",\r\n      \"angle\": \"human_impact\",\r\n      \"slug\": \"overview_effect_astronaut_psychology_earth_borders_fragility\",\r\n      \"reason\": \"The profound philosophical and psychological legacy of human space exploration for civilization on Earth.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"SpaceX Starship Flight 5: The Historic Chopstick Catch of the Super Heavy Booster\",\r\n      \"trend_score\": \"Trending #1 (Massive Global Aerospace Record Velocity)\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"starship_flight_5_super_heavy_booster_chopstick_tower_catch\",\r\n      \"why_trending\": \"The historic October 2024 achievement of catching a 230-foot rocket booster out of the sky using giant mechanical tower arms.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Boeing Starliner Disaster: Why Suni Williams and Butch Wilmore Got Stranded on the ISS\",\r\n      \"trend_score\": \"High Live News & NASA Investigation Search\",\r\n      \"angle\": \"incident_timeline\",\r\n      \"slug\": \"boeing_starliner_calypso_thruster_helium_leaks_crew_stranded\",\r\n      \"why_trending\": \"Reaction control thruster failures, helium manifold leaks, and NASA's decision to return Starliner uncrewed while rebooking on Crew-9.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Polaris Dawn: The First Commercial Civilian Spacewalk in History\",\r\n      \"trend_score\": \"High Commercial Space Search\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"polaris_dawn_jared_isaacman_spacex_eva_suit_van_allen_belt\",\r\n      \"why_trending\": \"Jared Isaacman and Sarah Gillis venting the entire Crew Dragon cabin to perform the highest-altitude spacewalk since Apollo.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Artemis II & III Timeline Delays: The Lunar Heat Shield & Starship Tanker Bottlenecks\",\r\n      \"trend_score\": \"High NASA Moon Mission Search\",\r\n      \"angle\": \"evidence_integrity\",\r\n      \"slug\": \"artemis_program_timeline_delays_orion_heat_shield_charring_starship_tankers\",\r\n      \"why_trending\": \"Orion spacecraft Avcoat ablative heat shield erosion mysteries from Artemis I and the requirement for 10+ orbital refueling tanker flights.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"China's Chang'e 6: The First Samples Ever Recovered from the Far Side of the Moon\",\r\n      \"trend_score\": \"High Space Geopolitics & Science Search\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"change_6_china_far_side_lunar_sample_return_south_pole_aitken\",\r\n      \"why_trending\": \"Retrieving volcanic basalt from the South Pole-Aitken Basin using the Queqiao-2 relay satellite, beating NASA to far-side lunar samples.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Europa Clipper Launched: NASA's Giant Flagship on a 1.8-Billion-Mile Journey to an Alien Ocean\",\r\n      \"trend_score\": \"High Astrobiology & Mission Launch Search\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"europa_clipper_launch_radiation_transistor_fix_subsurface_ocean\",\r\n      \"why_trending\": \"Successfully resolving MOSFET radiation switch flaws to launch on Falcon Heavy toward Jupiter's ice-covered ocean moon.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"The End of the ISS in 2030: How NASA Will Crash the 450-Ton Station into Point Nemo\",\r\n      \"trend_score\": \"High Deorbit & Space Station Future CTR\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"iss_deorbit_united_states_deorbit_vehicle_spacex_point_nemo\",\r\n      \"why_trending\": \"NASA awarding SpaceX $843 million to build a specialized high-thrust deorbit vehicle to steer the space station into the Pacific oceanic graveyard.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "032",
+      "niche_name": "space_exploration",
+      "last_synced": "2026-10-21T17:15:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "Apollo 11: The Critical 1202 Alarm and the Final 60 Seconds of Lunar Descent",
+          "tier": "Tier 1: Rocketry Foundations & Early Spaceflight",
+          "angle": "beginner_explainers",
+          "slug": "apollo_11_lunar_module_descent_1202_program_alarm_armstrong",
+          "reason": "Flagship launch episode; the most dramatic human achievement in exploration history.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "The Tsiolkovsky Rocket Equation: The Tyranny of the Fuel-to-Mass Ratio",
+          "tier": "Tier 1: Rocketry Foundations & Early Spaceflight",
+          "angle": "how_it_works",
+          "slug": "tsiolkovsky_rocket_equation_delta_v_exhaust_velocity_staging",
+          "reason": "The foundational mathematical law governing every spacecraft ever launched by humanity.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Orbital Mechanics 101: How Moving Faster Drops You into a Lower Orbit",
+          "tier": "Tier 1: Rocketry Foundations & Early Spaceflight",
+          "angle": "famous_examples",
+          "slug": "orbital_mechanics_hohmann_transfer_elliptical_orbits_rendezvous",
+          "reason": "Essential astrodynamics education for anyone wanting to understand spaceflight trajectories.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Sputnik & Yuri Gagarin: How the Soviet Union Won the First Rounds of the Space Race",
+          "tier": "Tier 1: Rocketry Foundations & Early Spaceflight",
+          "angle": "history_origins",
+          "slug": "sputnik_yuri_gagarin_sergei_korolev_r7_semyorka_space_race",
+          "reason": "The geopolitical ignition point that transformed space from speculative science fiction into national priority.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Gravity Assists: How Voyager Used Planetary Slingshots to Escape the Solar System",
+          "tier": "Tier 2: Lunar Landings & Deep Space Probes",
+          "angle": "technology_innovation",
+          "slug": "gravity_assist_slingshot_voyager_grand_tour_orbital_energy",
+          "reason": "The navigational breakthrough that enabled human probes to reach the interstellar void.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Seven Minutes of Terror: The Insane Physics of the Mars Curiosity Sky Crane",
+          "tier": "Tier 2: Lunar Landings & Deep Space Probes",
+          "angle": "incident_timeline",
+          "slug": "mars_curiosity_sky_crane_entry_descent_landing_supersonic_parachute",
+          "reason": "The most audacious, high-risk mechanical engineering feat in planetary robotics history.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Saturn V: The Machine That Stood 363 Feet Tall and Burned 15 Tons of Fuel per Second",
+          "tier": "Tier 2: Lunar Landings & Deep Space Probes",
+          "angle": "famous_examples",
+          "slug": "saturn_v_rocket_f1_engines_combustion_instability_von_braun",
+          "reason": "The undisputed heavy-lift masterpiece of the 20th century.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "New Horizons: Flying by Pluto at 36,000 MPH and Unveiling a Living World",
+          "tier": "Tier 2: Lunar Landings & Deep Space Probes",
+          "angle": "documentary_stories",
+          "slug": "new_horizons_pluto_flyby_sputnik_planitia_nitrogen_glaciers",
+          "reason": "Transformed Pluto from a blurry pixel into a geologically dynamic, breathtaking planetary body.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "The International Space Station: Assembling a 450-Ton Habitat in Zero Gravity",
+          "tier": "Tier 3: Space Stations & Orbital Telecommunications",
+          "angle": "famous_examples",
+          "slug": "iss_international_space_station_orbital_assembly_truss_canadarm2",
+          "reason": "The longest continuous human presence in space and the greatest peacetime international collaboration.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Falcon 9 & Reusability: How Propulsive Landing Landed the Rocket Business",
+          "tier": "Tier 3: Space Stations & Orbital Telecommunications",
+          "angle": "rise_fall",
+          "slug": "spacex_falcon_9_reusable_booster_propulsive_landing_grid_fins",
+          "reason": "The commercial revolution that permanently shattered expendable rocketry economics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Spacewalk Hazards: The Extravehicular Mobility Unit (EMU) as an Independent Spaceship",
+          "tier": "Tier 3: Space Stations & Orbital Telecommunications",
+          "angle": "extreme_case",
+          "slug": "spacesuit_engineering_emu_luca_parmitano_water_leak_spacewalk",
+          "reason": "Deconstructs the human body's ultimate survival shell in open vacuum.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Ion Propulsion: How Xenon Gas Accelerates Spacecraft to Millions of Miles per Hour",
+          "tier": "Tier 3: Space Stations & Orbital Telecommunications",
+          "angle": "field_vs_lab",
+          "slug": "ion_propulsion_hall_effect_thrusters_xenon_dawn_mission",
+          "reason": "The revolutionary electric propulsion technology unlocking deep solar system endurance.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "James Webb Space Telescope: Unfolding a Golden Honeycomb in Deep Space",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "technology_innovation",
+          "slug": "jwst_unfolding_344_single_point_failures_sunshield_lagrange_point",
+          "reason": "The most complex precision robotic deployment in astronomical engineering history.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Starship: The Architecture of Fully Reusable Heavy-Lift Interplanetary Transit",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "future_developments",
+          "slug": "spacex_starship_super_heavy_raptor_methalox_catch_tower",
+          "reason": "The next-generation launch system designed to enable permanent human settlements on Mars.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Nuclear Thermal Propulsion: How Atomic Rockets Cut Mars Transit Time in Half",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "field_experimental_setup",
+          "slug": "nuclear_thermal_propulsion_draco_project_rover_mars_transit",
+          "reason": "The indispensable propulsion technology required for safe, rapid crewed missions to Mars.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "The Kessler Syndrome: How Space Debris Could Trap Humanity on Earth",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "myths_vs_facts",
+          "slug": "kessler_syndrome_orbital_debris_cascading_collisions_leo",
+          "reason": "The looming environmental crisis threatening global telecommunications, weather satellites, and future space exploration.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "In-Situ Resource Utilization (ISRU): Making Fuel from the Martian Atmosphere",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "measurement_method",
+          "slug": "isru_sabatier_reactor_making_methane_oxygen_mars_atmosphere",
+          "reason": "The fundamental engineering concept that makes human round-trip planetary exploration economically viable.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "The Parker Solar Probe: Flying into the Fiery Atmosphere of the Sun at 430,000 MPH",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "famous_examples",
+          "slug": "parker_solar_probe_fastest_human_object_carbon_composite_shield",
+          "reason": "Extreme thermal engineering probing the mysterious thermonuclear engine of our Solar System.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Solar Sails: Propelling Starships with the Momentum of Pure Starlight",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "then_vs_now",
+          "slug": "solar_sails_photon_momentum_breakthrough_starshot_interstellar",
+          "reason": "The only currently conceivable physical technology capable of reaching another star within a human lifespan.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Overview Effect: How Seeing Earth from Space Changes Human Consciousness",
+          "tier": "Tier 4: Interplanetary Colonization & Frontier Telescopy",
+          "angle": "human_impact",
+          "slug": "overview_effect_astronaut_psychology_earth_borders_fragility",
+          "reason": "The profound philosophical and psychological legacy of human space exploration for civilization on Earth.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "SpaceX Starship Flight 5: The Historic Chopstick Catch of the Super Heavy Booster",
+          "trend_score": "Trending #1 (Massive Global Aerospace Record Velocity)",
+          "angle": "technology_innovation",
+          "slug": "starship_flight_5_super_heavy_booster_chopstick_tower_catch",
+          "why_trending": "The historic October 2024 achievement of catching a 230-foot rocket booster out of the sky using giant mechanical tower arms.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "Boeing Starliner Disaster: Why Suni Williams and Butch Wilmore Got Stranded on the ISS",
+          "trend_score": "High Live News & NASA Investigation Search",
+          "angle": "incident_timeline",
+          "slug": "boeing_starliner_calypso_thruster_helium_leaks_crew_stranded",
+          "why_trending": "Reaction control thruster failures, helium manifold leaks, and NASA's decision to return Starliner uncrewed while rebooking on Crew-9.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "Polaris Dawn: The First Commercial Civilian Spacewalk in History",
+          "trend_score": "High Commercial Space Search",
+          "angle": "famous_examples",
+          "slug": "polaris_dawn_jared_isaacman_spacex_eva_suit_van_allen_belt",
+          "why_trending": "Jared Isaacman and Sarah Gillis venting the entire Crew Dragon cabin to perform the highest-altitude spacewalk since Apollo.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "Artemis II & III Timeline Delays: The Lunar Heat Shield & Starship Tanker Bottlenecks",
+          "trend_score": "High NASA Moon Mission Search",
+          "angle": "evidence_integrity",
+          "slug": "artemis_program_timeline_delays_orion_heat_shield_charring_starship_tankers",
+          "why_trending": "Orion spacecraft Avcoat ablative heat shield erosion mysteries from Artemis I and the requirement for 10+ orbital refueling tanker flights.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "China's Chang'e 6: The First Samples Ever Recovered from the Far Side of the Moon",
+          "trend_score": "High Space Geopolitics & Science Search",
+          "angle": "documentary_stories",
+          "slug": "change_6_china_far_side_lunar_sample_return_south_pole_aitken",
+          "why_trending": "Retrieving volcanic basalt from the South Pole-Aitken Basin using the Queqiao-2 relay satellite, beating NASA to far-side lunar samples.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "Europa Clipper Launched: NASA's Giant Flagship on a 1.8-Billion-Mile Journey to an Alien Ocean",
+          "trend_score": "High Astrobiology & Mission Launch Search",
+          "angle": "future_developments",
+          "slug": "europa_clipper_launch_radiation_transistor_fix_subsurface_ocean",
+          "why_trending": "Successfully resolving MOSFET radiation switch flaws to launch on Falcon Heavy toward Jupiter's ice-covered ocean moon.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "The End of the ISS in 2030: How NASA Will Crash the 450-Ton Station into Point Nemo",
+          "trend_score": "High Deorbit & Space Station Future CTR",
+          "angle": "rise_fall",
+          "slug": "iss_deorbit_united_states_deorbit_vehicle_spacex_point_nemo",
+          "why_trending": "NASA awarding SpaceX $843 million to build a specialized high-thrust deorbit vehicle to steer the space station into the Pacific oceanic graveyard.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "a263fb3b379675261c766b0440067e480f5da7a264b063a9e40ce1b238c80452"
+    },
+    {
+      "input": "Scripts\\editorial_starter_gap_additions_002_050.json",
+      "sha256": "5af6dcaab38318eec1cb0b1be8e91fce35bb27fe12dfe90d0c061326dd67a750"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-032-G01",
+      "title": "Mission design, journeys and surface work",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-032-G02",
+      "title": "Operations, history and protected environments",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-032-G03",
+      "title": "Economics and public interpretation",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-032-09",
+      "title": "Mission continuity",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "starter_concept_crosswalk": {
+    "BANK-032-004": [
+      "BANK-032-049"
+    ],
+    "BANK-032-001": [
+      "BANK-032-014"
+    ],
+    "BANK-032-002": [
+      "BANK-032-021",
+      "BANK-032-022",
+      "BANK-032-023"
+    ],
+    "BANK-032-003": [
+      "BANK-032-015",
+      "BANK-032-029",
+      "BANK-032-045"
+    ],
+    "BANK-032-005": [
+      "BANK-032-033"
+    ],
+    "BANK-032-006": [
+      "BANK-032-034"
+    ],
+    "BANK-032-007": [
+      "BANK-032-025",
+      "BANK-032-035"
+    ],
+    "BANK-032-008": [
+      "BANK-032-037"
+    ],
+    "BANK-032-009": [
+      "BANK-032-041"
+    ],
+    "BANK-032-010": [
+      "BANK-032-038"
+    ],
+    "BANK-032-011": [
+      "BANK-032-020"
+    ],
+    "BANK-032-012": [
+      "BANK-032-042",
+      "BANK-032-044"
+    ]
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "6a772bb72779b9a014f40e10c71db97baca509cb102af46d830691da01655931",
+    "TOPIC_BANK_RECONCILIATION.md": "ce4ae586f0e4f46ce4160c044aeb2cefb954a5e4cc0e15574754aea19be68f8c",
+    "TOPICS_COVERED_REPORT.md": "0f895cf7af9708d2025f897e3a8346baf5aaae96c56ce087e71ca850288c3244",
+    "032_SPACE_EXPLORATION_CHANNEL_TOPIC_ROADMAP.md": "8f07c9d86adf27358c698af7402847aec8516985b45aa5f06236f9f92af3a8d7"
+  },
+  "organization_review": {
+    "date": "2026-10-23",
+    "source_categories_preserved": 8,
+    "method": "Manually assigned subject groupings. Source questions, scopes, category titles, IDs and prerequisites remain unchanged."
+  },
+  "open_coverage": [
+    {
+      "area": "Further case and comparison depth",
+      "next_step": "Select distinct named cases, regional and language variants, overlooked participants, and contrary examples within Mission questions and constraints, Launch and transfer, Landing on other worlds. Review actual scopes before adding an episode; these are coverage directions rather than a claim that present questions exhaust the niche."
+    },
+    {
+      "area": "Sources and readiness",
+      "next_step": "Inspect actual source access, dates, editions, versions, methods and competing evidence. No new source verification, research certification or production approval was performed."
+    },
+    {
+      "area": "Neighboring-niche boundary review",
+      "next_step": "Before producing an episode, compare related banks and assign one primary home. A lexical duplicate check does not establish semantic uniqueness across every pair."
+    },
+    {
+      "area": "Named mission verification and neighboring science",
+      "next_step": "All 27 preserved pitches have routes. Before a script, date each mission plan or outcome, verify the exact vehicle configuration and telemetry, check current approval and funding, and obtain source-backed numerical claims. Niche 032 owns flight engineering and operations; niches 344?347 own astronomical, planetary, lunar and solar findings; niche 159 owns Earth-orbit observation and satellite-system questions. Apollo 11 has a bounded primary-record note at RESEARCH_NOTES/BANK-032-050.md."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "not_performed",
+    "semantic_candidates_reviewed": 0,
+    "starter_concepts_reviewed": 12,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "routed",
+      "reason": "Distinct Apollo 11 alarm decision case; 1202 alarms began minutes before the final 60-second fuel call.",
+      "bank_ids": [
+        "BANK-032-050"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "routed",
+      "reason": "Existing staging/payload scope supports a specified rocket-equation comparison; the equation is a model, not a universal fuel law.",
+      "bank_ids": [
+        "BANK-032-017"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "routed",
+      "reason": "Existing orbit-versus-space and transfer scopes; the archived faster-means-lower shorthand requires maneuver geometry.",
+      "bank_ids": [
+        "BANK-032-018",
+        "BANK-032-019"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "routed",
+      "reason": "Distinct Sputnik/Vostok program-history comparison.",
+      "bank_ids": [
+        "BANK-032-051"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "routed",
+      "reason": "Existing gravity-assist and Voyager trajectory scopes; no separate reworded case.",
+      "bank_ids": [
+        "BANK-032-019",
+        "BANK-032-034"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "routed",
+      "reason": "Distinct Curiosity entry-descent-landing case; seven minutes is a mission-specific communications shorthand.",
+      "bank_ids": [
+        "BANK-032-052"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "routed",
+      "reason": "Distinct named launch vehicle performance audit; archived dimensions and rates need stage context.",
+      "bank_ids": [
+        "BANK-032-053"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "routed",
+      "reason": "Distinct one-pass Pluto encounter operations case; surface science also belongs to niche 345.",
+      "bank_ids": [
+        "BANK-032-054"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "routed",
+      "reason": "Distinct orbital assembly case; later deorbit is a separate question.",
+      "bank_ids": [
+        "BANK-032-055"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "routed",
+      "reason": "Existing reusable-stage payload tradeoff; Starship flight testing is separately dated.",
+      "bank_ids": [
+        "BANK-032-020",
+        "BANK-032-060"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "routed",
+      "reason": "Distinct EVA system and safety scope.",
+      "bank_ids": [
+        "BANK-032-057"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "routed",
+      "reason": "Distinct low-thrust electric propulsion case; exhaust speed is not vehicle speed.",
+      "bank_ids": [
+        "BANK-032-058"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "routed",
+      "reason": "Distinct deployment and commissioning case; Webb astronomy results belong to niche 344.",
+      "bank_ids": [
+        "BANK-032-059"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "routed",
+      "reason": "Distinct versioned Starship architecture/test-evidence case; full reusability is not established by one flight.",
+      "bank_ids": [
+        "BANK-032-060"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "routed",
+      "reason": "Distinct proposed nuclear-thermal mission tradeoff; halving transit time is model-dependent.",
+      "bank_ids": [
+        "BANK-032-061"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "routed",
+      "reason": "Distinct debris-cascade modeling case; niche 159 covers satellite operations and Earth-orbit populations.",
+      "bank_ids": [
+        "BANK-032-062"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "routed",
+      "reason": "Distinct MOXIE-to-mission-scale ISRU case.",
+      "bank_ids": [
+        "BANK-032-063"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "routed",
+      "reason": "Distinct probe thermal/navigation case; niche 347 owns solar-physics findings.",
+      "bank_ids": [
+        "BANK-032-064"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "routed",
+      "reason": "Distinct flown solar-sail propulsion case; no interstellar capability implied.",
+      "bank_ids": [
+        "BANK-032-065"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "routed",
+      "reason": "Distinct testimony/evidence question; a universal psychological effect is unverified.",
+      "bank_ids": [
+        "BANK-032-066"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "routed",
+      "reason": "Same Starship versioned test case as pending_topics/13; a 2024 booster catch is one dated demonstration.",
+      "bank_ids": [
+        "BANK-032-060"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "routed",
+      "reason": "Distinct Starliner crew-flight contingency case; avoid the archived disaster/stranded verdict.",
+      "bank_ids": [
+        "BANK-032-067"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "routed",
+      "reason": "A named commercial EVA can test the existing suit, vehicle and rescue boundary; no duplicate active proposal.",
+      "bank_ids": [
+        "BANK-032-057"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "routed",
+      "reason": "Distinct Artemis dependency and schedule case; current milestones require rechecking before scripting.",
+      "bank_ids": [
+        "BANK-032-068"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "routed",
+      "reason": "Distinct far-side sample-return operation case; niche 346 interprets returned lunar material.",
+      "bank_ids": [
+        "BANK-032-069"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "routed",
+      "reason": "Distinct Europa transfer/flyby operations case; niche 345 owns ocean and habitability interpretation.",
+      "bank_ids": [
+        "BANK-032-070"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "routed",
+      "reason": "Distinct ISS deorbit governance and controlled-reentry case; archived 2030 and exact-point claims are not adopted.",
+      "bank_ids": [
+        "BANK-032-056"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-032-050",
+      "note_file": "RESEARCH_NOTES/BANK-032-050.md"
+    }
+  ]
+}

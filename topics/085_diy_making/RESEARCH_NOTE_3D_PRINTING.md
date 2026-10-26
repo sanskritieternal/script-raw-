@@ -1,0 +1,7 @@
+# Bounded source note: 3D printing in a makerspace
+
+Source accessed 2026-10-24: U.S. NIOSH, *Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses* (DHHS Publication 2024-103, November 2023), https://www.cdc.gov/niosh/docs/2024-103/pdfs/2024-103.pdf, especially sections 2–4. NIOSH's 2024 summary is https://www.cdc.gov/niosh/bulletin/2024/safe-3d-printing.html.
+
+The guide distinguishes fused filament fabrication from vat photopolymerization and evaluates hazards across preparation, printing, post-processing, and maintenance. It describes potential particle and chemical emissions, heat, moving parts, solvents, and other hazards, and frames controls through a workplace risk-management plan. This supports a **process-choice and prototype-design question**, not a universal claim that one printer, filament, resin, or ventilation setup is safe. In particular, the proposed episode should compare a harmless fit-check prototype using documented requirements and a managed makerspace; it should not give resin handling, printer modification, maintenance, or exposure-control instructions.
+
+Evidence limit: this is a selected source-access check, not verification of a specific device, material, product, workplace, or individual exposure. Maker instructions must be checked against current manufacturer documentation and local workplace policies before production. No bank topic is marked `verified_sources` on this note alone.

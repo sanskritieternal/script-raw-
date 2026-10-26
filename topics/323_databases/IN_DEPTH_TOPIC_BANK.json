@@ -1,0 +1,1591 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "323",
+  "slug": "databases",
+  "name": "Databases",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-24",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Databases YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 11
+  },
+  "categories": [
+    {
+      "id": "CATALOG-323-R01",
+      "title": "Data models",
+      "level": "foundation",
+      "parent_id": "DOMAIN-323-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f5649dde73875d3321c252f169109e8a48cba7f99b180c81972c7664a10679e1",
+      "topics": [
+        {
+          "question": "Why do relational tables and document databases organize the same information differently?",
+          "coverage": "Compare structure, duplication, queries and constraints with a small invented dataset.",
+          "id": "BANK-323-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R02",
+      "title": "Transactions",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e642fb79437f75a6c3b56f7106da1b3fa42eb6fe20e7ef9190b3de4a93cc798d",
+      "topics": [
+        {
+          "question": "What does a database transaction protect when several users edit at once?",
+          "coverage": "Trace atomicity, isolation, conflicts and rollback through a hypothetical booking example.",
+          "id": "BANK-323-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R03",
+      "title": "Indexes",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "b4558bb681dcafaa08f6bcbd6b8c41140b5e7f168ad185031ce806b58d3be66f",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-323-R04",
+      "title": "Consistency",
+      "level": "advanced",
+      "parent_id": "DOMAIN-323-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "49b1ba7a3e7ca7b50f9dcc588bc0d36b45ece5d09a20bee7f537e5e9e58e27c4",
+      "topics": [
+        {
+          "question": "What changes when a database must operate across an unreliable network?",
+          "coverage": "Compare replication, partitions, consistency and availability under explicitly stated failure assumptions.",
+          "id": "BANK-323-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R05",
+      "title": "Normalization",
+      "level": "foundation",
+      "parent_id": "DOMAIN-323-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "010fe6fd78f1ec5a0a9337fa0a0d931cf029646a037094f1dc5467f712c3f865",
+      "topics": [
+        {
+          "question": "Why can splitting one table into several reduce data inconsistency?",
+          "coverage": "Use a small invented dataset to compare repeated facts, keys, dependencies and join costs.",
+          "id": "BANK-323-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R06",
+      "title": "Query planners",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ef907d590fea8a909134a8680513db9c21dc62dd5feb0d68aeaa2ef25d201887",
+      "topics": [
+        {
+          "question": "How can a database return the same answer through very different query plans?",
+          "coverage": "Compare estimates, indexes, join order, statistics and changing data distribution.",
+          "id": "BANK-323-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R07",
+      "title": "Backups",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ed91a29457ecea6c2ebd9b10a59dd54e9744f9694110c7c75a6882daa42ddde1",
+      "topics": [
+        {
+          "question": "Why does successfully creating a database backup not prove the data can be restored?",
+          "coverage": "Trace restore testing, dependencies, retention, recovery time and point-in-time gaps.",
+          "id": "BANK-323-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-007"
+          ]
+        },
+        {
+          "question": "What did GitLab.com's January 2017 database outage show about the gap between backups and restored service?",
+          "coverage": "Compare GitLab's contemporaneous incident timeline and 10 February postmortem for replication lag, available copies, restoration delay and bounded data loss. Distinguish the hosted GitLab.com service from self-managed installations and describe failure modes without reproducing destructive commands or a recovery procedure.",
+          "id": "BANK-323-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R08",
+      "title": "Schema migration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-323-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f2466113f0b11c0d9492cfec43b8b40db92c1ae17d1950f178a35ad06e30c4fd",
+      "topics": [
+        {
+          "question": "How can a database schema change while old and new application versions overlap?",
+          "coverage": "Compare compatibility, staged writes, backfills, validation and rollback assumptions without prescribing a live migration.",
+          "id": "BANK-323-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-323-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R09",
+      "title": "Graph databases",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5f7f96e3ffbdc6fe9fbc62817246bbbcf3d86bdca2031e8a1108bb8c7bfde304",
+      "topics": [
+        {
+          "question": "When does representing data as a graph simplify a relationship query?",
+          "coverage": "Compare nodes, edges, traversals, indexes and relational alternatives using invented social or transport data.",
+          "covers_starter_ids": [
+            "BANK-323-003"
+          ],
+          "id": "BANK-323-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R10",
+      "title": "Lag",
+      "level": "advanced",
+      "parent_id": "DOMAIN-323-10",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6ab7870f2fcb69e180c280fd5ecbf546cd54778177045d94ee9df3981f6498c0",
+      "topics": [
+        {
+          "question": "Why can two successful reads from a replicated database return different recent states?",
+          "coverage": "Trace asynchronous replication, read placement, causal expectations and application consequences.",
+          "covers_starter_ids": [
+            "BANK-323-009"
+          ],
+          "id": "BANK-323-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-323-R11",
+      "title": "Analytical versus transactional data",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-323-11",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "503897bcf9c422f9e16818b1276ca04af05a36683134e17f93b582ca8f3fba3e",
+      "topics": [
+        {
+          "question": "Why can a database optimized for individual transactions struggle with a whole-company analytical query?",
+          "coverage": "Compare row and column organization, scans, updates, concurrency, data freshness and workload separation; exclude a universal recommendation of one database product.",
+          "id": "BANK-323-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/323_databases/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "04223f2ee7bb122daab8828b59cca9ca69a97d165b54aaf5ddc7b91254a6d1cd",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-323-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "de4274bf88851eaa839b04e29c090d4748746e4afbd5b40dae593e55e4de09f2"
+      },
+      "BANK-323-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "378f1e28961638c7317e035c904182bef686d9869851f8f235141040c6ae6dfe"
+      },
+      "BANK-323-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dd11423e9256dbbc89efca592c1db8dd9d3e6a72157f3a70bf5deb7c9c2b0ed2"
+      },
+      "BANK-323-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a39414a791a3e8f3b92bbaeab86a452f5f3d123442b912ffa2931b0bc0cbbdac"
+      },
+      "BANK-323-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b16656d205cf5c507bbec8adde7f699dcd924050bc664c2c1158e6f499539fc4"
+      },
+      "BANK-323-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "318fa1e7bd2f879b60bc8ec37f6bbec18053f27b658298191094ff4818e5cf71"
+      },
+      "BANK-323-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8c303d9e95a86f2b264d33c5827cf05936be1106a729da294de85b95a3646e6d"
+      },
+      "BANK-323-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8d051c8b7783fdf1b7758663ff696f004228a972b60758701a9aedf415b466e7"
+      },
+      "BANK-323-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b976b5976135de55e733ae9f268678a3743833cce5a93c9e088ac127c2693f1d"
+      }
+    },
+    "source_categories": {
+      "CATALOG-323-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "a05d39eba0b7f211e418f8704e73af9668c186bd1a14f59a88dd1cd49443b18a"
+      },
+      "CATALOG-323-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "ae9a1ea5101be0c0171aaac20945f832e663c0d3429699737d704f560ae2bc42"
+      },
+      "CATALOG-323-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "727925ffde159d239e4b20535101e2abe113d74698b12e6105f7a2078bf33c3e"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "323_DATABASES_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "94555bef61226a236783cd5c8f8bbed3871a365ff8b53e7922cdfb5d2920c978",
+        "original_text": "# Databases Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 323 Databases (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Databases Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/323_databases/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Databases across four progressive tiers:\r\n- **Tier 1: Databases Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Databases.\r\n- **Tier 2: Databases Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Databases.\r\n- **Tier 3: Databases Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Databases.\r\n- **Tier 4: Databases Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Databases.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/323_databases/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/323_databases/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Database Model Emerges** | *What problem did a named data model address?* |\r\n| 2 | `famous_examples` | **A Database Migration Revisited** | *Did one replacement meet its consistency and performance aims?* |\r\n| 3 | `hidden_stories` | **People Maintaining the Data** | *Who defines schemas, repairs records, operates backups, and answers users?* |\r\n| 4 | `beginner_explainers` | **From Record to Query** | *How does one application store and retrieve a record?* |\r\n| 5 | `advanced_concepts` | **Isolation in a Real Transaction** | *Which concurrent outcome can a chosen isolation level permit?* |\r\n| 6 | `mysteries_unsolved_cases` | **Where Did a Record Go?** | *Which logs, migrations, replicas, or queries explain a missing result?* |\r\n| 7 | `technology_innovation` | **A New Database Feature** | *Did an index or execution change improve the target workload?* |\r\n| 8 | `people_personalities` | **A Data Design Choice** | *Who chose a schema or consistency rule and why?* |\r\n| 9 | `major_events` | **A Database Incident Timeline** | *What sequence led from first error to recovery?* |\r\n| 10 | `how_it_works` | **Commit and Read Back** | *How does a named engine make a write visible and durable?* |\r\n| 11 | `rise_fall` | **A Database Technology's Adoption** | *Which workload and organization choices explain use over time?* |\r\n| 12 | `then_vs_now` | **One Query Before and After** | *What changed after schema or engine migration?* |\r\n| 13 | `future_developments` | **A Proposed Database Capability** | *What would demonstrate safe usefulness in production?* |\r\n| 14 | `myths_vs_facts` | **Replication Is Backup?** | *Which failures can a replica copy but a retained backup recover?* |\r\n| 15 | `documentary_stories` | **A Data Recovery Story** | *How did operators detect, contain, and restore a loss?* |\r\n| 16 | `system_boundary` | **Application Versus Database Guarantee** | *Which correctness duties belong to app code, schema, and engine?* |\r\n| 17 | `input_output_trace` | **One Query's Path** | *What data enters a query and how is the result produced?* |\r\n| 18 | `design_tradeoff` | **Index Gains and Write Costs** | *When does an index speed reads while increasing maintenance?* |\r\n| 19 | `failure_mode` | **A Failed Commit or Restore** | *What evidence shows whether data was lost or unavailable?* |\r\n| 20 | `testing_limits` | **A Database Benchmark's Blind Spots** | *Does a headline throughput number match the intended application?* |\r\n| 21 | `standards_interoperability` | **Moving Data Between Engines** | *Which schema and query semantics survive migration?* |\r\n| 22 | `security_threat_model` | **Who Can Read a Record?** | *Which identities, services, backups, and operators can access data?* |\r\n| 23 | `maintenance_lifecycle` | **Upgrading a Live Database** | *How can version changes and schema migrations preserve service?* |\r\n| 24 | `infrastructure_dependencies` | **Storage Beneath the Database** | *Which disk, network, clock, and power assumptions affect correctness?* |\r\n| 25 | `accessibility_usability` | **Database Tools for Teams** | *Can operators and analysts understand errors and permissions?* |\r\n| 26 | `independent_replication` | **Reproducing a Database Claim** | *Can another team rerun a performance or correctness test?* |\r\n| 27 | `responsible_deployment` | **Data Collection and Retention** | *Which records should exist and who can challenge their use?* |\r\n| 28 | `field_software_architecture` | **Database in an Application** | *Which caches, queues, replicas, and services sit around the source of record?* |\r\n| 29 | `field_interface_design` | **A Query Tool's Dangerous Action** | *Does the interface reveal scope before update or deletion?* |\r\n| 30 | `field_version_changes` | **Engine Upgrade Regression** | *Which queries or behaviors changed after a version upgrade?* |\r\n| 31 | `field_open_standards` | **Portable Data and Query?** | *Can another implementation read the format and reproduce semantics?* |\r\n| 32 | `field_technical_debt` | **A Schema That Cannot Evolve** | *Which undocumented dependencies make a data change risky?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Databases: A Database Model Emerges**\r\n   - *Question:* What problem did a named data model address?\r\n   - *Key Focus:* Use dated papers, implementations, and workload context. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n2. **Databases: A Database Migration Revisited**\r\n   - *Question:* Did one replacement meet its consistency and performance aims?\r\n   - *Key Focus:* Compare schema, workload, failure tests, and migration cost. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n3. **Databases: People Maintaining the Data**\r\n   - *Question:* Who defines schemas, repairs records, operates backups, and answers users?\r\n   - *Key Focus:* Credit operators, stewards, and affected communities. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n4. **Databases: From Record to Query**\r\n   - *Question:* How does one application store and retrieve a record?\r\n   - *Key Focus:* Trace schema, index, query, permissions, and returned result. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n5. **Databases: Isolation in a Real Transaction**\r\n   - *Question:* Which concurrent outcome can a chosen isolation level permit?\r\n   - *Key Focus:* Use a named engine, version, workload, and reproducible schedule. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Databases: Where Did a Record Go?**\r\n   - *Question:* Which logs, migrations, replicas, or queries explain a missing result?\r\n   - *Key Focus:* Protect sensitive data and distinguish deletion from invisibility. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n7. **Databases: A New Database Feature**\r\n   - *Question:* Did an index or execution change improve the target workload?\r\n   - *Key Focus:* Test latency, write cost, storage, and correctness. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n8. **Databases: A Data Design Choice**\r\n   - *Question:* Who chose a schema or consistency rule and why?\r\n   - *Key Focus:* Read design decisions and consequences for users. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n9. **Databases: A Database Incident Timeline**\r\n   - *Question:* What sequence led from first error to recovery?\r\n   - *Key Focus:* Use public postmortem, alerts, and restore evidence. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n10. **Databases: Commit and Read Back**\r\n   - *Question:* How does a named engine make a write visible and durable?\r\n   - *Key Focus:* Trace transaction, log, storage, cache, and replica path. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Databases: A Database Technology's Adoption**\r\n   - *Question:* Which workload and organization choices explain use over time?\r\n   - *Key Focus:* Separate popularity metrics from suitability and outcomes. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n12. **Databases: One Query Before and After**\r\n   - *Question:* What changed after schema or engine migration?\r\n   - *Key Focus:* Control data size, hardware, indexes, concurrency, and version. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n13. **Databases: A Proposed Database Capability**\r\n   - *Question:* What would demonstrate safe usefulness in production?\r\n   - *Key Focus:* Define compatibility, correctness, workload, and operational cost. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n14. **Databases: Replication Is Backup?**\r\n   - *Question:* Which failures can a replica copy but a retained backup recover?\r\n   - *Key Focus:* Test deletion, corruption, restore point, and access controls. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n15. **Databases: A Data Recovery Story**\r\n   - *Question:* How did operators detect, contain, and restore a loss?\r\n   - *Key Focus:* Use consented records and distinguish recovery claim from test. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Databases: Application Versus Database Guarantee**\r\n   - *Question:* Which correctness duties belong to app code, schema, and engine?\r\n   - *Key Focus:* Name transaction settings and failure assumptions. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n17. **Databases: One Query's Path**\r\n   - *Question:* What data enters a query and how is the result produced?\r\n   - *Key Focus:* Trace parse, plan, index, access, and response for a named engine. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n18. **Databases: Index Gains and Write Costs**\r\n   - *Question:* When does an index speed reads while increasing maintenance?\r\n   - *Key Focus:* Benchmark a defined mix and data distribution. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n19. **Databases: A Failed Commit or Restore**\r\n   - *Question:* What evidence shows whether data was lost or unavailable?\r\n   - *Key Focus:* Use transaction logs, storage state, and restore test. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n20. **Databases: A Database Benchmark's Blind Spots**\r\n   - *Question:* Does a headline throughput number match the intended application?\r\n   - *Key Focus:* Specify schema, dataset, read-write mix, concurrency, and durability. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 323 (Databases)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Databases: A Database Model Emerges*\r\n- **Episode Slug:** `323_databases_deep_dive_the_architecture_of_databases_a_database_model_emerges`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/323_databases/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "e33a8ce752090640a2f479be9ef4e793baa1fbd96209ba966c98946ef885e224",
+        "original_text": "# 323 Databases -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 323 Databases (Computing_Software)  \r\n> **Storage Directory:** `topics/323_databases/`  \r\n> **Synchronized With:** `OUTPUT/323_databases/`, `REGISTRY/Niches/323_databases/`, and `323_DATABASES_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 323 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/323_databases](../../OUTPUT/323_databases) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Databases: A Database Model Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `databases_a_database_model_emerges` | A rigorous pedagogical investigation exploring a database model emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Databases: A Database Migration Revisited** | Tier 1: Foundational Frameworks | `famous_examples` | `databases_a_database_migration_revisited` | A rigorous pedagogical investigation exploring a database migration revisited through documented evidence. | `QUEUED` |\r\n| 3 | **Databases: People Maintaining the Data** | Tier 1: Foundational Frameworks | `hidden_stories` | `databases_people_maintaining_the_data` | A rigorous pedagogical investigation exploring people maintaining the data through documented evidence. | `QUEUED` |\r\n| 4 | **Databases: From Record to Query** | Tier 1: Foundational Frameworks | `beginner_explainers` | `databases_from_record_to_query` | A rigorous pedagogical investigation exploring from record to query through documented evidence. | `QUEUED` |\r\n| 5 | **Databases: Isolation in a Real Transaction** | Tier 1: Foundational Frameworks | `advanced_concepts` | `databases_isolation_in_a_real_transaction` | A rigorous pedagogical investigation exploring isolation in a real transaction through documented evidence. | `QUEUED` |\r\n| 6 | **Databases: Where Did a Record Go?** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `databases_where_did_a_record_go` | A rigorous pedagogical investigation exploring where did a record go? through documented evidence. | `QUEUED` |\r\n| 7 | **Databases: A New Database Feature** | Tier 2: Methodological Deep Dives | `technology_innovation` | `databases_a_new_database_feature` | A rigorous pedagogical investigation exploring a new database feature through documented evidence. | `QUEUED` |\r\n| 8 | **Databases: A Data Design Choice** | Tier 2: Methodological Deep Dives | `people_personalities` | `databases_a_data_design_choice` | A rigorous pedagogical investigation exploring a data design choice through documented evidence. | `QUEUED` |\r\n| 9 | **Databases: A Database Incident Timeline** | Tier 2: Methodological Deep Dives | `major_events` | `databases_a_database_incident_timeline` | A rigorous pedagogical investigation exploring a database incident timeline through documented evidence. | `QUEUED` |\r\n| 10 | **Databases: Commit and Read Back** | Tier 2: Methodological Deep Dives | `how_it_works` | `databases_commit_and_read_back` | A rigorous pedagogical investigation exploring commit and read back through documented evidence. | `QUEUED` |\r\n| 11 | **Databases: A Database Technology's Adoption** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `databases_a_database_technology_s_adoption` | A rigorous pedagogical investigation exploring a database technology's adoption through documented evidence. | `QUEUED` |\r\n| 12 | **Databases: One Query Before and After** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `databases_one_query_before_and_after` | A rigorous pedagogical investigation exploring one query before and after through documented evidence. | `QUEUED` |\r\n| 13 | **Databases: A Proposed Database Capability** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `databases_a_proposed_database_capability` | A rigorous pedagogical investigation exploring a proposed database capability through documented evidence. | `QUEUED` |\r\n| 14 | **Databases: Replication Is Backup?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `databases_replication_is_backup` | A rigorous pedagogical investigation exploring replication is backup? through documented evidence. | `QUEUED` |\r\n| 15 | **Databases: A Data Recovery Story** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `databases_a_data_recovery_story` | A rigorous pedagogical investigation exploring a data recovery story through documented evidence. | `QUEUED` |\r\n| 16 | **Databases: Application Versus Database Guarantee** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `databases_application_versus_database_guarantee` | A rigorous pedagogical investigation exploring application versus database guarantee through documented evidence. | `QUEUED` |\r\n| 17 | **Databases: One Query's Path** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `databases_one_query_s_path` | A rigorous pedagogical investigation exploring one query's path through documented evidence. | `QUEUED` |\r\n| 18 | **Databases: Index Gains and Write Costs** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `databases_index_gains_and_write_costs` | A rigorous pedagogical investigation exploring index gains and write costs through documented evidence. | `QUEUED` |\r\n| 19 | **Databases: A Failed Commit or Restore** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `databases_a_failed_commit_or_restore` | A rigorous pedagogical investigation exploring a failed commit or restore through documented evidence. | `QUEUED` |\r\n| 20 | **Databases: A Database Benchmark's Blind Spots** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `databases_a_database_benchmark_s_blind_spots` | A rigorous pedagogical investigation exploring a database benchmark's blind spots through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Databases: Record Extremes & Superlatives** | **98** | `extreme_case` | `databases_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Databases: Where Did a Record Go?** | **96** | `mysteries_unsolved_cases` | `databases_mysteries_unsolved_cases` | High viral search interest exploring which logs, migrations, replicas, or queries explain a missing result backed by field records. | `Queued` |\r\n| 23 | **Databases: A New Database Feature** | **95** | `technology_innovation` | `databases_technology_innovation` | High viral search interest exploring did an index or execution change improve the target workload backed by field records. | `Queued` |\r\n| 24 | **Databases: Replication Is Backup?** | **94** | `myths_vs_facts` | `databases_myths_vs_facts` | High viral search interest exploring which failures can a replica copy but a retained backup recover backed by field records. | `Queued` |\r\n| 25 | **Databases: A Database Incident Timeline** | **93** | `major_events` | `databases_major_events` | High viral search interest exploring what sequence led from first error to recovery backed by field records. | `Queued` |\r\n| 26 | **Databases: People Maintaining the Data** | **92** | `hidden_stories` | `databases_hidden_stories` | High viral search interest exploring who defines schemas, repairs records, operates backups, and answers users backed by field records. | `Queued` |\r\n| 27 | **Databases: A Data Recovery Story** | **91** | `documentary_stories` | `databases_documentary_stories` | High viral search interest exploring how did operators detect, contain, and restore a loss backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/323_databases/323_DATABASES_CHANNEL_TOPIC_ROADMAP.md`](./323_DATABASES_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/323_databases/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/323_databases/NICHE_323_databases.md`](file:///h:/script-raw-/REGISTRY/Niches/323_databases/NICHE_323_databases.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/323_databases/CAT_323_databases.md`](file:///h:/script-raw-/REGISTRY/Niches/323_databases/CAT_323_databases.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/323_databases/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/323_databases/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/323_databases/`](file:///h:/script-raw-/OUTPUT/323_databases/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "c003736e0eed86709fe315fbb1b9c4c24a79aa1245f7b46bddc190ab1106b1b6",
+        "original_text": "{\r\n  \"niche_id\": \"323\",\r\n  \"niche_name\": \"databases\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Databases: A Database Model Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"databases_a_database_model_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a database model emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Databases: A Database Migration Revisited\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"databases_a_database_migration_revisited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a database migration revisited through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Databases: People Maintaining the Data\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"databases_people_maintaining_the_data\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people maintaining the data through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Databases: From Record to Query\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"databases_from_record_to_query\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from record to query through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Databases: Isolation in a Real Transaction\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"databases_isolation_in_a_real_transaction\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring isolation in a real transaction through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Databases: Where Did a Record Go?\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"databases_where_did_a_record_go\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring where did a record go? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Databases: A New Database Feature\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"databases_a_new_database_feature\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new database feature through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Databases: A Data Design Choice\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"databases_a_data_design_choice\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a data design choice through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Databases: A Database Incident Timeline\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"databases_a_database_incident_timeline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a database incident timeline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Databases: Commit and Read Back\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"databases_commit_and_read_back\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring commit and read back through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Databases: A Database Technology's Adoption\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"databases_a_database_technology_s_adoption\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a database technology's adoption through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Databases: One Query Before and After\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"databases_one_query_before_and_after\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one query before and after through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Databases: A Proposed Database Capability\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"databases_a_proposed_database_capability\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed database capability through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Databases: Replication Is Backup?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"databases_replication_is_backup\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring replication is backup? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Databases: A Data Recovery Story\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"databases_a_data_recovery_story\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a data recovery story through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Databases: Application Versus Database Guarantee\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"databases_application_versus_database_guarantee\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring application versus database guarantee through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Databases: One Query's Path\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"databases_one_query_s_path\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one query's path through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Databases: Index Gains and Write Costs\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"databases_index_gains_and_write_costs\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring index gains and write costs through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Databases: A Failed Commit or Restore\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"databases_a_failed_commit_or_restore\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a failed commit or restore through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Databases: A Database Benchmark's Blind Spots\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"databases_a_database_benchmark_s_blind_spots\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a database benchmark's blind spots through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Databases: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"databases_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Databases: Where Did a Record Go?\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"databases_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which logs, migrations, replicas, or queries explain a missing result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Databases: A New Database Feature\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"databases_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did an index or execution change improve the target workload backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Databases: Replication Is Backup?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"databases_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which failures can a replica copy but a retained backup recover backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Databases: A Database Incident Timeline\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"databases_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what sequence led from first error to recovery backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Databases: People Maintaining the Data\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"databases_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who defines schemas, repairs records, operates backups, and answers users backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Databases: A Data Recovery Story\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"databases_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did operators detect, contain, and restore a loss backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "323",
+      "niche_name": "databases",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Databases: A Database Model Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "databases_a_database_model_emerges",
+          "reason": "A rigorous pedagogical investigation exploring a database model emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Databases: A Database Migration Revisited",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "databases_a_database_migration_revisited",
+          "reason": "A rigorous pedagogical investigation exploring a database migration revisited through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Databases: People Maintaining the Data",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "databases_people_maintaining_the_data",
+          "reason": "A rigorous pedagogical investigation exploring people maintaining the data through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Databases: From Record to Query",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "databases_from_record_to_query",
+          "reason": "A rigorous pedagogical investigation exploring from record to query through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Databases: Isolation in a Real Transaction",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "databases_isolation_in_a_real_transaction",
+          "reason": "A rigorous pedagogical investigation exploring isolation in a real transaction through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Databases: Where Did a Record Go?",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "databases_where_did_a_record_go",
+          "reason": "A rigorous pedagogical investigation exploring where did a record go? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Databases: A New Database Feature",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "databases_a_new_database_feature",
+          "reason": "A rigorous pedagogical investigation exploring a new database feature through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Databases: A Data Design Choice",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "databases_a_data_design_choice",
+          "reason": "A rigorous pedagogical investigation exploring a data design choice through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Databases: A Database Incident Timeline",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "databases_a_database_incident_timeline",
+          "reason": "A rigorous pedagogical investigation exploring a database incident timeline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Databases: Commit and Read Back",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "databases_commit_and_read_back",
+          "reason": "A rigorous pedagogical investigation exploring commit and read back through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Databases: A Database Technology's Adoption",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "databases_a_database_technology_s_adoption",
+          "reason": "A rigorous pedagogical investigation exploring a database technology's adoption through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Databases: One Query Before and After",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "databases_one_query_before_and_after",
+          "reason": "A rigorous pedagogical investigation exploring one query before and after through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Databases: A Proposed Database Capability",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "databases_a_proposed_database_capability",
+          "reason": "A rigorous pedagogical investigation exploring a proposed database capability through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Databases: Replication Is Backup?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "databases_replication_is_backup",
+          "reason": "A rigorous pedagogical investigation exploring replication is backup? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Databases: A Data Recovery Story",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "databases_a_data_recovery_story",
+          "reason": "A rigorous pedagogical investigation exploring a data recovery story through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Databases: Application Versus Database Guarantee",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "databases_application_versus_database_guarantee",
+          "reason": "A rigorous pedagogical investigation exploring application versus database guarantee through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Databases: One Query's Path",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "databases_one_query_s_path",
+          "reason": "A rigorous pedagogical investigation exploring one query's path through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Databases: Index Gains and Write Costs",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "databases_index_gains_and_write_costs",
+          "reason": "A rigorous pedagogical investigation exploring index gains and write costs through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Databases: A Failed Commit or Restore",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "databases_a_failed_commit_or_restore",
+          "reason": "A rigorous pedagogical investigation exploring a failed commit or restore through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Databases: A Database Benchmark's Blind Spots",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "databases_a_database_benchmark_s_blind_spots",
+          "reason": "A rigorous pedagogical investigation exploring a database benchmark's blind spots through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Databases: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "databases_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Databases: Where Did a Record Go?",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "databases_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which logs, migrations, replicas, or queries explain a missing result backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Databases: A New Database Feature",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "databases_technology_innovation",
+          "why_trending": "High viral search interest exploring did an index or execution change improve the target workload backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Databases: Replication Is Backup?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "databases_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which failures can a replica copy but a retained backup recover backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Databases: A Database Incident Timeline",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "databases_major_events",
+          "why_trending": "High viral search interest exploring what sequence led from first error to recovery backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Databases: People Maintaining the Data",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "databases_hidden_stories",
+          "why_trending": "High viral search interest exploring who defines schemas, repairs records, operates backups, and answers users backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Databases: A Data Recovery Story",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "databases_documentary_stories",
+          "why_trending": "High viral search interest exploring how did operators detect, contain, and restore a loss backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "3dd335b862bcd51bf4433596fcdb491604125f5b4498015718b2bf7bfa517be7"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "9ad9808d145810f173a311dc25961ab7d5e3176d39374f0138dbf1c3da7bc70c"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "c5b2f38675cbc5940bd85363d369e8932c29104ac0440c8f95c39f125199fef6"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "83456e4ca76dfd2cda1d7cf0729c7b3b83ff05fd2a3aac3f2deb06cfc54c615d"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "783787965ba15ad8e0e7b3c3f5510dd0720d6fc10eefa52dec90811784a4ba68"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-323-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-02",
+      "title": "Correctness",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-03",
+      "title": "Performance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-04",
+      "title": "Distributed systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-05",
+      "title": "Structure",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-06",
+      "title": "Execution",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-07",
+      "title": "Recovery",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-08",
+      "title": "Change",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-09",
+      "title": "Relationships",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-10",
+      "title": "Replication",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-323-11",
+      "title": "Storage",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "323",
+    "slug": "databases",
+    "name": "Databases",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Databases YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-323-01",
+        "title": "Data models",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-323-001",
+            "title": "Relational normalization",
+            "question": "Relational normalization: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Data models. Address Relational normalization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Relational normalization.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-002",
+            "title": "Document data modeling",
+            "question": "Document data modeling: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Data models. Address Document data modeling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Document data modeling.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-003",
+            "title": "Graph relationships",
+            "question": "Graph relationships: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Data models. Address Graph relationships through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Graph relationships.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-323-02",
+        "title": "Execution",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-323-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-323-004",
+            "title": "Index design",
+            "question": "Index design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Execution. Address Index design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Index design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-005",
+            "title": "Query planners",
+            "question": "Query planners: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Execution. Address Query planners through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Query planners.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-006",
+            "title": "Transaction isolation",
+            "question": "Transaction isolation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Execution. Address Transaction isolation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Transaction isolation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-323-03",
+        "title": "Operations",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-323-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-323-007",
+            "title": "Backup restoration tests",
+            "question": "Backup restoration tests: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Operations. Address Backup restoration tests through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Backup restoration tests.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-008",
+            "title": "Schema migration",
+            "question": "Schema migration: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Operations. Address Schema migration through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Schema migration.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-323-009",
+            "title": "Replication lag",
+            "question": "Replication lag: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Databases; branch: Operations. Address Replication lag through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Replication lag.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Databases: A Database Model Emerges",
+      "question": "What problem did a named data model address?",
+      "coverage": "Use dated papers, implementations, and workload context. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Database Migration Revisited",
+      "question": "Did one replacement meet its consistency and performance aims?",
+      "coverage": "Compare schema, workload, failure tests, and migration cost. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: People Maintaining the Data",
+      "question": "Who defines schemas, repairs records, operates backups, and answers users?",
+      "coverage": "Credit operators, stewards, and affected communities. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: From Record to Query",
+      "question": "How does one application store and retrieve a record?",
+      "coverage": "Trace schema, index, query, permissions, and returned result. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Isolation in a Real Transaction",
+      "question": "Which concurrent outcome can a chosen isolation level permit?",
+      "coverage": "Use a named engine, version, workload, and reproducible schedule. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Where Did a Record Go?",
+      "question": "Which logs, migrations, replicas, or queries explain a missing result?",
+      "coverage": "Protect sensitive data and distinguish deletion from invisibility. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A New Database Feature",
+      "question": "Did an index or execution change improve the target workload?",
+      "coverage": "Test latency, write cost, storage, and correctness. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Data Design Choice",
+      "question": "Who chose a schema or consistency rule and why?",
+      "coverage": "Read design decisions and consequences for users. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Database Incident Timeline",
+      "question": "What sequence led from first error to recovery?",
+      "coverage": "Use public postmortem, alerts, and restore evidence. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Commit and Read Back",
+      "question": "How does a named engine make a write visible and durable?",
+      "coverage": "Trace transaction, log, storage, cache, and replica path. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Database Technology's Adoption",
+      "question": "Which workload and organization choices explain use over time?",
+      "coverage": "Separate popularity metrics from suitability and outcomes. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: One Query Before and After",
+      "question": "What changed after schema or engine migration?",
+      "coverage": "Control data size, hardware, indexes, concurrency, and version. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Proposed Database Capability",
+      "question": "What would demonstrate safe usefulness in production?",
+      "coverage": "Define compatibility, correctness, workload, and operational cost. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Replication Is Backup?",
+      "question": "Which failures can a replica copy but a retained backup recover?",
+      "coverage": "Test deletion, corruption, restore point, and access controls. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Data Recovery Story",
+      "question": "How did operators detect, contain, and restore a loss?",
+      "coverage": "Use consented records and distinguish recovery claim from test. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Application Versus Database Guarantee",
+      "question": "Which correctness duties belong to app code, schema, and engine?",
+      "coverage": "Name transaction settings and failure assumptions. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: One Query's Path",
+      "question": "What data enters a query and how is the result produced?",
+      "coverage": "Trace parse, plan, index, access, and response for a named engine. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: Index Gains and Write Costs",
+      "question": "When does an index speed reads while increasing maintenance?",
+      "coverage": "Benchmark a defined mix and data distribution. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Failed Commit or Restore",
+      "question": "What evidence shows whether data was lost or unavailable?",
+      "coverage": "Use transaction logs, storage state, and restore test. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Databases: A Database Benchmark's Blind Spots",
+      "question": "Does a headline throughput number match the intended application?",
+      "coverage": "Specify schema, dataset, read-write mix, concurrency, and durability. Evidence base: database documentation, design records, query plans, reproducible workloads, backup and restore tests, and incident postmortems.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-323-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "d0fd528c1eb6e585f64ab3a88de6c126160e69261ed4254eed63d34c88e3ab66",
+    "TOPIC_BANK_RECONCILIATION.md": "d90508b6f0344b5a62e562f9a747aa68486808ddb830382011f7b42b678d18ca",
+    "TOPICS_COVERED_REPORT.md": "70c15a74bc6827c9f0aecdbf1b779ef9be67548ffe7d8192f6659772b2224958",
+    "323_DATABASES_CHANNEL_TOPIC_ROADMAP.md": "0afd57082c3a2ad56c372b8f96b9a69bba76f7c2eec55f251beba38df4113199"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-323-002": [
+      "BANK-323-030"
+    ],
+    "BANK-323-006": [
+      "BANK-323-031"
+    ],
+    "BANK-323-004": [
+      "BANK-061-032"
+    ],
+    "BANK-323-001": [
+      "BANK-323-034"
+    ],
+    "BANK-323-005": [
+      "BANK-323-035"
+    ],
+    "BANK-323-007": [
+      "BANK-323-036"
+    ],
+    "BANK-323-008": [
+      "BANK-323-037"
+    ],
+    "BANK-323-003": [
+      "BANK-323-038"
+    ],
+    "BANK-323-009": [
+      "BANK-323-039"
+    ]
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "Why can an index speed up reads while slowing down writes?",
+      "coverage": "Compare lookup structure, maintenance, selectivity and storage with illustrative queries.",
+      "id": "BANK-323-032",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-323-004"
+      ],
+      "duplicate_of": "BANK-061-032",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Inspect query plans, selectivity and write overhead on a reproducible sample; avoid universal tuning recipes based on one table. / Compare lookup structure, maintenance, selectivity and storage with illustrative queries. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-323-R03"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-030"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-037"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-036"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-031"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-033"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-034"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded incident case added.",
+      "reason": "Dated operator records support a named incident question.",
+      "bank_ids": [
+        "BANK-323-041"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-031"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-030"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-033"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-036"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded incident case added.",
+      "reason": "Dated operator records support a named incident question.",
+      "bank_ids": [
+        "BANK-323-041"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-031"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Distinct bounded incident case added.",
+      "reason": "Dated operator records support a named incident question.",
+      "bank_ids": [
+        "BANK-323-041"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-040"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-035"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-033"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-036"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded incident case added.",
+      "reason": "Dated operator records support a named incident question.",
+      "bank_ids": [
+        "BANK-323-041"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The generic archived framing merges into this narrower active scope; record, trend and universal reliability claims are not adopted.",
+      "bank_ids": [
+        "BANK-323-036"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded incident case added.",
+      "reason": "Dated operator records support a named incident question.",
+      "bank_ids": [
+        "BANK-323-041"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-323-041",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_operator_sources_inspected",
+    "semantic_candidates_reviewed": 27
+  }
+}

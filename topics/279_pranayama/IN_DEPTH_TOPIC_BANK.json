@@ -1,0 +1,3680 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "279",
+  "slug": "pranayama",
+  "name": "Pranayama",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "purpose": "A channel-planning catalog spanning classical vocabulary, named breathing methods, source history, physiology, curricula, measurement and evidence. Method descriptions are documentary topics rather than practice prescriptions.",
+  "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+  "counts": {
+    "categories": 26,
+    "proposed_topics": 125
+  },
+  "scope_routing": [
+    {
+      "name": "278 Meditation",
+      "directory": "278_meditation",
+      "roadmap": "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for contemplative attention, named meditation methods, japa, meditation experience and meditation-program research."
+    },
+    {
+      "name": "279 Pranayama",
+      "directory": "279_pranayama",
+      "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for deliberate breath regulation, named pranayama techniques, traditional breath concepts, respiratory variables and protocol research."
+    },
+    {
+      "name": "280 Yoga",
+      "directory": "280_yoga",
+      "roadmap": "280_YOGA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for yoga philosophy, ethics, whole-system history, posture families, schools, sequencing and teaching systems."
+    }
+  ],
+  "research_profiles": {
+    "TEXT": {
+      "requirements": "Inspect a named primary-text edition, passage locator, translator and commentary; compare attributions and keep spiritual or symbolic claims in their source context.",
+      "source_leads": [
+        "IIT Kanpur Gita Supersite corpus (entry point listed in the batch guide)",
+        "the named work in a traceable edition",
+        "authorized public teaching materials for the tradition concerned"
+      ]
+    },
+    "STUDY": {
+      "requirements": "Select actual study reports and registrations; extract intervention, population, comparator, outcomes, follow-up, adverse events, funding and limitations. Use current official guidance for clinical context.",
+      "source_leads": [
+        "ClinicalTrials.gov for study registrations",
+        "original journal reports and their supplementary protocols",
+        "NCCIH official guidance as orientation, not a substitute for original studies"
+      ]
+    },
+    "HISTORY": {
+      "requirements": "Locate dated books, archival records, correspondence, photographs or institutional publications; distinguish contemporary evidence, later recollection and disputed chronology.",
+      "source_leads": [
+        "the named author's dated original publications",
+        "institutional archives and catalog records",
+        "independent scholarship used to test historical interpretation"
+      ]
+    },
+    "PHYSIOLOGY": {
+      "requirements": "Use an identifiable anatomy/physiology reference and original measurement studies; distinguish respiratory variables, mechanism hypotheses, proxies and patient outcomes. Give no self-experiment regimen.",
+      "source_leads": [
+        "current university or professional anatomy and physiology references",
+        "original instrument-validation and respiratory-physiology papers",
+        "clinical trial protocols for intervention-specific questions"
+      ]
+    },
+    "GUIDANCE": {
+      "requirements": "Inspect current official guidance and a named institution's policies; record date, population, jurisdiction, scope, consent and referral boundaries. Do not infer individual suitability.",
+      "source_leads": [
+        "NCCIH official yoga and meditation guidance",
+        "current condition-specific professional guidance",
+        "the actual institution's qualification, safeguarding and participant policies"
+      ]
+    },
+    "DIGITAL": {
+      "requirements": "Inspect the named product version, dated terms, privacy policy and actual validation studies; distinguish engagement, measurement accuracy, benefit claims and financial incentives.",
+      "source_leads": [
+        "the provider's product documentation and privacy policy",
+        "original device/app validation studies",
+        "app change logs, funding disclosures and applicable official regulatory records"
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "CATALOG-279-01",
+      "title": "Meaning and conceptual foundations",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-001",
+          "question": "Pranayama, breath awareness, and breathwork: where do the labels diverge?",
+          "coverage": "Compare source definitions, deliberate regulation, observational attention, and modern umbrella terminology.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-002",
+          "question": "Prana in a traditional text: why is it not simply another word for oxygen?",
+          "coverage": "Read the concept within its philosophical framework and separate it from measured respiratory variables.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-003",
+          "question": "Puraka, rechaka, and kumbhaka: how are phases classified in a named manual?",
+          "coverage": "Explain textual vocabulary without providing timing ratios or retention instructions.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-004",
+          "question": "Sahita and kevala kumbhaka: how does one source distinguish them?",
+          "coverage": "Compare the source's categories, prerequisites, and interpretation without demonstrating the practices.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-005",
+          "question": "What is a pranayama protocol in a scientific paper?",
+          "coverage": "Identify technique name, rate, depth, route, supervision, duration, and participant selection.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-006",
+          "question": "Why can two teachers use the same breathing name differently?",
+          "coverage": "Compare documented instructions and lineage context rather than assuming standardized terminology.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-01",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-02",
+      "title": "Respiratory anatomy for viewers",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "PHYSIOLOGY",
+      "topics": [
+        {
+          "id": "BANK-279-007",
+          "question": "The diaphragm and rib cage: what moves during quiet breathing?",
+          "coverage": "Use anatomical references and distinguish visible movement from precise muscle measurement.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-008",
+          "question": "Nose, mouth, and airways: what does the breathing route change?",
+          "coverage": "Examine airflow, conditioning, resistance, and limits on claims about universal superiority.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-009",
+          "question": "Lung volume versus breathing rate: why are slow and deep not synonyms?",
+          "coverage": "Explain tidal volume, frequency, and ventilation using non-prescriptive conceptual examples.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-010",
+          "question": "Gas exchange: how do oxygen and carbon dioxide move between lungs and blood?",
+          "coverage": "Distinguish ventilation, diffusion, circulation, and oxygen delivery without suggesting breathing challenges.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-011",
+          "question": "What does the urge to breathe reveal about respiratory regulation?",
+          "coverage": "Discuss chemoreception and context without providing breath-hold tests or targets.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-012",
+          "question": "What can a pulse oximeter tell us about a breathing practice?",
+          "coverage": "Explain saturation, device limitations, and why it does not measure every aspect of ventilation.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-02",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-03",
+      "title": "Traditional physiology and symbolism",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-013",
+          "question": "The five vayus: how does a selected yoga source describe their roles?",
+          "coverage": "Present prana, apana, samana, udana, and vyana as attributed traditional categories.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-014",
+          "question": "Ida, pingala, and sushumna: how are nadis described in a named text?",
+          "coverage": "Distinguish subtle-body models from claims about directly identified anatomical structures.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-015",
+          "question": "Nadi shodhana: what does purification mean in its source context?",
+          "coverage": "Compare philosophical and ritual meanings without translating them into unsupported detoxification claims.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-016",
+          "question": "Prana and apana in Bhagavad Gita 4.29: how do commentators read the verse?",
+          "coverage": "Locate the verse in its discussion of sacrifice and compare attributed interpretations.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-017",
+          "question": "Bandhas in pranayama texts: why do they require separate contextual treatment?",
+          "coverage": "Explain textual relationships and supervision boundaries without procedural instruction.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-018",
+          "question": "Kundalini and pranayama: how can traditional claims be represented accurately?",
+          "coverage": "Attribute claims to named sources and avoid presenting awakening as a guaranteed physiological outcome.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-03",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-04",
+      "title": "Yoga Sutra passages on breath",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-019",
+          "question": "Yoga Sutra 2.49: how is pranayama introduced after asana?",
+          "coverage": "Compare translations and commentary on the relationship between posture and breath.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-020",
+          "question": "External, internal, and suspended movement in Yoga Sutra 2.50: what is classified?",
+          "coverage": "Analyze terminology, interpretive choices, and the passage's own boundaries.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-021",
+          "question": "Place, time, and number in Yoga Sutra 2.50: how do commentaries differ?",
+          "coverage": "Discuss the categories without prescribing numerical practice progressions.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-022",
+          "question": "The fourth in Yoga Sutra 2.51: what do translators think it refers to?",
+          "coverage": "Compare named interpretations and distinguish interpretive uncertainty from settled technique.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-023",
+          "question": "Yoga Sutra 2.52-53: how is breath related to concentration?",
+          "coverage": "Explain the sequence as a textual argument rather than proof of a modern clinical mechanism.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-024",
+          "question": "Yoga Sutra 1.34 and 2.49-53: do they describe the same role for breath?",
+          "coverage": "Read both passages in context and compare a selected commentary's explanation.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-04",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-05",
+      "title": "Hatha sources and historical development",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-025",
+          "question": "Pranayama in Hatha Yoga Pradipika chapter 2: how is the subject organized?",
+          "coverage": "Use a specified edition to map preparation, techniques, cautions, and claimed aims.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-026",
+          "question": "The Gheranda Samhita's pranayama section: what curriculum surrounds it?",
+          "coverage": "Study the work's structure and avoid treating its sequence as universal yoga history.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-027",
+          "question": "The Shiva Samhita and breath: how do its aims compare with another hatha text?",
+          "coverage": "Choose matched passages and distinguish textual voice from modern interpretation.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-028",
+          "question": "The eight kumbhakas: how does a named hatha source enumerate them?",
+          "coverage": "Verify the selected edition's list and explain classification rather than giving a practice sequence.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-029",
+          "question": "Printed manuals and the spread of pranayama: what changed in the twentieth century?",
+          "coverage": "Trace two dated manuals, circulation context, and changes in presentation.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-030",
+          "question": "When was a breathing name first documented: what evidence is enough?",
+          "coverage": "Separate earliest surviving witness, manuscript dating, oral claims, and later standardized names.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-05",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-06",
+      "title": "Nadi shodhana and alternate-nostril traditions",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-031",
+          "question": "Nadi shodhana and anuloma viloma: are these names equivalent in every school?",
+          "coverage": "Compare two public curricula, terminology, and included or omitted components.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-032",
+          "question": "Alternate-nostril breathing without retention: how does a study define its intervention?",
+          "coverage": "Describe published protocol variables without turning them into viewer instructions.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-033",
+          "question": "Hand positions in alternate-nostril teaching: what varies across institutions?",
+          "coverage": "Document naming, accessibility adaptations, and institutional explanations without prescribing technique.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-034",
+          "question": "Nostril dominance claims: how would researchers measure the nasal cycle?",
+          "coverage": "Separate naturally varying airflow, subjective observation, and intervention-induced change.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-035",
+          "question": "Nadi shodhana and attention research: what would a fair control look like?",
+          "coverage": "Compare quiet sitting, paced breathing, expectancy, and repeated-task effects.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-036",
+          "question": "Purification language in alternate-nostril videos: which claims need qualification?",
+          "coverage": "Distinguish traditional symbolism, airway function, and unsupported toxin-removal language.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did the 2025 nostril-regulated breathing crossover study account for baseline nostril patency and active controls?",
+          "coverage": "Examine the five-session, 45-participant crossover design comparing three regulated breathing practices with breath awareness and quiet sitting; keep short-term mood/attention measures separate from autonomic or clinical outcomes.",
+          "id": "BANK-279-127",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-06",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-07",
+      "title": "Ujjayi and audible breath",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-037",
+          "question": "Ujjayi in a classical source and a modern class: what differs?",
+          "coverage": "Compare definitions, purpose, accompanying practices, and evidence of continuity.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-038",
+          "question": "Ujjayi sound: what can acoustics reveal about a recorded demonstration?",
+          "coverage": "Study microphone placement, audible features, and the limits of inferring safe technique from sound.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-039",
+          "question": "Ujjayi during movement versus seated pranayama: why separate the contexts?",
+          "coverage": "Compare curriculum purpose, exertion, supervision, and what a study actually investigates.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-040",
+          "question": "Ocean breath as a translation of ujjayi: what meaning does the metaphor add?",
+          "coverage": "Trace teaching language and distinguish a pedagogical image from a literal physiological description.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-041",
+          "question": "Ujjayi and respiratory resistance: what would a laboratory need to measure?",
+          "coverage": "Identify airflow, pressure, effort, and comparator requirements without self-experiment instructions.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-042",
+          "question": "Can a study of generic slow breathing support a claim about ujjayi?",
+          "coverage": "Match intervention components and identify what cannot be generalized to a distinct technique.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-07",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-08",
+      "title": "Bhramari and humming research",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-043",
+          "question": "Bhramari in different teaching manuals: which components are shared?",
+          "coverage": "Compare documented definitions, use of sound, contextual aims, and variation.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-044",
+          "question": "Humming and bhramari: why are they not automatically identical interventions?",
+          "coverage": "Distinguish isolated vocalization from a full named curriculum and its additional components.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-045",
+          "question": "Humming and nasal nitric oxide: what does a measured change establish?",
+          "coverage": "Examine sampling methods, immediate effects, and the gap between mechanism and clinical outcomes.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-046",
+          "question": "Bhramari and perceived calm: how can expectation influence self-report?",
+          "coverage": "Compare controls, participant preference, blinding limits, and outcome timing.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-047",
+          "question": "Sound and vibration language in bhramari teaching: what is literal and what is metaphor?",
+          "coverage": "Use attributed explanations and avoid assigning unmeasured energetic effects to anatomy.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-048",
+          "question": "Bhramari videos for children: what questions should an educational review ask?",
+          "coverage": "Assess age appropriateness, qualified oversight, consent, and unsupported therapeutic claims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-08",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-09",
+      "title": "Shitali, shitkari, and cooling language",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-049",
+          "question": "Shitali and shitkari: how does a chosen manual distinguish them?",
+          "coverage": "Compare terminology, cultural explanation, and stated aims without demonstrating a regimen.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-050",
+          "question": "Cooling in pranayama: is the claim a sensation, temperature, or traditional quality?",
+          "coverage": "Separate subjective experience, measured temperature, and humoral interpretation.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-051",
+          "question": "Tongue-rolling assumptions in shitali teaching: how is variation accommodated?",
+          "coverage": "Review public curricula and inclusive communication rather than assigning ability or deficiency.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-052",
+          "question": "Cooling breath in hot weather: what evidence would justify a heat-safety claim?",
+          "coverage": "Require environmental and clinical evidence; do not present breath practice as heat-illness prevention.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-053",
+          "question": "Mouth breathing within a named practice: why does context matter?",
+          "coverage": "Distinguish a brief traditional technique description from everyday respiratory health advice.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-054",
+          "question": "Shitali research: does the trial report what participants actually performed?",
+          "coverage": "Check protocol detail, adherence, comparator, population, and adverse-event reporting.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-09",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-10",
+      "title": "Surya and chandra practices",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-055",
+          "question": "Surya bhedana in a hatha text: what does the source actually claim?",
+          "coverage": "Attribute symbolic and practice claims to an edition without translating them into guaranteed effects.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-056",
+          "question": "Chandra bhedana in modern curricula: how do sources establish its provenance?",
+          "coverage": "Trace documented manuals and distinguish later usage from assumed antiquity.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-057",
+          "question": "Solar and lunar language: how are these symbols interpreted in a named lineage?",
+          "coverage": "Compare cosmological meaning, subtle-body models, and contemporary metaphors.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-058",
+          "question": "Right- versus left-nostril research: how is actual airflow controlled?",
+          "coverage": "Examine nasal cycle, obstruction, instrumentation, and intervention fidelity.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-059",
+          "question": "Do nostril-specific studies establish different effects on mental performance?",
+          "coverage": "Review task selection, baseline differences, sample size, and replication needs.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-060",
+          "question": "Heating and cooling claims across surya and chandra teaching: what is measurable?",
+          "coverage": "Separate traditional qualities, felt sensation, metabolic measurements, and clinical conclusions.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-10",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-11",
+      "title": "Kapalabhati and bhastrika classification",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-061",
+          "question": "Is kapalabhati always classified as pranayama?",
+          "coverage": "Compare its placement in a named classical text and modern institutional curricula.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-062",
+          "question": "Bhastrika and kapalabhati: which distinctions do manuals make?",
+          "coverage": "Analyze descriptions, category, and aims without teaching forceful breathing mechanics.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-063",
+          "question": "Breath of fire: why can an English label obscure distinct practices?",
+          "coverage": "Identify the specific school and documented protocol before making cross-study comparisons.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-064",
+          "question": "Forceful breathing videos: what makes intensity hard to infer from footage?",
+          "coverage": "Examine editing, sound, duration, participant screening, and unreported physiology.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-065",
+          "question": "Detox claims attached to kapalabhati: what would count as evidence?",
+          "coverage": "Ask which substance, measurement, mechanism, outcome, and comparator are actually specified.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-066",
+          "question": "Why should demonstrations of forceful practices be separated from documentary explanation?",
+          "coverage": "Assess instructor qualification, participant selection, editorial framing, and foreseeable imitation.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-11",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-12",
+      "title": "Kumbhaka and advanced practice boundaries",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-067",
+          "question": "Internal and external retention: how do sources describe their place in training?",
+          "coverage": "Compare terminology and prerequisites without giving durations or performance targets.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-068",
+          "question": "Retention ratios in historical texts: how should a documentary discuss them?",
+          "coverage": "Identify edition and interpretation while omitting replicable progression instructions.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-069",
+          "question": "Voluntary breath holding and pranayama retention: what does the research comparison miss?",
+          "coverage": "Separate study context, intent, co-interventions, and participant expertise.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-070",
+          "question": "Kevala kumbhaka as an attainment claim: what can historians establish?",
+          "coverage": "Distinguish a text's account, practitioner testimony, and externally measured evidence.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-071",
+          "question": "What do qualified institutions say about supervision of advanced breath practices?",
+          "coverage": "Compare current public guidance and exact scope rather than inventing universal prerequisites.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-072",
+          "question": "Why are competitive breath-hold challenges a poor frame for pranayama education?",
+          "coverage": "Examine goals, incentives, risk communication, and the difference from historical study.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-12",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-13",
+      "title": "Autonomic measures and mechanisms",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "PHYSIOLOGY",
+      "topics": [
+        {
+          "id": "BANK-279-073",
+          "question": "HRV during slow breathing: why does breathing itself affect the measurement?",
+          "coverage": "Distinguish respiratory effects, recording conditions, and claims about lasting autonomic change.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-074",
+          "question": "Respiratory sinus arrhythmia: what does the term describe?",
+          "coverage": "Use physiology sources and separate cyclic heart-rate variation from a diagnosis or wellness score.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-075",
+          "question": "Baroreflex claims in breathing research: how are they tested?",
+          "coverage": "Compare blood-pressure measurements, timing, model assumptions, and study populations.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-076",
+          "question": "Carbon dioxide during paced breathing: why does depth matter alongside rate?",
+          "coverage": "Explain ventilation variables without prescribing hyperventilation, hypoventilation, or retention.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-077",
+          "question": "Vagus nerve claims in pranayama videos: what is actually measured?",
+          "coverage": "Separate direct measurement, proxy outcomes, mechanistic hypotheses, and promotional language.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-078",
+          "question": "Immediate calm versus long-term adaptation: what study design distinguishes them?",
+          "coverage": "Compare within-session measures, longitudinal follow-up, controls, and adherence.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-13",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-14",
+      "title": "Clinical and wellness evidence",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-079",
+          "question": "Pranayama and stress: which named intervention was actually tested?",
+          "coverage": "Identify components, population, comparison group, self-report measures, and harms.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-080",
+          "question": "Breathing practice and blood pressure: what makes an outcome clinically interpretable?",
+          "coverage": "Review measurement procedures, medication context, follow-up, and limits on treatment claims.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-081",
+          "question": "Pranayama and asthma: why must an episode separate adjunct research from treatment advice?",
+          "coverage": "Use current guidance, study eligibility, clinical supervision, and clearly bounded outcomes.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-082",
+          "question": "Pranayama and sleep: do studies measure sleep quality or diagnosed insomnia?",
+          "coverage": "Compare scales, objective measures, intervention components, and duration of follow-up.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-083",
+          "question": "Pranayama and anxiety: how are symptom scores different from clinical recovery?",
+          "coverage": "Examine population selection, existing care, comparison groups, and clinically meaningful change.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-084",
+          "question": "Can improved spirometry after training establish better everyday health?",
+          "coverage": "Separate test performance, technique learning, measurement reliability, and patient-centered outcomes.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did a 2020 pranayama asthma trial report symptom and quality-of-life differences without a spirometry difference?",
+          "coverage": "Read the single-blind randomized pranayama-versus-relaxation adjunct study, distinguishing ACT/AQLQ self-report from pulmonary-function and peak-flow measures; do not imply cure or replacement of prescribed care.",
+          "id": "BANK-279-128",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-14",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-15",
+      "title": "Safety, consent, and instructor scope",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "GUIDANCE",
+      "topics": [
+        {
+          "id": "BANK-279-085",
+          "question": "What should a pranayama course disclose before participants enroll?",
+          "coverage": "Review consent, expected activities, screening process, instructor role, and support options.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-086",
+          "question": "How do current guidelines discuss pregnancy and breathing practices?",
+          "coverage": "Identify jurisdiction, named practices, oversight, and referral boundaries without offering personal advice.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-087",
+          "question": "Why should breathing instruction account for respiratory and cardiovascular conditions?",
+          "coverage": "Compare institutional screening and clinician involvement using current condition-specific guidance.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-088",
+          "question": "Dizziness during a breathing session: what should an educational video avoid normalizing?",
+          "coverage": "Study reporting and escalation policies without diagnosing a viewer or calling distress spiritual progress.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-089",
+          "question": "Why do advanced breathing videos need clear setting and supervision boundaries?",
+          "coverage": "Assess imitation risks, qualified instruction, consent, and avoidance of dangerous practice contexts.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-090",
+          "question": "What does a pranayama instructor's certification cover and leave outside scope?",
+          "coverage": "Check the issuing body's curriculum, assessment, renewal, and boundaries around clinical claims.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-15",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-16",
+      "title": "Protocol design and research methods",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-092",
+          "question": "What is a credible active comparator for an alternate-nostril trial?",
+          "coverage": "Consider contact time, posture, expectation, attention, and actual breathing variables.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-093",
+          "question": "How do breathing studies record adherence outside the laboratory?",
+          "coverage": "Compare diaries, supervised sessions, sensors, and their different sources of error.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-094",
+          "question": "Why do small breathing trials need preregistered primary outcomes?",
+          "coverage": "Examine multiple testing, outcome switching, effect estimates, and uncertainty.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-095",
+          "question": "Can a breathing intervention be separated from the rest of a yoga course?",
+          "coverage": "Compare combined-program trials with component-specific designs and attribution limits.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-096",
+          "question": "How should a systematic review handle different practices grouped as pranayama?",
+          "coverage": "Assess intervention taxonomy, population differences, pooling decisions, and heterogeneity.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-16",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-17",
+      "title": "Modern breathwork and fair comparisons",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-097",
+          "question": "Box breathing and classical pranayama: what overlaps and what does not?",
+          "coverage": "Compare source histories and components without giving retention counts or claiming equivalence.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-098",
+          "question": "Resonance-frequency breathing: how is an individualized protocol studied?",
+          "coverage": "Explain the research concept and instrumentation without prescribing a target rate.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-099",
+          "question": "Buteyko and pranayama: why should distinct traditions keep their names?",
+          "coverage": "Compare origin accounts, protocol definitions, evidence, and attribution boundaries.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-100",
+          "question": "Wim Hof Method research: can outcomes be attributed to breathing alone?",
+          "coverage": "Separate breathing, cold exposure, mindset, participant selection, and studied outcomes.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-101",
+          "question": "Sudarshan Kriya studies: what does the full intervention include?",
+          "coverage": "Use authorized descriptions and trial protocols; avoid reproducing proprietary instruction.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-102",
+          "question": "Physiological sigh claims: when is a laboratory task being generalized too far?",
+          "coverage": "Match the exact maneuver, population, outcome, and evidence before comparing it with pranayama.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-17",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-18",
+      "title": "Institutions, curricula, and public teaching",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-279-103",
+          "question": "Kaivalyadhama and pranayama research: how did laboratory study enter yoga institutions?",
+          "coverage": "Trace dated institutional publications, research methods, and changes in scientific language.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-104",
+          "question": "The Common Yoga Protocol: where does pranayama fit in a public curriculum?",
+          "coverage": "Inspect a dated official edition, its classifications, and the intended teaching context.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-105",
+          "question": "Sivananda teaching manuals: how is breath placed within a broader yoga system?",
+          "coverage": "Choose a dated publication and distinguish institutional curriculum from all hatha traditions.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-106",
+          "question": "Pranayama teacher examinations: what knowledge is formally assessed?",
+          "coverage": "Use a current named certification syllabus and distinguish exam competence from clinical expertise.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-107",
+          "question": "From Sanskrit manual to English video: where can a breathing instruction change meaning?",
+          "coverage": "Trace one term through source, translation, teacher explanation, and editing.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-108",
+          "question": "How do regional pronunciation and transliteration affect discoverability of pranayama topics?",
+          "coverage": "Compare spellings such as shitali/sitali while preserving the source's terminology.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-18",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-19",
+      "title": "Measurement tools and digital products",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "DIGITAL",
+      "topics": [
+        {
+          "id": "BANK-279-109",
+          "question": "Breathing pacer apps: what do animation and haptics actually control?",
+          "coverage": "Inspect a dated product version and distinguish pacing cues from measured participant behavior.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-110",
+          "question": "Wearable respiratory-rate estimates: how are they validated?",
+          "coverage": "Compare sensor methods, reference standards, motion artifacts, and intended use.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-111",
+          "question": "HRV biofeedback versus an HRV score: what is the difference?",
+          "coverage": "Separate a guided intervention, measurement algorithm, and consumer readiness metric.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-112",
+          "question": "AI breathing coaches: how do they handle symptoms and unsuitable requests?",
+          "coverage": "Evaluate disclosure, screening, escalation, privacy, and unsupported personalized prescriptions.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-113",
+          "question": "Do breath-training devices have evidence for the exact product being sold?",
+          "coverage": "Match device model, regulatory claims, trial population, and comparator.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-114",
+          "question": "Breathing-data privacy: what can a wellness app infer and retain?",
+          "coverage": "Inspect permissions, health-data sharing, retention, deletion, and business incentives.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-19",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-20",
+      "title": "Cross-niche synthesis and documentary formats",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-116",
+          "question": "Pranayama within the eight limbs: what does an isolated breathing video leave out?",
+          "coverage": "Read the wider framework and refer whole-system yoga interpretation to niche 280.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-117",
+          "question": "One breathing claim from scripture to social media: where does its meaning change?",
+          "coverage": "Trace an exact passage, translation, institutional manual, and contemporary claim.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-119",
+          "question": "What would a transparent evidence review of bhramari look like?",
+          "coverage": "Define a question, search criteria, study extraction, harms review, and uncertainty statement.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-120",
+          "question": "How can pranayama education stay specific without becoming an unsupervised advanced lesson?",
+          "coverage": "Use annotated sources, diagrams, interviews, and non-procedural descriptions with clear limits.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "parent_id": "DOMAIN-279-20",
+      "reading_subcategory": "Core questions and distinctions"
+    },
+    {
+      "id": "CATALOG-279-R01",
+      "title": "Breathing",
+      "level": "foundation",
+      "parent_id": "DOMAIN-279-21",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "7676458e0c0fb84dc8ee7f756bd538f98e16b26d7f3ed22e1d7419ff6218b24e",
+      "topics": [
+        {
+          "question": "How does breathing rhythm interact with attention and bodily signals?",
+          "coverage": "Explain respiratory timing, perception and measurement without exercise protocols or medical benefits claims.",
+          "id": "BANK-279-121",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-R02",
+      "title": "Terminology",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-279-22",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "45cc97e181f7bd211cf546fb4e2983501a53ade59fc1dbdb8610b90dc3250de2",
+      "topics": [
+        {
+          "question": "Why does pranayama mean more than slow breathing in some yoga texts?",
+          "coverage": "Compare breath, prana, discipline and textual context with clear translation limits.",
+          "id": "BANK-279-122",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-R03",
+      "title": "Design",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-279-23",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "8b70f8c5ba0c4410cc1f459ca214d9ea9e32dadaddb6514a45aa69f32e965a92",
+      "topics": [
+        {
+          "question": "How can a breathing study separate pacing effects from expectation and relaxation?",
+          "coverage": "Compare controls, ventilation measures, participant selection and adverse-event reporting; exclude self-treatment instructions.",
+          "id": "BANK-279-123",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-R04",
+      "title": "Mechanisms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-279-24",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "1459af8377c2f26a32ed618d69753ccd7e71fc840286bee5a506aa8a654186cc",
+      "topics": [
+        {
+          "question": "Why does a change in heart-rate variability not establish every claimed pranayama benefit?",
+          "coverage": "Distinguish biomarkers, mechanisms, clinical outcomes and confounding; keep health conclusions for later evidence review.",
+          "id": "BANK-279-124",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-R05",
+      "title": "Respiration",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-279-25",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "04d544d1243ff993de0d0e441f45a902d6baf716ca2b157d4b9d1fec7016e552",
+      "topics": [
+        {
+          "question": "Why can two people breathing at the same pace ventilate different amounts of air?",
+          "coverage": "Compare depth, dead space, posture and measurement; exclude breathing prescriptions.",
+          "id": "BANK-279-125",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-R06",
+      "title": "Textual sequencing",
+      "level": "advanced",
+      "parent_id": "DOMAIN-279-26",
+      "research_profile": "TEXT",
+      "prerequisites": [],
+      "local_group_identity": "6362ba5cc190f6caa5bd651d0d85caf56870900fc99d2d12eed014129d06d089",
+      "topics": [
+        {
+          "question": "How do selected yoga texts place pranayama within a wider discipline?",
+          "coverage": "Compare preparation, purpose, sequence and commentary; distinguish historical description from instructions to reproduce practices.",
+          "id": "BANK-279-126",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "suggested_series": [
+    {
+      "title": "Language before technique",
+      "learning_outcome": "Distinguish traditional concepts, respiratory variables and research protocols.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-001",
+        "BANK-279-002",
+        "BANK-279-003",
+        "BANK-279-009",
+        "BANK-279-010",
+        "BANK-279-013"
+      ]
+    },
+    {
+      "title": "Texts before modern labels",
+      "learning_outcome": "Read Yoga Sutra and hatha source questions before comparing institutional curricula.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-019",
+        "BANK-279-020",
+        "BANK-279-022",
+        "BANK-279-025",
+        "BANK-279-026",
+        "BANK-279-028"
+      ]
+    },
+    {
+      "title": "Named methods and their boundaries",
+      "learning_outcome": "Compare documented method definitions without constructing a practice progression.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-031",
+        "BANK-279-037",
+        "BANK-279-043",
+        "BANK-279-049",
+        "BANK-279-055",
+        "BANK-279-061"
+      ]
+    },
+    {
+      "title": "From mechanism to clinical claim",
+      "learning_outcome": "Understand measurement confounding, evidence limits and participant safeguards.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-073",
+        "BANK-279-076",
+        "BANK-279-077",
+        "BANK-279-079",
+        "BANK-279-083",
+        "BANK-279-088"
+      ]
+    }
+  ],
+  "handoff": [
+    "Retain the BANK ID in editorial notes. Name the exact case, edition, lineage, population, protocol or product version before promoting a broad question to an episode.",
+    "Inspect source passages and reports; add honest source-access records and a bounded idea through the existing registry workflow. Empty verified_sources lists mean this bank has not performed claim-level episode research.",
+    "Reuse an existing registered angle; confirm its current scope in ANGLE_PLAN.json. These catalog entries do not change Q1-Q42, CAT defaults, existing CONFIG snapshots or production gates.",
+    "If creating a formal depth plan, map the selected question to stable TOP IDs inside the niche Planning directory. Create a formal IDEA record only with its required evidence plan and readiness review; do not promote all proposals automatically.",
+    "Verify material claims in Phase 1 with exact locators. Attribute spiritual, historical and symbolic interpretations. Health outcomes require original evidence and current guidance; proposals do not supply personal medical advice.",
+    "Check neighboring banks for the same story question. Reuse the primary home and link the related topic; change the research question when a second niche needs its own episode.",
+    "Keep topic proposals, ready ideas, produced text packages and published videos as distinct statuses. Do not mark these proposals completed or trending based on their presence here."
+  ],
+  "coverage_limits": "This first batch does not exhaust manuscript variants, regional teaching systems, instructor interviews, instrument-validation studies or condition-specific clinical evidence. Resolve each technique's edition and institutional definition before research. Advanced retention, bandha and forceful-breathing entries contain no practice ratios or progressions.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/279_pranayama/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "d92f47c2d09aedde411d0ed7ea43d77df15b0645cb9b5fc790c237a788f6f27f",
+    "source_kind": "detailed_pilot",
+    "source_records": {
+      "BANK-279-001": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "25e65cf27053ba648ea7b52e196cdf7fde46ce1633f53359e5850fcacbce80c3"
+      },
+      "BANK-279-002": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d2eb4b80e622c9ef7016c138512994c6ec2294994cd90fdf8c3a5d8f2e71c433"
+      },
+      "BANK-279-003": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4e90bb86fcfeb3a37d95599ef68c33b51d4058555451f9546d5ece9d4c70902e"
+      },
+      "BANK-279-004": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b6212ec98e919f1c82bb5be7832e374e57e7c75371b881d9d259833833a91ac0"
+      },
+      "BANK-279-005": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c8cada3c7981c1fce087a4baec531ee8ce20c095d85a0a41e3a5ea2497cac177"
+      },
+      "BANK-279-006": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "126494b4524a0beeddd16779fee579442f742abbaf8f923ee7c15ebe560aaee0"
+      },
+      "BANK-279-007": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "23023a99b0825439998c7a92253129fc4d46db201af74f015702aa69f5dce7fd"
+      },
+      "BANK-279-008": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fe00da2a1e4d8e3a99dbbda15cddc3a7e37ed53e19aba9c27a80e25abd01f113"
+      },
+      "BANK-279-009": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4155bbf6a1dfe4cc8e4f6783b1e1706147e0f294c832a79d5bcec5e018316895"
+      },
+      "BANK-279-010": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d15a918b0e27c29f45e49bd444dc068322fd7f09f11ec8f4f00198cad114a2cc"
+      },
+      "BANK-279-011": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e62dd95ecc4aece18a51ebeda988c390aef6a79336c8970a697316ccfc9fbb06"
+      },
+      "BANK-279-012": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bc6cead7fed69a2c0cdd40a8adc11ee433d1b51a886c240c475a52119101cad2"
+      },
+      "BANK-279-013": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "89b8640c5a74fe1a213113f8c427aacb175b70fe85e011843d1eb59cb7f1a679"
+      },
+      "BANK-279-014": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0759e691e91098a88938dbfa5a1a6a47f2d9cbd4577eceadfe0822803fe5fa87"
+      },
+      "BANK-279-015": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b4a5f61e7ed45ea9332cb3d85d7e823fe74ae12955e82155c99756a88c590d2a"
+      },
+      "BANK-279-016": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c1c82903d5698c3683b0179df38dab5711121a8a2c930fce3cd2662fb05956e3"
+      },
+      "BANK-279-017": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9da78fc33f9c6222673426a4c2d613a0bb6a9bcbd8b7209d615282d6e672b855"
+      },
+      "BANK-279-018": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "63ea8f572dc5fb8d69d11c8eb5f0bb0453371c731ab90ef1acdb715e7e23a111"
+      },
+      "BANK-279-019": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d66e88a74ca39e748bfe778616c63323f39c8bd7ddb51ca183b75c6fc188c9a1"
+      },
+      "BANK-279-020": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "256e260da2ec40fc23ab1cb1f6cc0d366f72884a4522145e3667730d16da4606"
+      },
+      "BANK-279-021": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "470f346a8dadc3115a2c2bc155069a7c5795203f5cbe98729dd3fc3e6540126a"
+      },
+      "BANK-279-022": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "efbb21fea6cb2128d8b7d6a829c0b03f62c0b6638be91fc00986abe53a1011e8"
+      },
+      "BANK-279-023": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "19e64c9f2c91170791e371a13568e2221eaf42555666a3ef0d042f000c5d64f8"
+      },
+      "BANK-279-024": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6e6b22e359a3e178db29fc7db9acd654d0d1a9be867c80f3f754cc99c0790264"
+      },
+      "BANK-279-025": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d3bfc4de724de8be388f76359dd8efd28a5cf98125fa68b7d5d8ed32b7f69801"
+      },
+      "BANK-279-026": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3792b0a13752dcb90b61baa2e31da758d20986851dc87cca035508c5c1165650"
+      },
+      "BANK-279-027": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ffe42717080d3547e1501ba07a99714c0ab1d722b33d02370e83b9d5a0521a61"
+      },
+      "BANK-279-028": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "caf94e96632b5183ef691475ddb8d8db25f8d62fe089f0e548c5cb32c28d3f82"
+      },
+      "BANK-279-029": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c5db95b14c85c7ef413015a0c0bbc1fe52582973d1f2cf8085009718ecee109b"
+      },
+      "BANK-279-030": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7ab374de9a83aa8865529518f4250257a3688219266e44a7d1aec44ccd15bb3a"
+      },
+      "BANK-279-031": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "84db0690795ebe389a674a8070777f3be3f89c5c4850a287af77bbb01c42397a"
+      },
+      "BANK-279-032": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "793dc8158d9f09ce40cf872c241f76f14b38f32f927b36a43546408740915ce4"
+      },
+      "BANK-279-033": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f9d5579f63f40817eae782b52255c0964b6f2582ed87c7b1c921721cfa987d41"
+      },
+      "BANK-279-034": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ba4ef3d351682f4543baa9974290e906f8679e450a12bdce9901ad5580869cf8"
+      },
+      "BANK-279-035": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "40bf8335849531226059b9ab720437c9bdfd6f75e80f0152a42f6bba0eae1d64"
+      },
+      "BANK-279-036": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ad80baf23a1e2f21e4c8f27424b3e7c34a9681c6e3e699e14a09abf90a38fc3b"
+      },
+      "BANK-279-037": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "695461e9e931773b2e8aef7d8d3adae20bde7e9453b8c53278dc7040ffa2a289"
+      },
+      "BANK-279-038": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "83882d1c8bd27948754388fa7ff52ee04206fe28bd7ad69c49dd7cd06cc10859"
+      },
+      "BANK-279-039": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f50fad7f29750be4b5ce7cd6bce9917fc8a9aa78cbbf7e193a29a82722a841c2"
+      },
+      "BANK-279-040": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7f92fb869abc695da2e55baac7ee6e7ab5c14c9e184c96bc6fb4e6d72efbe2fb"
+      },
+      "BANK-279-041": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "808349a62d5d7f060460435ddb30e6cc4ee0415c2e638482565230fa57328c43"
+      },
+      "BANK-279-042": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "880136d42ceae8061527f89af768d41b200f3713c3b054235afc3be3db45310a"
+      },
+      "BANK-279-043": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1ead0118c4b9f70a9500a97cd3ba52a1ccf109d56777c4c66ab0a5fdbea87e2b"
+      },
+      "BANK-279-044": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "53682ffa62a6736f384784d458d6aea81f5e8a69737e7ca68f16bc91b1f00e8d"
+      },
+      "BANK-279-045": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e4115d2f420320c4a3df4555dca20988f340d921861d73bd0d43ef0cc53056a9"
+      },
+      "BANK-279-046": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "08712dfa49a30703c0130b0c3d638025162c4833fed7b64d883d3572c3e0fac7"
+      },
+      "BANK-279-047": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2a768399bacf396f1c2d09fe6f1106a4d2d59c6ae1acd2c0e7a475a88661bd17"
+      },
+      "BANK-279-048": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6ae372ce52250eb99eada7f31d9dedbf39c184ac9776f58c06cb5b28d095d8f3"
+      },
+      "BANK-279-049": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "60ef8518b6b9dc94c56e9169f6e3b2335e65034a229909a3ce0e0bcd56810a2d"
+      },
+      "BANK-279-050": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9e2f54dff635318610816771c3780768ab47eb375101ef5b53dbc18d6f1298a8"
+      },
+      "BANK-279-051": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9bdd9887bdcf3d59dce306c018f0a72446019ecb9e3be0bd9a287d83a19ef011"
+      },
+      "BANK-279-052": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c6eeaa8609cc33cfcdb0009dd3162019f4846381bd04bb2bfb9600ab559d73d5"
+      },
+      "BANK-279-053": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "14340783a8fb518c2f884c562ea9333ee95f1d25adcb9ce345a216e8257f87d6"
+      },
+      "BANK-279-054": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b8d87793d572f2aae34e57b9771fee588ac386d9c03845bbfde94f83c53e189f"
+      },
+      "BANK-279-055": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2d18e5dd7c67e80715f218ad0cace7fcd47601076d2c1753786380190a266332"
+      },
+      "BANK-279-056": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3b9903e44edce55dcfb386198b06835226679f1d123e5acb14cd4fa72196738c"
+      },
+      "BANK-279-057": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cf59eaa3a9eeefc02ca228c5b997283c2f83844b17471dc27cb61723ad0b4dca"
+      },
+      "BANK-279-058": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d807996db0d4c55771edbe2d792dea82817584330b07f2439fb9f1ca5d4ae6fa"
+      },
+      "BANK-279-059": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ce75b3c1f47cff2148c2faf65aa787f5730db235346d950e3659216ca2df274e"
+      },
+      "BANK-279-060": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "faea46cb71edb9bab5540ea2c91fbab7ab0a74bf6407254d642ae0f7260ab788"
+      },
+      "BANK-279-061": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "62743f876aef351441f9db28a0eacc6c3d4a5299bb9b81af5422bb7f5f93aa36"
+      },
+      "BANK-279-062": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "276f2b1bd59654becb3a10c9d36daf521d7fadf6630146f5299457928fb2153b"
+      },
+      "BANK-279-063": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "140cb72a8f8e51970681f564bd90c89fc01b4e1f480bc93bd780db8c4e48dc33"
+      },
+      "BANK-279-064": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "52f2227baa418f1a4c3e89f8fa92aa644a8986683bc71a2308f119b2272d3b4b"
+      },
+      "BANK-279-065": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5399d8183434d33fe5d160befdadb170b18ca9f7b8e5844367a4ca89a59908a3"
+      },
+      "BANK-279-066": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3a4a6cfdb5fa5f307c0bd8e51573eb143db5cf6fa4ac47e64102a75edd0e7ce4"
+      },
+      "BANK-279-067": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1ca1e3e6515785bbe0c946213062fa7999b1f679d7fab47ba9d205cf147fb332"
+      },
+      "BANK-279-068": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bb4d8a2904cd65c2867b574dd0fef18dd1e071bca31dd5e5e64e5b6920b719fb"
+      },
+      "BANK-279-069": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "04eb00448ffedd808bb02ec6ed19253bb40e63a814f92c85abd5845ccf8eee59"
+      },
+      "BANK-279-070": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b47bd953ad35fa1c4249594fb838bc214b33948c6b2feb01cf86289223061c08"
+      },
+      "BANK-279-071": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "333857179a10073e2a43849a6d647dbcef4d1ddd6102a065a46e78073adc9c3b"
+      },
+      "BANK-279-072": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1ae5fd3a4e6a8c943467689cff9552388242cd70a3c457bf4aff8438b4f9a4ce"
+      },
+      "BANK-279-073": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "362e61e6b094b4f0206861bd20b908414e5be56e61715fede7861a20d118f1cc"
+      },
+      "BANK-279-074": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c6cf6c6a914933dda44172aa7cc31d430562f3bc1240db38c73b9e4b22e23eba"
+      },
+      "BANK-279-075": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "23c7951897dd8042d6ab274f579009976aefdc0a38426db5246ec10933e0a0f2"
+      },
+      "BANK-279-076": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4e35f4d790171c16e38cf26750b457601b2e7dbb559358168ee4d1c2384a24f2"
+      },
+      "BANK-279-077": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f08b87737f2fbe4be5c6376c0923ebe6b54ee0fa1db9cf8ef436fc6dbe1f5a7e"
+      },
+      "BANK-279-078": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ac2bb09a07217b30c50ffac6886b726c2d6bc26fa4670c3d2adce0600f2a44f6"
+      },
+      "BANK-279-079": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6f6c40c13bcbe72d03e24655c76bfb81b15a6a26c036d09a26ad8995786fd290"
+      },
+      "BANK-279-080": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "845d3a68049e35efd32c2fb519ba10d01d0ade2b10db052ff0308bed9888f126"
+      },
+      "BANK-279-081": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9d2e76ba7459d4bfd359743aa71d5990349fee6510c70ae410a8b89586764367"
+      },
+      "BANK-279-082": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f0c29106961e4388f2a469b9e3c22bcb8cccfc6592f406c22f1b86cf03f5361d"
+      },
+      "BANK-279-083": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "47313a7e5b828710c3d5e61c31744aeb91a74e65e06b5d906a8e7771beb2c338"
+      },
+      "BANK-279-084": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d08041839c65f3ad8848b60a7c3eda8bd941967a32828d3f9eccb96da42a11c1"
+      },
+      "BANK-279-085": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "babfe2437ed367c5f1d93ba9528ca4357ca6cdc09a8937168853c96be69cee25"
+      },
+      "BANK-279-086": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "45d10a53af9e30dd3f106f1a89acdb263d1e44ec39d20675b6762c7e4b9ff0b1"
+      },
+      "BANK-279-087": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eac38e717732d3ad75868340f0c8ee8b66677aeefb786fd31412efce31cad9e3"
+      },
+      "BANK-279-088": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "14aca99f395f604eba27dfd2201445e254df8c1b90e416469f3b3ed2343753d7"
+      },
+      "BANK-279-089": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6572fe984400e9250950ba035031d9dedd65e7c1ae4fca36c972ecdc78fd6d23"
+      },
+      "BANK-279-090": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f4d0ee820edf3b537dffa4cfb7c8717370270c875591f236d35dbd5999748a7b"
+      },
+      "BANK-279-091": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "acef7a88290c5bde162f7b513f485111b8eadf7f3213458c385d767d243980d9"
+      },
+      "BANK-279-092": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0c91902c8f4fcef151288b544bd6586e9ac87635047fbe0cd313a07c036f101a"
+      },
+      "BANK-279-093": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c387422a5a8d9ea48054766519fa475a6767c4eaa6bd7a7fa857f43ac6efe8e5"
+      },
+      "BANK-279-094": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0b158be2ff011c6eadda4b55cdb6cb64470b887c32586ddc557dfe8f2b7c36b9"
+      },
+      "BANK-279-095": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e41bab18d93dc9e04091f4b2f642b029de104a6f4f36048aaeb18289288f27cf"
+      },
+      "BANK-279-096": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e6e02d7bd97941f2e904146c92f01a513ed35f6abcbd1990b745c084698e07e3"
+      },
+      "BANK-279-097": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8d73a6f529d88c66ed9b96449774f99c8859bd62b884ad3451319e33ce68eb12"
+      },
+      "BANK-279-098": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "42cf207149471fa7a0a6a1a7bef08fd6db80c68dc5ee7499fa8d01734aa5073a"
+      },
+      "BANK-279-099": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "95677ddc48aa1cb594210e3c7ebb00a471ed51416d39aaf48bae671051fdbd58"
+      },
+      "BANK-279-100": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "98e0a4868b27ad1e4ddb4e9da6c1df146394cb6a70ad2c72b3c5101f7a4f4287"
+      },
+      "BANK-279-101": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "77a991d0c9b7aedd346e27f46815cf5a6119e806d07b1d30e510d388803d3456"
+      },
+      "BANK-279-102": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6091fe1db5c4eeeabd7c53c44390dc4f22903324a3cd6821137f9acce74fadd5"
+      },
+      "BANK-279-103": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3f2eb6402791cc100978ce2c31ba45c11d18e8be216af95629e90e6e873f1a55"
+      },
+      "BANK-279-104": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "959e5d8a95d66b156983a8a44de987803e5a215e9008a9baae8f98c5ae887c8d"
+      },
+      "BANK-279-105": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "feae09c3c8a7723958b78c586f50e2a01ec430fe58027f623142ef73075646ed"
+      },
+      "BANK-279-106": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "60e51e6818ec403ef90b546d1a5211acc3e43a45ac94f2324ff6e16f6aa21034"
+      },
+      "BANK-279-107": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7befb6359a768a37b5666f535d03eb8251d8b735fa1e6c957663dc7d529d3968"
+      },
+      "BANK-279-108": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "53881493db9bc9d2d7d571de00571af29a8ccaec240330e3f2337bf1356edc4e"
+      },
+      "BANK-279-109": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f67816411a54f3031c510c389906d707c70c803ecaec624f5187ba73a57f0239"
+      },
+      "BANK-279-110": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d03a2140bd1a6a54c1de29553b31f4b83702b1d105431291cfbff3104fb41035"
+      },
+      "BANK-279-111": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "be221a1d304bf9918f06ddf371c675f913459ea6a1500d83b22e1bebe2232597"
+      },
+      "BANK-279-112": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ec631f9b44fb23fa614c7be579edb8b4563d8859b31c67e5ec5db5a940d4ba17"
+      },
+      "BANK-279-113": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fa7917760a289dfe5ece8c16903b57481be7da579bfc8a4af350fb408223fb68"
+      },
+      "BANK-279-114": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "05618696f7f1abf2df4e643395f5bde0ff28cbb0255dc34e84f3b73709d53103"
+      },
+      "BANK-279-115": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bec75e042f3329d29fcabf266a93aecb6578596846bbf2b3488a39897bc10f2e"
+      },
+      "BANK-279-116": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "79ec2d7be4f0ab52311b79e0ad286bc3f761d171151c36f63434af272a01a488"
+      },
+      "BANK-279-117": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "727b5e988e2e9944d9ef1f09fb89b3a3ba881eda2f5cfad90f3132a366dcad53"
+      },
+      "BANK-279-118": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a213a9e54aeae5772013f4bd8193ee22f3e5539464f87fc4c69b7dd6b6f550db"
+      },
+      "BANK-279-119": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7afe0a1aced7381a08915f10b6264e1a174fb15b2629afabdf96c4742b9bebc6"
+      },
+      "BANK-279-120": {
+        "keys": [
+          "id",
+          "question",
+          "coverage",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a969d6217b858ee3052c0ebe2d87d870597325bf370806a4e20cfe3197b8c965"
+      }
+    },
+    "source_categories": {
+      "CATALOG-279-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d92b8960f583d1423218856b8c8c0d24dd9c447781cde79fddb5e011bcdc3af7"
+      },
+      "CATALOG-279-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "653d13b28e1e56908bca751ff2a89d1cae9c61e581aebaa22cd40a50a26d799f"
+      },
+      "CATALOG-279-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "e8b4578d749906f7b67ef3592070e9a93cb81fd6a0c2c7282cbebf4406e433b9"
+      },
+      "CATALOG-279-04": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6f4f019576dec4a2857c25da1a2c2ac20050d2724e8d8a495b99a8323d877e85"
+      },
+      "CATALOG-279-05": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "f7cd22e0e157bcc802878e1dc2a2d07b0183d342000f341fb233a3ecf7330487"
+      },
+      "CATALOG-279-06": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "2e0382cae41d143522ce7cac8ba94744d90a30d5fd9f9c63eb7414a1989bf063"
+      },
+      "CATALOG-279-07": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "773cf6b8715e0553bf5bf0725f61068bb3cd2ff63cffd2087295901fa17b646c"
+      },
+      "CATALOG-279-08": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "ff8ed49cbd4669074365af490c9f223b83460d682a77f42ffb9ca8c3a9b6ed21"
+      },
+      "CATALOG-279-09": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "817a0225643cb2a7c19ba4c5419bff71dfab40bb52d473036276906056033f92"
+      },
+      "CATALOG-279-10": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "cacf0e9d6d973f13ef8448715122925ffbfa5ba52c32b21db05c83681573ddf7"
+      },
+      "CATALOG-279-11": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "b361103ff50f4d00bfee9d543a96f053d851c364177d988dc072d2456cc346c9"
+      },
+      "CATALOG-279-12": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "7c05fcf49c23ce752ba4761ecc76925b22027d7f95c7e837faeb946bcfc82e14"
+      },
+      "CATALOG-279-13": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "4e8048f13f9de529cf2ded38e44677c545ae157f0fbbf0b1af335dc13b8d4185"
+      },
+      "CATALOG-279-14": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "8eb9e87da25ff21fca38337b07cb41431e46ce7c37126d69e7f1a0ac3227f3f2"
+      },
+      "CATALOG-279-15": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "e12e3cc228706f69fb8ae4f315b13448fe491d14085a8c1a622cd1e045892c7e"
+      },
+      "CATALOG-279-16": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "dc786f0a122b7dc85b770e4955f7670b89ab3975e1495d36b2f6f272972f182c"
+      },
+      "CATALOG-279-17": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "82a5cddef82522c38069b7704b06b82c49028fe7fb9d05b8d4fac3daf92a2854"
+      },
+      "CATALOG-279-18": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "e9ba2b2db44cf46c105283d55f9576966f75106d1dd20e410b97ef7446a14ccb"
+      },
+      "CATALOG-279-19": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "9a15cd240fcb803a39ee9096fd6a33a1602b4d3dea0b5833f17af8efe1f0712b"
+      },
+      "CATALOG-279-20": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "074aad44e01d7bc14f520180d2682ebfee1d129f1478ab1dbbd2bddbe73649cb"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "bd8b0cf969011d6b221abddc644176ea824980e33bc3a90e402e68e3e6b86991",
+        "original_text": "# Pranayama Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 279 Pranayama (Hindu_Traditions)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Pranayama Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/279_pranayama/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Pranayama across four progressive tiers:\r\n- **Tier 1: Pranayama Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Pranayama.\r\n- **Tier 2: Pranayama Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Pranayama.\r\n- **Tier 3: Pranayama Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Pranayama.\r\n- **Tier 4: Pranayama Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Pranayama.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/279_pranayama/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/279_pranayama/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **Breath Practice in a Named Source** | *What does one dated text say about prāṇāyāma in its own framework?* |\r\n| 2 | `famous_examples` | **A Widely Taught Breath Method** | *How is one named method described by its teaching lineage?* |\r\n| 3 | `hidden_stories` | **Teachers Behind Breath Practice** | *Whose instruction and adaptation shaped one community's practice?* |\r\n| 4 | `beginner_explainers` | **What Prāṇāyāma Names** | *How do different yoga traditions use the term prāṇāyāma?* |\r\n| 5 | `advanced_concepts` | **Testing a Breath Intervention** | *How can a trial define one breathing method precisely enough to evaluate it?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Physiological Claim in Question** | *Which part of a claimed mechanism remains untested for a named method?* |\r\n| 7 | `technology_innovation` | **A Breathing Device or App** | *Can a device reproduce a studied method safely and accurately?* |\r\n| 8 | `people_personalities` | **A Teacher's Adaptation** | *How did one named teacher change a documented breath curriculum?* |\r\n| 9 | `major_events` | **Breath Practice Enters a Program** | *What changed when one method was adapted for a school or clinic?* |\r\n| 10 | `how_it_works` | **Documenting a Taught Method** | *Which components distinguish one named breath practice from another?* |\r\n| 11 | `rise_fall` | **A Technique's Popularity Over Time** | *Why did one breath method gain or lose institutional support?* |\r\n| 12 | `then_vs_now` | **A Textual Practice and a Modern Class** | *What changed in the teaching context of one breath method?* |\r\n| 13 | `future_developments` | **A Safer Evidence Study** | *What trial design could clarify outcomes and harms for a defined group?* |\r\n| 14 | `myths_vs_facts` | **Breathwork as a Cure?** | *Does one advertised health claim match evidence for the exact method and condition?* |\r\n| 15 | `documentary_stories` | **One Breath Claim's Paper Trail** | *How did a traditional description become a modern therapeutic promise?* |\r\n| 16 | `text_source` | **A Prāṇāyāma Passage in Context** | *What does a named text prescribe or explain within its broader system?* |\r\n| 17 | `interpretive_lineages` | **Two Accounts of Prāṇa** | *How do named lineages interpret the role of breath differently?* |\r\n| 18 | `lived_practice` | **A Practitioner's Breath Practice** | *What does one consented account reveal about meaning and routine?* |\r\n| 19 | `ritual_sequence` | **Breath Practice Within a Rite** | *Where does a named community place prāṇāyāma in its observance?* |\r\n| 20 | `language_translation` | **Prāṇa in Translation** | *How do translations of prāṇa change a reader's understanding?* |\r\n| 21 | `regional_variants` | **One Method Across Two Lineages** | *How do comparable breath practices differ in teaching and meaning?* |\r\n| 22 | `art_and_devotion` | **Breath in a Text or Image** | *How is breathing represented symbolically in one tradition?* |\r\n| 23 | `community_memory` | **A Lineage Remembers a Breath Method** | *How does oral teaching history compare with dated manuals?* |\r\n| 24 | `ethics_in_context` | **Safety and Screening** | *How does one program address distress, dizziness, or other adverse experiences?* |\r\n| 25 | `source_and_history` | **Transmission of a Breath Text** | *How do manuscripts and later teaching records connect one method across time?* |\r\n| 26 | `encounter_and_exchange` | **Breath Method in a New Setting** | *What changed when one lineage's practice moved into wellness or care?* |\r\n| 27 | `contemporary_voice` | **A Teacher Explains Boundaries** | *How does one qualified teacher describe when a method is inappropriate?* |\r\n| 28 | `field_textual_lineage` | **A Breath Passage Across Witnesses** | *What variants appear in one source passage?* |\r\n| 29 | `field_regional_practice` | **Local Breath Teaching** | *How is one method taught in a named community?* |\r\n| 30 | `field_translation_choice` | **A Technical Breath Term** | *Which translation best fits one bounded passage?* |\r\n| 31 | `field_ritual_context` | **Prāṇāyāma in Observance** | *What role does a named breath element have in one local rite?* |\r\n| 32 | `field_community_interpretation` | **One Lineage's View of Breath** | *How do members explain purpose and variation within a method?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Pranayama: Breath Practice in a Named Source**\r\n   - *Question:* What does one dated text say about prāṇāyāma in its own framework?\r\n   - *Key Focus:* Separate textual description from later technique and clinical claim. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n2. **Pranayama: A Widely Taught Breath Method**\r\n   - *Question:* How is one named method described by its teaching lineage?\r\n   - *Key Focus:* Compare source text, present curriculum, variation, and safety boundaries. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n3. **Pranayama: Teachers Behind Breath Practice**\r\n   - *Question:* Whose instruction and adaptation shaped one community's practice?\r\n   - *Key Focus:* Use consented teacher accounts and dated materials. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n4. **Pranayama: What Prāṇāyāma Names**\r\n   - *Question:* How do different yoga traditions use the term prāṇāyāma?\r\n   - *Key Focus:* Distinguish breath regulation, philosophical explanation, and clinical intervention. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n5. **Pranayama: Testing a Breath Intervention**\r\n   - *Question:* How can a trial define one breathing method precisely enough to evaluate it?\r\n   - *Key Focus:* Specify pacing, duration, supervision, comparator, population, and adverse events. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Pranayama: A Physiological Claim in Question**\r\n   - *Question:* Which part of a claimed mechanism remains untested for a named method?\r\n   - *Key Focus:* Compare laboratory measures with patient outcomes and study limits. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n7. **Pranayama: A Breathing Device or App**\r\n   - *Question:* Can a device reproduce a studied method safely and accurately?\r\n   - *Key Focus:* Check measured pacing, user feedback, privacy, and validation. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n8. **Pranayama: A Teacher's Adaptation**\r\n   - *Question:* How did one named teacher change a documented breath curriculum?\r\n   - *Key Focus:* Compare earlier source, teaching record, and later interpretations. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n9. **Pranayama: Breath Practice Enters a Program**\r\n   - *Question:* What changed when one method was adapted for a school or clinic?\r\n   - *Key Focus:* Compare aims, screening, instructor training, and evidence. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n10. **Pranayama: Documenting a Taught Method**\r\n   - *Question:* Which components distinguish one named breath practice from another?\r\n   - *Key Focus:* Describe source and study protocols without instructing viewers to perform it. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Pranayama: A Technique's Popularity Over Time**\r\n   - *Question:* Why did one breath method gain or lose institutional support?\r\n   - *Key Focus:* Use course records, publications, public claims, and safety reports. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n12. **Pranayama: A Textual Practice and a Modern Class**\r\n   - *Question:* What changed in the teaching context of one breath method?\r\n   - *Key Focus:* Compare texts, teacher lineage, curriculum, and participant aims. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n13. **Pranayama: A Safer Evidence Study**\r\n   - *Question:* What trial design could clarify outcomes and harms for a defined group?\r\n   - *Key Focus:* State supervision, exclusions, adverse-event capture, and follow-up. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n14. **Pranayama: Breathwork as a Cure?**\r\n   - *Question:* Does one advertised health claim match evidence for the exact method and condition?\r\n   - *Key Focus:* Check study design, population, harms, and current guidance. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n15. **Pranayama: One Breath Claim's Paper Trail**\r\n   - *Question:* How did a traditional description become a modern therapeutic promise?\r\n   - *Key Focus:* Trace source, trial, marketing, and regulator or guideline response. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Pranayama: A Prāṇāyāma Passage in Context**\r\n   - *Question:* What does a named text prescribe or explain within its broader system?\r\n   - *Key Focus:* Cite edition, chapter, translation, and later commentary. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n17. **Pranayama: Two Accounts of Prāṇa**\r\n   - *Question:* How do named lineages interpret the role of breath differently?\r\n   - *Key Focus:* Present each conceptual framework without asserting a medical mechanism. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n18. **Pranayama: A Practitioner's Breath Practice**\r\n   - *Question:* What does one consented account reveal about meaning and routine?\r\n   - *Key Focus:* Separate experience from clinical efficacy and avoid technique instructions. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n19. **Pranayama: Breath Practice Within a Rite**\r\n   - *Question:* Where does a named community place prāṇāyāma in its observance?\r\n   - *Key Focus:* Document public sequence and respect restricted material. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n20. **Pranayama: Prāṇa in Translation**\r\n   - *Question:* How do translations of prāṇa change a reader's understanding?\r\n   - *Key Focus:* Compare original contexts and avoid equating it automatically with a physiological measure. Evidence base: specified source texts and translations, teaching curricula, registered trials and systematic reviews, current guidance, adverse-event reports, and consented accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 279 (Pranayama)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Pranayama: Breath Practice in a Named Source*\r\n- **Episode Slug:** `279_pranayama_deep_dive_the_architecture_of_pranayama_breath_practice_in_a_named_sou`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/279_pranayama/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "ac93b38cb599ffb3d3d2e6c90802a59e74320866c4541a88b06c84d57d11d723",
+        "original_text": "# 279 Pranayama -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 279 Pranayama (Hindu_Traditions)  \r\n> **Storage Directory:** `topics/279_pranayama/`  \r\n> **Synchronized With:** `OUTPUT/279_pranayama/`, `REGISTRY/Niches/279_pranayama/`, and `279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 279 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/279_pranayama](../../OUTPUT/279_pranayama) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Pranayama: Breath Practice in a Named Source** | Tier 1: Foundational Frameworks | `history_origins` | `pranayama_breath_practice_in_a_named_source` | A rigorous pedagogical investigation exploring breath practice in a named source through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Pranayama: A Widely Taught Breath Method** | Tier 1: Foundational Frameworks | `famous_examples` | `pranayama_a_widely_taught_breath_method` | A rigorous pedagogical investigation exploring a widely taught breath method through documented evidence. | `QUEUED` |\r\n| 3 | **Pranayama: Teachers Behind Breath Practice** | Tier 1: Foundational Frameworks | `hidden_stories` | `pranayama_teachers_behind_breath_practice` | A rigorous pedagogical investigation exploring teachers behind breath practice through documented evidence. | `QUEUED` |\r\n| 4 | **Pranayama: What Prāṇāyāma Names** | Tier 1: Foundational Frameworks | `beginner_explainers` | `pranayama_what_prāṇāyāma_names` | A rigorous pedagogical investigation exploring what prāṇāyāma names through documented evidence. | `QUEUED` |\r\n| 5 | **Pranayama: Testing a Breath Intervention** | Tier 1: Foundational Frameworks | `advanced_concepts` | `pranayama_testing_a_breath_intervention` | A rigorous pedagogical investigation exploring testing a breath intervention through documented evidence. | `QUEUED` |\r\n| 6 | **Pranayama: A Physiological Claim in Question** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `pranayama_a_physiological_claim_in_question` | A rigorous pedagogical investigation exploring a physiological claim in question through documented evidence. | `QUEUED` |\r\n| 7 | **Pranayama: A Breathing Device or App** | Tier 2: Methodological Deep Dives | `technology_innovation` | `pranayama_a_breathing_device_or_app` | A rigorous pedagogical investigation exploring a breathing device or app through documented evidence. | `QUEUED` |\r\n| 8 | **Pranayama: A Teacher's Adaptation** | Tier 2: Methodological Deep Dives | `people_personalities` | `pranayama_a_teacher_s_adaptation` | A rigorous pedagogical investigation exploring a teacher's adaptation through documented evidence. | `QUEUED` |\r\n| 9 | **Pranayama: Breath Practice Enters a Program** | Tier 2: Methodological Deep Dives | `major_events` | `pranayama_breath_practice_enters_a_program` | A rigorous pedagogical investigation exploring breath practice enters a program through documented evidence. | `QUEUED` |\r\n| 10 | **Pranayama: Documenting a Taught Method** | Tier 2: Methodological Deep Dives | `how_it_works` | `pranayama_documenting_a_taught_method` | A rigorous pedagogical investigation exploring documenting a taught method through documented evidence. | `QUEUED` |\r\n| 11 | **Pranayama: A Technique's Popularity Over Time** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `pranayama_a_technique_s_popularity_over_time` | A rigorous pedagogical investigation exploring a technique's popularity over time through documented evidence. | `QUEUED` |\r\n| 12 | **Pranayama: A Textual Practice and a Modern Class** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `pranayama_a_textual_practice_and_a_modern_class` | A rigorous pedagogical investigation exploring a textual practice and a modern class through documented evidence. | `QUEUED` |\r\n| 13 | **Pranayama: A Safer Evidence Study** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `pranayama_a_safer_evidence_study` | A rigorous pedagogical investigation exploring a safer evidence study through documented evidence. | `QUEUED` |\r\n| 14 | **Pranayama: Breathwork as a Cure?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `pranayama_breathwork_as_a_cure` | A rigorous pedagogical investigation exploring breathwork as a cure? through documented evidence. | `QUEUED` |\r\n| 15 | **Pranayama: One Breath Claim's Paper Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `pranayama_one_breath_claim_s_paper_trail` | A rigorous pedagogical investigation exploring one breath claim's paper trail through documented evidence. | `QUEUED` |\r\n| 16 | **Pranayama: A Prāṇāyāma Passage in Context** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `text_source` | `pranayama_a_prāṇāyāma_passage_in_context` | A rigorous pedagogical investigation exploring a prāṇāyāma passage in context through documented evidence. | `QUEUED` |\r\n| 17 | **Pranayama: Two Accounts of Prāṇa** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `interpretive_lineages` | `pranayama_two_accounts_of_prāṇa` | A rigorous pedagogical investigation exploring two accounts of prāṇa through documented evidence. | `QUEUED` |\r\n| 18 | **Pranayama: A Practitioner's Breath Practice** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `lived_practice` | `pranayama_a_practitioner_s_breath_practice` | A rigorous pedagogical investigation exploring a practitioner's breath practice through documented evidence. | `QUEUED` |\r\n| 19 | **Pranayama: Breath Practice Within a Rite** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `ritual_sequence` | `pranayama_breath_practice_within_a_rite` | A rigorous pedagogical investigation exploring breath practice within a rite through documented evidence. | `QUEUED` |\r\n| 20 | **Pranayama: Prāṇa in Translation** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `language_translation` | `pranayama_prāṇa_in_translation` | A rigorous pedagogical investigation exploring prāṇa in translation through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Pranayama: Record Extremes & Superlatives** | **98** | `extreme_case` | `pranayama_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Pranayama: A Physiological Claim in Question** | **96** | `mysteries_unsolved_cases` | `pranayama_mysteries_unsolved_cases` | High viral search interest exploring which part of a claimed mechanism remains untested for a named method backed by field records. | `Queued` |\r\n| 23 | **Pranayama: A Breathing Device or App** | **95** | `technology_innovation` | `pranayama_technology_innovation` | High viral search interest exploring can a device reproduce a studied method safely and accurately backed by field records. | `Queued` |\r\n| 24 | **Pranayama: Breathwork as a Cure?** | **94** | `myths_vs_facts` | `pranayama_myths_vs_facts` | High viral search interest exploring does one advertised health claim match evidence for the exact method and condition backed by field records. | `Queued` |\r\n| 25 | **Pranayama: Breath Practice Enters a Program** | **93** | `major_events` | `pranayama_major_events` | High viral search interest exploring what changed when one method was adapted for a school or clinic backed by field records. | `Queued` |\r\n| 26 | **Pranayama: Teachers Behind Breath Practice** | **92** | `hidden_stories` | `pranayama_hidden_stories` | High viral search interest exploring whose instruction and adaptation shaped one community's practice backed by field records. | `Queued` |\r\n| 27 | **Pranayama: One Breath Claim's Paper Trail** | **91** | `documentary_stories` | `pranayama_documentary_stories` | High viral search interest exploring how did a traditional description become a modern therapeutic promise backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/279_pranayama/279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md`](./279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/279_pranayama/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/279_pranayama/NICHE_279_pranayama.md`](file:///h:/script-raw-/REGISTRY/Niches/279_pranayama/NICHE_279_pranayama.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/279_pranayama/CAT_279_pranayama.md`](file:///h:/script-raw-/REGISTRY/Niches/279_pranayama/CAT_279_pranayama.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/279_pranayama/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/279_pranayama/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/279_pranayama/`](file:///h:/script-raw-/OUTPUT/279_pranayama/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "22daf105a2b90d20cb1da4592c2241c32b6cd3ac907b725a3ae9db10019366c8",
+        "original_text": "{\r\n  \"niche_id\": \"279\",\r\n  \"niche_name\": \"pranayama\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Pranayama: Breath Practice in a Named Source\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"pranayama_breath_practice_in_a_named_source\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring breath practice in a named source through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Pranayama: A Widely Taught Breath Method\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"pranayama_a_widely_taught_breath_method\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a widely taught breath method through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Pranayama: Teachers Behind Breath Practice\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"pranayama_teachers_behind_breath_practice\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring teachers behind breath practice through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Pranayama: What Pr\\u0101\\u1e47\\u0101y\\u0101ma Names\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"pranayama_what_pr\\u0101\\u1e47\\u0101y\\u0101ma_names\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what pr\\u0101\\u1e47\\u0101y\\u0101ma names through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Pranayama: Testing a Breath Intervention\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"pranayama_testing_a_breath_intervention\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring testing a breath intervention through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Pranayama: A Physiological Claim in Question\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"pranayama_a_physiological_claim_in_question\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a physiological claim in question through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Pranayama: A Breathing Device or App\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"pranayama_a_breathing_device_or_app\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a breathing device or app through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Pranayama: A Teacher's Adaptation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"pranayama_a_teacher_s_adaptation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a teacher's adaptation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Pranayama: Breath Practice Enters a Program\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"pranayama_breath_practice_enters_a_program\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring breath practice enters a program through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Pranayama: Documenting a Taught Method\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"pranayama_documenting_a_taught_method\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring documenting a taught method through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Pranayama: A Technique's Popularity Over Time\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"pranayama_a_technique_s_popularity_over_time\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a technique's popularity over time through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Pranayama: A Textual Practice and a Modern Class\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"pranayama_a_textual_practice_and_a_modern_class\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a textual practice and a modern class through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Pranayama: A Safer Evidence Study\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"pranayama_a_safer_evidence_study\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a safer evidence study through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Pranayama: Breathwork as a Cure?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"pranayama_breathwork_as_a_cure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring breathwork as a cure? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Pranayama: One Breath Claim's Paper Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"pranayama_one_breath_claim_s_paper_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one breath claim's paper trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Pranayama: A Pr\\u0101\\u1e47\\u0101y\\u0101ma Passage in Context\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"text_source\",\r\n      \"slug\": \"pranayama_a_pr\\u0101\\u1e47\\u0101y\\u0101ma_passage_in_context\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a pr\\u0101\\u1e47\\u0101y\\u0101ma passage in context through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Pranayama: Two Accounts of Pr\\u0101\\u1e47a\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"interpretive_lineages\",\r\n      \"slug\": \"pranayama_two_accounts_of_pr\\u0101\\u1e47a\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two accounts of pr\\u0101\\u1e47a through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Pranayama: A Practitioner's Breath Practice\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"lived_practice\",\r\n      \"slug\": \"pranayama_a_practitioner_s_breath_practice\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a practitioner's breath practice through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Pranayama: Breath Practice Within a Rite\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"ritual_sequence\",\r\n      \"slug\": \"pranayama_breath_practice_within_a_rite\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring breath practice within a rite through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Pranayama: Pr\\u0101\\u1e47a in Translation\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"language_translation\",\r\n      \"slug\": \"pranayama_pr\\u0101\\u1e47a_in_translation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring pr\\u0101\\u1e47a in translation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Pranayama: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"pranayama_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Pranayama: A Physiological Claim in Question\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"pranayama_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which part of a claimed mechanism remains untested for a named method backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Pranayama: A Breathing Device or App\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"pranayama_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring can a device reproduce a studied method safely and accurately backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Pranayama: Breathwork as a Cure?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"pranayama_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does one advertised health claim match evidence for the exact method and condition backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Pranayama: Breath Practice Enters a Program\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"pranayama_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed when one method was adapted for a school or clinic backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Pranayama: Teachers Behind Breath Practice\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"pranayama_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose instruction and adaptation shaped one community's practice backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Pranayama: One Breath Claim's Paper Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"pranayama_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a traditional description become a modern therapeutic promise backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "279",
+      "niche_name": "pranayama",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Pranayama: Breath Practice in a Named Source",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "pranayama_breath_practice_in_a_named_source",
+          "reason": "A rigorous pedagogical investigation exploring breath practice in a named source through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Pranayama: A Widely Taught Breath Method",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "pranayama_a_widely_taught_breath_method",
+          "reason": "A rigorous pedagogical investigation exploring a widely taught breath method through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Pranayama: Teachers Behind Breath Practice",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "pranayama_teachers_behind_breath_practice",
+          "reason": "A rigorous pedagogical investigation exploring teachers behind breath practice through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Pranayama: What Prāṇāyāma Names",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "pranayama_what_prāṇāyāma_names",
+          "reason": "A rigorous pedagogical investigation exploring what prāṇāyāma names through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Pranayama: Testing a Breath Intervention",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "pranayama_testing_a_breath_intervention",
+          "reason": "A rigorous pedagogical investigation exploring testing a breath intervention through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Pranayama: A Physiological Claim in Question",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "pranayama_a_physiological_claim_in_question",
+          "reason": "A rigorous pedagogical investigation exploring a physiological claim in question through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Pranayama: A Breathing Device or App",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "pranayama_a_breathing_device_or_app",
+          "reason": "A rigorous pedagogical investigation exploring a breathing device or app through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Pranayama: A Teacher's Adaptation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "pranayama_a_teacher_s_adaptation",
+          "reason": "A rigorous pedagogical investigation exploring a teacher's adaptation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Pranayama: Breath Practice Enters a Program",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "pranayama_breath_practice_enters_a_program",
+          "reason": "A rigorous pedagogical investigation exploring breath practice enters a program through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Pranayama: Documenting a Taught Method",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "pranayama_documenting_a_taught_method",
+          "reason": "A rigorous pedagogical investigation exploring documenting a taught method through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Pranayama: A Technique's Popularity Over Time",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "pranayama_a_technique_s_popularity_over_time",
+          "reason": "A rigorous pedagogical investigation exploring a technique's popularity over time through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Pranayama: A Textual Practice and a Modern Class",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "pranayama_a_textual_practice_and_a_modern_class",
+          "reason": "A rigorous pedagogical investigation exploring a textual practice and a modern class through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Pranayama: A Safer Evidence Study",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "pranayama_a_safer_evidence_study",
+          "reason": "A rigorous pedagogical investigation exploring a safer evidence study through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Pranayama: Breathwork as a Cure?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "pranayama_breathwork_as_a_cure",
+          "reason": "A rigorous pedagogical investigation exploring breathwork as a cure? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Pranayama: One Breath Claim's Paper Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "pranayama_one_breath_claim_s_paper_trail",
+          "reason": "A rigorous pedagogical investigation exploring one breath claim's paper trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Pranayama: A Prāṇāyāma Passage in Context",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "text_source",
+          "slug": "pranayama_a_prāṇāyāma_passage_in_context",
+          "reason": "A rigorous pedagogical investigation exploring a prāṇāyāma passage in context through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Pranayama: Two Accounts of Prāṇa",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "interpretive_lineages",
+          "slug": "pranayama_two_accounts_of_prāṇa",
+          "reason": "A rigorous pedagogical investigation exploring two accounts of prāṇa through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Pranayama: A Practitioner's Breath Practice",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "lived_practice",
+          "slug": "pranayama_a_practitioner_s_breath_practice",
+          "reason": "A rigorous pedagogical investigation exploring a practitioner's breath practice through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Pranayama: Breath Practice Within a Rite",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "ritual_sequence",
+          "slug": "pranayama_breath_practice_within_a_rite",
+          "reason": "A rigorous pedagogical investigation exploring breath practice within a rite through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Pranayama: Prāṇa in Translation",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "language_translation",
+          "slug": "pranayama_prāṇa_in_translation",
+          "reason": "A rigorous pedagogical investigation exploring prāṇa in translation through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Pranayama: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "pranayama_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Pranayama: A Physiological Claim in Question",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "pranayama_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which part of a claimed mechanism remains untested for a named method backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Pranayama: A Breathing Device or App",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "pranayama_technology_innovation",
+          "why_trending": "High viral search interest exploring can a device reproduce a studied method safely and accurately backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Pranayama: Breathwork as a Cure?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "pranayama_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does one advertised health claim match evidence for the exact method and condition backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Pranayama: Breath Practice Enters a Program",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "pranayama_major_events",
+          "why_trending": "High viral search interest exploring what changed when one method was adapted for a school or clinic backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Pranayama: Teachers Behind Breath Practice",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "pranayama_hidden_stories",
+          "why_trending": "High viral search interest exploring whose instruction and adaptation shaped one community's practice backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Pranayama: One Breath Claim's Paper Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "pranayama_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a traditional description become a modern therapeutic promise backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "bank_type": "detailed_pilot",
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "13e799f9df083fce19b5c019fda17412ffd2974bd90b06281746313d3e2f15ab"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "dbea42533e97a17f9bd9f98c4ea4be3c9fc1774b2d3eab5f7206822abdb582a1"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-279-01",
+      "title": "Meaning and conceptual foundations",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-02",
+      "title": "Respiratory anatomy for viewers",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-03",
+      "title": "Traditional physiology and symbolism",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-04",
+      "title": "Yoga Sutra passages on breath",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-05",
+      "title": "Hatha sources and historical development",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-06",
+      "title": "Nadi shodhana and alternate-nostril traditions",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-07",
+      "title": "Ujjayi and audible breath",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-08",
+      "title": "Bhramari and humming research",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-09",
+      "title": "Shitali, shitkari, and cooling language",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-10",
+      "title": "Surya and chandra practices",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-11",
+      "title": "Kapalabhati and bhastrika classification",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-12",
+      "title": "Kumbhaka and advanced practice boundaries",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-13",
+      "title": "Autonomic measures and mechanisms",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-14",
+      "title": "Clinical and wellness evidence",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-15",
+      "title": "Safety, consent, and instructor scope",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-16",
+      "title": "Protocol design and research methods",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-17",
+      "title": "Modern breathwork and fair comparisons",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-18",
+      "title": "Institutions, curricula, and public teaching",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-19",
+      "title": "Measurement tools and digital products",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-20",
+      "title": "Cross-niche synthesis and documentary formats",
+      "scope": "Subject coverage grouped for learning; topic scopes below define the individual video boundaries."
+    },
+    {
+      "id": "DOMAIN-279-21",
+      "title": "Physiology",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-279-22",
+      "title": "Traditions",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-279-23",
+      "title": "Research",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-279-24",
+      "title": "Interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-279-25",
+      "title": "Measurement",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-279-26",
+      "title": "History",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "a6f64a3a67b421a7825bfa3d76e3703262942d029e5084183d8ff833a6c573ae",
+    "TOPIC_BANK_RECONCILIATION.md": "5be2870c949aff0d32e71099b6957b7a39a05435b895b8c9309c83ed8c8ef500",
+    "TOPICS_COVERED_REPORT.md": "257b1e91fb34ef43601230f451ad55d57da08de6b7b0c8ca73aab5528049ea45",
+    "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md": "28ac5d4eb92b68ce0e8ed1e4fa634b04006b5ffa386e961a66ce22f4db177096"
+  },
+  "starter_concept_crosswalk": {},
+  "retired_duplicate_proposals": [
+    {
+      "id": "BANK-279-091",
+      "question": "How should a pranayama paper report rate, depth, route, and retention?",
+      "coverage": "Build an intervention-description checklist and distinguish missing information from assumed details.",
+      "angle": "advanced_concepts",
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-279-005",
+      "retirement_reason": "Both source scopes request the same intervention protocol checklist; paper-reading vocabulary versus checklist presentation is not a distinct subject.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-279-16"
+    },
+    {
+      "id": "BANK-279-115",
+      "question": "Breath awareness in meditation and breath regulation in pranayama: how can a film show the distinction?",
+      "coverage": "Compare named sources and refer attention-training depth to niche 278.",
+      "angle": "documentary_stories",
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-278-115",
+      "retirement_reason": "Both distinguish breath observation from regulation using named sources and cross-niche routing. A reciprocal referral need not be counted twice.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-279-20"
+    },
+    {
+      "id": "BANK-279-118",
+      "question": "Two teachers, one technique name: how can a documentary compare them fairly?",
+      "coverage": "Use consented accounts, shared questions, source context, and explicit disagreement.",
+      "angle": "documentary_stories",
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-279-006",
+      "retirement_reason": "Both compare two teachers using the same technique name through documented instructions and disagreement. Interview fairness does not create another subject scope.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-279-20"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Hatha Yoga Pradipika chapter 2 gives a named textual frame.",
+      "bank_ids": [
+        "BANK-279-025"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Alternate-nostril teaching-name distinctions already active.",
+      "bank_ids": [
+        "BANK-279-031"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Kaivalyadhama institutional research history already active.",
+      "bank_ids": [
+        "BANK-279-103"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Pranayama and breath-awareness labels already active.",
+      "bank_ids": [
+        "BANK-279-001"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Crossover study names intervention, control and measured endpoints.",
+      "bank_ids": [
+        "BANK-279-127"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "new_bounded_case",
+      "reason": "Baseline nostril patency is a measurable design issue.",
+      "bank_ids": [
+        "BANK-279-127"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Pacer apps already active; no named device trial supplied.",
+      "bank_ids": [
+        "BANK-279-109"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Twentieth-century teaching-manual adaptation already active.",
+      "bank_ids": [
+        "BANK-279-029"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "reason": "Common Yoga Protocol is a named public curriculum.",
+      "bank_ids": [
+        "BANK-279-104"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Scientific protocol definition already active.",
+      "bank_ids": [
+        "BANK-279-005"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "out_of_scope",
+      "reason": "No dated popularity series for a named technique supplied.",
+      "bank_ids": []
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Classical-source versus modern-class ujjayi comparison active.",
+      "bank_ids": [
+        "BANK-279-037"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "Preregistered primary outcome question already active.",
+      "bank_ids": [
+        "BANK-279-094"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "new_bounded_case",
+      "reason": "Asthma trial reports divergent endpoints; it cannot support cure.",
+      "bank_ids": [
+        "BANK-279-128"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "Published study supplies a specific intervention/comparator/outcome trail.",
+      "bank_ids": [
+        "BANK-279-128"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Yoga Sutra 2.49-53 passage context already active.",
+      "bank_ids": [
+        "BANK-279-019"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Traditional prana versus oxygen distinction already active.",
+      "bank_ids": [
+        "BANK-279-002"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "out_of_scope",
+      "reason": "No named participant account or consent-based field source supplied.",
+      "bank_ids": []
+    },
+    "pending_topics/18": {
+      "decision": "out_of_scope",
+      "reason": "No named rite or community account supplied.",
+      "bank_ids": []
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Prana translation and oxygen distinction already active.",
+      "bank_ids": [
+        "BANK-279-002"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No defined metric, comparator or record series.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "Baseline nostril patency and controls are explicit design choices.",
+      "bank_ids": [
+        "BANK-279-127"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Product-specific breath device evidence already active.",
+      "bank_ids": [
+        "BANK-279-113"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "new_bounded_case",
+      "reason": "One adjunct trial with null spirometry difference cannot establish cure.",
+      "bank_ids": [
+        "BANK-279-128"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Public protocol placement already active.",
+      "bank_ids": [
+        "BANK-279-104"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Institutional teaching/research history already active.",
+      "bank_ids": [
+        "BANK-279-103"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "2020 trial provides a bounded outcome-paper trail.",
+      "bank_ids": [
+        "BANK-279-128"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-279-127",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-279-128",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 7,
+    "starter_concepts_reviewed": 0,
+    "all_knowledge_exhausted": false,
+    "summary": "Routed 27 archives; added named nostril-crossover design and asthma adjunct trial with divergent endpoints. Existing textual/practice/device questions retained; no cure or safety instruction inferred."
+  }
+}

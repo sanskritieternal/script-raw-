@@ -1,0 +1,1646 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "512",
+  "slug": "quantum_computing",
+  "name": "Quantum Computing",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Quantum Computing YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-512-R01",
+      "title": "Quantum foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-512-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "8e449971fd7113c607fafcefcb6ae2b26fce61a83c8a7f65ceff28f6585ce970",
+      "topics": [
+        {
+          "question": "How does measuring a qubit differ from reading an ordinary stored bit?",
+          "coverage": "Separate superposition, probabilities and repeated trials.",
+          "id": "BANK-512-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-512-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R02",
+      "title": "Computation methods",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-512-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2524a9e1c375504d076de0f5096616ac0222c77279051b8ee381192f62162321",
+      "topics": [
+        {
+          "question": "How can quantum interference amplify useful outcomes in an algorithm?",
+          "coverage": "Use a small conceptual circuit with measurement limits.",
+          "id": "BANK-512-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does useful quantum error correction require many physical qubits?",
+          "coverage": "Explain noise, logical encoding and overhead conceptually.",
+          "id": "BANK-512-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R03",
+      "title": "Evaluating performance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-512-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7acc53a340b8d8670cbafce7202525de52c766091390a0998bfe5e57285b5ff1",
+      "topics": [
+        {
+          "question": "What makes a quantum benchmark vulnerable to an unfair classical comparison?",
+          "coverage": "Compare task definitions, resources and updated algorithms.",
+          "id": "BANK-512-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which parts of a practical workload remain classical around a quantum processor?",
+          "coverage": "Map preparation, control, decoding and output analysis.",
+          "id": "BANK-512-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R04",
+      "title": "Quantum information",
+      "level": "foundation",
+      "parent_id": "DOMAIN-512-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4aa823dbd105864ba932b2e2615e7092078d5c444ff7295c487ffd95d8712fcb",
+      "topics": [
+        {
+          "question": "How do gates and entanglement transform a small quantum state before measurement?",
+          "coverage": "Use conceptual circuits and probabilistic outcomes.",
+          "id": "BANK-512-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-512-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R05",
+      "title": "Quantum information",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-512-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c5d00e09dbd67d0e717b8e8f42c084798032dacdf2c19e5e1b034d8cfd83eeb2",
+      "topics": [
+        {
+          "question": "How do decoherence and readout errors create different barriers to reliable quantum computation?",
+          "coverage": "Compare noise sources and error correction overhead.",
+          "id": "BANK-512-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-512-004",
+            "BANK-512-005",
+            "BANK-512-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R06",
+      "title": "Quantum information",
+      "level": "advanced",
+      "parent_id": "DOMAIN-512-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a0149b963ee4f43e9d21e31de4d61eac07131e6bafc914d2be8e43305a7d8347",
+      "topics": [
+        {
+          "question": "Why must input preparation and output extraction be included in quantum-advantage claims?",
+          "coverage": "Compare end-to-end workload and classical baselines.",
+          "id": "BANK-512-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-512-007",
+            "BANK-512-008",
+            "BANK-512-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R07",
+      "title": "Quantum networking distinctions",
+      "level": "foundation",
+      "parent_id": "DOMAIN-512-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "42b3f56ef3d0e6c58c987106e4e57cb79b91214d4af38635acea75d31a3f8f2d",
+      "topics": [
+        {
+          "question": "How does quantum networking differ from sending ordinary data between quantum computers?",
+          "coverage": "Separate entanglement distribution and classical communication.",
+          "id": "BANK-512-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R08",
+      "title": "Algorithm-specific resource estimates",
+      "level": "advanced",
+      "parent_id": "DOMAIN-512-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "857314cd8b9db0edcceeb6d946fc478d3c9261360969eeb62f8fb9fb05efc6af",
+      "topics": [
+        {
+          "question": "What must a useful quantum-algorithm resource estimate include beyond logical qubit count?",
+          "coverage": "Include error correction, depth and input-output work.",
+          "id": "BANK-512-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R09",
+      "title": "Control electronics",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-512-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "fcba79a7fa40241fc80e9cead0f2e4adeaa25501a6f0548f2b78c317d03a2fca",
+      "topics": [
+        {
+          "question": "How can classical control hardware limit a quantum processor's scale?",
+          "coverage": "Map wiring, timing, heat and calibration.",
+          "id": "BANK-512-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R10",
+      "title": "Reproducibility of benchmark claims",
+      "level": "advanced",
+      "parent_id": "DOMAIN-512-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c4e44a585b909319843ef72d2a85deca114d2c57cc9d4f24050fc71c6d7e0d84",
+      "topics": [
+        {
+          "question": "What must be published to reproduce a quantum performance comparison?",
+          "coverage": "Record tasks, noise, sampling and classical baselines.",
+          "id": "BANK-512-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-512-R11",
+      "title": "Error-correction overhead",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-512-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "335f112b83fe3cea90a29ad0ff4b083890e029407a1541f672dd888c5c7aef5c",
+      "topics": [
+        {
+          "question": "Why can adding physical qubits fail to improve a logical qubit's reliability?",
+          "coverage": "Separate encoding overhead, error correlations, control quality and decoding assumptions without claiming a particular implementation has achieved a threshold.",
+          "covers_starter_ids": [
+            "BANK-512-004"
+          ],
+          "id": "BANK-512-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did Google's 2023 surface-code experiment establish about scaling one logical qubit?",
+          "coverage": "Compare distance-3 and distance-5 logical error measurements over repeated cycles in the named superconducting-device experiment; distinguish modest error suppression from a fault-tolerant general-purpose computer.",
+          "id": "BANK-512-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/512_quantum_computing/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "56961222ae9a29fe7e105441758a0fe69c9ba9f90004da5b92f46427c5cc04cc",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-512-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5d6720d150597fe05753138c15878c854b24375f3e0a4cbe5118eee850dc2cb7"
+      },
+      "BANK-512-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "32a965c647f2b42d1d3244ece4470c9a410deabc1d7ef3da089f1729f0eaf0cb"
+      },
+      "BANK-512-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b15c553903da43a51417637b290d0ec2f31f2964e2d0b92ad0c282dc342cd1d1"
+      },
+      "BANK-512-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "605a91982115f1e2551fa8b6eca57640aeebeb329eb381b2d998dfac547eccfe"
+      },
+      "BANK-512-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0282aea28c60d799d49e4b177f11ddd23111aa32c8f32a06ed1299276e92e978"
+      },
+      "BANK-512-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fcb0349304f97d469a4ceb23371cd62bc57d891963d886d548fdec14d27811cb"
+      },
+      "BANK-512-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "81f3139a720a3f8e20f9b1d4bb7f755c9e615341c18501fdc34bb143847034d7"
+      },
+      "BANK-512-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "427e6c44c13f94d52287d52621c49bbd1361c009efa46bad1454904f3f22080f"
+      },
+      "BANK-512-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef9ad76da2e298cb1580b35cea1eb038fe4c84363a2c70e69af963744c6e13b8"
+      }
+    },
+    "source_categories": {
+      "CATALOG-512-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d3b0c238b6a74e91ecaed85445eb43cccd1e68caadb432151dd53cc6bb50d1d1"
+      },
+      "CATALOG-512-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "166d6cb0d41e9da649bd760344335960664084f65dc213c98ff96abe4f316e16"
+      },
+      "CATALOG-512-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "59d902b8ae74073b3543f26def9ced74e0ba0c08936dca2e5369d68cb06cee9b"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "512_QUANTUM_COMPUTING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "7ee31357f2ebe89e361db71a70d8bc47e1fde3571d9b8d9d7ba2642a2af83213",
+        "original_text": "# Quantum Computing Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 512 Quantum Computing (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Quantum Computing Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/512_quantum_computing/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Quantum Computing across four progressive tiers:\r\n- **Tier 1: Quantum Computing Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Quantum Computing.\r\n- **Tier 2: Quantum Computing Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Quantum Computing.\r\n- **Tier 3: Quantum Computing Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Quantum Computing.\r\n- **Tier 4: Quantum Computing Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Quantum Computing.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (20 Curated Formats)\r\n\r\nEvery episode is produced using one of the 20 niche angle presets defined in [`REGISTRY/Niches/512_quantum_computing/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/512_quantum_computing/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How Quantum Computing Developed** | *How did a quantum-computing proposal become a documented experiment?* |\r\n| 2 | `famous_examples` | **A Documented Quantum Computing Case** | *What did a widely cited quantum demonstration actually establish?* |\r\n| 3 | `hidden_stories` | **People behind Quantum Computing** | *Whose calibration, control or verification work enabled a quantum result?* |\r\n| 4 | `beginner_explainers` | **Understanding Quantum Computing** | *How do preparation, operations and measurement answer one quantum task?* |\r\n| 5 | `advanced_concepts` | **Tradeoffs in Quantum Computing** | *Which physical and logical resources determine the cost of a quantum task?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Open Quantum Computing Question** | *Which experiment could distinguish explanations for a disputed quantum result?* |\r\n| 7 | `technology_innovation` | **A Tool for Quantum Computing** | *Does a component advance improve the full computation being proposed?* |\r\n| 8 | `people_personalities` | **Decisions in Quantum Computing** | *Which recorded research decisions shaped a quantum experiment's design?* |\r\n| 9 | `major_events` | **A Turning Point in Quantum Computing** | *How did replication or criticism change a quantum milestone's interpretation?* |\r\n| 10 | `how_it_works` | **How Quantum Computing Works** | *Where do error and validation enter a quantum experiment?* |\r\n| 11 | `rise_fall` | **When a Quantum Computing Approach Faltered** | *Why did confidence in a quantum approach increase or decline?* |\r\n| 12 | `then_vs_now` | **Quantum Computing across Two Periods** | *How do two demonstrations compare using the same task and resource definitions?* |\r\n| 13 | `future_developments` | **Possible Next Steps in Quantum Computing** | *What assumptions stand between a quantum algorithm and its proposed application?* |\r\n| 14 | `myths_vs_facts` | **Testing a Quantum Computing Claim** | *Does a quantum-advantage claim use a defensible classical comparison?* |\r\n| 15 | `documentary_stories` | **One Quantum Computing Evidence Trail** | *How did a quantum result move from proposal through verification and debate?* |\r\n| 16 | `field_qubit_platforms` | **Qubit Platforms** | *How do qubit platforms compare on the same experimental criteria?* |\r\n| 17 | `field_error_correction` | **Error Correction** | *What did an error-correction experiment establish about logical errors?* |\r\n| 18 | `field_benchmark_design` | **Benchmark Design** | *Does a quantum benchmark measure the advantage being claimed?* |\r\n| 19 | `field_algorithm_limits` | **Algorithm Limits** | *Which resources would a quantum algorithm need for its proposed task?* |\r\n| 20 | `field_hardware_scaling` | **Hardware Scaling** | *Which control and error constraints limit a hardware design's scaling?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Quantum Computing: How Quantum Computing Developed**\r\n   - *Question:* How did a quantum-computing proposal become a documented experiment?\r\n   - *Key Focus:* Trace one quantum-computing idea from its theoretical task through a documented experiment; distinguish the original proposal from later hardware claims. Evidence base: Trace dated origin records and subsequent interpretations. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n2. **Quantum Computing: A Documented Quantum Computing Case**\r\n   - *Question:* What did a widely cited quantum demonstration actually establish?\r\n   - *Key Focus:* Examine one widely cited quantum demonstration using its task, device, comparison method and uncertainty; state what practical use it did not establish. Evidence base: Read the original evaluation and its population, comparator, outcomes and limitations. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n3. **Quantum Computing: People behind Quantum Computing**\r\n   - *Question:* Whose calibration, control or verification work enabled a quantum result?\r\n   - *Key Focus:* Document overlooked calibration, control or verification work in one experiment; credit contributors through publications and attributed accounts. Evidence base: Use attributable contribution records and consented participant accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n4. **Quantum Computing: Understanding Quantum Computing**\r\n   - *Question:* How do preparation, operations and measurement answer one quantum task?\r\n   - *Key Focus:* Explain qubits, operations, measurement and error through one defined experiment; distinguish quantum computing from ordinary parallel processing. Evidence base: Use primary definitions and a documented end-to-end example. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n5. **Quantum Computing: Tradeoffs in Quantum Computing**\r\n   - *Question:* Which physical and logical resources determine the cost of a quantum task?\r\n   - *Key Focus:* Compare resource and error estimates for one quantum task; separate physical qubits, logical qubits, circuit depth and classical verification costs. Evidence base: Compare original methods, assumptions, measures and uncertainty. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n### Tier 2: Methodological Deep Dives\r\n6. **Quantum Computing: An Open Quantum Computing Question**\r\n   - *Question:* Which experiment could distinguish explanations for a disputed quantum result?\r\n   - *Key Focus:* Investigate one unresolved result or scalability question using published experiments and competing interpretations; identify a test that could resolve it. Evidence base: Compare competing explanations and specify missing discriminating evidence. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n7. **Quantum Computing: A Tool for Quantum Computing**\r\n   - *Question:* Does a component advance improve the full computation being proposed?\r\n   - *Key Focus:* Evaluate one new quantum hardware or control method against a defined baseline; distinguish component improvement from useful computational advantage. Evidence base: Compare validation, deployment and follow-up against a stated baseline. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n8. **Quantum Computing: Decisions in Quantum Computing**\r\n   - *Question:* Which recorded research decisions shaped a quantum experiment's design?\r\n   - *Key Focus:* Reconstruct one research or engineering decision through papers, funding records and attributed accounts; distinguish stated goals from achieved milestones. Evidence base: Use decision records, assigned authority and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n9. **Quantum Computing: A Turning Point in Quantum Computing**\r\n   - *Question:* How did replication or criticism change a quantum milestone's interpretation?\r\n   - *Key Focus:* Follow a dated quantum milestone through its original publication, replication and later interpretation; avoid turning announcements into settled outcomes. Evidence base: Build a dated before-and-after record without assuming causation. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n10. **Quantum Computing: How Quantum Computing Works**\r\n   - *Question:* Where do error and validation enter a quantum experiment?\r\n   - *Key Focus:* Map preparation, control, execution and readout in one quantum experiment; identify where errors and validation enter the process. Evidence base: Trace the process, custody transfers and assigned responsibilities. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Quantum Computing: When a Quantum Computing Approach Faltered**\r\n   - *Question:* Why did confidence in a quantum approach increase or decline?\r\n   - *Key Focus:* Explain changing support for one quantum approach using measured performance, resource needs and independent results rather than publicity volume. Evidence base: Compare a dated series with competing explanations for change. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n12. **Quantum Computing: across Two Periods**\r\n   - *Question:* How do two demonstrations compare using the same task and resource definitions?\r\n   - *Key Focus:* Compare two dated demonstrations using consistent task, error and resource definitions; describe where the devices cannot be directly compared. Evidence base: Align definitions, samples, versions and measurement conditions. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n13. **Quantum Computing: Possible Next Steps in Quantum Computing**\r\n   - *Question:* What assumptions stand between a quantum algorithm and its proposed application?\r\n   - *Key Focus:* Assess a proposed quantum application through algorithm, error correction, hardware and input-output requirements; label untested assumptions. Evidence base: Read the actual proposal and distinguish required conditions from achieved results. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n14. **Quantum Computing: Testing a Quantum Computing Claim**\r\n   - *Question:* Does a quantum-advantage claim use a defensible classical comparison?\r\n   - *Key Focus:* Test one quantum-advantage claim against its original task and classical comparison; distinguish theoretical speedup from measured end-to-end usefulness. Evidence base: Trace the public claim to original evidence and retain its qualifications. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n15. **Quantum Computing: One Quantum Computing Evidence Trail**\r\n   - *Question:* How did a quantum result move from proposal through verification and debate?\r\n   - *Key Focus:* Build a sourced sequence from one proposed quantum experiment through execution, analysis and criticism; include unresolved verification questions. Evidence base: Build a dated evidence trail including dissent and unresolved findings. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Quantum Computing: Qubit Platforms**\r\n   - *Question:* How do qubit platforms compare on the same experimental criteria?\r\n   - *Key Focus:* Compare qubit platforms on the same stated experimental criteria; examine control, connectivity, coherence and measurement without declaring a universal winner. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n17. **Quantum Computing: Error Correction**\r\n   - *Question:* What did an error-correction experiment establish about logical errors?\r\n   - *Key Focus:* Examine one error-correction experiment using code, logical error rate and resource overhead; distinguish error detection from sustained fault-tolerant computation. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n18. **Quantum Computing: Benchmark Design**\r\n   - *Question:* Does a quantum benchmark measure the advantage being claimed?\r\n   - *Key Focus:* Audit one benchmark's task selection, sampling, baseline and verification; identify whether its performance measure matches the public claim. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n19. **Quantum Computing: Algorithm Limits**\r\n   - *Question:* Which resources would a quantum algorithm need for its proposed task?\r\n   - *Key Focus:* Evaluate the assumptions and resource requirements of one quantum algorithm for a named problem; include data preparation and classical alternatives. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n20. **Quantum Computing: Hardware Scaling**\r\n   - *Question:* Which control and error constraints limit a hardware design's scaling?\r\n   - *Key Focus:* Trace scaling constraints in one hardware design through control, calibration, interconnects and error; distinguish component counts from usable computational capacity. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 512 (Quantum Computing)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Quantum Computing: How Quantum Computing Developed*\r\n- **Episode Slug:** `512_quantum_computing_deep_dive_the_architecture_of_quantum_computing_how_quantum_computing_`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/512_quantum_computing/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "ff7f38ea95a280e4c3062226f997600f61d4776bf144a45b54631d671a9f13b4",
+        "original_text": "# 512 Quantum Computing -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 512 Quantum Computing (Computing_Software)  \r\n> **Storage Directory:** `topics/512_quantum_computing/`  \r\n> **Synchronized With:** `OUTPUT/512_quantum_computing/`, `REGISTRY/Niches/512_quantum_computing/`, and `512_QUANTUM_COMPUTING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 512 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/512_quantum_computing](../../OUTPUT/512_quantum_computing) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Quantum Computing: How Quantum Computing Developed** | Tier 1: Foundational Frameworks | `history_origins` | `quantum_computing_how_quantum_computing_developed` | A rigorous pedagogical investigation exploring how quantum computing developed through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Quantum Computing: A Documented Quantum Computing Case** | Tier 1: Foundational Frameworks | `famous_examples` | `quantum_computing_a_documented_quantum_computing_case` | A rigorous pedagogical investigation exploring a documented quantum computing case through documented evidence. | `QUEUED` |\r\n| 3 | **Quantum Computing: People behind Quantum Computing** | Tier 1: Foundational Frameworks | `hidden_stories` | `quantum_computing_people_behind_quantum_computing` | A rigorous pedagogical investigation exploring people behind quantum computing through documented evidence. | `QUEUED` |\r\n| 4 | **Quantum Computing: Understanding Quantum Computing** | Tier 1: Foundational Frameworks | `beginner_explainers` | `quantum_computing_understanding_quantum_computing` | A rigorous pedagogical investigation exploring understanding quantum computing through documented evidence. | `QUEUED` |\r\n| 5 | **Quantum Computing: Tradeoffs in Quantum Computing** | Tier 1: Foundational Frameworks | `advanced_concepts` | `quantum_computing_tradeoffs_in_quantum_computing` | A rigorous pedagogical investigation exploring tradeoffs in quantum computing through documented evidence. | `QUEUED` |\r\n| 6 | **Quantum Computing: An Open Quantum Computing Question** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `quantum_computing_an_open_quantum_computing_question` | A rigorous pedagogical investigation exploring an open quantum computing question through documented evidence. | `QUEUED` |\r\n| 7 | **Quantum Computing: A Tool for Quantum Computing** | Tier 2: Methodological Deep Dives | `technology_innovation` | `quantum_computing_a_tool_for_quantum_computing` | A rigorous pedagogical investigation exploring a tool for quantum computing through documented evidence. | `QUEUED` |\r\n| 8 | **Quantum Computing: Decisions in Quantum Computing** | Tier 2: Methodological Deep Dives | `people_personalities` | `quantum_computing_decisions_in_quantum_computing` | A rigorous pedagogical investigation exploring decisions in quantum computing through documented evidence. | `QUEUED` |\r\n| 9 | **Quantum Computing: A Turning Point in Quantum Computing** | Tier 2: Methodological Deep Dives | `major_events` | `quantum_computing_a_turning_point_in_quantum_computing` | A rigorous pedagogical investigation exploring a turning point in quantum computing through documented evidence. | `QUEUED` |\r\n| 10 | **Quantum Computing: How Quantum Computing Works** | Tier 2: Methodological Deep Dives | `how_it_works` | `quantum_computing_how_quantum_computing_works` | A rigorous pedagogical investigation exploring how quantum computing works through documented evidence. | `QUEUED` |\r\n| 11 | **Quantum Computing: When a Quantum Computing Approach Faltered** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `quantum_computing_when_a_quantum_computing_approach_faltered` | A rigorous pedagogical investigation exploring when a quantum computing approach faltered through documented evidence. | `QUEUED` |\r\n| 12 | **Quantum Computing: across Two Periods** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `quantum_computing_across_two_periods` | A rigorous pedagogical investigation exploring across two periods through documented evidence. | `QUEUED` |\r\n| 13 | **Quantum Computing: Possible Next Steps in Quantum Computing** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `quantum_computing_possible_next_steps_in_quantum_computing` | A rigorous pedagogical investigation exploring possible next steps in quantum computing through documented evidence. | `QUEUED` |\r\n| 14 | **Quantum Computing: Testing a Quantum Computing Claim** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `quantum_computing_testing_a_quantum_computing_claim` | A rigorous pedagogical investigation exploring testing a quantum computing claim through documented evidence. | `QUEUED` |\r\n| 15 | **Quantum Computing: One Quantum Computing Evidence Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `quantum_computing_one_quantum_computing_evidence_trail` | A rigorous pedagogical investigation exploring one quantum computing evidence trail through documented evidence. | `QUEUED` |\r\n| 16 | **Quantum Computing: Qubit Platforms** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_qubit_platforms` | `quantum_computing_qubit_platforms` | A rigorous pedagogical investigation exploring qubit platforms through documented evidence. | `QUEUED` |\r\n| 17 | **Quantum Computing: Error Correction** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_error_correction` | `quantum_computing_error_correction` | A rigorous pedagogical investigation exploring error correction through documented evidence. | `QUEUED` |\r\n| 18 | **Quantum Computing: Benchmark Design** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_benchmark_design` | `quantum_computing_benchmark_design` | A rigorous pedagogical investigation exploring benchmark design through documented evidence. | `QUEUED` |\r\n| 19 | **Quantum Computing: Algorithm Limits** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_algorithm_limits` | `quantum_computing_algorithm_limits` | A rigorous pedagogical investigation exploring algorithm limits through documented evidence. | `QUEUED` |\r\n| 20 | **Quantum Computing: Hardware Scaling** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_hardware_scaling` | `quantum_computing_hardware_scaling` | A rigorous pedagogical investigation exploring hardware scaling through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Quantum Computing: Record Extremes & Superlatives** | **98** | `extreme_case` | `quantum_computing_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Quantum Computing: An Open Quantum Computing Question** | **96** | `mysteries_unsolved_cases` | `quantum_computing_mysteries_unsolved_cases` | High viral search interest exploring which experiment could distinguish explanations for a disputed quantum result backed by field records. | `Queued` |\r\n| 23 | **Quantum Computing: A Tool for Quantum Computing** | **95** | `technology_innovation` | `quantum_computing_technology_innovation` | High viral search interest exploring does a component advance improve the full computation being proposed backed by field records. | `Queued` |\r\n| 24 | **Quantum Computing: Testing a Quantum Computing Claim** | **94** | `myths_vs_facts` | `quantum_computing_myths_vs_facts` | High viral search interest exploring does a quantum-advantage claim use a defensible classical comparison backed by field records. | `Queued` |\r\n| 25 | **Quantum Computing: A Turning Point in Quantum Computing** | **93** | `major_events` | `quantum_computing_major_events` | High viral search interest exploring how did replication or criticism change a quantum milestone's interpretation backed by field records. | `Queued` |\r\n| 26 | **Quantum Computing: People behind Quantum Computing** | **92** | `hidden_stories` | `quantum_computing_hidden_stories` | High viral search interest exploring whose calibration, control or verification work enabled a quantum result backed by field records. | `Queued` |\r\n| 27 | **Quantum Computing: One Quantum Computing Evidence Trail** | **91** | `documentary_stories` | `quantum_computing_documentary_stories` | High viral search interest exploring how did a quantum result move from proposal through verification and debate backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/512_quantum_computing/512_QUANTUM_COMPUTING_CHANNEL_TOPIC_ROADMAP.md`](./512_QUANTUM_COMPUTING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/512_quantum_computing/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/512_quantum_computing/NICHE_512_quantum_computing.md`](file:///h:/script-raw-/REGISTRY/Niches/512_quantum_computing/NICHE_512_quantum_computing.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/512_quantum_computing/CAT_512_quantum_computing.md`](file:///h:/script-raw-/REGISTRY/Niches/512_quantum_computing/CAT_512_quantum_computing.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/512_quantum_computing/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/512_quantum_computing/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/512_quantum_computing/`](file:///h:/script-raw-/OUTPUT/512_quantum_computing/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "cb8d7bf9e0f670269571e71b9be62364f5e8dd1391447726232007fa8abe55ee",
+        "original_text": "{\r\n  \"niche_id\": \"512\",\r\n  \"niche_name\": \"quantum_computing\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Quantum Computing: How Quantum Computing Developed\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"quantum_computing_how_quantum_computing_developed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how quantum computing developed through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Quantum Computing: A Documented Quantum Computing Case\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"quantum_computing_a_documented_quantum_computing_case\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a documented quantum computing case through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Quantum Computing: People behind Quantum Computing\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"quantum_computing_people_behind_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Quantum Computing: Understanding Quantum Computing\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"quantum_computing_understanding_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring understanding quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Quantum Computing: Tradeoffs in Quantum Computing\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"quantum_computing_tradeoffs_in_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring tradeoffs in quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Quantum Computing: An Open Quantum Computing Question\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"quantum_computing_an_open_quantum_computing_question\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an open quantum computing question through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Quantum Computing: A Tool for Quantum Computing\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"quantum_computing_a_tool_for_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a tool for quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Quantum Computing: Decisions in Quantum Computing\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"quantum_computing_decisions_in_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring decisions in quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Quantum Computing: A Turning Point in Quantum Computing\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"quantum_computing_a_turning_point_in_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a turning point in quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Quantum Computing: How Quantum Computing Works\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"quantum_computing_how_quantum_computing_works\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how quantum computing works through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Quantum Computing: When a Quantum Computing Approach Faltered\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"quantum_computing_when_a_quantum_computing_approach_faltered\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring when a quantum computing approach faltered through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Quantum Computing: across Two Periods\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"quantum_computing_across_two_periods\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring across two periods through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Quantum Computing: Possible Next Steps in Quantum Computing\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"quantum_computing_possible_next_steps_in_quantum_computing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring possible next steps in quantum computing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Quantum Computing: Testing a Quantum Computing Claim\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"quantum_computing_testing_a_quantum_computing_claim\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring testing a quantum computing claim through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Quantum Computing: One Quantum Computing Evidence Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"quantum_computing_one_quantum_computing_evidence_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one quantum computing evidence trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Quantum Computing: Qubit Platforms\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_qubit_platforms\",\r\n      \"slug\": \"quantum_computing_qubit_platforms\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring qubit platforms through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Quantum Computing: Error Correction\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_error_correction\",\r\n      \"slug\": \"quantum_computing_error_correction\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring error correction through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Quantum Computing: Benchmark Design\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_benchmark_design\",\r\n      \"slug\": \"quantum_computing_benchmark_design\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring benchmark design through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Quantum Computing: Algorithm Limits\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_algorithm_limits\",\r\n      \"slug\": \"quantum_computing_algorithm_limits\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring algorithm limits through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Quantum Computing: Hardware Scaling\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_hardware_scaling\",\r\n      \"slug\": \"quantum_computing_hardware_scaling\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring hardware scaling through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Quantum Computing: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"quantum_computing_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Quantum Computing: An Open Quantum Computing Question\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"quantum_computing_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which experiment could distinguish explanations for a disputed quantum result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Quantum Computing: A Tool for Quantum Computing\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"quantum_computing_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring does a component advance improve the full computation being proposed backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Quantum Computing: Testing a Quantum Computing Claim\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"quantum_computing_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does a quantum-advantage claim use a defensible classical comparison backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Quantum Computing: A Turning Point in Quantum Computing\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"quantum_computing_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring how did replication or criticism change a quantum milestone's interpretation backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Quantum Computing: People behind Quantum Computing\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"quantum_computing_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose calibration, control or verification work enabled a quantum result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Quantum Computing: One Quantum Computing Evidence Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"quantum_computing_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a quantum result move from proposal through verification and debate backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "512",
+      "niche_name": "quantum_computing",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Quantum Computing: How Quantum Computing Developed",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "quantum_computing_how_quantum_computing_developed",
+          "reason": "A rigorous pedagogical investigation exploring how quantum computing developed through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Quantum Computing: A Documented Quantum Computing Case",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "quantum_computing_a_documented_quantum_computing_case",
+          "reason": "A rigorous pedagogical investigation exploring a documented quantum computing case through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Quantum Computing: People behind Quantum Computing",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "quantum_computing_people_behind_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring people behind quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Quantum Computing: Understanding Quantum Computing",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "quantum_computing_understanding_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring understanding quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Quantum Computing: Tradeoffs in Quantum Computing",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "quantum_computing_tradeoffs_in_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring tradeoffs in quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Quantum Computing: An Open Quantum Computing Question",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "quantum_computing_an_open_quantum_computing_question",
+          "reason": "A rigorous pedagogical investigation exploring an open quantum computing question through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Quantum Computing: A Tool for Quantum Computing",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "quantum_computing_a_tool_for_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring a tool for quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Quantum Computing: Decisions in Quantum Computing",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "quantum_computing_decisions_in_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring decisions in quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Quantum Computing: A Turning Point in Quantum Computing",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "quantum_computing_a_turning_point_in_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring a turning point in quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Quantum Computing: How Quantum Computing Works",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "quantum_computing_how_quantum_computing_works",
+          "reason": "A rigorous pedagogical investigation exploring how quantum computing works through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Quantum Computing: When a Quantum Computing Approach Faltered",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "quantum_computing_when_a_quantum_computing_approach_faltered",
+          "reason": "A rigorous pedagogical investigation exploring when a quantum computing approach faltered through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Quantum Computing: across Two Periods",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "quantum_computing_across_two_periods",
+          "reason": "A rigorous pedagogical investigation exploring across two periods through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Quantum Computing: Possible Next Steps in Quantum Computing",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "quantum_computing_possible_next_steps_in_quantum_computing",
+          "reason": "A rigorous pedagogical investigation exploring possible next steps in quantum computing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Quantum Computing: Testing a Quantum Computing Claim",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "quantum_computing_testing_a_quantum_computing_claim",
+          "reason": "A rigorous pedagogical investigation exploring testing a quantum computing claim through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Quantum Computing: One Quantum Computing Evidence Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "quantum_computing_one_quantum_computing_evidence_trail",
+          "reason": "A rigorous pedagogical investigation exploring one quantum computing evidence trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Quantum Computing: Qubit Platforms",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_qubit_platforms",
+          "slug": "quantum_computing_qubit_platforms",
+          "reason": "A rigorous pedagogical investigation exploring qubit platforms through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Quantum Computing: Error Correction",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_error_correction",
+          "slug": "quantum_computing_error_correction",
+          "reason": "A rigorous pedagogical investigation exploring error correction through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Quantum Computing: Benchmark Design",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_benchmark_design",
+          "slug": "quantum_computing_benchmark_design",
+          "reason": "A rigorous pedagogical investigation exploring benchmark design through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Quantum Computing: Algorithm Limits",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_algorithm_limits",
+          "slug": "quantum_computing_algorithm_limits",
+          "reason": "A rigorous pedagogical investigation exploring algorithm limits through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Quantum Computing: Hardware Scaling",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_hardware_scaling",
+          "slug": "quantum_computing_hardware_scaling",
+          "reason": "A rigorous pedagogical investigation exploring hardware scaling through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Quantum Computing: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "quantum_computing_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Quantum Computing: An Open Quantum Computing Question",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "quantum_computing_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which experiment could distinguish explanations for a disputed quantum result backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Quantum Computing: A Tool for Quantum Computing",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "quantum_computing_technology_innovation",
+          "why_trending": "High viral search interest exploring does a component advance improve the full computation being proposed backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Quantum Computing: Testing a Quantum Computing Claim",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "quantum_computing_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does a quantum-advantage claim use a defensible classical comparison backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Quantum Computing: A Turning Point in Quantum Computing",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "quantum_computing_major_events",
+          "why_trending": "High viral search interest exploring how did replication or criticism change a quantum milestone's interpretation backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Quantum Computing: People behind Quantum Computing",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "quantum_computing_hidden_stories",
+          "why_trending": "High viral search interest exploring whose calibration, control or verification work enabled a quantum result backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Quantum Computing: One Quantum Computing Evidence Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "quantum_computing_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a quantum result move from proposal through verification and debate backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "4ebd9a7ec408b26a78146fbd2f9173253cd6e8e8723a04f56d7462fae12e9828"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "35aa72bdd2c692d18026bab4b92a4da4111fc83bab39923f5caca4d38b02d781"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "99a1a811f92779af18143636c3d07bc9401bf78aca05afb827f12e5517068eb5"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "6209f664acd47e72aba0d3f5235d3a6c5a347a418150cf5671d33fd1a3d698bf"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "4e4d760a54a547b56fef96abc1d7140032a6224306f4f744270b6452f405efeb"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "54c60b9fe3bae03726cc8a1ec0ff588edffaa28d4f50d27e9a1227d23e45d1e5"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-512-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-04",
+      "title": "Quantum systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-05",
+      "title": "Quantum applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-06",
+      "title": "Quantum engineering",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-512-07",
+      "title": "Quantum evidence",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "512",
+    "slug": "quantum_computing",
+    "name": "Quantum Computing",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Quantum Computing YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-512-01",
+        "title": "Quantum information",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-512-001",
+            "title": "Qubits",
+            "question": "Qubits: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Quantum information. Address Qubits through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Qubits precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-002",
+            "title": "Entanglement",
+            "question": "Entanglement: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Quantum information. Address Entanglement through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Entanglement precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-003",
+            "title": "Quantum gates",
+            "question": "Quantum gates: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Quantum information. Address Quantum gates through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Quantum gates precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-512-02",
+        "title": "Engineering",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-512-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-512-004",
+            "title": "Error correction overhead",
+            "question": "Error correction overhead: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Quantum Computing; branch: Engineering. Address Error correction overhead through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Error correction overhead.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-005",
+            "title": "Decoherence",
+            "question": "Decoherence: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Quantum Computing; branch: Engineering. Address Decoherence through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Decoherence.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-006",
+            "title": "Qubit readout",
+            "question": "Qubit readout: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Quantum Computing; branch: Engineering. Address Qubit readout through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Qubit readout.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-512-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-512-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-512-007",
+            "title": "Quantum advantage claims",
+            "question": "Quantum advantage claims: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Evaluation. Address Quantum advantage claims through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Quantum advantage claims precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-008",
+            "title": "Algorithm input-output costs",
+            "question": "Algorithm input-output costs: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Evaluation. Address Algorithm input-output costs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Algorithm input-output costs precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-512-009",
+            "title": "Comparing classical baselines fairly",
+            "question": "Comparing classical baselines fairly: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Quantum Computing; branch: Evaluation. Address Comparing classical baselines fairly through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Comparing classical baselines fairly precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Quantum Computing: How Quantum Computing Developed",
+      "question": "How did a quantum-computing proposal become a documented experiment?",
+      "coverage": "Trace one quantum-computing idea from its theoretical task through a documented experiment; distinguish the original proposal from later hardware claims. Evidence base: Trace dated origin records and subsequent interpretations. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: A Documented Quantum Computing Case",
+      "question": "What did a widely cited quantum demonstration actually establish?",
+      "coverage": "Examine one widely cited quantum demonstration using its task, device, comparison method and uncertainty; state what practical use it did not establish. Evidence base: Read the original evaluation and its population, comparator, outcomes and limitations. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: People behind Quantum Computing",
+      "question": "Whose calibration, control or verification work enabled a quantum result?",
+      "coverage": "Document overlooked calibration, control or verification work in one experiment; credit contributors through publications and attributed accounts. Evidence base: Use attributable contribution records and consented participant accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Understanding Quantum Computing",
+      "question": "How do preparation, operations and measurement answer one quantum task?",
+      "coverage": "Explain qubits, operations, measurement and error through one defined experiment; distinguish quantum computing from ordinary parallel processing. Evidence base: Use primary definitions and a documented end-to-end example. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Tradeoffs in Quantum Computing",
+      "question": "Which physical and logical resources determine the cost of a quantum task?",
+      "coverage": "Compare resource and error estimates for one quantum task; separate physical qubits, logical qubits, circuit depth and classical verification costs. Evidence base: Compare original methods, assumptions, measures and uncertainty. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: An Open Quantum Computing Question",
+      "question": "Which experiment could distinguish explanations for a disputed quantum result?",
+      "coverage": "Investigate one unresolved result or scalability question using published experiments and competing interpretations; identify a test that could resolve it. Evidence base: Compare competing explanations and specify missing discriminating evidence. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: A Tool for Quantum Computing",
+      "question": "Does a component advance improve the full computation being proposed?",
+      "coverage": "Evaluate one new quantum hardware or control method against a defined baseline; distinguish component improvement from useful computational advantage. Evidence base: Compare validation, deployment and follow-up against a stated baseline. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Decisions in Quantum Computing",
+      "question": "Which recorded research decisions shaped a quantum experiment's design?",
+      "coverage": "Reconstruct one research or engineering decision through papers, funding records and attributed accounts; distinguish stated goals from achieved milestones. Evidence base: Use decision records, assigned authority and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: A Turning Point in Quantum Computing",
+      "question": "How did replication or criticism change a quantum milestone's interpretation?",
+      "coverage": "Follow a dated quantum milestone through its original publication, replication and later interpretation; avoid turning announcements into settled outcomes. Evidence base: Build a dated before-and-after record without assuming causation. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: How Quantum Computing Works",
+      "question": "Where do error and validation enter a quantum experiment?",
+      "coverage": "Map preparation, control, execution and readout in one quantum experiment; identify where errors and validation enter the process. Evidence base: Trace the process, custody transfers and assigned responsibilities. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: When a Quantum Computing Approach Faltered",
+      "question": "Why did confidence in a quantum approach increase or decline?",
+      "coverage": "Explain changing support for one quantum approach using measured performance, resource needs and independent results rather than publicity volume. Evidence base: Compare a dated series with competing explanations for change. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: across Two Periods",
+      "question": "How do two demonstrations compare using the same task and resource definitions?",
+      "coverage": "Compare two dated demonstrations using consistent task, error and resource definitions; describe where the devices cannot be directly compared. Evidence base: Align definitions, samples, versions and measurement conditions. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Possible Next Steps in Quantum Computing",
+      "question": "What assumptions stand between a quantum algorithm and its proposed application?",
+      "coverage": "Assess a proposed quantum application through algorithm, error correction, hardware and input-output requirements; label untested assumptions. Evidence base: Read the actual proposal and distinguish required conditions from achieved results. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Testing a Quantum Computing Claim",
+      "question": "Does a quantum-advantage claim use a defensible classical comparison?",
+      "coverage": "Test one quantum-advantage claim against its original task and classical comparison; distinguish theoretical speedup from measured end-to-end usefulness. Evidence base: Trace the public claim to original evidence and retain its qualifications. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: One Quantum Computing Evidence Trail",
+      "question": "How did a quantum result move from proposal through verification and debate?",
+      "coverage": "Build a sourced sequence from one proposed quantum experiment through execution, analysis and criticism; include unresolved verification questions. Evidence base: Build a dated evidence trail including dissent and unresolved findings. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Qubit Platforms",
+      "question": "How do qubit platforms compare on the same experimental criteria?",
+      "coverage": "Compare qubit platforms on the same stated experimental criteria; examine control, connectivity, coherence and measurement without declaring a universal winner. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Error Correction",
+      "question": "What did an error-correction experiment establish about logical errors?",
+      "coverage": "Examine one error-correction experiment using code, logical error rate and resource overhead; distinguish error detection from sustained fault-tolerant computation. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Benchmark Design",
+      "question": "Does a quantum benchmark measure the advantage being claimed?",
+      "coverage": "Audit one benchmark's task selection, sampling, baseline and verification; identify whether its performance measure matches the public claim. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Algorithm Limits",
+      "question": "Which resources would a quantum algorithm need for its proposed task?",
+      "coverage": "Evaluate the assumptions and resource requirements of one quantum algorithm for a named problem; include data preparation and classical alternatives. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Quantum Computing: Hardware Scaling",
+      "question": "Which control and error constraints limit a hardware design's scaling?",
+      "coverage": "Trace scaling constraints in one hardware design through control, calibration, interconnects and error; distinguish component counts from usable computational capacity. Evidence base: Use the selected field lens's underlying records, measurement definitions and attributed accounts. Case records: original experiments, benchmark definitions, error estimates and reproducible classical comparisons. Starting framework: NIST quantum information science (https://www.nist.gov/quantum-information-science). Select and verify the dated underlying case sources before scripting..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-512-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "c18d6dee4325db5120a67eec4f28ec836f512d79f7ede1a40cc37f4c7b2fedda",
+    "TOPIC_BANK_RECONCILIATION.md": "2e53db5c18ccefc90c0e77dcc978138f1bca3a90f530d66a899afeee78f18295",
+    "TOPICS_COVERED_REPORT.md": "064ba58a468ee611a75c731ec6cf2c9415220d7ec57e26689f56ababfd142297",
+    "512_QUANTUM_COMPUTING_CHANNEL_TOPIC_ROADMAP.md": "a53a7e2030eacbbaad9f93609ce30ab39c2483298c8c8314e93c51c3caa6ae85"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-512-001": [
+      "BANK-512-030"
+    ],
+    "BANK-512-002": [
+      "BANK-055-027"
+    ],
+    "BANK-512-003": [
+      "BANK-512-036"
+    ],
+    "BANK-512-004": [
+      "BANK-512-043"
+    ],
+    "BANK-512-005": [
+      "BANK-512-037"
+    ],
+    "BANK-512-007": [
+      "BANK-512-038"
+    ],
+    "BANK-512-006": [
+      "BANK-512-037"
+    ],
+    "BANK-512-008": [
+      "BANK-512-038"
+    ],
+    "BANK-512-009": [
+      "BANK-512-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Quantum networking distinctions",
+      "next_step": "Separate entanglement distribution and classical communication. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Algorithm-specific resource estimates",
+      "next_step": "Include error correction, depth and input-output work. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Control electronics",
+      "next_step": "Map wiring, timing, heat and calibration. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Reproducibility of benchmark claims",
+      "next_step": "Record tasks, noise, sampling and classical baselines. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Error-correction overhead",
+      "next_step": "Separate encoding overhead, error correlations, control quality and decoding assumptions without claiming a particular implementation has achieved a threshold. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 1,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "Why does entanglement not enable faster-than-light communication?",
+      "coverage": "Distinguish correlated outcomes and controllable signals.",
+      "id": "BANK-512-031",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-512-002"
+      ],
+      "duplicate_of": "BANK-055-027",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Explain correlations, measurement outcomes and communication requirements without mystical inference. / Distinguish correlated outcomes and controllable signals. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-512-R01"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-033"
+      ],
+      "reason": "Archived pending_topics/0 (original ID 1, title The Architecture of Quantum Computing: How Quantum Computing Developed) remains in the original snapshot. The bounded active question BANK-512-033 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/1 (original ID 2, title Quantum Computing: A Documented Quantum Computing Case) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-033"
+      ],
+      "reason": "Archived pending_topics/2 (original ID 3, title Quantum Computing: People behind Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-033 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-030"
+      ],
+      "reason": "Archived pending_topics/3 (original ID 4, title Quantum Computing: Understanding Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-030 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-043"
+      ],
+      "reason": "Archived pending_topics/4 (original ID 5, title Quantum Computing: Tradeoffs in Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-043 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-040"
+      ],
+      "reason": "Archived pending_topics/5 (original ID 6, title Quantum Computing: An Open Quantum Computing Question) remains in the original snapshot. The bounded active question BANK-512-040 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-041"
+      ],
+      "reason": "Archived pending_topics/6 (original ID 7, title Quantum Computing: A Tool for Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-041 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-040"
+      ],
+      "reason": "Archived pending_topics/7 (original ID 8, title Quantum Computing: Decisions in Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-040 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/8 (original ID 9, title Quantum Computing: A Turning Point in Quantum Computing) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-037"
+      ],
+      "reason": "Archived pending_topics/9 (original ID 10, title Quantum Computing: How Quantum Computing Works) remains in the original snapshot. The bounded active question BANK-512-037 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/10": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/10 (original ID 11, title Quantum Computing: When a Quantum Computing Approach Faltered) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/11": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-033"
+      ],
+      "reason": "Archived pending_topics/11 (original ID 12, title Quantum Computing: across Two Periods) remains in the original snapshot. The bounded active question BANK-512-033 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/12": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-040"
+      ],
+      "reason": "Archived pending_topics/12 (original ID 13, title Quantum Computing: Possible Next Steps in Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-040 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/13": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/13 (original ID 14, title Quantum Computing: Testing a Quantum Computing Claim) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/14 (original ID 15, title Quantum Computing: One Quantum Computing Evidence Trail) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-037"
+      ],
+      "reason": "Archived pending_topics/15 (original ID 16, title Quantum Computing: Qubit Platforms) remains in the original snapshot. The bounded active question BANK-512-037 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/16": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/16 (original ID 17, title Quantum Computing: Error Correction) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-034"
+      ],
+      "reason": "Archived pending_topics/17 (original ID 18, title Quantum Computing: Benchmark Design) remains in the original snapshot. The bounded active question BANK-512-034 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-040"
+      ],
+      "reason": "Archived pending_topics/18 (original ID 19, title Quantum Computing: Algorithm Limits) remains in the original snapshot. The bounded active question BANK-512-040 covers the premise without a duplicate BANK topic."
+    },
+    "pending_topics/19": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived pending_topics/19 (original ID 20, title Quantum Computing: Hardware Scaling) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "trending_topics/0": {
+      "decision": "reject_unsubstantiated_superlative",
+      "bank_ids": [],
+      "reason": "Archived trending_topics/0 (original ID 21, title Quantum Computing: Record Extremes & Superlatives) remains in the original snapshot. The unspecified record/superlative lacks a defined metric, date and fair comparator; no unsupported claim is promoted."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-040"
+      ],
+      "reason": "Archived trending_topics/1 (original ID 22, title Quantum Computing: An Open Quantum Computing Question) remains in the original snapshot. The bounded active question BANK-512-040 covers the premise without a duplicate BANK topic."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-041"
+      ],
+      "reason": "Archived trending_topics/2 (original ID 23, title Quantum Computing: A Tool for Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-041 covers the premise without a duplicate BANK topic."
+    },
+    "trending_topics/3": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived trending_topics/3 (original ID 24, title Quantum Computing: Testing a Quantum Computing Claim) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived trending_topics/4 (original ID 25, title Quantum Computing: A Turning Point in Quantum Computing) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-512-033"
+      ],
+      "reason": "Archived trending_topics/5 (original ID 26, title Quantum Computing: People behind Quantum Computing) remains in the original snapshot. The bounded active question BANK-512-033 covers the premise without a duplicate BANK topic."
+    },
+    "trending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-512-044"
+      ],
+      "reason": "Archived trending_topics/6 (original ID 27, title Quantum Computing: One Quantum Computing Evidence Trail) remains in the original snapshot. This named primary-study case routes to BANK-512-044; it remains proposed with empty verified_sources and limits in 512_QUANTUM_COMPUTING_SOURCE_NOTE.md."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-512-044",
+      "note_file": "512_QUANTUM_COMPUTING_SOURCE_NOTE.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-512-044",
+      "related_id": "BANK-512-043",
+      "boundary": "Named 2023 distance-3 versus distance-5 result versus general principle that more qubits need not improve reliability."
+    },
+    {
+      "topic_id": "BANK-512-044",
+      "related_id": "BANK-512-034",
+      "boundary": "Logical-error experiment versus quantum/classical benchmark fairness."
+    },
+    {
+      "topic_id": "BANK-512-044",
+      "related_id": "BANK-512-040",
+      "boundary": "One encoded-qubit experiment versus algorithm-level resource estimates."
+    }
+  ]
+}

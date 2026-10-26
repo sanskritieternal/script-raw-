@@ -1,0 +1,84 @@
+Viewed Prompt%20for%20Invoke.md:1-100
+
+To generate a full video project for any topic, you use **Prompt `P02`** from [`Prompt for Invoke.md`](file:///h:/script-raw-/Prompt%20for%20Invoke.md). 
+
+Here is exactly how to use it, with copy-paste templates:
+
+---
+
+### Option 1: Standard Full Prompt (Recommended)
+Copy and paste this into chat, filling in your topic:
+
+```text
+Read Prompt for Invoke.md and follow its common setup.
+Execute P02 for this request only.
+
+Topic or story idea: <YOUR_TOPIC_OR_IDEA>
+Language: English
+Audience: choose suitable defaults
+Duration: 600
+Treatment: Documentary Explainer
+Mode: autonomous.
+Scope: complete the text workflow through final audit.
+Media: I will generate media externally using AI tools.
+
+Search the current registry and select the best-fitting existing niche and angle.
+Show the selected route, episode question, configuration and assumptions.
+Proceed with defensible defaults; ask only for essential missing information.
+Validate each stage and report genuine unresolved review requirements.
+```
+
+---
+
+### Option 2: Short-Form Quick Prompt
+If you want to type fast, this one-liner works identically:
+
+```text
+Read Prompt for Invoke.md. Use P02. Topic: <YOUR TOPIC>. Language: English. Duration: 600s.
+```
+
+---
+
+### Option 3: Generating a Topic from Our 550 Roadmaps
+Since we just generated all 550 channel roadmaps, you can pick any topic directly from:
+- A flagship episode
+- Any curriculum topic (#1 to #20)
+- Any trending concept (#21 to #27)
+
+**Example picking from Niche 216 (Lightning):**
+```text
+Read Prompt for Invoke.md. Use P02.
+Topic: How Lightning Became Measurable
+Niche: 216_lightning
+Duration: 1200 seconds (20 minutes)
+Language: English
+Treatment: Documentary Explainer
+```
+
+**Example picking from Niche 281 (Ayurveda):**
+```text
+Read Prompt for Invoke.md. Use P02.
+Topic: The Science of Dinacharya: Circadian Rhythms in Ayurveda
+Niche: 281_ayurveda
+Duration: 600 seconds (10 minutes)
+Language: English
+Treatment: Educational Explainer
+```
+
+---
+
+### Setting Durations (10m, 20m, 30m)
+Under our flexible duration standard, set `Duration` to:
+- **10 Minutes:** `Duration: 600` (75 scenes @ 8s fixed)
+- **20 Minutes:** `Duration: 1200` (150 scenes @ 8s fixed)
+- **30 Minutes:** `Duration: 1800` (225 scenes @ 8s fixed)
+
+---
+
+### What the Agent Does Autonomously When You Send This:
+1. **Resolves the Niche & Angle:** Matches the topic to the correct niche folder in `REGISTRY/Niches/` and `topics/`.
+2. **Phase 1 (Research):** Builds the historical/technical research brief and facts matrix.
+3. **Phase 2 (Script):** Writes the full scene-by-scene voiceover script adhering to 8-second timing constraints.
+4. **Phase 3 (Visual & Audio Prompts):** Generates Midjourney/Runway image prompts, camera moves, and sound design.
+5. **Phase 4 (Packaging):** Generates YouTube title, description, tags, chapters, and thumbnail concept.
+6. **Phase 5 (Audit):** Runs the 70-point validation checklist and saves everything into `OUTPUT/<niche_id>_<slug>/<episode_slug>/`.

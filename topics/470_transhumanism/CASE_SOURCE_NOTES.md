@@ -1,0 +1,5 @@
+# Case-source note: WHO human-genome-editing recommendations
+
+Checked 2026-10-24. WHO’s [Human genome editing: recommendations](https://www.who.int/publications/i/item/9789240030381), issued 2021-07-12, identifies nine areas including international governance, research registries, medical travel, and unregistered, unethical or unsafe activities. WHO’s [release on the recommendations](https://www.who.int/news/item/12-07-2021-who-issues-new-recommendations-on-human-genome-editing-for-the-advancement-of-public-health) describes the expert committee and companion governance framework. The publication is an institutional policy primary source, not a clinical trial.
+
+Limit: Recommendations are not globally binding law or a blanket approval of heritable editing. They address treatment and disease-prevention applications as well as proposed uses; none establishes a safe enhancement procedure or settled social consent. Country rules, clinical capabilities and implementation may change. Keep somatic, germline and heritable uses distinct.

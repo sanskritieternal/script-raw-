@@ -1,0 +1,1594 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "436",
+  "slug": "power_plants",
+  "name": "Power Plants",
+  "primary_category": "Energy_Industry",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Power Plants YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-436-R01",
+      "title": "Generation foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-436-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7590bb6f3dbf2f86ad4dd4e2d367b9df2ccebda7e107e74546891d846e6cebf9",
+      "topics": [
+        {
+          "question": "Why does a power station's nameplate capacity differ from yearly electricity output?",
+          "coverage": "Separate availability, dispatch and energy units.",
+          "id": "BANK-436-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do thermal plants turn a temperature difference into electricity?",
+          "coverage": "Explain heat engines and conversion losses conceptually.",
+          "id": "BANK-436-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R02",
+      "title": "Grid operation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-436-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6cad09a8a21fd2de8f204b1a26ffc4520436d976e75bcf157816653f43b0fb6a",
+      "topics": [
+        {
+          "question": "Why do some plants stay online when short-term prices are low?",
+          "coverage": "Compare startup costs, minimum loads and reliability services.",
+          "id": "BANK-436-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can cooling choices constrain power generation during hot weather?",
+          "coverage": "Trace air and water conditions with site-specific assumptions.",
+          "id": "BANK-436-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-436-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R03",
+      "title": "System planning",
+      "level": "advanced",
+      "parent_id": "DOMAIN-436-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ddd5a59a9b4c4fae10eee6465044022f872980993a75baa10f8180b00c5b420d",
+      "topics": [
+        {
+          "question": "What does a levelized electricity cost comparison leave out?",
+          "coverage": "Include timing, flexibility and network effects without a universal ranking.",
+          "id": "BANK-436-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can retiring a power plant affect both workers and grid reliability?",
+          "coverage": "Map replacement services, skills and regional dependencies.",
+          "id": "BANK-436-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R04",
+      "title": "Generation technologies",
+      "level": "foundation",
+      "parent_id": "DOMAIN-436-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3ec4d26b9dbdb7bf65505850cfc57dd112c5dcaae9a0ba7cd97ecd29d3b0f7ea",
+      "topics": [
+        {
+          "question": "How do combined-cycle gas, coal steam and geothermal plants use different heat sources?",
+          "coverage": "Compare conversion pathways and operating constraints.",
+          "id": "BANK-436-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-436-002",
+            "BANK-436-001",
+            "BANK-436-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R05",
+      "title": "Generation technologies",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-436-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1b10883a5cb6bb38e42d24047d05b5ee1d0451aaa6c29ee546d1a9330c02f0cb",
+      "topics": [
+        {
+          "question": "Why do thermal efficiency and ramp rate answer different power-system questions?",
+          "coverage": "Separate fuel conversion and flexibility.",
+          "id": "BANK-436-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-436-004",
+            "BANK-436-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R06",
+      "title": "Generation accounting",
+      "level": "advanced",
+      "parent_id": "DOMAIN-436-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7455a35b7ba426fb27cc4b4e9abe74158de7bd03d707d596174564ec12e6e9c0",
+      "topics": [
+        {
+          "question": "How can capacity factors and lifecycle emissions mislead without dispatch context?",
+          "coverage": "State boundaries, demand and plant role.",
+          "id": "BANK-436-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-436-007",
+            "BANK-436-009",
+            "BANK-436-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R07",
+      "title": "District heating integration",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-436-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "41847372871a868d7d7a2ab94f3390f7137166a48d2c15800accfc8a5855ca76",
+      "topics": [
+        {
+          "question": "When can a power plant's rejected heat support district heating?",
+          "coverage": "Compare temperature, distance and seasonal demand.",
+          "id": "BANK-436-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R08",
+      "title": "Grid services",
+      "level": "foundation",
+      "parent_id": "DOMAIN-436-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "87069497c639a8ba481fb193af588d89cbc96844286739b493d967661e9881a3",
+      "topics": [
+        {
+          "question": "What services can a plant provide beyond electricity energy?",
+          "coverage": "Distinguish capacity, balancing and stability concepts.",
+          "id": "BANK-436-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R09",
+      "title": "Carbon-capture energy penalties",
+      "level": "advanced",
+      "parent_id": "DOMAIN-436-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "025bbdf3da9e4158b2e92334572229ec4200bfd570771b45e6131b70265e9ec3",
+      "topics": [
+        {
+          "question": "How does carbon capture change net plant output and resource demand?",
+          "coverage": "Map system boundaries and remaining emissions.",
+          "id": "BANK-436-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do Boundary Dam Unit 3?s 2024 CO?-capture and availability figures establish about its power-plant retrofit?",
+          "coverage": "Use SaskPower?s dated 2024 BD3 report to distinguish captured tonnes, CCS facility availability and reported emissions intensity from net electricity output, lifecycle emissions and performance of other coal units.",
+          "id": "BANK-436-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-436-R10",
+      "title": "Plant-water conflicts",
+      "level": "advanced",
+      "parent_id": "DOMAIN-436-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "043bdd3b8fa929b0dbb2836f09c7f0e5e0924e33a127bebe59666a3d25cb4852",
+      "topics": [
+        {
+          "question": "Who bears costs when cooling water competes with other uses?",
+          "coverage": "Compare scarcity and decision authority.",
+          "id": "BANK-436-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "finance": {
+      "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+      "source_leads": [
+        "regulator or official statistical publications",
+        "actual contracts, fee schedules and audited filings",
+        "original economic studies and disclosed calculation inputs"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "113",
+      "title": "Energy & Power",
+      "directory": "113_energy_power",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "114",
+      "title": "Water",
+      "directory": "114_water",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "157",
+      "title": "Materials Science",
+      "directory": "157_materials_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "158",
+      "title": "Batteries & Energy Storage",
+      "directory": "158_batteries_energy_storage",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "160",
+      "title": "Data Centers & Infrastructure",
+      "directory": "160_data_centers_infrastructure",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "161",
+      "title": "Electricity & Electronics",
+      "directory": "161_electricity_electronics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/436_power_plants/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "783cf9a899d71835941bb4a8b9db9d5788b1d271bb32ad3a46c0494b66dabd4f",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-436-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "21097c0b15e349fa036544284b2c5536170f4faa2335ffa321ab4f9a263d38d9"
+      },
+      "BANK-436-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "51c77e7bff3087cab09ef3e26e4978bb2eb1e947090216fc6ea20b2e3a0af023"
+      },
+      "BANK-436-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fdf38f6f1bbef536518402f0c55f7b6a9600fa6cd0ff9e886d1c596ebbbdd1bb"
+      },
+      "BANK-436-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5baf8e2207150586eb1b5f5ee6be6221c594fbfe86d2d99d90ae15afd655c18d"
+      },
+      "BANK-436-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ceb2b92442490186b1a93157f95f4fbcd444a82faa981ef3f447c231cd11a758"
+      },
+      "BANK-436-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "87f9b4a65fc2cda6092c5956fb1de531374b195d4fa405d41761f148000b6272"
+      },
+      "BANK-436-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cb6b5a09428c4865e13b7b29fc980a15d5f3e6ee25c5d80c4875eaec8cf16b78"
+      },
+      "BANK-436-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f9ebe6637d52e28f48c60bcf084ae280454629ae8cc1d29de09f53f2dc9843bd"
+      },
+      "BANK-436-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "71b64c5ef3cf2fbcc7f0aad76e8c00eb89f0ea70e8a447623729a24bb84e0467"
+      }
+    },
+    "source_categories": {
+      "CATALOG-436-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "89f8f52b1fca89afd894fa23b1dd3ed438fbcac983658ecf828c748ad9d2de70"
+      },
+      "CATALOG-436-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "2c1eb98f5bb0a6098803fd6e540de54c16474dd8470db1de9b880323a1bb8c77"
+      },
+      "CATALOG-436-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "0f910e5fd785e3c3172ce4337025c4a9dd789dcba86a6f887767ba1130f83085"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "436_POWER_PLANTS_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "ca12bc5985618635d1377d10cc946df96e858fb60392997deb5789708f22e4a3",
+        "original_text": "# Power Plants Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 436 Power Plants (Energy_Industry)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Power Plants Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/436_power_plants/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Power Plants across four progressive tiers:\r\n- **Tier 1: Power Plants Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Power Plants.\r\n- **Tier 2: Power Plants Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Power Plants.\r\n- **Tier 3: Power Plants Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Power Plants.\r\n- **Tier 4: Power Plants Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Power Plants.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/436_power_plants/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/436_power_plants/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Power Station Sited** | *Which fuel, water, grid, and demand constraints drove one site?* |\r\n| 2 | `famous_examples` | **A Power Plant in Context** | *What do capacity and net generation records actually show?* |\r\n| 3 | `hidden_stories` | **People behind Electric Output** | *Whose operation, maintenance, or neighboring experience is omitted?* |\r\n| 4 | `beginner_explainers` | **Fuel to Net Electricity** | *Where does energy enter, convert, and leave a plant?* |\r\n| 5 | `advanced_concepts` | **Dispatch and Efficiency** | *How do load and operating mode alter heat rate and emissions?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Output Shortfall** | *Which outage, fuel, water, or grid factor explains a gap?* |\r\n| 7 | `technology_innovation` | **A Plant Retrofit** | *Did one upgrade change net output, fuel use, or pollution?* |\r\n| 8 | `people_personalities` | **A Generation Decision** | *Who chose a plant design and who bore consequences?* |\r\n| 9 | `major_events` | **A Unit Enters Service** | *Which performance claims were met in the first operating period?* |\r\n| 10 | `how_it_works` | **Plant and Grid Exchange** | *How do generator controls, switchyard, and dispatcher interact?* |\r\n| 11 | `rise_fall` | **A Station Retires** | *Which economics, reliability, or rule changes explain closure?* |\r\n| 12 | `then_vs_now` | **A Plant before and after Retrofit** | *What changed in generation, heat rate, and emissions?* |\r\n| 13 | `future_developments` | **A Proposed Generator** | *What data would validate its reliability and cost claims?* |\r\n| 14 | `myths_vs_facts` | **Capacity Means Constant Power?** | *How does installed capacity differ from actual generation?* |\r\n| 15 | `documentary_stories` | **A Plant through Its Records** | *How did one project change from proposal to retirement?* |\r\n| 16 | `system_boundary` | **Gross or Net Generation?** | *Which electricity use inside the plant changes an efficiency claim?* |\r\n| 17 | `input_output_trace` | **Energy Flow through a Unit** | *How much input becomes net electricity, heat, and waste?* |\r\n| 18 | `design_tradeoff` | **Efficiency and Flexibility** | *What is gained and lost by ramping a generating unit?* |\r\n| 19 | `failure_mode` | **A Documented Plant Outage** | *Which equipment and organizational factors were found?* |\r\n| 20 | `testing_limits` | **Acceptance Test versus Annual Use** | *Which conditions make a short test unrepresentative?* |\r\n| 21 | `standards_interoperability` | **Connecting a Generator** | *Which grid, emissions, and safety requirements applied?* |\r\n| 22 | `security_threat_model` | **Plant Continuity** | *Which public resilience controls address fuel or grid disruption?* |\r\n| 23 | `maintenance_lifecycle` | **Aging Generating Units** | *How do inspection and outage records shape replacement?* |\r\n| 24 | `infrastructure_dependencies` | **Fuel, Water, and Transmission** | *Which external links determine reliable output?* |\r\n| 25 | `accessibility_usability` | **Public Plant Information** | *Can residents understand emissions and outage reporting?* |\r\n| 26 | `independent_replication` | **Recalculate Capacity Factor** | *Can published generation and capacity reproduce the claim?* |\r\n| 27 | `responsible_deployment` | **Starting and Retiring a Plant** | *What monitoring and cleanup obligations follow?* |\r\n| 28 | `field_energy_balance` | **Net Energy Accounting** | *What share of fuel energy reached the grid?* |\r\n| 29 | `field_grid_integration` | **Plant during Peak Demand** | *Which ramp, reserve, and transmission limits matter?* |\r\n| 30 | `field_material_inputs` | **Materials and Consumables** | *Which fuel, water, chemicals, and parts sustain output?* |\r\n| 31 | `field_operational_safety` | **Evidence for Plant Safety** | *Which inspections and incident records apply?* |\r\n| 32 | `field_lifecycle_emissions` | **Beyond Stack Emissions** | *How do extraction, construction, operation, and closure add up?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Power Plants: A Power Station Sited**\r\n   - *Question:* Which fuel, water, grid, and demand constraints drove one site?\r\n   - *Key Focus:* Trace dated plans and community response. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n2. **Power Plants: A Power Plant in Context**\r\n   - *Question:* What do capacity and net generation records actually show?\r\n   - *Key Focus:* Name units, fuel, and reporting period. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n3. **Power Plants: People behind Electric Output**\r\n   - *Question:* Whose operation, maintenance, or neighboring experience is omitted?\r\n   - *Key Focus:* Use worker and local evidence. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n4. **Power Plants: Fuel to Net Electricity**\r\n   - *Question:* Where does energy enter, convert, and leave a plant?\r\n   - *Key Focus:* Follow a defined generating unit. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n5. **Power Plants: Dispatch and Efficiency**\r\n   - *Question:* How do load and operating mode alter heat rate and emissions?\r\n   - *Key Focus:* Use matched plant data. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Power Plants: An Output Shortfall**\r\n   - *Question:* Which outage, fuel, water, or grid factor explains a gap?\r\n   - *Key Focus:* Compare operating logs and demand. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n7. **Power Plants: A Plant Retrofit**\r\n   - *Question:* Did one upgrade change net output, fuel use, or pollution?\r\n   - *Key Focus:* Compare before and after with dispatch controls. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n8. **Power Plants: A Generation Decision**\r\n   - *Question:* Who chose a plant design and who bore consequences?\r\n   - *Key Focus:* Trace utility, regulator, and local records. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n9. **Power Plants: A Unit Enters Service**\r\n   - *Question:* Which performance claims were met in the first operating period?\r\n   - *Key Focus:* Compare commissioning and measured generation. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n10. **Power Plants: Plant and Grid Exchange**\r\n   - *Question:* How do generator controls, switchyard, and dispatcher interact?\r\n   - *Key Focus:* Use public system-level records. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Power Plants: A Station Retires**\r\n   - *Question:* Which economics, reliability, or rule changes explain closure?\r\n   - *Key Focus:* Use dated cost, output, and retirement filings. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n12. **Power Plants: A Plant before and after Retrofit**\r\n   - *Question:* What changed in generation, heat rate, and emissions?\r\n   - *Key Focus:* Align fuel, demand, and season. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n13. **Power Plants: A Proposed Generator**\r\n   - *Question:* What data would validate its reliability and cost claims?\r\n   - *Key Focus:* Separate plan, permit, build, and operation. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n14. **Power Plants: Capacity Means Constant Power?**\r\n   - *Question:* How does installed capacity differ from actual generation?\r\n   - *Key Focus:* Calculate from metered output and time. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n15. **Power Plants: A Plant through Its Records**\r\n   - *Question:* How did one project change from proposal to retirement?\r\n   - *Key Focus:* Trace permits, construction, operation, and closure. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Power Plants: Gross or Net Generation?**\r\n   - *Question:* Which electricity use inside the plant changes an efficiency claim?\r\n   - *Key Focus:* State meter and fuel boundary. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n17. **Power Plants: Energy Flow through a Unit**\r\n   - *Question:* How much input becomes net electricity, heat, and waste?\r\n   - *Key Focus:* Use measured annual or test-period balances. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n18. **Power Plants: Efficiency and Flexibility**\r\n   - *Question:* What is gained and lost by ramping a generating unit?\r\n   - *Key Focus:* Compare heat rate, wear, and grid value. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n19. **Power Plants: A Documented Plant Outage**\r\n   - *Question:* Which equipment and organizational factors were found?\r\n   - *Key Focus:* Use official and operator review. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n20. **Power Plants: Acceptance Test versus Annual Use**\r\n   - *Question:* Which conditions make a short test unrepresentative?\r\n   - *Key Focus:* Compare ambient conditions, dispatch, and downtime. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 436 (Power Plants)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Power Plants: A Power Station Sited*\r\n- **Episode Slug:** `436_power_plants_deep_dive_the_architecture_of_power_plants_a_power_station_sited`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/436_power_plants/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "704e801b61ca6870103af84d589f04c2c48bc5eb9ad80d8770eaf23e2c7fe3ec",
+        "original_text": "# 436 Power Plants -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 436 Power Plants (Energy_Industry)  \r\n> **Storage Directory:** `topics/436_power_plants/`  \r\n> **Synchronized With:** `OUTPUT/436_power_plants/`, `REGISTRY/Niches/436_power_plants/`, and `436_POWER_PLANTS_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 436 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/436_power_plants](../../OUTPUT/436_power_plants) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Power Plants: A Power Station Sited** | Tier 1: Foundational Frameworks | `history_origins` | `power_plants_a_power_station_sited` | A rigorous pedagogical investigation exploring a power station sited through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Power Plants: A Power Plant in Context** | Tier 1: Foundational Frameworks | `famous_examples` | `power_plants_a_power_plant_in_context` | A rigorous pedagogical investigation exploring a power plant in context through documented evidence. | `QUEUED` |\r\n| 3 | **Power Plants: People behind Electric Output** | Tier 1: Foundational Frameworks | `hidden_stories` | `power_plants_people_behind_electric_output` | A rigorous pedagogical investigation exploring people behind electric output through documented evidence. | `QUEUED` |\r\n| 4 | **Power Plants: Fuel to Net Electricity** | Tier 1: Foundational Frameworks | `beginner_explainers` | `power_plants_fuel_to_net_electricity` | A rigorous pedagogical investigation exploring fuel to net electricity through documented evidence. | `QUEUED` |\r\n| 5 | **Power Plants: Dispatch and Efficiency** | Tier 1: Foundational Frameworks | `advanced_concepts` | `power_plants_dispatch_and_efficiency` | A rigorous pedagogical investigation exploring dispatch and efficiency through documented evidence. | `QUEUED` |\r\n| 6 | **Power Plants: An Output Shortfall** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `power_plants_an_output_shortfall` | A rigorous pedagogical investigation exploring an output shortfall through documented evidence. | `QUEUED` |\r\n| 7 | **Power Plants: A Plant Retrofit** | Tier 2: Methodological Deep Dives | `technology_innovation` | `power_plants_a_plant_retrofit` | A rigorous pedagogical investigation exploring a plant retrofit through documented evidence. | `QUEUED` |\r\n| 8 | **Power Plants: A Generation Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `power_plants_a_generation_decision` | A rigorous pedagogical investigation exploring a generation decision through documented evidence. | `QUEUED` |\r\n| 9 | **Power Plants: A Unit Enters Service** | Tier 2: Methodological Deep Dives | `major_events` | `power_plants_a_unit_enters_service` | A rigorous pedagogical investigation exploring a unit enters service through documented evidence. | `QUEUED` |\r\n| 10 | **Power Plants: Plant and Grid Exchange** | Tier 2: Methodological Deep Dives | `how_it_works` | `power_plants_plant_and_grid_exchange` | A rigorous pedagogical investigation exploring plant and grid exchange through documented evidence. | `QUEUED` |\r\n| 11 | **Power Plants: A Station Retires** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `power_plants_a_station_retires` | A rigorous pedagogical investigation exploring a station retires through documented evidence. | `QUEUED` |\r\n| 12 | **Power Plants: A Plant before and after Retrofit** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `power_plants_a_plant_before_and_after_retrofit` | A rigorous pedagogical investigation exploring a plant before and after retrofit through documented evidence. | `QUEUED` |\r\n| 13 | **Power Plants: A Proposed Generator** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `power_plants_a_proposed_generator` | A rigorous pedagogical investigation exploring a proposed generator through documented evidence. | `QUEUED` |\r\n| 14 | **Power Plants: Capacity Means Constant Power?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `power_plants_capacity_means_constant_power` | A rigorous pedagogical investigation exploring capacity means constant power? through documented evidence. | `QUEUED` |\r\n| 15 | **Power Plants: A Plant through Its Records** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `power_plants_a_plant_through_its_records` | A rigorous pedagogical investigation exploring a plant through its records through documented evidence. | `QUEUED` |\r\n| 16 | **Power Plants: Gross or Net Generation?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `power_plants_gross_or_net_generation` | A rigorous pedagogical investigation exploring gross or net generation? through documented evidence. | `QUEUED` |\r\n| 17 | **Power Plants: Energy Flow through a Unit** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `power_plants_energy_flow_through_a_unit` | A rigorous pedagogical investigation exploring energy flow through a unit through documented evidence. | `QUEUED` |\r\n| 18 | **Power Plants: Efficiency and Flexibility** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `power_plants_efficiency_and_flexibility` | A rigorous pedagogical investigation exploring efficiency and flexibility through documented evidence. | `QUEUED` |\r\n| 19 | **Power Plants: A Documented Plant Outage** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `power_plants_a_documented_plant_outage` | A rigorous pedagogical investigation exploring a documented plant outage through documented evidence. | `QUEUED` |\r\n| 20 | **Power Plants: Acceptance Test versus Annual Use** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `power_plants_acceptance_test_versus_annual_use` | A rigorous pedagogical investigation exploring acceptance test versus annual use through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Power Plants: Record Extremes & Superlatives** | **98** | `extreme_case` | `power_plants_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Power Plants: An Output Shortfall** | **96** | `mysteries_unsolved_cases` | `power_plants_mysteries_unsolved_cases` | High viral search interest exploring which outage, fuel, water, or grid factor explains a gap backed by field records. | `Queued` |\r\n| 23 | **Power Plants: A Plant Retrofit** | **95** | `technology_innovation` | `power_plants_technology_innovation` | High viral search interest exploring did one upgrade change net output, fuel use, or pollution backed by field records. | `Queued` |\r\n| 24 | **Power Plants: Capacity Means Constant Power?** | **94** | `myths_vs_facts` | `power_plants_myths_vs_facts` | High viral search interest exploring how does installed capacity differ from actual generation backed by field records. | `Queued` |\r\n| 25 | **Power Plants: A Unit Enters Service** | **93** | `major_events` | `power_plants_major_events` | High viral search interest exploring which performance claims were met in the first operating period backed by field records. | `Queued` |\r\n| 26 | **Power Plants: People behind Electric Output** | **92** | `hidden_stories` | `power_plants_hidden_stories` | High viral search interest exploring whose operation, maintenance, or neighboring experience is omitted backed by field records. | `Queued` |\r\n| 27 | **Power Plants: A Plant through Its Records** | **91** | `documentary_stories` | `power_plants_documentary_stories` | High viral search interest exploring how did one project change from proposal to retirement backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/436_power_plants/436_POWER_PLANTS_CHANNEL_TOPIC_ROADMAP.md`](./436_POWER_PLANTS_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/436_power_plants/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/436_power_plants/NICHE_436_power_plants.md`](file:///h:/script-raw-/REGISTRY/Niches/436_power_plants/NICHE_436_power_plants.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/436_power_plants/CAT_436_power_plants.md`](file:///h:/script-raw-/REGISTRY/Niches/436_power_plants/CAT_436_power_plants.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/436_power_plants/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/436_power_plants/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/436_power_plants/`](file:///h:/script-raw-/OUTPUT/436_power_plants/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "c4c671093531cbdd1b38579c363ec39705c800701e161ba81615f4ed299c4058",
+        "original_text": "{\r\n  \"niche_id\": \"436\",\r\n  \"niche_name\": \"power_plants\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Power Plants: A Power Station Sited\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"power_plants_a_power_station_sited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a power station sited through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Power Plants: A Power Plant in Context\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"power_plants_a_power_plant_in_context\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a power plant in context through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Power Plants: People behind Electric Output\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"power_plants_people_behind_electric_output\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind electric output through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Power Plants: Fuel to Net Electricity\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"power_plants_fuel_to_net_electricity\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring fuel to net electricity through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Power Plants: Dispatch and Efficiency\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"power_plants_dispatch_and_efficiency\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring dispatch and efficiency through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Power Plants: An Output Shortfall\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"power_plants_an_output_shortfall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an output shortfall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Power Plants: A Plant Retrofit\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"power_plants_a_plant_retrofit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a plant retrofit through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Power Plants: A Generation Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"power_plants_a_generation_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a generation decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Power Plants: A Unit Enters Service\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"power_plants_a_unit_enters_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a unit enters service through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Power Plants: Plant and Grid Exchange\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"power_plants_plant_and_grid_exchange\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring plant and grid exchange through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Power Plants: A Station Retires\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"power_plants_a_station_retires\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a station retires through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Power Plants: A Plant before and after Retrofit\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"power_plants_a_plant_before_and_after_retrofit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a plant before and after retrofit through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Power Plants: A Proposed Generator\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"power_plants_a_proposed_generator\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed generator through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Power Plants: Capacity Means Constant Power?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"power_plants_capacity_means_constant_power\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring capacity means constant power? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Power Plants: A Plant through Its Records\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"power_plants_a_plant_through_its_records\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a plant through its records through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Power Plants: Gross or Net Generation?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"power_plants_gross_or_net_generation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring gross or net generation? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Power Plants: Energy Flow through a Unit\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"power_plants_energy_flow_through_a_unit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring energy flow through a unit through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Power Plants: Efficiency and Flexibility\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"power_plants_efficiency_and_flexibility\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring efficiency and flexibility through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Power Plants: A Documented Plant Outage\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"power_plants_a_documented_plant_outage\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a documented plant outage through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Power Plants: Acceptance Test versus Annual Use\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"power_plants_acceptance_test_versus_annual_use\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring acceptance test versus annual use through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Power Plants: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"power_plants_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Power Plants: An Output Shortfall\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"power_plants_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which outage, fuel, water, or grid factor explains a gap backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Power Plants: A Plant Retrofit\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"power_plants_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did one upgrade change net output, fuel use, or pollution backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Power Plants: Capacity Means Constant Power?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"power_plants_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring how does installed capacity differ from actual generation backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Power Plants: A Unit Enters Service\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"power_plants_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring which performance claims were met in the first operating period backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Power Plants: People behind Electric Output\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"power_plants_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose operation, maintenance, or neighboring experience is omitted backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Power Plants: A Plant through Its Records\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"power_plants_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did one project change from proposal to retirement backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "436",
+      "niche_name": "power_plants",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Power Plants: A Power Station Sited",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "power_plants_a_power_station_sited",
+          "reason": "A rigorous pedagogical investigation exploring a power station sited through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Power Plants: A Power Plant in Context",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "power_plants_a_power_plant_in_context",
+          "reason": "A rigorous pedagogical investigation exploring a power plant in context through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Power Plants: People behind Electric Output",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "power_plants_people_behind_electric_output",
+          "reason": "A rigorous pedagogical investigation exploring people behind electric output through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Power Plants: Fuel to Net Electricity",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "power_plants_fuel_to_net_electricity",
+          "reason": "A rigorous pedagogical investigation exploring fuel to net electricity through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Power Plants: Dispatch and Efficiency",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "power_plants_dispatch_and_efficiency",
+          "reason": "A rigorous pedagogical investigation exploring dispatch and efficiency through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Power Plants: An Output Shortfall",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "power_plants_an_output_shortfall",
+          "reason": "A rigorous pedagogical investigation exploring an output shortfall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Power Plants: A Plant Retrofit",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "power_plants_a_plant_retrofit",
+          "reason": "A rigorous pedagogical investigation exploring a plant retrofit through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Power Plants: A Generation Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "power_plants_a_generation_decision",
+          "reason": "A rigorous pedagogical investigation exploring a generation decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Power Plants: A Unit Enters Service",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "power_plants_a_unit_enters_service",
+          "reason": "A rigorous pedagogical investigation exploring a unit enters service through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Power Plants: Plant and Grid Exchange",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "power_plants_plant_and_grid_exchange",
+          "reason": "A rigorous pedagogical investigation exploring plant and grid exchange through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Power Plants: A Station Retires",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "power_plants_a_station_retires",
+          "reason": "A rigorous pedagogical investigation exploring a station retires through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Power Plants: A Plant before and after Retrofit",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "power_plants_a_plant_before_and_after_retrofit",
+          "reason": "A rigorous pedagogical investigation exploring a plant before and after retrofit through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Power Plants: A Proposed Generator",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "power_plants_a_proposed_generator",
+          "reason": "A rigorous pedagogical investigation exploring a proposed generator through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Power Plants: Capacity Means Constant Power?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "power_plants_capacity_means_constant_power",
+          "reason": "A rigorous pedagogical investigation exploring capacity means constant power? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Power Plants: A Plant through Its Records",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "power_plants_a_plant_through_its_records",
+          "reason": "A rigorous pedagogical investigation exploring a plant through its records through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Power Plants: Gross or Net Generation?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "power_plants_gross_or_net_generation",
+          "reason": "A rigorous pedagogical investigation exploring gross or net generation? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Power Plants: Energy Flow through a Unit",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "power_plants_energy_flow_through_a_unit",
+          "reason": "A rigorous pedagogical investigation exploring energy flow through a unit through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Power Plants: Efficiency and Flexibility",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "power_plants_efficiency_and_flexibility",
+          "reason": "A rigorous pedagogical investigation exploring efficiency and flexibility through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Power Plants: A Documented Plant Outage",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "power_plants_a_documented_plant_outage",
+          "reason": "A rigorous pedagogical investigation exploring a documented plant outage through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Power Plants: Acceptance Test versus Annual Use",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "power_plants_acceptance_test_versus_annual_use",
+          "reason": "A rigorous pedagogical investigation exploring acceptance test versus annual use through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Power Plants: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "power_plants_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Power Plants: An Output Shortfall",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "power_plants_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which outage, fuel, water, or grid factor explains a gap backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Power Plants: A Plant Retrofit",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "power_plants_technology_innovation",
+          "why_trending": "High viral search interest exploring did one upgrade change net output, fuel use, or pollution backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Power Plants: Capacity Means Constant Power?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "power_plants_myths_vs_facts",
+          "why_trending": "High viral search interest exploring how does installed capacity differ from actual generation backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Power Plants: A Unit Enters Service",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "power_plants_major_events",
+          "why_trending": "High viral search interest exploring which performance claims were met in the first operating period backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Power Plants: People behind Electric Output",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "power_plants_hidden_stories",
+          "why_trending": "High viral search interest exploring whose operation, maintenance, or neighboring experience is omitted backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Power Plants: A Plant through Its Records",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "power_plants_documentary_stories",
+          "why_trending": "High viral search interest exploring how did one project change from proposal to retirement backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "db39f7aa8bbea7e5b31b706ded53b2a03ba2b407e0ddcd778895a4146d3579f3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "c006b8dd6734f6bd89724c8ddf7ab527eac81a9cea563c6000313b5748479ba0"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "bcb7ef95bf4a4b3c366bf997e213128a5ce361f74218296a105ae001ace1ea91"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "418dd62a66f7df33ed4aa64192bddbfa6f1212953aad10fdcf9352976df92650"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "1ba5fca1893c2ba42d8c0120cfd9a3df5ec0f367dbb0d560392ac3363b42b08e"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "df93f715d27f141853f62093fe436dda7a50a1f6c91869cda7c1743d69dc077f"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-436-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-04",
+      "title": "Energy integration",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-05",
+      "title": "Power-system operation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-06",
+      "title": "Plant modification",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-436-07",
+      "title": "Power and communities",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "436",
+    "slug": "power_plants",
+    "name": "Power Plants",
+    "primary_category": "Energy_Industry",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Power Plants YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-436-01",
+        "title": "Generation types",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-436-001",
+            "title": "Gas turbine combined cycles",
+            "question": "Gas turbine combined cycles: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Generation types. Address Gas turbine combined cycles through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Gas turbine combined cycles.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-002",
+            "title": "Coal steam cycles",
+            "question": "Coal steam cycles: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Generation types. Address Coal steam cycles through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Coal steam cycles.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-003",
+            "title": "Geothermal power systems",
+            "question": "Geothermal power systems: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Generation types. Address Geothermal power systems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Geothermal power systems.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-436-02",
+        "title": "Plant operations",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-436-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-436-004",
+            "title": "Thermal efficiency",
+            "question": "Thermal efficiency: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Plant operations. Address Thermal efficiency through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Thermal efficiency.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-005",
+            "title": "Cooling water",
+            "question": "Cooling water: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Plant operations. Address Cooling water through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cooling water.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-006",
+            "title": "Ramp-rate constraints",
+            "question": "Ramp-rate constraints: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Power Plants; branch: Plant operations. Address Ramp-rate constraints through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Ramp-rate constraints.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-436-03",
+        "title": "System role",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-436-01"
+        ],
+        "research_profile": "finance",
+        "topics": [
+          {
+            "id": "BANK-436-007",
+            "title": "Capacity factors",
+            "question": "Capacity factors: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Power Plants; branch: System role. Address Capacity factors through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Capacity factors, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-008",
+            "title": "Dispatch economics",
+            "question": "Dispatch economics: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Power Plants; branch: System role. Address Dispatch economics through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Dispatch economics, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-436-009",
+            "title": "Lifecycle emissions",
+            "question": "Lifecycle emissions: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Power Plants; branch: System role. Address Lifecycle emissions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Lifecycle emissions, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "finance": {
+        "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+        "source_leads": [
+          "regulator or official statistical publications",
+          "actual contracts, fee schedules and audited filings",
+          "original economic studies and disclosed calculation inputs"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "113",
+        "title": "Energy & Power",
+        "directory": "113_energy_power",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "114",
+        "title": "Water",
+        "directory": "114_water",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "157",
+        "title": "Materials Science",
+        "directory": "157_materials_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "158",
+        "title": "Batteries & Energy Storage",
+        "directory": "158_batteries_energy_storage",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "160",
+        "title": "Data Centers & Infrastructure",
+        "directory": "160_data_centers_infrastructure",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "161",
+        "title": "Electricity & Electronics",
+        "directory": "161_electricity_electronics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Power Plants: A Power Station Sited",
+      "question": "Which fuel, water, grid, and demand constraints drove one site?",
+      "coverage": "Trace dated plans and community response. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Power Plant in Context",
+      "question": "What do capacity and net generation records actually show?",
+      "coverage": "Name units, fuel, and reporting period. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: People behind Electric Output",
+      "question": "Whose operation, maintenance, or neighboring experience is omitted?",
+      "coverage": "Use worker and local evidence. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Fuel to Net Electricity",
+      "question": "Where does energy enter, convert, and leave a plant?",
+      "coverage": "Follow a defined generating unit. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Dispatch and Efficiency",
+      "question": "How do load and operating mode alter heat rate and emissions?",
+      "coverage": "Use matched plant data. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: An Output Shortfall",
+      "question": "Which outage, fuel, water, or grid factor explains a gap?",
+      "coverage": "Compare operating logs and demand. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Plant Retrofit",
+      "question": "Did one upgrade change net output, fuel use, or pollution?",
+      "coverage": "Compare before and after with dispatch controls. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Generation Decision",
+      "question": "Who chose a plant design and who bore consequences?",
+      "coverage": "Trace utility, regulator, and local records. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Unit Enters Service",
+      "question": "Which performance claims were met in the first operating period?",
+      "coverage": "Compare commissioning and measured generation. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Plant and Grid Exchange",
+      "question": "How do generator controls, switchyard, and dispatcher interact?",
+      "coverage": "Use public system-level records. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Station Retires",
+      "question": "Which economics, reliability, or rule changes explain closure?",
+      "coverage": "Use dated cost, output, and retirement filings. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Plant before and after Retrofit",
+      "question": "What changed in generation, heat rate, and emissions?",
+      "coverage": "Align fuel, demand, and season. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Proposed Generator",
+      "question": "What data would validate its reliability and cost claims?",
+      "coverage": "Separate plan, permit, build, and operation. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Capacity Means Constant Power?",
+      "question": "How does installed capacity differ from actual generation?",
+      "coverage": "Calculate from metered output and time. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Plant through Its Records",
+      "question": "How did one project change from proposal to retirement?",
+      "coverage": "Trace permits, construction, operation, and closure. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Gross or Net Generation?",
+      "question": "Which electricity use inside the plant changes an efficiency claim?",
+      "coverage": "State meter and fuel boundary. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Energy Flow through a Unit",
+      "question": "How much input becomes net electricity, heat, and waste?",
+      "coverage": "Use measured annual or test-period balances. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Efficiency and Flexibility",
+      "question": "What is gained and lost by ramping a generating unit?",
+      "coverage": "Compare heat rate, wear, and grid value. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: A Documented Plant Outage",
+      "question": "Which equipment and organizational factors were found?",
+      "coverage": "Use official and operator review. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Power Plants: Acceptance Test versus Annual Use",
+      "question": "Which conditions make a short test unrepresentative?",
+      "coverage": "Compare ambient conditions, dispatch, and downtime. Evidence base: EIA generator and plant data, metered output, heat-rate records, grid reports, permits, emissions measurements, outage and maintenance records, and community accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-436-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "51d3d21d18f68154d8481cc9b2ea679319912514993089e9e19867da062af6cf",
+    "TOPIC_BANK_RECONCILIATION.md": "76577e4ac8761dd8608150e49ed3e88638dba33603398d3453fea2b9887252eb",
+    "TOPICS_COVERED_REPORT.md": "b7547e171520bdd58dee88737b5519f16d881530aaf779db0d8895ff4734e124",
+    "436_POWER_PLANTS_CHANNEL_TOPIC_ROADMAP.md": "2d961c4f7c41ff4d525296bd10a642b7e772bb5b2828b2488409d0a53bb46435"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-436-005": [
+      "BANK-436-033"
+    ],
+    "BANK-436-002": [
+      "BANK-436-036"
+    ],
+    "BANK-436-004": [
+      "BANK-436-037"
+    ],
+    "BANK-436-006": [
+      "BANK-436-037"
+    ],
+    "BANK-436-007": [
+      "BANK-436-038"
+    ],
+    "BANK-436-009": [
+      "BANK-436-038"
+    ],
+    "BANK-436-001": [
+      "BANK-436-036"
+    ],
+    "BANK-436-003": [
+      "BANK-436-036"
+    ],
+    "BANK-436-008": [
+      "BANK-436-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for District heating integration",
+      "next_step": "Compare temperature, distance and seasonal demand. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Grid services",
+      "next_step": "Distinguish capacity, balancing and stability concepts. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Carbon-capture energy penalties",
+      "next_step": "Map system boundaries and remaining emissions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Plant-water conflicts",
+      "next_step": "Compare scarcity and decision authority. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-042 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-042"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-035 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-035"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-031 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-031"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-037 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-037"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-033 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-033"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-034 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-034"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-040 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-040"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-035 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-035"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-034 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-034"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-031 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-031"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-037 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-037"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-033 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-033"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No bounded record metric, source year or comparable generating-unit population is supplied.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-033 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-033"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-030 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-030"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-436-035 covers the actionable part of this archived energy/nuclear pitch; a dated unit and source record remain necessary.",
+      "bank_ids": [
+        "BANK-436-035"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Named operator or regulator record provides a dated bounded example; source and claim limits are in the linked note.",
+      "bank_ids": [
+        "BANK-436-043"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-436-043",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ]
+}

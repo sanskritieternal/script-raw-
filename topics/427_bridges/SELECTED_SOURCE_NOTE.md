@@ -1,0 +1,12 @@
+﻿# Selected source and boundary note — 427 Bridges
+
+Reviewed 2026-10-24. Two distinct proposed cases: **BANK-427-045** (inspection/fracture) and **BANK-427-046** (scour model versus observations).
+
+## Primary and institutional technical evidence
+
+- Federal Highway Administration, [2021 non-destructive testing action document on T-1 steel fracture-critical bridge members](https://www.fhwa.dot.gov/bridge/NDT_FCM_Bridges_Fabricated_T1_Steel.pdf), identifies the May 11, 2021 Hernando de Soto Bridge fracture at a tension-tie butt weld and immediate I-40 closure. It reports hydrogen cracking as the **probable** cause and 12 additional butt welds with cracks not detected visually. This is FHWA's case and national inspection response, not proof that every similar bridge has the same condition or that the bridge collapsed. [TDOT's 2023 freight plan](https://www.tn.gov/content/dam/tn/tdot/freight-and-logistics/TDOT_2023_StatewideMultimodalFreightPlan_FullReport_Final%2C%202023%2005%2030.pdf) independently records a roughly 12-week closure as a dated corridor impact.
+- FHWA, [*Field Observations and Evaluations of Streambed Scour at Bridges*, chapter 6](https://www.fhwa.dot.gov/publications/research/infrastructure/hydraulics/03052/06.cfm), summarizes field/model comparisons at **U.S. 87 over Razor Creek, Montana**, for the June 1991 flood. Its table 12 gives computed total scour of 3.20/4.36 m at left/right abutments against observed 0.85/2.23 m, with geological and pre-existing riprap qualifications. The report synthesizes cited field work; consult the underlying study before making stronger attribution or design claims.
+
+## Limits, safety, rights and overlap
+
+The Hernando de Soto case concerns discovered cracking and later testing, not a collapse or a general diagnosis from visible photos. The Razor Creek numbers are site/event/model-specific; observed post-flood profiles can miss scour that refilled. Neither source is current inspection status or a substitute for qualified bridge assessment. Do not provide repair, inspection or flood-access instructions. Agency images may credit third parties, so inspect item rights. **BANK-427-035** broadly asks what monitoring can detect; 045 instead examines this named visual-versus-NDT finding. **BANK-427-043** covers underwater inspection; 046 tests model/field scour at a named site. **BANK-426-043** concerns corridor-wide diversion, a different scope from the bridge material and hydraulics questions. New topics remain proposed with empty verified_sources; no IDEA readiness is asserted.

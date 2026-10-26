@@ -103,6 +103,53 @@
           "check_note": "Opened full HTML and abstract identifying the framework and example models."
         }
       ]
+    },
+    {
+      "idea_id": "IDEA-001-0004",
+      "niche_id": "001",
+      "status": "researching",
+      "angle_slug": "how_it_works",
+      "topic": "Tokenization and model encodings",
+      "working_title": "One Text, Two Tokenizers: GPT-2 and GPT-4",
+      "story_question": "How do the GPT-2 and GPT-4 tokenizers segment the same fixed multilingual sample, and which encoding choices explain any count differences?",
+      "case": "Compare the gpt2 and cl100k_base encodings assigned to GPT-2 and GPT-4 in a pinned tiktoken source revision, using the same declared English, Hindi and Japanese strings for both.",
+      "place_period_version": "OpenAI tiktoken repository commit 4e71bbe0c078468e00fefbf94b39849389f346e5, inspected 2026-10-24; historical code mapping, not a claim about current hosted model availability or billing.",
+      "intended_audience": "General adult viewers who want to understand why words and tokens are different units.",
+      "purpose": "Show a reproducible difference in segmentation, then explain the vocabulary, pre-tokenization and byte-level boundaries without claiming access to a proprietary model's internal behavior.",
+      "created_date": "2026-10-24",
+      "updated_date": "2026-10-24",
+      "evidence_gaps": [
+        "Choose the exact on-screen examples and check each scripted factual sentence against the pre-production claim worksheet in Phase 1.",
+        "If the script discusses pricing or current hosted models, obtain separate dated primary documentation before making those claims."
+      ],
+      "blocking_gaps": [
+        "No Phase 1 project claim ledger or scripted-claim review has been completed. The saved measurements verify only fixed strings and a pinned package version."
+      ],
+      "related_ideas": [],
+      "readiness_note": "Pinned official code checked. Token counts, byte spans and round trips were measured with tiktoken 0.14.0; a controlled pattern/rank comparison and a pre-production claim worksheet are saved under topics/001_ai_technology_explainers/RESEARCH_NOTES/. Phase 1 scripted-claim review remains open. Keep researching status; no episode created.",
+      "source_candidates": [
+        {
+          "title": "tiktoken README at pinned commit",
+          "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/README.md",
+          "status": "checked",
+          "checked_date": "2026-10-24",
+          "check_note": "Opened the pinned README and inspected its BPE explanation and explicit get_encoding example. This is source-access evidence, not a token-count measurement."
+        },
+        {
+          "title": "tiktoken model-to-encoding mapping at pinned commit",
+          "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken/model.py",
+          "status": "checked",
+          "checked_date": "2026-10-24",
+          "check_note": "Opened the pinned mapping and located gpt-2 to gpt2 and gpt-4 to cl100k_base. This is a historical library mapping, not a claim about present hosted APIs."
+        },
+        {
+          "title": "tiktoken encoding constructors at pinned commit",
+          "url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py",
+          "status": "checked",
+          "checked_date": "2026-10-24",
+          "check_note": "Opened the pinned constructors and inspected the separate gpt2 and cl100k_base definitions, regex rules and vocabulary files. Sample outputs were measured separately in the linked research note."
+        }
+      ]
     }
   ]
 }

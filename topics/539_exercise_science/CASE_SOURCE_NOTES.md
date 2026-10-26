@@ -1,0 +1,7 @@
+# Case-source note: LIFE physical-activity trial
+
+Checked 2026-10-24. Pahor and colleagues' original [2014 JAMA LIFE randomized-trial record and abstract](https://pubmed.ncbi.nlm.nih.gov/24866862/) describes 1,635 sedentary volunteers aged 70–89 with physical limitations but able to walk 400 m, recruited at eight U.S. centers. Participants were randomized to a structured moderate-intensity physical-activity program or health education; the primary endpoint was major mobility disability, defined as inability to walk 400 m. Over average 2.6-year follow-up, the abstract reports 30.1% versus 35.5% incidence respectively; serious adverse events were reported in 49.4% versus 45.7%.
+
+Limits: Randomization supports a causal comparison of these assigned programs in this selected eligible population and period, not a claim that any single exercise component prevents disability for every older adult. The 400 m endpoint is specific and not all daily-function or health outcomes. Serious adverse-event reporting must be included without assuming each event was caused by exercise. The PubMed abstract was accessible; the PMC full-text fetch met a reCAPTCHA, so tables, protocol details and participant-level data were not independently reviewed or reanalyzed. This is research context, not individualized clinical or exercise advice.
+
+Overlap: `BANK-539-038` is the general population-transfer question, `BANK-539-035` general benefit-claim caution, and 502 covers rehabilitation. This is the named randomized mobility-endpoint trial.

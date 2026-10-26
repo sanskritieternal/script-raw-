@@ -1,0 +1,1610 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "326",
+  "slug": "cybersecurity",
+  "name": "Cybersecurity",
+  "primary_category": "Cybersecurity_Digital_Systems",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Cybersecurity YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 13
+  },
+  "categories": [
+    {
+      "id": "CATALOG-326-R01",
+      "title": "Threat models",
+      "level": "foundation",
+      "parent_id": "DOMAIN-326-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "fe06fb0dbd408bb6c23c80d8aaf8993b97b3e803adb2de3e99af8fa310544924",
+      "topics": [
+        {
+          "question": "Why does cybersecurity begin with identifying what needs protection?",
+          "coverage": "Map assets, adversaries, entry points and consequences for a hypothetical service without intrusion instructions.",
+          "id": "BANK-326-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R02",
+      "title": "Authentication",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-326-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4dbc20ac0003bcad9fac818483682f9f656276b2c0a83beb824a8f8f6a3bceea",
+      "topics": [
+        {
+          "question": "Why does multi-factor authentication still require account recovery design?",
+          "coverage": "Compare factors, recovery channels, support access and bypass risks from a defensive perspective.",
+          "id": "BANK-326-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R03",
+      "title": "Patching",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-326-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "094c78fcb413b1c2b89612c204cebffb3742e122e7544ed44ae6c48ebe18957b",
+      "topics": [
+        {
+          "question": "Why can applying a security patch be operationally difficult?",
+          "coverage": "Trace compatibility, inventory, testing, deployment and compensating controls without exploiting vulnerabilities.",
+          "id": "BANK-326-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-003"
+          ]
+        },
+        {
+          "question": "What did the December 2021 Log4j response reveal about finding a vulnerable dependency across products?",
+          "coverage": "Use the archived CISA joint advisory to trace the vendor-to-operator information chain and affected-version uncertainty at that date; avoid exploit mechanics and present-day patch prescriptions.",
+          "id": "BANK-326-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R04",
+      "title": "Defense in depth",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "650b337ae84f236405a2fcd24ffd12fbb47db0d8ae36679d5884d4d958a9a1bf",
+      "topics": [
+        {
+          "question": "How can several security controls fail through one shared dependency?",
+          "coverage": "Compare identity, logging, backups and control-plane access; focus on defensive architecture and incident learning.",
+          "id": "BANK-326-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did CISA's December 2020 SolarWinds Orion directive turn uncertain compromise into a bounded federal response?",
+          "coverage": "Examine the dated ED 21-01 and later supplemental guidance as an agency decision record: affected product scope, disconnection, reporting, and evidence limits. Do not infer every Orion installation or agency was compromised or give incident-response instructions.",
+          "id": "BANK-326-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R05",
+      "title": "Least privilege",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-326-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9cc8caec4fd0dd52dce1d320b584e20d25a2781d102b1e66ae6a4ef099dc7a91",
+      "topics": [
+        {
+          "question": "How can a permission become excessive even if it was originally necessary?",
+          "coverage": "Trace role changes, service accounts, temporary access, inheritance and review from a defensive perspective.",
+          "id": "BANK-326-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R06",
+      "title": "Backup isolation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6f9246affbbfaf8ff541518715fa3bdbde73ecd5c607491432fc63c463bdfbfb",
+      "topics": [
+        {
+          "question": "Why must backup access be separated from ordinary administrative access?",
+          "coverage": "Compare shared credentials, deletion paths, recovery testing and independent safeguards without attack instructions.",
+          "id": "BANK-326-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R07",
+      "title": "Disclosure",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "638f45d99e78fb2860094671f69dda721d842d3b77ac16e2dc83d9490c169d5a",
+      "topics": [
+        {
+          "question": "How can vulnerability disclosure coordinate researchers, maintainers and affected users?",
+          "coverage": "Trace authorization, evidence, timelines, remediation and communication; exclude publishing exploitable details before appropriate coordination.",
+          "id": "BANK-326-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-326-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R08",
+      "title": "Network segmentation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-326-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "df21ea7d152ec889545060544ca07746dfeb4748546591e6406fa11e7584dfde",
+      "topics": [
+        {
+          "question": "How can network segmentation limit the consequences of one compromised system?",
+          "coverage": "Compare permitted flows, identities, enforcement points and monitoring from a defensive perspective.",
+          "covers_starter_ids": [
+            "BANK-326-005"
+          ],
+          "id": "BANK-326-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R09",
+      "title": "Authorized testing",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "55f10681ac69a20449128d897a952e34c9f2f6e68055ebb5bff9bcf6c8dc15f6",
+      "topics": [
+        {
+          "question": "What must a security-testing scope settle before testing begins?",
+          "coverage": "Specify assets, accounts, methods, data handling, time windows, stop conditions and reporting under explicit authorization.",
+          "covers_starter_ids": [
+            "BANK-326-007"
+          ],
+          "id": "BANK-326-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R10",
+      "title": "Security metrics",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c24c1495e4f971514e90f27b3a6bd20f4a0cc3b693b6d91f6eeb5c0a5977fcbb",
+      "topics": [
+        {
+          "question": "Why can closing more security tickets fail to reduce the most important risks?",
+          "coverage": "Compare severity, exposure, asset importance, recurrence and outcome measures without treating one score as complete risk.",
+          "covers_starter_ids": [
+            "BANK-326-009"
+          ],
+          "id": "BANK-326-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-326-R11",
+      "title": "Incident containment choices",
+      "level": "advanced",
+      "parent_id": "DOMAIN-326-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "51b268ae2d0e2e298a22e03205ab26a4a9ddbd2b1e75d62f42ef89ece54871f0",
+      "topics": [
+        {
+          "question": "Why can disconnecting a compromised system protect one service while disrupting evidence collection and other essential work?",
+          "coverage": "Compare incident objectives, authority, service dependencies, logs, recovery and documented tradeoffs in a fictional defensive exercise; exclude live containment instructions.",
+          "id": "BANK-326-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/326_cybersecurity/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "07c96dbe7ae19e6ff287527589a401d551daf5e23015df0bdc448f827f88441b",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-326-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "31bd70a5da520dc5037673e753fa44f00f80f3cf0643b21f106fa120122f95ac"
+      },
+      "BANK-326-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8ecf802027e41dc1c68d79d249471e392ab8ad04cfad4356048899c80aee889e"
+      },
+      "BANK-326-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f198037753bf7859cdd9e33e246fddb0432aabc199b3b91b6212af3e5790b764"
+      },
+      "BANK-326-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4d2f4053f1c8ea73f2575685741fb7feef9460ee9b8fb86ae5d5d781261fc1e7"
+      },
+      "BANK-326-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "57ded40f0ca530c7d26117be0621d9291f7ef64e2b1d2fd7c4ef19b9cb9bebe4"
+      },
+      "BANK-326-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9ae2e73b815f36baf2b66e45fdd95d33392e4bae5fb0748e2e28a0437ec54b6c"
+      },
+      "BANK-326-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d50bb1199bcde7e9cb0722d399c785d8efe935d23fff4c52dfb4c30a775734e5"
+      },
+      "BANK-326-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a0410b42f0f156e9d1fe78149b01f9d1aa44826b1e98710765eadd2080ca121a"
+      },
+      "BANK-326-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2a88bccaa133372e88b8954784e2b5112fb62fffa837296503c8c2a10d81f1b8"
+      }
+    },
+    "source_categories": {
+      "CATALOG-326-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "81b9c0b12755caa8a6206a3fd4498faf0e1aa2d44f69e87d910b67ce705cf0fb"
+      },
+      "CATALOG-326-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "7bdcf2d3c5b640ec43d400eb07c952838a88a1843eaba4c9df5fb4fc661eca8a"
+      },
+      "CATALOG-326-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "00a2a29e5010b23e94ecc2a876c3990af78abf2a6a6f88c195e5506d15711bef"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "326_CYBERSECURITY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "fbc5dd64a13abbc3a1eee7696992dfc3ddfac97d5aeae07bf6fa6dd8fd156aab",
+        "original_text": "# Cybersecurity Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 326 Cybersecurity (Cybersecurity_Digital_Systems)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Cybersecurity Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/326_cybersecurity/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Cybersecurity across four progressive tiers:\r\n- **Tier 1: Cybersecurity Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Cybersecurity.\r\n- **Tier 2: Cybersecurity Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Cybersecurity.\r\n- **Tier 3: Cybersecurity Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Cybersecurity.\r\n- **Tier 4: Cybersecurity Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Cybersecurity.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/326_cybersecurity/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/326_cybersecurity/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Security Practice Takes Shape** | *Which documented incident or need changed one defensive practice?* |\r\n| 2 | `famous_examples` | **A Widely Cited Breach Revisited** | *Which failures are supported by public evidence?* |\r\n| 3 | `hidden_stories` | **Security Work After Headlines** | *Who restores service, supports victims, and fixes controls?* |\r\n| 4 | `beginner_explainers` | **What a Security Control Protects** | *What asset and failure does one control address?* |\r\n| 5 | `advanced_concepts` | **Defense in Depth Tested** | *Do multiple controls fail independently in a defined scenario?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Incident's Unknown Cause** | *Which facts are established and what remains uncertain?* |\r\n| 7 | `technology_innovation` | **A New Defensive Product** | *Did it reduce a defined risk without unacceptable costs?* |\r\n| 8 | `people_personalities` | **A Risk Decision** | *Who accepted a residual risk and with what information?* |\r\n| 9 | `major_events` | **A Public Incident Timeline** | *What happened from detection through recovery?* |\r\n| 10 | `how_it_works` | **From Alert to Response** | *How does a team validate and triage a signal?* |\r\n| 11 | `rise_fall` | **Changing Threat Reports** | *Is an apparent increase a change in attacks or reporting?* |\r\n| 12 | `then_vs_now` | **A Control Before and After Deployment** | *Did exposure and response improve?* |\r\n| 13 | `future_developments` | **An Emerging Security Claim** | *What evidence would show a proposed defense works?* |\r\n| 14 | `myths_vs_facts` | **One Tool Makes a System Secure?** | *Which risks lie outside a tool's scope?* |\r\n| 15 | `documentary_stories` | **Recovery After an Incident** | *How did an organization restore trusted service?* |\r\n| 16 | `system_boundary` | **Who Secures a Shared Service?** | *Which duties belong to provider, customer, vendor, and user?* |\r\n| 17 | `input_output_trace` | **A Security Alert's Evidence** | *What data triggers an alert and what does it actually prove?* |\r\n| 18 | `design_tradeoff` | **Stronger Control and User Friction** | *How does a control affect security and access?* |\r\n| 19 | `failure_mode` | **A Defensive Control Fails** | *Why did a control miss or misclassify an event?* |\r\n| 20 | `testing_limits` | **What a Security Exercise Misses** | *Which actors or conditions were outside the test?* |\r\n| 21 | `standards_interoperability` | **Security Controls Across Vendors** | *Which protocol and version details permit safe integration?* |\r\n| 22 | `security_threat_model` | **A Named Threat Model** | *Which assets, trust boundaries, and adversary capabilities matter?* |\r\n| 23 | `maintenance_lifecycle` | **Patching as a Process** | *How are assets found, fixes tested, and exceptions tracked?* |\r\n| 24 | `infrastructure_dependencies` | **Security's Shared Dependencies** | *Which identity, logging, backups, and network services must survive?* |\r\n| 25 | `accessibility_usability` | **Security for Every User** | *Can users authenticate and recover access with disabilities or limited connectivity?* |\r\n| 26 | `independent_replication` | **Checking a Risk Reduction Claim** | *Can another analyst repeat the measure?* |\r\n| 27 | `responsible_deployment` | **A Control's Human Effects** | *Who bears monitoring, exclusion, or error costs?* |\r\n| 28 | `field_attack_surface` | **A Service's Exposed Boundaries** | *Which public interfaces and dependencies need defensive review?* |\r\n| 29 | `field_data_protection` | **A Sensitive Record's Path** | *Where is data collected, stored, shared, and deleted?* |\r\n| 30 | `field_incident_response` | **A Response Plan Under Test** | *Can a team detect, contain, communicate, and recover from a bounded event?* |\r\n| 31 | `field_identity_controls` | **Identity and Privilege** | *Which roles can perform a consequential action?* |\r\n| 32 | `field_security_usability` | **A Safe Action Users Can Complete** | *Does a security control work for intended users?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Cybersecurity: A Security Practice Takes Shape**\r\n   - *Question:* Which documented incident or need changed one defensive practice?\r\n   - *Key Focus:* Use dated standards and incident records. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n2. **Cybersecurity: A Widely Cited Breach Revisited**\r\n   - *Question:* Which failures are supported by public evidence?\r\n   - *Key Focus:* Separate investigation findings from speculation. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n3. **Cybersecurity: Security Work After Headlines**\r\n   - *Question:* Who restores service, supports victims, and fixes controls?\r\n   - *Key Focus:* Use public records and consented accounts. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n4. **Cybersecurity: What a Security Control Protects**\r\n   - *Question:* What asset and failure does one control address?\r\n   - *Key Focus:* Define threat, user, boundary, and expected outcome. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n5. **Cybersecurity: Defense in Depth Tested**\r\n   - *Question:* Do multiple controls fail independently in a defined scenario?\r\n   - *Key Focus:* Map dependencies and validation evidence. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Cybersecurity: An Incident's Unknown Cause**\r\n   - *Question:* Which facts are established and what remains uncertain?\r\n   - *Key Focus:* Compare official timeline, logs, and plausible alternatives. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n7. **Cybersecurity: A New Defensive Product**\r\n   - *Question:* Did it reduce a defined risk without unacceptable costs?\r\n   - *Key Focus:* Compare detection quality, false alarms, coverage, and operations. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n8. **Cybersecurity: A Risk Decision**\r\n   - *Question:* Who accepted a residual risk and with what information?\r\n   - *Key Focus:* Trace governance records and affected groups. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n9. **Cybersecurity: A Public Incident Timeline**\r\n   - *Question:* What happened from detection through recovery?\r\n   - *Key Focus:* Use dated notices and postmortem; avoid operational attack steps. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n10. **Cybersecurity: From Alert to Response**\r\n   - *Question:* How does a team validate and triage a signal?\r\n   - *Key Focus:* Describe roles, evidence preservation, and escalation at a safe level. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Cybersecurity: Changing Threat Reports**\r\n   - *Question:* Is an apparent increase a change in attacks or reporting?\r\n   - *Key Focus:* Check definitions, detection, population, and time window. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n12. **Cybersecurity: A Control Before and After Deployment**\r\n   - *Question:* Did exposure and response improve?\r\n   - *Key Focus:* Match assets, measurement, and threat context. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n13. **Cybersecurity: An Emerging Security Claim**\r\n   - *Question:* What evidence would show a proposed defense works?\r\n   - *Key Focus:* Define adversary capability, deployment limits, and independent test. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n14. **Cybersecurity: One Tool Makes a System Secure?**\r\n   - *Question:* Which risks lie outside a tool's scope?\r\n   - *Key Focus:* Map assets, people, process, and dependencies. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n15. **Cybersecurity: Recovery After an Incident**\r\n   - *Question:* How did an organization restore trusted service?\r\n   - *Key Focus:* Use public timeline, impacted users, and documented lessons. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Cybersecurity: Who Secures a Shared Service?**\r\n   - *Question:* Which duties belong to provider, customer, vendor, and user?\r\n   - *Key Focus:* Use named architecture and contractual responsibility. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n17. **Cybersecurity: A Security Alert's Evidence**\r\n   - *Question:* What data triggers an alert and what does it actually prove?\r\n   - *Key Focus:* Trace logging, detection rule, context, and false positives. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n18. **Cybersecurity: Stronger Control and User Friction**\r\n   - *Question:* How does a control affect security and access?\r\n   - *Key Focus:* Test intended users, bypass pressure, and recovery. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n19. **Cybersecurity: A Defensive Control Fails**\r\n   - *Question:* Why did a control miss or misclassify an event?\r\n   - *Key Focus:* Analyze public incident and avoid reproduction instructions. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n20. **Cybersecurity: What a Security Exercise Misses**\r\n   - *Question:* Which actors or conditions were outside the test?\r\n   - *Key Focus:* State scope, authorization, environment, and uncertainty. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 326 (Cybersecurity)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Cybersecurity: A Security Practice Takes Shape*\r\n- **Episode Slug:** `326_cybersecurity_deep_dive_the_architecture_of_cybersecurity_a_security_practice_takes_`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/326_cybersecurity/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "e5ce4f73dd327c090dccfdd48d4dea07ce12d89e44c24c142efffb1c23280681",
+        "original_text": "# 326 Cybersecurity -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 326 Cybersecurity (Cybersecurity_Digital_Systems)  \r\n> **Storage Directory:** `topics/326_cybersecurity/`  \r\n> **Synchronized With:** `OUTPUT/326_cybersecurity/`, `REGISTRY/Niches/326_cybersecurity/`, and `326_CYBERSECURITY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 326 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/326_cybersecurity](../../OUTPUT/326_cybersecurity) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Cybersecurity: A Security Practice Takes Shape** | Tier 1: Foundational Frameworks | `history_origins` | `cybersecurity_a_security_practice_takes_shape` | A rigorous pedagogical investigation exploring a security practice takes shape through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Cybersecurity: A Widely Cited Breach Revisited** | Tier 1: Foundational Frameworks | `famous_examples` | `cybersecurity_a_widely_cited_breach_revisited` | A rigorous pedagogical investigation exploring a widely cited breach revisited through documented evidence. | `QUEUED` |\r\n| 3 | **Cybersecurity: Security Work After Headlines** | Tier 1: Foundational Frameworks | `hidden_stories` | `cybersecurity_security_work_after_headlines` | A rigorous pedagogical investigation exploring security work after headlines through documented evidence. | `QUEUED` |\r\n| 4 | **Cybersecurity: What a Security Control Protects** | Tier 1: Foundational Frameworks | `beginner_explainers` | `cybersecurity_what_a_security_control_protects` | A rigorous pedagogical investigation exploring what a security control protects through documented evidence. | `QUEUED` |\r\n| 5 | **Cybersecurity: Defense in Depth Tested** | Tier 1: Foundational Frameworks | `advanced_concepts` | `cybersecurity_defense_in_depth_tested` | A rigorous pedagogical investigation exploring defense in depth tested through documented evidence. | `QUEUED` |\r\n| 6 | **Cybersecurity: An Incident's Unknown Cause** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `cybersecurity_an_incident_s_unknown_cause` | A rigorous pedagogical investigation exploring an incident's unknown cause through documented evidence. | `QUEUED` |\r\n| 7 | **Cybersecurity: A New Defensive Product** | Tier 2: Methodological Deep Dives | `technology_innovation` | `cybersecurity_a_new_defensive_product` | A rigorous pedagogical investigation exploring a new defensive product through documented evidence. | `QUEUED` |\r\n| 8 | **Cybersecurity: A Risk Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `cybersecurity_a_risk_decision` | A rigorous pedagogical investigation exploring a risk decision through documented evidence. | `QUEUED` |\r\n| 9 | **Cybersecurity: A Public Incident Timeline** | Tier 2: Methodological Deep Dives | `major_events` | `cybersecurity_a_public_incident_timeline` | A rigorous pedagogical investigation exploring a public incident timeline through documented evidence. | `QUEUED` |\r\n| 10 | **Cybersecurity: From Alert to Response** | Tier 2: Methodological Deep Dives | `how_it_works` | `cybersecurity_from_alert_to_response` | A rigorous pedagogical investigation exploring from alert to response through documented evidence. | `QUEUED` |\r\n| 11 | **Cybersecurity: Changing Threat Reports** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `cybersecurity_changing_threat_reports` | A rigorous pedagogical investigation exploring changing threat reports through documented evidence. | `QUEUED` |\r\n| 12 | **Cybersecurity: A Control Before and After Deployment** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `cybersecurity_a_control_before_and_after_deployment` | A rigorous pedagogical investigation exploring a control before and after deployment through documented evidence. | `QUEUED` |\r\n| 13 | **Cybersecurity: An Emerging Security Claim** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `cybersecurity_an_emerging_security_claim` | A rigorous pedagogical investigation exploring an emerging security claim through documented evidence. | `QUEUED` |\r\n| 14 | **Cybersecurity: One Tool Makes a System Secure?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `cybersecurity_one_tool_makes_a_system_secure` | A rigorous pedagogical investigation exploring one tool makes a system secure? through documented evidence. | `QUEUED` |\r\n| 15 | **Cybersecurity: Recovery After an Incident** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `cybersecurity_recovery_after_an_incident` | A rigorous pedagogical investigation exploring recovery after an incident through documented evidence. | `QUEUED` |\r\n| 16 | **Cybersecurity: Who Secures a Shared Service?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `cybersecurity_who_secures_a_shared_service` | A rigorous pedagogical investigation exploring who secures a shared service? through documented evidence. | `QUEUED` |\r\n| 17 | **Cybersecurity: A Security Alert's Evidence** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `cybersecurity_a_security_alert_s_evidence` | A rigorous pedagogical investigation exploring a security alert's evidence through documented evidence. | `QUEUED` |\r\n| 18 | **Cybersecurity: Stronger Control and User Friction** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `cybersecurity_stronger_control_and_user_friction` | A rigorous pedagogical investigation exploring stronger control and user friction through documented evidence. | `QUEUED` |\r\n| 19 | **Cybersecurity: A Defensive Control Fails** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `cybersecurity_a_defensive_control_fails` | A rigorous pedagogical investigation exploring a defensive control fails through documented evidence. | `QUEUED` |\r\n| 20 | **Cybersecurity: What a Security Exercise Misses** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `cybersecurity_what_a_security_exercise_misses` | A rigorous pedagogical investigation exploring what a security exercise misses through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Cybersecurity: Record Extremes & Superlatives** | **98** | `extreme_case` | `cybersecurity_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Cybersecurity: An Incident's Unknown Cause** | **96** | `mysteries_unsolved_cases` | `cybersecurity_mysteries_unsolved_cases` | High viral search interest exploring which facts are established and what remains uncertain backed by field records. | `Queued` |\r\n| 23 | **Cybersecurity: A New Defensive Product** | **95** | `technology_innovation` | `cybersecurity_technology_innovation` | High viral search interest exploring did it reduce a defined risk without unacceptable costs backed by field records. | `Queued` |\r\n| 24 | **Cybersecurity: One Tool Makes a System Secure?** | **94** | `myths_vs_facts` | `cybersecurity_myths_vs_facts` | High viral search interest exploring which risks lie outside a tool's scope backed by field records. | `Queued` |\r\n| 25 | **Cybersecurity: A Public Incident Timeline** | **93** | `major_events` | `cybersecurity_major_events` | High viral search interest exploring what happened from detection through recovery backed by field records. | `Queued` |\r\n| 26 | **Cybersecurity: Security Work After Headlines** | **92** | `hidden_stories` | `cybersecurity_hidden_stories` | High viral search interest exploring who restores service, supports victims, and fixes controls backed by field records. | `Queued` |\r\n| 27 | **Cybersecurity: Recovery After an Incident** | **91** | `documentary_stories` | `cybersecurity_documentary_stories` | High viral search interest exploring how did an organization restore trusted service backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/326_cybersecurity/326_CYBERSECURITY_CHANNEL_TOPIC_ROADMAP.md`](./326_CYBERSECURITY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/326_cybersecurity/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/326_cybersecurity/NICHE_326_cybersecurity.md`](file:///h:/script-raw-/REGISTRY/Niches/326_cybersecurity/NICHE_326_cybersecurity.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/326_cybersecurity/CAT_326_cybersecurity.md`](file:///h:/script-raw-/REGISTRY/Niches/326_cybersecurity/CAT_326_cybersecurity.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/326_cybersecurity/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/326_cybersecurity/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/326_cybersecurity/`](file:///h:/script-raw-/OUTPUT/326_cybersecurity/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "0407ffdf6b346d8fa2f47b38c48744c338b81cdd9baa87341493443bfa79a7eb",
+        "original_text": "{\r\n  \"niche_id\": \"326\",\r\n  \"niche_name\": \"cybersecurity\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Cybersecurity: A Security Practice Takes Shape\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"cybersecurity_a_security_practice_takes_shape\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a security practice takes shape through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Cybersecurity: A Widely Cited Breach Revisited\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"cybersecurity_a_widely_cited_breach_revisited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a widely cited breach revisited through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Cybersecurity: Security Work After Headlines\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"cybersecurity_security_work_after_headlines\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring security work after headlines through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Cybersecurity: What a Security Control Protects\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"cybersecurity_what_a_security_control_protects\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what a security control protects through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Cybersecurity: Defense in Depth Tested\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"cybersecurity_defense_in_depth_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring defense in depth tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Cybersecurity: An Incident's Unknown Cause\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"cybersecurity_an_incident_s_unknown_cause\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an incident's unknown cause through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Cybersecurity: A New Defensive Product\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"cybersecurity_a_new_defensive_product\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new defensive product through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Cybersecurity: A Risk Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"cybersecurity_a_risk_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a risk decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Cybersecurity: A Public Incident Timeline\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"cybersecurity_a_public_incident_timeline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a public incident timeline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Cybersecurity: From Alert to Response\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"cybersecurity_from_alert_to_response\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from alert to response through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Cybersecurity: Changing Threat Reports\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"cybersecurity_changing_threat_reports\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring changing threat reports through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Cybersecurity: A Control Before and After Deployment\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"cybersecurity_a_control_before_and_after_deployment\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a control before and after deployment through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Cybersecurity: An Emerging Security Claim\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"cybersecurity_an_emerging_security_claim\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an emerging security claim through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Cybersecurity: One Tool Makes a System Secure?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"cybersecurity_one_tool_makes_a_system_secure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one tool makes a system secure? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Cybersecurity: Recovery After an Incident\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"cybersecurity_recovery_after_an_incident\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring recovery after an incident through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Cybersecurity: Who Secures a Shared Service?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"cybersecurity_who_secures_a_shared_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring who secures a shared service? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Cybersecurity: A Security Alert's Evidence\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"cybersecurity_a_security_alert_s_evidence\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a security alert's evidence through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Cybersecurity: Stronger Control and User Friction\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"cybersecurity_stronger_control_and_user_friction\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring stronger control and user friction through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Cybersecurity: A Defensive Control Fails\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"cybersecurity_a_defensive_control_fails\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a defensive control fails through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Cybersecurity: What a Security Exercise Misses\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"cybersecurity_what_a_security_exercise_misses\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what a security exercise misses through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Cybersecurity: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"cybersecurity_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Cybersecurity: An Incident's Unknown Cause\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"cybersecurity_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which facts are established and what remains uncertain backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Cybersecurity: A New Defensive Product\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"cybersecurity_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it reduce a defined risk without unacceptable costs backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Cybersecurity: One Tool Makes a System Secure?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"cybersecurity_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which risks lie outside a tool's scope backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Cybersecurity: A Public Incident Timeline\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"cybersecurity_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what happened from detection through recovery backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Cybersecurity: Security Work After Headlines\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"cybersecurity_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who restores service, supports victims, and fixes controls backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Cybersecurity: Recovery After an Incident\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"cybersecurity_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did an organization restore trusted service backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "326",
+      "niche_name": "cybersecurity",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Cybersecurity: A Security Practice Takes Shape",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "cybersecurity_a_security_practice_takes_shape",
+          "reason": "A rigorous pedagogical investigation exploring a security practice takes shape through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity: A Widely Cited Breach Revisited",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "cybersecurity_a_widely_cited_breach_revisited",
+          "reason": "A rigorous pedagogical investigation exploring a widely cited breach revisited through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Cybersecurity: Security Work After Headlines",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "cybersecurity_security_work_after_headlines",
+          "reason": "A rigorous pedagogical investigation exploring security work after headlines through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Cybersecurity: What a Security Control Protects",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "cybersecurity_what_a_security_control_protects",
+          "reason": "A rigorous pedagogical investigation exploring what a security control protects through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Cybersecurity: Defense in Depth Tested",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "cybersecurity_defense_in_depth_tested",
+          "reason": "A rigorous pedagogical investigation exploring defense in depth tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Cybersecurity: An Incident's Unknown Cause",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "cybersecurity_an_incident_s_unknown_cause",
+          "reason": "A rigorous pedagogical investigation exploring an incident's unknown cause through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Cybersecurity: A New Defensive Product",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "cybersecurity_a_new_defensive_product",
+          "reason": "A rigorous pedagogical investigation exploring a new defensive product through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Cybersecurity: A Risk Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "cybersecurity_a_risk_decision",
+          "reason": "A rigorous pedagogical investigation exploring a risk decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Cybersecurity: A Public Incident Timeline",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "cybersecurity_a_public_incident_timeline",
+          "reason": "A rigorous pedagogical investigation exploring a public incident timeline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Cybersecurity: From Alert to Response",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "cybersecurity_from_alert_to_response",
+          "reason": "A rigorous pedagogical investigation exploring from alert to response through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Cybersecurity: Changing Threat Reports",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "cybersecurity_changing_threat_reports",
+          "reason": "A rigorous pedagogical investigation exploring changing threat reports through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Cybersecurity: A Control Before and After Deployment",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "cybersecurity_a_control_before_and_after_deployment",
+          "reason": "A rigorous pedagogical investigation exploring a control before and after deployment through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Cybersecurity: An Emerging Security Claim",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "cybersecurity_an_emerging_security_claim",
+          "reason": "A rigorous pedagogical investigation exploring an emerging security claim through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Cybersecurity: One Tool Makes a System Secure?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "cybersecurity_one_tool_makes_a_system_secure",
+          "reason": "A rigorous pedagogical investigation exploring one tool makes a system secure? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Cybersecurity: Recovery After an Incident",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "cybersecurity_recovery_after_an_incident",
+          "reason": "A rigorous pedagogical investigation exploring recovery after an incident through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Cybersecurity: Who Secures a Shared Service?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "cybersecurity_who_secures_a_shared_service",
+          "reason": "A rigorous pedagogical investigation exploring who secures a shared service? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Cybersecurity: A Security Alert's Evidence",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "cybersecurity_a_security_alert_s_evidence",
+          "reason": "A rigorous pedagogical investigation exploring a security alert's evidence through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Cybersecurity: Stronger Control and User Friction",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "cybersecurity_stronger_control_and_user_friction",
+          "reason": "A rigorous pedagogical investigation exploring stronger control and user friction through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Cybersecurity: A Defensive Control Fails",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "cybersecurity_a_defensive_control_fails",
+          "reason": "A rigorous pedagogical investigation exploring a defensive control fails through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Cybersecurity: What a Security Exercise Misses",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "cybersecurity_what_a_security_exercise_misses",
+          "reason": "A rigorous pedagogical investigation exploring what a security exercise misses through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Cybersecurity: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "cybersecurity_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Cybersecurity: An Incident's Unknown Cause",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "cybersecurity_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which facts are established and what remains uncertain backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Cybersecurity: A New Defensive Product",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "cybersecurity_technology_innovation",
+          "why_trending": "High viral search interest exploring did it reduce a defined risk without unacceptable costs backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Cybersecurity: One Tool Makes a System Secure?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "cybersecurity_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which risks lie outside a tool's scope backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Cybersecurity: A Public Incident Timeline",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "cybersecurity_major_events",
+          "why_trending": "High viral search interest exploring what happened from detection through recovery backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Cybersecurity: Security Work After Headlines",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "cybersecurity_hidden_stories",
+          "why_trending": "High viral search interest exploring who restores service, supports victims, and fixes controls backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Cybersecurity: Recovery After an Incident",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "cybersecurity_documentary_stories",
+          "why_trending": "High viral search interest exploring how did an organization restore trusted service backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "00d9f6fe7d7054cf042a645ec57a79d62993aeba08be0ecf1ff6d3cd8ce94444"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "8c49a0424ddbacec8d7ef441ef21517d8fc32d7779a945916e79b39f70ae9dea"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "a205b169da7d99b63f2f9624287d71e5e4c24f867a89d53e17fea6afde0d33b8"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "49348d35ef1241d76e0de762b66c497656e3365731f35c6937668f132b4be166"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "868f9004b16da0d84dfa3d154c59c239b313905e5c4f29b3fbf55181f4192c1e"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-326-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-02",
+      "title": "Identity",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-03",
+      "title": "Operations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-04",
+      "title": "Risk",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-05",
+      "title": "Architecture",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-06",
+      "title": "Recovery",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-07",
+      "title": "Governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-08",
+      "title": "Measurement",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-326-09",
+      "title": "Response",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "326",
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "primary_category": "Cybersecurity_Digital_Systems",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Cybersecurity YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-326-01",
+        "title": "Defensive foundations",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-326-001",
+            "title": "Threat modeling",
+            "question": "Threat modeling: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: Defensive foundations. Address Threat modeling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Threat modeling.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-002",
+            "title": "Least privilege",
+            "question": "Least privilege: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: Defensive foundations. Address Least privilege through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Least privilege.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-003",
+            "title": "Patch prioritization",
+            "question": "Patch prioritization: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: Defensive foundations. Address Patch prioritization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Patch prioritization.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-326-02",
+        "title": "System protections",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-326-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-326-004",
+            "title": "Multifactor authentication",
+            "question": "Multifactor authentication: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: System protections. Address Multifactor authentication through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Multifactor authentication.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-005",
+            "title": "Network segmentation",
+            "question": "Network segmentation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: System protections. Address Network segmentation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Network segmentation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-006",
+            "title": "Backup isolation",
+            "question": "Backup isolation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cybersecurity; branch: System protections. Address Backup isolation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Backup isolation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-326-03",
+        "title": "Assessment",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-326-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-326-007",
+            "title": "Authorized security testing scope",
+            "question": "Authorized security testing scope: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cybersecurity; branch: Assessment. Address Authorized security testing scope through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Authorized security testing scope.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-008",
+            "title": "Vulnerability disclosure",
+            "question": "Vulnerability disclosure: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cybersecurity; branch: Assessment. Address Vulnerability disclosure through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Vulnerability disclosure.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-326-009",
+            "title": "Security metrics versus actual risk",
+            "question": "Security metrics versus actual risk: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cybersecurity; branch: Assessment. Address Security metrics versus actual risk through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Security metrics versus actual risk.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Cybersecurity: A Security Practice Takes Shape",
+      "question": "Which documented incident or need changed one defensive practice?",
+      "coverage": "Use dated standards and incident records. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Widely Cited Breach Revisited",
+      "question": "Which failures are supported by public evidence?",
+      "coverage": "Separate investigation findings from speculation. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Security Work After Headlines",
+      "question": "Who restores service, supports victims, and fixes controls?",
+      "coverage": "Use public records and consented accounts. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: What a Security Control Protects",
+      "question": "What asset and failure does one control address?",
+      "coverage": "Define threat, user, boundary, and expected outcome. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Defense in Depth Tested",
+      "question": "Do multiple controls fail independently in a defined scenario?",
+      "coverage": "Map dependencies and validation evidence. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: An Incident's Unknown Cause",
+      "question": "Which facts are established and what remains uncertain?",
+      "coverage": "Compare official timeline, logs, and plausible alternatives. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A New Defensive Product",
+      "question": "Did it reduce a defined risk without unacceptable costs?",
+      "coverage": "Compare detection quality, false alarms, coverage, and operations. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Risk Decision",
+      "question": "Who accepted a residual risk and with what information?",
+      "coverage": "Trace governance records and affected groups. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Public Incident Timeline",
+      "question": "What happened from detection through recovery?",
+      "coverage": "Use dated notices and postmortem; avoid operational attack steps. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: From Alert to Response",
+      "question": "How does a team validate and triage a signal?",
+      "coverage": "Describe roles, evidence preservation, and escalation at a safe level. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Changing Threat Reports",
+      "question": "Is an apparent increase a change in attacks or reporting?",
+      "coverage": "Check definitions, detection, population, and time window. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Control Before and After Deployment",
+      "question": "Did exposure and response improve?",
+      "coverage": "Match assets, measurement, and threat context. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: An Emerging Security Claim",
+      "question": "What evidence would show a proposed defense works?",
+      "coverage": "Define adversary capability, deployment limits, and independent test. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: One Tool Makes a System Secure?",
+      "question": "Which risks lie outside a tool's scope?",
+      "coverage": "Map assets, people, process, and dependencies. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Recovery After an Incident",
+      "question": "How did an organization restore trusted service?",
+      "coverage": "Use public timeline, impacted users, and documented lessons. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Who Secures a Shared Service?",
+      "question": "Which duties belong to provider, customer, vendor, and user?",
+      "coverage": "Use named architecture and contractual responsibility. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Security Alert's Evidence",
+      "question": "What data triggers an alert and what does it actually prove?",
+      "coverage": "Trace logging, detection rule, context, and false positives. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: Stronger Control and User Friction",
+      "question": "How does a control affect security and access?",
+      "coverage": "Test intended users, bypass pressure, and recovery. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: A Defensive Control Fails",
+      "question": "Why did a control miss or misclassify an event?",
+      "coverage": "Analyze public incident and avoid reproduction instructions. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cybersecurity: What a Security Exercise Misses",
+      "question": "Which actors or conditions were outside the test?",
+      "coverage": "State scope, authorization, environment, and uncertainty. Evidence base: NIST frameworks, public incident reports, system inventories, control tests, measurements, and consented user accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-326-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "0417caa4716c5583714dcf14bc8cb69d8136421c2bc175ef4e902e4299eb0d06",
+    "TOPIC_BANK_RECONCILIATION.md": "182da40849353df40634056d4b371edc32a62d091cf9cd62395ef6d4ff7042fd",
+    "TOPICS_COVERED_REPORT.md": "d100f7c71f8993122f23c839a8bbd4789ec0ed9bbea77a0c4c6eb4f161912c98",
+    "326_CYBERSECURITY_CHANNEL_TOPIC_ROADMAP.md": "04fd46b1f304209a635517597adc70830feae266ecfa231e1e4f0df75837ae25"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-326-001": [
+      "BANK-326-030"
+    ],
+    "BANK-326-004": [
+      "BANK-326-031"
+    ],
+    "BANK-326-003": [
+      "BANK-326-032"
+    ],
+    "BANK-326-002": [
+      "BANK-326-034"
+    ],
+    "BANK-326-006": [
+      "BANK-326-035"
+    ],
+    "BANK-326-008": [
+      "BANK-326-036"
+    ],
+    "BANK-326-005": [
+      "BANK-326-037"
+    ],
+    "BANK-326-007": [
+      "BANK-326-038"
+    ],
+    "BANK-326-009": [
+      "BANK-326-039"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Early security-practice history remains a broad framing; asset and threat identification is the active entry point.",
+      "bank_ids": [
+        "BANK-326-030"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The named SolarWinds directive supplies a public incident decision record.",
+      "bank_ids": [
+        "BANK-326-041"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Post-headline triage and restoration already sit in incident containment and backup scope.",
+      "bank_ids": [
+        "BANK-326-040",
+        "BANK-326-035"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Threat modeling gives the bounded control purpose.",
+      "bank_ids": [
+        "BANK-326-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Shared dependencies already test defense in depth.",
+      "bank_ids": [
+        "BANK-326-033"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Unknown cause requires evidence and uncertainty handling in existing incident scope.",
+      "bank_ids": [
+        "BANK-326-040"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "No named product or evaluation protocol in archive; use risk metrics and testing scope.",
+      "bank_ids": [
+        "BANK-326-039",
+        "BANK-326-038"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Risk prioritization is covered by metric and consequence framing.",
+      "bank_ids": [
+        "BANK-326-039"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "ED 21-01 gives a dated, jurisdiction-bound incident timeline.",
+      "bank_ids": [
+        "BANK-326-041"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Alert-to-response belongs to incident containment choices.",
+      "bank_ids": [
+        "BANK-326-040"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "new_bounded_case",
+      "reason": "CISA's dated Log4j advisory makes evolving dependency reports concrete.",
+      "bank_ids": [
+        "BANK-326-042"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Control deployment and shared-dependency failure already scoped.",
+      "bank_ids": [
+        "BANK-326-033"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "An unspecified emerging claim needs a named product and evidence before a new case.",
+      "bank_ids": [
+        "BANK-326-039"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Single-tool security claim is tested by shared dependency and threat model.",
+      "bank_ids": [
+        "BANK-326-033",
+        "BANK-326-030"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "reason": "Recovery planning already has backup and containment questions.",
+      "bank_ids": [
+        "BANK-326-035",
+        "BANK-326-040"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "cross_niche_overlap",
+      "reason": "Managed-service responsibility belongs with cloud shared-responsibility case BANK-322-038; least privilege remains local context.",
+      "bank_ids": [
+        "BANK-322-038",
+        "BANK-326-034"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Alert evidence and service interruption belong to incident containment.",
+      "bank_ids": [
+        "BANK-326-040"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "MFA recovery gives a bounded security-friction example.",
+      "bank_ids": [
+        "BANK-326-031"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "new_bounded_case",
+      "reason": "SolarWinds is a named case for a trusted-control failure and response limits.",
+      "bank_ids": [
+        "BANK-326-041"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Authorized testing scope sets a bounded exercise question.",
+      "bank_ids": [
+        "BANK-326-038"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "No dated record measure, denominator or comparable case is named; superlative framing is unsupported.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Same unknown-cause pitch as pending/5.",
+      "bank_ids": [
+        "BANK-326-040"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Same unnamed defensive-product pitch as pending/6.",
+      "bank_ids": [
+        "BANK-326-039"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Same single-tool pitch as pending/13.",
+      "bank_ids": [
+        "BANK-326-033"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Same timeline pitch as pending/8; route to the SolarWinds case.",
+      "bank_ids": [
+        "BANK-326-041"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Same post-headline pitch as pending/2.",
+      "bank_ids": [
+        "BANK-326-040"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Same recovery pitch as pending/14.",
+      "bank_ids": [
+        "BANK-326-035"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-326-041",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-326-042",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 8,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false,
+    "summary": "Routed every archived pitch by stable position; retained broad existing scopes and added two dated institutional cases with explicit evidence limits."
+  }
+}

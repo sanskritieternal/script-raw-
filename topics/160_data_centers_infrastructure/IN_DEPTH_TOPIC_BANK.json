@@ -1,0 +1,1618 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "160",
+  "slug": "data_centers_infrastructure",
+  "name": "Data Centers & Infrastructure",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Data Centers & Infrastructure YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 34
+  },
+  "categories": [
+    {
+      "id": "CATALOG-160-R01",
+      "title": "Original bounded cases and mechanisms",
+      "level": "foundation",
+      "parent_id": "DOMAIN-160-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "24a150a3cb4e5f6e2c72924cd42edbf18f99c0c631b3594786e1d276cfc67ff9",
+      "topics": [
+        {
+          "title": "The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center",
+          "question": "What does it take to build and operate a windowless facility that consumes as much electricity as a city of 100,000 homes to power the global cloud?",
+          "coverage": "High-voltage substation step-down transformers, rows of thousands of compute racks, industrial cooling towers, physical multi-factor biometric security, and 99.999% uptime engineering.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 1,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "PUE Deconstructed: The Single Metric That Measures Data Center Efficiency",
+          "question": "How did Google and hyperscalers drop Power Usage Effectiveness from a wasteful 2.0 down to a near-perfect 1.1?",
+          "coverage": "Total facility power vs IT equipment power math, parasitic cooling and lighting overhead, hot aisle vs cold aisle containment physics, and machine learning cooling optimization.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 2,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Uptime Tiers I to IV: What It Costs to Guarantee 99.999% 'Five Nines' Reliability",
+          "question": "What is the difference between a facility that allows 28 hours of downtime a year and a fault-tolerant Tier IV facility that allows just 26 seconds?",
+          "coverage": "Uptime Institute standards, N+1 vs 2N+1 component redundancy, dual-powered server power supplies (PSUs), concurrent maintainability without taking loads offline, and CAPEX differences.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 3,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Zero-Second Blackout: How UPS Systems Bridge the Gap Between Grid Failure and Diesel Generators",
+          "question": "When lightning knocks out the regional electrical grid, how do millions of servers keep processing transactions without a single millisecond flicker?",
+          "coverage": "Double-conversion static battery UPS banks, rotary mechanical flywheel kinetic energy buffers, automatic transfer switches (ATS), and massive 2-megawatt diesel generators firing up in 10 seconds.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 4,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Hot Aisles vs Cold Aisles: The Aerodynamic Science of Not Baking Server Racks",
+          "question": "Why does mixing exhaust air with intake air destroy data center efficiency, and how do physical plastic curtains save millions in electricity?",
+          "coverage": "Airflow short-circuiting and recirculation, blanking panel discipline, raised floor pressurized plenums vs overhead ducting, and computational fluid dynamics (CFD) thermal modeling.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 5,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R02",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-160-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78a6929673606788d0df4450a7ddf1322b21a1ed060ebc0dcd69c03697127ed1",
+      "topics": [
+        {
+          "title": "Liquid Cooling Revolution: Why AI Compute Chips Are Drowning in Fluorochemicals and Water",
+          "question": "When an AI server rack consumes 100 kilowatts of electricity, why does air cooling completely fail, forcing engineers to pump chilled fluid directly onto chips?",
+          "coverage": "Thermal conductivity of water (24x air), direct-to-chip copper cold plates, two-phase immersion cooling where dielectric fluids boil and condense, and manifold plumbing reliability.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 6,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Spine-Leaf Networks: The Non-Blocking Optical Fabric Inside Modern Cloud Clusters",
+          "question": "How do thousands of servers communicate with each other with uniform microsecond latency without creating network chokepoints?",
+          "coverage": "Replacing traditional 3-tier hierarchical networks with 2-tier Clos topologies, Equal-Cost Multi-Path (ECMP) routing, Top-of-Rack (ToR) switches, 400G optical transceivers, and east-west traffic dominance.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 7,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Subsea Cables: The 800,000-Mile Fiber Optic Nervous System Under the Oceans",
+          "question": "Why does 99% of all intercontinental internet traffic travel through garden-hose-sized glass fibers lying in the mud of the ocean floor rather than satellites?",
+          "coverage": "Optical fiber total internal reflection, erbium-doped fiber amplifiers (EDFAs) boosting signals every 60 km, armored cable laying ships, shark bite and anchor hazards, and landing stations.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 8,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Data Center Water Crisis: Millions of Gallons Evaporated for Cooling",
+          "question": "Why do massive cloud data centers in drought-stricken Arizona and Utah consume millions of gallons of potable municipal drinking water every day?",
+          "coverage": "Evaporative cooling tower thermodynamics, Water Usage Effectiveness (WUE) metrics, adiabatic cooling economizers, community water utility backlash, and closed-loop dry cooler transitions.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 9,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Northern Virginia: Inside 'Data Center Alley' Where 70% of the World's Internet Flows",
+          "question": "Why did Loudoun County, Virginia, become the digital capital of planet Earth, housing over 25 million square feet of operational server halls?",
+          "coverage": "Early MAE-East internet exchange hub, cheap commercial Dominion Energy power rates, dense dark fiber clustering, tax incentives, and the current electrical grid transmission capacity wall.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 10,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R03",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-160-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "68cc9efd4647d165100b881da0beb7f24aac2515b48a02737990f691cc3ea7ab",
+      "topics": [
+        {
+          "title": "The AI Power Shock: Why Artificial Intelligence is Breaking National Electrical Grids",
+          "question": "Why are tech giants being told by electric utility companies that they must wait 7 years to get grid connections for new AI training facilities?",
+          "coverage": "NVIDIA H100/B200 cluster power spikes, a single ChatGPT prompt consuming 10x the power of a Google search, grid interconnection queues, keeping retiring coal plants alive, and transmission line shortages.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 11,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Small Modular Reactors (SMRs): Can Nuclear Power Solve the Hyperscale Energy Crunch?",
+          "question": "Why are Microsoft, Amazon, and Google investing billions in nuclear startups and signing contracts to co-locate data centers directly next to nuclear reactors?",
+          "coverage": "Baseload 24/7 zero-carbon power requirements, factory-fabricated SMR designs, the Three Mile Island Unit 1 restart deal, regulatory licensing hurdles, and dedicated private microgrids.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 12,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Dark Fiber and High-Frequency Trading: The Race for Nanoseconds Between Chicago and New York",
+          "question": "Why did financial firms spend hundreds of millions tunneling straight fiber through mountains and building laser towers just to shave 3 milliseconds off trading orders?",
+          "coverage": "Spread Networks' direct fiber path, microwave and millimeter-wave line-of-sight networks traveling at light speed in air vs glass (30% latency advantage), and algorithmic market making.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 13,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Project Natick: What Microsoft Learned Sinking a Data Center to the Bottom of the Ocean",
+          "question": "Why did a pressurized steel capsule holding 864 servers submerged off the coast of Scotland experience one-eighth the hardware failure rate of land facilities?",
+          "coverage": "Free ocean water thermal cooling, dry pure nitrogen atmosphere eliminating oxygen corrosion, lack of human movement and vibrations, and rapid coastal city deployment potential.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 14,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Fire Suppression in Server Halls: Inergen Gas vs Water Mist Systems",
+          "question": "How do you extinguish an electrical fire inside a room filled with tens of millions of dollars of live electronics without shorting them out or deafening the hard drives?",
+          "coverage": "Inert gas systems (Inergen, FM-200, Novec 1230) suffocating fire by lowering oxygen without suffocating humans, acoustic shockwave mufflers protecting hard drives, and double-interlock pre-action sprinklers.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 15,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Physical Security at the Edge: Mantraps, Biometrics, and Faraday Cages",
+          "question": "What happens if a rogue actor attempts to physically break into an enterprise or government intelligence data center?",
+          "coverage": "K-rated anti-ram perimeter crash fences, dual-door mantraps with weight sensors, iris and biometric palm scanners, strict compartmentalized cage access, and TEMPEST-certified electromagnetic shielding.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 16,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R04",
+      "title": "Original bounded cases and mechanisms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-160-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9e26f92bb14749bfd27c9af91d7ac52fe1c479ad9a2b653a06e9196ca14cb8df",
+      "topics": [
+        {
+          "title": "Waste Heat Recovery: Using Cloud Servers to Warm Cities, Swimming Pools, and Greenhouses",
+          "question": "Why let billions of BTUs of thermal heat evaporate into the atmosphere when it can be pumped into municipal district heating systems to warm homes?",
+          "coverage": "Low-grade heat exchange thermodynamics, European regulations mandating district heat reuse (Stockholm, Paris), warming municipal swimming pools, and circular energy economies.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 17,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Edge Data Centers: Why 5G and Autonomous Driving Demand Micro-Facilities Every 5 Miles",
+          "question": "Why can't self-driving cars and robotic surgical arms wait 50 milliseconds to query a distant hyperscale data center 500 miles away?",
+          "coverage": "Speed-of-light latency physics, modular containerized edge data pods installed at cell towers, decentralized content delivery networks (CDNs), and distributed microgrid resilience.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 18,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The $1 Billion Facility: The CapEx and OpEx Breakdown of a 100 MW Campus",
+          "question": "Where does $1 billion go when developing a cloud campus, and why does electricity account for 75% of operational lifetime costs?",
+          "coverage": "Shell construction vs MEP (Mechanical, Electrical, Plumbing) equipment split, generator and transformer procurement, server hardware 3-year refresh cycles, power tariff structures, and real estate leasing models.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 19,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Masterclass on Data Center Engineering: Designing the Ultimate Cloud Campus",
+          "question": "How does an infrastructure director design a resilient, sustainable, scalable 500-megawatt computing campus that will operate flawlessly for 30 years?",
+          "coverage": "Holistic integration of high-voltage utility interconnections, closed-loop liquid thermal topologies, modular scalable building blocks, automated DCIM (Data Center Infrastructure Management) telemetry, and future-proofing for next-generation silicon.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 20,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-160-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R05",
+      "title": "Compute, storage and networks",
+      "level": "foundation",
+      "parent_id": "DOMAIN-160-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c4779f412af7574a3774623deb666d17285de4c3fcdec7dc2f8cfdc33159b676",
+      "topics": [
+        {
+          "question": "What happens inside a data center when someone requests a web page?",
+          "coverage": "Trace network entry, compute, storage and response in a schematic system; distinguish the facility from the application.",
+          "id": "BANK-160-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a server rack require more planning than stacking computers?",
+          "coverage": "Compare electrical supply, heat, cabling, airflow, weight and service access conceptually.",
+          "id": "BANK-160-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What is the difference between keeping data and keeping a service available?",
+          "coverage": "Separate storage durability, redundancy, backups, application dependencies and recovery.",
+          "id": "BANK-160-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a data center turn electricity consumption into a cooling requirement?",
+          "coverage": "Explain heat flows, airflow and cooling loops with a labeled energy balance.",
+          "id": "BANK-160-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R06",
+      "title": "Reliability and capacity",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-160-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "aee14a56ae63e3df258ee549e84ad24ef8bc16176c0e26d12486d2018e43e124",
+      "topics": [
+        {
+          "question": "Why can redundant equipment still share a single point of failure?",
+          "coverage": "Trace dependencies on power, control, network, maintenance and human procedures through a hypothetical fault tree.",
+          "id": "BANK-160-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does power usage effectiveness measure and what does it leave out?",
+          "coverage": "Separate facility overhead, IT demand, location, utilization, water and useful computing output.",
+          "id": "BANK-160-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can software scheduling change a facility's physical resource use?",
+          "coverage": "Compare utilization, workload placement, peaks, cooling and latency constraints without assuming idle power is zero.",
+          "id": "BANK-160-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do backups need recovery tests to be meaningful?",
+          "coverage": "Explain restoration scope, dependencies, recovery point, recovery time and evidence of a successful drill.",
+          "id": "BANK-160-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R07",
+      "title": "Siting and accountability",
+      "level": "advanced",
+      "parent_id": "DOMAIN-160-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "760917281ab6267dd49b16269c6a20f70e9956116031165f9154bda73ea183d1",
+      "topics": [
+        {
+          "question": "How should a data center's water use be compared across climates?",
+          "coverage": "Distinguish withdrawal, consumption, cooling design, water stress and seasonal demand.",
+          "id": "BANK-160-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a community ask before a large data center is built nearby?",
+          "coverage": "Map grid upgrades, water, land, jobs, noise, taxes and public disclosure with dated local records.",
+          "id": "BANK-160-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an outage propagate across services hosted in different buildings?",
+          "coverage": "Trace identity, DNS, control planes, shared providers and configuration dependencies at a systems level.",
+          "id": "BANK-160-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a credible claim about carbon-free computing need to specify?",
+          "coverage": "Compare hourly versus annual matching, location, boundaries, embodied impacts and backup power.",
+          "id": "BANK-160-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-160-R08",
+      "title": "Dated rack and utility capacity cases",
+      "level": "advanced",
+      "parent_id": "DOMAIN-160-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "topics": [
+        {
+          "id": "BANK-160-042",
+          "question": "What does NVIDIA's GB200 NVL72 reference design require of a high-density rack?",
+          "coverage": "Read NVIDIA's 2024 OCP design description and current hardware guide for approximate rack power, hybrid liquid/air heat paths and facility interfaces; distinguish a particular reference configuration from every AI server rack.",
+          "origin": "editorial_case_expansion",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-160-043",
+          "question": "What did Dominion Energy report about Northern Virginia data-center connections in 2024?",
+          "coverage": "Use the utility's dated sustainability report to identify connected facilities and combined capacity, then separate completed connections from requested load, waiting time and forecasts for future grid constraints.",
+          "origin": "editorial_case_expansion",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "113",
+      "title": "Energy & Power",
+      "directory": "113_energy_power",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "114",
+      "title": "Water",
+      "directory": "114_water",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "157",
+      "title": "Materials Science",
+      "directory": "157_materials_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "158",
+      "title": "Batteries & Energy Storage",
+      "directory": "158_batteries_energy_storage",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "161",
+      "title": "Electricity & Electronics",
+      "directory": "161_electricity_electronics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "357",
+      "title": "Gemology",
+      "directory": "357_gemology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/160_data_centers_infrastructure/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "f4782c0e16f58c087c4e0db1a645d0d6053681aaa3a6fc34d68c06266db8520a",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-160-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f081983f33e6a9ef1ffb5adc24128682a4d2598436bd5534b73c7e11d7d2eb38"
+      },
+      "BANK-160-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "80255d1b8255ad24d670717e668d8d4b612ef9f581f871ccb9e279f26376f1e3"
+      },
+      "BANK-160-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "63a23aec6aab7fe7639166bbe9dae40cf062c71cadd1816c9330b81b14d4155a"
+      },
+      "BANK-160-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dbf205c4f17f35cbfd5064afd30fed4ec3426576407603caa1a501d5c8891316"
+      },
+      "BANK-160-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "509edcd65541e36e98b6f597e246d0699c26c57b2f7586264a886e85f52c0330"
+      },
+      "BANK-160-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "88eec646227d56a4966adccdd0bd6adc874e38a69c188d0633f1fd8989176446"
+      },
+      "BANK-160-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "19af0a13dc4b45cfff157608267ffd9212cfac4d66e0f9e1457970be1752010f"
+      },
+      "BANK-160-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9cd3b5e2ba5e4e088570bfac2c1a8b811b1a06b03c8fc7a3cd5f6162410f9acf"
+      },
+      "BANK-160-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "962e36e1c1420c796477c0641c4bcc95b5c915be3fad8d385297a2a03bce8ff7"
+      }
+    },
+    "source_categories": {
+      "CATALOG-160-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "af39052fa25eca586ee4b2cba48bd2966473dac01fef9a26c1b6e38169c4dc17"
+      },
+      "CATALOG-160-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "322023469964fe7268bcbb0f9e96be54c427fff189adf18879489998d71b06ba"
+      },
+      "CATALOG-160-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "2b0233bf9a0b37c699a31479c6bf9b27f237b772171399e925d047f58cede015"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "160_DATA_CENTERS_INFRASTRUCTURE_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "e35543fdcdea48a714a824d251ba833ac456648f7e28c174d7fa7cc31964e219",
+        "original_text": "# Data Centers & Infrastructure Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 160 Data Centers & Infrastructure (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Cloud Systems Architects, Electrical Facility Engineers, Thermal Cooling Specialists, Enterprise IT Directors (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/160_data_centers_infrastructure/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Data Centers & Infrastructure across four progressive tiers:\r\n- **Tier 1: Server Rack Architectures, Redundancy Tiers (Tier I-IV) & Power Usage Effectiveness (PUE) (Beginner / Scratch)** — Standard 19-inch 42U server rack layout, Uptime Institute Tier I-IV redundancy classifications, Power Usage Effectiveness (PUE) mathematical efficiency, and hot-aisle / cold-aisle containment geometry.\r\n- **Tier 2: Uninterruptible Power Supplies (UPS), Diesel Flywheels & Direct-to-Chip Liquid Cooling (Intermediate)** — Rotary flywheels vs double-conversion static battery UPS, megawatt diesel generator backup synchronization, direct-to-chip closed-loop liquid cooling, and CRAH/CRAC computer room air handlers.\r\n- **Tier 3: Hyperscale Facility Network Fabrics, Subsea Cable Landing Hubs & Dark Fiber Networks (Upper Intermediate)** — Spine-leaf Clos network topologies, 400G/800G optical transceivers, transatlantic subsea fiber cable landing stations, and dark fiber latency route optimization between financial exchanges.\r\n- **Tier 4: AI Gigawatt Data Center Clustering, Nuclear SMR Co-Location & Subsea Zero-Carbon Data Hubs (Advanced / Masterclass)** — NVIDIA NVLink cluster interconnects demanding 100 kW per rack, co-locating hyperscalers next to Small Modular Nuclear Reactors (SMRs), submerged ocean data pods (Project Natick), and grid power constraints.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/160_data_centers_infrastructure/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/160_data_centers_infrastructure/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How a Data Center Campus Grew** | *Which demand and siting choices led to one facility?* |\r\n| 2 | `famous_examples` | **A Model Facility Under Review** | *Does one celebrated data center meet its performance claims?* |\r\n| 3 | `hidden_stories` | **People Keeping Servers Online** | *Whose electrical, cooling, cleaning, security, and repair work is overlooked?* |\r\n| 4 | `beginner_explainers` | **What a Data Center Provides** | *Which services and physical systems make one digital application run?* |\r\n| 5 | `advanced_concepts` | **Efficiency and Total Demand** | *Can a more efficient facility still use more energy overall?* |\r\n| 6 | `mysteries_unsolved_cases` | **The Cause of an Outage** | *Which evidence explains one documented service disruption?* |\r\n| 7 | `technology_innovation` | **A Cooling Upgrade Tested** | *Did one cooling change reduce energy or water for the same workload?* |\r\n| 8 | `people_personalities` | **The Site Operator's Decisions** | *How does one team balance reliability, energy, water, and cost?* |\r\n| 9 | `major_events` | **An Outage with Wider Effects** | *Which services were affected by one failure and for how long?* |\r\n| 10 | `how_it_works` | **A Request Through the Facility** | *How do compute, storage, network, power, and cooling support one task?* |\r\n| 11 | `rise_fall` | **A Facility's Closure or Retrofit** | *Why was one site upgraded, moved, or retired?* |\r\n| 12 | `then_vs_now` | **Computing One Workload Across Time** | *How did resources needed for a comparable task change?* |\r\n| 13 | `future_developments` | **A Proposed Data Center** | *What would one new facility require from its host community?* |\r\n| 14 | `myths_vs_facts` | **Is the Cloud Weightless?** | *Which physical inputs and impacts support one online service?* |\r\n| 15 | `documentary_stories` | **A Day in Facility Operations** | *Which routine checks and incidents keep a data center available?* |\r\n| 16 | `system_boundary` | **What Counts in a Facility Metric?** | *Which equipment and energy are included in one efficiency number?* |\r\n| 17 | `input_output_trace` | **Workload to Electricity and Heat** | *How does one task use computing resources and create heat?* |\r\n| 18 | `design_tradeoff` | **Reliability Versus Resource Use** | *How do redundancy choices affect energy, cost, and uptime?* |\r\n| 19 | `failure_mode` | **A Single Point of Failure** | *Which dependency caused or amplified one outage?* |\r\n| 20 | `testing_limits` | **A Benchmark's Real Meaning** | *Does one reported efficiency result represent typical operation?* |\r\n| 21 | `standards_interoperability` | **A Service Across Facilities** | *Which interfaces let a workload move without disruption?* |\r\n| 22 | `security_threat_model` | **A Facility's Physical and Digital Risks** | *Which broad safeguards protect systems and customer data?* |\r\n| 23 | `maintenance_lifecycle` | **Replacing an Aging Server Fleet** | *How do upgrades change performance, reliability, and waste?* |\r\n| 24 | `infrastructure_dependencies` | **The Grid Behind a Data Center** | *What power and transmission upgrades does one campus need?* |\r\n| 25 | `accessibility_usability` | **Who Benefits from Local Hosting?** | *Does nearby infrastructure improve service for local users?* |\r\n| 26 | `independent_replication` | **Checking an Efficiency Claim** | *Can an outside analyst reproduce one published metric?* |\r\n| 27 | `responsible_deployment` | **A Facility in Its Watershed** | *How are water use and community priorities addressed?* |\r\n| 28 | `field_software_architecture` | **Software's Role in Facility Load** | *How does one architecture choice affect compute and storage demand?* |\r\n| 29 | `field_interface_design` | **The Operator's Control View** | *Does one interface help staff spot and respond to a fault?* |\r\n| 30 | `field_version_changes` | **An Update and Its Infrastructure Cost** | *Did one software version change workload or reliability?* |\r\n| 31 | `field_open_standards` | **Can Customers Leave?** | *Do open interfaces and export formats reduce lock-in for one service?* |\r\n| 32 | `field_technical_debt` | **Deferred Work in a Facility** | *How did accumulated hardware or software maintenance affect reliability?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center**\r\n   - *Question:* What does it take to build and operate a windowless facility that consumes as much electricity as a city of 100,000 homes to power the global cloud?\r\n   - *Key Focus:* High-voltage substation step-down transformers, rows of thousands of compute racks, industrial cooling towers, physical multi-factor biometric security, and 99.999% uptime engineering.\r\n2. **PUE Deconstructed: The Single Metric That Measures Data Center Efficiency**\r\n   - *Question:* How did Google and hyperscalers drop Power Usage Effectiveness from a wasteful 2.0 down to a near-perfect 1.1?\r\n   - *Key Focus:* Total facility power vs IT equipment power math, parasitic cooling and lighting overhead, hot aisle vs cold aisle containment physics, and machine learning cooling optimization.\r\n3. **Uptime Tiers I to IV: What It Costs to Guarantee 99.999% 'Five Nines' Reliability**\r\n   - *Question:* What is the difference between a facility that allows 28 hours of downtime a year and a fault-tolerant Tier IV facility that allows just 26 seconds?\r\n   - *Key Focus:* Uptime Institute standards, N+1 vs 2N+1 component redundancy, dual-powered server power supplies (PSUs), concurrent maintainability without taking loads offline, and CAPEX differences.\r\n4. **The Zero-Second Blackout: How UPS Systems Bridge the Gap Between Grid Failure and Diesel Generators**\r\n   - *Question:* When lightning knocks out the regional electrical grid, how do millions of servers keep processing transactions without a single millisecond flicker?\r\n   - *Key Focus:* Double-conversion static battery UPS banks, rotary mechanical flywheel kinetic energy buffers, automatic transfer switches (ATS), and massive 2-megawatt diesel generators firing up in 10 seconds.\r\n5. **Hot Aisles vs Cold Aisles: The Aerodynamic Science of Not Baking Server Racks**\r\n   - *Question:* Why does mixing exhaust air with intake air destroy data center efficiency, and how do physical plastic curtains save millions in electricity?\r\n   - *Key Focus:* Airflow short-circuiting and recirculation, blanking panel discipline, raised floor pressurized plenums vs overhead ducting, and computational fluid dynamics (CFD) thermal modeling.\r\n### Tier 2: Practical Mechanics & Channels\r\n6. **Liquid Cooling Revolution: Why AI Compute Chips Are Drowning in Fluorochemicals and Water**\r\n   - *Question:* When an AI server rack consumes 100 kilowatts of electricity, why does air cooling completely fail, forcing engineers to pump chilled fluid directly onto chips?\r\n   - *Key Focus:* Thermal conductivity of water (24x air), direct-to-chip copper cold plates, two-phase immersion cooling where dielectric fluids boil and condense, and manifold plumbing reliability.\r\n7. **Spine-Leaf Networks: The Non-Blocking Optical Fabric Inside Modern Cloud Clusters**\r\n   - *Question:* How do thousands of servers communicate with each other with uniform microsecond latency without creating network chokepoints?\r\n   - *Key Focus:* Replacing traditional 3-tier hierarchical networks with 2-tier Clos topologies, Equal-Cost Multi-Path (ECMP) routing, Top-of-Rack (ToR) switches, 400G optical transceivers, and east-west traffic dominance.\r\n8. **Subsea Cables: The 800,000-Mile Fiber Optic Nervous System Under the Oceans**\r\n   - *Question:* Why does 99% of all intercontinental internet traffic travel through garden-hose-sized glass fibers lying in the mud of the ocean floor rather than satellites?\r\n   - *Key Focus:* Optical fiber total internal reflection, erbium-doped fiber amplifiers (EDFAs) boosting signals every 60 km, armored cable laying ships, shark bite and anchor hazards, and landing stations.\r\n9. **The Data Center Water Crisis: Millions of Gallons Evaporated for Cooling**\r\n   - *Question:* Why do massive cloud data centers in drought-stricken Arizona and Utah consume millions of gallons of potable municipal drinking water every day?\r\n   - *Key Focus:* Evaporative cooling tower thermodynamics, Water Usage Effectiveness (WUE) metrics, adiabatic cooling economizers, community water utility backlash, and closed-loop dry cooler transitions.\r\n10. **Northern Virginia: Inside 'Data Center Alley' Where 70% of the World's Internet Flows**\r\n   - *Question:* Why did Loudoun County, Virginia, become the digital capital of planet Earth, housing over 25 million square feet of operational server halls?\r\n   - *Key Focus:* Early MAE-East internet exchange hub, cheap commercial Dominion Energy power rates, dense dark fiber clustering, tax incentives, and the current electrical grid transmission capacity wall.\r\n### Tier 3: Advanced Methodologies & Frameworks\r\n11. **The AI Power Shock: Why Artificial Intelligence is Breaking National Electrical Grids**\r\n   - *Question:* Why are tech giants being told by electric utility companies that they must wait 7 years to get grid connections for new AI training facilities?\r\n   - *Key Focus:* NVIDIA H100/B200 cluster power spikes, a single ChatGPT prompt consuming 10x the power of a Google search, grid interconnection queues, keeping retiring coal plants alive, and transmission line shortages.\r\n12. **Small Modular Reactors (SMRs): Can Nuclear Power Solve the Hyperscale Energy Crunch?**\r\n   - *Question:* Why are Microsoft, Amazon, and Google investing billions in nuclear startups and signing contracts to co-locate data centers directly next to nuclear reactors?\r\n   - *Key Focus:* Baseload 24/7 zero-carbon power requirements, factory-fabricated SMR designs, the Three Mile Island Unit 1 restart deal, regulatory licensing hurdles, and dedicated private microgrids.\r\n13. **Dark Fiber and High-Frequency Trading: The Race for Nanoseconds Between Chicago and New York**\r\n   - *Question:* Why did financial firms spend hundreds of millions tunneling straight fiber through mountains and building laser towers just to shave 3 milliseconds off trading orders?\r\n   - *Key Focus:* Spread Networks' direct fiber path, microwave and millimeter-wave line-of-sight networks traveling at light speed in air vs glass (30% latency advantage), and algorithmic market making.\r\n14. **Project Natick: What Microsoft Learned Sinking a Data Center to the Bottom of the Ocean**\r\n   - *Question:* Why did a pressurized steel capsule holding 864 servers submerged off the coast of Scotland experience one-eighth the hardware failure rate of land facilities?\r\n   - *Key Focus:* Free ocean water thermal cooling, dry pure nitrogen atmosphere eliminating oxygen corrosion, lack of human movement and vibrations, and rapid coastal city deployment potential.\r\n15. **Fire Suppression in Server Halls: Inergen Gas vs Water Mist Systems**\r\n   - *Question:* How do you extinguish an electrical fire inside a room filled with tens of millions of dollars of live electronics without shorting them out or deafening the hard drives?\r\n   - *Key Focus:* Inert gas systems (Inergen, FM-200, Novec 1230) suffocating fire by lowering oxygen without suffocating humans, acoustic shockwave mufflers protecting hard drives, and double-interlock pre-action sprinklers.\r\n16. **Physical Security at the Edge: Mantraps, Biometrics, and Faraday Cages**\r\n   - *Question:* What happens if a rogue actor attempts to physically break into an enterprise or government intelligence data center?\r\n   - *Key Focus:* K-rated anti-ram perimeter crash fences, dual-door mantraps with weight sensors, iris and biometric palm scanners, strict compartmentalized cage access, and TEMPEST-certified electromagnetic shielding.\r\n### Tier 4: Enterprise Strategy & Deep Mastery\r\n17. **Waste Heat Recovery: Using Cloud Servers to Warm Cities, Swimming Pools, and Greenhouses**\r\n   - *Question:* Why let billions of BTUs of thermal heat evaporate into the atmosphere when it can be pumped into municipal district heating systems to warm homes?\r\n   - *Key Focus:* Low-grade heat exchange thermodynamics, European regulations mandating district heat reuse (Stockholm, Paris), warming municipal swimming pools, and circular energy economies.\r\n18. **Edge Data Centers: Why 5G and Autonomous Driving Demand Micro-Facilities Every 5 Miles**\r\n   - *Question:* Why can't self-driving cars and robotic surgical arms wait 50 milliseconds to query a distant hyperscale data center 500 miles away?\r\n   - *Key Focus:* Speed-of-light latency physics, modular containerized edge data pods installed at cell towers, decentralized content delivery networks (CDNs), and distributed microgrid resilience.\r\n19. **The $1 Billion Facility: The CapEx and OpEx Breakdown of a 100 MW Campus**\r\n   - *Question:* Where does $1 billion go when developing a cloud campus, and why does electricity account for 75% of operational lifetime costs?\r\n   - *Key Focus:* Shell construction vs MEP (Mechanical, Electrical, Plumbing) equipment split, generator and transformer procurement, server hardware 3-year refresh cycles, power tariff structures, and real estate leasing models.\r\n20. **The Masterclass on Data Center Engineering: Designing the Ultimate Cloud Campus**\r\n   - *Question:* How does an infrastructure director design a resilient, sustainable, scalable 500-megawatt computing campus that will operate flawlessly for 30 years?\r\n   - *Key Focus:* Holistic integration of high-voltage utility interconnections, closed-loop liquid thermal topologies, modular scalable building blocks, automated DCIM (Data Center Infrastructure Management) telemetry, and future-proofing for next-generation silicon.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 160 (Data Centers & Infrastructure)\r\n- **Angle Preset:** `case_study`\r\n- **Episode Title:** *The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center*\r\n- **Episode Slug:** `160_data_centers_infrastructure_case_study_the_megawatt_facility`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/160_data_centers_infrastructure/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "52a86eb3b6f4ba421e033e20cbc18d0abc10fdad3e1b5864b63e01990eac0c1d",
+        "original_text": "# 160 Data Centers & Infrastructure -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 160 Data Centers & Infrastructure (Computing_Software)  \r\n> **Storage Directory:** `topics/160_data_centers_infrastructure/`  \r\n> **Synchronized With:** `OUTPUT/160_data_centers_infrastructure/`, `REGISTRY/Niches/160_data_centers_infrastructure/`, and `160_DATA_CENTERS_INFRASTRUCTURE_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 160 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/160_data_centers_infrastructure](../../OUTPUT/160_data_centers_infrastructure) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center** | Tier 1: Foundational Frameworks | `case_study` | `megawatt_facility_anatomy_hyperscale_data_center` | Crucial foundational episode exploring the immense physical, electrical, and thermal reality of modern cloud computing infrastructure. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **PUE Deconstructed: The Single Metric That Measures Data Center Efficiency** | Tier 1: Foundational Frameworks | `beginner_guide` | `power_usage_effectiveness_pue_metric_efficiency` | Explains the universal benchmark metric that governs sustainability, operating costs, and thermal design in data centers. | `QUEUED` |\r\n| 3 | **Uptime Tiers I to IV: What It Costs to Guarantee 99.999% 'Five Nines' Reliability** | Tier 1: Foundational Frameworks | `comparative_analysis` | `uptime_tiers_1_to_4_five_nines_redundancy_standards` | Establishes the international engineering classification system for electrical and mechanical facility redundancy. | `QUEUED` |\r\n| 4 | **The Zero-Second Blackout: How UPS Systems Bridge the Gap Between Grid Failure and Diesel Generators** | Tier 1: Foundational Frameworks | `mechanisms_and_systems` | `uninterruptible_power_supply_ups_rotary_flywheels_diesel_generators` | Deconstructs the critical electrical safety net that guarantees uninterrupted power continuity during sudden utility grid collapses. | `QUEUED` |\r\n| 5 | **Hot Aisles vs Cold Aisles: The Aerodynamic Science of Not Baking Server Racks** | Tier 1: Foundational Frameworks | `deep_dive` | `hot_aisle_cold_aisle_containment_airflow_aerodynamics` | Masterclass on basic thermal airflow containment principles required to cool high-density server configurations. | `QUEUED` |\r\n| 6 | **Liquid Cooling Revolution: Why AI Compute Chips Are Drowning in Fluorochemicals and Water** | Tier 2: Practical Mechanics & Channels | `field_investigation` | `liquid_cooling_revolution_direct_to_chip_immersion_cooling` | Investigates the mandatory technological shift to liquid cooling forced by power-hungry modern GPU AI accelerators. | `QUEUED` |\r\n| 7 | **Spine-Leaf Networks: The Non-Blocking Optical Fabric Inside Modern Cloud Clusters** | Tier 2: Practical Mechanics & Channels | `mechanisms_and_systems` | `spine_leaf_network_fabric_clos_topology_latency` | Deconstructs the high-speed optical networking architecture that connects modern distributed cloud and AI computing. | `QUEUED` |\r\n| 8 | **Subsea Cables: The 800,000-Mile Fiber Optic Nervous System Under the Oceans** | Tier 2: Practical Mechanics & Channels | `historical_evolution` | `subsea_cables_transatlantic_fiber_optics_landing_stations` | Celebrates the incredible physical marine engineering that physically binds the global internet together. | `QUEUED` |\r\n| 9 | **The Data Center Water Crisis: Millions of Gallons Evaporated for Cooling** | Tier 2: Practical Mechanics & Channels | `systemic_critique` | `data_center_water_crisis_evaporative_cooling_towers` | Directly confronts the acute, controversial environmental tension between data processing and municipal freshwater supplies. | `QUEUED` |\r\n| 10 | **Northern Virginia: Inside 'Data Center Alley' Where 70% of the World's Internet Flows** | Tier 2: Practical Mechanics & Channels | `case_study` | `data_center_alley_loudoun_county_virginia_internet_capital` | Examines the singular geographic epicenter of the global cloud computing infrastructure boom. | `QUEUED` |\r\n| 11 | **The AI Power Shock: Why Artificial Intelligence is Breaking National Electrical Grids** | Tier 3: Advanced Methodologies & Frameworks | `investigative_report` | `ai_power_shock_grid_capacity_nvidia_megawatt_clusters` | Investigates the massive collision between exponentially growing artificial intelligence computing and static electrical grid infrastructure. | `QUEUED` |\r\n| 12 | **Small Modular Reactors (SMRs): Can Nuclear Power Solve the Hyperscale Energy Crunch?** | Tier 3: Advanced Methodologies & Frameworks | `future_predictions` | `small_modular_reactors_smrs_nuclear_data_centers_tech_giants` | Evaluates the historic pivot of Silicon Valley toward commercial nuclear energy to power next-generation AI clusters. | `QUEUED` |\r\n| 13 | **Dark Fiber and High-Frequency Trading: The Race for Nanoseconds Between Chicago and New York** | Tier 3: Advanced Methodologies & Frameworks | `field_investigation` | `dark_fiber_high_frequency_trading_microwave_towers_nanoseconds` | Fascinating examination of how financial arbitrage turns physical spatial distance and light physics into billions of dollars. | `QUEUED` |\r\n| 14 | **Project Natick: What Microsoft Learned Sinking a Data Center to the Bottom of the Ocean** | Tier 3: Advanced Methodologies & Frameworks | `case_study` | `project_natick_underwater_subsea_data_centers_microsoft` | Analyzes one of the boldest experimental data center engineering trials ever conducted. | `QUEUED` |\r\n| 15 | **Fire Suppression in Server Halls: Inergen Gas vs Water Mist Systems** | Tier 3: Advanced Methodologies & Frameworks | `mechanisms_and_systems` | `fire_suppression_data_centers_inergen_gas_vs_preaction_sprinklers` | Deconstructs the specialized life-safety and asset-protection systems designed for high-voltage server environments. | `QUEUED` |\r\n| 16 | **Physical Security at the Edge: Mantraps, Biometrics, and Faraday Cages** | Tier 3: Advanced Methodologies & Frameworks | `field_investigation` | `physical_security_data_centers_mantraps_biometrics_faraday_cages` | Examines the fortress-like defense architecture protecting global digital information from physical infiltration. | `QUEUED` |\r\n| 17 | **Waste Heat Recovery: Using Cloud Servers to Warm Cities, Swimming Pools, and Greenhouses** | Tier 4: Enterprise Strategy & Deep Mastery | `comparative_analysis` | `waste_heat_recovery_district_heating_data_centers_europe` | Highlights sustainable circular engineering models integrating digital infrastructure into urban civil utilities. | `QUEUED` |\r\n| 18 | **Edge Data Centers: Why 5G and Autonomous Driving Demand Micro-Facilities Every 5 Miles** | Tier 4: Enterprise Strategy & Deep Mastery | `future_predictions` | `edge_data_centers_micro_facilities_5g_autonomous_vehicles` | Explores the architectural decentralization of computing moving from centralized megawatt barns to hyper-localized edge nodes. | `QUEUED` |\r\n| 19 | **The $1 Billion Facility: The CapEx and OpEx Breakdown of a 100 MW Campus** | Tier 4: Enterprise Strategy & Deep Mastery | `cost_breakdown` | `data_center_capex_opex_cost_breakdown_100mw_campus` | Detailed financial breakdown of capital expenditures, operational expenses, and lease structures in digital real estate infrastructure. | `QUEUED` |\r\n| 20 | **The Masterclass on Data Center Engineering: Designing the Ultimate Cloud Campus** | Tier 4: Enterprise Strategy & Deep Mastery | `masterclass` | `masterclass_data_center_engineering_campus_design` | The definitive masterclass synthesizing electrical, mechanical, civil, network, and environmental data center engineering. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **The Three Mile Island Nuclear Restart: Constellation and Microsoft's 20-Year Power Deal** | **High Global Velocity (9.6/10)** | `case_study` | `three_mile_island_restart_microsoft_nuclear_power_deal` | Sensational headlines as Microsoft finances the revival of a shuttered nuclear reactor to secure dedicated 835 MW carbon-free power for AI data centers. | `TRENDING CANDIDATE` |\r\n| 22 | **The 100 kW Server Rack: How NVIDIA's Blackwell NVL72 is Breaking Data Center Cooling** | **Rapid Surge (9.5/10)** | `field_investigation` | `nvidia_blackwell_nvl72_100kw_rack_liquid_cooling_crisis` | Engineering panic across data center operators scrambling to retro-fit facilities with liquid cooling manifolds to support 120-kilowatt AI clusters. | `TRENDING CANDIDATE` |\r\n| 23 | **Northern Virginia at the Brink: Dominion Energy's Power Grid Capacity Bottleneck** | **Viral Peak (9.3/10)** | `investigative_report` | `northern_virginia_data_center_alley_power_grid_bottleneck` | Severe public and political battles in Loudoun and Prince William counties as data center electricity demands overwhelm local utility transmission lines. | `TRENDING CANDIDATE` |\r\n| 24 | **Subsea Data Centers Go Commercial: Can Ocean Cooling Solve the AI Heat Problem?** | **Breakthrough Trend (9.1/10)** | `future_predictions` | `subsea_ocean_data_centers_commercial_scaling_subsea_cloud` | Startups submerging modular data pods in deep cold ocean waters off California and Norway, claiming zero freshwater usage and 90% cooling energy reductions. | `TRENDING CANDIDATE` |\r\n| 25 | **The Subsea Cable Cut Crisis: How Anchor Drags in the Red Sea Disrupted Global Internet** | **High Velocity (8.9/10)** | `root_cause_analysis` | `subsea_cable_cut_crisis_red_sea_anchor_drags_internet_routing` | Widespread internet outages following severed undersea fiber cables in the Bab al-Mandab Strait, highlighting global telecommunication vulnerabilities. | `TRENDING CANDIDATE` |\r\n| 26 | **Direct-to-Chip vs Immersion Cooling: The War Inside High-Density Server Halls** | **Emerging Niche (8.8/10)** | `comparative_analysis` | `direct_to_chip_vs_immersion_cooling_data_center_hardware` | Fierce debate between server manufacturers backing closed-loop cold plates vs total fluid submersion tanks for next-generation GPU clusters. | `TRENDING CANDIDATE` |\r\n| 27 | **The $10 Billion Campus: Inside the Largest AI Data Center Projects on Earth** | **Steady Long-Tail (8.5/10)** | `cost_breakdown` | `ten_billion_dollar_ai_data_center_campuses_stargate` | Financial analyses of multi-gigawatt computing campuses (including Microsoft and OpenAI's 'Stargate') planned with private power generation. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/160_data_centers_infrastructure/160_DATA_CENTERS_INFRASTRUCTURE_CHANNEL_TOPIC_ROADMAP.md`](./160_DATA_CENTERS_INFRASTRUCTURE_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/160_data_centers_infrastructure/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/160_data_centers_infrastructure/NICHE_160_data_centers_infrastructure.md`](file:///h:/script-raw-/REGISTRY/Niches/160_data_centers_infrastructure/NICHE_160_data_centers_infrastructure.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/160_data_centers_infrastructure/CAT_160_data_centers_infrastructure.md`](file:///h:/script-raw-/REGISTRY/Niches/160_data_centers_infrastructure/CAT_160_data_centers_infrastructure.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/160_data_centers_infrastructure/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/160_data_centers_infrastructure/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/160_data_centers_infrastructure/`](file:///h:/script-raw-/OUTPUT/160_data_centers_infrastructure/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "3250135f40192400ac0f4873a2cf57dce79c2486c6d3d7d5837354cf55636cdc",
+        "original_text": "{\r\n  \"niche_id\": \"160\",\r\n  \"niche_name\": \"data_centers_infrastructure\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"megawatt_facility_anatomy_hyperscale_data_center\",\r\n      \"reason\": \"Crucial foundational episode exploring the immense physical, electrical, and thermal reality of modern cloud computing infrastructure.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"PUE Deconstructed: The Single Metric That Measures Data Center Efficiency\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_guide\",\r\n      \"slug\": \"power_usage_effectiveness_pue_metric_efficiency\",\r\n      \"reason\": \"Explains the universal benchmark metric that governs sustainability, operating costs, and thermal design in data centers.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Uptime Tiers I to IV: What It Costs to Guarantee 99.999% 'Five Nines' Reliability\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"uptime_tiers_1_to_4_five_nines_redundancy_standards\",\r\n      \"reason\": \"Establishes the international engineering classification system for electrical and mechanical facility redundancy.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"The Zero-Second Blackout: How UPS Systems Bridge the Gap Between Grid Failure and Diesel Generators\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"uninterruptible_power_supply_ups_rotary_flywheels_diesel_generators\",\r\n      \"reason\": \"Deconstructs the critical electrical safety net that guarantees uninterrupted power continuity during sudden utility grid collapses.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Hot Aisles vs Cold Aisles: The Aerodynamic Science of Not Baking Server Racks\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"hot_aisle_cold_aisle_containment_airflow_aerodynamics\",\r\n      \"reason\": \"Masterclass on basic thermal airflow containment principles required to cool high-density server configurations.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Liquid Cooling Revolution: Why AI Compute Chips Are Drowning in Fluorochemicals and Water\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"liquid_cooling_revolution_direct_to_chip_immersion_cooling\",\r\n      \"reason\": \"Investigates the mandatory technological shift to liquid cooling forced by power-hungry modern GPU AI accelerators.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Spine-Leaf Networks: The Non-Blocking Optical Fabric Inside Modern Cloud Clusters\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"spine_leaf_network_fabric_clos_topology_latency\",\r\n      \"reason\": \"Deconstructs the high-speed optical networking architecture that connects modern distributed cloud and AI computing.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Subsea Cables: The 800,000-Mile Fiber Optic Nervous System Under the Oceans\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"historical_evolution\",\r\n      \"slug\": \"subsea_cables_transatlantic_fiber_optics_landing_stations\",\r\n      \"reason\": \"Celebrates the incredible physical marine engineering that physically binds the global internet together.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"The Data Center Water Crisis: Millions of Gallons Evaporated for Cooling\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"systemic_critique\",\r\n      \"slug\": \"data_center_water_crisis_evaporative_cooling_towers\",\r\n      \"reason\": \"Directly confronts the acute, controversial environmental tension between data processing and municipal freshwater supplies.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Northern Virginia: Inside 'Data Center Alley' Where 70% of the World's Internet Flows\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"data_center_alley_loudoun_county_virginia_internet_capital\",\r\n      \"reason\": \"Examines the singular geographic epicenter of the global cloud computing infrastructure boom.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"The AI Power Shock: Why Artificial Intelligence is Breaking National Electrical Grids\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"investigative_report\",\r\n      \"slug\": \"ai_power_shock_grid_capacity_nvidia_megawatt_clusters\",\r\n      \"reason\": \"Investigates the massive collision between exponentially growing artificial intelligence computing and static electrical grid infrastructure.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Small Modular Reactors (SMRs): Can Nuclear Power Solve the Hyperscale Energy Crunch?\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"small_modular_reactors_smrs_nuclear_data_centers_tech_giants\",\r\n      \"reason\": \"Evaluates the historic pivot of Silicon Valley toward commercial nuclear energy to power next-generation AI clusters.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Dark Fiber and High-Frequency Trading: The Race for Nanoseconds Between Chicago and New York\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"dark_fiber_high_frequency_trading_microwave_towers_nanoseconds\",\r\n      \"reason\": \"Fascinating examination of how financial arbitrage turns physical spatial distance and light physics into billions of dollars.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Project Natick: What Microsoft Learned Sinking a Data Center to the Bottom of the Ocean\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"project_natick_underwater_subsea_data_centers_microsoft\",\r\n      \"reason\": \"Analyzes one of the boldest experimental data center engineering trials ever conducted.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Fire Suppression in Server Halls: Inergen Gas vs Water Mist Systems\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"fire_suppression_data_centers_inergen_gas_vs_preaction_sprinklers\",\r\n      \"reason\": \"Deconstructs the specialized life-safety and asset-protection systems designed for high-voltage server environments.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Physical Security at the Edge: Mantraps, Biometrics, and Faraday Cages\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"physical_security_data_centers_mantraps_biometrics_faraday_cages\",\r\n      \"reason\": \"Examines the fortress-like defense architecture protecting global digital information from physical infiltration.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Waste Heat Recovery: Using Cloud Servers to Warm Cities, Swimming Pools, and Greenhouses\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"waste_heat_recovery_district_heating_data_centers_europe\",\r\n      \"reason\": \"Highlights sustainable circular engineering models integrating digital infrastructure into urban civil utilities.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Edge Data Centers: Why 5G and Autonomous Driving Demand Micro-Facilities Every 5 Miles\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"edge_data_centers_micro_facilities_5g_autonomous_vehicles\",\r\n      \"reason\": \"Explores the architectural decentralization of computing moving from centralized megawatt barns to hyper-localized edge nodes.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"The $1 Billion Facility: The CapEx and OpEx Breakdown of a 100 MW Campus\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"cost_breakdown\",\r\n      \"slug\": \"data_center_capex_opex_cost_breakdown_100mw_campus\",\r\n      \"reason\": \"Detailed financial breakdown of capital expenditures, operational expenses, and lease structures in digital real estate infrastructure.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Masterclass on Data Center Engineering: Designing the Ultimate Cloud Campus\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"masterclass\",\r\n      \"slug\": \"masterclass_data_center_engineering_campus_design\",\r\n      \"reason\": \"The definitive masterclass synthesizing electrical, mechanical, civil, network, and environmental data center engineering.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"The Three Mile Island Nuclear Restart: Constellation and Microsoft's 20-Year Power Deal\",\r\n      \"trend_score\": \"High Global Velocity (9.6/10)\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"three_mile_island_restart_microsoft_nuclear_power_deal\",\r\n      \"why_trending\": \"Sensational headlines as Microsoft finances the revival of a shuttered nuclear reactor to secure dedicated 835 MW carbon-free power for AI data centers.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"The 100 kW Server Rack: How NVIDIA's Blackwell NVL72 is Breaking Data Center Cooling\",\r\n      \"trend_score\": \"Rapid Surge (9.5/10)\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"nvidia_blackwell_nvl72_100kw_rack_liquid_cooling_crisis\",\r\n      \"why_trending\": \"Engineering panic across data center operators scrambling to retro-fit facilities with liquid cooling manifolds to support 120-kilowatt AI clusters.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Northern Virginia at the Brink: Dominion Energy's Power Grid Capacity Bottleneck\",\r\n      \"trend_score\": \"Viral Peak (9.3/10)\",\r\n      \"angle\": \"investigative_report\",\r\n      \"slug\": \"northern_virginia_data_center_alley_power_grid_bottleneck\",\r\n      \"why_trending\": \"Severe public and political battles in Loudoun and Prince William counties as data center electricity demands overwhelm local utility transmission lines.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Subsea Data Centers Go Commercial: Can Ocean Cooling Solve the AI Heat Problem?\",\r\n      \"trend_score\": \"Breakthrough Trend (9.1/10)\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"subsea_ocean_data_centers_commercial_scaling_subsea_cloud\",\r\n      \"why_trending\": \"Startups submerging modular data pods in deep cold ocean waters off California and Norway, claiming zero freshwater usage and 90% cooling energy reductions.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"The Subsea Cable Cut Crisis: How Anchor Drags in the Red Sea Disrupted Global Internet\",\r\n      \"trend_score\": \"High Velocity (8.9/10)\",\r\n      \"angle\": \"root_cause_analysis\",\r\n      \"slug\": \"subsea_cable_cut_crisis_red_sea_anchor_drags_internet_routing\",\r\n      \"why_trending\": \"Widespread internet outages following severed undersea fiber cables in the Bab al-Mandab Strait, highlighting global telecommunication vulnerabilities.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Direct-to-Chip vs Immersion Cooling: The War Inside High-Density Server Halls\",\r\n      \"trend_score\": \"Emerging Niche (8.8/10)\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"direct_to_chip_vs_immersion_cooling_data_center_hardware\",\r\n      \"why_trending\": \"Fierce debate between server manufacturers backing closed-loop cold plates vs total fluid submersion tanks for next-generation GPU clusters.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"The $10 Billion Campus: Inside the Largest AI Data Center Projects on Earth\",\r\n      \"trend_score\": \"Steady Long-Tail (8.5/10)\",\r\n      \"angle\": \"cost_breakdown\",\r\n      \"slug\": \"ten_billion_dollar_ai_data_center_campuses_stargate\",\r\n      \"why_trending\": \"Financial analyses of multi-gigawatt computing campuses (including Microsoft and OpenAI's 'Stargate') planned with private power generation.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "160",
+      "niche_name": "data_centers_infrastructure",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Megawatt Facility: Anatomy of a 100-Megawatt Hyperscale Data Center",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "case_study",
+          "slug": "megawatt_facility_anatomy_hyperscale_data_center",
+          "reason": "Crucial foundational episode exploring the immense physical, electrical, and thermal reality of modern cloud computing infrastructure.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "PUE Deconstructed: The Single Metric That Measures Data Center Efficiency",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_guide",
+          "slug": "power_usage_effectiveness_pue_metric_efficiency",
+          "reason": "Explains the universal benchmark metric that governs sustainability, operating costs, and thermal design in data centers.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Uptime Tiers I to IV: What It Costs to Guarantee 99.999% 'Five Nines' Reliability",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "comparative_analysis",
+          "slug": "uptime_tiers_1_to_4_five_nines_redundancy_standards",
+          "reason": "Establishes the international engineering classification system for electrical and mechanical facility redundancy.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "The Zero-Second Blackout: How UPS Systems Bridge the Gap Between Grid Failure and Diesel Generators",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "uninterruptible_power_supply_ups_rotary_flywheels_diesel_generators",
+          "reason": "Deconstructs the critical electrical safety net that guarantees uninterrupted power continuity during sudden utility grid collapses.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Hot Aisles vs Cold Aisles: The Aerodynamic Science of Not Baking Server Racks",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "deep_dive",
+          "slug": "hot_aisle_cold_aisle_containment_airflow_aerodynamics",
+          "reason": "Masterclass on basic thermal airflow containment principles required to cool high-density server configurations.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Liquid Cooling Revolution: Why AI Compute Chips Are Drowning in Fluorochemicals and Water",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "field_investigation",
+          "slug": "liquid_cooling_revolution_direct_to_chip_immersion_cooling",
+          "reason": "Investigates the mandatory technological shift to liquid cooling forced by power-hungry modern GPU AI accelerators.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Spine-Leaf Networks: The Non-Blocking Optical Fabric Inside Modern Cloud Clusters",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "mechanisms_and_systems",
+          "slug": "spine_leaf_network_fabric_clos_topology_latency",
+          "reason": "Deconstructs the high-speed optical networking architecture that connects modern distributed cloud and AI computing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Subsea Cables: The 800,000-Mile Fiber Optic Nervous System Under the Oceans",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "historical_evolution",
+          "slug": "subsea_cables_transatlantic_fiber_optics_landing_stations",
+          "reason": "Celebrates the incredible physical marine engineering that physically binds the global internet together.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "The Data Center Water Crisis: Millions of Gallons Evaporated for Cooling",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "systemic_critique",
+          "slug": "data_center_water_crisis_evaporative_cooling_towers",
+          "reason": "Directly confronts the acute, controversial environmental tension between data processing and municipal freshwater supplies.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Northern Virginia: Inside 'Data Center Alley' Where 70% of the World's Internet Flows",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "case_study",
+          "slug": "data_center_alley_loudoun_county_virginia_internet_capital",
+          "reason": "Examines the singular geographic epicenter of the global cloud computing infrastructure boom.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "The AI Power Shock: Why Artificial Intelligence is Breaking National Electrical Grids",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "investigative_report",
+          "slug": "ai_power_shock_grid_capacity_nvidia_megawatt_clusters",
+          "reason": "Investigates the massive collision between exponentially growing artificial intelligence computing and static electrical grid infrastructure.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Small Modular Reactors (SMRs): Can Nuclear Power Solve the Hyperscale Energy Crunch?",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "future_predictions",
+          "slug": "small_modular_reactors_smrs_nuclear_data_centers_tech_giants",
+          "reason": "Evaluates the historic pivot of Silicon Valley toward commercial nuclear energy to power next-generation AI clusters.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Dark Fiber and High-Frequency Trading: The Race for Nanoseconds Between Chicago and New York",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "field_investigation",
+          "slug": "dark_fiber_high_frequency_trading_microwave_towers_nanoseconds",
+          "reason": "Fascinating examination of how financial arbitrage turns physical spatial distance and light physics into billions of dollars.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Project Natick: What Microsoft Learned Sinking a Data Center to the Bottom of the Ocean",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "case_study",
+          "slug": "project_natick_underwater_subsea_data_centers_microsoft",
+          "reason": "Analyzes one of the boldest experimental data center engineering trials ever conducted.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Fire Suppression in Server Halls: Inergen Gas vs Water Mist Systems",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "fire_suppression_data_centers_inergen_gas_vs_preaction_sprinklers",
+          "reason": "Deconstructs the specialized life-safety and asset-protection systems designed for high-voltage server environments.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Physical Security at the Edge: Mantraps, Biometrics, and Faraday Cages",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "field_investigation",
+          "slug": "physical_security_data_centers_mantraps_biometrics_faraday_cages",
+          "reason": "Examines the fortress-like defense architecture protecting global digital information from physical infiltration.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Waste Heat Recovery: Using Cloud Servers to Warm Cities, Swimming Pools, and Greenhouses",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "comparative_analysis",
+          "slug": "waste_heat_recovery_district_heating_data_centers_europe",
+          "reason": "Highlights sustainable circular engineering models integrating digital infrastructure into urban civil utilities.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Edge Data Centers: Why 5G and Autonomous Driving Demand Micro-Facilities Every 5 Miles",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "future_predictions",
+          "slug": "edge_data_centers_micro_facilities_5g_autonomous_vehicles",
+          "reason": "Explores the architectural decentralization of computing moving from centralized megawatt barns to hyper-localized edge nodes.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "The $1 Billion Facility: The CapEx and OpEx Breakdown of a 100 MW Campus",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "cost_breakdown",
+          "slug": "data_center_capex_opex_cost_breakdown_100mw_campus",
+          "reason": "Detailed financial breakdown of capital expenditures, operational expenses, and lease structures in digital real estate infrastructure.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Masterclass on Data Center Engineering: Designing the Ultimate Cloud Campus",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "masterclass",
+          "slug": "masterclass_data_center_engineering_campus_design",
+          "reason": "The definitive masterclass synthesizing electrical, mechanical, civil, network, and environmental data center engineering.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "The Three Mile Island Nuclear Restart: Constellation and Microsoft's 20-Year Power Deal",
+          "trend_score": "High Global Velocity (9.6/10)",
+          "angle": "case_study",
+          "slug": "three_mile_island_restart_microsoft_nuclear_power_deal",
+          "why_trending": "Sensational headlines as Microsoft finances the revival of a shuttered nuclear reactor to secure dedicated 835 MW carbon-free power for AI data centers.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "The 100 kW Server Rack: How NVIDIA's Blackwell NVL72 is Breaking Data Center Cooling",
+          "trend_score": "Rapid Surge (9.5/10)",
+          "angle": "field_investigation",
+          "slug": "nvidia_blackwell_nvl72_100kw_rack_liquid_cooling_crisis",
+          "why_trending": "Engineering panic across data center operators scrambling to retro-fit facilities with liquid cooling manifolds to support 120-kilowatt AI clusters.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "Northern Virginia at the Brink: Dominion Energy's Power Grid Capacity Bottleneck",
+          "trend_score": "Viral Peak (9.3/10)",
+          "angle": "investigative_report",
+          "slug": "northern_virginia_data_center_alley_power_grid_bottleneck",
+          "why_trending": "Severe public and political battles in Loudoun and Prince William counties as data center electricity demands overwhelm local utility transmission lines.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "Subsea Data Centers Go Commercial: Can Ocean Cooling Solve the AI Heat Problem?",
+          "trend_score": "Breakthrough Trend (9.1/10)",
+          "angle": "future_predictions",
+          "slug": "subsea_ocean_data_centers_commercial_scaling_subsea_cloud",
+          "why_trending": "Startups submerging modular data pods in deep cold ocean waters off California and Norway, claiming zero freshwater usage and 90% cooling energy reductions.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "The Subsea Cable Cut Crisis: How Anchor Drags in the Red Sea Disrupted Global Internet",
+          "trend_score": "High Velocity (8.9/10)",
+          "angle": "root_cause_analysis",
+          "slug": "subsea_cable_cut_crisis_red_sea_anchor_drags_internet_routing",
+          "why_trending": "Widespread internet outages following severed undersea fiber cables in the Bab al-Mandab Strait, highlighting global telecommunication vulnerabilities.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "Direct-to-Chip vs Immersion Cooling: The War Inside High-Density Server Halls",
+          "trend_score": "Emerging Niche (8.8/10)",
+          "angle": "comparative_analysis",
+          "slug": "direct_to_chip_vs_immersion_cooling_data_center_hardware",
+          "why_trending": "Fierce debate between server manufacturers backing closed-loop cold plates vs total fluid submersion tanks for next-generation GPU clusters.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "The $10 Billion Campus: Inside the Largest AI Data Center Projects on Earth",
+          "trend_score": "Steady Long-Tail (8.5/10)",
+          "angle": "cost_breakdown",
+          "slug": "ten_billion_dollar_ai_data_center_campuses_stargate",
+          "why_trending": "Financial analyses of multi-gigawatt computing campuses (including Microsoft and OpenAI's 'Stargate') planned with private power generation.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "1deb60eeb26c9269b4e23f7886bd04cd35530cf1477f9abfeda01c531a2f3ba8"
+    },
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "eb64cbe95d73bd40bbffa3ad96cab60cbc7ea7881e772f369687a07b77ff36d1"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-160-01",
+      "title": "Tier 1: Foundational Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-02",
+      "title": "Tier 2: Practical Mechanics & Channels",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-03",
+      "title": "Tier 3: Advanced Methodologies & Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-04",
+      "title": "Tier 4: Enterprise Strategy & Deep Mastery",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-05",
+      "title": "Infrastructure foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-06",
+      "title": "Infrastructure operation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-160-07",
+      "title": "Infrastructure choices",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "160",
+    "slug": "data_centers_infrastructure",
+    "name": "Data Centers & Infrastructure",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Data Centers & Infrastructure YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-160-01",
+        "title": "Facility systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-160-001",
+            "title": "Server rack power density",
+            "question": "Server rack power density: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Facility systems. Address Server rack power density through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Server rack power density.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-002",
+            "title": "Cooling architectures",
+            "question": "Cooling architectures: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Facility systems. Address Cooling architectures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cooling architectures.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-003",
+            "title": "Uninterruptible power systems",
+            "question": "Uninterruptible power systems: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Facility systems. Address Uninterruptible power systems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Uninterruptible power systems.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-160-02",
+        "title": "Network and storage",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-160-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-160-004",
+            "title": "East-west data traffic",
+            "question": "East-west data traffic: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Network and storage. Address East-west data traffic through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind East-west data traffic.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-005",
+            "title": "Storage redundancy",
+            "question": "Storage redundancy: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Network and storage. Address Storage redundancy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Storage redundancy.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-006",
+            "title": "Disaster recovery objectives",
+            "question": "Disaster recovery objectives: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Network and storage. Address Disaster recovery objectives through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Disaster recovery objectives.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-160-03",
+        "title": "Environmental accounting",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-160-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-160-007",
+            "title": "PUE interpretation",
+            "question": "PUE interpretation: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Environmental accounting. Address PUE interpretation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define PUE interpretation precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-008",
+            "title": "Water-use metrics",
+            "question": "Water-use metrics: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Environmental accounting. Address Water-use metrics through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Water-use metrics precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-160-009",
+            "title": "Location and grid-emissions differences",
+            "question": "Location and grid-emissions differences: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Data Centers & Infrastructure; branch: Environmental accounting. Address Location and grid-emissions differences through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Location and grid-emissions differences precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "113",
+        "title": "Energy & Power",
+        "directory": "113_energy_power",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "114",
+        "title": "Water",
+        "directory": "114_water",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "157",
+        "title": "Materials Science",
+        "directory": "157_materials_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "158",
+        "title": "Batteries & Energy Storage",
+        "directory": "158_batteries_energy_storage",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "161",
+        "title": "Electricity & Electronics",
+        "directory": "161_electricity_electronics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "357",
+        "title": "Gemology",
+        "directory": "357_gemology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [
+    "BANK-160-010",
+    "BANK-160-011",
+    "BANK-160-012",
+    "BANK-160-013",
+    "BANK-160-014",
+    "BANK-160-015",
+    "BANK-160-016",
+    "BANK-160-017",
+    "BANK-160-018",
+    "BANK-160-019",
+    "BANK-160-020",
+    "BANK-160-021",
+    "BANK-160-022",
+    "BANK-160-023",
+    "BANK-160-024",
+    "BANK-160-025",
+    "BANK-160-026",
+    "BANK-160-027",
+    "BANK-160-028",
+    "BANK-160-029"
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "c22e3e71907239e3e8409a1bcc9add50232d1a1c81d3cd5bb434ced49a759a81",
+    "TOPIC_BANK_RECONCILIATION.md": "71a250345a481b0cc2152623715d6cdaf96dfa68ea6462b20cdbeb5b5549dcd2",
+    "TOPICS_COVERED_REPORT.md": "41e7750c6e238a0009c24b604adcafc9db007e04f5bd5871f76992041ce39c74",
+    "160_DATA_CENTERS_INFRASTRUCTURE_CHANNEL_TOPIC_ROADMAP.md": "b2c909a45da81c412f66dbc3aa89056188b6d5e47e78f9eed4cc15cc47f82723"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-160-001": [
+      "BANK-160-031"
+    ],
+    "BANK-160-002": [
+      "BANK-160-033"
+    ],
+    "BANK-160-005": [
+      "BANK-160-032"
+    ],
+    "BANK-160-006": [
+      "BANK-160-037"
+    ],
+    "BANK-160-007": [
+      "BANK-160-035"
+    ],
+    "BANK-160-008": [
+      "BANK-160-038"
+    ],
+    "BANK-160-009": [
+      "BANK-160-041"
+    ],
+    "BANK-160-003": [
+      "BANK-160-013"
+    ],
+    "BANK-160-004": [
+      "BANK-160-016"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Case and source readiness",
+      "next_step": "Select dated jurisdictions, editions, named sites, populations or product versions for the active proposals. Inspect actual sources before making factual claims; no research or production readiness was certified."
+    },
+    {
+      "area": "Reviewed starter branches and primary-home boundaries",
+      "next_step": "All original starter concepts now have explicit individual-scope targets. See the starter crosswalk below and Scripts/editorial_review_002_184.json for scope evidence and semantic pair decisions; follow the primary-home referrals after consolidation."
+    },
+    {
+      "area": "Regional and participant variation",
+      "next_step": "Compare less-visible regions, languages, participants and contrary cases within this niche; record substantive distinctions before adding another proposal."
+    }
+  ],
+  "coverage_mapping_review": {
+    "date": "2026-10-23",
+    "method": "Manual thematic cross-references to authored questions. A link is a navigation aid, not a claim that every aspect of a starter branch has been exhausted.",
+    "mapped_starter_concepts": 7,
+    "unmapped_starter_concepts": 2
+  },
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_primary_sources_only",
+    "semantic_candidates_reviewed": 2,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-010"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/1": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-011",
+        "BANK-160-035"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-012"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-013"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-014"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-015",
+        "BANK-160-042"
+      ],
+      "reason": "General cooling is already scoped; the named NVL72 reference rack adds a specific load and heat-path case."
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-016"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-017"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/8": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-018",
+        "BANK-160-038"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-019",
+        "BANK-160-039",
+        "BANK-160-043"
+      ],
+      "reason": "Northern Virginia siting exists; the utility's 2024 connection report adds a dated capacity record."
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-020",
+        "BANK-160-043"
+      ],
+      "reason": "Utility connection claims need a dated load boundary; the 2024 reported completions are distinct from predicted waits."
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-021",
+        "BANK-001-205"
+      ],
+      "reason": "The data-center energy scope remains local; the AI bank already has the primary nuclear-agreement timing distinction."
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-022"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-023",
+        "BANK-160-037"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-024"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-025"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-026"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-027"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-028"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-029",
+        "BANK-160-034",
+        "BANK-160-041"
+      ],
+      "reason": "Existing original BANK question is the primary home; numerical scale and performance claims require dated source checks."
+    },
+    "trending_topics/0": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-021",
+        "BANK-001-205"
+      ],
+      "reason": "Power procurement is local, while BANK-001-205 covers why the Constellation-Microsoft agreement does not prove delivery timing."
+    },
+    "trending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-160-015",
+        "BANK-160-042"
+      ],
+      "reason": "General liquid cooling plus the named GB200 NVL72 rack cover the 100-kW trend; exact loads depend on configuration."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-160-019",
+        "BANK-160-020",
+        "BANK-160-043"
+      ],
+      "reason": "Northern Virginia siting and interconnection scopes plus Dominion?s 2024 connected-load record cover this trend."
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-023"
+      ],
+      "reason": "Project Natick is already the original named subsea-facility case; commercialization is not verified."
+    },
+    "trending_topics/4": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-017"
+      ],
+      "reason": "Subsea cables are already scoped as infrastructure; Red Sea cuts need operator-specific outage evidence before a separate case."
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-015",
+        "BANK-160-042"
+      ],
+      "reason": "Direct-liquid and air pathways are covered; an immersion comparison needs specified system designs."
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "bank_ids": [
+        "BANK-160-028",
+        "BANK-160-039"
+      ],
+      "reason": "Facility costs and community questions are existing scopes; the $10 billion superlative needs a named audited project."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-160-042",
+      "note_file": "RESEARCH_NOTE_DATA_CENTER_CASES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-160-043",
+      "note_file": "RESEARCH_NOTE_DATA_CENTER_CASES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-160-021",
+      "note_file": "RESEARCH_NOTE_DATA_CENTER_CASES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-160-042",
+      "related_id": "BANK-001-206",
+      "boundary": "The named rack design is a facility integration case; the AI bank explains general air and liquid heat transfer."
+    },
+    {
+      "topic_id": "BANK-160-043",
+      "related_id": "BANK-001-205",
+      "boundary": "Dominion?s connection record concerns regional utility capacity; the AI bank distinguishes nuclear agreements from delivered energy."
+    },
+    {
+      "topic_id": "BANK-160-021",
+      "related_id": "BANK-113-025",
+      "boundary": "The data-center scope concerns power procurement; energy covers SMR investment and generation claims."
+    },
+    {
+      "topic_id": "BANK-160-038",
+      "related_id": "BANK-001-203",
+      "boundary": "Facility water comparison belongs here; the AI bank tests onsite versus indirect water accounting."
+    },
+    {
+      "topic_id": "BANK-160-017",
+      "related_id": "BANK-129-035",
+      "boundary": "Data-center infrastructure dependence differs from internet history of undersea access."
+    }
+  ]
+}

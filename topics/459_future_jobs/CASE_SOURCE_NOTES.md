@@ -1,0 +1,5 @@
+# Case-source note: cashier employment and openings
+
+Checked 2026-10-24. The U.S. Bureau of Labor Statistics [Cashiers, Occupational Outlook Handbook](https://www.bls.gov/ooh/sales/cashiers.htm) reports a projected 6% employment decline from 2025 to 2035 (about 3,106,300 to 2,905,700 jobs) alongside about 521,300 openings per year, on average, attributed to workers transferring occupations or leaving the labor force. The BLS [largest job declines table](https://www.bls.gov/emp/tables/occupations-largest-job-declines.htm) independently lists the same occupation and 2025–35 employment change.
+
+Limit: This is a U.S. projection vintage, not observed hiring or a forecast for a specific town or employer. Employment change is a net stock difference; annual openings include replacement flows and must not be added as if they were net new jobs. BLS rounds the headline decline. Its explanation of self-checkout and online sales is a projection assumption, not proof that every cashier job disappears or that an individual should change careers. Recheck current BLS vintage before production.

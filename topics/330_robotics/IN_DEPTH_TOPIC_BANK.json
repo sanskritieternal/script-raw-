@@ -1,0 +1,1586 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "330",
+  "slug": "robotics",
+  "name": "Robotics",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Robotics YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 12
+  },
+  "categories": [
+    {
+      "id": "CATALOG-330-R01",
+      "title": "Control loops",
+      "level": "foundation",
+      "parent_id": "DOMAIN-330-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ec317f6a5e1f013500dc749a34a6c288eed230419d292bfa2655abfc0e242664",
+      "topics": [
+        {
+          "question": "How does a robot turn a desired movement into corrected motion?",
+          "coverage": "Trace sensing, error, actuation and feedback using a simplified arm or mobile robot.",
+          "id": "BANK-330-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-330-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R02",
+      "title": "Uncertainty",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0f63e043cf9829b6d9961a45a4fab16d38ef0636e47afb82bfed9b2c4a84e2b1",
+      "topics": [
+        {
+          "question": "Why can a robot recognize an object but still fail to grasp it?",
+          "coverage": "Compare depth, occlusion, material, pose uncertainty and gripper limits.",
+          "id": "BANK-330-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R03",
+      "title": "Compliance",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6059ed081981b1204dc9bf9f3a05da66d76d260616f53e1b709ac58f70769396",
+      "topics": [
+        {
+          "question": "When can a softer robot outperform a rigid precise mechanism?",
+          "coverage": "Compare contact, tolerance, payload, control and task context without universal design rankings.",
+          "id": "BANK-330-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R04",
+      "title": "Deployment",
+      "level": "advanced",
+      "parent_id": "DOMAIN-330-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3eebe656ea5152e6947a4ffa459c130db596685e7b0c4436e38ecf6de044be62",
+      "topics": [
+        {
+          "question": "Why does a successful robotics demonstration not prove reliable real-world operation?",
+          "coverage": "Compare trial selection, resets, environment variation, failure rate and human intervention.",
+          "id": "BANK-330-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-330-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R05",
+      "title": "Kinematics",
+      "level": "foundation",
+      "parent_id": "DOMAIN-330-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bd907064439c5c6a6f22ed269bd74e9680f543f1bf260d4a0d45fcb51a973377",
+      "topics": [
+        {
+          "question": "How do degrees of freedom constrain where a robot arm can reach?",
+          "coverage": "Compare joints, links, workspace, singular configurations and task requirements through a diagram.",
+          "id": "BANK-330-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-330-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R06",
+      "title": "Agricultural perception",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "227744e7ab870c0f1e62c93757f201c09e29a5c03987ead666184a4c0b0c854f",
+      "topics": [
+        {
+          "question": "Why is recognizing crops outdoors harder than recognizing objects in a controlled factory?",
+          "coverage": "Compare lighting, occlusion, seasons, biological variation and motion.",
+          "id": "BANK-330-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-330-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R07",
+      "title": "Automation costs",
+      "level": "advanced",
+      "parent_id": "DOMAIN-330-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "45240570f812f1d6aa1d60654700e70941dcb76cd8039c1fc2e4e2cdd18a2be3",
+      "topics": [
+        {
+          "question": "What belongs in a robot's deployment cost beyond its purchase price?",
+          "coverage": "Compare integration, tooling, downtime, maintenance, training and task variability using explicit assumptions.",
+          "id": "BANK-330-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-330-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R08",
+      "title": "Sensor fusion",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1f07367bd1b19351146302e18c2cfae87e08ba5d15169546085d4f2a0914d156",
+      "topics": [
+        {
+          "question": "Why can combining two imperfect robot sensors improve an estimate without making it certain?",
+          "coverage": "Compare noise, bias, synchronization, calibration and correlated errors.",
+          "covers_starter_ids": [
+            "BANK-330-003"
+          ],
+          "id": "BANK-330-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R09",
+      "title": "Warehouses",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d880d86658ca6f403309115e91a06df45ef943946bdef8a0fcd6717115cfa5ba",
+      "topics": [
+        {
+          "question": "How do warehouse mobile robots coordinate movement in changing aisles?",
+          "coverage": "Compare maps, localization, task allocation, obstacles and human interaction without operator-specific instructions.",
+          "covers_starter_ids": [
+            "BANK-330-004"
+          ],
+          "id": "BANK-330-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did Amazon's 2022 Proteus announcement establish about robots moving GoCarts in shared facility space?",
+          "coverage": "Trace the announced outbound GoCart handling task, human-shared navigation claim and planned deployment scope; distinguish the operator announcement from independent safety, reliability, injury or labor-outcome evidence.",
+          "id": "BANK-330-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R10",
+      "title": "Collaborative arms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-330-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c5bb81e7a4937afe171fc8dba8d9b6941b99eb3b07fc64922648ca5fefef14d8",
+      "topics": [
+        {
+          "question": "Why does calling a robot collaborative not certify every surrounding task as safe?",
+          "coverage": "Compare tooling, payload, contact, speed, workspace and system-level risk assessment; exclude safety certification.",
+          "covers_starter_ids": [
+            "BANK-330-005",
+            "BANK-330-007"
+          ],
+          "id": "BANK-330-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-330-R11",
+      "title": "Motion constraints",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-330-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "62ee231e1bea0fdde254bf42b615886ef76c92fa676f58df295ecc0312d35287",
+      "topics": [
+        {
+          "question": "Why can a collision-free path in a robot simulator fail when executed by the real machine?",
+          "coverage": "Compare model error, joint limits, payload deformation, control timing and changing obstacles; distinguish path geometry from dynamic feasibility.",
+          "id": "BANK-330-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "331",
+      "title": "Humanoid Robots",
+      "directory": "331_humanoid_robots",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "332",
+      "title": "Drones",
+      "directory": "332_drones",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "333",
+      "title": "Brain-Computer Interfaces",
+      "directory": "333_brain-computer_interfaces",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "334",
+      "title": "Virtual Worlds",
+      "directory": "334_virtual_worlds",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "335",
+      "title": "Digital Humans",
+      "directory": "335_digital_humans",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "342",
+      "title": "AI Filmmaking",
+      "directory": "342_ai_filmmaking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/330_robotics/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "a0f622ed83b42ad4f7310bb31b93ce3577f71deebc249fe99dd39d668ea82fb5",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-330-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "282a381f3115ac916fd1a6cee5303decabe2b36a0bcbc0eb36a7280216732e72"
+      },
+      "BANK-330-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2f5f269f1eae8e4645a42df3a6db34363d8e8d9964f16782cc91dde4b27397ac"
+      },
+      "BANK-330-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "74c2f725293eb34f76c147e6c163a6418a4742b8dafaae6adf4cac98ac544a64"
+      },
+      "BANK-330-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9abcac387ab06adf3c2961ef4f8d850af55c60fc3fa6cf2b511d07f6e6fd4d74"
+      },
+      "BANK-330-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "99c7a385552e35cde3d7abfe36bbc425cb358a41d6ab4905b7f1374cb7dbe07e"
+      },
+      "BANK-330-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4db94c31b4d8f36753863c38061c6ea44c9db8db9a10edf276505c686ecec530"
+      },
+      "BANK-330-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0d1f62b111b8f9efe259dad2f1df2696c3561dfc7d54df322d00557521beea1b"
+      },
+      "BANK-330-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7932e03b4b36cda42d6acd5da083215cb0b6e8263886a00c10d06c15f1adb0a2"
+      },
+      "BANK-330-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fb38425d20ead1586a7a95b517ec420b1d78d90d418f32f3ac91f06a1e5c8a8c"
+      }
+    },
+    "source_categories": {
+      "CATALOG-330-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "e0819dda9958649f02bbbd2b2a1ef3b253b1c1216c659955384cfff8fce7b822"
+      },
+      "CATALOG-330-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "08656a69f4e19c40f2b20f9105f5283c7c1243923faf2e42363ad747ff17cdb3"
+      },
+      "CATALOG-330-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "89fd44f06d02194675d3fda1a2627c3d5653542e5884d996b3881458de4acd34"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "330_ROBOTICS_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "fe736acd00cf4486b4dc1d5051dcd19b43fc3514824f839e12fb16bc19b9354e",
+        "original_text": "# Robotics Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 330 Robotics (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Robotics Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/330_robotics/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Robotics across four progressive tiers:\r\n- **Tier 1: Robotics Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Robotics.\r\n- **Tier 2: Robotics Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Robotics.\r\n- **Tier 3: Robotics Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Robotics.\r\n- **Tier 4: Robotics Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Robotics.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/330_robotics/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/330_robotics/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Robot Enters a Workplace** | *Which task and constraint drove one early robot deployment?* |\r\n| 2 | `famous_examples` | **A Famous Robot Demonstration Rechecked** | *Which tasks did it complete outside a staged demonstration?* |\r\n| 3 | `hidden_stories` | **Technicians Behind Automation** | *Who installs, calibrates, repairs, and supervises the system?* |\r\n| 4 | `beginner_explainers` | **Sense, Plan, Act** | *How do sensor readings become a robot movement?* |\r\n| 5 | `advanced_concepts` | **Precision Versus Robustness** | *Can a system handle changed objects and environments?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexpected Robot Stop** | *Which sensor, software, power, or human condition explains an incident?* |\r\n| 7 | `technology_innovation` | **A New Gripper or Sensor** | *Did it improve a defined task and at what cost?* |\r\n| 8 | `people_personalities` | **A Robot Design Decision** | *Who set the task and safety requirements?* |\r\n| 9 | `major_events` | **A Robot Deployment Timeline** | *What happened from pilot to routine use?* |\r\n| 10 | `how_it_works` | **A Robot Cell in Operation** | *How do controller, sensors, actuators, guards, and operator interact?* |\r\n| 11 | `rise_fall` | **Why a Robot Was Retired** | *Which performance, maintenance, or task change drove retirement?* |\r\n| 12 | `then_vs_now` | **One Task Across Robot Generations** | *How did throughput, quality, safety, and labor change?* |\r\n| 13 | `future_developments` | **A Proposed Robot Capability** | *What test would demonstrate field reliability?* |\r\n| 14 | `myths_vs_facts` | **Autonomous Means No Humans?** | *Which setup, monitoring, and exception work remains?* |\r\n| 15 | `documentary_stories` | **A Shift with a Robot** | *How does one team use and recover the system day to day?* |\r\n| 16 | `system_boundary` | **What the Robot Controls** | *Where do machine, fixtures, software, operator, and facility responsibilities end?* |\r\n| 17 | `input_output_trace` | **A Pick-and-Place Cycle** | *What inputs and outputs shape a single safe cycle?* |\r\n| 18 | `design_tradeoff` | **Speed and Contact Safety** | *How do performance goals interact with protection measures?* |\r\n| 19 | `failure_mode` | **A Failed Grasp** | *What conditions cause an object to be dropped or damaged?* |\r\n| 20 | `testing_limits` | **Lab Task Versus Working Floor** | *Which changes in lighting, objects, wear, and people alter results?* |\r\n| 21 | `standards_interoperability` | **Connecting Robot Components** | *Which interfaces and safety assumptions must align?* |\r\n| 22 | `security_threat_model` | **Trust in Robot Commands** | *Who can change programs or sensor data?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping a Robot Accurate** | *How do calibration, parts, software, and inspection affect performance?* |\r\n| 24 | `infrastructure_dependencies` | **Robot Beyond Its Arm** | *Which power, network, tooling, and material supply keep it working?* |\r\n| 25 | `accessibility_usability` | **An Operator's Control Interface** | *Can intended workers understand status and intervene?* |\r\n| 26 | `independent_replication` | **Repeating a Robot Benchmark** | *Can another lab reproduce a capability claim?* |\r\n| 27 | `responsible_deployment` | **Automation and Workers** | *Who gains or loses tasks, control, and safety?* |\r\n| 28 | `field_training_or_control_data` | **Data Behind Robot Behavior** | *Which examples or control rules cover the real task?* |\r\n| 29 | `field_real_world_testing` | **Robot in Its Intended Setting** | *How does performance change outside the lab?* |\r\n| 30 | `field_human_oversight` | **Who Can Stop the Robot?** | *What authority and information does a human supervisor have?* |\r\n| 31 | `field_failure_recovery` | **Recovering from a Robot Fault** | *Can work resume without hidden hazards or data loss?* |\r\n| 32 | `field_hardware_dependency` | **Hardware Limits Behavior** | *Which sensors, actuators, batteries, or fixtures constrain claims?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Robotics: A Robot Enters a Workplace**\r\n   - *Question:* Which task and constraint drove one early robot deployment?\r\n   - *Key Focus:* Use dated design, safety, and production records. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n2. **Robotics: A Famous Robot Demonstration Rechecked**\r\n   - *Question:* Which tasks did it complete outside a staged demonstration?\r\n   - *Key Focus:* Compare trials, conditions, and operator assistance. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n3. **Robotics: Technicians Behind Automation**\r\n   - *Question:* Who installs, calibrates, repairs, and supervises the system?\r\n   - *Key Focus:* Use consented worker accounts and maintenance records. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n4. **Robotics: Sense, Plan, Act**\r\n   - *Question:* How do sensor readings become a robot movement?\r\n   - *Key Focus:* Trace one bounded task through control and actuation. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n5. **Robotics: Precision Versus Robustness**\r\n   - *Question:* Can a system handle changed objects and environments?\r\n   - *Key Focus:* Measure repeatability across defined conditions. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Robotics: An Unexpected Robot Stop**\r\n   - *Question:* Which sensor, software, power, or human condition explains an incident?\r\n   - *Key Focus:* Use logs and public reports without unsafe troubleshooting steps. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n7. **Robotics: A New Gripper or Sensor**\r\n   - *Question:* Did it improve a defined task and at what cost?\r\n   - *Key Focus:* Compare matched objects, speed, errors, and safety. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n8. **Robotics: A Robot Design Decision**\r\n   - *Question:* Who set the task and safety requirements?\r\n   - *Key Focus:* Trace decisions and affected workers. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n9. **Robotics: A Robot Deployment Timeline**\r\n   - *Question:* What happened from pilot to routine use?\r\n   - *Key Focus:* Compare acceptance tests with operational outcomes. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n10. **Robotics: A Robot Cell in Operation**\r\n   - *Question:* How do controller, sensors, actuators, guards, and operator interact?\r\n   - *Key Focus:* Map one application and its safe boundaries. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Robotics: Why a Robot Was Retired**\r\n   - *Question:* Which performance, maintenance, or task change drove retirement?\r\n   - *Key Focus:* Use operating logs and alternatives. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n12. **Robotics: One Task Across Robot Generations**\r\n   - *Question:* How did throughput, quality, safety, and labor change?\r\n   - *Key Focus:* Compare matched tasks and environments. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n13. **Robotics: A Proposed Robot Capability**\r\n   - *Question:* What test would demonstrate field reliability?\r\n   - *Key Focus:* Define task, variation, intervention, and failure threshold. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n14. **Robotics: Autonomous Means No Humans?**\r\n   - *Question:* Which setup, monitoring, and exception work remains?\r\n   - *Key Focus:* Observe a complete workflow. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n15. **Robotics: A Shift with a Robot**\r\n   - *Question:* How does one team use and recover the system day to day?\r\n   - *Key Focus:* Use consented observation and logs. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Robotics: What the Robot Controls**\r\n   - *Question:* Where do machine, fixtures, software, operator, and facility responsibilities end?\r\n   - *Key Focus:* Draw one deployed system boundary. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n17. **Robotics: A Pick-and-Place Cycle**\r\n   - *Question:* What inputs and outputs shape a single safe cycle?\r\n   - *Key Focus:* Trace sensors, decisions, movement, and stop conditions. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n18. **Robotics: Speed and Contact Safety**\r\n   - *Question:* How do performance goals interact with protection measures?\r\n   - *Key Focus:* Use applicable standards and tested configuration. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n19. **Robotics: A Failed Grasp**\r\n   - *Question:* What conditions cause an object to be dropped or damaged?\r\n   - *Key Focus:* Review tests and mitigation, not hazardous operating steps. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n20. **Robotics: Lab Task Versus Working Floor**\r\n   - *Question:* Which changes in lighting, objects, wear, and people alter results?\r\n   - *Key Focus:* State trial conditions and sample size. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 330 (Robotics)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Robotics: A Robot Enters a Workplace*\r\n- **Episode Slug:** `330_robotics_deep_dive_the_architecture_of_robotics_a_robot_enters_a_workplace`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/330_robotics/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "07ddce04096feb98057d5e10a7d429eb55012560c1089a420e64a107b37ee2e5",
+        "original_text": "# 330 Robotics -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 330 Robotics (Robotics_AI)  \r\n> **Storage Directory:** `topics/330_robotics/`  \r\n> **Synchronized With:** `OUTPUT/330_robotics/`, `REGISTRY/Niches/330_robotics/`, and `330_ROBOTICS_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 330 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/330_robotics](../../OUTPUT/330_robotics) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Robotics: A Robot Enters a Workplace** | Tier 1: Foundational Frameworks | `history_origins` | `robotics_a_robot_enters_a_workplace` | A rigorous pedagogical investigation exploring a robot enters a workplace through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Robotics: A Famous Robot Demonstration Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `robotics_a_famous_robot_demonstration_rechecked` | A rigorous pedagogical investigation exploring a famous robot demonstration rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Robotics: Technicians Behind Automation** | Tier 1: Foundational Frameworks | `hidden_stories` | `robotics_technicians_behind_automation` | A rigorous pedagogical investigation exploring technicians behind automation through documented evidence. | `QUEUED` |\r\n| 4 | **Robotics: Sense, Plan, Act** | Tier 1: Foundational Frameworks | `beginner_explainers` | `robotics_sense_plan_act` | A rigorous pedagogical investigation exploring sense, plan, act through documented evidence. | `QUEUED` |\r\n| 5 | **Robotics: Precision Versus Robustness** | Tier 1: Foundational Frameworks | `advanced_concepts` | `robotics_precision_versus_robustness` | A rigorous pedagogical investigation exploring precision versus robustness through documented evidence. | `QUEUED` |\r\n| 6 | **Robotics: An Unexpected Robot Stop** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `robotics_an_unexpected_robot_stop` | A rigorous pedagogical investigation exploring an unexpected robot stop through documented evidence. | `QUEUED` |\r\n| 7 | **Robotics: A New Gripper or Sensor** | Tier 2: Methodological Deep Dives | `technology_innovation` | `robotics_a_new_gripper_or_sensor` | A rigorous pedagogical investigation exploring a new gripper or sensor through documented evidence. | `QUEUED` |\r\n| 8 | **Robotics: A Robot Design Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `robotics_a_robot_design_decision` | A rigorous pedagogical investigation exploring a robot design decision through documented evidence. | `QUEUED` |\r\n| 9 | **Robotics: A Robot Deployment Timeline** | Tier 2: Methodological Deep Dives | `major_events` | `robotics_a_robot_deployment_timeline` | A rigorous pedagogical investigation exploring a robot deployment timeline through documented evidence. | `QUEUED` |\r\n| 10 | **Robotics: A Robot Cell in Operation** | Tier 2: Methodological Deep Dives | `how_it_works` | `robotics_a_robot_cell_in_operation` | A rigorous pedagogical investigation exploring a robot cell in operation through documented evidence. | `QUEUED` |\r\n| 11 | **Robotics: Why a Robot Was Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `robotics_why_a_robot_was_retired` | A rigorous pedagogical investigation exploring why a robot was retired through documented evidence. | `QUEUED` |\r\n| 12 | **Robotics: One Task Across Robot Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `robotics_one_task_across_robot_generations` | A rigorous pedagogical investigation exploring one task across robot generations through documented evidence. | `QUEUED` |\r\n| 13 | **Robotics: A Proposed Robot Capability** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `robotics_a_proposed_robot_capability` | A rigorous pedagogical investigation exploring a proposed robot capability through documented evidence. | `QUEUED` |\r\n| 14 | **Robotics: Autonomous Means No Humans?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `robotics_autonomous_means_no_humans` | A rigorous pedagogical investigation exploring autonomous means no humans? through documented evidence. | `QUEUED` |\r\n| 15 | **Robotics: A Shift with a Robot** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `robotics_a_shift_with_a_robot` | A rigorous pedagogical investigation exploring a shift with a robot through documented evidence. | `QUEUED` |\r\n| 16 | **Robotics: What the Robot Controls** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `robotics_what_the_robot_controls` | A rigorous pedagogical investigation exploring what the robot controls through documented evidence. | `QUEUED` |\r\n| 17 | **Robotics: A Pick-and-Place Cycle** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `robotics_a_pick_and_place_cycle` | A rigorous pedagogical investigation exploring a pick-and-place cycle through documented evidence. | `QUEUED` |\r\n| 18 | **Robotics: Speed and Contact Safety** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `robotics_speed_and_contact_safety` | A rigorous pedagogical investigation exploring speed and contact safety through documented evidence. | `QUEUED` |\r\n| 19 | **Robotics: A Failed Grasp** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `robotics_a_failed_grasp` | A rigorous pedagogical investigation exploring a failed grasp through documented evidence. | `QUEUED` |\r\n| 20 | **Robotics: Lab Task Versus Working Floor** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `robotics_lab_task_versus_working_floor` | A rigorous pedagogical investigation exploring lab task versus working floor through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Robotics: Record Extremes & Superlatives** | **98** | `extreme_case` | `robotics_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Robotics: An Unexpected Robot Stop** | **96** | `mysteries_unsolved_cases` | `robotics_mysteries_unsolved_cases` | High viral search interest exploring which sensor, software, power, or human condition explains an incident backed by field records. | `Queued` |\r\n| 23 | **Robotics: A New Gripper or Sensor** | **95** | `technology_innovation` | `robotics_technology_innovation` | High viral search interest exploring did it improve a defined task and at what cost backed by field records. | `Queued` |\r\n| 24 | **Robotics: Autonomous Means No Humans?** | **94** | `myths_vs_facts` | `robotics_myths_vs_facts` | High viral search interest exploring which setup, monitoring, and exception work remains backed by field records. | `Queued` |\r\n| 25 | **Robotics: A Robot Deployment Timeline** | **93** | `major_events` | `robotics_major_events` | High viral search interest exploring what happened from pilot to routine use backed by field records. | `Queued` |\r\n| 26 | **Robotics: Technicians Behind Automation** | **92** | `hidden_stories` | `robotics_hidden_stories` | High viral search interest exploring who installs, calibrates, repairs, and supervises the system backed by field records. | `Queued` |\r\n| 27 | **Robotics: A Shift with a Robot** | **91** | `documentary_stories` | `robotics_documentary_stories` | High viral search interest exploring how does one team use and recover the system day to day backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/330_robotics/330_ROBOTICS_CHANNEL_TOPIC_ROADMAP.md`](./330_ROBOTICS_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/330_robotics/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/330_robotics/NICHE_330_robotics.md`](file:///h:/script-raw-/REGISTRY/Niches/330_robotics/NICHE_330_robotics.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/330_robotics/CAT_330_robotics.md`](file:///h:/script-raw-/REGISTRY/Niches/330_robotics/CAT_330_robotics.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/330_robotics/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/330_robotics/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/330_robotics/`](file:///h:/script-raw-/OUTPUT/330_robotics/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "1704cb9b3cfffb19ba2da8fe5e558859eea58ef735c69d22dd688093aa614eb4",
+        "original_text": "{\r\n  \"niche_id\": \"330\",\r\n  \"niche_name\": \"robotics\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Robotics: A Robot Enters a Workplace\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"robotics_a_robot_enters_a_workplace\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a robot enters a workplace through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Robotics: A Famous Robot Demonstration Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"robotics_a_famous_robot_demonstration_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a famous robot demonstration rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Robotics: Technicians Behind Automation\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"robotics_technicians_behind_automation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring technicians behind automation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Robotics: Sense, Plan, Act\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"robotics_sense_plan_act\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring sense, plan, act through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Robotics: Precision Versus Robustness\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"robotics_precision_versus_robustness\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring precision versus robustness through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Robotics: An Unexpected Robot Stop\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"robotics_an_unexpected_robot_stop\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unexpected robot stop through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Robotics: A New Gripper or Sensor\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"robotics_a_new_gripper_or_sensor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new gripper or sensor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Robotics: A Robot Design Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"robotics_a_robot_design_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a robot design decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Robotics: A Robot Deployment Timeline\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"robotics_a_robot_deployment_timeline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a robot deployment timeline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Robotics: A Robot Cell in Operation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"robotics_a_robot_cell_in_operation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a robot cell in operation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Robotics: Why a Robot Was Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"robotics_why_a_robot_was_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring why a robot was retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Robotics: One Task Across Robot Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"robotics_one_task_across_robot_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one task across robot generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Robotics: A Proposed Robot Capability\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"robotics_a_proposed_robot_capability\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed robot capability through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Robotics: Autonomous Means No Humans?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"robotics_autonomous_means_no_humans\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring autonomous means no humans? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Robotics: A Shift with a Robot\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"robotics_a_shift_with_a_robot\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a shift with a robot through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Robotics: What the Robot Controls\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"robotics_what_the_robot_controls\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what the robot controls through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Robotics: A Pick-and-Place Cycle\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"robotics_a_pick_and_place_cycle\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a pick-and-place cycle through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Robotics: Speed and Contact Safety\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"robotics_speed_and_contact_safety\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring speed and contact safety through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Robotics: A Failed Grasp\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"robotics_a_failed_grasp\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a failed grasp through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Robotics: Lab Task Versus Working Floor\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"robotics_lab_task_versus_working_floor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring lab task versus working floor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Robotics: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"robotics_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Robotics: An Unexpected Robot Stop\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"robotics_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which sensor, software, power, or human condition explains an incident backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Robotics: A New Gripper or Sensor\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"robotics_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it improve a defined task and at what cost backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Robotics: Autonomous Means No Humans?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"robotics_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which setup, monitoring, and exception work remains backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Robotics: A Robot Deployment Timeline\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"robotics_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what happened from pilot to routine use backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Robotics: Technicians Behind Automation\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"robotics_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who installs, calibrates, repairs, and supervises the system backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Robotics: A Shift with a Robot\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"robotics_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how does one team use and recover the system day to day backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "330",
+      "niche_name": "robotics",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Robotics: A Robot Enters a Workplace",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "robotics_a_robot_enters_a_workplace",
+          "reason": "A rigorous pedagogical investigation exploring a robot enters a workplace through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Robotics: A Famous Robot Demonstration Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "robotics_a_famous_robot_demonstration_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a famous robot demonstration rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Robotics: Technicians Behind Automation",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "robotics_technicians_behind_automation",
+          "reason": "A rigorous pedagogical investigation exploring technicians behind automation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Robotics: Sense, Plan, Act",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "robotics_sense_plan_act",
+          "reason": "A rigorous pedagogical investigation exploring sense, plan, act through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Robotics: Precision Versus Robustness",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "robotics_precision_versus_robustness",
+          "reason": "A rigorous pedagogical investigation exploring precision versus robustness through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Robotics: An Unexpected Robot Stop",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "robotics_an_unexpected_robot_stop",
+          "reason": "A rigorous pedagogical investigation exploring an unexpected robot stop through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Robotics: A New Gripper or Sensor",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "robotics_a_new_gripper_or_sensor",
+          "reason": "A rigorous pedagogical investigation exploring a new gripper or sensor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Robotics: A Robot Design Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "robotics_a_robot_design_decision",
+          "reason": "A rigorous pedagogical investigation exploring a robot design decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Robotics: A Robot Deployment Timeline",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "robotics_a_robot_deployment_timeline",
+          "reason": "A rigorous pedagogical investigation exploring a robot deployment timeline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Robotics: A Robot Cell in Operation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "robotics_a_robot_cell_in_operation",
+          "reason": "A rigorous pedagogical investigation exploring a robot cell in operation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Robotics: Why a Robot Was Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "robotics_why_a_robot_was_retired",
+          "reason": "A rigorous pedagogical investigation exploring why a robot was retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Robotics: One Task Across Robot Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "robotics_one_task_across_robot_generations",
+          "reason": "A rigorous pedagogical investigation exploring one task across robot generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Robotics: A Proposed Robot Capability",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "robotics_a_proposed_robot_capability",
+          "reason": "A rigorous pedagogical investigation exploring a proposed robot capability through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Robotics: Autonomous Means No Humans?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "robotics_autonomous_means_no_humans",
+          "reason": "A rigorous pedagogical investigation exploring autonomous means no humans? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Robotics: A Shift with a Robot",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "robotics_a_shift_with_a_robot",
+          "reason": "A rigorous pedagogical investigation exploring a shift with a robot through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Robotics: What the Robot Controls",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "robotics_what_the_robot_controls",
+          "reason": "A rigorous pedagogical investigation exploring what the robot controls through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Robotics: A Pick-and-Place Cycle",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "robotics_a_pick_and_place_cycle",
+          "reason": "A rigorous pedagogical investigation exploring a pick-and-place cycle through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Robotics: Speed and Contact Safety",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "robotics_speed_and_contact_safety",
+          "reason": "A rigorous pedagogical investigation exploring speed and contact safety through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Robotics: A Failed Grasp",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "robotics_a_failed_grasp",
+          "reason": "A rigorous pedagogical investigation exploring a failed grasp through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Robotics: Lab Task Versus Working Floor",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "robotics_lab_task_versus_working_floor",
+          "reason": "A rigorous pedagogical investigation exploring lab task versus working floor through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Robotics: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "robotics_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Robotics: An Unexpected Robot Stop",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "robotics_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which sensor, software, power, or human condition explains an incident backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Robotics: A New Gripper or Sensor",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "robotics_technology_innovation",
+          "why_trending": "High viral search interest exploring did it improve a defined task and at what cost backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Robotics: Autonomous Means No Humans?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "robotics_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which setup, monitoring, and exception work remains backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Robotics: A Robot Deployment Timeline",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "robotics_major_events",
+          "why_trending": "High viral search interest exploring what happened from pilot to routine use backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Robotics: Technicians Behind Automation",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "robotics_hidden_stories",
+          "why_trending": "High viral search interest exploring who installs, calibrates, repairs, and supervises the system backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Robotics: A Shift with a Robot",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "robotics_documentary_stories",
+          "why_trending": "High viral search interest exploring how does one team use and recover the system day to day backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "b2adb00d5cc309e1465bef9b3e1225147d9e12ad257c5226dcb6bf206d20fd8b"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "2f98b911a72f532998cf95e1849ed51a0569796521fc949524f7c971a87fe9bc"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "fb574ce0c4ccd5163c8e06fd6c0499b2ecbf0c0e11098ac94fcd5507c7eacdb3"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "089e697149e272b5eeabecdc85cb5a100edf45fe2edbc3f153ed42b0aad3b385"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "2c96ead5d15b031f44133e5bcb22b8228f1f5da3d87a073c129b8d48fbeb4ed6"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-330-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-02",
+      "title": "Perception",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-03",
+      "title": "Design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-04",
+      "title": "Evaluation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-05",
+      "title": "Geometry",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-06",
+      "title": "Applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-07",
+      "title": "Economics",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-330-08",
+      "title": "Planning",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "330",
+    "slug": "robotics",
+    "name": "Robotics",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Robotics YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-330-01",
+        "title": "Robot fundamentals",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-330-001",
+            "title": "Kinematics and degrees of freedom",
+            "question": "Kinematics and degrees of freedom: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Robot fundamentals. Address Kinematics and degrees of freedom through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Kinematics and degrees of freedom.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-002",
+            "title": "Feedback control",
+            "question": "Feedback control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Robot fundamentals. Address Feedback control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Feedback control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-003",
+            "title": "Sensor fusion in general-purpose robots",
+            "question": "Sensor fusion in general-purpose robots: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Robot fundamentals. Address Sensor fusion in general-purpose robots through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Sensor fusion in general-purpose robots.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-330-02",
+        "title": "Applications",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-330-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-330-004",
+            "title": "Warehouse mobile robots",
+            "question": "Warehouse mobile robots: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Applications. Address Warehouse mobile robots through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Warehouse mobile robots.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-005",
+            "title": "Collaborative industrial arms",
+            "question": "Collaborative industrial arms: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Applications. Address Collaborative industrial arms through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Collaborative industrial arms.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-006",
+            "title": "Agricultural robotic perception",
+            "question": "Agricultural robotic perception: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Robotics; branch: Applications. Address Agricultural robotic perception through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Agricultural robotic perception.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-330-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-330-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-330-007",
+            "title": "Human safety standards",
+            "question": "Human safety standards: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Robotics; branch: Evaluation. Address Human safety standards through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Human safety standards.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-008",
+            "title": "Reliability outside laboratory settings",
+            "question": "Reliability outside laboratory settings: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Robotics; branch: Evaluation. Address Reliability outside laboratory settings through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Reliability outside laboratory settings.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-330-009",
+            "title": "Automation cost assumptions",
+            "question": "Automation cost assumptions: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Robotics; branch: Evaluation. Address Automation cost assumptions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Automation cost assumptions.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "331",
+        "title": "Humanoid Robots",
+        "directory": "331_humanoid_robots",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "332",
+        "title": "Drones",
+        "directory": "332_drones",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "333",
+        "title": "Brain-Computer Interfaces",
+        "directory": "333_brain-computer_interfaces",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "334",
+        "title": "Virtual Worlds",
+        "directory": "334_virtual_worlds",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "335",
+        "title": "Digital Humans",
+        "directory": "335_digital_humans",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "342",
+        "title": "AI Filmmaking",
+        "directory": "342_ai_filmmaking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Robotics: A Robot Enters a Workplace",
+      "question": "Which task and constraint drove one early robot deployment?",
+      "coverage": "Use dated design, safety, and production records. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Famous Robot Demonstration Rechecked",
+      "question": "Which tasks did it complete outside a staged demonstration?",
+      "coverage": "Compare trials, conditions, and operator assistance. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Technicians Behind Automation",
+      "question": "Who installs, calibrates, repairs, and supervises the system?",
+      "coverage": "Use consented worker accounts and maintenance records. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Sense, Plan, Act",
+      "question": "How do sensor readings become a robot movement?",
+      "coverage": "Trace one bounded task through control and actuation. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Precision Versus Robustness",
+      "question": "Can a system handle changed objects and environments?",
+      "coverage": "Measure repeatability across defined conditions. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: An Unexpected Robot Stop",
+      "question": "Which sensor, software, power, or human condition explains an incident?",
+      "coverage": "Use logs and public reports without unsafe troubleshooting steps. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A New Gripper or Sensor",
+      "question": "Did it improve a defined task and at what cost?",
+      "coverage": "Compare matched objects, speed, errors, and safety. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Robot Design Decision",
+      "question": "Who set the task and safety requirements?",
+      "coverage": "Trace decisions and affected workers. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Robot Deployment Timeline",
+      "question": "What happened from pilot to routine use?",
+      "coverage": "Compare acceptance tests with operational outcomes. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Robot Cell in Operation",
+      "question": "How do controller, sensors, actuators, guards, and operator interact?",
+      "coverage": "Map one application and its safe boundaries. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Why a Robot Was Retired",
+      "question": "Which performance, maintenance, or task change drove retirement?",
+      "coverage": "Use operating logs and alternatives. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: One Task Across Robot Generations",
+      "question": "How did throughput, quality, safety, and labor change?",
+      "coverage": "Compare matched tasks and environments. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Proposed Robot Capability",
+      "question": "What test would demonstrate field reliability?",
+      "coverage": "Define task, variation, intervention, and failure threshold. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Autonomous Means No Humans?",
+      "question": "Which setup, monitoring, and exception work remains?",
+      "coverage": "Observe a complete workflow. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Shift with a Robot",
+      "question": "How does one team use and recover the system day to day?",
+      "coverage": "Use consented observation and logs. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: What the Robot Controls",
+      "question": "Where do machine, fixtures, software, operator, and facility responsibilities end?",
+      "coverage": "Draw one deployed system boundary. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Pick-and-Place Cycle",
+      "question": "What inputs and outputs shape a single safe cycle?",
+      "coverage": "Trace sensors, decisions, movement, and stop conditions. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Speed and Contact Safety",
+      "question": "How do performance goals interact with protection measures?",
+      "coverage": "Use applicable standards and tested configuration. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: A Failed Grasp",
+      "question": "What conditions cause an object to be dropped or damaged?",
+      "coverage": "Review tests and mitigation, not hazardous operating steps. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Robotics: Lab Task Versus Working Floor",
+      "question": "Which changes in lighting, objects, wear, and people alter results?",
+      "coverage": "State trial conditions and sample size. Evidence base: NIST robot test methods, applicable standards, dated design and service records, controlled trials, and consented worker accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-330-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "0ff9b8a617c62876f98714e1c07ae3edcefaeddb276f4ec3b76b02762134eb1d",
+    "TOPIC_BANK_RECONCILIATION.md": "4b5b703b1604fe7c01b9970fda3db3bf14ba490260fde3e8314860e15769ae93",
+    "TOPICS_COVERED_REPORT.md": "94d1a7592540bc1c522a73fce842916d6e278bafb2649c610da501808874a124",
+    "330_ROBOTICS_CHANNEL_TOPIC_ROADMAP.md": "946ba6bbf4525468b48bd1e3426b78df121717dc4d8c9ea2a0b6d3d146acc200"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-330-002": [
+      "BANK-330-030"
+    ],
+    "BANK-330-008": [
+      "BANK-330-033"
+    ],
+    "BANK-330-001": [
+      "BANK-330-034"
+    ],
+    "BANK-330-006": [
+      "BANK-330-035"
+    ],
+    "BANK-330-009": [
+      "BANK-330-036"
+    ],
+    "BANK-330-003": [
+      "BANK-330-037"
+    ],
+    "BANK-330-004": [
+      "BANK-330-038"
+    ],
+    "BANK-330-005": [
+      "BANK-330-039"
+    ],
+    "BANK-330-007": [
+      "BANK-330-039"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-033"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-036"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-033"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-038"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-031"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-034"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-038"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-036"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-038"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-033"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-030"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-031"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-039"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-031"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-033"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-033"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-038"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-031"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The archived framing merges into this narrower active scope; generic trend, record and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-330-036"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated operator record provides a bounded subject; outcome claims need independent evidence.",
+      "bank_ids": [
+        "BANK-330-041"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-330-041",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_operator_source_inspected",
+    "semantic_candidates_reviewed": 27,
+    "neighbor_overlap": "Existing BANK-330-038 covers warehouse coordination generally; this proposed case fixes a dated operator claim, named robot and GoCart task. BANK-330-039 remains the general collaborative-task safety question. BANK-331-* is humanoid-specific; BANK-332-* concerns drones."
+  }
+}

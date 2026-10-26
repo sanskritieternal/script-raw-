@@ -1,0 +1,1586 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "159",
+  "slug": "satellites_earth_observation",
+  "name": "Satellites & Earth Observation",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Satellites & Earth Observation YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 35
+  },
+  "categories": [
+    {
+      "id": "CATALOG-159-R01",
+      "title": "Original bounded cases and mechanisms",
+      "level": "foundation",
+      "parent_id": "DOMAIN-159-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "24a150a3cb4e5f6e2c72924cd42edbf18f99c0c631b3594786e1d276cfc67ff9",
+      "topics": [
+        {
+          "title": "Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness",
+          "question": "How can a spacecraft flying 500 km above Earth synthesize a virtual kilometer-wide antenna to image tank tracks in mud through pitch-black storm clouds?",
+          "coverage": "Active microwave pulses (X-band, C-band, L-band), Doppler frequency shifts synthesizing physical aperture size, phase coherence, and radar interferometry (InSAR) measuring millimeter ground shifts.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 1,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Orbital Mechanics 101: How Satellites Stay in Space Without Falling",
+          "question": "Why is an orbiting satellite constantly in free-fall toward Earth without ever hitting the ground?",
+          "coverage": "Newton's cannonball thought experiment, orbital velocity (7.8 km/s in LEO), the six Keplerian orbital elements, Low Earth Orbit (LEO) vs Geostationary (GEO 35,786 km), and atmospheric drag decay.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 2,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Sun-Synchronous Orbit: The Clever Physics That Keeps Satellites in Eternal Morning Light",
+          "question": "How does Earth's slightly squashed equator allow spy and weather satellites to pass over every city at exactly 10:30 AM every single day?",
+          "coverage": "Earth's oblateness J2 gravitational perturbation, retrograde orbital precession matching Earth's annual rotation around the sun (0.9856° per day), and identical shadow angles for comparative imagery.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 3,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Multispectral Vision: Seeing What Human Eyes Cannot with False-Color Infrared",
+          "question": "Why do healthy forests glow bright red in satellite imagery, and how can orbiting sensors detect crop drought weeks before a farmer notices?",
+          "coverage": "Chlorophyll reflectance at the 'red edge' (0.7 micrometers), Normalized Difference Vegetation Index (NDVI) spectral band math, shortwave infrared (SWIR) soil moisture detection, and thermal bands.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 4,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Landsat Legacy: 50 Years of Continuous Planetary Monitoring",
+          "question": "How did a NASA program launched in 1972 create an unbroken 50-year digital time-lapse showing the growth of megacities and the retreat of glaciers?",
+          "coverage": "Multispectral Scanner System (MSS) to Operational Land Imager (OLI-2), open-data policy revolution (2008) sparking the GIS industry, tracking Amazon deforestation, and planetary change baselines.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 5,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R02",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-159-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78a6929673606788d0df4450a7ddf1322b21a1ed060ebc0dcd69c03697127ed1",
+      "topics": [
+        {
+          "title": "The Spy Satellite Arms Race: From Dropping Film Buckets from Orbit to 10-cm Digital Mirrors",
+          "question": "How did early spy satellites eject rolls of exposed film in heat shields to be snatched out of mid-air by cargo planes over the Pacific?",
+          "coverage": "Project CORONA film recovery canisters, KH-11 KENNAN digital charge-coupled device (CCD) revolution, diffraction-limited optics (Rayleigh criterion), atmospheric adaptive optics, and resolution limits.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 6,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "GPS and GNSS: The Nanosecond Atomic Clocks That Guide the Planet",
+          "question": "Why would Google Maps fail by 11 kilometers every single day if engineers didn't correct satellite clocks for Einstein's theories of relativity?",
+          "coverage": "Rubidium and cesium atomic clocks, trilateration from 4 satellites, Special Relativity clock slowdown vs General Relativity gravitational speedup (net +38 microseconds/day), and Galileo/GLONASS/BeiDou networks.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 7,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Hyperspectral Imaging: Finding Hidden Minerals, Oil Leaks, and Methane from 500 km Away",
+          "question": "How can a satellite sensor split reflected light into 300 contiguous color channels to identify an invisible leaking natural gas valve from space?",
+          "coverage": "Continuous spectral reflectance curves, identifying copper porphyry mineral deposits, MethaneSAT and GHGSat pinpointing industrial super-emitters, and data compression challenges in orbit.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 8,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The CubeSat Revolution: How Smartphone Electronics Disrupted Multi-Billion-Dollar Spacecraft",
+          "question": "How did a 10-centimeter cardboard-sized standard box created for university students destroy the monopoly of aerospace mega-primes?",
+          "coverage": "Jordi Puig-Suari and Bob Twiggs' 1U-12U standard, Commercial Off-The-Shelf (COTS) electronics vs radiation-hardened mil-spec components, Planet Labs' 'Dove' flock imaging the entire Earth daily, and rideshare launches.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 9,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Weather Satellites: Tracking Typhoons from 22,000 Miles Above the Equator",
+          "question": "How do geostationary weather observatories like GOES-R and Himawari-9 take full-disk planetary images every 10 minutes to save thousands of lives from hurricanes?",
+          "coverage": "Advanced Baseline Imager (ABI) optical mechanics, geostationary positioning mechanics, lightning mapping arrays (GLM) from orbit, numerical weather prediction (NWP) model assimilation, and rapid scan modes.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 10,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What emissions evidence did MethaneSAT publish before contact was lost in June 2025?",
+          "coverage": "Separate dated oil-and-gas regional observations and stated instrument capability from continuous present-tense monitoring, instant pipeline attribution, and the satellite's later loss of contact.",
+          "id": "BANK-159-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R03",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-159-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "68cc9efd4647d165100b881da0beb7f24aac2515b48a02737990f691cc3ea7ab",
+      "topics": [
+        {
+          "title": "Kessler Syndrome: The Nightmare Scenario That Could Trap Humanity on Earth",
+          "question": "What happens when two dead satellites collide at 28,000 km/h, generating thousands of hypervelocity shrapnel pieces that trigger a runaway chain reaction?",
+          "coverage": "Donald Kessler's 1978 paper, the 2009 Iridium-Cosmos collision, anti-satellite (ASAT) missile tests creating lasting debris clouds, orbital decay timelines, and active debris removal (ADR) harpoons and nets.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 11,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Starlink and Megaconstellations: Laser Cross-Links and Low-Latency Global Internet",
+          "question": "How do thousands of coordinated low-orbit satellites beam high-speed internet to moving ships and war zones without ground fiber cables?",
+          "coverage": "Phased array electronically steered beamforming antennas, optical inter-satellite laser links (ISLs) routing data at the speed of light in vacuum (40% faster than glass fiber), autonomous collision avoidance, and astronomer light pollution controversies.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 12,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Attitude Determination and Control (ADCS): How Satellites Point with Arcsecond Precision",
+          "question": "How does a spacecraft tumbling through zero-gravity point a high-resolution telescope at a specific building without using rocket fuel?",
+          "coverage": "Reaction wheels storing and transferring angular momentum, magnetorquers desaturating momentum using Earth's magnetic field, star tracker cameras comparing star patterns to astronomical catalogs, and gyroscopes.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 13,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Downlink Bottleneck: Getting Terabytes of Satellite Data Down to Earth",
+          "question": "Why is the hardest part of satellite imaging often not taking the picture, but transmitting multi-gigabyte files to ground antennas during a 10-minute pass?",
+          "coverage": "S-band telemetry vs X-band/Ka-band payload downlinks, polar ground station networks (Svalbard KSAT), optical laser communication downlinks (TBits/sec), cloud attenuation, and edge-computing AI filtering in orbit.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 14,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Gravitational Oceanography: How GRACE and SWOT Weigh Earth's Water from Space",
+          "question": "How can two satellites flying 220 km apart track distance changes thinner than a human hair to weigh disappearing underground aquifers in California and India?",
+          "coverage": "GRACE microwave and laser ranging measuring micro-gravity variations, tracking mass loss of Greenland ice sheets, Surface Water and Ocean Topography (SWOT) Ka-band radar interferometry mapping rivers and ocean eddies.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 15,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Satellite Cybersecurity: What Happens When Hackers Hijack an Orbiting Spacecraft?",
+          "question": "How did cyber warfare attackers wipe out tens of thousands of satellite terminals across Europe on the morning of a major military invasion?",
+          "coverage": "The 2022 Viasat KA-SAT wiper malware attack, ground station uplink hijacking, spoofing and jamming GPS signals, legacy unencrypted telecommand vulnerabilities, and space cyber defense standards.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 16,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What different water measurements do GRACE-FO and SWOT actually provide?",
+          "coverage": "Compare gravity-derived broad mass changes with surface-water height and extent observations; do not describe SWOT as weighing groundwater or fuse the missions' products.",
+          "id": "BANK-159-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R04",
+      "title": "Original bounded cases and mechanisms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-159-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9e26f92bb14749bfd27c9af91d7ac52fe1c479ad9a2b653a06e9196ca14cb8df",
+      "topics": [
+        {
+          "title": "Quantum Satellites: Unhackable Cryptography from the Edge of Space",
+          "question": "How did China's Micius satellite beam pairs of entangled photons across 1,200 km to establish an unhackable quantum cryptographic link?",
+          "coverage": "Quantum Key Distribution (QKD), no-cloning theorem ensuring eavesdroppers are immediately exposed, beam pointing through atmospheric turbulence, and building a global quantum internet.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 17,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Automated Satellite AI: Onboard Machine Learning Detecting Wildfires in Real Time",
+          "question": "Why wait hours to downlink raw imagery when an onboard neural network can detect an ignition flash and alert firefighters within 60 seconds?",
+          "coverage": "Radiation-hardened low-power neural network accelerators, filtering cloud cover before transmission, automated thermal hotspot classification, and instant satellite-to-first-responder alerting meshes.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 18,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Business of Pixels: The Economics of Commercial Satellite Imagery",
+          "question": "Who buys 30-centimeter commercial satellite images, and why does a single square kilometer cost anywhere from $10 to $100?",
+          "coverage": "Maxar, Planet, and BlackSky revenue models, government NRO defense contracts, hedge funds counting cars in retail parking lots and shadow tanker oil tracking, and commoditization pressures.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 19,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Masterclass on Satellite Bus Engineering: Designing a Spacecraft from Scratch",
+          "question": "How does an aerospace systems engineer balance mass, power, thermal balance, and RF link budgets to guarantee a mission survives 10 years in the harsh space environment?",
+          "coverage": "Thermal vacuum (TVAC) chamber testing, multilayer insulation (MLI) blankets, triple-junction gallium arsenide solar cell efficiency, radiation SEE/TID shielding, and satellite link budget calculations.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 20,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-159-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R05",
+      "title": "Orbits and observations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-159-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e3fb083a27ecfa78649e91ecb4b269d8aee68791b66c9780ad4750d2f2a0561b",
+      "topics": [
+        {
+          "question": "Why do different Earth-observation satellites use different orbits?",
+          "coverage": "Compare revisit, viewing geometry, coverage, altitude and mission purpose with a small set of orbit types.",
+          "id": "BANK-159-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a satellite image pixel actually represent?",
+          "coverage": "Explain spatial footprint, spectral band, processing and mixed surfaces rather than treating a pixel as a perfect ground photograph.",
+          "id": "BANK-159-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can satellites observe the same place through clouds?",
+          "coverage": "Compare optical and radar sensing, wavelengths and interpretation limits.",
+          "id": "BANK-159-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does higher resolution not automatically make an image more useful?",
+          "coverage": "Contrast spatial, temporal, spectral and radiometric resolution for selected tasks.",
+          "id": "BANK-159-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R06",
+      "title": "Change and validation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-159-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "07a6b7a7e2164b3c91d981e043c1294a1d76788e95c2492b021ffcc41b1a3171",
+      "topics": [
+        {
+          "question": "How can a satellite distinguish crop change from a difference in season?",
+          "coverage": "Compare acquisition dates, phenology, weather, calibration and ground checks.",
+          "id": "BANK-159-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes measuring land subsidence from orbit possible?",
+          "coverage": "Explain repeat radar observations, reference points, atmospheric noise and displacement ambiguity.",
+          "id": "BANK-159-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do satellites estimate ocean temperature without touching the water?",
+          "coverage": "Compare emitted radiation, clouds, surface layers, calibration and in-situ validation.",
+          "id": "BANK-159-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can two maps of forest loss disagree?",
+          "coverage": "Trace definitions, thresholds, sensors, dates and classification errors.",
+          "id": "BANK-159-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R07",
+      "title": "Evidence, access and governance",
+      "level": "advanced",
+      "parent_id": "DOMAIN-159-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ae24cce45794bc2badf3769b9664038a9c4d72170251e70a88094f3c086bacc1",
+      "topics": [
+        {
+          "question": "How should a flood map report uncertainty when water is hidden by buildings or vegetation?",
+          "coverage": "Compare sensor limits, acquisition timing, classification and validation rather than presenting a clean boundary as exact.",
+          "id": "BANK-159-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does ground truth mean when field observations also contain errors?",
+          "coverage": "Examine sampling, location, timing, observer differences and independence.",
+          "id": "BANK-159-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Who can use commercial satellite imagery and under what restrictions?",
+          "coverage": "Compare licensing, costs, redistribution, privacy and national rules without assuming imagery is universally open.",
+          "id": "BANK-159-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a satellite-based environmental claim be made reproducible?",
+          "coverage": "Record scene IDs, dates, processing versions, masks, code, validation and uncertainty.",
+          "id": "BANK-159-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-159-R08",
+      "title": "Atmosphere between surface and sensor",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-159-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "b4fc004688604c658d746c502a3b7c7b6c2ec70e41bd940634826fd68cd6dd23",
+      "topics": [
+        {
+          "question": "Why can two satellite measurements of an unchanged surface differ after light passes through the atmosphere?",
+          "coverage": "Trace scattering, absorption, aerosols, viewing geometry, sensor calibration and correction assumptions; distinguish top-of-atmosphere measurements from estimated surface reflectance.",
+          "covers_starter_ids": [
+            "BANK-159-007"
+          ],
+          "id": "BANK-159-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "012",
+      "title": "Space / Universe",
+      "directory": "012_space_universe",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "032",
+      "title": "Space Exploration",
+      "directory": "032_space_exploration",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "344",
+      "title": "Astronomy",
+      "directory": "344_astronomy",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "345",
+      "title": "Planetary Science",
+      "directory": "345_planetary_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "346",
+      "title": "Moon Science",
+      "directory": "346_moon_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "347",
+      "title": "Solar Science",
+      "directory": "347_solar_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/159_satellites_earth_observation/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "a769c864011c0327f623674e1277144c108b01ad644a669812801e86e5aea940",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-159-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d3f4d2f5d439d96b5c98cc2bae97831bffe97c61fb3d99cb00a9b1f220639bd4"
+      },
+      "BANK-159-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "39ffe978bca7eaf7cd77efaa659dafc873e59d7f0d260fba98177945d9e39393"
+      },
+      "BANK-159-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bccb84b6fe4c3981f884ccf2cc2ed881996b31089af1dd2ff5ab6cefcddedffe"
+      },
+      "BANK-159-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c413396cf28fbc3194db95d815e0cfac4dc3863fe99cd38a96b35c8cab44e954"
+      },
+      "BANK-159-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "07cd4540f9248f8ba7aae0f2d58b2d35248fa1448abccfb4c159acc9d8966ed8"
+      },
+      "BANK-159-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "34d29bafcfdf16b0486d36a39bc461f13233bf85e258ea3bd38226d89a10ca92"
+      },
+      "BANK-159-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1c47844798271eef12d532a97700cb79266062fedb6b10f558b63a46225d2911"
+      },
+      "BANK-159-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "98ab0a5db4306a8558a97ca3805abda95a33ed4ddc2889edf02807446da0fc7e"
+      },
+      "BANK-159-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f3421a828a2517168809bd0623051156d9a2a9f4128d4a823ca395a2fbeeeb16"
+      }
+    },
+    "source_categories": {
+      "CATALOG-159-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "982dce75128f9236f49ed1ab1e795a06e98d73f969366521aed09a3d40fbd9c8"
+      },
+      "CATALOG-159-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "24e04de7d288b5a8f343183950b0f4aede92d8b59f171043aee9788a6667cc1b"
+      },
+      "CATALOG-159-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "01dc9cff3714b6299eddaf0771ccb0e0850a0c2ad89af8b9e3f3cf57dd0df402"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "159_SATELLITES_EARTH_OBSERVATION_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "c56443225d9ed25c14c76891ee0098ab9129f1295132c58d861858ee63e8d6a7",
+        "original_text": "# Satellites & Earth Observation Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 159 Satellites & Earth Observation (Transport_Engineering)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Aerospace Engineers, Remote Sensing Specialists, GIS Analysts, Climate Modelers, Satellite Communications Architects (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/159_satellites_earth_observation/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Satellites & Earth Observation across four progressive tiers:\r\n- **Tier 1: Orbital Mechanics (LEO, GEO, Sun-Synchronous), Keplerian Elements & Satellite Bus Subsystems (Beginner / Scratch)** — Two-line element sets (TLE), orbital inclination and altitude trade-offs, sun-synchronous orbits (SSO) for consistent shadow illumination, and satellite bus subsystems (ADCS, EPS, TT&C).\r\n- **Tier 2: Multispectral & Hyperspectral Remote Sensing, Radar (SAR) Imaging & Ground Station Downlinks (Intermediate)** — Normalized Difference Vegetation Index (NDVI) infrared spectral bands, Synthetic Aperture Radar (SAR) phase interferometry penetrating cloud cover, X-band/Ka-band downlink frequency management, and radiometric calibration.\r\n- **Tier 3: Megaconstellation Routing, Space Situational Awareness & Orbital Debris Remediation (Upper Intermediate)** — Starlink and OneWeb low-latency laser inter-satellite links (ISLs), collision avoidance maneuvering algorithms, optical ground tracking of millimeter space debris, and orbital decay drag physics.\r\n- **Tier 4: Quantum Satellite Encryption, Planetary Disaster Real-Time Sensing & Deep Space Relay Systems (Advanced / Masterclass)** — Entangled photon quantum key distribution (QKD) from orbit, real-time wildfire and flood automated AI onboard detection constellations, and Mars-Earth deep space optical communication relays.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/159_satellites_earth_observation/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/159_satellites_earth_observation/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How One Satellite Record Began** | *Which mission choices made a particular Earth observation series possible?* |\r\n| 2 | `famous_examples` | **A Widely Shared Image Explained** | *What does one satellite image actually measure and show?* |\r\n| 3 | `hidden_stories` | **The Work Behind a Pixel** | *Who calibrates instruments, processes imagery, and checks results?* |\r\n| 4 | `beginner_explainers` | **A Pixel Is a Measurement** | *How does one sensor turn observed radiation into a map?* |\r\n| 5 | `advanced_concepts` | **When Two Images Are Comparable** | *What must match before inferring change between dates?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Change Visible Only from Space?** | *Which explanations fit one anomalous image pattern?* |\r\n| 7 | `technology_innovation` | **A New Sensor's Real Advantage** | *Which feature improves a defined observation?* |\r\n| 8 | `people_personalities` | **The Scientist Who Checked the Map** | *How did one team test a satellite-derived claim?* |\r\n| 9 | `major_events` | **Observing a Disaster Over Time** | *What could satellites establish during one documented event?* |\r\n| 10 | `how_it_works` | **From Orbit to Usable Data** | *Which stages turn one observation into a public dataset?* |\r\n| 11 | `rise_fall` | **A Mission's End and Data Continuity** | *What changed when one satellite failed or retired?* |\r\n| 12 | `then_vs_now` | **One Landscape Across Decades** | *How can long-term satellite images support a change claim?* |\r\n| 13 | `future_developments` | **A Planned Earth Observation Mission** | *What gap is the new sensor designed to close?* |\r\n| 14 | `myths_vs_facts` | **Can Satellites See Everything?** | *Which features remain hidden by resolution, clouds, timing, or interpretation?* |\r\n| 15 | `documentary_stories` | **A Dataset Behind a Public Decision** | *How did an Earth observation product inform one land or hazard choice?* |\r\n| 16 | `system_boundary` | **What Counts as the Observation System?** | *Which spacecraft, ground, software, and reference components matter?* |\r\n| 17 | `input_output_trace` | **Raw Signal to Thematic Map** | *What assumptions transform measurements into a land-cover label?* |\r\n| 18 | `design_tradeoff` | **Resolution Versus Revisit** | *Why did one mission prioritize detail, coverage, or frequency?* |\r\n| 19 | `failure_mode` | **A Sensor Artifact Mistaken for Change** | *How was one anomaly found and corrected?* |\r\n| 20 | `testing_limits` | **A Map's Accuracy Outside Its Test Area** | *Does performance hold in a different landscape or season?* |\r\n| 21 | `standards_interoperability` | **Combining Two Satellite Series** | *What makes observations from different missions comparable?* |\r\n| 22 | `security_threat_model` | **Sensitive Uses of Imagery** | *What privacy or security risks arise from one data product?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping a Satellite Record Trustworthy** | *How are sensors monitored and datasets revised?* |\r\n| 24 | `infrastructure_dependencies` | **Ground Segment and Data Access** | *What does one mission need beyond the spacecraft?* |\r\n| 25 | `accessibility_usability` | **Who Can Use the Data?** | *Which cost, bandwidth, language, or expertise barriers matter?* |\r\n| 26 | `independent_replication` | **A Satellite Claim Reproduced** | *Can another analyst reach the same map or estimate?* |\r\n| 27 | `responsible_deployment` | **A Map Used to Govern People** | *What happens when one classification informs policy?* |\r\n| 28 | `field_route_capacity` | **How Often Can the Sensor Return?** | *How do orbit and acquisition rules constrain coverage of one area?* |\r\n| 29 | `field_vehicle_design` | **The Satellite Platform's Constraints** | *How do power, mass, and pointing affect one sensor's data?* |\r\n| 30 | `field_maintenance_system` | **Maintaining a Mission in Orbit** | *How are faults, calibration drift, and updates handled?* |\r\n| 31 | `field_safety_case` | **Debris and End-of-Life Planning** | *What safety obligations apply to one satellite mission?* |\r\n| 32 | `field_construction_impact` | **Building the Ground Network** | *What local effects did one station or data facility create?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness**\r\n   - *Question:* How can a spacecraft flying 500 km above Earth synthesize a virtual kilometer-wide antenna to image tank tracks in mud through pitch-black storm clouds?\r\n   - *Key Focus:* Active microwave pulses (X-band, C-band, L-band), Doppler frequency shifts synthesizing physical aperture size, phase coherence, and radar interferometry (InSAR) measuring millimeter ground shifts.\r\n2. **Orbital Mechanics 101: How Satellites Stay in Space Without Falling**\r\n   - *Question:* Why is an orbiting satellite constantly in free-fall toward Earth without ever hitting the ground?\r\n   - *Key Focus:* Newton's cannonball thought experiment, orbital velocity (7.8 km/s in LEO), the six Keplerian orbital elements, Low Earth Orbit (LEO) vs Geostationary (GEO 35,786 km), and atmospheric drag decay.\r\n3. **The Sun-Synchronous Orbit: The Clever Physics That Keeps Satellites in Eternal Morning Light**\r\n   - *Question:* How does Earth's slightly squashed equator allow spy and weather satellites to pass over every city at exactly 10:30 AM every single day?\r\n   - *Key Focus:* Earth's oblateness J2 gravitational perturbation, retrograde orbital precession matching Earth's annual rotation around the sun (0.9856° per day), and identical shadow angles for comparative imagery.\r\n4. **Multispectral Vision: Seeing What Human Eyes Cannot with False-Color Infrared**\r\n   - *Question:* Why do healthy forests glow bright red in satellite imagery, and how can orbiting sensors detect crop drought weeks before a farmer notices?\r\n   - *Key Focus:* Chlorophyll reflectance at the 'red edge' (0.7 micrometers), Normalized Difference Vegetation Index (NDVI) spectral band math, shortwave infrared (SWIR) soil moisture detection, and thermal bands.\r\n5. **The Landsat Legacy: 50 Years of Continuous Planetary Monitoring**\r\n   - *Question:* How did a NASA program launched in 1972 create an unbroken 50-year digital time-lapse showing the growth of megacities and the retreat of glaciers?\r\n   - *Key Focus:* Multispectral Scanner System (MSS) to Operational Land Imager (OLI-2), open-data policy revolution (2008) sparking the GIS industry, tracking Amazon deforestation, and planetary change baselines.\r\n### Tier 2: Practical Mechanics & Channels\r\n6. **The Spy Satellite Arms Race: From Dropping Film Buckets from Orbit to 10-cm Digital Mirrors**\r\n   - *Question:* How did early spy satellites eject rolls of exposed film in heat shields to be snatched out of mid-air by cargo planes over the Pacific?\r\n   - *Key Focus:* Project CORONA film recovery canisters, KH-11 KENNAN digital charge-coupled device (CCD) revolution, diffraction-limited optics (Rayleigh criterion), atmospheric adaptive optics, and resolution limits.\r\n7. **GPS and GNSS: The Nanosecond Atomic Clocks That Guide the Planet**\r\n   - *Question:* Why would Google Maps fail by 11 kilometers every single day if engineers didn't correct satellite clocks for Einstein's theories of relativity?\r\n   - *Key Focus:* Rubidium and cesium atomic clocks, trilateration from 4 satellites, Special Relativity clock slowdown vs General Relativity gravitational speedup (net +38 microseconds/day), and Galileo/GLONASS/BeiDou networks.\r\n8. **Hyperspectral Imaging: Finding Hidden Minerals, Oil Leaks, and Methane from 500 km Away**\r\n   - *Question:* How can a satellite sensor split reflected light into 300 contiguous color channels to identify an invisible leaking natural gas valve from space?\r\n   - *Key Focus:* Continuous spectral reflectance curves, identifying copper porphyry mineral deposits, MethaneSAT and GHGSat pinpointing industrial super-emitters, and data compression challenges in orbit.\r\n9. **The CubeSat Revolution: How Smartphone Electronics Disrupted Multi-Billion-Dollar Spacecraft**\r\n   - *Question:* How did a 10-centimeter cardboard-sized standard box created for university students destroy the monopoly of aerospace mega-primes?\r\n   - *Key Focus:* Jordi Puig-Suari and Bob Twiggs' 1U-12U standard, Commercial Off-The-Shelf (COTS) electronics vs radiation-hardened mil-spec components, Planet Labs' 'Dove' flock imaging the entire Earth daily, and rideshare launches.\r\n10. **Weather Satellites: Tracking Typhoons from 22,000 Miles Above the Equator**\r\n   - *Question:* How do geostationary weather observatories like GOES-R and Himawari-9 take full-disk planetary images every 10 minutes to save thousands of lives from hurricanes?\r\n   - *Key Focus:* Advanced Baseline Imager (ABI) optical mechanics, geostationary positioning mechanics, lightning mapping arrays (GLM) from orbit, numerical weather prediction (NWP) model assimilation, and rapid scan modes.\r\n### Tier 3: Advanced Methodologies & Frameworks\r\n11. **Kessler Syndrome: The Nightmare Scenario That Could Trap Humanity on Earth**\r\n   - *Question:* What happens when two dead satellites collide at 28,000 km/h, generating thousands of hypervelocity shrapnel pieces that trigger a runaway chain reaction?\r\n   - *Key Focus:* Donald Kessler's 1978 paper, the 2009 Iridium-Cosmos collision, anti-satellite (ASAT) missile tests creating lasting debris clouds, orbital decay timelines, and active debris removal (ADR) harpoons and nets.\r\n12. **Starlink and Megaconstellations: Laser Cross-Links and Low-Latency Global Internet**\r\n   - *Question:* How do thousands of coordinated low-orbit satellites beam high-speed internet to moving ships and war zones without ground fiber cables?\r\n   - *Key Focus:* Phased array electronically steered beamforming antennas, optical inter-satellite laser links (ISLs) routing data at the speed of light in vacuum (40% faster than glass fiber), autonomous collision avoidance, and astronomer light pollution controversies.\r\n13. **Attitude Determination and Control (ADCS): How Satellites Point with Arcsecond Precision**\r\n   - *Question:* How does a spacecraft tumbling through zero-gravity point a high-resolution telescope at a specific building without using rocket fuel?\r\n   - *Key Focus:* Reaction wheels storing and transferring angular momentum, magnetorquers desaturating momentum using Earth's magnetic field, star tracker cameras comparing star patterns to astronomical catalogs, and gyroscopes.\r\n14. **The Downlink Bottleneck: Getting Terabytes of Satellite Data Down to Earth**\r\n   - *Question:* Why is the hardest part of satellite imaging often not taking the picture, but transmitting multi-gigabyte files to ground antennas during a 10-minute pass?\r\n   - *Key Focus:* S-band telemetry vs X-band/Ka-band payload downlinks, polar ground station networks (Svalbard KSAT), optical laser communication downlinks (TBits/sec), cloud attenuation, and edge-computing AI filtering in orbit.\r\n15. **Gravitational Oceanography: How GRACE and SWOT Weigh Earth's Water from Space**\r\n   - *Question:* How can two satellites flying 220 km apart track distance changes thinner than a human hair to weigh disappearing underground aquifers in California and India?\r\n   - *Key Focus:* GRACE microwave and laser ranging measuring micro-gravity variations, tracking mass loss of Greenland ice sheets, Surface Water and Ocean Topography (SWOT) Ka-band radar interferometry mapping rivers and ocean eddies.\r\n16. **Satellite Cybersecurity: What Happens When Hackers Hijack an Orbiting Spacecraft?**\r\n   - *Question:* How did cyber warfare attackers wipe out tens of thousands of satellite terminals across Europe on the morning of a major military invasion?\r\n   - *Key Focus:* The 2022 Viasat KA-SAT wiper malware attack, ground station uplink hijacking, spoofing and jamming GPS signals, legacy unencrypted telecommand vulnerabilities, and space cyber defense standards.\r\n### Tier 4: Enterprise Strategy & Deep Mastery\r\n17. **Quantum Satellites: Unhackable Cryptography from the Edge of Space**\r\n   - *Question:* How did China's Micius satellite beam pairs of entangled photons across 1,200 km to establish an unhackable quantum cryptographic link?\r\n   - *Key Focus:* Quantum Key Distribution (QKD), no-cloning theorem ensuring eavesdroppers are immediately exposed, beam pointing through atmospheric turbulence, and building a global quantum internet.\r\n18. **Automated Satellite AI: Onboard Machine Learning Detecting Wildfires in Real Time**\r\n   - *Question:* Why wait hours to downlink raw imagery when an onboard neural network can detect an ignition flash and alert firefighters within 60 seconds?\r\n   - *Key Focus:* Radiation-hardened low-power neural network accelerators, filtering cloud cover before transmission, automated thermal hotspot classification, and instant satellite-to-first-responder alerting meshes.\r\n19. **The Business of Pixels: The Economics of Commercial Satellite Imagery**\r\n   - *Question:* Who buys 30-centimeter commercial satellite images, and why does a single square kilometer cost anywhere from $10 to $100?\r\n   - *Key Focus:* Maxar, Planet, and BlackSky revenue models, government NRO defense contracts, hedge funds counting cars in retail parking lots and shadow tanker oil tracking, and commoditization pressures.\r\n20. **The Masterclass on Satellite Bus Engineering: Designing a Spacecraft from Scratch**\r\n   - *Question:* How does an aerospace systems engineer balance mass, power, thermal balance, and RF link budgets to guarantee a mission survives 10 years in the harsh space environment?\r\n   - *Key Focus:* Thermal vacuum (TVAC) chamber testing, multilayer insulation (MLI) blankets, triple-junction gallium arsenide solar cell efficiency, radiation SEE/TID shielding, and satellite link budget calculations.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 159 (Satellites & Earth Observation)\r\n- **Angle Preset:** `case_study`\r\n- **Episode Title:** *Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness*\r\n- **Episode Slug:** `159_satellites_earth_observation_case_study_synthetic_aperture_radar`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/159_satellites_earth_observation/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "adceb0eb5e0fe2bba581531c7dcd74c95fa287292f28d514a45cc3fc6ce088ca",
+        "original_text": "# 159 Satellites & Earth Observation -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 159 Satellites & Earth Observation (Transport_Engineering)  \r\n> **Storage Directory:** `topics/159_satellites_earth_observation/`  \r\n> **Synchronized With:** `OUTPUT/159_satellites_earth_observation/`, `REGISTRY/Niches/159_satellites_earth_observation/`, and `159_SATELLITES_EARTH_OBSERVATION_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 159 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/159_satellites_earth_observation](../../OUTPUT/159_satellites_earth_observation) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness** | Tier 1: Foundational Frameworks | `case_study` | `synthetic_aperture_radar_sar_microwaves_cloud_penetration` | Crucial foundational episode exploring the most powerful, cloud-penetrating surveillance and environmental imaging technology in orbit. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Orbital Mechanics 101: How Satellites Stay in Space Without Falling** | Tier 1: Foundational Frameworks | `beginner_guide` | `orbital_mechanics_101_keplerian_elements_leo_geo_orbits` | Establishes the foundational physics, mathematics, and orbital geometry governing all spacecraft operations. | `QUEUED` |\r\n| 3 | **The Sun-Synchronous Orbit: The Clever Physics That Keeps Satellites in Eternal Morning Light** | Tier 1: Foundational Frameworks | `mechanisms_and_systems` | `sun_synchronous_orbit_sso_j2_earth_oblateness_precession` | Deconstructs one of celestial mechanics' most elegant orbital designs used by Landsat, Sentinel, and commercial imaging fleets. | `QUEUED` |\r\n| 4 | **Multispectral Vision: Seeing What Human Eyes Cannot with False-Color Infrared** | Tier 1: Foundational Frameworks | `deep_dive` | `multispectral_imaging_infrared_ndvi_vegetation_health` | Masterclass on the electromagnetic spectrum and spectral signature analysis driving global agricultural and environmental monitoring. | `QUEUED` |\r\n| 5 | **The Landsat Legacy: 50 Years of Continuous Planetary Monitoring** | Tier 1: Foundational Frameworks | `historical_evolution` | `landsat_program_50_years_continuous_planetary_imaging` | Celebrates humanity's longest-running scientific Earth observation enterprise and its foundational open data archive. | `QUEUED` |\r\n| 6 | **The Spy Satellite Arms Race: From Dropping Film Buckets from Orbit to 10-cm Digital Mirrors** | Tier 2: Practical Mechanics & Channels | `field_investigation` | `spy_satellites_corona_film_capsules_to_keyhole_mirrors` | Fascinating historical and optical engineering journey through the clandestine world of reconnaissance spacecraft. | `QUEUED` |\r\n| 7 | **GPS and GNSS: The Nanosecond Atomic Clocks That Guide the Planet** | Tier 2: Practical Mechanics & Channels | `mechanisms_and_systems` | `gps_gnss_atomic_clocks_relativity_trilateration` | Deconstructs the planetary positioning utility and the profound real-world proof of relativistic physics operating in orbit. | `QUEUED` |\r\n| 8 | **Hyperspectral Imaging: Finding Hidden Minerals, Oil Leaks, and Methane from 500 km Away** | Tier 2: Practical Mechanics & Channels | `deep_dive` | `hyperspectral_imaging_hundreds_of_bands_methane_plumes` | Explores the cutting-edge remote sensing capability that turns orbital photography into molecular chemical identification. | `QUEUED` |\r\n| 9 | **The CubeSat Revolution: How Smartphone Electronics Disrupted Multi-Billion-Dollar Spacecraft** | Tier 2: Practical Mechanics & Channels | `comparative_analysis` | `cubesat_revolution_smallsats_smartphone_commercial_off_the_shelf` | Examines the technological democratization that sparked the 'NewSpace' commercial satellite explosion. | `QUEUED` |\r\n| 10 | **Weather Satellites: Tracking Typhoons from 22,000 Miles Above the Equator** | Tier 2: Practical Mechanics & Channels | `case_study` | `weather_satellites_geostationary_goes_himawari_hurricanes` | Showcases the vital 24/7 meteorological lifelines safeguarding global human populations from extreme weather disasters. | `QUEUED` |\r\n| 11 | **Kessler Syndrome: The Nightmare Scenario That Could Trap Humanity on Earth** | Tier 3: Advanced Methodologies & Frameworks | `systemic_critique` | `kessler_syndrome_orbital_debris_cascading_collisions` | A critical warning regarding the preservation of near-Earth orbital space as an irreplaceable finite natural resource. | `QUEUED` |\r\n| 12 | **Starlink and Megaconstellations: Laser Cross-Links and Low-Latency Global Internet** | Tier 3: Advanced Methodologies & Frameworks | `mechanisms_and_systems` | `starlink_megaconstellations_optical_inter_satellite_links` | Deconstructs the engineering and architectural scale of the largest satellite constellation in human history. | `QUEUED` |\r\n| 13 | **Attitude Determination and Control (ADCS): How Satellites Point with Arcsecond Precision** | Tier 3: Advanced Methodologies & Frameworks | `mechanisms_and_systems` | `adcs_reaction_wheels_star_trackers_magnetorquers` | Masterclass on the electro-mechanical guidance systems that stabilize and orient spacecraft in vacuum. | `QUEUED` |\r\n| 14 | **The Downlink Bottleneck: Getting Terabytes of Satellite Data Down to Earth** | Tier 3: Advanced Methodologies & Frameworks | `comparative_analysis` | `downlink_bottleneck_ground_stations_optical_communications` | Examines the severe telecommunications and data throughput bottlenecks limiting Earth observation architectures. | `QUEUED` |\r\n| 15 | **Gravitational Oceanography: How GRACE and SWOT Weigh Earth's Water from Space** | Tier 3: Advanced Methodologies & Frameworks | `deep_dive` | `grace_swot_satellites_weighing_groundwater_ocean_topography` | Presents one of the most stunning achievements in precision satellite geodesy and global hydrology tracking. | `QUEUED` |\r\n| 16 | **Satellite Cybersecurity: What Happens When Hackers Hijack an Orbiting Spacecraft?** | Tier 3: Advanced Methodologies & Frameworks | `investigative_report` | `satellite_cybersecurity_viasat_hack_ground_station_vulnerabilities` | Exposes the acute cybersecurity vulnerabilities present across commercial and military space infrastructure. | `QUEUED` |\r\n| 17 | **Quantum Satellites: Unhackable Cryptography from the Edge of Space** | Tier 4: Enterprise Strategy & Deep Mastery | `future_predictions` | `quantum_satellites_micius_quantum_key_distribution_entanglement` | Evaluates the cutting-edge intersection of quantum physics, optical satellite design, and next-generation global communications security. | `QUEUED` |\r\n| 18 | **Automated Satellite AI: Onboard Machine Learning Detecting Wildfires in Real Time** | Tier 4: Enterprise Strategy & Deep Mastery | `field_investigation` | `onboard_satellite_ai_edge_computing_real_time_wildfires` | Highlights the transformative paradigm shift from dumb pixel capture to intelligent onboard automated space analytics. | `QUEUED` |\r\n| 19 | **The Business of Pixels: The Economics of Commercial Satellite Imagery** | Tier 4: Enterprise Strategy & Deep Mastery | `cost_breakdown` | `business_of_satellite_imagery_maxar_planet_pricing` | Detailed economic autopsy of the commercial Earth observation market, pricing models, and private intelligence analytics. | `QUEUED` |\r\n| 20 | **The Masterclass on Satellite Bus Engineering: Designing a Spacecraft from Scratch** | Tier 4: Enterprise Strategy & Deep Mastery | `masterclass` | `masterclass_satellite_bus_engineering_thermal_power_link_budget` | The definitive masterclass on aerospace systems engineering, orbital life-support, and satellite bus design. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Direct-to-Cell Starlink: Sending Text Messages Directly to Unmodified iPhones from Space** | **High Global Velocity (9.6/10)** | `case_study` | `direct_to_cell_starlink_satellite_cellular_coverage` | SpaceX and T-Mobile launching Direct-to-Cell satellites with massive phased array antennas enabling standard smartphones to connect anywhere without cell towers. | `TRENDING CANDIDATE` |\r\n| 22 | **Satellite Methane Trackers: Naming and Shaming Global Oil Pipeline Leaks in Real Time** | **Rapid Surge (9.5/10)** | `field_investigation` | `satellite_methane_trackers_methanesat_oil_pipeline_leaks` | MethaneSAT and Carbon Mapper publishing interactive public satellite maps exposing massive plumes from oil and gas fields, triggering regulatory fines. | `TRENDING CANDIDATE` |\r\n| 23 | **The Near-Miss in Orbit: Russian Debris Passing Within 10 Meters of NASA Satellites** | **Viral Peak (9.3/10)** | `deep_dive` | `near_miss_in_orbit_debris_collision_avoidance_maneuvers` | Heart-stopping close encounters tracked by space tracking radars forcing emergency thruster burns on active science satellites and the ISS. | `TRENDING CANDIDATE` |\r\n| 24 | **The 10-Centimeter Optical Horizon: Why Satellite Imagery Resolution Has Hit Physical Limits** | **Breakthrough Trend (9.1/10)** | `mechanisms_and_systems` | `satellite_optical_resolution_diffraction_limits_atmosphere` | Technical analysis showing why atmospheric turbulence, optical physics, and federal regulations prevent commercial satellites from reading license plates. | `TRENDING CANDIDATE` |\r\n| 25 | **GPS Spoofing Over the Black Sea and Middle East: How Electronic Warfare is Blinding Airliners** | **High Velocity (8.9/10)** | `investigative_report` | `gps_spoofing_electronic_warfare_civilian_aviation_hazards` | Surge of civilian aircraft reporting cockpit navigation instruments displaying false positions and fake clock times in active geopolitical conflict zones. | `TRENDING CANDIDATE` |\r\n| 26 | **The Wooden Satellite: Why Japan Built LignoSat to Reduce Space Debris** | **Emerging Niche (8.8/10)** | `future_predictions` | `wooden_satellite_lignosat_japan_magnolia_space_debris` | Kyoto University and Sumitomo Forestry launching a wooden satellite made of magnolia wood that completely vaporizes on re-entry without releasing alumina particles. | `TRENDING CANDIDATE` |\r\n| 27 | **The $300,000 SmallSat Launch: How Transporter Rideshares Changed Space Economics** | **Steady Long-Tail (8.5/10)** | `cost_breakdown` | `smallsat_rideshare_economics_spacex_transporter_costs` | Financial teardown of SpaceX Transporter missions offering $5,500/kg rideshare slots, democratizing orbital access for startups and universities. | `TRENDING CANDIDATE` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/159_satellites_earth_observation/159_SATELLITES_EARTH_OBSERVATION_CHANNEL_TOPIC_ROADMAP.md`](./159_SATELLITES_EARTH_OBSERVATION_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/159_satellites_earth_observation/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/159_satellites_earth_observation/NICHE_159_satellites_earth_observation.md`](file:///h:/script-raw-/REGISTRY/Niches/159_satellites_earth_observation/NICHE_159_satellites_earth_observation.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/159_satellites_earth_observation/CAT_159_satellites_earth_observation.md`](file:///h:/script-raw-/REGISTRY/Niches/159_satellites_earth_observation/CAT_159_satellites_earth_observation.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/159_satellites_earth_observation/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/159_satellites_earth_observation/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/159_satellites_earth_observation/`](file:///h:/script-raw-/OUTPUT/159_satellites_earth_observation/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "5949997d96f09d4f3c69cf55abe05f59599a0f69d253912f1ebf9d8a03a6b6c2",
+        "original_text": "{\r\n  \"niche_id\": \"159\",\r\n  \"niche_name\": \"satellites_earth_observation\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"synthetic_aperture_radar_sar_microwaves_cloud_penetration\",\r\n      \"reason\": \"Crucial foundational episode exploring the most powerful, cloud-penetrating surveillance and environmental imaging technology in orbit.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Orbital Mechanics 101: How Satellites Stay in Space Without Falling\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_guide\",\r\n      \"slug\": \"orbital_mechanics_101_keplerian_elements_leo_geo_orbits\",\r\n      \"reason\": \"Establishes the foundational physics, mathematics, and orbital geometry governing all spacecraft operations.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"The Sun-Synchronous Orbit: The Clever Physics That Keeps Satellites in Eternal Morning Light\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"sun_synchronous_orbit_sso_j2_earth_oblateness_precession\",\r\n      \"reason\": \"Deconstructs one of celestial mechanics' most elegant orbital designs used by Landsat, Sentinel, and commercial imaging fleets.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Multispectral Vision: Seeing What Human Eyes Cannot with False-Color Infrared\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"multispectral_imaging_infrared_ndvi_vegetation_health\",\r\n      \"reason\": \"Masterclass on the electromagnetic spectrum and spectral signature analysis driving global agricultural and environmental monitoring.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"The Landsat Legacy: 50 Years of Continuous Planetary Monitoring\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"historical_evolution\",\r\n      \"slug\": \"landsat_program_50_years_continuous_planetary_imaging\",\r\n      \"reason\": \"Celebrates humanity's longest-running scientific Earth observation enterprise and its foundational open data archive.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"The Spy Satellite Arms Race: From Dropping Film Buckets from Orbit to 10-cm Digital Mirrors\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"spy_satellites_corona_film_capsules_to_keyhole_mirrors\",\r\n      \"reason\": \"Fascinating historical and optical engineering journey through the clandestine world of reconnaissance spacecraft.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"GPS and GNSS: The Nanosecond Atomic Clocks That Guide the Planet\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"gps_gnss_atomic_clocks_relativity_trilateration\",\r\n      \"reason\": \"Deconstructs the planetary positioning utility and the profound real-world proof of relativistic physics operating in orbit.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Hyperspectral Imaging: Finding Hidden Minerals, Oil Leaks, and Methane from 500 km Away\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"hyperspectral_imaging_hundreds_of_bands_methane_plumes\",\r\n      \"reason\": \"Explores the cutting-edge remote sensing capability that turns orbital photography into molecular chemical identification.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"The CubeSat Revolution: How Smartphone Electronics Disrupted Multi-Billion-Dollar Spacecraft\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"cubesat_revolution_smallsats_smartphone_commercial_off_the_shelf\",\r\n      \"reason\": \"Examines the technological democratization that sparked the 'NewSpace' commercial satellite explosion.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Weather Satellites: Tracking Typhoons from 22,000 Miles Above the Equator\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"weather_satellites_geostationary_goes_himawari_hurricanes\",\r\n      \"reason\": \"Showcases the vital 24/7 meteorological lifelines safeguarding global human populations from extreme weather disasters.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Kessler Syndrome: The Nightmare Scenario That Could Trap Humanity on Earth\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"systemic_critique\",\r\n      \"slug\": \"kessler_syndrome_orbital_debris_cascading_collisions\",\r\n      \"reason\": \"A critical warning regarding the preservation of near-Earth orbital space as an irreplaceable finite natural resource.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Starlink and Megaconstellations: Laser Cross-Links and Low-Latency Global Internet\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"starlink_megaconstellations_optical_inter_satellite_links\",\r\n      \"reason\": \"Deconstructs the engineering and architectural scale of the largest satellite constellation in human history.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Attitude Determination and Control (ADCS): How Satellites Point with Arcsecond Precision\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"adcs_reaction_wheels_star_trackers_magnetorquers\",\r\n      \"reason\": \"Masterclass on the electro-mechanical guidance systems that stabilize and orient spacecraft in vacuum.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"The Downlink Bottleneck: Getting Terabytes of Satellite Data Down to Earth\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"downlink_bottleneck_ground_stations_optical_communications\",\r\n      \"reason\": \"Examines the severe telecommunications and data throughput bottlenecks limiting Earth observation architectures.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Gravitational Oceanography: How GRACE and SWOT Weigh Earth's Water from Space\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"grace_swot_satellites_weighing_groundwater_ocean_topography\",\r\n      \"reason\": \"Presents one of the most stunning achievements in precision satellite geodesy and global hydrology tracking.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Satellite Cybersecurity: What Happens When Hackers Hijack an Orbiting Spacecraft?\",\r\n      \"tier\": \"Tier 3: Advanced Methodologies & Frameworks\",\r\n      \"angle\": \"investigative_report\",\r\n      \"slug\": \"satellite_cybersecurity_viasat_hack_ground_station_vulnerabilities\",\r\n      \"reason\": \"Exposes the acute cybersecurity vulnerabilities present across commercial and military space infrastructure.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Quantum Satellites: Unhackable Cryptography from the Edge of Space\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"quantum_satellites_micius_quantum_key_distribution_entanglement\",\r\n      \"reason\": \"Evaluates the cutting-edge intersection of quantum physics, optical satellite design, and next-generation global communications security.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Automated Satellite AI: Onboard Machine Learning Detecting Wildfires in Real Time\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"onboard_satellite_ai_edge_computing_real_time_wildfires\",\r\n      \"reason\": \"Highlights the transformative paradigm shift from dumb pixel capture to intelligent onboard automated space analytics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"The Business of Pixels: The Economics of Commercial Satellite Imagery\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"cost_breakdown\",\r\n      \"slug\": \"business_of_satellite_imagery_maxar_planet_pricing\",\r\n      \"reason\": \"Detailed economic autopsy of the commercial Earth observation market, pricing models, and private intelligence analytics.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Masterclass on Satellite Bus Engineering: Designing a Spacecraft from Scratch\",\r\n      \"tier\": \"Tier 4: Enterprise Strategy & Deep Mastery\",\r\n      \"angle\": \"masterclass\",\r\n      \"slug\": \"masterclass_satellite_bus_engineering_thermal_power_link_budget\",\r\n      \"reason\": \"The definitive masterclass on aerospace systems engineering, orbital life-support, and satellite bus design.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Direct-to-Cell Starlink: Sending Text Messages Directly to Unmodified iPhones from Space\",\r\n      \"trend_score\": \"High Global Velocity (9.6/10)\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"direct_to_cell_starlink_satellite_cellular_coverage\",\r\n      \"why_trending\": \"SpaceX and T-Mobile launching Direct-to-Cell satellites with massive phased array antennas enabling standard smartphones to connect anywhere without cell towers.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Satellite Methane Trackers: Naming and Shaming Global Oil Pipeline Leaks in Real Time\",\r\n      \"trend_score\": \"Rapid Surge (9.5/10)\",\r\n      \"angle\": \"field_investigation\",\r\n      \"slug\": \"satellite_methane_trackers_methanesat_oil_pipeline_leaks\",\r\n      \"why_trending\": \"MethaneSAT and Carbon Mapper publishing interactive public satellite maps exposing massive plumes from oil and gas fields, triggering regulatory fines.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"The Near-Miss in Orbit: Russian Debris Passing Within 10 Meters of NASA Satellites\",\r\n      \"trend_score\": \"Viral Peak (9.3/10)\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"near_miss_in_orbit_debris_collision_avoidance_maneuvers\",\r\n      \"why_trending\": \"Heart-stopping close encounters tracked by space tracking radars forcing emergency thruster burns on active science satellites and the ISS.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"The 10-Centimeter Optical Horizon: Why Satellite Imagery Resolution Has Hit Physical Limits\",\r\n      \"trend_score\": \"Breakthrough Trend (9.1/10)\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"satellite_optical_resolution_diffraction_limits_atmosphere\",\r\n      \"why_trending\": \"Technical analysis showing why atmospheric turbulence, optical physics, and federal regulations prevent commercial satellites from reading license plates.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"GPS Spoofing Over the Black Sea and Middle East: How Electronic Warfare is Blinding Airliners\",\r\n      \"trend_score\": \"High Velocity (8.9/10)\",\r\n      \"angle\": \"investigative_report\",\r\n      \"slug\": \"gps_spoofing_electronic_warfare_civilian_aviation_hazards\",\r\n      \"why_trending\": \"Surge of civilian aircraft reporting cockpit navigation instruments displaying false positions and fake clock times in active geopolitical conflict zones.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"The Wooden Satellite: Why Japan Built LignoSat to Reduce Space Debris\",\r\n      \"trend_score\": \"Emerging Niche (8.8/10)\",\r\n      \"angle\": \"future_predictions\",\r\n      \"slug\": \"wooden_satellite_lignosat_japan_magnolia_space_debris\",\r\n      \"why_trending\": \"Kyoto University and Sumitomo Forestry launching a wooden satellite made of magnolia wood that completely vaporizes on re-entry without releasing alumina particles.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"The $300,000 SmallSat Launch: How Transporter Rideshares Changed Space Economics\",\r\n      \"trend_score\": \"Steady Long-Tail (8.5/10)\",\r\n      \"angle\": \"cost_breakdown\",\r\n      \"slug\": \"smallsat_rideshare_economics_spacex_transporter_costs\",\r\n      \"why_trending\": \"Financial teardown of SpaceX Transporter missions offering $5,500/kg rideshare slots, democratizing orbital access for startups and universities.\",\r\n      \"status\": \"TRENDING CANDIDATE\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "159",
+      "niche_name": "satellites_earth_observation",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "Synthetic Aperture Radar: How Satellites See Through Clouds, Hurricanes, and Darkness",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "case_study",
+          "slug": "synthetic_aperture_radar_sar_microwaves_cloud_penetration",
+          "reason": "Crucial foundational episode exploring the most powerful, cloud-penetrating surveillance and environmental imaging technology in orbit.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Orbital Mechanics 101: How Satellites Stay in Space Without Falling",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_guide",
+          "slug": "orbital_mechanics_101_keplerian_elements_leo_geo_orbits",
+          "reason": "Establishes the foundational physics, mathematics, and orbital geometry governing all spacecraft operations.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "The Sun-Synchronous Orbit: The Clever Physics That Keeps Satellites in Eternal Morning Light",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "sun_synchronous_orbit_sso_j2_earth_oblateness_precession",
+          "reason": "Deconstructs one of celestial mechanics' most elegant orbital designs used by Landsat, Sentinel, and commercial imaging fleets.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Multispectral Vision: Seeing What Human Eyes Cannot with False-Color Infrared",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "deep_dive",
+          "slug": "multispectral_imaging_infrared_ndvi_vegetation_health",
+          "reason": "Masterclass on the electromagnetic spectrum and spectral signature analysis driving global agricultural and environmental monitoring.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "The Landsat Legacy: 50 Years of Continuous Planetary Monitoring",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "historical_evolution",
+          "slug": "landsat_program_50_years_continuous_planetary_imaging",
+          "reason": "Celebrates humanity's longest-running scientific Earth observation enterprise and its foundational open data archive.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "The Spy Satellite Arms Race: From Dropping Film Buckets from Orbit to 10-cm Digital Mirrors",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "field_investigation",
+          "slug": "spy_satellites_corona_film_capsules_to_keyhole_mirrors",
+          "reason": "Fascinating historical and optical engineering journey through the clandestine world of reconnaissance spacecraft.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "GPS and GNSS: The Nanosecond Atomic Clocks That Guide the Planet",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "mechanisms_and_systems",
+          "slug": "gps_gnss_atomic_clocks_relativity_trilateration",
+          "reason": "Deconstructs the planetary positioning utility and the profound real-world proof of relativistic physics operating in orbit.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Hyperspectral Imaging: Finding Hidden Minerals, Oil Leaks, and Methane from 500 km Away",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "deep_dive",
+          "slug": "hyperspectral_imaging_hundreds_of_bands_methane_plumes",
+          "reason": "Explores the cutting-edge remote sensing capability that turns orbital photography into molecular chemical identification.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "The CubeSat Revolution: How Smartphone Electronics Disrupted Multi-Billion-Dollar Spacecraft",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "comparative_analysis",
+          "slug": "cubesat_revolution_smallsats_smartphone_commercial_off_the_shelf",
+          "reason": "Examines the technological democratization that sparked the 'NewSpace' commercial satellite explosion.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Weather Satellites: Tracking Typhoons from 22,000 Miles Above the Equator",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "case_study",
+          "slug": "weather_satellites_geostationary_goes_himawari_hurricanes",
+          "reason": "Showcases the vital 24/7 meteorological lifelines safeguarding global human populations from extreme weather disasters.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Kessler Syndrome: The Nightmare Scenario That Could Trap Humanity on Earth",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "systemic_critique",
+          "slug": "kessler_syndrome_orbital_debris_cascading_collisions",
+          "reason": "A critical warning regarding the preservation of near-Earth orbital space as an irreplaceable finite natural resource.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Starlink and Megaconstellations: Laser Cross-Links and Low-Latency Global Internet",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "starlink_megaconstellations_optical_inter_satellite_links",
+          "reason": "Deconstructs the engineering and architectural scale of the largest satellite constellation in human history.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Attitude Determination and Control (ADCS): How Satellites Point with Arcsecond Precision",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "adcs_reaction_wheels_star_trackers_magnetorquers",
+          "reason": "Masterclass on the electro-mechanical guidance systems that stabilize and orient spacecraft in vacuum.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "The Downlink Bottleneck: Getting Terabytes of Satellite Data Down to Earth",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "comparative_analysis",
+          "slug": "downlink_bottleneck_ground_stations_optical_communications",
+          "reason": "Examines the severe telecommunications and data throughput bottlenecks limiting Earth observation architectures.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Gravitational Oceanography: How GRACE and SWOT Weigh Earth's Water from Space",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "deep_dive",
+          "slug": "grace_swot_satellites_weighing_groundwater_ocean_topography",
+          "reason": "Presents one of the most stunning achievements in precision satellite geodesy and global hydrology tracking.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Satellite Cybersecurity: What Happens When Hackers Hijack an Orbiting Spacecraft?",
+          "tier": "Tier 3: Advanced Methodologies & Frameworks",
+          "angle": "investigative_report",
+          "slug": "satellite_cybersecurity_viasat_hack_ground_station_vulnerabilities",
+          "reason": "Exposes the acute cybersecurity vulnerabilities present across commercial and military space infrastructure.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Quantum Satellites: Unhackable Cryptography from the Edge of Space",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "future_predictions",
+          "slug": "quantum_satellites_micius_quantum_key_distribution_entanglement",
+          "reason": "Evaluates the cutting-edge intersection of quantum physics, optical satellite design, and next-generation global communications security.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Automated Satellite AI: Onboard Machine Learning Detecting Wildfires in Real Time",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "field_investigation",
+          "slug": "onboard_satellite_ai_edge_computing_real_time_wildfires",
+          "reason": "Highlights the transformative paradigm shift from dumb pixel capture to intelligent onboard automated space analytics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "The Business of Pixels: The Economics of Commercial Satellite Imagery",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "cost_breakdown",
+          "slug": "business_of_satellite_imagery_maxar_planet_pricing",
+          "reason": "Detailed economic autopsy of the commercial Earth observation market, pricing models, and private intelligence analytics.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Masterclass on Satellite Bus Engineering: Designing a Spacecraft from Scratch",
+          "tier": "Tier 4: Enterprise Strategy & Deep Mastery",
+          "angle": "masterclass",
+          "slug": "masterclass_satellite_bus_engineering_thermal_power_link_budget",
+          "reason": "The definitive masterclass on aerospace systems engineering, orbital life-support, and satellite bus design.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Direct-to-Cell Starlink: Sending Text Messages Directly to Unmodified iPhones from Space",
+          "trend_score": "High Global Velocity (9.6/10)",
+          "angle": "case_study",
+          "slug": "direct_to_cell_starlink_satellite_cellular_coverage",
+          "why_trending": "SpaceX and T-Mobile launching Direct-to-Cell satellites with massive phased array antennas enabling standard smartphones to connect anywhere without cell towers.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 22,
+          "title": "Satellite Methane Trackers: Naming and Shaming Global Oil Pipeline Leaks in Real Time",
+          "trend_score": "Rapid Surge (9.5/10)",
+          "angle": "field_investigation",
+          "slug": "satellite_methane_trackers_methanesat_oil_pipeline_leaks",
+          "why_trending": "MethaneSAT and Carbon Mapper publishing interactive public satellite maps exposing massive plumes from oil and gas fields, triggering regulatory fines.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 23,
+          "title": "The Near-Miss in Orbit: Russian Debris Passing Within 10 Meters of NASA Satellites",
+          "trend_score": "Viral Peak (9.3/10)",
+          "angle": "deep_dive",
+          "slug": "near_miss_in_orbit_debris_collision_avoidance_maneuvers",
+          "why_trending": "Heart-stopping close encounters tracked by space tracking radars forcing emergency thruster burns on active science satellites and the ISS.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 24,
+          "title": "The 10-Centimeter Optical Horizon: Why Satellite Imagery Resolution Has Hit Physical Limits",
+          "trend_score": "Breakthrough Trend (9.1/10)",
+          "angle": "mechanisms_and_systems",
+          "slug": "satellite_optical_resolution_diffraction_limits_atmosphere",
+          "why_trending": "Technical analysis showing why atmospheric turbulence, optical physics, and federal regulations prevent commercial satellites from reading license plates.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 25,
+          "title": "GPS Spoofing Over the Black Sea and Middle East: How Electronic Warfare is Blinding Airliners",
+          "trend_score": "High Velocity (8.9/10)",
+          "angle": "investigative_report",
+          "slug": "gps_spoofing_electronic_warfare_civilian_aviation_hazards",
+          "why_trending": "Surge of civilian aircraft reporting cockpit navigation instruments displaying false positions and fake clock times in active geopolitical conflict zones.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 26,
+          "title": "The Wooden Satellite: Why Japan Built LignoSat to Reduce Space Debris",
+          "trend_score": "Emerging Niche (8.8/10)",
+          "angle": "future_predictions",
+          "slug": "wooden_satellite_lignosat_japan_magnolia_space_debris",
+          "why_trending": "Kyoto University and Sumitomo Forestry launching a wooden satellite made of magnolia wood that completely vaporizes on re-entry without releasing alumina particles.",
+          "status": "TRENDING CANDIDATE"
+        },
+        {
+          "id": 27,
+          "title": "The $300,000 SmallSat Launch: How Transporter Rideshares Changed Space Economics",
+          "trend_score": "Steady Long-Tail (8.5/10)",
+          "angle": "cost_breakdown",
+          "slug": "smallsat_rideshare_economics_spacex_transporter_costs",
+          "why_trending": "Financial teardown of SpaceX Transporter missions offering $5,500/kg rideshare slots, democratizing orbital access for startups and universities.",
+          "status": "TRENDING CANDIDATE"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "2da19a8c0062947ad0114a9999a8095f995e2b24cc19cd0dbbb9d7e24ec1b531"
+    },
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "33e9b02b9179616a97ee960af91ad6a2ae7cabcef0ea0d9a26740e62a69be2f0"
+    },
+    {
+      "input": "Scripts\\editorial_pass_002_184.json",
+      "sha256": "72362a6713c04714d64e2b2ae21de027312f237271c4c23690c032565968712c"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-159-01",
+      "title": "Tier 1: Foundational Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-02",
+      "title": "Tier 2: Practical Mechanics & Channels",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-03",
+      "title": "Tier 3: Advanced Methodologies & Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-04",
+      "title": "Tier 4: Enterprise Strategy & Deep Mastery",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-05",
+      "title": "Satellite foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-06",
+      "title": "Observation methods",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-159-07",
+      "title": "Observation use",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "159",
+    "slug": "satellites_earth_observation",
+    "name": "Satellites & Earth Observation",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Satellites & Earth Observation YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-159-01",
+        "title": "Observation systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-159-001",
+            "title": "Optical versus radar imaging",
+            "question": "Optical versus radar imaging: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Observation systems. Address Optical versus radar imaging through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Optical versus radar imaging.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-002",
+            "title": "Spatial versus temporal resolution",
+            "question": "Spatial versus temporal resolution: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Observation systems. Address Spatial versus temporal resolution through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Spatial versus temporal resolution.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-003",
+            "title": "Orbit selection",
+            "question": "Orbit selection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Observation systems. Address Orbit selection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Orbit selection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-159-02",
+        "title": "Applications",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-159-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-159-004",
+            "title": "Crop monitoring",
+            "question": "Crop monitoring: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Applications. Address Crop monitoring through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Crop monitoring precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-005",
+            "title": "Flood extent mapping",
+            "question": "Flood extent mapping: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Applications. Address Flood extent mapping through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Flood extent mapping precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-006",
+            "title": "Land-cover change detection",
+            "question": "Land-cover change detection: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Applications. Address Land-cover change detection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Land-cover change detection precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-159-03",
+        "title": "Data quality",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-159-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-159-007",
+            "title": "Atmospheric correction",
+            "question": "Atmospheric correction: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Data quality. Address Atmospheric correction through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Atmospheric correction.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-008",
+            "title": "Ground-truth sampling",
+            "question": "Ground-truth sampling: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Data quality. Address Ground-truth sampling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Ground-truth sampling.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-159-009",
+            "title": "Cloud cover and missing observations",
+            "question": "Cloud cover and missing observations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Satellites & Earth Observation; branch: Data quality. Address Cloud cover and missing observations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cloud cover and missing observations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "012",
+        "title": "Space / Universe",
+        "directory": "012_space_universe",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "032",
+        "title": "Space Exploration",
+        "directory": "032_space_exploration",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "344",
+        "title": "Astronomy",
+        "directory": "344_astronomy",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "345",
+        "title": "Planetary Science",
+        "directory": "345_planetary_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "346",
+        "title": "Moon Science",
+        "directory": "346_moon_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "347",
+        "title": "Solar Science",
+        "directory": "347_solar_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [
+    "BANK-159-010",
+    "BANK-159-011",
+    "BANK-159-012",
+    "BANK-159-013",
+    "BANK-159-014",
+    "BANK-159-015",
+    "BANK-159-016",
+    "BANK-159-017",
+    "BANK-159-018",
+    "BANK-159-019",
+    "BANK-159-020",
+    "BANK-159-021",
+    "BANK-159-022",
+    "BANK-159-023",
+    "BANK-159-024",
+    "BANK-159-025",
+    "BANK-159-026",
+    "BANK-159-027",
+    "BANK-159-028",
+    "BANK-159-029"
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "18907b619d7243c80520895877b8723f4fb264413cee8e204008fb6df5e874c2",
+    "TOPIC_BANK_RECONCILIATION.md": "9c0fb1d973c364a7c8d50ab080cde3c0df1efc8402f0c1562368248b2d665a5e",
+    "TOPICS_COVERED_REPORT.md": "24db832ca8397e13d090b8fe0e02df3c7df52fc5d5b57e14020db0e87849ca87",
+    "159_SATELLITES_EARTH_OBSERVATION_CHANNEL_TOPIC_ROADMAP.md": "97b39bc720e17a1c99da0ea0820f86526115d3b982bff1bd14cba3aadb158c53"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-159-001": [
+      "BANK-159-032"
+    ],
+    "BANK-159-002": [
+      "BANK-159-033"
+    ],
+    "BANK-159-003": [
+      "BANK-159-030"
+    ],
+    "BANK-159-004": [
+      "BANK-159-034"
+    ],
+    "BANK-159-005": [
+      "BANK-159-038"
+    ],
+    "BANK-159-006": [
+      "BANK-159-037"
+    ],
+    "BANK-159-008": [
+      "BANK-159-039"
+    ],
+    "BANK-159-009": [
+      "BANK-159-032"
+    ],
+    "BANK-159-007": [
+      "BANK-159-042"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Case and source readiness",
+      "next_step": "Mission-owner records bound MethaneSAT's June 2025 contact loss and NASA's separate GRACE-FO/SWOT measurement scopes (see RESEARCH_NOTES/SELECTED_CASES.md). Instant leak attribution, near-miss distances, resolution ceilings, LignoSat debris benefit and rideshare costs remain source-pending; no idea was approved."
+    },
+    {
+      "area": "Reviewed starter branches and primary-home boundaries",
+      "next_step": "All original starter concepts now have explicit individual-scope targets. See the starter crosswalk below and Scripts/editorial_review_002_184.json for scope evidence and semantic pair decisions; follow the primary-home referrals after consolidation."
+    },
+    {
+      "area": "Regional and participant variation",
+      "next_step": "Compare less-visible regions, languages, participants and contrary cases within this niche; record substantive distinctions before adding another proposal."
+    }
+  ],
+  "coverage_mapping_review": {
+    "date": "2026-10-23",
+    "method": "Manual thematic cross-references to authored questions. A link is a navigation aid, not a claim that every aspect of a starter branch has been exhausted.",
+    "mapped_starter_concepts": 8,
+    "unmapped_starter_concepts": 1
+  },
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "not_performed",
+    "semantic_candidates_reviewed": 1,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-010"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/1": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-011"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/2": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-012"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/3": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-013"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/4": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-014"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/5": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-015"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/6": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-016"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/7": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-017"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/8": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-018"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/9": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-019"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/10": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-020"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/11": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-021"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/12": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-022"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/13": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-023"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/14": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-024"
+      ],
+      "reason": "GRACE/GRACE-FO measure broad gravity-related mass change; SWOT maps surface-water topography. Do not attribute one mission's measurement to the other."
+    },
+    "pending_topics/15": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-025"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/16": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-026"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/17": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-027"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/18": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-028"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "pending_topics/19": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-029"
+      ],
+      "reason": "The existing imported question retains the subject; specific quantities, causal mechanisms, performance, markets and dated outcomes require primary evidence."
+    },
+    "trending_topics/0": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-021"
+      ],
+      "reason": "Direct-to-cell is a connectivity branch; device, carrier, geography and service phase must be specified."
+    },
+    "trending_topics/1": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-043",
+        "BANK-159-017"
+      ],
+      "reason": "MethaneSAT lost contact in June 2025. Its available observations cannot establish continuous current monitoring or instantly identify each pipeline leak."
+    },
+    "trending_topics/2": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-020"
+      ],
+      "reason": "A specific conjunction needs a dated conjunction assessment; the archived 10-meter claim is not established by this route."
+    },
+    "trending_topics/3": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-033",
+        "BANK-159-028"
+      ],
+      "reason": "A universal 10-centimeter optical limit is not established; sensor, orbit, atmosphere and product definitions differ."
+    },
+    "trending_topics/4": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-016"
+      ],
+      "reason": "Specific aviation spoofing incidents require dated official safety and navigation records; GPS's mechanism alone cannot establish attribution."
+    },
+    "trending_topics/5": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-018",
+        "BANK-159-029"
+      ],
+      "reason": "LignoSat is a spacecraft-material example within the CubeSat/bus scope; debris reduction requires mission and reentry evidence."
+    },
+    "trending_topics/6": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-159-018",
+        "BANK-159-029"
+      ],
+      "reason": "Rideshare cost depends on date, orbit, mass and contract; the advertised fixed price is unverified."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-159-043",
+      "note_file": "RESEARCH_NOTES/SELECTED_CASES.md"
+    },
+    {
+      "topic_id": "BANK-159-044",
+      "note_file": "RESEARCH_NOTES/SELECTED_CASES.md"
+    }
+  ]
+}

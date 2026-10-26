@@ -1,0 +1,1596 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "533",
+  "slug": "no-code_low-code_development",
+  "name": "No-Code & Low-Code Development",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a No-Code & Low-Code Development YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 15
+  },
+  "categories": [
+    {
+      "id": "CATALOG-533-R01",
+      "title": "Low-code foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-533-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "475bb5ddcf3a0b2da5c10f08a82e3805ef9785909a215265ea2476a89ad5cc6e",
+      "topics": [
+        {
+          "question": "Why does a drag-and-drop app still need a data model?",
+          "coverage": "Trace entities, relationships and validation.",
+          "id": "BANK-533-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-533-001"
+          ]
+        },
+        {
+          "question": "How can a form expose records its creator did not intend to share?",
+          "coverage": "Discuss permission checks defensively through a test application.",
+          "id": "BANK-533-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R02",
+      "title": "Workflow construction",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-533-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "935258083d78656d41597ea7f045207fe0c0f4e37f2fbb8eed2076e5e2f8d0b0",
+      "topics": [
+        {
+          "question": "What happens when an automated workflow receives the same trigger twice?",
+          "coverage": "Compare idempotency, deduplication and audit logs.",
+          "id": "BANK-533-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-533-002"
+          ]
+        },
+        {
+          "question": "How can a low-code app recover when an external API changes?",
+          "coverage": "Plan error handling and interface monitoring.",
+          "id": "BANK-533-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a visually complete low-code form still need validation at the data boundary?",
+          "coverage": "Compare missing values, inconsistent records and role-aware error feedback in a test app.",
+          "covers_starter_ids": [
+            "BANK-533-004"
+          ],
+          "id": "BANK-533-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R03",
+      "title": "Platform decisions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-533-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a0efc53046d986a93d995a8dfa1e679cc93e4db9e034a59b31b60a42ca2aa75d",
+      "topics": [
+        {
+          "question": "What must be exported to move an app beyond its original vendor?",
+          "coverage": "Include data, logic, permissions and integrations.",
+          "id": "BANK-533-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can organizations govern employee-built applications without stopping experimentation?",
+          "coverage": "Compare ownership, review and risk tiers.",
+          "id": "BANK-533-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Defra describe triaging citizen-built Power Platform apps by risk in 2023–24?",
+          "coverage": "Read Defra's dated 2023 and 2024 first-party accounts for self-service versus enterprise controls and its Solution Registration Tool; distinguish reported governance design and adoption counts from audited reliability, cost savings or current policy.",
+          "id": "BANK-533-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R04",
+      "title": "Low-code architecture",
+      "level": "foundation",
+      "parent_id": "DOMAIN-533-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "064f2d3c071669951147b7e784701f4f00578769c1c08c4ac3cb0360f9c85c6b",
+      "topics": [
+        {
+          "question": "How do workflow triggers and API integrations connect a form to an external service?",
+          "coverage": "Trace events, data and failure states.",
+          "id": "BANK-533-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-533-003",
+            "BANK-533-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R05",
+      "title": "Low-code architecture",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-533-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "868b3142b03cd8033fdf87a64ab51b64aaa0e7e13776ca5ba8a0f33821b19713",
+      "topics": [
+        {
+          "question": "How can permission-aware interfaces and accessible defaults prevent avoidable barriers?",
+          "coverage": "Test actual roles and assistive workflows.",
+          "id": "BANK-533-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-533-005",
+            "BANK-533-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R06",
+      "title": "Low-code architecture",
+      "level": "advanced",
+      "parent_id": "DOMAIN-533-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "905e0af6fa269e30d7b9523e3269a82f2c08d86cb9b071030af408d2e2d75410",
+      "topics": [
+        {
+          "question": "How do usage-based pricing and vendor lock-in change a migration plan?",
+          "coverage": "Inventory data, logic, exports and contracts.",
+          "id": "BANK-533-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-533-007",
+            "BANK-533-008",
+            "BANK-533-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R07",
+      "title": "Low-code testing",
+      "level": "foundation",
+      "parent_id": "DOMAIN-533-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "cc8d2b2d3d53c330dc569a76d5d8f3b59f0b8c1fa036f71990212a669ceff8b5",
+      "topics": [
+        {
+          "question": "How can a low-code workflow be tested beyond its successful demonstration path?",
+          "coverage": "Design missing-data, role-change and connector-failure cases in a disposable app.",
+          "id": "BANK-533-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R08",
+      "title": "Audit trails",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-533-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bb130ce000cf228a3b14fd0eb9958ef3f58cb409ad39a7f9e5ce120061752d04",
+      "topics": [
+        {
+          "question": "What must an audit trail preserve when a low-code automation edits several records?",
+          "coverage": "Track initiating user, original values, execution version and partial failures across one simulated run.",
+          "id": "BANK-533-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R09",
+      "title": "Offline use",
+      "level": "advanced",
+      "parent_id": "DOMAIN-533-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "194444fb815663ee00144395dcaaa5b7c51ff4336c5aaff0a006c546d0fb42d9",
+      "topics": [
+        {
+          "question": "How can an offline low-code app resolve two users editing the same record before synchronization?",
+          "coverage": "Compare conflict policies, local validation and user-visible reconciliation rather than last-write-wins by default.",
+          "id": "BANK-533-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-533-R10",
+      "title": "Collaborative ownership",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-533-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e6d6a9911077bf3bc0afee3e5cbe33efb2c8d01be90f76d2fecacf98ba9679f4",
+      "topics": [
+        {
+          "question": "What must a team transfer when an employee-built app outlives its original maker?",
+          "coverage": "Inventory connectors, credentials, maintainers and approval responsibilities without sharing personal secrets.",
+          "id": "BANK-533-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "finance": {
+      "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+      "source_leads": [
+        "regulator or official statistical publications",
+        "actual contracts, fee schedules and audited filings",
+        "original economic studies and disclosed calculation inputs"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "534",
+      "title": "SaaS Businesses",
+      "directory": "534_saas_businesses",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "535",
+      "title": "Creator Economy",
+      "directory": "535_creator_economy",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "536",
+      "title": "Search Engine Optimization",
+      "directory": "536_search_engine_optimization",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/533_no-code_low-code_development/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "f9d4ec80e6f792a8716da0d54ce14f1b6743e2b523cf16182935a502907b35eb",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-533-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2cad56ff1772555481edd0f53ebeefdf63614591e1232b153fd87199ce28ebf8"
+      },
+      "BANK-533-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "44abbb8a29bc820795d02db0148576745c1beff03537bb49de46dbbd0b7e5a3a"
+      },
+      "BANK-533-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ea6ea084b2fef472f1e5490e846d721e5dd34c967a82cbfb81f4724391bfb8b4"
+      },
+      "BANK-533-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "913d8cf701af06b0963fb3e9a6a596a0fb71abdd20d61955b03ce669f5f4c9c3"
+      },
+      "BANK-533-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "95583776cd77bcc5c21dbc6079e4fd83f55f845a5f00000ae6ba8938a7ea63da"
+      },
+      "BANK-533-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2a937c6bc403dbc8fc0d0fa802e8f405377a3a4986f7566bd78fa0f84f6e6b99"
+      },
+      "BANK-533-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "480d8488753d859504752ef491a139ee267144210d4252526bbe5650d270269b"
+      },
+      "BANK-533-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0db3518169c7e28f08ba0e15ddbf126108d3a406a30ba4ee87f619928958c17b"
+      },
+      "BANK-533-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0e7ae7e91aa70f5a5eddbe6573dee8919c0f003fe630929d527eab0b519fc368"
+      }
+    },
+    "source_categories": {
+      "CATALOG-533-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "cd17b561082abf83d5e83c7bbb54b208ca07adaf0ca7f4f83e253fbe9d104e13"
+      },
+      "CATALOG-533-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3f393bd12cf89ae76562d908e6d89009e79b5e743b775fa600520a2e5623239f"
+      },
+      "CATALOG-533-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6c2a3bb5fb1fb3e5e175e5bc87fc9b38447df0eceeccf4969b1c4e7e4dcf651e"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "533_NO-CODE_LOW-CODE_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "7ef42b4c06c717053a57231caa9bbad4e836fa3c073352f49c5246f08cfca38f",
+        "original_text": "# No-Code & Low-Code Development Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 533 No-Code & Low-Code Development (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** No-Code & Low-Code Development Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/533_no-code_low-code_development/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of No-Code & Low-Code Development across four progressive tiers:\r\n- **Tier 1: No-Code & Low-Code Development Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in No-Code & Low-Code Development.\r\n- **Tier 2: No-Code & Low-Code Development Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of No-Code & Low-Code Development.\r\n- **Tier 3: No-Code & Low-Code Development Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in No-Code & Low-Code Development.\r\n- **Tier 4: No-Code & Low-Code Development Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for No-Code & Low-Code Development.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (21 Curated Formats)\r\n\r\nEvery episode is produced using one of the 21 niche angle presets defined in [`REGISTRY/Niches/533_no-code_low-code_development/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/533_no-code_low-code_development/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **No-Code & Low-Code Development: History & Origins** | *Which documented problem led to the development of a documented low-code application?* |\r\n| 2 | `famous_examples` | **No-Code & Low-Code Development: Famous Examples** | *What does a widely cited example of a documented low-code application establish and leave uncertain?* |\r\n| 3 | `hidden_stories` | **No-Code & Low-Code Development: Hidden Stories** | *Whose contribution or experience is missing from the usual account of a documented low-code application?* |\r\n| 4 | `beginner_explainers` | **No-Code & Low-Code Development: Beginner Explainers** | *Which definitions and boundaries are needed to understand a documented low-code application?* |\r\n| 5 | `advanced_concepts` | **No-Code & Low-Code Development: Advanced Concepts** | *Which methodological assumption changes how a documented low-code application should be interpreted?* |\r\n| 6 | `mysteries_unsolved_cases` | **No-Code & Low-Code Development: Mysteries & Unsolved Cases** | *What specific evidence gap remains unresolved for a documented low-code application?* |\r\n| 7 | `technology_innovation` | **No-Code & Low-Code Development: Technology & Innovation** | *What changed after a documented technical or material innovation affected a documented low-code application?* |\r\n| 8 | `people_personalities` | **No-Code & Low-Code Development: People & Personalities** | *How did credited people and institutions shape a documented low-code application?* |\r\n| 9 | `major_events` | **No-Code & Low-Code Development: Major Events** | *What changed around a dated turning point involving a documented low-code application?* |\r\n| 10 | `how_it_works` | **No-Code & Low-Code Development: How It Works** | *How do the documented components or stages of a documented low-code application connect?* |\r\n| 11 | `rise_fall` | **No-Code & Low-Code Development: Rise & Fall** | *Which evidence explains increasing or declining use or reception of a documented low-code application?* |\r\n| 12 | `then_vs_now` | **No-Code & Low-Code Development: Then vs Now** | *Are earlier and later accounts of a documented low-code application comparable on the same terms?* |\r\n| 13 | `future_developments` | **No-Code & Low-Code Development: Future Developments** | *Which conditions would need to hold for a proposed future change involving a documented low-code application?* |\r\n| 14 | `myths_vs_facts` | **No-Code & Low-Code Development: Myths vs Facts** | *Does the original evidence support a commonly repeated claim about a documented low-code application?* |\r\n| 15 | `documentary_stories` | **No-Code & Low-Code Development: Documentary Stories** | *How can a source-led documentary explain a documented low-code application without overstating its evidence?* |\r\n| 16 | `field_data_models_without_code` | **Data Models Without Code** | *Which hidden assumptions are encoded in a visual app's data schema?* |\r\n| 17 | `field_identity_and_access_rules` | **Identity And Access Rules** | *Can a visual application expose records beyond a user's intended role?* |\r\n| 18 | `field_integration_failures` | **Integration Failures** | *What happens when an external service changes or becomes unavailable?* |\r\n| 19 | `field_prototype_to_service` | **Prototype To Service** | *What work separates a successful prototype from a maintained service?* |\r\n| 20 | `field_platform_exit` | **Platform Exit** | *Can a team move its data and business rules away from one platform?* |\r\n| 21 | `field_citizen_developer_governance` | **Citizen Developer Governance** | *How are changes reviewed when domain specialists build applications?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of No-Code & Low-Code Development: History & Origins**\r\n   - *Question:* Which documented problem led to the development of a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..\r\n2. **No-Code & Low-Code Development: Famous Examples**\r\n   - *Question:* What does a widely cited example of a documented low-code application establish and leave uncertain?\r\n   - *Key Focus:* For a documented low-code application, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..\r\n3. **No-Code & Low-Code Development: Hidden Stories**\r\n   - *Question:* Whose contribution or experience is missing from the usual account of a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, investigate documented labor, access and omitted perspectives among builders and service users without inventing testimony. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among builders and service users without inventing testimony..\r\n4. **No-Code & Low-Code Development: Beginner Explainers**\r\n   - *Question:* Which definitions and boundaries are needed to understand a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..\r\n5. **No-Code & Low-Code Development: Advanced Concepts**\r\n   - *Question:* Which methodological assumption changes how a documented low-code application should be interpreted?\r\n   - *Key Focus:* For a documented low-code application, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..\r\n### Tier 2: Methodological Deep Dives\r\n6. **No-Code & Low-Code Development: Mysteries & Unsolved Cases**\r\n   - *Question:* What specific evidence gap remains unresolved for a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..\r\n7. **No-Code & Low-Code Development: Technology & Innovation**\r\n   - *Question:* What changed after a documented technical or material innovation affected a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..\r\n8. **No-Code & Low-Code Development: People & Personalities**\r\n   - *Question:* How did credited people and institutions shape a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..\r\n9. **No-Code & Low-Code Development: Major Events**\r\n   - *Question:* What changed around a dated turning point involving a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..\r\n10. **No-Code & Low-Code Development: How It Works**\r\n   - *Question:* How do the documented components or stages of a documented low-code application connect?\r\n   - *Key Focus:* For a documented low-code application, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **No-Code & Low-Code Development: Rise & Fall**\r\n   - *Question:* Which evidence explains increasing or declining use or reception of a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..\r\n12. **No-Code & Low-Code Development: Then vs Now**\r\n   - *Question:* Are earlier and later accounts of a documented low-code application comparable on the same terms?\r\n   - *Key Focus:* For a documented low-code application, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..\r\n13. **No-Code & Low-Code Development: Future Developments**\r\n   - *Question:* Which conditions would need to hold for a proposed future change involving a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..\r\n14. **No-Code & Low-Code Development: Myths vs Facts**\r\n   - *Question:* Does the original evidence support a commonly repeated claim about a documented low-code application?\r\n   - *Key Focus:* For a documented low-code application, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..\r\n15. **No-Code & Low-Code Development: Documentary Stories**\r\n   - *Question:* How can a source-led documentary explain a documented low-code application without overstating its evidence?\r\n   - *Key Focus:* For a documented low-code application, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **No-Code & Low-Code Development: Data Models Without Code**\r\n   - *Question:* Which hidden assumptions are encoded in a visual app's data schema?\r\n   - *Key Focus:* Inspect entities, relationships and validation using one documented application. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Inspect entities, relationships and validation using one documented application..\r\n17. **No-Code & Low-Code Development: Identity And Access Rules**\r\n   - *Question:* Can a visual application expose records beyond a user's intended role?\r\n   - *Key Focus:* Review authorized test accounts, permissions and documented isolation behavior. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Review authorized test accounts, permissions and documented isolation behavior..\r\n18. **No-Code & Low-Code Development: Integration Failures**\r\n   - *Question:* What happens when an external service changes or becomes unavailable?\r\n   - *Key Focus:* Trace connector versions, error handling and safe recovery in a bounded test. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Trace connector versions, error handling and safe recovery in a bounded test..\r\n19. **No-Code & Low-Code Development: Prototype To Service**\r\n   - *Question:* What work separates a successful prototype from a maintained service?\r\n   - *Key Focus:* Compare test coverage, deployment control, accessibility and support responsibilities. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Compare test coverage, deployment control, accessibility and support responsibilities..\r\n20. **No-Code & Low-Code Development: Platform Exit**\r\n   - *Question:* Can a team move its data and business rules away from one platform?\r\n   - *Key Focus:* Examine export formats, dependencies, licensing and migration effort without universal lock-in claims. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Examine export formats, dependencies, licensing and migration effort without universal lock-in claims..\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 533 (No-Code & Low-Code Development)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of No-Code & Low-Code Development: History & Origins*\r\n- **Episode Slug:** `533_no-code_low-code_development_deep_dive_the_architecture_of_no_code_low_code_development_history_ori`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/533_no-code_low-code_development/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "cbd6c467f6837e68b72317c36c03e5de2f79085b11a91adff7bf81a756ed1cba",
+        "original_text": "# 533 No-Code & Low-Code Development -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 533 No-Code & Low-Code Development (Computing_Software)  \r\n> **Storage Directory:** `topics/533_no-code_low-code_development/`  \r\n> **Synchronized With:** `OUTPUT/533_no-code_low-code_development/`, `REGISTRY/Niches/533_no-code_low-code_development/`, and `533_NO-CODE_LOW-CODE_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 533 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/533_no-code_low-code_development](../../OUTPUT/533_no-code_low-code_development) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of No-Code & Low-Code Development: History & Origins** | Tier 1: Foundational Frameworks | `history_origins` | `no_code_low_code_development_history_origins` | A rigorous pedagogical investigation exploring history & origins through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **No-Code & Low-Code Development: Famous Examples** | Tier 1: Foundational Frameworks | `famous_examples` | `no_code_low_code_development_famous_examples` | A rigorous pedagogical investigation exploring famous examples through documented evidence. | `QUEUED` |\r\n| 3 | **No-Code & Low-Code Development: Hidden Stories** | Tier 1: Foundational Frameworks | `hidden_stories` | `no_code_low_code_development_hidden_stories` | A rigorous pedagogical investigation exploring hidden stories through documented evidence. | `QUEUED` |\r\n| 4 | **No-Code & Low-Code Development: Beginner Explainers** | Tier 1: Foundational Frameworks | `beginner_explainers` | `no_code_low_code_development_beginner_explainers` | A rigorous pedagogical investigation exploring beginner explainers through documented evidence. | `QUEUED` |\r\n| 5 | **No-Code & Low-Code Development: Advanced Concepts** | Tier 1: Foundational Frameworks | `advanced_concepts` | `no_code_low_code_development_advanced_concepts` | A rigorous pedagogical investigation exploring advanced concepts through documented evidence. | `QUEUED` |\r\n| 6 | **No-Code & Low-Code Development: Mysteries & Unsolved Cases** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `no_code_low_code_development_mysteries_unsolved_cases` | A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence. | `QUEUED` |\r\n| 7 | **No-Code & Low-Code Development: Technology & Innovation** | Tier 2: Methodological Deep Dives | `technology_innovation` | `no_code_low_code_development_technology_innovation` | A rigorous pedagogical investigation exploring technology & innovation through documented evidence. | `QUEUED` |\r\n| 8 | **No-Code & Low-Code Development: People & Personalities** | Tier 2: Methodological Deep Dives | `people_personalities` | `no_code_low_code_development_people_personalities` | A rigorous pedagogical investigation exploring people & personalities through documented evidence. | `QUEUED` |\r\n| 9 | **No-Code & Low-Code Development: Major Events** | Tier 2: Methodological Deep Dives | `major_events` | `no_code_low_code_development_major_events` | A rigorous pedagogical investigation exploring major events through documented evidence. | `QUEUED` |\r\n| 10 | **No-Code & Low-Code Development: How It Works** | Tier 2: Methodological Deep Dives | `how_it_works` | `no_code_low_code_development_how_it_works` | A rigorous pedagogical investigation exploring how it works through documented evidence. | `QUEUED` |\r\n| 11 | **No-Code & Low-Code Development: Rise & Fall** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `no_code_low_code_development_rise_fall` | A rigorous pedagogical investigation exploring rise & fall through documented evidence. | `QUEUED` |\r\n| 12 | **No-Code & Low-Code Development: Then vs Now** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `no_code_low_code_development_then_vs_now` | A rigorous pedagogical investigation exploring then vs now through documented evidence. | `QUEUED` |\r\n| 13 | **No-Code & Low-Code Development: Future Developments** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `no_code_low_code_development_future_developments` | A rigorous pedagogical investigation exploring future developments through documented evidence. | `QUEUED` |\r\n| 14 | **No-Code & Low-Code Development: Myths vs Facts** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `no_code_low_code_development_myths_vs_facts` | A rigorous pedagogical investigation exploring myths vs facts through documented evidence. | `QUEUED` |\r\n| 15 | **No-Code & Low-Code Development: Documentary Stories** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `no_code_low_code_development_documentary_stories` | A rigorous pedagogical investigation exploring documentary stories through documented evidence. | `QUEUED` |\r\n| 16 | **No-Code & Low-Code Development: Data Models Without Code** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_data_models_without_code` | `no_code_low_code_development_data_models_without_code` | A rigorous pedagogical investigation exploring data models without code through documented evidence. | `QUEUED` |\r\n| 17 | **No-Code & Low-Code Development: Identity And Access Rules** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_identity_and_access_rules` | `no_code_low_code_development_identity_and_access_rules` | A rigorous pedagogical investigation exploring identity and access rules through documented evidence. | `QUEUED` |\r\n| 18 | **No-Code & Low-Code Development: Integration Failures** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_integration_failures` | `no_code_low_code_development_integration_failures` | A rigorous pedagogical investigation exploring integration failures through documented evidence. | `QUEUED` |\r\n| 19 | **No-Code & Low-Code Development: Prototype To Service** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_prototype_to_service` | `no_code_low_code_development_prototype_to_service` | A rigorous pedagogical investigation exploring prototype to service through documented evidence. | `QUEUED` |\r\n| 20 | **No-Code & Low-Code Development: Platform Exit** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_platform_exit` | `no_code_low_code_development_platform_exit` | A rigorous pedagogical investigation exploring platform exit through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **No-Code & Low-Code Development: Record Extremes & Superlatives** | **98** | `extreme_case` | `no_code_low_code_development_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **No-Code & Low-Code Development: Mysteries & Unsolved Cases** | **96** | `mysteries_unsolved_cases` | `no_code_low_code_development_mysteries_unsolved_cases` | High viral search interest exploring what specific evidence gap remains unresolved for a documented low-code application backed by field records. | `Queued` |\r\n| 23 | **No-Code & Low-Code Development: Technology & Innovation** | **95** | `technology_innovation` | `no_code_low_code_development_technology_innovation` | High viral search interest exploring what changed after a documented technical or material innovation affected a documented low-code application backed by field records. | `Queued` |\r\n| 24 | **No-Code & Low-Code Development: Myths vs Facts** | **94** | `myths_vs_facts` | `no_code_low_code_development_myths_vs_facts` | High viral search interest exploring does the original evidence support a commonly repeated claim about a documented low-code application backed by field records. | `Queued` |\r\n| 25 | **No-Code & Low-Code Development: Major Events** | **93** | `major_events` | `no_code_low_code_development_major_events` | High viral search interest exploring what changed around a dated turning point involving a documented low-code application backed by field records. | `Queued` |\r\n| 26 | **No-Code & Low-Code Development: Hidden Stories** | **92** | `hidden_stories` | `no_code_low_code_development_hidden_stories` | High viral search interest exploring whose contribution or experience is missing from the usual account of a documented low-code application backed by field records. | `Queued` |\r\n| 27 | **No-Code & Low-Code Development: Documentary Stories** | **91** | `documentary_stories` | `no_code_low_code_development_documentary_stories` | High viral search interest exploring how can a source-led documentary explain a documented low-code application without overstating its evidence backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/533_no-code_low-code_development/533_NO-CODE_LOW-CODE_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md`](./533_NO-CODE_LOW-CODE_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/533_no-code_low-code_development/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/533_no-code_low-code_development/NICHE_533_no-code_low-code_development.md`](file:///h:/script-raw-/REGISTRY/Niches/533_no-code_low-code_development/NICHE_533_no-code_low-code_development.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/533_no-code_low-code_development/CAT_533_no-code_low-code_development.md`](file:///h:/script-raw-/REGISTRY/Niches/533_no-code_low-code_development/CAT_533_no-code_low-code_development.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/533_no-code_low-code_development/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/533_no-code_low-code_development/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/533_no-code_low-code_development/`](file:///h:/script-raw-/OUTPUT/533_no-code_low-code_development/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "a6025b261242cbb45e3562bbbec20f0dfb44cef5dca6c2acf3468c7794129430",
+        "original_text": "{\r\n  \"niche_id\": \"533\",\r\n  \"niche_name\": \"no-code_low-code_development\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of No-Code & Low-Code Development: History & Origins\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"no_code_low_code_development_history_origins\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring history & origins through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"No-Code & Low-Code Development: Famous Examples\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"no_code_low_code_development_famous_examples\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring famous examples through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"No-Code & Low-Code Development: Hidden Stories\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"no_code_low_code_development_hidden_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring hidden stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"No-Code & Low-Code Development: Beginner Explainers\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"no_code_low_code_development_beginner_explainers\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring beginner explainers through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"No-Code & Low-Code Development: Advanced Concepts\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"no_code_low_code_development_advanced_concepts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring advanced concepts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"No-Code & Low-Code Development: Mysteries & Unsolved Cases\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"no_code_low_code_development_mysteries_unsolved_cases\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"No-Code & Low-Code Development: Technology & Innovation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"no_code_low_code_development_technology_innovation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring technology & innovation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"No-Code & Low-Code Development: People & Personalities\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"no_code_low_code_development_people_personalities\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people & personalities through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"No-Code & Low-Code Development: Major Events\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"no_code_low_code_development_major_events\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring major events through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"No-Code & Low-Code Development: How It Works\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"no_code_low_code_development_how_it_works\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring how it works through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"No-Code & Low-Code Development: Rise & Fall\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"no_code_low_code_development_rise_fall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring rise & fall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"No-Code & Low-Code Development: Then vs Now\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"no_code_low_code_development_then_vs_now\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring then vs now through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"No-Code & Low-Code Development: Future Developments\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"no_code_low_code_development_future_developments\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring future developments through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"No-Code & Low-Code Development: Myths vs Facts\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"no_code_low_code_development_myths_vs_facts\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring myths vs facts through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"No-Code & Low-Code Development: Documentary Stories\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"no_code_low_code_development_documentary_stories\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring documentary stories through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"No-Code & Low-Code Development: Data Models Without Code\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_data_models_without_code\",\r\n      \"slug\": \"no_code_low_code_development_data_models_without_code\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring data models without code through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"No-Code & Low-Code Development: Identity And Access Rules\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_identity_and_access_rules\",\r\n      \"slug\": \"no_code_low_code_development_identity_and_access_rules\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring identity and access rules through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"No-Code & Low-Code Development: Integration Failures\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_integration_failures\",\r\n      \"slug\": \"no_code_low_code_development_integration_failures\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring integration failures through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"No-Code & Low-Code Development: Prototype To Service\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_prototype_to_service\",\r\n      \"slug\": \"no_code_low_code_development_prototype_to_service\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring prototype to service through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"No-Code & Low-Code Development: Platform Exit\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_platform_exit\",\r\n      \"slug\": \"no_code_low_code_development_platform_exit\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring platform exit through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"No-Code & Low-Code Development: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"no_code_low_code_development_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"No-Code & Low-Code Development: Mysteries & Unsolved Cases\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"no_code_low_code_development_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what specific evidence gap remains unresolved for a documented low-code application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"No-Code & Low-Code Development: Technology & Innovation\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"no_code_low_code_development_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what changed after a documented technical or material innovation affected a documented low-code application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"No-Code & Low-Code Development: Myths vs Facts\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"no_code_low_code_development_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does the original evidence support a commonly repeated claim about a documented low-code application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"No-Code & Low-Code Development: Major Events\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"no_code_low_code_development_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed around a dated turning point involving a documented low-code application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"No-Code & Low-Code Development: Hidden Stories\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"no_code_low_code_development_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose contribution or experience is missing from the usual account of a documented low-code application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"No-Code & Low-Code Development: Documentary Stories\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"no_code_low_code_development_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how can a source-led documentary explain a documented low-code application without overstating its evidence backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "533",
+      "niche_name": "no-code_low-code_development",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of No-Code & Low-Code Development: History & Origins",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "no_code_low_code_development_history_origins",
+          "reason": "A rigorous pedagogical investigation exploring history & origins through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "No-Code & Low-Code Development: Famous Examples",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "no_code_low_code_development_famous_examples",
+          "reason": "A rigorous pedagogical investigation exploring famous examples through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "No-Code & Low-Code Development: Hidden Stories",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "no_code_low_code_development_hidden_stories",
+          "reason": "A rigorous pedagogical investigation exploring hidden stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "No-Code & Low-Code Development: Beginner Explainers",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "no_code_low_code_development_beginner_explainers",
+          "reason": "A rigorous pedagogical investigation exploring beginner explainers through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "No-Code & Low-Code Development: Advanced Concepts",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "no_code_low_code_development_advanced_concepts",
+          "reason": "A rigorous pedagogical investigation exploring advanced concepts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "No-Code & Low-Code Development: Mysteries & Unsolved Cases",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "no_code_low_code_development_mysteries_unsolved_cases",
+          "reason": "A rigorous pedagogical investigation exploring mysteries & unsolved cases through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "No-Code & Low-Code Development: Technology & Innovation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "no_code_low_code_development_technology_innovation",
+          "reason": "A rigorous pedagogical investigation exploring technology & innovation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "No-Code & Low-Code Development: People & Personalities",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "no_code_low_code_development_people_personalities",
+          "reason": "A rigorous pedagogical investigation exploring people & personalities through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "No-Code & Low-Code Development: Major Events",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "no_code_low_code_development_major_events",
+          "reason": "A rigorous pedagogical investigation exploring major events through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "No-Code & Low-Code Development: How It Works",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "no_code_low_code_development_how_it_works",
+          "reason": "A rigorous pedagogical investigation exploring how it works through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "No-Code & Low-Code Development: Rise & Fall",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "no_code_low_code_development_rise_fall",
+          "reason": "A rigorous pedagogical investigation exploring rise & fall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "No-Code & Low-Code Development: Then vs Now",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "no_code_low_code_development_then_vs_now",
+          "reason": "A rigorous pedagogical investigation exploring then vs now through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "No-Code & Low-Code Development: Future Developments",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "no_code_low_code_development_future_developments",
+          "reason": "A rigorous pedagogical investigation exploring future developments through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "No-Code & Low-Code Development: Myths vs Facts",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "no_code_low_code_development_myths_vs_facts",
+          "reason": "A rigorous pedagogical investigation exploring myths vs facts through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "No-Code & Low-Code Development: Documentary Stories",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "no_code_low_code_development_documentary_stories",
+          "reason": "A rigorous pedagogical investigation exploring documentary stories through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "No-Code & Low-Code Development: Data Models Without Code",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_data_models_without_code",
+          "slug": "no_code_low_code_development_data_models_without_code",
+          "reason": "A rigorous pedagogical investigation exploring data models without code through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "No-Code & Low-Code Development: Identity And Access Rules",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_identity_and_access_rules",
+          "slug": "no_code_low_code_development_identity_and_access_rules",
+          "reason": "A rigorous pedagogical investigation exploring identity and access rules through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "No-Code & Low-Code Development: Integration Failures",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_integration_failures",
+          "slug": "no_code_low_code_development_integration_failures",
+          "reason": "A rigorous pedagogical investigation exploring integration failures through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "No-Code & Low-Code Development: Prototype To Service",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_prototype_to_service",
+          "slug": "no_code_low_code_development_prototype_to_service",
+          "reason": "A rigorous pedagogical investigation exploring prototype to service through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "No-Code & Low-Code Development: Platform Exit",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_platform_exit",
+          "slug": "no_code_low_code_development_platform_exit",
+          "reason": "A rigorous pedagogical investigation exploring platform exit through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "No-Code & Low-Code Development: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "no_code_low_code_development_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "No-Code & Low-Code Development: Mysteries & Unsolved Cases",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "no_code_low_code_development_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what specific evidence gap remains unresolved for a documented low-code application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "No-Code & Low-Code Development: Technology & Innovation",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "no_code_low_code_development_technology_innovation",
+          "why_trending": "High viral search interest exploring what changed after a documented technical or material innovation affected a documented low-code application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "No-Code & Low-Code Development: Myths vs Facts",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "no_code_low_code_development_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does the original evidence support a commonly repeated claim about a documented low-code application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "No-Code & Low-Code Development: Major Events",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "no_code_low_code_development_major_events",
+          "why_trending": "High viral search interest exploring what changed around a dated turning point involving a documented low-code application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "No-Code & Low-Code Development: Hidden Stories",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "no_code_low_code_development_hidden_stories",
+          "why_trending": "High viral search interest exploring whose contribution or experience is missing from the usual account of a documented low-code application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "No-Code & Low-Code Development: Documentary Stories",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "no_code_low_code_development_documentary_stories",
+          "why_trending": "High viral search interest exploring how can a source-led documentary explain a documented low-code application without overstating its evidence backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "6e1386d9e6056d734c37853ff3ba3287ed69a0467e17a8a5da14c1b5110343cb"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "26246b4959d4c749fc444ecf58b2a4dd2d3f359dc5f5aaa0108bf49d93175706"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "42f0e7bb4d4ff38e82f6be1c95a984fa6d60e9e551744ad8c474d64aec4665c3"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "2a202995df789aa9972c71aa78cd884aeac1f1e916010b7c3b2b0593aea576c9"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "00a40ad6acc05d59e2aa18175cf1b1352cb8673a8f529f56339eb9819a02d908"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "45a9c1adedeb0d6985e7bc599aa6885321e2b489028118d2f52bc9699ed854f8"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-533-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-533-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-533-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-533-04",
+      "title": "Application lifecycle",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-533-05",
+      "title": "Application architecture",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "533",
+    "slug": "no-code_low-code_development",
+    "name": "No-Code & Low-Code Development",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a No-Code & Low-Code Development YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-533-01",
+        "title": "Visual development",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-533-001",
+            "title": "Data modeling in no-code tools",
+            "question": "Data modeling in no-code tools: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Visual development. Address Data modeling in no-code tools through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Data modeling in no-code tools.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-002",
+            "title": "Workflow triggers",
+            "question": "Workflow triggers: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Visual development. Address Workflow triggers through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Workflow triggers.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-003",
+            "title": "API integration",
+            "question": "API integration: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Visual development. Address API integration through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind API integration.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-533-02",
+        "title": "Product design",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-533-01"
+        ],
+        "research_profile": "media",
+        "topics": [
+          {
+            "id": "BANK-533-004",
+            "title": "Form validation",
+            "question": "Form validation: which creative choices change what the audience understands?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Product design. Address Form validation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Form validation.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-005",
+            "title": "Permission-aware interfaces",
+            "question": "Permission-aware interfaces: which creative choices change what the audience understands?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Product design. Address Permission-aware interfaces through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Permission-aware interfaces.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-006",
+            "title": "Accessible defaults",
+            "question": "Accessible defaults: which creative choices change what the audience understands?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Product design. Address Accessible defaults through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Accessible defaults.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-533-03",
+        "title": "Operations",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-533-01"
+        ],
+        "research_profile": "finance",
+        "topics": [
+          {
+            "id": "BANK-533-007",
+            "title": "Vendor lock-in",
+            "question": "Vendor lock-in: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Operations. Address Vendor lock-in through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Vendor lock-in, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-008",
+            "title": "Usage-based pricing",
+            "question": "Usage-based pricing: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Operations. Address Usage-based pricing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Usage-based pricing, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-533-009",
+            "title": "Export and migration planning",
+            "question": "Export and migration planning: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: No-Code & Low-Code Development; branch: Operations. Address Export and migration planning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Export and migration planning, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "media": {
+        "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+        "source_leads": [
+          "the actual work and authorized production materials",
+          "creator interviews or published craft explanations",
+          "permission-cleared examples and audience feedback"
+        ]
+      },
+      "finance": {
+        "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+        "source_leads": [
+          "regulator or official statistical publications",
+          "actual contracts, fee schedules and audited filings",
+          "original economic studies and disclosed calculation inputs"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "534",
+        "title": "SaaS Businesses",
+        "directory": "534_saas_businesses",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "535",
+        "title": "Creator Economy",
+        "directory": "535_creator_economy",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "536",
+        "title": "Search Engine Optimization",
+        "directory": "536_search_engine_optimization",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of No-Code & Low-Code Development: History & Origins",
+      "question": "Which documented problem led to the development of a documented low-code application?",
+      "coverage": "For a documented low-code application, trace dated origin records and distinguish contemporary aims from retrospective explanation. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Trace dated origin records and distinguish contemporary aims from retrospective explanation..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Famous Examples",
+      "question": "What does a widely cited example of a documented low-code application establish and leave uncertain?",
+      "coverage": "For a documented low-code application, examine a named example against its stated aims, evidence and representativeness. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Examine a named example against its stated aims, evidence and representativeness..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Hidden Stories",
+      "question": "Whose contribution or experience is missing from the usual account of a documented low-code application?",
+      "coverage": "For a documented low-code application, investigate documented labor, access and omitted perspectives among builders and service users without inventing testimony. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Investigate documented labor, access and omitted perspectives among builders and service users without inventing testimony..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Beginner Explainers",
+      "question": "Which definitions and boundaries are needed to understand a documented low-code application?",
+      "coverage": "For a documented low-code application, define essential terms, units or textual conventions using one bounded example, not an entire field survey. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Define essential terms, units or textual conventions using one bounded example, not an entire field survey..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Advanced Concepts",
+      "question": "Which methodological assumption changes how a documented low-code application should be interpreted?",
+      "coverage": "For a documented low-code application, test one difficult assumption, comparison or interpretive choice against an explicit alternative. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Test one difficult assumption, comparison or interpretive choice against an explicit alternative..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Mysteries & Unsolved Cases",
+      "question": "What specific evidence gap remains unresolved for a documented low-code application?",
+      "coverage": "For a documented low-code application, map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Map missing, conflicting or inaccessible evidence and state what could resolve the uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Technology & Innovation",
+      "question": "What changed after a documented technical or material innovation affected a documented low-code application?",
+      "coverage": "For a documented low-code application, compare the documented change and its limitations; separate a proposed benefit from an observed result. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Compare the documented change and its limitations; separate a proposed benefit from an observed result..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: People & Personalities",
+      "question": "How did credited people and institutions shape a documented low-code application?",
+      "coverage": "For a documented low-code application, attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Attribute decisions and contributions using primary records and avoid heroic or blame-centered simplification..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Major Events",
+      "question": "What changed around a dated turning point involving a documented low-code application?",
+      "coverage": "For a documented low-code application, reconstruct chronology from records available at each date; sequence alone does not establish cause. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Reconstruct chronology from records available at each date; sequence alone does not establish cause..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: How It Works",
+      "question": "How do the documented components or stages of a documented low-code application connect?",
+      "coverage": "For a documented low-code application, follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Follow a defined process or argument with traceable inputs, decisions and outputs; avoid unsupported reconstruction..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Rise & Fall",
+      "question": "Which evidence explains increasing or declining use or reception of a documented low-code application?",
+      "coverage": "For a documented low-code application, define the adoption or reception measure and examine multiple documented explanations for change. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Define the adoption or reception measure and examine multiple documented explanations for change..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Then vs Now",
+      "question": "Are earlier and later accounts of a documented low-code application comparable on the same terms?",
+      "coverage": "For a documented low-code application, match periods, definitions, versions and source survival before comparing change over time. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Match periods, definitions, versions and source survival before comparing change over time..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Future Developments",
+      "question": "Which conditions would need to hold for a proposed future change involving a documented low-code application?",
+      "coverage": "For a documented low-code application, separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Separate observed evidence, conditional scenarios and unknowns; do not present a forecast as a fact..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Myths vs Facts",
+      "question": "Does the original evidence support a commonly repeated claim about a documented low-code application?",
+      "coverage": "For a documented low-code application, locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Locate the original claim and compare its scope with the evidence, including legitimate interpretive disagreement..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Documentary Stories",
+      "question": "How can a source-led documentary explain a documented low-code application without overstating its evidence?",
+      "coverage": "For a documented low-code application, build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Build a bounded story with attributed sources, clear illustration labels and explicit remaining uncertainty..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Data Models Without Code",
+      "question": "Which hidden assumptions are encoded in a visual app's data schema?",
+      "coverage": "Inspect entities, relationships and validation using one documented application. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Inspect entities, relationships and validation using one documented application..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Identity And Access Rules",
+      "question": "Can a visual application expose records beyond a user's intended role?",
+      "coverage": "Review authorized test accounts, permissions and documented isolation behavior. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Review authorized test accounts, permissions and documented isolation behavior..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Integration Failures",
+      "question": "What happens when an external service changes or becomes unavailable?",
+      "coverage": "Trace connector versions, error handling and safe recovery in a bounded test. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Trace connector versions, error handling and safe recovery in a bounded test..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Prototype To Service",
+      "question": "What work separates a successful prototype from a maintained service?",
+      "coverage": "Compare test coverage, deployment control, accessibility and support responsibilities. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Compare test coverage, deployment control, accessibility and support responsibilities..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "No-Code & Low-Code Development: Platform Exit",
+      "question": "Can a team move its data and business rules away from one platform?",
+      "coverage": "Examine export formats, dependencies, licensing and migration effort without universal lock-in claims. Evidence base: Evidence: platform documentation, app schemas, access rules, deployment records and user tests. Choose a named source, version, period and case before scripting. Examine export formats, dependencies, licensing and migration effort without universal lock-in claims..",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-533-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "17b26de9f50b59b5619835d0bd5f8fbb061f174b390da46301346e7389950986",
+    "TOPIC_BANK_RECONCILIATION.md": "acd68d35b73ac0d53ba3790332e66e625b9d1d1b2615d64f64ed92e1794b9729",
+    "TOPICS_COVERED_REPORT.md": "2a9a8927e86a04dffdda728b08937a71024d363b0bca3f7efa2b32be2faa3a62",
+    "533_NO-CODE_LOW-CODE_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md": "2e25336ab952ea45dec60f808a359cfc6aaab214e98646fc9453ab1fc0cb4100"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-533-002": [
+      "BANK-533-032",
+      "BANK-533-036"
+    ],
+    "BANK-533-003": [
+      "BANK-533-036"
+    ],
+    "BANK-533-005": [
+      "BANK-533-037"
+    ],
+    "BANK-533-006": [
+      "BANK-533-037"
+    ],
+    "BANK-533-007": [
+      "BANK-533-038"
+    ],
+    "BANK-533-008": [
+      "BANK-533-038"
+    ],
+    "BANK-533-001": [
+      "BANK-533-030"
+    ],
+    "BANK-533-004": [
+      "BANK-533-039"
+    ],
+    "BANK-533-009": [
+      "BANK-533-038"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Low-code testing",
+      "next_step": "Design missing-data, role-change and connector-failure cases in a disposable app. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Audit trails",
+      "next_step": "Track initiating user, original values, execution version and partial failures across one simulated run. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Offline use",
+      "next_step": "Compare conflict policies, local validation and user-visible reconciliation rather than last-write-wins by default. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Collaborative ownership",
+      "next_step": "Inventory connectors, credentials, maintainers and approval responsibilities without sharing personal secrets. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible.",
+    "followup_2026_10_24": "BANK-533-035 is a general governance question and BANK-533-043 concerns handover when an employee-built app outlives its maker. This named Defra Power Platform case is about a described risk-category intake and different controls for critical versus small apps. BANK-532-044 evaluates LLM JSON Schema decoders and BANK-531-044 agent security benchmarks; neither is low-code organization governance. 325 software engineering covers general delivery practice. No exact Defra active question was found globally."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A low-code history needs named platforms and source chronology.",
+      "bank_ids": []
+    },
+    "pending_topics/1": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Defra's 2023–24 accounts give a named organizational low-code case.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A hidden-story claim needs internal records or attributed accounts beyond public posts.",
+      "bank_ids": []
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers the data model beneath a drag-and-drop app.",
+      "bank_ids": [
+        "BANK-533-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal concerns pricing and migration tradeoffs.",
+      "bank_ids": [
+        "BANK-533-038"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal tests a workflow beyond its demonstration path.",
+      "bank_ids": [
+        "BANK-533-040"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Defra names its Solution Registration Tool as a governance intake tool.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The first-party posts describe risk-tiered service decisions, not independently audited outcomes.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The 2023 and 2024 posts document a dated program stage, not a universal turning point.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal explains workflow triggers and external-service integration.",
+      "bank_ids": [
+        "BANK-533-036"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers a failed-path test; Defra's posts do not prove a particular failure.",
+      "bank_ids": [
+        "BANK-533-040"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A then-versus-now comparison needs matched app inventories and definitions.",
+      "bank_ids": []
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers handover when an employee-built app outlives its maker.",
+      "bank_ids": [
+        "BANK-533-043"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Defra's posts test what was actually described versus claimed productivity gains.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Defra's two dated public posts provide a traceable governance narrative.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal covers data-model decisions.",
+      "bank_ids": [
+        "BANK-533-030"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal concerns permission exposure through forms.",
+      "bank_ids": [
+        "BANK-533-031"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses API-change recovery.",
+      "bank_ids": [
+        "BANK-533-033"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The Defra account distinguishes self-service apps from business-critical solutions.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal addresses vendor exit; Defra's posts do not document a migration.",
+      "bank_ids": [
+        "BANK-533-034"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "A superlative needs defined app counts, scope and date; Defra's reported figures are not a universal record.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The existing proposal scopes a testable low-code failure path.",
+      "bank_ids": [
+        "BANK-533-040"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Defra's Solution Registration Tool is a named organizational intake tool.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The posts distinguish a governance description from proof of efficiency or safety.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The dated 2023 and 2024 accounts document a program stage.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Documented cross-bank overlap or out of scope pending bounded evidence.",
+      "reason": "Hidden-story framing needs independently attributable organizational records.",
+      "bank_ids": []
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "The two Defra posts provide a bounded primary-source trail.",
+      "bank_ids": [
+        "BANK-533-044"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-533-044",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ]
+}

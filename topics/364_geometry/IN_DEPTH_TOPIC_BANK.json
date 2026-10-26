@@ -1,0 +1,1610 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "364",
+  "slug": "geometry",
+  "name": "Geometry",
+  "primary_category": "Math_Scientific_Methods",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Geometry YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 13
+  },
+  "categories": [
+    {
+      "id": "CATALOG-364-R01",
+      "title": "Dimension",
+      "level": "foundation",
+      "parent_id": "DOMAIN-364-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a229d30e30c4be5908e91334fb7c4aaa0b2d8334fd77cf2182add8704fe34a37",
+      "topics": [
+        {
+          "question": "What changes when geometry moves from a line to a plane and then to space?",
+          "coverage": "Compare coordinates, constraints, distance and visualization without treating drawings as exact higher-dimensional objects.",
+          "id": "BANK-364-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions?",
+          "coverage": "Use a specified early English edition to compare Hilbert's grouped axioms of connection, order, parallels, congruence and continuity with a geometric argument; avoid treating all historical editions as textually identical.",
+          "id": "BANK-364-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R02",
+      "title": "Euclidean reasoning",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "60eff06b34d7bcda12d4b47f6abea6850828c44092184deb19aceca1bce1bf17",
+      "topics": [
+        {
+          "question": "Why does a convincing diagram not count as a geometric proof?",
+          "coverage": "Trace assumptions, construction, generality and counterexamples through a bounded theorem.",
+          "id": "BANK-364-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-001"
+          ]
+        },
+        {
+          "question": "Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption?",
+          "coverage": "Follow the translated primary proposition's two circles and equilateral-triangle conclusion; distinguish the visible intersection from what Euclid's stated postulates explicitly guarantee.",
+          "id": "BANK-364-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R03",
+      "title": "Curvature",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4117f4044ce928e94468b1d68c7b197b17477cdda73a3ec9a37e9e618023d82d",
+      "topics": [
+        {
+          "question": "Why can a triangle on a sphere have angles that sum to more than a flat triangle's?",
+          "coverage": "Compare geodesics, curvature, scale and definitions with a globe model.",
+          "id": "BANK-364-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-004",
+            "BANK-364-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R04",
+      "title": "Geometric modeling",
+      "level": "advanced",
+      "parent_id": "DOMAIN-364-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "8bd29bc03d9bb84881a0f193d98a73c3f54f9c3323dbbf677228fd6e62ebcf0c",
+      "topics": [
+        {
+          "question": "How does a digital mesh approximate a smooth surface?",
+          "coverage": "Compare triangulation, resolution, topology and geometric error; distinguish visual smoothness from mathematical accuracy.",
+          "id": "BANK-364-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R05",
+      "title": "Similarity",
+      "level": "foundation",
+      "parent_id": "DOMAIN-364-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "72f95a7832fbb146bae370d912f66fb50fbc5ce3f5ed51e20be9bc4b0152f669",
+      "topics": [
+        {
+          "question": "How can two shapes have the same form without the same size or position?",
+          "coverage": "Compare scaling, rotation, reflection, translation and preserved relationships.",
+          "id": "BANK-364-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R06",
+      "title": "Coordinates",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78bbcdd8a7e6bff6f3bbab3590c929f2c944574ac1c092e9a2b23adcdd6aa3ca",
+      "topics": [
+        {
+          "question": "How does assigning coordinates turn a geometric question into an algebraic one?",
+          "coverage": "Trace equations, constraints, intersections and choice of reference frame with a worked simple example.",
+          "id": "BANK-364-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R07",
+      "title": "Projective geometry",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a5299f9def53e59203791b78442e9cbb8ac13433bbdd573e01666577a39b58d9",
+      "topics": [
+        {
+          "question": "Why do parallel lines appear to meet in a perspective drawing?",
+          "coverage": "Compare viewpoints, vanishing points, incidence and the distinction between physical and projected distance.",
+          "id": "BANK-364-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R08",
+      "title": "CAD constraints",
+      "level": "advanced",
+      "parent_id": "DOMAIN-364-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d8207c187ec97acbe492942dfd7d29856e86bfaf182f0f25656bc53f39e73d24",
+      "topics": [
+        {
+          "question": "Why can a digital drawing look correct while remaining geometrically underconstrained?",
+          "coverage": "Compare dimensions, degrees of freedom, coincident points and unintended motion.",
+          "id": "BANK-364-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R09",
+      "title": "Curved surfaces",
+      "level": "advanced",
+      "parent_id": "DOMAIN-364-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a9afdbcb40641380e856eb475a934b3436623478224eb78242f4cfc51074a306",
+      "topics": [
+        {
+          "question": "Which properties must change when a curved surface is represented on a plane?",
+          "coverage": "Compare angle, area, distance, cuts and local distortion rather than implying one perfect projection.",
+          "id": "BANK-364-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-364-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R10",
+      "title": "Geometric optics",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7f3d991710b8ea24e3fe263e6dcf072f4610cef31f15cb0544d1ae4f7ea2d154",
+      "topics": [
+        {
+          "question": "How can geometry predict an image without modeling light as a full electromagnetic wave?",
+          "coverage": "Compare rays, reflection, refraction, lenses, approximation limits and wavelength-scale exceptions.",
+          "covers_starter_ids": [
+            "BANK-364-007"
+          ],
+          "id": "BANK-364-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-364-R11",
+      "title": "Topology and geometry",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-364-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "401a91685174e6e9ce9eb1ac462410d0fe4e53b2f4a270137fe2ba9f11e85eac",
+      "topics": [
+        {
+          "question": "Which properties stay the same when a shape is continuously deformed and which require a geometric measurement?",
+          "coverage": "Compare connectedness, holes, distances, angles and allowed transformations using explicitly constrained examples; distinguish topological equivalence from congruence.",
+          "id": "BANK-364-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "119",
+      "title": "Mathematics",
+      "directory": "119_mathematics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "120",
+      "title": "Logic & Critical Thinking",
+      "directory": "120_logic_critical_thinking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "121",
+      "title": "Statistics & Data",
+      "directory": "121_statistics_data",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "365",
+      "title": "Number Theory",
+      "directory": "365_number_theory",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "366",
+      "title": "Infinity",
+      "directory": "366_infinity",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/364_geometry/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "c2cd913ae21dc5385331dc7a847243365b0d6e13b75e05371851576fad920af0",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-364-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9e34d2d003b3fb71f9d8aeb308584c66e3be718420a26e46cc9758201e525fd4"
+      },
+      "BANK-364-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3f0850d7cf6b5f30c7f61119201bff30303cae3dd7b5a26b7c68932aa0fb051a"
+      },
+      "BANK-364-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8c6e70ebeff02688eb968d33379780d9cf195725c2356d289b6a80d105ce8745"
+      },
+      "BANK-364-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "479b8cff79cb85896081c6cd69d52f0b0abea99a33a108c6aa02ef294ba8f7fa"
+      },
+      "BANK-364-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "68538fc00f0fc053cad6022d1b1401a2e57d516edb60b7298eddb7a08a57498a"
+      },
+      "BANK-364-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "60ddbbe3857e2f10d3f5448b49baeb36ef90d77c8d8f83eeb12c6bede3903cd6"
+      },
+      "BANK-364-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "956c0cd153efedabcfe56c228f909a32df8d76005177c5bba5f3af3e066bbe0e"
+      },
+      "BANK-364-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8e8107414a6ec7b64948999bf46c9b2b06ed30f0191476e8eda7fcc04e6a08b7"
+      },
+      "BANK-364-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1335aa2978a6a536c2ae98ecf731672d4060046474384709216545069c5576b6"
+      }
+    },
+    "source_categories": {
+      "CATALOG-364-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "591a7973b5c7fd14202778ed26725845791f6c10921dd4785e3bb68690d3a339"
+      },
+      "CATALOG-364-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "1859c7abd6d4f4b5f17476f57f62c47edd5041b80f8fde17ab8e57b82058e9f3"
+      },
+      "CATALOG-364-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "57fc77977fcb6546ae27dae40a5d13a4ecddee0f2ca84f9c1980ef0e2b300cae"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "364_GEOMETRY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "60e70f2bd762913f188f8f9211431e182e3dc6e036bad5d11320438f73ad5023",
+        "original_text": "# Geometry Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 364 Geometry (Math_Scientific_Methods)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Geometry Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/364_geometry/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Geometry across four progressive tiers:\r\n- **Tier 1: Geometry Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Geometry.\r\n- **Tier 2: Geometry Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Geometry.\r\n- **Tier 3: Geometry Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Geometry.\r\n- **Tier 4: Geometry Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Geometry.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/364_geometry/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/364_geometry/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **An Axiom Changes Geometry** | *Which assumptions shaped a named geometric result?* |\r\n| 2 | `famous_examples` | **A Familiar Diagram Rechecked** | *Which properties does a drawing suggest but not prove?* |\r\n| 3 | `hidden_stories` | **People Extending Geometry** | *Whose proofs or teaching traditions are absent from a standard account?* |\r\n| 4 | `beginner_explainers` | **Points, Lines, and Assumptions** | *How does one simple theorem follow from stated axioms?* |\r\n| 5 | `advanced_concepts` | **Changing the Parallel Postulate** | *Which familiar theorem changes in another geometry?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Geometric Conjecture** | *What has been proved, tested, or left open?* |\r\n| 7 | `technology_innovation` | **Computer-Aided Geometry** | *What can software explore or certify about a construction?* |\r\n| 8 | `people_personalities` | **A Disputed Geometric Proof** | *Who identified a hidden assumption?* |\r\n| 9 | `major_events` | **A New Geometry Accepted** | *What model showed a consistent alternative to Euclidean claims?* |\r\n| 10 | `how_it_works` | **Proof from a Diagram** | *Which steps require axioms rather than visual intuition?* |\r\n| 11 | `rise_fall` | **A Construction Claim Revisited** | *Which assumption or counterexample changed confidence?* |\r\n| 12 | `then_vs_now` | **One Theorem in Different Geometries** | *How does its statement change under new definitions?* |\r\n| 13 | `future_developments` | **A New Geometry Question** | *What exact proposition remains to establish?* |\r\n| 14 | `myths_vs_facts` | **A Picture Is a Proof?** | *Why can a convincing sketch miss an exceptional case?* |\r\n| 15 | `documentary_stories` | **A Theorem's Proof History** | *How did a conjecture become a verified result?* |\r\n| 16 | `observation_to_explanation` | **From Pattern to Theorem** | *What conjecture does a diagram suggest and how is it proved?* |\r\n| 17 | `measurement_method` | **Measuring a Geometric Object** | *Which definition makes length or angle meaningful?* |\r\n| 18 | `scale_and_timespan` | **Local Shape and Global Structure** | *When do local properties determine or fail to determine the whole?* |\r\n| 19 | `field_vs_lab` | **Physical Drawing and Abstract Geometry** | *Which ideal axioms do rulers and surfaces approximate?* |\r\n| 20 | `natural_variation` | **Many Shapes under One Definition** | *Which cases test the breadth of a theorem?* |\r\n| 21 | `mechanism_chain` | **A Geometric Proof Step by Step** | *Which lemma connects assumptions to conclusion?* |\r\n| 22 | `extreme_case` | **A Degenerate Configuration** | *Does a theorem survive coincident or collinear points?* |\r\n| 23 | `classification_debate` | **What Counts as a Polygon?** | *How do self-intersection and boundary definitions change results?* |\r\n| 24 | `interacting_systems` | **Geometry and Algebra** | *How do coordinates translate a synthetic result?* |\r\n| 25 | `data_gap` | **An Unproved Step in a Claim** | *Which lemma still needs justification?* |\r\n| 26 | `prediction_test` | **Trying a Geometric Conjecture** | *Which construction might falsify it?* |\r\n| 27 | `human_impact` | **Geometry in Design** | *Which mathematical assumptions matter in a real map or structure?* |\r\n| 28 | `field_proof_or_test` | **Proof Versus Numerical Check** | *What establishes a result for all admissible cases?* |\r\n| 29 | `field_definition_choice` | **A Definition Changes the Answer** | *Which alternative definition alters a theorem?* |\r\n| 30 | `field_model_assumptions` | **Euclidean or Curved Space** | *Which axioms apply to the chosen surface?* |\r\n| 31 | `field_counterexample` | **A Diagram That Breaks a Claim** | *Which explicit configuration disproves it?* |\r\n| 32 | `field_teaching_difficulty` | **Helping Learners Prove Geometry** | *Where does visual intuition hide an assumption?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Geometry: An Axiom Changes Geometry**\r\n   - *Question:* Which assumptions shaped a named geometric result?\r\n   - *Key Focus:* Use dated primary texts and modern formulations. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n2. **Geometry: A Familiar Diagram Rechecked**\r\n   - *Question:* Which properties does a drawing suggest but not prove?\r\n   - *Key Focus:* State definitions and prove the bounded claim. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n3. **Geometry: People Extending Geometry**\r\n   - *Question:* Whose proofs or teaching traditions are absent from a standard account?\r\n   - *Key Focus:* Use attributed primary and historical scholarship. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n4. **Geometry: Points, Lines, and Assumptions**\r\n   - *Question:* How does one simple theorem follow from stated axioms?\r\n   - *Key Focus:* Show each inference and an example. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n5. **Geometry: Changing the Parallel Postulate**\r\n   - *Question:* Which familiar theorem changes in another geometry?\r\n   - *Key Focus:* Compare explicit axiom systems and models. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Geometry: A Geometric Conjecture**\r\n   - *Question:* What has been proved, tested, or left open?\r\n   - *Key Focus:* Date the status and state exact hypotheses. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n7. **Geometry: Computer-Aided Geometry**\r\n   - *Question:* What can software explore or certify about a construction?\r\n   - *Key Focus:* Separate visualization, numerical test, and proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n8. **Geometry: A Disputed Geometric Proof**\r\n   - *Question:* Who identified a hidden assumption?\r\n   - *Key Focus:* Read original argument and correction. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n9. **Geometry: A New Geometry Accepted**\r\n   - *Question:* What model showed a consistent alternative to Euclidean claims?\r\n   - *Key Focus:* Trace dated publications and mathematical reception. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n10. **Geometry: Proof from a Diagram**\r\n   - *Question:* Which steps require axioms rather than visual intuition?\r\n   - *Key Focus:* Rebuild one short theorem. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Geometry: A Construction Claim Revisited**\r\n   - *Question:* Which assumption or counterexample changed confidence?\r\n   - *Key Focus:* Compare old and corrected proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n12. **Geometry: One Theorem in Different Geometries**\r\n   - *Question:* How does its statement change under new definitions?\r\n   - *Key Focus:* State model, axioms, and result side by side. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n13. **Geometry: A New Geometry Question**\r\n   - *Question:* What exact proposition remains to establish?\r\n   - *Key Focus:* Specify hypotheses and known partial results. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n14. **Geometry: A Picture Is a Proof?**\r\n   - *Question:* Why can a convincing sketch miss an exceptional case?\r\n   - *Key Focus:* Give a precise counterexample. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n15. **Geometry: A Theorem's Proof History**\r\n   - *Question:* How did a conjecture become a verified result?\r\n   - *Key Focus:* Follow dated drafts, objections, and final proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Geometry: From Pattern to Theorem**\r\n   - *Question:* What conjecture does a diagram suggest and how is it proved?\r\n   - *Key Focus:* Separate exploration from deduction. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n17. **Geometry: Measuring a Geometric Object**\r\n   - *Question:* Which definition makes length or angle meaningful?\r\n   - *Key Focus:* Name metric, units if physical, and error. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n18. **Geometry: Local Shape and Global Structure**\r\n   - *Question:* When do local properties determine or fail to determine the whole?\r\n   - *Key Focus:* Use explicit model and counterexample. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n19. **Geometry: Physical Drawing and Abstract Geometry**\r\n   - *Question:* Which ideal axioms do rulers and surfaces approximate?\r\n   - *Key Focus:* Compare measurement error with formal proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n20. **Geometry: Many Shapes under One Definition**\r\n   - *Question:* Which cases test the breadth of a theorem?\r\n   - *Key Focus:* Vary dimensions, curvature, and degeneracy. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 364 (Geometry)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Geometry: An Axiom Changes Geometry*\r\n- **Episode Slug:** `364_geometry_deep_dive_the_architecture_of_geometry_an_axiom_changes_geometry`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/364_geometry/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "6f609945790b1d737121839f1a974b675b5ad08b4e2a48dc4be77f6f9f3ac5c2",
+        "original_text": "# 364 Geometry -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 364 Geometry (Math_Scientific_Methods)  \r\n> **Storage Directory:** `topics/364_geometry/`  \r\n> **Synchronized With:** `OUTPUT/364_geometry/`, `REGISTRY/Niches/364_geometry/`, and `364_GEOMETRY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 364 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/364_geometry](../../OUTPUT/364_geometry) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Geometry: An Axiom Changes Geometry** | Tier 1: Foundational Frameworks | `history_origins` | `geometry_an_axiom_changes_geometry` | A rigorous pedagogical investigation exploring an axiom changes geometry through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Geometry: A Familiar Diagram Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `geometry_a_familiar_diagram_rechecked` | A rigorous pedagogical investigation exploring a familiar diagram rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Geometry: People Extending Geometry** | Tier 1: Foundational Frameworks | `hidden_stories` | `geometry_people_extending_geometry` | A rigorous pedagogical investigation exploring people extending geometry through documented evidence. | `QUEUED` |\r\n| 4 | **Geometry: Points, Lines, and Assumptions** | Tier 1: Foundational Frameworks | `beginner_explainers` | `geometry_points_lines_and_assumptions` | A rigorous pedagogical investigation exploring points, lines, and assumptions through documented evidence. | `QUEUED` |\r\n| 5 | **Geometry: Changing the Parallel Postulate** | Tier 1: Foundational Frameworks | `advanced_concepts` | `geometry_changing_the_parallel_postulate` | A rigorous pedagogical investigation exploring changing the parallel postulate through documented evidence. | `QUEUED` |\r\n| 6 | **Geometry: A Geometric Conjecture** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `geometry_a_geometric_conjecture` | A rigorous pedagogical investigation exploring a geometric conjecture through documented evidence. | `QUEUED` |\r\n| 7 | **Geometry: Computer-Aided Geometry** | Tier 2: Methodological Deep Dives | `technology_innovation` | `geometry_computer_aided_geometry` | A rigorous pedagogical investigation exploring computer-aided geometry through documented evidence. | `QUEUED` |\r\n| 8 | **Geometry: A Disputed Geometric Proof** | Tier 2: Methodological Deep Dives | `people_personalities` | `geometry_a_disputed_geometric_proof` | A rigorous pedagogical investigation exploring a disputed geometric proof through documented evidence. | `QUEUED` |\r\n| 9 | **Geometry: A New Geometry Accepted** | Tier 2: Methodological Deep Dives | `major_events` | `geometry_a_new_geometry_accepted` | A rigorous pedagogical investigation exploring a new geometry accepted through documented evidence. | `QUEUED` |\r\n| 10 | **Geometry: Proof from a Diagram** | Tier 2: Methodological Deep Dives | `how_it_works` | `geometry_proof_from_a_diagram` | A rigorous pedagogical investigation exploring proof from a diagram through documented evidence. | `QUEUED` |\r\n| 11 | **Geometry: A Construction Claim Revisited** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `geometry_a_construction_claim_revisited` | A rigorous pedagogical investigation exploring a construction claim revisited through documented evidence. | `QUEUED` |\r\n| 12 | **Geometry: One Theorem in Different Geometries** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `geometry_one_theorem_in_different_geometries` | A rigorous pedagogical investigation exploring one theorem in different geometries through documented evidence. | `QUEUED` |\r\n| 13 | **Geometry: A New Geometry Question** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `geometry_a_new_geometry_question` | A rigorous pedagogical investigation exploring a new geometry question through documented evidence. | `QUEUED` |\r\n| 14 | **Geometry: A Picture Is a Proof?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `geometry_a_picture_is_a_proof` | A rigorous pedagogical investigation exploring a picture is a proof? through documented evidence. | `QUEUED` |\r\n| 15 | **Geometry: A Theorem's Proof History** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `geometry_a_theorem_s_proof_history` | A rigorous pedagogical investigation exploring a theorem's proof history through documented evidence. | `QUEUED` |\r\n| 16 | **Geometry: From Pattern to Theorem** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `observation_to_explanation` | `geometry_from_pattern_to_theorem` | A rigorous pedagogical investigation exploring from pattern to theorem through documented evidence. | `QUEUED` |\r\n| 17 | **Geometry: Measuring a Geometric Object** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `measurement_method` | `geometry_measuring_a_geometric_object` | A rigorous pedagogical investigation exploring measuring a geometric object through documented evidence. | `QUEUED` |\r\n| 18 | **Geometry: Local Shape and Global Structure** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `scale_and_timespan` | `geometry_local_shape_and_global_structure` | A rigorous pedagogical investigation exploring local shape and global structure through documented evidence. | `QUEUED` |\r\n| 19 | **Geometry: Physical Drawing and Abstract Geometry** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_vs_lab` | `geometry_physical_drawing_and_abstract_geometry` | A rigorous pedagogical investigation exploring physical drawing and abstract geometry through documented evidence. | `QUEUED` |\r\n| 20 | **Geometry: Many Shapes under One Definition** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `natural_variation` | `geometry_many_shapes_under_one_definition` | A rigorous pedagogical investigation exploring many shapes under one definition through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Geometry: A Degenerate Configuration** | **98** | `extreme_case` | `geometry_extreme_case` | High viral search interest exploring does a theorem survive coincident or collinear points backed by field records. | `Queued` |\r\n| 22 | **Geometry: A Geometric Conjecture** | **96** | `mysteries_unsolved_cases` | `geometry_mysteries_unsolved_cases` | High viral search interest exploring what has been proved, tested, or left open backed by field records. | `Queued` |\r\n| 23 | **Geometry: Computer-Aided Geometry** | **95** | `technology_innovation` | `geometry_technology_innovation` | High viral search interest exploring what can software explore or certify about a construction backed by field records. | `Queued` |\r\n| 24 | **Geometry: A Picture Is a Proof?** | **94** | `myths_vs_facts` | `geometry_myths_vs_facts` | High viral search interest exploring why can a convincing sketch miss an exceptional case backed by field records. | `Queued` |\r\n| 25 | **Geometry: A New Geometry Accepted** | **93** | `major_events` | `geometry_major_events` | High viral search interest exploring what model showed a consistent alternative to euclidean claims backed by field records. | `Queued` |\r\n| 26 | **Geometry: People Extending Geometry** | **92** | `hidden_stories` | `geometry_hidden_stories` | High viral search interest exploring whose proofs or teaching traditions are absent from a standard account backed by field records. | `Queued` |\r\n| 27 | **Geometry: A Theorem's Proof History** | **91** | `documentary_stories` | `geometry_documentary_stories` | High viral search interest exploring how did a conjecture become a verified result backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/364_geometry/364_GEOMETRY_CHANNEL_TOPIC_ROADMAP.md`](./364_GEOMETRY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/364_geometry/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/364_geometry/NICHE_364_geometry.md`](file:///h:/script-raw-/REGISTRY/Niches/364_geometry/NICHE_364_geometry.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/364_geometry/CAT_364_geometry.md`](file:///h:/script-raw-/REGISTRY/Niches/364_geometry/CAT_364_geometry.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/364_geometry/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/364_geometry/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/364_geometry/`](file:///h:/script-raw-/OUTPUT/364_geometry/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "2df4cdcb4ca7ddc9f2813567cf6d037e8bed2d39c35adb8d6b6087893e6da4b1",
+        "original_text": "{\r\n  \"niche_id\": \"364\",\r\n  \"niche_name\": \"geometry\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Geometry: An Axiom Changes Geometry\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"geometry_an_axiom_changes_geometry\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an axiom changes geometry through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Geometry: A Familiar Diagram Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"geometry_a_familiar_diagram_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a familiar diagram rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Geometry: People Extending Geometry\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"geometry_people_extending_geometry\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people extending geometry through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Geometry: Points, Lines, and Assumptions\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"geometry_points_lines_and_assumptions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring points, lines, and assumptions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Geometry: Changing the Parallel Postulate\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"geometry_changing_the_parallel_postulate\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring changing the parallel postulate through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Geometry: A Geometric Conjecture\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"geometry_a_geometric_conjecture\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a geometric conjecture through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Geometry: Computer-Aided Geometry\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"geometry_computer_aided_geometry\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring computer-aided geometry through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Geometry: A Disputed Geometric Proof\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"geometry_a_disputed_geometric_proof\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a disputed geometric proof through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Geometry: A New Geometry Accepted\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"geometry_a_new_geometry_accepted\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new geometry accepted through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Geometry: Proof from a Diagram\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"geometry_proof_from_a_diagram\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring proof from a diagram through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Geometry: A Construction Claim Revisited\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"geometry_a_construction_claim_revisited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a construction claim revisited through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Geometry: One Theorem in Different Geometries\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"geometry_one_theorem_in_different_geometries\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one theorem in different geometries through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Geometry: A New Geometry Question\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"geometry_a_new_geometry_question\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new geometry question through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Geometry: A Picture Is a Proof?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"geometry_a_picture_is_a_proof\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a picture is a proof? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Geometry: A Theorem's Proof History\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"geometry_a_theorem_s_proof_history\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a theorem's proof history through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Geometry: From Pattern to Theorem\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"observation_to_explanation\",\r\n      \"slug\": \"geometry_from_pattern_to_theorem\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from pattern to theorem through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Geometry: Measuring a Geometric Object\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"geometry_measuring_a_geometric_object\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring measuring a geometric object through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Geometry: Local Shape and Global Structure\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"scale_and_timespan\",\r\n      \"slug\": \"geometry_local_shape_and_global_structure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring local shape and global structure through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Geometry: Physical Drawing and Abstract Geometry\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"geometry_physical_drawing_and_abstract_geometry\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring physical drawing and abstract geometry through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Geometry: Many Shapes under One Definition\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"natural_variation\",\r\n      \"slug\": \"geometry_many_shapes_under_one_definition\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring many shapes under one definition through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Geometry: A Degenerate Configuration\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"geometry_extreme_case\",\r\n      \"why_trending\": \"High viral search interest exploring does a theorem survive coincident or collinear points backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Geometry: A Geometric Conjecture\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"geometry_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what has been proved, tested, or left open backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Geometry: Computer-Aided Geometry\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"geometry_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what can software explore or certify about a construction backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Geometry: A Picture Is a Proof?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"geometry_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring why can a convincing sketch miss an exceptional case backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Geometry: A New Geometry Accepted\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"geometry_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what model showed a consistent alternative to euclidean claims backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Geometry: People Extending Geometry\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"geometry_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose proofs or teaching traditions are absent from a standard account backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Geometry: A Theorem's Proof History\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"geometry_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a conjecture become a verified result backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "364",
+      "niche_name": "geometry",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Geometry: An Axiom Changes Geometry",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "geometry_an_axiom_changes_geometry",
+          "reason": "A rigorous pedagogical investigation exploring an axiom changes geometry through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Geometry: A Familiar Diagram Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "geometry_a_familiar_diagram_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a familiar diagram rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Geometry: People Extending Geometry",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "geometry_people_extending_geometry",
+          "reason": "A rigorous pedagogical investigation exploring people extending geometry through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Geometry: Points, Lines, and Assumptions",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "geometry_points_lines_and_assumptions",
+          "reason": "A rigorous pedagogical investigation exploring points, lines, and assumptions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Geometry: Changing the Parallel Postulate",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "geometry_changing_the_parallel_postulate",
+          "reason": "A rigorous pedagogical investigation exploring changing the parallel postulate through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Geometry: A Geometric Conjecture",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "geometry_a_geometric_conjecture",
+          "reason": "A rigorous pedagogical investigation exploring a geometric conjecture through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Geometry: Computer-Aided Geometry",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "geometry_computer_aided_geometry",
+          "reason": "A rigorous pedagogical investigation exploring computer-aided geometry through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Geometry: A Disputed Geometric Proof",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "geometry_a_disputed_geometric_proof",
+          "reason": "A rigorous pedagogical investigation exploring a disputed geometric proof through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Geometry: A New Geometry Accepted",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "geometry_a_new_geometry_accepted",
+          "reason": "A rigorous pedagogical investigation exploring a new geometry accepted through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Geometry: Proof from a Diagram",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "geometry_proof_from_a_diagram",
+          "reason": "A rigorous pedagogical investigation exploring proof from a diagram through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Geometry: A Construction Claim Revisited",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "geometry_a_construction_claim_revisited",
+          "reason": "A rigorous pedagogical investigation exploring a construction claim revisited through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Geometry: One Theorem in Different Geometries",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "geometry_one_theorem_in_different_geometries",
+          "reason": "A rigorous pedagogical investigation exploring one theorem in different geometries through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Geometry: A New Geometry Question",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "geometry_a_new_geometry_question",
+          "reason": "A rigorous pedagogical investigation exploring a new geometry question through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Geometry: A Picture Is a Proof?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "geometry_a_picture_is_a_proof",
+          "reason": "A rigorous pedagogical investigation exploring a picture is a proof? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Geometry: A Theorem's Proof History",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "geometry_a_theorem_s_proof_history",
+          "reason": "A rigorous pedagogical investigation exploring a theorem's proof history through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Geometry: From Pattern to Theorem",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "observation_to_explanation",
+          "slug": "geometry_from_pattern_to_theorem",
+          "reason": "A rigorous pedagogical investigation exploring from pattern to theorem through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Geometry: Measuring a Geometric Object",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "measurement_method",
+          "slug": "geometry_measuring_a_geometric_object",
+          "reason": "A rigorous pedagogical investigation exploring measuring a geometric object through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Geometry: Local Shape and Global Structure",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "scale_and_timespan",
+          "slug": "geometry_local_shape_and_global_structure",
+          "reason": "A rigorous pedagogical investigation exploring local shape and global structure through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Geometry: Physical Drawing and Abstract Geometry",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_vs_lab",
+          "slug": "geometry_physical_drawing_and_abstract_geometry",
+          "reason": "A rigorous pedagogical investigation exploring physical drawing and abstract geometry through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Geometry: Many Shapes under One Definition",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "natural_variation",
+          "slug": "geometry_many_shapes_under_one_definition",
+          "reason": "A rigorous pedagogical investigation exploring many shapes under one definition through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Geometry: A Degenerate Configuration",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "geometry_extreme_case",
+          "why_trending": "High viral search interest exploring does a theorem survive coincident or collinear points backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Geometry: A Geometric Conjecture",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "geometry_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what has been proved, tested, or left open backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Geometry: Computer-Aided Geometry",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "geometry_technology_innovation",
+          "why_trending": "High viral search interest exploring what can software explore or certify about a construction backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Geometry: A Picture Is a Proof?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "geometry_myths_vs_facts",
+          "why_trending": "High viral search interest exploring why can a convincing sketch miss an exceptional case backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Geometry: A New Geometry Accepted",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "geometry_major_events",
+          "why_trending": "High viral search interest exploring what model showed a consistent alternative to euclidean claims backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Geometry: People Extending Geometry",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "geometry_hidden_stories",
+          "why_trending": "High viral search interest exploring whose proofs or teaching traditions are absent from a standard account backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Geometry: A Theorem's Proof History",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "geometry_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a conjecture become a verified result backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "81568e7aad9bc244e0558352e38e0a0d4863ac6276d088328da825046c0f98eb"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "a93ba51ad2a4dafb0e2b93849ddf75dbc983aaa3637d76ec52df0d53d3a8fab9"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "cfe7b595ffdf17f2b27b9b1a336106e8abf5761b9c80526132978f5cb3e32c20"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "8495c7b1b8e88f512350c88cf7a96e17949a5709c57c1071d6d54d2ffb9b91c7"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "b4dd0b82d9ee6a8cdb45d8e582f171efd4e9be69bc6d129384f96f453318d043"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-364-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-02",
+      "title": "Proof",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-03",
+      "title": "Surfaces",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-04",
+      "title": "Applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-05",
+      "title": "Transformations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-06",
+      "title": "Methods",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-07",
+      "title": "Projection",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-08",
+      "title": "Mapping",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-364-09",
+      "title": "Structure",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "364",
+    "slug": "geometry",
+    "name": "Geometry",
+    "primary_category": "Math_Scientific_Methods",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Geometry YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-364-01",
+        "title": "Geometric foundations",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-364-001",
+            "title": "Euclidean axioms",
+            "question": "Euclidean axioms: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Geometric foundations. Address Euclidean axioms through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Euclidean axioms precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-002",
+            "title": "Similarity transformations",
+            "question": "Similarity transformations: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Geometric foundations. Address Similarity transformations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Similarity transformations precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-003",
+            "title": "Coordinate geometry",
+            "question": "Coordinate geometry: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Geometric foundations. Address Coordinate geometry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Coordinate geometry precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-364-02",
+        "title": "Advanced structures",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-364-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-364-004",
+            "title": "Non-Euclidean geometries",
+            "question": "Non-Euclidean geometries: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Advanced structures. Address Non-Euclidean geometries through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Non-Euclidean geometries precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-005",
+            "title": "Curvature",
+            "question": "Curvature: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Advanced structures. Address Curvature through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Curvature precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-006",
+            "title": "Projective geometry",
+            "question": "Projective geometry: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Geometry; branch: Advanced structures. Address Projective geometry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Projective geometry precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-364-03",
+        "title": "Applications",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-364-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-364-007",
+            "title": "Geometric optics",
+            "question": "Geometric optics: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Geometry; branch: Applications. Address Geometric optics through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Geometric optics.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-008",
+            "title": "CAD constraints",
+            "question": "CAD constraints: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Geometry; branch: Applications. Address CAD constraints through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind CAD constraints.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-364-009",
+            "title": "Mapping curved surfaces",
+            "question": "Mapping curved surfaces: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Geometry; branch: Applications. Address Mapping curved surfaces through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Mapping curved surfaces.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "119",
+        "title": "Mathematics",
+        "directory": "119_mathematics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "120",
+        "title": "Logic & Critical Thinking",
+        "directory": "120_logic_critical_thinking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "121",
+        "title": "Statistics & Data",
+        "directory": "121_statistics_data",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "365",
+        "title": "Number Theory",
+        "directory": "365_number_theory",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "366",
+        "title": "Infinity",
+        "directory": "366_infinity",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Geometry: An Axiom Changes Geometry",
+      "question": "Which assumptions shaped a named geometric result?",
+      "coverage": "Use dated primary texts and modern formulations. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Familiar Diagram Rechecked",
+      "question": "Which properties does a drawing suggest but not prove?",
+      "coverage": "State definitions and prove the bounded claim. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: People Extending Geometry",
+      "question": "Whose proofs or teaching traditions are absent from a standard account?",
+      "coverage": "Use attributed primary and historical scholarship. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Points, Lines, and Assumptions",
+      "question": "How does one simple theorem follow from stated axioms?",
+      "coverage": "Show each inference and an example. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Changing the Parallel Postulate",
+      "question": "Which familiar theorem changes in another geometry?",
+      "coverage": "Compare explicit axiom systems and models. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Geometric Conjecture",
+      "question": "What has been proved, tested, or left open?",
+      "coverage": "Date the status and state exact hypotheses. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Computer-Aided Geometry",
+      "question": "What can software explore or certify about a construction?",
+      "coverage": "Separate visualization, numerical test, and proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Disputed Geometric Proof",
+      "question": "Who identified a hidden assumption?",
+      "coverage": "Read original argument and correction. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A New Geometry Accepted",
+      "question": "What model showed a consistent alternative to Euclidean claims?",
+      "coverage": "Trace dated publications and mathematical reception. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Proof from a Diagram",
+      "question": "Which steps require axioms rather than visual intuition?",
+      "coverage": "Rebuild one short theorem. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Construction Claim Revisited",
+      "question": "Which assumption or counterexample changed confidence?",
+      "coverage": "Compare old and corrected proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: One Theorem in Different Geometries",
+      "question": "How does its statement change under new definitions?",
+      "coverage": "State model, axioms, and result side by side. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A New Geometry Question",
+      "question": "What exact proposition remains to establish?",
+      "coverage": "Specify hypotheses and known partial results. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Picture Is a Proof?",
+      "question": "Why can a convincing sketch miss an exceptional case?",
+      "coverage": "Give a precise counterexample. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: A Theorem's Proof History",
+      "question": "How did a conjecture become a verified result?",
+      "coverage": "Follow dated drafts, objections, and final proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: From Pattern to Theorem",
+      "question": "What conjecture does a diagram suggest and how is it proved?",
+      "coverage": "Separate exploration from deduction. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Measuring a Geometric Object",
+      "question": "Which definition makes length or angle meaningful?",
+      "coverage": "Name metric, units if physical, and error. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Local Shape and Global Structure",
+      "question": "When do local properties determine or fail to determine the whole?",
+      "coverage": "Use explicit model and counterexample. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Physical Drawing and Abstract Geometry",
+      "question": "Which ideal axioms do rulers and surfaces approximate?",
+      "coverage": "Compare measurement error with formal proof. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Geometry: Many Shapes under One Definition",
+      "question": "Which cases test the breadth of a theorem?",
+      "coverage": "Vary dimensions, curvature, and degeneracy. Evidence base: original and modern mathematical proofs, American Mathematical Society expositions, specified axiomatic models, counterexamples, and mathematics-education research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-364-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "ae50877d63783148cf9bb8b944b7a52f1fa3abac8b23faca7c638320d902d702",
+    "TOPIC_BANK_RECONCILIATION.md": "40781e9bf3b7a55f805ae0288797ddf720bd30841e2f8faf2e90649d24eb1e87",
+    "TOPICS_COVERED_REPORT.md": "524b6cd6208eed9e080aacc75bb1a8600c44af1212c68b88fcbbb578b035ee08",
+    "364_GEOMETRY_CHANNEL_TOPIC_ROADMAP.md": "d47d444104e165e3cc1df30f21c81899664826e3af7de9880ae9c10e67555839"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-364-001": [
+      "BANK-364-031"
+    ],
+    "BANK-364-004": [
+      "BANK-364-032"
+    ],
+    "BANK-364-005": [
+      "BANK-364-032"
+    ],
+    "BANK-364-002": [
+      "BANK-364-034"
+    ],
+    "BANK-364-003": [
+      "BANK-364-035"
+    ],
+    "BANK-364-006": [
+      "BANK-364-036"
+    ],
+    "BANK-364-008": [
+      "BANK-364-037"
+    ],
+    "BANK-364-009": [
+      "BANK-364-038"
+    ],
+    "BANK-364-007": [
+      "BANK-364-039"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 1 (The Architecture of Geometry: An Axiom Changes Geometry) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 2 (Geometry: A Familiar Diagram Rechecked) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 3 (Geometry: People Extending Geometry) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 4 (Geometry: Points, Lines, and Assumptions) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 5 (Geometry: Changing the Parallel Postulate) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 6 (Geometry: A Geometric Conjecture) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-364-037"
+      ],
+      "reason": "Existing question covers archived pitch 7 (Geometry: Computer-Aided Geometry) through: Why can a digital drawing look correct while remaining geometrically underconstrained? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 8 (Geometry: A Disputed Geometric Proof) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 9 (Geometry: A New Geometry Accepted) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 10 (Geometry: Proof from a Diagram) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 11 (Geometry: A Construction Claim Revisited) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 12 (Geometry: One Theorem in Different Geometries) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 13 (Geometry: A New Geometry Question) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 14 (Geometry: A Picture Is a Proof?) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 15 (Geometry: A Theorem's Proof History) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 16 (Geometry: From Pattern to Theorem) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-364-035"
+      ],
+      "reason": "Existing question covers archived pitch 17 (Geometry: Measuring a Geometric Object) through: How does assigning coordinates turn a geometric question into an algebraic one? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-364-040"
+      ],
+      "reason": "Existing question covers archived pitch 18 (Geometry: Local Shape and Global Structure) through: Which properties stay the same when a shape is continuously deformed and which require a geometric measurement? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 19 (Geometry: Physical Drawing and Abstract Geometry) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-364-034"
+      ],
+      "reason": "Existing question covers archived pitch 20 (Geometry: Many Shapes under One Definition) through: How can two shapes have the same form without the same size or position? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 21 (Geometry: A Degenerate Configuration) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 22 (Geometry: A Geometric Conjecture) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-364-037"
+      ],
+      "reason": "Existing question covers archived pitch 23 (Geometry: Computer-Aided Geometry) through: Why can a digital drawing look correct while remaining geometrically underconstrained? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 24 (Geometry: A Picture Is a Proof?) through: Where does Euclid's Book I, Proposition 1 construction rely on a circle-intersection assumption? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 25 (Geometry: A New Geometry Accepted) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 26 (Geometry: People Extending Geometry) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-364-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 27 (Geometry: A Theorem's Proof History) through: How did Hilbert's Foundations of Geometry separate geometric conclusions from unstated diagram assumptions? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-364-041",
+      "note_file": "364_GEOMETRY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-364-042",
+      "note_file": "364_GEOMETRY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-364-041",
+      "related_id": "BANK-364-031",
+      "boundary": "Euclid's named circle construction and existence gap versus the general rule that diagrams do not prove claims."
+    },
+    {
+      "topic_id": "BANK-364-041",
+      "related_id": "BANK-364-037",
+      "boundary": "Logical construction assumption versus underconstrained digital drawings."
+    },
+    {
+      "topic_id": "BANK-364-042",
+      "related_id": "BANK-119-040",
+      "boundary": "Hilbert's particular axiom organization versus non-Euclidean geometry broadly."
+    },
+    {
+      "topic_id": "BANK-364-042",
+      "related_id": "BANK-366-039",
+      "boundary": "Geometric axiom dependence versus set-theory independence of the continuum hypothesis."
+    }
+  ]
+}

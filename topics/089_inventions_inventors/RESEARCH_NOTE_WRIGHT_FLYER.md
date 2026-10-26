@@ -1,0 +1,7 @@
+# Bounded source note: Wright control and 1903 flight
+
+Accessed 2026-10-24. Primary collection record: Smithsonian National Air and Space Museum, [1903 Wright Flyer, object A19610048000](https://airandspace.si.edu/collection-objects/wright-1903-flyer/nasm_A19610048000). Documentary excerpt: U.S. National Park Service, [Wright Brothers National Memorial: Site of the First Controlled Powered Flight](https://www.nps.gov/articles/wright-brothers-national-memorial-site-of-the-first-controlled-powered-flight-teaching-with-historic-places.htm), “Document 1: Excerpt from Orville Wright's Diary, December 17, 1903.”
+
+The museum identifies the surviving 1903 Flyer, its configuration, and a research-and-development sequence preceding its December 17 flights. The NPS reproduces Orville's diary excerpt describing control difficulty during the first powered flight. These records support a case question on how earlier glider control experiments and the powered Flyer contributed different evidence. They do not support reducing the result to a single clever feature, nor do they settle every priority claim about flight.
+
+For production, check the original diary transcription and artifact provenance against the full archival context, distinguish the 1902 glider from the 1903 powered Flyer, and attribute the launch photograph to John T. Daniels. This note checks a selected premise; it does not mark the episode as fully source verified.

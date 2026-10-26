@@ -1,0 +1,9 @@
+# Selected filing-source note — unicorn companies
+
+Inspected 2026-10-24 for `BANK-304-042`. This is a bounded filing comparison, not investment advice or a reconstruction of all private negotiations.
+
+- [U.S. SEC EDGAR, The We Company Form S-1 filing detail, 14 August 2019](https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/0001193125-19-220499-index.htm): identifies the original registration filing, its date, registrant and linked prospectus/exhibits. The [prospectus text](https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/d781982ds1.htm) includes historical financial and operating information, risk factors and proposed offering disclosures; it is a company filing, not an independent valuation of the business.
+- [U.S. SEC EDGAR, The We Company Form S-1/A filing detail, 4 September 2019](https://www.sec.gov/Archives/edgar/data/1533523/000119312519236798/0001193125-19-236798-index.html): documents a later amendment. Compare exact sections and date-specific revisions before claiming that any one disclosure changed an investor decision.
+- [U.S. SEC, later WeWork registration text](https://www.sec.gov/Archives/edgar/data/1813756/000181375622000019/wework2021s-1apostxeffecti.htm): retrospectively states that the 2019 proposed IPO registration was withdrawn. This establishes the later reported outcome, not its sole cause.
+
+The SEC filing indexes and later record were accessible; the full long prospectus was located but not exhaustively audited here. No private round contracts, investor side letters or employee outcomes were verified. Keep 2019 registrant identity and later corporate identity distinct. This case belongs to private-company valuation and governance claims versus filed disclosure in 304. BANK-303-043 uses the same filing for the narrower operating question of lease commitments against revenue; it does not adopt this private-valuation comparison. General company history in 301 retains a separate scope.

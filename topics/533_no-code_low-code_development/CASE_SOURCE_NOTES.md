@@ -1,0 +1,7 @@
+# Case-source note: Defra Power Platform governance
+
+Checked 2026-10-24. Defra's [June 2023 first-party account](https://defradigital.blog.gov.uk/2023/06/23/unlocking-the-power-of-low-code-in-defra/) describes citizen-built Power Apps and Power Automate flows, an adaptive governance vision and differing support routes for low-risk and larger critical work. Its [May 2024 follow-up](https://defradigital.blog.gov.uk/2024/05/07/how-were-growing-our-community-of-low-coders/) says business-critical solutions went through enterprise controls while small noncritical applications could use self-service; it describes a Solution Registration Tool for self-assessment and visibility, plus monitoring using an extended Power Platform Centre of Excellence Starter Kit.
+
+Limits: These are staff-authored UK government department accounts, not an independent audit of permissions, security, costs, app reliability or citizen outcomes. The 2023 adoption counts and 2024 community figures are dated and should not be treated as current or as measured productivity gains; the 2024 author said benefit tracking still needed proof-of-concept work. The posts were accessible, but internal tool configuration and app-level records were not. Defra's risk categories are an organization-specific account, not a universal control standard or implementation prescription.
+
+Overlap: `BANK-533-035` is generic employee-built-app governance and `BANK-533-043` maker-to-team handover. This proposal covers Defra's named risk-triage and registration account.

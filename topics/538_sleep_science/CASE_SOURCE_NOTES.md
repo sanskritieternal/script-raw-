@@ -1,0 +1,7 @@
+# Case-source note: Seattle later-school-start sleep study
+
+Checked 2026-10-24. Dunster and colleagues' original [2018 Science Advances paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6291308/) and [PubMed record](https://pubmed.ncbi.nlm.nih.gov/30547089/) describe a Seattle district start-time shift from 7:50 to 8:45 a.m. for 2016–17. Separate samples of tenth-grade biology students at two high schools wore wrist activity/light monitors for two-week periods in spring 2016 and spring 2017, supported by diaries. The authors report a 34-minute higher median school-night sleep duration in the later cohort and associations with grades/attendance.
+
+Limits: This was a before/after comparison of different students, not a randomized assignment of start times or a longitudinal follow-up of the same students. Wrist actigraphy estimates sleep from motion/light and is not polysomnography. Grade and attendance differences cannot be attributed solely to extra sleep, and the result does not establish effects for every school, age group or medical condition. The paper and abstract were accessible; individual-level data/code were not rerun. Do not use this case as individualized sleep or school policy advice.
+
+Overlap: `BANK-538-039` owns the broad schedule-versus-biology question; `BANK-538-035` general causal inference and `BANK-538-037` method comparison. This is the named Seattle study design and measurement case.

@@ -1,0 +1,7 @@
+# Bounded source note: U.S. contingent presidential election
+
+Accessed 2026-10-24. Primary constitutional text reproduced by the U.S. National Archives: [Legal Provisions Relevant to the Electoral College Process](https://www.archives.gov/electoral-college/provisions), especially the Twelfth and Twentieth Amendments. Administrative explanation: National Archives, [Electoral College Frequently Asked Questions](https://www.archives.gov/electoral-college/faq), “What happens if no presidential candidate gets 270 electoral votes?”
+
+Under the Twelfth Amendment, if no presidential candidate has a majority of the appointed electors, the U.S. House chooses the President from up to the top three electoral-vote recipients, with one vote per state delegation. The Senate separately chooses the Vice President from the top two vice-presidential recipients. Thus an illustrative 269–269 presidential split under a 538-elector allocation is a no-majority case, not a direct national popular-vote tie or an automatic decision by the Supreme Court. The Twentieth Amendment addresses an unresolved selection at the start of the term.
+
+Limits: this is a constitutional-process explanation for the United States, based on the text and NARA guidance accessed on the date above. An actual election would require its certified elector count, applicable federal law, congressional rules and any disputes to be checked at that time. This selected source check does not verify all timing or edge-case outcomes in advance and is not individual legal advice.

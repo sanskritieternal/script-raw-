@@ -1,0 +1,1324 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "279",
+  "slug": "pranayama",
+  "name": "Pranayama",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "purpose": "A channel-planning catalog spanning classical vocabulary, named breathing methods, source history, physiology, curricula, measurement and evidence. Method descriptions are documentary topics rather than practice prescriptions.",
+  "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+  "counts": {
+    "categories": 20,
+    "proposed_topics": 120
+  },
+  "scope_routing": [
+    {
+      "name": "278 Meditation",
+      "directory": "278_meditation",
+      "roadmap": "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for contemplative attention, named meditation methods, japa, meditation experience and meditation-program research."
+    },
+    {
+      "name": "279 Pranayama",
+      "directory": "279_pranayama",
+      "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for deliberate breath regulation, named pranayama techniques, traditional breath concepts, respiratory variables and protocol research."
+    },
+    {
+      "name": "280 Yoga",
+      "directory": "280_yoga",
+      "roadmap": "280_YOGA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for yoga philosophy, ethics, whole-system history, posture families, schools, sequencing and teaching systems."
+    }
+  ],
+  "research_profiles": {
+    "TEXT": {
+      "requirements": "Inspect a named primary-text edition, passage locator, translator and commentary; compare attributions and keep spiritual or symbolic claims in their source context.",
+      "source_leads": [
+        "IIT Kanpur Gita Supersite corpus (entry point listed in the batch guide)",
+        "the named work in a traceable edition",
+        "authorized public teaching materials for the tradition concerned"
+      ]
+    },
+    "STUDY": {
+      "requirements": "Select actual study reports and registrations; extract intervention, population, comparator, outcomes, follow-up, adverse events, funding and limitations. Use current official guidance for clinical context.",
+      "source_leads": [
+        "ClinicalTrials.gov for study registrations",
+        "original journal reports and their supplementary protocols",
+        "NCCIH official guidance as orientation, not a substitute for original studies"
+      ]
+    },
+    "HISTORY": {
+      "requirements": "Locate dated books, archival records, correspondence, photographs or institutional publications; distinguish contemporary evidence, later recollection and disputed chronology.",
+      "source_leads": [
+        "the named author's dated original publications",
+        "institutional archives and catalog records",
+        "independent scholarship used to test historical interpretation"
+      ]
+    },
+    "PHYSIOLOGY": {
+      "requirements": "Use an identifiable anatomy/physiology reference and original measurement studies; distinguish respiratory variables, mechanism hypotheses, proxies and patient outcomes. Give no self-experiment regimen.",
+      "source_leads": [
+        "current university or professional anatomy and physiology references",
+        "original instrument-validation and respiratory-physiology papers",
+        "clinical trial protocols for intervention-specific questions"
+      ]
+    },
+    "GUIDANCE": {
+      "requirements": "Inspect current official guidance and a named institution's policies; record date, population, jurisdiction, scope, consent and referral boundaries. Do not infer individual suitability.",
+      "source_leads": [
+        "NCCIH official yoga and meditation guidance",
+        "current condition-specific professional guidance",
+        "the actual institution's qualification, safeguarding and participant policies"
+      ]
+    },
+    "DIGITAL": {
+      "requirements": "Inspect the named product version, dated terms, privacy policy and actual validation studies; distinguish engagement, measurement accuracy, benefit claims and financial incentives.",
+      "source_leads": [
+        "the provider's product documentation and privacy policy",
+        "original device/app validation studies",
+        "app change logs, funding disclosures and applicable official regulatory records"
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "CATALOG-279-01",
+      "title": "Meaning and conceptual foundations",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-001",
+          "question": "Pranayama, breath awareness, and breathwork: where do the labels diverge?",
+          "coverage": "Compare source definitions, deliberate regulation, observational attention, and modern umbrella terminology.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-002",
+          "question": "Prana in a traditional text: why is it not simply another word for oxygen?",
+          "coverage": "Read the concept within its philosophical framework and separate it from measured respiratory variables.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-003",
+          "question": "Puraka, rechaka, and kumbhaka: how are phases classified in a named manual?",
+          "coverage": "Explain textual vocabulary without providing timing ratios or retention instructions.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-004",
+          "question": "Sahita and kevala kumbhaka: how does one source distinguish them?",
+          "coverage": "Compare the source's categories, prerequisites, and interpretation without demonstrating the practices.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-005",
+          "question": "What is a pranayama protocol in a scientific paper?",
+          "coverage": "Identify technique name, rate, depth, route, supervision, duration, and participant selection.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-006",
+          "question": "Why can two teachers use the same breathing name differently?",
+          "coverage": "Compare documented instructions and lineage context rather than assuming standardized terminology.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-02",
+      "title": "Respiratory anatomy for viewers",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "PHYSIOLOGY",
+      "topics": [
+        {
+          "id": "BANK-279-007",
+          "question": "The diaphragm and rib cage: what moves during quiet breathing?",
+          "coverage": "Use anatomical references and distinguish visible movement from precise muscle measurement.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-008",
+          "question": "Nose, mouth, and airways: what does the breathing route change?",
+          "coverage": "Examine airflow, conditioning, resistance, and limits on claims about universal superiority.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-009",
+          "question": "Lung volume versus breathing rate: why are slow and deep not synonyms?",
+          "coverage": "Explain tidal volume, frequency, and ventilation using non-prescriptive conceptual examples.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-010",
+          "question": "Gas exchange: how do oxygen and carbon dioxide move between lungs and blood?",
+          "coverage": "Distinguish ventilation, diffusion, circulation, and oxygen delivery without suggesting breathing challenges.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-011",
+          "question": "What does the urge to breathe reveal about respiratory regulation?",
+          "coverage": "Discuss chemoreception and context without providing breath-hold tests or targets.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-012",
+          "question": "What can a pulse oximeter tell us about a breathing practice?",
+          "coverage": "Explain saturation, device limitations, and why it does not measure every aspect of ventilation.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-03",
+      "title": "Traditional physiology and symbolism",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-013",
+          "question": "The five vayus: how does a selected yoga source describe their roles?",
+          "coverage": "Present prana, apana, samana, udana, and vyana as attributed traditional categories.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-014",
+          "question": "Ida, pingala, and sushumna: how are nadis described in a named text?",
+          "coverage": "Distinguish subtle-body models from claims about directly identified anatomical structures.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-015",
+          "question": "Nadi shodhana: what does purification mean in its source context?",
+          "coverage": "Compare philosophical and ritual meanings without translating them into unsupported detoxification claims.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-016",
+          "question": "Prana and apana in Bhagavad Gita 4.29: how do commentators read the verse?",
+          "coverage": "Locate the verse in its discussion of sacrifice and compare attributed interpretations.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-017",
+          "question": "Bandhas in pranayama texts: why do they require separate contextual treatment?",
+          "coverage": "Explain textual relationships and supervision boundaries without procedural instruction.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-018",
+          "question": "Kundalini and pranayama: how can traditional claims be represented accurately?",
+          "coverage": "Attribute claims to named sources and avoid presenting awakening as a guaranteed physiological outcome.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-04",
+      "title": "Yoga Sutra passages on breath",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-019",
+          "question": "Yoga Sutra 2.49: how is pranayama introduced after asana?",
+          "coverage": "Compare translations and commentary on the relationship between posture and breath.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-020",
+          "question": "External, internal, and suspended movement in Yoga Sutra 2.50: what is classified?",
+          "coverage": "Analyze terminology, interpretive choices, and the passage's own boundaries.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-021",
+          "question": "Place, time, and number in Yoga Sutra 2.50: how do commentaries differ?",
+          "coverage": "Discuss the categories without prescribing numerical practice progressions.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-022",
+          "question": "The fourth in Yoga Sutra 2.51: what do translators think it refers to?",
+          "coverage": "Compare named interpretations and distinguish interpretive uncertainty from settled technique.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-023",
+          "question": "Yoga Sutra 2.52-53: how is breath related to concentration?",
+          "coverage": "Explain the sequence as a textual argument rather than proof of a modern clinical mechanism.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-024",
+          "question": "Yoga Sutra 1.34 and 2.49-53: do they describe the same role for breath?",
+          "coverage": "Read both passages in context and compare a selected commentary's explanation.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-05",
+      "title": "Hatha sources and historical development",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-025",
+          "question": "Pranayama in Hatha Yoga Pradipika chapter 2: how is the subject organized?",
+          "coverage": "Use a specified edition to map preparation, techniques, cautions, and claimed aims.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-026",
+          "question": "The Gheranda Samhita's pranayama section: what curriculum surrounds it?",
+          "coverage": "Study the work's structure and avoid treating its sequence as universal yoga history.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-027",
+          "question": "The Shiva Samhita and breath: how do its aims compare with another hatha text?",
+          "coverage": "Choose matched passages and distinguish textual voice from modern interpretation.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-028",
+          "question": "The eight kumbhakas: how does a named hatha source enumerate them?",
+          "coverage": "Verify the selected edition's list and explain classification rather than giving a practice sequence.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-029",
+          "question": "Printed manuals and the spread of pranayama: what changed in the twentieth century?",
+          "coverage": "Trace two dated manuals, circulation context, and changes in presentation.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-030",
+          "question": "When was a breathing name first documented: what evidence is enough?",
+          "coverage": "Separate earliest surviving witness, manuscript dating, oral claims, and later standardized names.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-06",
+      "title": "Nadi shodhana and alternate-nostril traditions",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-031",
+          "question": "Nadi shodhana and anuloma viloma: are these names equivalent in every school?",
+          "coverage": "Compare two public curricula, terminology, and included or omitted components.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-032",
+          "question": "Alternate-nostril breathing without retention: how does a study define its intervention?",
+          "coverage": "Describe published protocol variables without turning them into viewer instructions.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-033",
+          "question": "Hand positions in alternate-nostril teaching: what varies across institutions?",
+          "coverage": "Document naming, accessibility adaptations, and institutional explanations without prescribing technique.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-034",
+          "question": "Nostril dominance claims: how would researchers measure the nasal cycle?",
+          "coverage": "Separate naturally varying airflow, subjective observation, and intervention-induced change.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-035",
+          "question": "Nadi shodhana and attention research: what would a fair control look like?",
+          "coverage": "Compare quiet sitting, paced breathing, expectancy, and repeated-task effects.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-036",
+          "question": "Purification language in alternate-nostril videos: which claims need qualification?",
+          "coverage": "Distinguish traditional symbolism, airway function, and unsupported toxin-removal language.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-07",
+      "title": "Ujjayi and audible breath",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-037",
+          "question": "Ujjayi in a classical source and a modern class: what differs?",
+          "coverage": "Compare definitions, purpose, accompanying practices, and evidence of continuity.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-038",
+          "question": "Ujjayi sound: what can acoustics reveal about a recorded demonstration?",
+          "coverage": "Study microphone placement, audible features, and the limits of inferring safe technique from sound.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-039",
+          "question": "Ujjayi during movement versus seated pranayama: why separate the contexts?",
+          "coverage": "Compare curriculum purpose, exertion, supervision, and what a study actually investigates.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-040",
+          "question": "Ocean breath as a translation of ujjayi: what meaning does the metaphor add?",
+          "coverage": "Trace teaching language and distinguish a pedagogical image from a literal physiological description.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-041",
+          "question": "Ujjayi and respiratory resistance: what would a laboratory need to measure?",
+          "coverage": "Identify airflow, pressure, effort, and comparator requirements without self-experiment instructions.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-042",
+          "question": "Can a study of generic slow breathing support a claim about ujjayi?",
+          "coverage": "Match intervention components and identify what cannot be generalized to a distinct technique.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-08",
+      "title": "Bhramari and humming research",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-043",
+          "question": "Bhramari in different teaching manuals: which components are shared?",
+          "coverage": "Compare documented definitions, use of sound, contextual aims, and variation.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-044",
+          "question": "Humming and bhramari: why are they not automatically identical interventions?",
+          "coverage": "Distinguish isolated vocalization from a full named curriculum and its additional components.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-045",
+          "question": "Humming and nasal nitric oxide: what does a measured change establish?",
+          "coverage": "Examine sampling methods, immediate effects, and the gap between mechanism and clinical outcomes.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-046",
+          "question": "Bhramari and perceived calm: how can expectation influence self-report?",
+          "coverage": "Compare controls, participant preference, blinding limits, and outcome timing.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-047",
+          "question": "Sound and vibration language in bhramari teaching: what is literal and what is metaphor?",
+          "coverage": "Use attributed explanations and avoid assigning unmeasured energetic effects to anatomy.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-048",
+          "question": "Bhramari videos for children: what questions should an educational review ask?",
+          "coverage": "Assess age appropriateness, qualified oversight, consent, and unsupported therapeutic claims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-09",
+      "title": "Shitali, shitkari, and cooling language",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-049",
+          "question": "Shitali and shitkari: how does a chosen manual distinguish them?",
+          "coverage": "Compare terminology, cultural explanation, and stated aims without demonstrating a regimen.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-050",
+          "question": "Cooling in pranayama: is the claim a sensation, temperature, or traditional quality?",
+          "coverage": "Separate subjective experience, measured temperature, and humoral interpretation.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-051",
+          "question": "Tongue-rolling assumptions in shitali teaching: how is variation accommodated?",
+          "coverage": "Review public curricula and inclusive communication rather than assigning ability or deficiency.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-052",
+          "question": "Cooling breath in hot weather: what evidence would justify a heat-safety claim?",
+          "coverage": "Require environmental and clinical evidence; do not present breath practice as heat-illness prevention.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-053",
+          "question": "Mouth breathing within a named practice: why does context matter?",
+          "coverage": "Distinguish a brief traditional technique description from everyday respiratory health advice.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-054",
+          "question": "Shitali research: does the trial report what participants actually performed?",
+          "coverage": "Check protocol detail, adherence, comparator, population, and adverse-event reporting.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-10",
+      "title": "Surya and chandra practices",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-055",
+          "question": "Surya bhedana in a hatha text: what does the source actually claim?",
+          "coverage": "Attribute symbolic and practice claims to an edition without translating them into guaranteed effects.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-056",
+          "question": "Chandra bhedana in modern curricula: how do sources establish its provenance?",
+          "coverage": "Trace documented manuals and distinguish later usage from assumed antiquity.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-057",
+          "question": "Solar and lunar language: how are these symbols interpreted in a named lineage?",
+          "coverage": "Compare cosmological meaning, subtle-body models, and contemporary metaphors.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-058",
+          "question": "Right- versus left-nostril research: how is actual airflow controlled?",
+          "coverage": "Examine nasal cycle, obstruction, instrumentation, and intervention fidelity.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-059",
+          "question": "Do nostril-specific studies establish different effects on mental performance?",
+          "coverage": "Review task selection, baseline differences, sample size, and replication needs.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-060",
+          "question": "Heating and cooling claims across surya and chandra teaching: what is measurable?",
+          "coverage": "Separate traditional qualities, felt sensation, metabolic measurements, and clinical conclusions.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-11",
+      "title": "Kapalabhati and bhastrika classification",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-061",
+          "question": "Is kapalabhati always classified as pranayama?",
+          "coverage": "Compare its placement in a named classical text and modern institutional curricula.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-062",
+          "question": "Bhastrika and kapalabhati: which distinctions do manuals make?",
+          "coverage": "Analyze descriptions, category, and aims without teaching forceful breathing mechanics.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-063",
+          "question": "Breath of fire: why can an English label obscure distinct practices?",
+          "coverage": "Identify the specific school and documented protocol before making cross-study comparisons.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-064",
+          "question": "Forceful breathing videos: what makes intensity hard to infer from footage?",
+          "coverage": "Examine editing, sound, duration, participant screening, and unreported physiology.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-065",
+          "question": "Detox claims attached to kapalabhati: what would count as evidence?",
+          "coverage": "Ask which substance, measurement, mechanism, outcome, and comparator are actually specified.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-066",
+          "question": "Why should demonstrations of forceful practices be separated from documentary explanation?",
+          "coverage": "Assess instructor qualification, participant selection, editorial framing, and foreseeable imitation.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-12",
+      "title": "Kumbhaka and advanced practice boundaries",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-067",
+          "question": "Internal and external retention: how do sources describe their place in training?",
+          "coverage": "Compare terminology and prerequisites without giving durations or performance targets.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-068",
+          "question": "Retention ratios in historical texts: how should a documentary discuss them?",
+          "coverage": "Identify edition and interpretation while omitting replicable progression instructions.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-069",
+          "question": "Voluntary breath holding and pranayama retention: what does the research comparison miss?",
+          "coverage": "Separate study context, intent, co-interventions, and participant expertise.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-070",
+          "question": "Kevala kumbhaka as an attainment claim: what can historians establish?",
+          "coverage": "Distinguish a text's account, practitioner testimony, and externally measured evidence.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-071",
+          "question": "What do qualified institutions say about supervision of advanced breath practices?",
+          "coverage": "Compare current public guidance and exact scope rather than inventing universal prerequisites.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-072",
+          "question": "Why are competitive breath-hold challenges a poor frame for pranayama education?",
+          "coverage": "Examine goals, incentives, risk communication, and the difference from historical study.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-13",
+      "title": "Autonomic measures and mechanisms",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "PHYSIOLOGY",
+      "topics": [
+        {
+          "id": "BANK-279-073",
+          "question": "HRV during slow breathing: why does breathing itself affect the measurement?",
+          "coverage": "Distinguish respiratory effects, recording conditions, and claims about lasting autonomic change.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-074",
+          "question": "Respiratory sinus arrhythmia: what does the term describe?",
+          "coverage": "Use physiology sources and separate cyclic heart-rate variation from a diagnosis or wellness score.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-075",
+          "question": "Baroreflex claims in breathing research: how are they tested?",
+          "coverage": "Compare blood-pressure measurements, timing, model assumptions, and study populations.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-076",
+          "question": "Carbon dioxide during paced breathing: why does depth matter alongside rate?",
+          "coverage": "Explain ventilation variables without prescribing hyperventilation, hypoventilation, or retention.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-077",
+          "question": "Vagus nerve claims in pranayama videos: what is actually measured?",
+          "coverage": "Separate direct measurement, proxy outcomes, mechanistic hypotheses, and promotional language.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-078",
+          "question": "Immediate calm versus long-term adaptation: what study design distinguishes them?",
+          "coverage": "Compare within-session measures, longitudinal follow-up, controls, and adherence.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-14",
+      "title": "Clinical and wellness evidence",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-079",
+          "question": "Pranayama and stress: which named intervention was actually tested?",
+          "coverage": "Identify components, population, comparison group, self-report measures, and harms.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-080",
+          "question": "Breathing practice and blood pressure: what makes an outcome clinically interpretable?",
+          "coverage": "Review measurement procedures, medication context, follow-up, and limits on treatment claims.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-081",
+          "question": "Pranayama and asthma: why must an episode separate adjunct research from treatment advice?",
+          "coverage": "Use current guidance, study eligibility, clinical supervision, and clearly bounded outcomes.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-082",
+          "question": "Pranayama and sleep: do studies measure sleep quality or diagnosed insomnia?",
+          "coverage": "Compare scales, objective measures, intervention components, and duration of follow-up.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-083",
+          "question": "Pranayama and anxiety: how are symptom scores different from clinical recovery?",
+          "coverage": "Examine population selection, existing care, comparison groups, and clinically meaningful change.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-084",
+          "question": "Can improved spirometry after training establish better everyday health?",
+          "coverage": "Separate test performance, technique learning, measurement reliability, and patient-centered outcomes.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-15",
+      "title": "Safety, consent, and instructor scope",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "GUIDANCE",
+      "topics": [
+        {
+          "id": "BANK-279-085",
+          "question": "What should a pranayama course disclose before participants enroll?",
+          "coverage": "Review consent, expected activities, screening process, instructor role, and support options.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-086",
+          "question": "How do current guidelines discuss pregnancy and breathing practices?",
+          "coverage": "Identify jurisdiction, named practices, oversight, and referral boundaries without offering personal advice.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-087",
+          "question": "Why should breathing instruction account for respiratory and cardiovascular conditions?",
+          "coverage": "Compare institutional screening and clinician involvement using current condition-specific guidance.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-088",
+          "question": "Dizziness during a breathing session: what should an educational video avoid normalizing?",
+          "coverage": "Study reporting and escalation policies without diagnosing a viewer or calling distress spiritual progress.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-089",
+          "question": "Why do advanced breathing videos need clear setting and supervision boundaries?",
+          "coverage": "Assess imitation risks, qualified instruction, consent, and avoidance of dangerous practice contexts.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-090",
+          "question": "What does a pranayama instructor's certification cover and leave outside scope?",
+          "coverage": "Check the issuing body's curriculum, assessment, renewal, and boundaries around clinical claims.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-16",
+      "title": "Protocol design and research methods",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-091",
+          "question": "How should a pranayama paper report rate, depth, route, and retention?",
+          "coverage": "Build an intervention-description checklist and distinguish missing information from assumed details.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-092",
+          "question": "What is a credible active comparator for an alternate-nostril trial?",
+          "coverage": "Consider contact time, posture, expectation, attention, and actual breathing variables.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-093",
+          "question": "How do breathing studies record adherence outside the laboratory?",
+          "coverage": "Compare diaries, supervised sessions, sensors, and their different sources of error.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-094",
+          "question": "Why do small breathing trials need preregistered primary outcomes?",
+          "coverage": "Examine multiple testing, outcome switching, effect estimates, and uncertainty.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-095",
+          "question": "Can a breathing intervention be separated from the rest of a yoga course?",
+          "coverage": "Compare combined-program trials with component-specific designs and attribution limits.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-096",
+          "question": "How should a systematic review handle different practices grouped as pranayama?",
+          "coverage": "Assess intervention taxonomy, population differences, pooling decisions, and heterogeneity.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-17",
+      "title": "Modern breathwork and fair comparisons",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-279-097",
+          "question": "Box breathing and classical pranayama: what overlaps and what does not?",
+          "coverage": "Compare source histories and components without giving retention counts or claiming equivalence.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-098",
+          "question": "Resonance-frequency breathing: how is an individualized protocol studied?",
+          "coverage": "Explain the research concept and instrumentation without prescribing a target rate.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-099",
+          "question": "Buteyko and pranayama: why should distinct traditions keep their names?",
+          "coverage": "Compare origin accounts, protocol definitions, evidence, and attribution boundaries.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-100",
+          "question": "Wim Hof Method research: can outcomes be attributed to breathing alone?",
+          "coverage": "Separate breathing, cold exposure, mindset, participant selection, and studied outcomes.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-101",
+          "question": "Sudarshan Kriya studies: what does the full intervention include?",
+          "coverage": "Use authorized descriptions and trial protocols; avoid reproducing proprietary instruction.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-102",
+          "question": "Physiological sigh claims: when is a laboratory task being generalized too far?",
+          "coverage": "Match the exact maneuver, population, outcome, and evidence before comparing it with pranayama.",
+          "angle": "encounter_and_exchange",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-18",
+      "title": "Institutions, curricula, and public teaching",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-279-103",
+          "question": "Kaivalyadhama and pranayama research: how did laboratory study enter yoga institutions?",
+          "coverage": "Trace dated institutional publications, research methods, and changes in scientific language.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-104",
+          "question": "The Common Yoga Protocol: where does pranayama fit in a public curriculum?",
+          "coverage": "Inspect a dated official edition, its classifications, and the intended teaching context.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-105",
+          "question": "Sivananda teaching manuals: how is breath placed within a broader yoga system?",
+          "coverage": "Choose a dated publication and distinguish institutional curriculum from all hatha traditions.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-106",
+          "question": "Pranayama teacher examinations: what knowledge is formally assessed?",
+          "coverage": "Use a current named certification syllabus and distinguish exam competence from clinical expertise.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-107",
+          "question": "From Sanskrit manual to English video: where can a breathing instruction change meaning?",
+          "coverage": "Trace one term through source, translation, teacher explanation, and editing.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-108",
+          "question": "How do regional pronunciation and transliteration affect discoverability of pranayama topics?",
+          "coverage": "Compare spellings such as shitali/sitali while preserving the source's terminology.",
+          "angle": "history_origins",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-19",
+      "title": "Measurement tools and digital products",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "DIGITAL",
+      "topics": [
+        {
+          "id": "BANK-279-109",
+          "question": "Breathing pacer apps: what do animation and haptics actually control?",
+          "coverage": "Inspect a dated product version and distinguish pacing cues from measured participant behavior.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-110",
+          "question": "Wearable respiratory-rate estimates: how are they validated?",
+          "coverage": "Compare sensor methods, reference standards, motion artifacts, and intended use.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-111",
+          "question": "HRV biofeedback versus an HRV score: what is the difference?",
+          "coverage": "Separate a guided intervention, measurement algorithm, and consumer readiness metric.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-112",
+          "question": "AI breathing coaches: how do they handle symptoms and unsuitable requests?",
+          "coverage": "Evaluate disclosure, screening, escalation, privacy, and unsupported personalized prescriptions.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-113",
+          "question": "Do breath-training devices have evidence for the exact product being sold?",
+          "coverage": "Match device model, regulatory claims, trial population, and comparator.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-114",
+          "question": "Breathing-data privacy: what can a wellness app infer and retain?",
+          "coverage": "Inspect permissions, health-data sharing, retention, deletion, and business incentives.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-279-20",
+      "title": "Cross-niche synthesis and documentary formats",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-279-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-279-115",
+          "question": "Breath awareness in meditation and breath regulation in pranayama: how can a film show the distinction?",
+          "coverage": "Compare named sources and refer attention-training depth to niche 278.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-116",
+          "question": "Pranayama within the eight limbs: what does an isolated breathing video leave out?",
+          "coverage": "Read the wider framework and refer whole-system yoga interpretation to niche 280.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-117",
+          "question": "One breathing claim from scripture to social media: where does its meaning change?",
+          "coverage": "Trace an exact passage, translation, institutional manual, and contemporary claim.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-118",
+          "question": "Two teachers, one technique name: how can a documentary compare them fairly?",
+          "coverage": "Use consented accounts, shared questions, source context, and explicit disagreement.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-119",
+          "question": "What would a transparent evidence review of bhramari look like?",
+          "coverage": "Define a question, search criteria, study extraction, harms review, and uncertainty statement.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-279-120",
+          "question": "How can pranayama education stay specific without becoming an unsupervised advanced lesson?",
+          "coverage": "Use annotated sources, diagrams, interviews, and non-procedural descriptions with clear limits.",
+          "angle": "documentary_stories",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "suggested_series": [
+    {
+      "title": "Language before technique",
+      "learning_outcome": "Distinguish traditional concepts, respiratory variables and research protocols.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-001",
+        "BANK-279-002",
+        "BANK-279-003",
+        "BANK-279-009",
+        "BANK-279-010",
+        "BANK-279-013"
+      ]
+    },
+    {
+      "title": "Texts before modern labels",
+      "learning_outcome": "Read Yoga Sutra and hatha source questions before comparing institutional curricula.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-019",
+        "BANK-279-020",
+        "BANK-279-022",
+        "BANK-279-025",
+        "BANK-279-026",
+        "BANK-279-028"
+      ]
+    },
+    {
+      "title": "Named methods and their boundaries",
+      "learning_outcome": "Compare documented method definitions without constructing a practice progression.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-031",
+        "BANK-279-037",
+        "BANK-279-043",
+        "BANK-279-049",
+        "BANK-279-055",
+        "BANK-279-061"
+      ]
+    },
+    {
+      "title": "From mechanism to clinical claim",
+      "learning_outcome": "Understand measurement confounding, evidence limits and participant safeguards.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-279-073",
+        "BANK-279-076",
+        "BANK-279-077",
+        "BANK-279-079",
+        "BANK-279-083",
+        "BANK-279-088"
+      ]
+    }
+  ],
+  "handoff": [
+    "Retain the BANK ID in editorial notes. Name the exact case, edition, lineage, population, protocol or product version before promoting a broad question to an episode.",
+    "Inspect source passages and reports; add honest source-access records and a bounded idea through the existing registry workflow. Empty verified_sources lists mean this bank has not performed claim-level episode research.",
+    "Reuse an existing registered angle; confirm its current scope in ANGLE_PLAN.json. These catalog entries do not change Q1-Q42, CAT defaults, existing CONFIG snapshots or production gates.",
+    "If creating a formal depth plan, map the selected question to stable TOP IDs inside the niche Planning directory. Create a formal IDEA record only with its required evidence plan and readiness review; do not promote all proposals automatically.",
+    "Verify material claims in Phase 1 with exact locators. Attribute spiritual, historical and symbolic interpretations. Health outcomes require original evidence and current guidance; proposals do not supply personal medical advice.",
+    "Check neighboring banks for the same story question. Reuse the primary home and link the related topic; change the research question when a second niche needs its own episode.",
+    "Keep topic proposals, ready ideas, produced text packages and published videos as distinct statuses. Do not mark these proposals completed or trending based on their presence here."
+  ],
+  "coverage_limits": "This first batch does not exhaust manuscript variants, regional teaching systems, instructor interviews, instrument-validation studies or condition-specific clinical evidence. Resolve each technique's edition and institutional definition before research. Advanced retention, bandha and forceful-breathing entries contain no practice ratios or progressions."
+}

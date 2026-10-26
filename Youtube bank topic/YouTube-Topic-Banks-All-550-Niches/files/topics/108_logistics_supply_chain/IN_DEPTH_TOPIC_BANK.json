@@ -1,0 +1,696 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "108",
+  "slug": "logistics_supply_chain",
+  "name": "Logistics & Supply Chain",
+  "primary_category": "Commerce_Industry",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for Logistics & Supply Chain. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 30
+  },
+  "categories": [
+    {
+      "title": "Mapping a supply chain",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can a product's supply chain be drawn without confusing physical movement and ownership?",
+          "coverage": "Map suppliers, carriers, buyers, records and payment boundaries in an original example; distinguish material flow from contractual responsibility.",
+          "id": "BANK-108-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes between procurement, logistics and supply-chain planning?",
+          "coverage": "Compare tasks, decisions, time horizons and handoffs in a documented product chain; avoid treating the terms as interchangeable departments.",
+          "id": "BANK-108-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a small component become a constraint on a much larger system?",
+          "coverage": "Trace dependencies, lead time, qualification and substitution evidence in a bounded case; distinguish a possibility from a verified disruption cause.",
+          "id": "BANK-108-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Demand, inventory and uncertainty",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does safety stock protect against and what can it not resolve?",
+          "coverage": "Use a transparent illustrative demand-and-lead-time model; state assumptions and exclude universal inventory quantities or financial guarantees.",
+          "id": "BANK-108-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a forecast be useful while being wrong in many individual periods?",
+          "coverage": "Compare purpose, horizon, aggregation, error and decision consequences; distinguish a planning input from a promise of actual demand.",
+          "id": "BANK-108-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can order variability grow as it moves upstream from customer purchases?",
+          "coverage": "Review original bullwhip-effect studies and a labeled simulation; distinguish possible mechanisms from a diagnosis of a real company's records.",
+          "id": "BANK-108-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when inventory is pooled in one warehouse rather than spread across regions?",
+          "coverage": "Compare response time, transport, risk, service and demand correlation using explicit assumptions; avoid a universal centralization verdict.",
+          "id": "BANK-108-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D02",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Warehouses, identity and records",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a warehouse know which physical item corresponds to an order record?",
+          "coverage": "Trace identifiers, variants, lot tracking, location and verification with public standards or authorized documentation; exclude real customer information.",
+          "id": "BANK-108-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes cross-docking different from ordinary storage?",
+          "coverage": "Compare arrival coordination, sorting, outbound timing and failure conditions in a bounded case; avoid assuming it eliminates inventory everywhere.",
+          "id": "BANK-108-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can warehouse automation create new dependencies rather than remove human coordination?",
+          "coverage": "Inspect exception handling, maintenance, software and replenishment; distinguish advertised throughput from a measured operating system.",
+          "id": "BANK-108-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can inventory accuracy remain poor despite frequent counting?",
+          "coverage": "Compare transaction timing, units, returns, damage and item identity; avoid attributing discrepancies to theft without evidence.",
+          "id": "BANK-108-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D03",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Transport modes and container networks",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does containerization simplify transfer while creating requirements at every terminal?",
+          "coverage": "Use official port, carrier and standards documentation on dimensions, handling and records; exclude loading or dangerous-goods procedures.",
+          "id": "BANK-108-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What tradeoffs distinguish air, sea, rail and road freight for one product?",
+          "coverage": "Compare time, cost, reliability, handling and emissions within stated boundaries; verify dated services and avoid one mode being declared universally best.",
+          "id": "BANK-108-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a port disruption spread to a factory far from the coast?",
+          "coverage": "Trace scheduled connections, stock, lead time and documented alternatives in a public case; distinguish observed effects from hypothetical consequences.",
+          "id": "BANK-108-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do official records of the Ever Given blockage reveal about network vulnerability?",
+          "coverage": "Use dated canal-authority, court and carrier records; separate established delay effects from speculative global loss estimates.",
+          "id": "BANK-108-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D04",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Cold chains and specialized flows",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does a cold-chain record need besides a single arrival temperature?",
+          "coverage": "Inspect product-specific official requirements, time history, handling and monitoring limits; avoid declaring safety from one sensor reading.",
+          "id": "BANK-108-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can transporting medical products differ from moving ordinary consumer parcels?",
+          "coverage": "Review current official quality, traceability and handling requirements at a conceptual level; exclude personalized storage or treatment advice.",
+          "id": "BANK-108-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do hazardous goods require specialized classification before shipment?",
+          "coverage": "Use current official transport rules, responsibilities and documentation; exclude packaging recipes or routes for bypassing restrictions.",
+          "id": "BANK-108-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can reverse logistics differ for repair, reuse and waste recovery?",
+          "coverage": "Compare ownership, inspection, routing and authorized destinations; distinguish collected material from verified recycling or successful reuse.",
+          "id": "BANK-108-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D05",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Suppliers, contracts and resilience",
+      "level": "advanced",
+      "research_profile": "finance",
+      "topics": [
+        {
+          "question": "What changes when a company adds a second supplier for a critical part?",
+          "coverage": "Compare qualification, capacity, cost, geographic dependencies and actual readiness; avoid equating a signed contract with available backup production.",
+          "id": "BANK-108-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do Incoterms define certain responsibilities without replacing the entire sales contract?",
+          "coverage": "Use the actual current official rule descriptions and an illustrative transaction; distinguish delivery, risk, payment and ownership rather than providing legal advice.",
+          "id": "BANK-108-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can nearshoring leave important upstream dependencies unchanged?",
+          "coverage": "Map actual materials, components, skills and tooling in a documented relocation; distinguish assembly location from the full supply base.",
+          "id": "BANK-108-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a resilience investment be evaluated against besides normal-period cost?",
+          "coverage": "Compare disruption scenarios, recovery time, service and opportunity cost with explicit assumptions; avoid inventing probabilities or guaranteed payback.",
+          "id": "BANK-108-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D06",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Labor, environment and public claims",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "How can a supply-chain labor audit be evaluated for scope and blind spots?",
+          "coverage": "Inspect tiers, worker access, subcontracting, sampling and remediation evidence; distinguish a completed audit from proof that all harms are absent.",
+          "id": "BANK-108-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What must an emissions comparison define before calling a delivery greener?",
+          "coverage": "Specify route, load, mode, return trips and lifecycle boundary using primary methods; avoid relying on one per-parcel average.",
+          "id": "BANK-108-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a traceability system record an uncertain link honestly?",
+          "coverage": "Compare evidence, declarations, verification and missing tiers; do not turn a digital ledger entry into proof of physical origin.",
+          "id": "BANK-108-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What distinguishes a sanctions or customs-compliance requirement from a carrier's own policy?",
+          "coverage": "Use current official rules, dates and actual contract terms for named jurisdictions; exclude evasion guidance or transaction-specific legal conclusions.",
+          "id": "BANK-108-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D07",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    },
+    {
+      "title": "Measurement and documentary method",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "Why can on-time-delivery figures differ even when companies describe the same shipment?",
+          "coverage": "Compare promised date, dispatch, arrival, customer acceptance and exclusions; align definitions before evaluating performance.",
+          "id": "BANK-108-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a supply-chain documentary show a real network without exposing commercial or personal data?",
+          "coverage": "Use authorized records, aggregated routes, consent and clearly labeled illustrative diagrams; distinguish permitted access from independent verification.",
+          "id": "BANK-108-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a disruption postmortem need before calling one event the root cause?",
+          "coverage": "Trace chronology, preexisting constraints, alternatives and evidence; separate triggering events from deeper dependencies and uncertain counterfactuals.",
+          "id": "BANK-108-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-108-D08",
+      "prerequisites": [
+        "CATALOG-108-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "finance": {
+      "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+      "source_leads": [
+        "regulator or official statistical publications",
+        "actual contracts, fee schedules and audited filings",
+        "original economic studies and disclosed calculation inputs"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "103",
+      "title": "Leadership & Management",
+      "directory": "103_leadership_management",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "104",
+      "title": "Corporate & Workplace",
+      "directory": "104_corporate_workplace",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "105",
+      "title": "Consumer Psychology",
+      "directory": "105_consumer_psychology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "106",
+      "title": "Marketing & Advertising",
+      "directory": "106_marketing_advertising",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "107",
+      "title": "Retail & E-commerce",
+      "directory": "107_retail_e-commerce",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "301",
+      "title": "Corporate Empires",
+      "directory": "301_corporate_empires",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "108",
+    "slug": "logistics_supply_chain",
+    "name": "Logistics & Supply Chain",
+    "primary_category": "Commerce_Industry",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Logistics & Supply Chain YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-108-01",
+        "title": "Supply networks",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-108-001",
+            "title": "Demand forecasting error",
+            "question": "Demand forecasting error: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Supply networks. Address Demand forecasting error through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Demand forecasting error.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-002",
+            "title": "Safety-stock assumptions",
+            "question": "Safety-stock assumptions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Supply networks. Address Safety-stock assumptions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Safety-stock assumptions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-003",
+            "title": "Supplier concentration risk",
+            "question": "Supplier concentration risk: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Supply networks. Address Supplier concentration risk through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Supplier concentration risk.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-108-02",
+        "title": "Physical operations",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-108-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-108-004",
+            "title": "Warehouse slotting",
+            "question": "Warehouse slotting: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Physical operations. Address Warehouse slotting through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Warehouse slotting.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-005",
+            "title": "Cold-chain monitoring",
+            "question": "Cold-chain monitoring: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Physical operations. Address Cold-chain monitoring through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cold-chain monitoring.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-006",
+            "title": "Cross-docking constraints",
+            "question": "Cross-docking constraints: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Physical operations. Address Cross-docking constraints through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cross-docking constraints.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-108-03",
+        "title": "Disruption",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-108-01"
+        ],
+        "research_profile": "finance",
+        "topics": [
+          {
+            "id": "BANK-108-007",
+            "title": "Bullwhip effects",
+            "question": "Bullwhip effects: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Disruption. Address Bullwhip effects through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Bullwhip effects, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-008",
+            "title": "Port delays and inland capacity",
+            "question": "Port delays and inland capacity: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Disruption. Address Port delays and inland capacity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Port delays and inland capacity, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-108-009",
+            "title": "Dual-sourcing tradeoffs",
+            "question": "Dual-sourcing tradeoffs: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Logistics & Supply Chain; branch: Disruption. Address Dual-sourcing tradeoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Dual-sourcing tradeoffs, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "finance": {
+        "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+        "source_leads": [
+          "regulator or official statistical publications",
+          "actual contracts, fee schedules and audited filings",
+          "original economic studies and disclosed calculation inputs"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "103",
+        "title": "Leadership & Management",
+        "directory": "103_leadership_management",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "104",
+        "title": "Corporate & Workplace",
+        "directory": "104_corporate_workplace",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "105",
+        "title": "Consumer Psychology",
+        "directory": "105_consumer_psychology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "106",
+        "title": "Marketing & Advertising",
+        "directory": "106_marketing_advertising",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "107",
+        "title": "Retail & E-commerce",
+        "directory": "107_retail_e-commerce",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "301",
+        "title": "Corporate Empires",
+        "directory": "301_corporate_empires",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_07"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

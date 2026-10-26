@@ -1,0 +1,1683 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "296",
+  "slug": "cryptocurrency",
+  "name": "Cryptocurrency",
+  "primary_category": "Finance_Banking",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Cryptocurrency YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 13,
+    "proposed_topics": 15
+  },
+  "categories": [
+    {
+      "id": "CATALOG-296-R01",
+      "title": "Custody",
+      "level": "foundation",
+      "parent_id": "DOMAIN-296-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0ad3a76b5c9f2a5eb7114e7a270ed306b187ec073ff4ff7ac794bbb7a722f7fd",
+      "topics": [
+        {
+          "question": "What is the difference between owning cryptocurrency and controlling its keys?",
+          "coverage": "Compare ledger entries, private keys, custodians and recovery limits; exclude wallet setup or investment advice.",
+          "id": "BANK-296-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R02",
+      "title": "Consensus",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-296-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c02b6e125303b9a822ff415bf76de6e5d9981838e3f15b1eb695cf4337e7e358",
+      "topics": [
+        {
+          "question": "How can a cryptocurrency network agree on transaction order?",
+          "coverage": "Compare consensus assumptions, validation and forks at a conceptual level rather than declaring all networks equivalent.",
+          "id": "BANK-296-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R03",
+      "title": "Stablecoins",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-296-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3b5b2545469f8509409ab3fb13ccba1e11b8b14465e7118588e66fae530b8703",
+      "topics": [
+        {
+          "question": "Why do different stablecoins break their pegs in different ways?",
+          "coverage": "Compare reserves, collateral, redemption, market liquidity and algorithmic mechanisms using hypothetical stress scenarios.",
+          "id": "BANK-296-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did Circle's March 2023 USDC disclosure establish during the SVB depeg?",
+          "coverage": "Compare Circle's dated reserve and redemption statements with the contemporaneous SVB intervention. Separate issuer claims, banking exposure and observed market price; do not infer permanent peg safety.",
+          "id": "BANK-296-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R04",
+      "title": "Activity metrics",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "b86bab2587a36b843ea7be25a299d81e971da28695b7be8e43a50ca988ff2522",
+      "topics": [
+        {
+          "question": "Why can rising on-chain transactions fail to show rising real-world use?",
+          "coverage": "Compare automated activity, self-transfers, exchange settlement, fees and metric definitions; exclude asset valuation claims.",
+          "id": "BANK-296-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R05",
+      "title": "Exchanges",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-296-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "71be769e261afbadbe66652a50b28e8b738d022327e855a31d26d074135eb434",
+      "topics": [
+        {
+          "question": "Why is an exchange failure different from a failure of its cryptocurrency network?",
+          "coverage": "Separate custody, internal accounting, liquidity, governance and underlying ledger operation.",
+          "id": "BANK-296-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R06",
+      "title": "Forks",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bed91591a1f19de492321abcb3c9ac4bfeff7e0d31776a5be963f77d783ee86d",
+      "topics": [
+        {
+          "question": "How can a cryptocurrency split into two histories after a disputed rule change?",
+          "coverage": "Compare protocol rules, participant coordination, replay concerns and naming without trading or attack guidance.",
+          "id": "BANK-296-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R07",
+      "title": "Consensus incentives",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-296-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4e7c0aafd09ecd73b694fad7e02000e2d232dbd81b8b8006b9d79199dc4b7f13",
+      "topics": [
+        {
+          "question": "How do proof-of-work and proof-of-stake systems make different security assumptions?",
+          "coverage": "Compare resources, validator incentives, penalties, concentration and attack models conceptually without intrusion or trading instructions.",
+          "id": "BANK-296-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-002",
+            "BANK-296-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R08",
+      "title": "Liquidity and leverage",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "108e9988e5b2696ed1b75467c0d08d555078c2f235de0c9601df08340d139eab",
+      "topics": [
+        {
+          "question": "How can thin exchange liquidity amplify leveraged cryptocurrency liquidations?",
+          "coverage": "Trace order books, collateral, price gaps, forced selling and uncertainty with invented numbers; exclude investment strategies.",
+          "id": "BANK-296-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-004",
+            "BANK-296-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R09",
+      "title": "Approvals",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-296-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "012789554a0f06fee075ffbb254b368ba2892c9ceb78833451202e77867e001a",
+      "topics": [
+        {
+          "question": "Why can a wallet approval create risk even when a private key was never shared?",
+          "coverage": "Distinguish permissions, transaction consent, malicious interfaces and revocation concepts from a defensive perspective without exploit instructions.",
+          "id": "BANK-296-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R10",
+      "title": "Conflicts",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c1d5fc84cb93f1a138f9781d592f4ee98a66c6af2e51662d20bb976c4527a46b",
+      "topics": [
+        {
+          "question": "How should a cryptocurrency explainer disclose a promoter's financial incentives?",
+          "coverage": "Compare holdings, paid placements, affiliate rewards, control and missing information without allegations against an unresearched individual.",
+          "id": "BANK-296-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R11",
+      "title": "Jurisdictions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "77de3bf5894ab94cec94b559abb85fe956dbe4106982dd01a258608d7d4b3e51",
+      "topics": [
+        {
+          "question": "Why can a cryptocurrency service face different rules in different countries?",
+          "coverage": "Separate asset classification, custody, promotions, taxation and licensing; all current legal positions require official-source research.",
+          "id": "BANK-296-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-296-009"
+          ]
+        },
+        {
+          "question": "What did the SEC actually approve for spot Bitcoin ETPs on 10 January 2024?",
+          "coverage": "Read SEC order 34-99306 and contemporaneous agency statements to distinguish US exchange listing of product shares from endorsement of Bitcoin, custody guarantees or approval across jurisdictions.",
+          "id": "BANK-296-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R12",
+      "title": "Stablecoin disclosures",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "27df6f79cbf1d42547232d2b4e37fab04dd0357f8113815c917575a31318dd7a",
+      "topics": [
+        {
+          "question": "What can stablecoin reserve disclosures establish and what remains uncertain about redemption?",
+          "coverage": "Compare asset composition, timing, attestations, audits, custody, liabilities and stress liquidity without endorsing a token.",
+          "covers_starter_ids": [
+            "BANK-296-005"
+          ],
+          "id": "BANK-296-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-296-R13",
+      "title": "Bridges",
+      "level": "advanced",
+      "parent_id": "DOMAIN-296-10",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a0e6b6aa9e65d0cae96f389246e99fdc01180aa174ecf8c924ef013890bab7d2",
+      "topics": [
+        {
+          "question": "Why does transferring a token between chains introduce a different trust boundary from transferring it within one chain?",
+          "coverage": "Compare lock-and-mint claims, validator or proof assumptions, wrapped assets, settlement and recovery limits; exclude implementation or trading advice.",
+          "id": "BANK-296-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "finance": {
+      "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+      "source_leads": [
+        "regulator or official statistical publications",
+        "actual contracts, fee schedules and audited filings",
+        "original economic studies and disclosed calculation inputs"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "008",
+      "title": "Personal Finance",
+      "directory": "008_personal_finance",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "112",
+      "title": "Real Estate",
+      "directory": "112_real_estate",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "293",
+      "title": "Banking",
+      "directory": "293_banking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "294",
+      "title": "Credit Cards",
+      "directory": "294_credit_cards",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "295",
+      "title": "Money History",
+      "directory": "295_money_history",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "298",
+      "title": "Central Banking",
+      "directory": "298_central_banking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/296_cryptocurrency/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "1cff9fc2776ebcce99806b1aae6d8f76f15f1b11497c6d8f828abae629c433d5",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-296-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a787c21e94b4bc7389546ca313f54ef9ffa1f53422ed3983050aa1255ecdda73"
+      },
+      "BANK-296-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "403f5dab286e5a232ad637b3a296ef3265af2cdac9ee305aea92460189ef008f"
+      },
+      "BANK-296-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d546cda9bc4f8a9aea41fe8eee886c47dbd2b1ed6bea04cc1c07066b53edb452"
+      },
+      "BANK-296-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "14c415b627ba13de9c108e6c752c7e4c2aca9a754b956ce7b1b8293c25a093d4"
+      },
+      "BANK-296-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9dc3b393e09ffe1cfead0c0ea8ffc98af0a01239426a741c8b5b74e81f06636b"
+      },
+      "BANK-296-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f8edc1574a821fe94b6e5d31b8aa17c37525003b4834ad017568f01a2131002d"
+      },
+      "BANK-296-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "44fcb52ec4d2854ba4f02c8b54687f1590c5452b2af3e79de5bb771b55a0a068"
+      },
+      "BANK-296-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "373357d9128791f43dcb8f8b1a67c3f5651b0010db23deb118165c4af7431c1d"
+      },
+      "BANK-296-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "20546f0dcac5d4037498551ad37a3dbfc66a5f6cc2d0e4191134fe4e34763295"
+      }
+    },
+    "source_categories": {
+      "CATALOG-296-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "af2cc1a5b21e68f0f1c7db008374dc1b555fac3ffcac53e424a9a5012a1e0c1e"
+      },
+      "CATALOG-296-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "327450105c901846cba7efe40bbdc76e6adb55a073d2b35c16d972d38b5e972a"
+      },
+      "CATALOG-296-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "5b1d881b9369f1feb3798a38db59a03ff340e054bac9e9e26d21e904c1aca00c"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "296_CRYPTOCURRENCY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "c174dbe19c216ac8a9882751589f28d7b0d0890455ddc5fc2e3e56ff7190c7b8",
+        "original_text": "# Cryptocurrency Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 296 Cryptocurrency (Finance_Banking)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Cryptocurrency Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/296_cryptocurrency/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Cryptocurrency across four progressive tiers:\r\n- **Tier 1: Cryptocurrency Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Cryptocurrency.\r\n- **Tier 2: Cryptocurrency Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Cryptocurrency.\r\n- **Tier 3: Cryptocurrency Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Cryptocurrency.\r\n- **Tier 4: Cryptocurrency Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Cryptocurrency.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/296_cryptocurrency/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/296_cryptocurrency/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **From Digital Cash Ideas to Crypto Networks** | *Which design problem did an early crypto network set out to solve?* |\r\n| 2 | `famous_examples` | **A Crypto Project Behind the Headline** | *What did one prominent network or token demonstrate in practice?* |\r\n| 3 | `hidden_stories` | **Who Maintains the Network?** | *Whose technical and governance labor is missing from a project's public story?* |\r\n| 4 | `beginner_explainers` | **Token, Network, and Custody** | *What does a user actually own or control in one crypto arrangement?* |\r\n| 5 | `advanced_concepts` | **Consensus and Finality** | *When is a transaction considered final on a named network?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexplained Market Move** | *Which explanations for a documented crypto-market event remain unproven?* |\r\n| 7 | `technology_innovation` | **A Claimed Protocol Advance Tested** | *Which constraint did a protocol change measurably address?* |\r\n| 8 | `people_personalities` | **Governance Beyond the Founder** | *Who can change a crypto protocol or service?* |\r\n| 9 | `major_events` | **A Network Disruption Reconstructed** | *What failed during one documented outage or exploit?* |\r\n| 10 | `how_it_works` | **A Crypto Transfer End to End** | *What happens from signing a transfer to settlement or redemption?* |\r\n| 11 | `rise_fall` | **A Project's Growth and Collapse** | *Which documented dependencies failed when a crypto project contracted?* |\r\n| 12 | `then_vs_now` | **One Network Across Two Versions** | *Which material properties changed after a protocol upgrade?* |\r\n| 13 | `future_developments` | **A Conditional Crypto Use Case** | *What must change before a proposed crypto use case works at scale?* |\r\n| 14 | `myths_vs_facts` | **Testing a Crypto Promise** | *Does a common promise about anonymity or decentralization hold for one system?* |\r\n| 15 | `documentary_stories` | **One Token's Paper Trail** | *What do issue documents and transaction records show about one token?* |\r\n| 16 | `product_terms` | **The Claim Behind a Stablecoin** | *What exactly can a holder redeem, from whom, and under which terms?* |\r\n| 17 | `household_cash_flow` | **Payment Use Versus Price Exposure** | *What costs and volatility arise when a household uses one crypto payment route?* |\r\n| 18 | `risk_and_time` | **Risks Before and After Settlement** | *Which risks change while a crypto transaction is pending or held?* |\r\n| 19 | `fee_effect` | **The Real Cost of a Crypto Transfer** | *Which network and intermediary charges apply to one transfer?* |\r\n| 20 | `consumer_protection` | **What Protection Actually Applies** | *Which protections cover a user of one crypto service in a named jurisdiction?* |\r\n| 21 | `market_vs_household` | **A Price Rally and a User's Exposure** | *Why does a market headline not describe one holder's actual outcome?* |\r\n| 22 | `historical_policy` | **A Crypto Rule in Practice** | *What changed after one jurisdiction adopted a crypto rule?* |\r\n| 23 | `inflation_effect` | **Crypto and an Inflation Claim** | *Does a claimed inflation hedge hold over a specified period?* |\r\n| 24 | `fraud_warning` | **Checking a Token Promotion** | *Which claims in a crypto promotion can be verified from primary records?* |\r\n| 25 | `comparison_method` | **Two Crypto Arrangements Compared Fairly** | *How do two named arrangements differ in control, fees, and risk?* |\r\n| 26 | `access_gap` | **Who Can Actually Use the Network?** | *Which device, connectivity, identity, or fee barrier limits participation?* |\r\n| 27 | `uncertainty_range` | **More Than One Crypto Outcome** | *Which assumptions dominate a hypothetical crypto-use cost or return range?* |\r\n| 28 | `field_fee_structure` | **Network Fee and Service Fee** | *Who receives each charge in one crypto transaction?* |\r\n| 29 | `field_risk_disclosure` | **What a Token Disclosure Leaves Out** | *Which material risk is described or absent in an issuer's disclosure?* |\r\n| 30 | `field_regulatory_protection` | **One Activity, One Legal Classification** | *Which authority oversees a named crypto activity in one jurisdiction?* |\r\n| 31 | `field_household_effect` | **Crypto Use in a Household Budget** | *What happens when a household must pay a fixed bill with a volatile asset?* |\r\n| 32 | `field_market_cycle` | **Liquidity Through a Crypto Downturn** | *How did trading depth or redemption change in one downturn?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks**\r\n   - *Question:* Which design problem did an early crypto network set out to solve?\r\n   - *Key Focus:* Trace a dated proposal, launch, and actual design choices. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n2. **Cryptocurrency: A Crypto Project Behind the Headline**\r\n   - *Question:* What did one prominent network or token demonstrate in practice?\r\n   - *Key Focus:* Separate its stated purpose from measured use and failures. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n3. **Cryptocurrency: Who Maintains the Network?**\r\n   - *Question:* Whose technical and governance labor is missing from a project's public story?\r\n   - *Key Focus:* Trace named contributors, funding, and decision processes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n4. **Cryptocurrency: Token, Network, and Custody**\r\n   - *Question:* What does a user actually own or control in one crypto arrangement?\r\n   - *Key Focus:* Distinguish the token, ledger, wallet keys, and intermediary claim. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n5. **Cryptocurrency: Consensus and Finality**\r\n   - *Question:* When is a transaction considered final on a named network?\r\n   - *Key Focus:* Explain the rule, assumptions, delays, and failure modes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Cryptocurrency: An Unexplained Market Move**\r\n   - *Question:* Which explanations for a documented crypto-market event remain unproven?\r\n   - *Key Focus:* Compare dated trades, disclosures, and missing data without assigning motive. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n7. **Cryptocurrency: A Claimed Protocol Advance Tested**\r\n   - *Question:* Which constraint did a protocol change measurably address?\r\n   - *Key Focus:* Compare throughput, security, cost, and decentralization before and after. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n8. **Cryptocurrency: Governance Beyond the Founder**\r\n   - *Question:* Who can change a crypto protocol or service?\r\n   - *Key Focus:* Map maintainers, validators, issuers, users, and formal control. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n9. **Cryptocurrency: A Network Disruption Reconstructed**\r\n   - *Question:* What failed during one documented outage or exploit?\r\n   - *Key Focus:* Use public incident reports and consequences; omit actionable attack steps. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n10. **Cryptocurrency: A Crypto Transfer End to End**\r\n   - *Question:* What happens from signing a transfer to settlement or redemption?\r\n   - *Key Focus:* Trace wallet, network, intermediary, fees, and finality for one asset. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Cryptocurrency: A Project's Growth and Collapse**\r\n   - *Question:* Which documented dependencies failed when a crypto project contracted?\r\n   - *Key Focus:* Compare claims, reserves or funding, governance, and dated outcomes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n12. **Cryptocurrency: One Network Across Two Versions**\r\n   - *Question:* Which material properties changed after a protocol upgrade?\r\n   - *Key Focus:* Compare compatible metrics and user effects at two dates. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n13. **Cryptocurrency: A Conditional Crypto Use Case**\r\n   - *Question:* What must change before a proposed crypto use case works at scale?\r\n   - *Key Focus:* State technical, legal, cost, and adoption assumptions. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n14. **Cryptocurrency: Testing a Crypto Promise**\r\n   - *Question:* Does a common promise about anonymity or decentralization hold for one system?\r\n   - *Key Focus:* Define the claim and inspect architecture and real-world operation. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n15. **Cryptocurrency: One Token's Paper Trail**\r\n   - *Question:* What do issue documents and transaction records show about one token?\r\n   - *Key Focus:* Trace issuance, governance, distribution, and later changes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Cryptocurrency: The Claim Behind a Stablecoin**\r\n   - *Question:* What exactly can a holder redeem, from whom, and under which terms?\r\n   - *Key Focus:* Read issuer terms and dated reserve disclosures for one product. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n17. **Cryptocurrency: Payment Use Versus Price Exposure**\r\n   - *Question:* What costs and volatility arise when a household uses one crypto payment route?\r\n   - *Key Focus:* Use a labeled hypothetical payment and dated fees. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n18. **Cryptocurrency: Risks Before and After Settlement**\r\n   - *Question:* Which risks change while a crypto transaction is pending or held?\r\n   - *Key Focus:* Separate network, custody, issuer, and market risks by stage. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n19. **Cryptocurrency: The Real Cost of a Crypto Transfer**\r\n   - *Question:* Which network and intermediary charges apply to one transfer?\r\n   - *Key Focus:* Use dated fee schedules and a transparent scenario. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n20. **Cryptocurrency: What Protection Actually Applies**\r\n   - *Question:* Which protections cover a user of one crypto service in a named jurisdiction?\r\n   - *Key Focus:* Check legal classification, registration, custody terms, and exclusions. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 296 (Cryptocurrency)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks*\r\n- **Episode Slug:** `296_cryptocurrency_deep_dive_the_architecture_of_cryptocurrency_from_digital_cash_ideas_t`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/296_cryptocurrency/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "448fa92842a4f4ed84d4c1806be88308f9935c4114020d0bc28ca51899497404",
+        "original_text": "# 296 Cryptocurrency -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 296 Cryptocurrency (Finance_Banking)  \r\n> **Storage Directory:** `topics/296_cryptocurrency/`  \r\n> **Synchronized With:** `OUTPUT/296_cryptocurrency/`, `REGISTRY/Niches/296_cryptocurrency/`, and `296_CRYPTOCURRENCY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 296 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/296_cryptocurrency](../../OUTPUT/296_cryptocurrency) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks** | Tier 1: Foundational Frameworks | `history_origins` | `cryptocurrency_from_digital_cash_ideas_to_crypto_networks` | A rigorous pedagogical investigation exploring from digital cash ideas to crypto networks through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Cryptocurrency: A Crypto Project Behind the Headline** | Tier 1: Foundational Frameworks | `famous_examples` | `cryptocurrency_a_crypto_project_behind_the_headline` | A rigorous pedagogical investigation exploring a crypto project behind the headline through documented evidence. | `QUEUED` |\r\n| 3 | **Cryptocurrency: Who Maintains the Network?** | Tier 1: Foundational Frameworks | `hidden_stories` | `cryptocurrency_who_maintains_the_network` | A rigorous pedagogical investigation exploring who maintains the network? through documented evidence. | `QUEUED` |\r\n| 4 | **Cryptocurrency: Token, Network, and Custody** | Tier 1: Foundational Frameworks | `beginner_explainers` | `cryptocurrency_token_network_and_custody` | A rigorous pedagogical investigation exploring token, network, and custody through documented evidence. | `QUEUED` |\r\n| 5 | **Cryptocurrency: Consensus and Finality** | Tier 1: Foundational Frameworks | `advanced_concepts` | `cryptocurrency_consensus_and_finality` | A rigorous pedagogical investigation exploring consensus and finality through documented evidence. | `QUEUED` |\r\n| 6 | **Cryptocurrency: An Unexplained Market Move** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `cryptocurrency_an_unexplained_market_move` | A rigorous pedagogical investigation exploring an unexplained market move through documented evidence. | `QUEUED` |\r\n| 7 | **Cryptocurrency: A Claimed Protocol Advance Tested** | Tier 2: Methodological Deep Dives | `technology_innovation` | `cryptocurrency_a_claimed_protocol_advance_tested` | A rigorous pedagogical investigation exploring a claimed protocol advance tested through documented evidence. | `QUEUED` |\r\n| 8 | **Cryptocurrency: Governance Beyond the Founder** | Tier 2: Methodological Deep Dives | `people_personalities` | `cryptocurrency_governance_beyond_the_founder` | A rigorous pedagogical investigation exploring governance beyond the founder through documented evidence. | `QUEUED` |\r\n| 9 | **Cryptocurrency: A Network Disruption Reconstructed** | Tier 2: Methodological Deep Dives | `major_events` | `cryptocurrency_a_network_disruption_reconstructed` | A rigorous pedagogical investigation exploring a network disruption reconstructed through documented evidence. | `QUEUED` |\r\n| 10 | **Cryptocurrency: A Crypto Transfer End to End** | Tier 2: Methodological Deep Dives | `how_it_works` | `cryptocurrency_a_crypto_transfer_end_to_end` | A rigorous pedagogical investigation exploring a crypto transfer end to end through documented evidence. | `QUEUED` |\r\n| 11 | **Cryptocurrency: A Project's Growth and Collapse** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `cryptocurrency_a_project_s_growth_and_collapse` | A rigorous pedagogical investigation exploring a project's growth and collapse through documented evidence. | `QUEUED` |\r\n| 12 | **Cryptocurrency: One Network Across Two Versions** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `cryptocurrency_one_network_across_two_versions` | A rigorous pedagogical investigation exploring one network across two versions through documented evidence. | `QUEUED` |\r\n| 13 | **Cryptocurrency: A Conditional Crypto Use Case** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `cryptocurrency_a_conditional_crypto_use_case` | A rigorous pedagogical investigation exploring a conditional crypto use case through documented evidence. | `QUEUED` |\r\n| 14 | **Cryptocurrency: Testing a Crypto Promise** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `cryptocurrency_testing_a_crypto_promise` | A rigorous pedagogical investigation exploring testing a crypto promise through documented evidence. | `QUEUED` |\r\n| 15 | **Cryptocurrency: One Token's Paper Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `cryptocurrency_one_token_s_paper_trail` | A rigorous pedagogical investigation exploring one token's paper trail through documented evidence. | `QUEUED` |\r\n| 16 | **Cryptocurrency: The Claim Behind a Stablecoin** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `product_terms` | `cryptocurrency_the_claim_behind_a_stablecoin` | A rigorous pedagogical investigation exploring the claim behind a stablecoin through documented evidence. | `QUEUED` |\r\n| 17 | **Cryptocurrency: Payment Use Versus Price Exposure** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `household_cash_flow` | `cryptocurrency_payment_use_versus_price_exposure` | A rigorous pedagogical investigation exploring payment use versus price exposure through documented evidence. | `QUEUED` |\r\n| 18 | **Cryptocurrency: Risks Before and After Settlement** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `risk_and_time` | `cryptocurrency_risks_before_and_after_settlement` | A rigorous pedagogical investigation exploring risks before and after settlement through documented evidence. | `QUEUED` |\r\n| 19 | **Cryptocurrency: The Real Cost of a Crypto Transfer** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `fee_effect` | `cryptocurrency_the_real_cost_of_a_crypto_transfer` | A rigorous pedagogical investigation exploring the real cost of a crypto transfer through documented evidence. | `QUEUED` |\r\n| 20 | **Cryptocurrency: What Protection Actually Applies** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `consumer_protection` | `cryptocurrency_what_protection_actually_applies` | A rigorous pedagogical investigation exploring what protection actually applies through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Cryptocurrency: Record Extremes & Superlatives** | **98** | `extreme_case` | `cryptocurrency_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Cryptocurrency: An Unexplained Market Move** | **96** | `mysteries_unsolved_cases` | `cryptocurrency_mysteries_unsolved_cases` | High viral search interest exploring which explanations for a documented crypto-market event remain unproven backed by field records. | `Queued` |\r\n| 23 | **Cryptocurrency: A Claimed Protocol Advance Tested** | **95** | `technology_innovation` | `cryptocurrency_technology_innovation` | High viral search interest exploring which constraint did a protocol change measurably address backed by field records. | `Queued` |\r\n| 24 | **Cryptocurrency: Testing a Crypto Promise** | **94** | `myths_vs_facts` | `cryptocurrency_myths_vs_facts` | High viral search interest exploring does a common promise about anonymity or decentralization hold for one system backed by field records. | `Queued` |\r\n| 25 | **Cryptocurrency: A Network Disruption Reconstructed** | **93** | `major_events` | `cryptocurrency_major_events` | High viral search interest exploring what failed during one documented outage or exploit backed by field records. | `Queued` |\r\n| 26 | **Cryptocurrency: Who Maintains the Network?** | **92** | `hidden_stories` | `cryptocurrency_hidden_stories` | High viral search interest exploring whose technical and governance labor is missing from a project's public story backed by field records. | `Queued` |\r\n| 27 | **Cryptocurrency: One Token's Paper Trail** | **91** | `documentary_stories` | `cryptocurrency_documentary_stories` | High viral search interest exploring what do issue documents and transaction records show about one token backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/296_cryptocurrency/296_CRYPTOCURRENCY_CHANNEL_TOPIC_ROADMAP.md`](./296_CRYPTOCURRENCY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/296_cryptocurrency/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/296_cryptocurrency/NICHE_296_cryptocurrency.md`](file:///h:/script-raw-/REGISTRY/Niches/296_cryptocurrency/NICHE_296_cryptocurrency.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/296_cryptocurrency/CAT_296_cryptocurrency.md`](file:///h:/script-raw-/REGISTRY/Niches/296_cryptocurrency/CAT_296_cryptocurrency.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/296_cryptocurrency/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/296_cryptocurrency/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/296_cryptocurrency/`](file:///h:/script-raw-/OUTPUT/296_cryptocurrency/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "f9c53ce94322e6871e369546b0bd8430cd985090036d9dfe9c4a4e17b08d2572",
+        "original_text": "{\r\n  \"niche_id\": \"296\",\r\n  \"niche_name\": \"cryptocurrency\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"cryptocurrency_from_digital_cash_ideas_to_crypto_networks\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from digital cash ideas to crypto networks through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Cryptocurrency: A Crypto Project Behind the Headline\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"cryptocurrency_a_crypto_project_behind_the_headline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a crypto project behind the headline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Cryptocurrency: Who Maintains the Network?\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"cryptocurrency_who_maintains_the_network\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring who maintains the network? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Cryptocurrency: Token, Network, and Custody\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"cryptocurrency_token_network_and_custody\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring token, network, and custody through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Cryptocurrency: Consensus and Finality\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"cryptocurrency_consensus_and_finality\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring consensus and finality through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Cryptocurrency: An Unexplained Market Move\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"cryptocurrency_an_unexplained_market_move\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unexplained market move through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Cryptocurrency: A Claimed Protocol Advance Tested\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"cryptocurrency_a_claimed_protocol_advance_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a claimed protocol advance tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Cryptocurrency: Governance Beyond the Founder\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"cryptocurrency_governance_beyond_the_founder\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring governance beyond the founder through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Cryptocurrency: A Network Disruption Reconstructed\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"cryptocurrency_a_network_disruption_reconstructed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a network disruption reconstructed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Cryptocurrency: A Crypto Transfer End to End\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"cryptocurrency_a_crypto_transfer_end_to_end\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a crypto transfer end to end through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Cryptocurrency: A Project's Growth and Collapse\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"cryptocurrency_a_project_s_growth_and_collapse\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a project's growth and collapse through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Cryptocurrency: One Network Across Two Versions\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"cryptocurrency_one_network_across_two_versions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one network across two versions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Cryptocurrency: A Conditional Crypto Use Case\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"cryptocurrency_a_conditional_crypto_use_case\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a conditional crypto use case through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Cryptocurrency: Testing a Crypto Promise\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"cryptocurrency_testing_a_crypto_promise\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring testing a crypto promise through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Cryptocurrency: One Token's Paper Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"cryptocurrency_one_token_s_paper_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one token's paper trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Cryptocurrency: The Claim Behind a Stablecoin\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"product_terms\",\r\n      \"slug\": \"cryptocurrency_the_claim_behind_a_stablecoin\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the claim behind a stablecoin through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Cryptocurrency: Payment Use Versus Price Exposure\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"household_cash_flow\",\r\n      \"slug\": \"cryptocurrency_payment_use_versus_price_exposure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring payment use versus price exposure through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Cryptocurrency: Risks Before and After Settlement\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"risk_and_time\",\r\n      \"slug\": \"cryptocurrency_risks_before_and_after_settlement\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring risks before and after settlement through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Cryptocurrency: The Real Cost of a Crypto Transfer\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"fee_effect\",\r\n      \"slug\": \"cryptocurrency_the_real_cost_of_a_crypto_transfer\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the real cost of a crypto transfer through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Cryptocurrency: What Protection Actually Applies\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"consumer_protection\",\r\n      \"slug\": \"cryptocurrency_what_protection_actually_applies\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what protection actually applies through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Cryptocurrency: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"cryptocurrency_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Cryptocurrency: An Unexplained Market Move\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"cryptocurrency_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which explanations for a documented crypto-market event remain unproven backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Cryptocurrency: A Claimed Protocol Advance Tested\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"cryptocurrency_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring which constraint did a protocol change measurably address backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Cryptocurrency: Testing a Crypto Promise\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"cryptocurrency_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring does a common promise about anonymity or decentralization hold for one system backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Cryptocurrency: A Network Disruption Reconstructed\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"cryptocurrency_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what failed during one documented outage or exploit backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Cryptocurrency: Who Maintains the Network?\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"cryptocurrency_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose technical and governance labor is missing from a project's public story backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Cryptocurrency: One Token's Paper Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"cryptocurrency_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring what do issue documents and transaction records show about one token backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "296",
+      "niche_name": "cryptocurrency",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "cryptocurrency_from_digital_cash_ideas_to_crypto_networks",
+          "reason": "A rigorous pedagogical investigation exploring from digital cash ideas to crypto networks through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Cryptocurrency: A Crypto Project Behind the Headline",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "cryptocurrency_a_crypto_project_behind_the_headline",
+          "reason": "A rigorous pedagogical investigation exploring a crypto project behind the headline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Cryptocurrency: Who Maintains the Network?",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "cryptocurrency_who_maintains_the_network",
+          "reason": "A rigorous pedagogical investigation exploring who maintains the network? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Cryptocurrency: Token, Network, and Custody",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "cryptocurrency_token_network_and_custody",
+          "reason": "A rigorous pedagogical investigation exploring token, network, and custody through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Cryptocurrency: Consensus and Finality",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "cryptocurrency_consensus_and_finality",
+          "reason": "A rigorous pedagogical investigation exploring consensus and finality through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Cryptocurrency: An Unexplained Market Move",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "cryptocurrency_an_unexplained_market_move",
+          "reason": "A rigorous pedagogical investigation exploring an unexplained market move through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Cryptocurrency: A Claimed Protocol Advance Tested",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "cryptocurrency_a_claimed_protocol_advance_tested",
+          "reason": "A rigorous pedagogical investigation exploring a claimed protocol advance tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Cryptocurrency: Governance Beyond the Founder",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "cryptocurrency_governance_beyond_the_founder",
+          "reason": "A rigorous pedagogical investigation exploring governance beyond the founder through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Cryptocurrency: A Network Disruption Reconstructed",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "cryptocurrency_a_network_disruption_reconstructed",
+          "reason": "A rigorous pedagogical investigation exploring a network disruption reconstructed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Cryptocurrency: A Crypto Transfer End to End",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "cryptocurrency_a_crypto_transfer_end_to_end",
+          "reason": "A rigorous pedagogical investigation exploring a crypto transfer end to end through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Cryptocurrency: A Project's Growth and Collapse",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "cryptocurrency_a_project_s_growth_and_collapse",
+          "reason": "A rigorous pedagogical investigation exploring a project's growth and collapse through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Cryptocurrency: One Network Across Two Versions",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "cryptocurrency_one_network_across_two_versions",
+          "reason": "A rigorous pedagogical investigation exploring one network across two versions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Cryptocurrency: A Conditional Crypto Use Case",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "cryptocurrency_a_conditional_crypto_use_case",
+          "reason": "A rigorous pedagogical investigation exploring a conditional crypto use case through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Cryptocurrency: Testing a Crypto Promise",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "cryptocurrency_testing_a_crypto_promise",
+          "reason": "A rigorous pedagogical investigation exploring testing a crypto promise through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Cryptocurrency: One Token's Paper Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "cryptocurrency_one_token_s_paper_trail",
+          "reason": "A rigorous pedagogical investigation exploring one token's paper trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Cryptocurrency: The Claim Behind a Stablecoin",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "product_terms",
+          "slug": "cryptocurrency_the_claim_behind_a_stablecoin",
+          "reason": "A rigorous pedagogical investigation exploring the claim behind a stablecoin through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Cryptocurrency: Payment Use Versus Price Exposure",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "household_cash_flow",
+          "slug": "cryptocurrency_payment_use_versus_price_exposure",
+          "reason": "A rigorous pedagogical investigation exploring payment use versus price exposure through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Cryptocurrency: Risks Before and After Settlement",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "risk_and_time",
+          "slug": "cryptocurrency_risks_before_and_after_settlement",
+          "reason": "A rigorous pedagogical investigation exploring risks before and after settlement through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Cryptocurrency: The Real Cost of a Crypto Transfer",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "fee_effect",
+          "slug": "cryptocurrency_the_real_cost_of_a_crypto_transfer",
+          "reason": "A rigorous pedagogical investigation exploring the real cost of a crypto transfer through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Cryptocurrency: What Protection Actually Applies",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "consumer_protection",
+          "slug": "cryptocurrency_what_protection_actually_applies",
+          "reason": "A rigorous pedagogical investigation exploring what protection actually applies through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Cryptocurrency: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "cryptocurrency_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Cryptocurrency: An Unexplained Market Move",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "cryptocurrency_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which explanations for a documented crypto-market event remain unproven backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Cryptocurrency: A Claimed Protocol Advance Tested",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "cryptocurrency_technology_innovation",
+          "why_trending": "High viral search interest exploring which constraint did a protocol change measurably address backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Cryptocurrency: Testing a Crypto Promise",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "cryptocurrency_myths_vs_facts",
+          "why_trending": "High viral search interest exploring does a common promise about anonymity or decentralization hold for one system backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Cryptocurrency: A Network Disruption Reconstructed",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "cryptocurrency_major_events",
+          "why_trending": "High viral search interest exploring what failed during one documented outage or exploit backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Cryptocurrency: Who Maintains the Network?",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "cryptocurrency_hidden_stories",
+          "why_trending": "High viral search interest exploring whose technical and governance labor is missing from a project's public story backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Cryptocurrency: One Token's Paper Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "cryptocurrency_documentary_stories",
+          "why_trending": "High viral search interest exploring what do issue documents and transaction records show about one token backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "a4d39799c4e4b974debd07d64ba3b7fdae755f47eadc61d08777a048003f0ab2"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "7cc7f0fc314c64d9a3fa346a650c19ea8d0cd6ad1677add694d40389eef0575e"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "b8e8f76a4afa2b5cffa1f189db6d593aa625afb5000c1608bd02651da66a50c3"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "91c1b20c0037fa8c2f05e08ae61e2fe49082cd9e38fa5e8b16359a908f2a7a79"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "3b3debdd488c21d045b9935d7ebe704ed5e255b5343d1f09a048a8988e51f5fd"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "a331d89e9eb25911012815f1def65890ff77d3601a66c80e1d754ab7a515875b"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-296-01",
+      "title": "Mechanisms",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-02",
+      "title": "Networks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-03",
+      "title": "Economics",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-04",
+      "title": "Evidence",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-05",
+      "title": "Security",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-06",
+      "title": "Markets",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-07",
+      "title": "Account security",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-08",
+      "title": "Promotions",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-09",
+      "title": "Governance",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-296-10",
+      "title": "Architecture",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "296",
+    "slug": "cryptocurrency",
+    "name": "Cryptocurrency",
+    "primary_category": "Finance_Banking",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Cryptocurrency YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-296-01",
+        "title": "Crypto systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-296-001",
+            "title": "Wallet key custody",
+            "question": "Wallet key custody: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cryptocurrency; branch: Crypto systems. Address Wallet key custody through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Wallet key custody.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-002",
+            "title": "Proof-of-work security assumptions",
+            "question": "Proof-of-work security assumptions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cryptocurrency; branch: Crypto systems. Address Proof-of-work security assumptions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Proof-of-work security assumptions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-003",
+            "title": "Proof-of-stake validator incentives",
+            "question": "Proof-of-stake validator incentives: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Cryptocurrency; branch: Crypto systems. Address Proof-of-stake validator incentives through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Proof-of-stake validator incentives.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-296-02",
+        "title": "Market structure",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-296-01"
+        ],
+        "research_profile": "finance",
+        "topics": [
+          {
+            "id": "BANK-296-004",
+            "title": "Exchange liquidity",
+            "question": "Exchange liquidity: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Cryptocurrency; branch: Market structure. Address Exchange liquidity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Exchange liquidity, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-005",
+            "title": "Stablecoin reserve disclosures",
+            "question": "Stablecoin reserve disclosures: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Cryptocurrency; branch: Market structure. Address Stablecoin reserve disclosures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Stablecoin reserve disclosures, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-006",
+            "title": "Leverage liquidation",
+            "question": "Leverage liquidation: which assumptions change the costs, risks and outcomes?",
+            "coverage": "Primary context: Cryptocurrency; branch: Market structure. Address Leverage liquidation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Specify the institution, product, market or household scenario behind Leverage liquidation, with date and jurisdiction.",
+              "Work through a numerical example with explicit fees, cash flows and assumptions; label invented figures as illustrative.",
+              "Stress-test a different price, income, rate or time horizon and identify who bears the risk.",
+              "Compare official terms with common promotional claims and list the unresolved information a decision would require."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-296-03",
+        "title": "Consumer risk",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-296-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-296-007",
+            "title": "Phishing and wallet approvals",
+            "question": "Phishing and wallet approvals: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cryptocurrency; branch: Consumer risk. Address Phishing and wallet approvals through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Phishing and wallet approvals.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-008",
+            "title": "Token-promotion conflicts",
+            "question": "Token-promotion conflicts: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cryptocurrency; branch: Consumer risk. Address Token-promotion conflicts through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Token-promotion conflicts.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-296-009",
+            "title": "Regulation by jurisdiction",
+            "question": "Regulation by jurisdiction: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Cryptocurrency; branch: Consumer risk. Address Regulation by jurisdiction through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Regulation by jurisdiction.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "finance": {
+        "requirements": "Use current official terms, filings or macroeconomic data; state jurisdiction, date, fees, taxes, risk, units and assumptions. Use transparent illustrative calculations rather than personal recommendations or return promises.",
+        "source_leads": [
+          "regulator or official statistical publications",
+          "actual contracts, fee schedules and audited filings",
+          "original economic studies and disclosed calculation inputs"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "008",
+        "title": "Personal Finance",
+        "directory": "008_personal_finance",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "112",
+        "title": "Real Estate",
+        "directory": "112_real_estate",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "293",
+        "title": "Banking",
+        "directory": "293_banking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "294",
+        "title": "Credit Cards",
+        "directory": "294_credit_cards",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "295",
+        "title": "Money History",
+        "directory": "295_money_history",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "298",
+        "title": "Central Banking",
+        "directory": "298_central_banking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Cryptocurrency: From Digital Cash Ideas to Crypto Networks",
+      "question": "Which design problem did an early crypto network set out to solve?",
+      "coverage": "Trace a dated proposal, launch, and actual design choices. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Crypto Project Behind the Headline",
+      "question": "What did one prominent network or token demonstrate in practice?",
+      "coverage": "Separate its stated purpose from measured use and failures. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Who Maintains the Network?",
+      "question": "Whose technical and governance labor is missing from a project's public story?",
+      "coverage": "Trace named contributors, funding, and decision processes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Token, Network, and Custody",
+      "question": "What does a user actually own or control in one crypto arrangement?",
+      "coverage": "Distinguish the token, ledger, wallet keys, and intermediary claim. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Consensus and Finality",
+      "question": "When is a transaction considered final on a named network?",
+      "coverage": "Explain the rule, assumptions, delays, and failure modes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: An Unexplained Market Move",
+      "question": "Which explanations for a documented crypto-market event remain unproven?",
+      "coverage": "Compare dated trades, disclosures, and missing data without assigning motive. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Claimed Protocol Advance Tested",
+      "question": "Which constraint did a protocol change measurably address?",
+      "coverage": "Compare throughput, security, cost, and decentralization before and after. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Governance Beyond the Founder",
+      "question": "Who can change a crypto protocol or service?",
+      "coverage": "Map maintainers, validators, issuers, users, and formal control. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Network Disruption Reconstructed",
+      "question": "What failed during one documented outage or exploit?",
+      "coverage": "Use public incident reports and consequences; omit actionable attack steps. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Crypto Transfer End to End",
+      "question": "What happens from signing a transfer to settlement or redemption?",
+      "coverage": "Trace wallet, network, intermediary, fees, and finality for one asset. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Project's Growth and Collapse",
+      "question": "Which documented dependencies failed when a crypto project contracted?",
+      "coverage": "Compare claims, reserves or funding, governance, and dated outcomes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: One Network Across Two Versions",
+      "question": "Which material properties changed after a protocol upgrade?",
+      "coverage": "Compare compatible metrics and user effects at two dates. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: A Conditional Crypto Use Case",
+      "question": "What must change before a proposed crypto use case works at scale?",
+      "coverage": "State technical, legal, cost, and adoption assumptions. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Testing a Crypto Promise",
+      "question": "Does a common promise about anonymity or decentralization hold for one system?",
+      "coverage": "Define the claim and inspect architecture and real-world operation. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: One Token's Paper Trail",
+      "question": "What do issue documents and transaction records show about one token?",
+      "coverage": "Trace issuance, governance, distribution, and later changes. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: The Claim Behind a Stablecoin",
+      "question": "What exactly can a holder redeem, from whom, and under which terms?",
+      "coverage": "Read issuer terms and dated reserve disclosures for one product. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Payment Use Versus Price Exposure",
+      "question": "What costs and volatility arise when a household uses one crypto payment route?",
+      "coverage": "Use a labeled hypothetical payment and dated fees. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: Risks Before and After Settlement",
+      "question": "Which risks change while a crypto transaction is pending or held?",
+      "coverage": "Separate network, custody, issuer, and market risks by stage. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: The Real Cost of a Crypto Transfer",
+      "question": "Which network and intermediary charges apply to one transfer?",
+      "coverage": "Use dated fee schedules and a transparent scenario. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Cryptocurrency: What Protection Actually Applies",
+      "question": "Which protections cover a user of one crypto service in a named jurisdiction?",
+      "coverage": "Check legal classification, registration, custody terms, and exclusions. Evidence base: protocol documents, dated transaction or market data, issuer terms, incident reports, and regulator publications.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-296-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "1066eccc657daca8c5c454fce61fef04ca89601d0097169929f8afc6458c27cb",
+    "TOPIC_BANK_RECONCILIATION.md": "b43aabe46d598abfceecac18c10c14b49224c638c4a94b8389e12618d03f004e",
+    "TOPICS_COVERED_REPORT.md": "63d5ddc41d6bf9edea32f0999ec2dd1c2dad6eaebf1ca0a196f43c8f078c851d",
+    "296_CRYPTOCURRENCY_CHANNEL_TOPIC_ROADMAP.md": "a845932111a3bc6fc16161ccf3fa371eca62e40d70f6f0735210e8fa51c7cb76"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-296-001": [
+      "BANK-296-030"
+    ],
+    "BANK-296-002": [
+      "BANK-296-036"
+    ],
+    "BANK-296-003": [
+      "BANK-296-036"
+    ],
+    "BANK-296-004": [
+      "BANK-296-037"
+    ],
+    "BANK-296-006": [
+      "BANK-296-037"
+    ],
+    "BANK-296-007": [
+      "BANK-296-038"
+    ],
+    "BANK-296-008": [
+      "BANK-296-039"
+    ],
+    "BANK-296-009": [
+      "BANK-296-040"
+    ],
+    "BANK-296-005": [
+      "BANK-296-041"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-031"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-044"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-030"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-030"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-031"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-037"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-036"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-035"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/8": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-034"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-030"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-034"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/11": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-035"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-044"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-039"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-043"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    },
+    "pending_topics/15": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-043"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-033"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-034"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-037"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "pending_topics/19": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-044"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    },
+    "trending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-033"
+      ],
+      "reason": "The archived superlative/popularity claim is unverified; this active question can assess evidence without adopting that claim."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-037"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-036"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-039"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "trending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-034"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-296-031"
+      ],
+      "reason": "Existing active topic absorbs this generic archive pitch; select a dated incident, product or protocol version before production."
+    },
+    "trending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-296-043"
+      ],
+      "reason": "Dated regulator, issuer or versioned protocol document supports a bounded case; the linked note limits jurisdiction, claims and version."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-296-043",
+      "note_file": "296_CRYPTOCURRENCY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-296-044",
+      "note_file": "296_CRYPTOCURRENCY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-296-043",
+      "related_id": "BANK-293-041",
+      "boundary": "USDC reserve exposure to SVB versus FDIC bridge-bank resolution."
+    },
+    {
+      "topic_id": "BANK-296-043",
+      "related_id": "BANK-296-041",
+      "boundary": "Dated Circle issuer disclosures versus general stablecoin reserve-evidence question."
+    },
+    {
+      "topic_id": "BANK-296-044",
+      "related_id": "BANK-296-040",
+      "boundary": "Specific 2024 US exchange-listing order versus cross-jurisdiction crypto-service rules."
+    },
+    {
+      "topic_id": "BANK-296-044",
+      "related_id": "BANK-298-037",
+      "boundary": "ETP listing approval versus central-bank/supervisory institutional roles."
+    }
+  ]
+}

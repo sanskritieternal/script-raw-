@@ -1,0 +1,1591 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "337",
+  "slug": "ai_research",
+  "name": "AI Research",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a AI Research YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 13
+  },
+  "categories": [
+    {
+      "id": "CATALOG-337-R01",
+      "title": "Research claims",
+      "level": "foundation",
+      "parent_id": "DOMAIN-337-01",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "a90e7f3dba5102235521f8f9787a88d58b84afcad44199d3fff8ee6fec13a1ea",
+      "topics": [
+        {
+          "question": "What separates an AI research benchmark result from a general intelligence claim?",
+          "coverage": "Compare task definition, data, metric, baselines and uncertainty without accepting a headline as a finding.",
+          "id": "BANK-337-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model?",
+          "coverage": "Read the original ImageNet classification setup, model description and reported benchmark errors as a dated result; do not infer general visual understanding or sole-cause historical impact.",
+          "id": "BANK-337-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R02",
+      "title": "Ablations",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-337-02",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "07458636d0a8ffd13a331ebe89cc13331c417ba40e59f1e5525941fc6b7c7fad",
+      "topics": [
+        {
+          "question": "How can an ablation study reveal which part of an AI system mattered?",
+          "coverage": "Compare matched conditions, interaction effects, compute budgets and repeated runs.",
+          "id": "BANK-337-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R03",
+      "title": "Contamination",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-337-03",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "1744b1f21452fa1c64e817dc152195ac9d895592cdc3a91ade4a213e44ec6d83",
+      "topics": [
+        {
+          "question": "Why can training-data overlap inflate an AI model's apparent ability?",
+          "coverage": "Trace leakage, memorization, evaluation design and held-out controls conceptually.",
+          "id": "BANK-337-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R04",
+      "title": "Scaling",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-04",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "948737004cdfb5be63dd4b2206dd0046cc2f80fdca12bca6be21b4cc3f1f597b",
+      "topics": [
+        {
+          "question": "What must be reported before an AI scaling result can be independently assessed?",
+          "coverage": "Compare dataset construction, compute, optimization, runs, uncertainty and access limits; exclude claims of replication.",
+          "id": "BANK-337-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R05",
+      "title": "Self-supervision",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-337-05",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "212d85a61ef9df1a152e844422734b955c3fefd8ffcc1fe7a63337a375126a1e",
+      "topics": [
+        {
+          "question": "How can an AI model learn useful representations from data without task-specific human labels?",
+          "coverage": "Compare pretext objectives, data structure, representations and downstream evaluation; distinguish no task labels from no human influence.",
+          "id": "BANK-337-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R06",
+      "title": "Explanations",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-06",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "9394888069c9dc8f31fc2d264aa9715b1d055ab1ccce780469e423c7ef82fa73",
+      "topics": [
+        {
+          "question": "How can an AI explanation sound plausible without describing the model's actual decision process?",
+          "coverage": "Compare faithfulness, perturbation tests, alternative explanations and human judgment.",
+          "id": "BANK-337-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R07",
+      "title": "Distribution shift",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-03",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "140f21530b9d3c3d126787d0a9ba256e6b8a2d3eac5d84521bb8d628a7207e8a",
+      "topics": [
+        {
+          "question": "Why can an AI system's accuracy collapse when the test environment changes slightly?",
+          "coverage": "Trace shortcut features, population shifts, labeling and stress tests without assuming every shift causes failure.",
+          "id": "BANK-337-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-337-008"
+          ]
+        },
+        {
+          "question": "How did the 2021 WILDS benchmark make distribution shifts visible across its selected datasets?",
+          "coverage": "Examine WILDS's curated 10 datasets and in- versus out-of-distribution evaluation; distinguish its chosen domains and model baselines from all deployed AI systems.",
+          "id": "BANK-337-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R08",
+      "title": "Generative likelihood",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-07",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "8ed66f7d15b2e41a31d2c9f58422e5a54b118f4aac4ae4028539850686664fa9",
+      "topics": [
+        {
+          "question": "Why can a generative model's likelihood score disagree with perceived output quality?",
+          "coverage": "Compare representation, metric, distribution, sampling and human evaluation without declaring one measure sufficient.",
+          "covers_starter_ids": [
+            "BANK-337-003"
+          ],
+          "id": "BANK-337-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R09",
+      "title": "Reinforcement learning",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-03",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "cc9cb3f2c756d34d33e0c7ea4e9447a22b40c56034045eae22f7134dd45748e5",
+      "topics": [
+        {
+          "question": "Why can a reinforcement-learning agent maximize its reward without fulfilling the intended task?",
+          "coverage": "Compare reward specification, environment, shortcuts and independent evaluation in a benign toy example.",
+          "covers_starter_ids": [
+            "BANK-337-002"
+          ],
+          "id": "BANK-337-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R10",
+      "title": "Compute comparisons",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-08",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "2f34065d937743fa5592ce7547dbaffe65164c67261e0309cf2b42c5206ca931",
+      "topics": [
+        {
+          "question": "Why do AI research comparisons need matched compute budgets as well as matched datasets?",
+          "coverage": "Compare training, search, inference, hardware and repeated runs without equating fewer parameters with lower total cost.",
+          "covers_starter_ids": [
+            "BANK-337-006"
+          ],
+          "id": "BANK-337-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-337-R11",
+      "title": "Benchmark retirement",
+      "level": "advanced",
+      "parent_id": "DOMAIN-337-03",
+      "research_profile": "science",
+      "prerequisites": [],
+      "local_group_identity": "33cdb522f26904321f6e5cbcc7b2dad2bc2d09cdc53db4a743a0c0947a84e0d2",
+      "topics": [
+        {
+          "question": "When should an AI benchmark be revised or retired after repeated public use?",
+          "coverage": "Compare contamination, saturation, gaming, task relevance, comparability and replacement costs; retain historical results without interpreting every score gain as new capability.",
+          "id": "BANK-337-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "007",
+      "title": "AI Tools / AI Tutorials",
+      "directory": "007_ai_tools_ai_tutorials",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/337_ai_research/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "70881b54545d3ebdc5b8b460c902f9d5663301ca466c351b9c6c4e0887b9376b",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-337-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "95ccab50cb84b6ac68e2f2c8772a31456de639b1c70396c79317ac0b719ab3cc"
+      },
+      "BANK-337-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4b82b9bd68ae1fc133a19d9b6ace7f6e36a2b99a4583d0bc0ed7fb2592cff756"
+      },
+      "BANK-337-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1f62488c17c8461a6b992585a1fc738acb858dc6cb8df4da886b7f8d0a1a95ef"
+      },
+      "BANK-337-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d74da0ab23b219dd41e58e021c3eeceb2da65ccc4969f9b9f3f21877124ba1fe"
+      },
+      "BANK-337-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5785587000d4cf41872457b83e72fe3407fc38c274ce0b7edd4e59f03d3e39db"
+      },
+      "BANK-337-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c31318623ad3183a1852fa2d5e9abb866ed510b32d4c62c05a51bed6d8620b7a"
+      },
+      "BANK-337-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "47a6c3901c707096cd53a0281ee37afe77db30ff7238db39f3e24962174eb1b7"
+      },
+      "BANK-337-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6fc772790a71a1a57bbcb5b6c81a20ca244b0a4bb495d486d4e7069ee1314def"
+      },
+      "BANK-337-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "67cf23a9868f353cbbddbe92d2d345b7cd5a9cd6605227f627c8c69081a2f088"
+      }
+    },
+    "source_categories": {
+      "CATALOG-337-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "e2b96905d9825158027fa1ff349b4102b948ac60dcb8decc337e8157215d563b"
+      },
+      "CATALOG-337-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "59a762acba7b16dff6ba26eac9d6636efc55d891588f9f1de224fbd8a02a8274"
+      },
+      "CATALOG-337-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d72c5e1e35db94bb6b6945acdca577ab9edee144ebf4d44fa5e5945a377703a5"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "337_AI_RESEARCH_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "eb643b676177ac9d7e1c7298e057cb3c0db90370cde67d3b67d7920f1f33acc0",
+        "original_text": "# AI Research Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 337 AI Research (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** AI Research Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/337_ai_research/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of AI Research across four progressive tiers:\r\n- **Tier 1: AI Research Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in AI Research.\r\n- **Tier 2: AI Research Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of AI Research.\r\n- **Tier 3: AI Research Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in AI Research.\r\n- **Tier 4: AI Research Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for AI Research.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/337_ai_research/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/337_ai_research/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Research Method Emerges** | *Which dated experiment established a narrow AI technique?* |\r\n| 2 | `famous_examples` | **A Benchmark Result Rechecked** | *Does a celebrated score transfer to a useful task?* |\r\n| 3 | `hidden_stories` | **Research Labor Behind a Model** | *Who labels data, maintains infrastructure, and reproduces results?* |\r\n| 4 | `beginner_explainers` | **From Question to AI Experiment** | *How do hypothesis, data, baseline, model, and evaluation fit?* |\r\n| 5 | `advanced_concepts` | **Generalization Beyond a Test Set** | *What evidence supports performance outside training conditions?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Result That Would Not Replicate** | *Which data, code, compute, or metric differences explain divergence?* |\r\n| 7 | `technology_innovation` | **A New Model Architecture** | *Which capability improved under equal evaluation?* |\r\n| 8 | `people_personalities` | **A Research Dispute** | *How did teams argue over one claim or method?* |\r\n| 9 | `major_events` | **An AI Paper's Impact** | *Which follow-up studies confirmed, limited, or rejected it?* |\r\n| 10 | `how_it_works` | **A Research Pipeline** | *How are data, training, validation, and reporting connected?* |\r\n| 11 | `rise_fall` | **A Benchmark Becomes Obsolete** | *Which saturation, leakage, or task mismatch changed its value?* |\r\n| 12 | `then_vs_now` | **A Capability Across Model Generations** | *Did progress persist under matched tests?* |\r\n| 13 | `future_developments` | **A Promised Research Direction** | *What falsifiable test would support the proposal?* |\r\n| 14 | `myths_vs_facts` | **One Score Means General Intelligence?** | *Which tasks and populations lie outside the benchmark?* |\r\n| 15 | `documentary_stories` | **A Claim from Preprint to Replication** | *How did the evidence change through review and reuse?* |\r\n| 16 | `system_boundary` | **Model or Whole System?** | *Which results depend on retrieval, tools, humans, or prompt design?* |\r\n| 17 | `input_output_trace` | **One Evaluated Example** | *What input, context, output, and grading produced a score?* |\r\n| 18 | `design_tradeoff` | **Scale Versus Data Quality** | *Which investment improved the target outcome?* |\r\n| 19 | `failure_mode` | **A Model's Systematic Error** | *What conditions reveal a repeatable failure?* |\r\n| 20 | `testing_limits` | **The Missing Evaluation Population** | *Who or what was absent from the test?* |\r\n| 21 | `standards_interoperability` | **Research Artifacts for Reuse** | *Can others load and evaluate the model under clear terms?* |\r\n| 22 | `security_threat_model` | **Research Release Risks** | *What misuse or data exposure is plausible for a named artifact?* |\r\n| 23 | `maintenance_lifecycle` | **An AI Result Over Time** | *What happens when datasets, libraries, and hardware change?* |\r\n| 24 | `infrastructure_dependencies` | **Compute Behind the Claim** | *Which hardware, energy, datasets, and software made the experiment possible?* |\r\n| 25 | `accessibility_usability` | **Research Tools for Others** | *Can independent groups understand and rerun the method?* |\r\n| 26 | `independent_replication` | **Reproducing a Paper's Result** | *Can another team obtain a comparable score?* |\r\n| 27 | `responsible_deployment` | **Research to Use** | *Which risks need study before a lab result reaches users?* |\r\n| 28 | `field_training_or_control_data` | **Training Data Provenance** | *Which sources, labels, and exclusions shaped a result?* |\r\n| 29 | `field_real_world_testing` | **Research Model in Context** | *Does performance hold on actual user tasks?* |\r\n| 30 | `field_human_oversight` | **Humans in the Evaluation Loop** | *Which judgments came from annotators or evaluators?* |\r\n| 31 | `field_failure_recovery` | **When a Research System Fails** | *How are invalid outputs identified and corrected?* |\r\n| 32 | `field_hardware_dependency` | **Hardware as Experimental Variable** | *Did accelerator, precision, or memory change results?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of AI Research: A Research Method Emerges**\r\n   - *Question:* Which dated experiment established a narrow AI technique?\r\n   - *Key Focus:* Read original method, baseline, and replication. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n2. **AI Research: A Benchmark Result Rechecked**\r\n   - *Question:* Does a celebrated score transfer to a useful task?\r\n   - *Key Focus:* Compare dataset, contamination risk, metric, and field test. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n3. **AI Research: Research Labor Behind a Model**\r\n   - *Question:* Who labels data, maintains infrastructure, and reproduces results?\r\n   - *Key Focus:* Credit contributors and examine conditions. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n4. **AI Research: From Question to AI Experiment**\r\n   - *Question:* How do hypothesis, data, baseline, model, and evaluation fit?\r\n   - *Key Focus:* Trace a published study without assuming its claim is true. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n5. **AI Research: Generalization Beyond a Test Set**\r\n   - *Question:* What evidence supports performance outside training conditions?\r\n   - *Key Focus:* Use independent split, shift, and uncertainty measures. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n### Tier 2: Methodological Deep Dives\r\n6. **AI Research: A Result That Would Not Replicate**\r\n   - *Question:* Which data, code, compute, or metric differences explain divergence?\r\n   - *Key Focus:* Compare public artifacts and unresolved gaps. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n7. **AI Research: A New Model Architecture**\r\n   - *Question:* Which capability improved under equal evaluation?\r\n   - *Key Focus:* Control data, compute, metric, and baseline. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n8. **AI Research: A Research Dispute**\r\n   - *Question:* How did teams argue over one claim or method?\r\n   - *Key Focus:* Read papers, critiques, responses, and replications. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n9. **AI Research: An AI Paper's Impact**\r\n   - *Question:* Which follow-up studies confirmed, limited, or rejected it?\r\n   - *Key Focus:* Build dated citation and replication trail. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n10. **AI Research: A Research Pipeline**\r\n   - *Question:* How are data, training, validation, and reporting connected?\r\n   - *Key Focus:* Follow a named experiment and versioned artifacts. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **AI Research: A Benchmark Becomes Obsolete**\r\n   - *Question:* Which saturation, leakage, or task mismatch changed its value?\r\n   - *Key Focus:* Compare original purpose with later use. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n12. **AI Research: A Capability Across Model Generations**\r\n   - *Question:* Did progress persist under matched tests?\r\n   - *Key Focus:* Control prompt, data access, tools, budget, and scoring. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n13. **AI Research: A Promised Research Direction**\r\n   - *Question:* What falsifiable test would support the proposal?\r\n   - *Key Focus:* State hypotheses, resource assumptions, and failure criteria. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n14. **AI Research: One Score Means General Intelligence?**\r\n   - *Question:* Which tasks and populations lie outside the benchmark?\r\n   - *Key Focus:* Inspect evaluation scope and uncertainty. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n15. **AI Research: A Claim from Preprint to Replication**\r\n   - *Question:* How did the evidence change through review and reuse?\r\n   - *Key Focus:* Follow dated versions and independent tests. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **AI Research: Model or Whole System?**\r\n   - *Question:* Which results depend on retrieval, tools, humans, or prompt design?\r\n   - *Key Focus:* Draw inference and evaluation boundaries. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n17. **AI Research: One Evaluated Example**\r\n   - *Question:* What input, context, output, and grading produced a score?\r\n   - *Key Focus:* Record protocol while protecting restricted test data. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n18. **AI Research: Scale Versus Data Quality**\r\n   - *Question:* Which investment improved the target outcome?\r\n   - *Key Focus:* Compare controlled experiments and costs. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n19. **AI Research: A Model's Systematic Error**\r\n   - *Question:* What conditions reveal a repeatable failure?\r\n   - *Key Focus:* Use benign, representative tests and report frequency. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n20. **AI Research: The Missing Evaluation Population**\r\n   - *Question:* Who or what was absent from the test?\r\n   - *Key Focus:* Inspect dataset construction and external validity. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 337 (AI Research)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of AI Research: A Research Method Emerges*\r\n- **Episode Slug:** `337_ai_research_deep_dive_the_architecture_of_ai_research_a_research_method_emerges`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/337_ai_research/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "6ff0531cdc01400841e2d2e1208bb0ec1f9860c434e9d4c9ea561032956b71d6",
+        "original_text": "# 337 AI Research -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 337 AI Research (Robotics_AI)  \r\n> **Storage Directory:** `topics/337_ai_research/`  \r\n> **Synchronized With:** `OUTPUT/337_ai_research/`, `REGISTRY/Niches/337_ai_research/`, and `337_AI_RESEARCH_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 337 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/337_ai_research](../../OUTPUT/337_ai_research) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of AI Research: A Research Method Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `ai_research_a_research_method_emerges` | A rigorous pedagogical investigation exploring a research method emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **AI Research: A Benchmark Result Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `ai_research_a_benchmark_result_rechecked` | A rigorous pedagogical investigation exploring a benchmark result rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **AI Research: Research Labor Behind a Model** | Tier 1: Foundational Frameworks | `hidden_stories` | `ai_research_research_labor_behind_a_model` | A rigorous pedagogical investigation exploring research labor behind a model through documented evidence. | `QUEUED` |\r\n| 4 | **AI Research: From Question to AI Experiment** | Tier 1: Foundational Frameworks | `beginner_explainers` | `ai_research_from_question_to_ai_experiment` | A rigorous pedagogical investigation exploring from question to ai experiment through documented evidence. | `QUEUED` |\r\n| 5 | **AI Research: Generalization Beyond a Test Set** | Tier 1: Foundational Frameworks | `advanced_concepts` | `ai_research_generalization_beyond_a_test_set` | A rigorous pedagogical investigation exploring generalization beyond a test set through documented evidence. | `QUEUED` |\r\n| 6 | **AI Research: A Result That Would Not Replicate** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `ai_research_a_result_that_would_not_replicate` | A rigorous pedagogical investigation exploring a result that would not replicate through documented evidence. | `QUEUED` |\r\n| 7 | **AI Research: A New Model Architecture** | Tier 2: Methodological Deep Dives | `technology_innovation` | `ai_research_a_new_model_architecture` | A rigorous pedagogical investigation exploring a new model architecture through documented evidence. | `QUEUED` |\r\n| 8 | **AI Research: A Research Dispute** | Tier 2: Methodological Deep Dives | `people_personalities` | `ai_research_a_research_dispute` | A rigorous pedagogical investigation exploring a research dispute through documented evidence. | `QUEUED` |\r\n| 9 | **AI Research: An AI Paper's Impact** | Tier 2: Methodological Deep Dives | `major_events` | `ai_research_an_ai_paper_s_impact` | A rigorous pedagogical investigation exploring an ai paper's impact through documented evidence. | `QUEUED` |\r\n| 10 | **AI Research: A Research Pipeline** | Tier 2: Methodological Deep Dives | `how_it_works` | `ai_research_a_research_pipeline` | A rigorous pedagogical investigation exploring a research pipeline through documented evidence. | `QUEUED` |\r\n| 11 | **AI Research: A Benchmark Becomes Obsolete** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `ai_research_a_benchmark_becomes_obsolete` | A rigorous pedagogical investigation exploring a benchmark becomes obsolete through documented evidence. | `QUEUED` |\r\n| 12 | **AI Research: A Capability Across Model Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `ai_research_a_capability_across_model_generations` | A rigorous pedagogical investigation exploring a capability across model generations through documented evidence. | `QUEUED` |\r\n| 13 | **AI Research: A Promised Research Direction** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `ai_research_a_promised_research_direction` | A rigorous pedagogical investigation exploring a promised research direction through documented evidence. | `QUEUED` |\r\n| 14 | **AI Research: One Score Means General Intelligence?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `ai_research_one_score_means_general_intelligence` | A rigorous pedagogical investigation exploring one score means general intelligence? through documented evidence. | `QUEUED` |\r\n| 15 | **AI Research: A Claim from Preprint to Replication** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `ai_research_a_claim_from_preprint_to_replication` | A rigorous pedagogical investigation exploring a claim from preprint to replication through documented evidence. | `QUEUED` |\r\n| 16 | **AI Research: Model or Whole System?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `ai_research_model_or_whole_system` | A rigorous pedagogical investigation exploring model or whole system? through documented evidence. | `QUEUED` |\r\n| 17 | **AI Research: One Evaluated Example** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `ai_research_one_evaluated_example` | A rigorous pedagogical investigation exploring one evaluated example through documented evidence. | `QUEUED` |\r\n| 18 | **AI Research: Scale Versus Data Quality** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `ai_research_scale_versus_data_quality` | A rigorous pedagogical investigation exploring scale versus data quality through documented evidence. | `QUEUED` |\r\n| 19 | **AI Research: A Model's Systematic Error** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `ai_research_a_model_s_systematic_error` | A rigorous pedagogical investigation exploring a model's systematic error through documented evidence. | `QUEUED` |\r\n| 20 | **AI Research: The Missing Evaluation Population** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `ai_research_the_missing_evaluation_population` | A rigorous pedagogical investigation exploring the missing evaluation population through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **AI Research: Record Extremes & Superlatives** | **98** | `extreme_case` | `ai_research_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **AI Research: A Result That Would Not Replicate** | **96** | `mysteries_unsolved_cases` | `ai_research_mysteries_unsolved_cases` | High viral search interest exploring which data, code, compute, or metric differences explain divergence backed by field records. | `Queued` |\r\n| 23 | **AI Research: A New Model Architecture** | **95** | `technology_innovation` | `ai_research_technology_innovation` | High viral search interest exploring which capability improved under equal evaluation backed by field records. | `Queued` |\r\n| 24 | **AI Research: One Score Means General Intelligence?** | **94** | `myths_vs_facts` | `ai_research_myths_vs_facts` | High viral search interest exploring which tasks and populations lie outside the benchmark backed by field records. | `Queued` |\r\n| 25 | **AI Research: An AI Paper's Impact** | **93** | `major_events` | `ai_research_major_events` | High viral search interest exploring which follow-up studies confirmed, limited, or rejected it backed by field records. | `Queued` |\r\n| 26 | **AI Research: Research Labor Behind a Model** | **92** | `hidden_stories` | `ai_research_hidden_stories` | High viral search interest exploring who labels data, maintains infrastructure, and reproduces results backed by field records. | `Queued` |\r\n| 27 | **AI Research: A Claim from Preprint to Replication** | **91** | `documentary_stories` | `ai_research_documentary_stories` | High viral search interest exploring how did the evidence change through review and reuse backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/337_ai_research/337_AI_RESEARCH_CHANNEL_TOPIC_ROADMAP.md`](./337_AI_RESEARCH_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/337_ai_research/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/337_ai_research/NICHE_337_ai_research.md`](file:///h:/script-raw-/REGISTRY/Niches/337_ai_research/NICHE_337_ai_research.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/337_ai_research/CAT_337_ai_research.md`](file:///h:/script-raw-/REGISTRY/Niches/337_ai_research/CAT_337_ai_research.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/337_ai_research/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/337_ai_research/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/337_ai_research/`](file:///h:/script-raw-/OUTPUT/337_ai_research/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "46e846007c38263217bbc8e4180d898c13242a84efee2d5fde5558674bd52752",
+        "original_text": "{\r\n  \"niche_id\": \"337\",\r\n  \"niche_name\": \"ai_research\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of AI Research: A Research Method Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"ai_research_a_research_method_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a research method emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"AI Research: A Benchmark Result Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"ai_research_a_benchmark_result_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a benchmark result rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"AI Research: Research Labor Behind a Model\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ai_research_research_labor_behind_a_model\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring research labor behind a model through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"AI Research: From Question to AI Experiment\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"ai_research_from_question_to_ai_experiment\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from question to ai experiment through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"AI Research: Generalization Beyond a Test Set\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"ai_research_generalization_beyond_a_test_set\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring generalization beyond a test set through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"AI Research: A Result That Would Not Replicate\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ai_research_a_result_that_would_not_replicate\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a result that would not replicate through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"AI Research: A New Model Architecture\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ai_research_a_new_model_architecture\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new model architecture through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"AI Research: A Research Dispute\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"ai_research_a_research_dispute\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a research dispute through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"AI Research: An AI Paper's Impact\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ai_research_an_ai_paper_s_impact\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an ai paper's impact through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"AI Research: A Research Pipeline\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"ai_research_a_research_pipeline\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a research pipeline through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"AI Research: A Benchmark Becomes Obsolete\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"ai_research_a_benchmark_becomes_obsolete\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a benchmark becomes obsolete through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"AI Research: A Capability Across Model Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"ai_research_a_capability_across_model_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a capability across model generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"AI Research: A Promised Research Direction\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"ai_research_a_promised_research_direction\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a promised research direction through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"AI Research: One Score Means General Intelligence?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ai_research_one_score_means_general_intelligence\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one score means general intelligence? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"AI Research: A Claim from Preprint to Replication\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ai_research_a_claim_from_preprint_to_replication\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a claim from preprint to replication through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"AI Research: Model or Whole System?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"ai_research_model_or_whole_system\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring model or whole system? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"AI Research: One Evaluated Example\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"ai_research_one_evaluated_example\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one evaluated example through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"AI Research: Scale Versus Data Quality\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"ai_research_scale_versus_data_quality\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring scale versus data quality through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"AI Research: A Model's Systematic Error\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"ai_research_a_model_s_systematic_error\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a model's systematic error through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"AI Research: The Missing Evaluation Population\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"ai_research_the_missing_evaluation_population\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the missing evaluation population through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"AI Research: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"ai_research_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"AI Research: A Result That Would Not Replicate\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ai_research_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which data, code, compute, or metric differences explain divergence backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"AI Research: A New Model Architecture\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ai_research_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring which capability improved under equal evaluation backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"AI Research: One Score Means General Intelligence?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ai_research_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which tasks and populations lie outside the benchmark backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"AI Research: An AI Paper's Impact\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ai_research_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring which follow-up studies confirmed, limited, or rejected it backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"AI Research: Research Labor Behind a Model\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ai_research_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who labels data, maintains infrastructure, and reproduces results backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"AI Research: A Claim from Preprint to Replication\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ai_research_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did the evidence change through review and reuse backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "337",
+      "niche_name": "ai_research",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of AI Research: A Research Method Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "ai_research_a_research_method_emerges",
+          "reason": "A rigorous pedagogical investigation exploring a research method emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "AI Research: A Benchmark Result Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "ai_research_a_benchmark_result_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a benchmark result rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "AI Research: Research Labor Behind a Model",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "ai_research_research_labor_behind_a_model",
+          "reason": "A rigorous pedagogical investigation exploring research labor behind a model through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "AI Research: From Question to AI Experiment",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "ai_research_from_question_to_ai_experiment",
+          "reason": "A rigorous pedagogical investigation exploring from question to ai experiment through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "AI Research: Generalization Beyond a Test Set",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "ai_research_generalization_beyond_a_test_set",
+          "reason": "A rigorous pedagogical investigation exploring generalization beyond a test set through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "AI Research: A Result That Would Not Replicate",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ai_research_a_result_that_would_not_replicate",
+          "reason": "A rigorous pedagogical investigation exploring a result that would not replicate through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "AI Research: A New Model Architecture",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "ai_research_a_new_model_architecture",
+          "reason": "A rigorous pedagogical investigation exploring a new model architecture through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "AI Research: A Research Dispute",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "ai_research_a_research_dispute",
+          "reason": "A rigorous pedagogical investigation exploring a research dispute through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "AI Research: An AI Paper's Impact",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "ai_research_an_ai_paper_s_impact",
+          "reason": "A rigorous pedagogical investigation exploring an ai paper's impact through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "AI Research: A Research Pipeline",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "ai_research_a_research_pipeline",
+          "reason": "A rigorous pedagogical investigation exploring a research pipeline through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "AI Research: A Benchmark Becomes Obsolete",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "ai_research_a_benchmark_becomes_obsolete",
+          "reason": "A rigorous pedagogical investigation exploring a benchmark becomes obsolete through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "AI Research: A Capability Across Model Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "ai_research_a_capability_across_model_generations",
+          "reason": "A rigorous pedagogical investigation exploring a capability across model generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "AI Research: A Promised Research Direction",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "ai_research_a_promised_research_direction",
+          "reason": "A rigorous pedagogical investigation exploring a promised research direction through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "AI Research: One Score Means General Intelligence?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "ai_research_one_score_means_general_intelligence",
+          "reason": "A rigorous pedagogical investigation exploring one score means general intelligence? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "AI Research: A Claim from Preprint to Replication",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "ai_research_a_claim_from_preprint_to_replication",
+          "reason": "A rigorous pedagogical investigation exploring a claim from preprint to replication through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "AI Research: Model or Whole System?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "ai_research_model_or_whole_system",
+          "reason": "A rigorous pedagogical investigation exploring model or whole system? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "AI Research: One Evaluated Example",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "ai_research_one_evaluated_example",
+          "reason": "A rigorous pedagogical investigation exploring one evaluated example through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "AI Research: Scale Versus Data Quality",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "ai_research_scale_versus_data_quality",
+          "reason": "A rigorous pedagogical investigation exploring scale versus data quality through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "AI Research: A Model's Systematic Error",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "ai_research_a_model_s_systematic_error",
+          "reason": "A rigorous pedagogical investigation exploring a model's systematic error through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "AI Research: The Missing Evaluation Population",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "ai_research_the_missing_evaluation_population",
+          "reason": "A rigorous pedagogical investigation exploring the missing evaluation population through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "AI Research: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "ai_research_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "AI Research: A Result That Would Not Replicate",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ai_research_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which data, code, compute, or metric differences explain divergence backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "AI Research: A New Model Architecture",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "ai_research_technology_innovation",
+          "why_trending": "High viral search interest exploring which capability improved under equal evaluation backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "AI Research: One Score Means General Intelligence?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "ai_research_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which tasks and populations lie outside the benchmark backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "AI Research: An AI Paper's Impact",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "ai_research_major_events",
+          "why_trending": "High viral search interest exploring which follow-up studies confirmed, limited, or rejected it backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "AI Research: Research Labor Behind a Model",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "ai_research_hidden_stories",
+          "why_trending": "High viral search interest exploring who labels data, maintains infrastructure, and reproduces results backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "AI Research: A Claim from Preprint to Replication",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "ai_research_documentary_stories",
+          "why_trending": "High viral search interest exploring how did the evidence change through review and reuse backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "7ddeb252aad2908b68220fad0dcc497037704665b3234daa3072091b83ffcfd0"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "d018007dce162cee29796f7bd3cb97475037a7e6978c58fa676b2529a5cc8fdb"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "a20e1e66a43cd24c030062cbea1660fb2ce0ed6ece33ec5ccd0ea8343c3309cb"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "42b9be9e94b98cfebf8d7104be6c6f45ac51a62fb106a29509af39999569b37b"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "d3e852e60fc395177e9814bd89c8d51933bfc36365b2e7902ebff41a03cd850b"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-337-01",
+      "title": "Methods",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-02",
+      "title": "Experiments",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-03",
+      "title": "Evaluation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-04",
+      "title": "Reproducibility",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-05",
+      "title": "Learning",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-06",
+      "title": "Interpretability",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-07",
+      "title": "Objectives",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-337-08",
+      "title": "Efficiency",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "337",
+    "slug": "ai_research",
+    "name": "AI Research",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a AI Research YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-337-01",
+        "title": "Learning methods",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-337-001",
+            "title": "Self-supervised objectives",
+            "question": "Self-supervised objectives: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Learning methods. Address Self-supervised objectives through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Self-supervised objectives precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-002",
+            "title": "Reinforcement learning evaluation",
+            "question": "Reinforcement learning evaluation: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Learning methods. Address Reinforcement learning evaluation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Reinforcement learning evaluation precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-003",
+            "title": "Generative model likelihood",
+            "question": "Generative model likelihood: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Learning methods. Address Generative model likelihood through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Generative model likelihood precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-337-02",
+        "title": "Research design",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-337-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-337-004",
+            "title": "Ablation studies",
+            "question": "Ablation studies: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Research design. Address Ablation studies through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Ablation studies precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-005",
+            "title": "Reproducibility of training runs",
+            "question": "Reproducibility of training runs: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Research design. Address Reproducibility of training runs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Reproducibility of training runs precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-006",
+            "title": "Compute-normalized comparisons",
+            "question": "Compute-normalized comparisons: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Research design. Address Compute-normalized comparisons through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Compute-normalized comparisons precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-337-03",
+        "title": "Limits",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-337-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-337-007",
+            "title": "Data contamination",
+            "question": "Data contamination: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Limits. Address Data contamination through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Data contamination precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-008",
+            "title": "Robustness under distribution shift",
+            "question": "Robustness under distribution shift: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Limits. Address Robustness under distribution shift through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Robustness under distribution shift precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-337-009",
+            "title": "Interpretability versus explanation plausibility",
+            "question": "Interpretability versus explanation plausibility: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: AI Research; branch: Limits. Address Interpretability versus explanation plausibility through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Interpretability versus explanation plausibility precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "007",
+        "title": "AI Tools / AI Tutorials",
+        "directory": "007_ai_tools_ai_tutorials",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of AI Research: A Research Method Emerges",
+      "question": "Which dated experiment established a narrow AI technique?",
+      "coverage": "Read original method, baseline, and replication. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Benchmark Result Rechecked",
+      "question": "Does a celebrated score transfer to a useful task?",
+      "coverage": "Compare dataset, contamination risk, metric, and field test. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: Research Labor Behind a Model",
+      "question": "Who labels data, maintains infrastructure, and reproduces results?",
+      "coverage": "Credit contributors and examine conditions. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: From Question to AI Experiment",
+      "question": "How do hypothesis, data, baseline, model, and evaluation fit?",
+      "coverage": "Trace a published study without assuming its claim is true. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: Generalization Beyond a Test Set",
+      "question": "What evidence supports performance outside training conditions?",
+      "coverage": "Use independent split, shift, and uncertainty measures. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Result That Would Not Replicate",
+      "question": "Which data, code, compute, or metric differences explain divergence?",
+      "coverage": "Compare public artifacts and unresolved gaps. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A New Model Architecture",
+      "question": "Which capability improved under equal evaluation?",
+      "coverage": "Control data, compute, metric, and baseline. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Research Dispute",
+      "question": "How did teams argue over one claim or method?",
+      "coverage": "Read papers, critiques, responses, and replications. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: An AI Paper's Impact",
+      "question": "Which follow-up studies confirmed, limited, or rejected it?",
+      "coverage": "Build dated citation and replication trail. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Research Pipeline",
+      "question": "How are data, training, validation, and reporting connected?",
+      "coverage": "Follow a named experiment and versioned artifacts. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Benchmark Becomes Obsolete",
+      "question": "Which saturation, leakage, or task mismatch changed its value?",
+      "coverage": "Compare original purpose with later use. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Capability Across Model Generations",
+      "question": "Did progress persist under matched tests?",
+      "coverage": "Control prompt, data access, tools, budget, and scoring. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Promised Research Direction",
+      "question": "What falsifiable test would support the proposal?",
+      "coverage": "State hypotheses, resource assumptions, and failure criteria. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: One Score Means General Intelligence?",
+      "question": "Which tasks and populations lie outside the benchmark?",
+      "coverage": "Inspect evaluation scope and uncertainty. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Claim from Preprint to Replication",
+      "question": "How did the evidence change through review and reuse?",
+      "coverage": "Follow dated versions and independent tests. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: Model or Whole System?",
+      "question": "Which results depend on retrieval, tools, humans, or prompt design?",
+      "coverage": "Draw inference and evaluation boundaries. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: One Evaluated Example",
+      "question": "What input, context, output, and grading produced a score?",
+      "coverage": "Record protocol while protecting restricted test data. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: Scale Versus Data Quality",
+      "question": "Which investment improved the target outcome?",
+      "coverage": "Compare controlled experiments and costs. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: A Model's Systematic Error",
+      "question": "What conditions reveal a repeatable failure?",
+      "coverage": "Use benign, representative tests and report frequency. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "AI Research: The Missing Evaluation Population",
+      "question": "Who or what was absent from the test?",
+      "coverage": "Inspect dataset construction and external validity. Evidence base: original papers and revisions, released code and datasets, independent replication, NIST evaluation guidance, and controlled task results.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-337-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "d0c76be02e0d7d0dac8464c4cc3c3599591f2cc6a87e00b57b6fe73a4b87aafe",
+    "TOPIC_BANK_RECONCILIATION.md": "8f15c74486c4774eb928f8b2aa5a7da217726ec558ac6f177e6004c026248011",
+    "TOPICS_COVERED_REPORT.md": "e3989f65d286fe532b9268a2bbf92b25197c59b52942116fc3824840c898ac59",
+    "337_AI_RESEARCH_CHANNEL_TOPIC_ROADMAP.md": "31c7ce21e26f7b2d030509cc8a92662e18877f0884cfa304ab3d2bec9a85e74d"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-337-004": [
+      "BANK-337-031"
+    ],
+    "BANK-337-007": [
+      "BANK-337-032"
+    ],
+    "BANK-337-005": [
+      "BANK-337-033"
+    ],
+    "BANK-337-001": [
+      "BANK-337-034"
+    ],
+    "BANK-337-009": [
+      "BANK-337-035"
+    ],
+    "BANK-337-008": [
+      "BANK-337-036"
+    ],
+    "BANK-337-003": [
+      "BANK-337-037"
+    ],
+    "BANK-337-002": [
+      "BANK-337-038"
+    ],
+    "BANK-337-006": [
+      "BANK-337-039"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 1 (The Architecture of AI Research: A Research Method Emerges) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 2 (AI Research: A Benchmark Result Rechecked) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-039"
+      ],
+      "reason": "Existing question covers archived pitch 3 (AI Research: Research Labor Behind a Model) through: Why do AI research comparisons need matched compute budgets as well as matched datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-031"
+      ],
+      "reason": "Existing question covers archived pitch 4 (AI Research: From Question to AI Experiment) through: How can an ablation study reveal which part of an AI system mattered? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 5 (AI Research: Generalization Beyond a Test Set) through: How did the 2021 WILDS benchmark make distribution shifts visible across its selected datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-032"
+      ],
+      "reason": "Existing question covers archived pitch 6 (AI Research: A Result That Would Not Replicate) through: Why can training-data overlap inflate an AI model's apparent ability? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 7 (AI Research: A New Model Architecture) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-039"
+      ],
+      "reason": "Existing question covers archived pitch 8 (AI Research: A Research Dispute) through: Why do AI research comparisons need matched compute budgets as well as matched datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 9 (AI Research: An AI Paper's Impact) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-031"
+      ],
+      "reason": "Existing question covers archived pitch 10 (AI Research: A Research Pipeline) through: How can an ablation study reveal which part of an AI system mattered? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-040"
+      ],
+      "reason": "Existing question covers archived pitch 11 (AI Research: A Benchmark Becomes Obsolete) through: When should an AI benchmark be revised or retired after repeated public use? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 12 (AI Research: A Capability Across Model Generations) through: How did the 2021 WILDS benchmark make distribution shifts visible across its selected datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 13 (AI Research: A Promised Research Direction) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 14 (AI Research: One Score Means General Intelligence?) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-032"
+      ],
+      "reason": "Existing question covers archived pitch 15 (AI Research: A Claim from Preprint to Replication) through: Why can training-data overlap inflate an AI model's apparent ability? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 16 (AI Research: Model or Whole System?) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 17 (AI Research: One Evaluated Example) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-039"
+      ],
+      "reason": "Existing question covers archived pitch 18 (AI Research: Scale Versus Data Quality) through: Why do AI research comparisons need matched compute budgets as well as matched datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-036"
+      ],
+      "reason": "Existing question covers archived pitch 19 (AI Research: A Model's Systematic Error) through: Why can an AI system's accuracy collapse when the test environment changes slightly? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 20 (AI Research: The Missing Evaluation Population) through: How did the 2021 WILDS benchmark make distribution shifts visible across its selected datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 21 (AI Research: Record Extremes & Superlatives) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-032"
+      ],
+      "reason": "Existing question covers archived pitch 22 (AI Research: A Result That Would Not Replicate) through: Why can training-data overlap inflate an AI model's apparent ability? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 23 (AI Research: A New Model Architecture) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-030"
+      ],
+      "reason": "Existing question covers archived pitch 24 (AI Research: One Score Means General Intelligence?) through: What separates an AI research benchmark result from a general intelligence claim? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-337-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 25 (AI Research: An AI Paper's Impact) through: What did the 2012 AlexNet ImageNet paper actually establish about a deep convolutional model? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-039"
+      ],
+      "reason": "Existing question covers archived pitch 26 (AI Research: Research Labor Behind a Model) through: Why do AI research comparisons need matched compute budgets as well as matched datasets? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-337-032"
+      ],
+      "reason": "Existing question covers archived pitch 27 (AI Research: A Claim from Preprint to Replication) through: Why can training-data overlap inflate an AI model's apparent ability? Original wording is retained in topics_status.json; it does not establish a superlative or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-337-041",
+      "note_file": "337_AI_RESEARCH_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-337-042",
+      "note_file": "337_AI_RESEARCH_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-337-041",
+      "related_id": "BANK-337-030",
+      "boundary": "Named 2012 image-classification result versus general intelligence claims from benchmarks."
+    },
+    {
+      "topic_id": "BANK-337-041",
+      "related_id": "BANK-001-157",
+      "boundary": "Research result and evaluation versus technical explanation of Transformer self-attention."
+    },
+    {
+      "topic_id": "BANK-337-042",
+      "related_id": "BANK-337-036",
+      "boundary": "A named 2021 shift benchmark versus the general phenomenon of model accuracy under environment change."
+    },
+    {
+      "topic_id": "BANK-337-042",
+      "related_id": "BANK-336-036",
+      "boundary": "General multi-domain benchmark design versus pathology images across hospitals specifically."
+    }
+  ]
+}

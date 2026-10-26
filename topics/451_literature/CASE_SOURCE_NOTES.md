@@ -1,0 +1,5 @@
+# Case-source note: Whitman’s Leaves of Grass
+
+Checked 2026-10-24. The Library of Congress [digitized 1855 Leaves of Grass](https://www.loc.gov/item/03023679/) supplies a first-edition copy. Its [Revising Himself: Leaves of Grass exhibit](https://www.loc.gov/exhibits/whitman/leavesofgrass.html) identifies the surviving manuscript leaf associated with that first edition and displays an edition sequence through 1891–92; it notes revisions to the lines later in “Song of Myself.” The LOC [Feinberg collection description](https://www.loc.gov/collections/feinberg-whitman/about-this-collection/) locates manuscript and printed versions.
+
+Limit: The exhibit curates selected items; it is not a full textual collation. The visible leaf and digital copy cannot by themselves establish every intermediate revision, motive, reader response or an uncontested “final” text. Compare specific lines and bibliographic states before asserting a change. LOC rights text requires checking reuse of images separately.

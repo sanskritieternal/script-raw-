@@ -1,0 +1,1543 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "339",
+  "slug": "generative_art",
+  "name": "Generative Art",
+  "primary_category": "Visual_Arts_Crafts",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Generative Art YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 9
+  },
+  "categories": [
+    {
+      "id": "CATALOG-339-R01",
+      "title": "Image generation",
+      "level": "foundation",
+      "parent_id": "DOMAIN-339-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "88389d1b2d5e13d91f254f466b230f24725b2b427064c6fe728ad5369dbab027",
+      "topics": [
+        {
+          "question": "How does a text prompt become a generated image?",
+          "coverage": "Explain conditioning, latent representations and iterative generation conceptually; distinguish model families rather than asserting one universal pipeline.",
+          "id": "BANK-339-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R02",
+      "title": "References",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-339-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3c442a9b5dd4f3afb6780cfe15cfcbbaa4dad00b8ec5038edcebd867d5444f60",
+      "topics": [
+        {
+          "question": "Why can a generated image follow a style reference while changing its composition?",
+          "coverage": "Compare conditioning signals, content constraints, variation and evaluation without promising deterministic results.",
+          "id": "BANK-339-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-002",
+            "BANK-339-003",
+            "BANK-339-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R03",
+      "title": "Training and outputs",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-339-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5adc0d9996e15faa119b2b16fcde654ba2a22c410acb8d47d5dc113b5b4184d4",
+      "topics": [
+        {
+          "question": "Why are training-data rights and rights to a generated artwork separate questions?",
+          "coverage": "Distinguish input permissions, output similarity, authorship and jurisdiction; reserve legal conclusions for primary research.",
+          "id": "BANK-339-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R04",
+      "title": "Artistic process",
+      "level": "advanced",
+      "parent_id": "DOMAIN-339-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "24085eed191e3982ecb069e06c359e6f8d451879864bb576fbe95ece73cfbe0b",
+      "topics": [
+        {
+          "question": "How can an artist document meaningful decisions in a generative-art workflow?",
+          "coverage": "Trace selection, iteration, editing, provenance and presentation rather than equating prompt length with authorship.",
+          "id": "BANK-339-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-004"
+          ]
+        },
+        {
+          "question": "How did Refik Anadol's Unsupervised turn MoMA collection data into a live artwork?",
+          "coverage": "Use the museum exhibition and artist account to trace the disclosed collection-data source, custom software, real-time animation and studio collaborators; distinguish curatorial and artist descriptions from an audit of training data, model internals or legal rights.",
+          "id": "BANK-339-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R05",
+      "title": "Generated textures",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-339-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bbb26d4c05734b8484e3f4415d7d2a730c9976b35e44a5d2aa15a1de11dabd50",
+      "topics": [
+        {
+          "question": "Why does an attractive generated texture need additional work before use on a 3D model?",
+          "coverage": "Compare tiling, seams, scale, UV mapping, lighting and material channels.",
+          "id": "BANK-339-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R06",
+      "title": "Edits",
+      "level": "advanced",
+      "parent_id": "DOMAIN-339-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "17366880ccd7185fe5aac3773e2ea7c71e11f9e3609d229ae239869d143fec7a",
+      "topics": [
+        {
+          "question": "How can an artist preserve the history of edits made to a generated image?",
+          "coverage": "Trace references, prompts, masks, versions, manual changes and permissions; distinguish provenance records from factual authenticity.",
+          "id": "BANK-339-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-339-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R07",
+      "title": "Attribution",
+      "level": "advanced",
+      "parent_id": "DOMAIN-339-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9062064f4340e385249a64abf4f8447a3b41e675c078b6705513051fe2da7ec8",
+      "topics": [
+        {
+          "question": "How should a generative-art project credit references, collaborators and human editing?",
+          "coverage": "Compare named contributions, permissions, source records, disclosure and uncertainty; distinguish credit from a legal authorship ruling.",
+          "covers_starter_ids": [
+            "BANK-339-008"
+          ],
+          "id": "BANK-339-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-339-R08",
+      "title": "Local edit constraints",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-339-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "60fe227d52a70ecec35c5c45b10e1f0d463d5a3f9af869745db0e9b809008a9a",
+      "topics": [
+        {
+          "question": "Why can editing one region of a generated artwork alter its lighting or visual hierarchy elsewhere?",
+          "coverage": "Compare masks, context, shadows, composition and iterative review with an original cleared image; distinguish localized control from simply producing more variants.",
+          "id": "BANK-339-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "079",
+      "title": "Creative Arts",
+      "directory": "079_creative_arts",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "095",
+      "title": "Handicrafts & Traditional Skills",
+      "directory": "095_handicrafts_traditional_skills",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "126",
+      "title": "Photography",
+      "directory": "126_photography",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "127",
+      "title": "Visual Effects",
+      "directory": "127_visual_effects",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "128",
+      "title": "Virtual Reality / AR",
+      "directory": "128_virtual_reality_ar",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "258",
+      "title": "Traditional Painting",
+      "directory": "258_traditional_painting",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/339_generative_art/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "26c3115694ab9291da315220e1112a9496c1263c95693dbb5e247ca2a9f776d3",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-339-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c3481553dfb7cd374de8ffdf5c69d7e57ef4cb96005fe21810e56f65da031251"
+      },
+      "BANK-339-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b758a8882fb28f36c327012a6a2e3db599f10d55f13dde383deee27af7f3af07"
+      },
+      "BANK-339-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9727e7dad87a54e78c3e8c72c2a3fdc33ef41c9ce331a298aab9d3497606aeed"
+      },
+      "BANK-339-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4a9f5b8bd24abd18d270f0726bd07e5e0995552ecdb3c5ae51f6bbbb1546f1a0"
+      },
+      "BANK-339-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ad638e37c5f3cb936d7a5451c30fecdb8b38ace39e468d5fb0117649fbdd8935"
+      },
+      "BANK-339-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c1c1f2f65a6bcb18ed135c892466e1982904914683463a661a0e7c49970f6d19"
+      },
+      "BANK-339-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9c0d189fa34c48cb35497005dd2e1f2d1d20a3c8c53796bf9c674056b7d5f527"
+      },
+      "BANK-339-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a71c2642a5f573213c314ec35ab846c7131d9b69ae585595849aa57bc46a07a4"
+      },
+      "BANK-339-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "39676521c546db307d2692f11f78742e6c94cf271ad4aa4d62433404097c4cff"
+      }
+    },
+    "source_categories": {
+      "CATALOG-339-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "f364fab495dd046b850c9b9848e114dad23e6a61cf60e32b4bacec4ca65c8537"
+      },
+      "CATALOG-339-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "7a88a0fa76f09641acee0ffb4ebfa7a592a297725ca2a25d689af9656c4d09dc"
+      },
+      "CATALOG-339-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "0232b27d62f6559baa9da3a04186226138ac7bd096968dd48c61ffe17146a114"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "339_GENERATIVE_ART_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "eb2b53bc3af41361a79992cd0b919ca82c5125592711de7f4eaf8e6749f2a9e6",
+        "original_text": "# Generative Art Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 339 Generative Art (Visual_Arts_Crafts)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Generative Art Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/339_generative_art/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Generative Art across four progressive tiers:\r\n- **Tier 1: Generative Art Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Generative Art.\r\n- **Tier 2: Generative Art Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Generative Art.\r\n- **Tier 3: Generative Art Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Generative Art.\r\n- **Tier 4: Generative Art Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Generative Art.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/339_generative_art/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/339_generative_art/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **Generative Art Before Current AI** | *Which rule-based or computational practice shaped a later work?* |\r\n| 2 | `famous_examples` | **A Celebrated Generated Image Revisited** | *Which creative choices did people make and which were automated?* |\r\n| 3 | `hidden_stories` | **Labor Behind a Generated Image** | *Who supplied source work, labels, software, and curatorial decisions?* |\r\n| 4 | `beginner_explainers` | **From Brief to Image** | *How do a model and artist produce a finished visual work?* |\r\n| 5 | `advanced_concepts` | **Control Over Expressive Elements** | *How does an artist shape composition beyond an initial prompt?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Image's Unclear Provenance** | *Which records show how a generated image was made?* |\r\n| 7 | `technology_innovation` | **A New Visual Generation Tool** | *What task became possible or easier for a creator?* |\r\n| 8 | `people_personalities` | **An Artist's Process** | *How does a named creator describe and document their choices?* |\r\n| 9 | `major_events` | **A Generative-Art Exhibition** | *How were works selected, labeled, and received?* |\r\n| 10 | `how_it_works` | **Image Model in an Art Workflow** | *How do source inputs, generation, human selection, and finishing connect?* |\r\n| 11 | `rise_fall` | **A Generative Art Trend Reassessed** | *What changed in tools, institutions, and artist practice?* |\r\n| 12 | `then_vs_now` | **One Visual Brief Across Tools** | *How did control, output, and labor change?* |\r\n| 13 | `future_developments` | **A Proposed Creative Tool** | *What would make it useful and fair to working artists?* |\r\n| 14 | `myths_vs_facts` | **One Prompt Equals Full Authorship?** | *Which expressive decisions occurred before and after generation?* |\r\n| 15 | `documentary_stories` | **Making One Generative Work** | *What happened from idea to exhibition or publication?* |\r\n| 16 | `creative_brief` | **A Visual Problem for a Creator** | *What was the intended message, audience, and constraint?* |\r\n| 17 | `materials_and_tools` | **Models as Art Materials** | *Which model, dataset, editing tools, and physical media were used?* |\r\n| 18 | `process_breakdown` | **Iterations to Final Image** | *Which candidates were rejected and why?* |\r\n| 19 | `composition_choice` | **Composition Under Human Control** | *How were framing, color, texture, and emphasis chosen?* |\r\n| 20 | `collaborative_authorship` | **Many Hands in One Image** | *How should contributors and source creators be credited?* |\r\n| 21 | `adaptation_across_media` | **Image into Print or Installation** | *What changes when a generated file becomes a physical work?* |\r\n| 22 | `audience_reception` | **How Viewers Read the Work** | *Does disclosure affect interpretation?* |\r\n| 23 | `cultural_context` | **Style and Cultural References** | *Which traditions does a generated work draw on?* |\r\n| 24 | `preservation_restoration` | **Preserving a Generative Work** | *What must be saved to recreate or study it?* |\r\n| 25 | `rights_and_attribution` | **Who May Use the Output?** | *Which rights and licenses cover inputs, contributors, and display?* |\r\n| 26 | `style_comparison` | **Two Images, Different Methods** | *What visual differences follow from distinct workflows?* |\r\n| 27 | `creative_failure` | **When an Image Misses the Brief** | *What did a failed iteration teach the artist?* |\r\n| 28 | `field_visual_composition` | **Visual Structure of a Generated Work** | *How do space, color, and focal points guide attention?* |\r\n| 29 | `field_material_provenance` | **Provenance of Digital and Physical Inputs** | *Which files, source works, and print materials have traceable origins?* |\r\n| 30 | `field_maker_technique` | **Artist Technique with a Model** | *Which prompts, edits, coding, or fabrication are intentional?* |\r\n| 31 | `field_conservation_problem` | **A Work Dependent on Software** | *What fails when model, format, or display becomes obsolete?* |\r\n| 32 | `field_audience_context` | **Work in Its Display Setting** | *How does venue, label, and audience shape meaning?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Generative Art: Before Current AI**\r\n   - *Question:* Which rule-based or computational practice shaped a later work?\r\n   - *Key Focus:* Use dated artwork, code, artist statements, and context. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n2. **Generative Art: A Celebrated Generated Image Revisited**\r\n   - *Question:* Which creative choices did people make and which were automated?\r\n   - *Key Focus:* Trace prompts, selection, edits, model, and display. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n3. **Generative Art: Labor Behind a Generated Image**\r\n   - *Question:* Who supplied source work, labels, software, and curatorial decisions?\r\n   - *Key Focus:* Credit documented contributors and rights holders. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n4. **Generative Art: From Brief to Image**\r\n   - *Question:* How do a model and artist produce a finished visual work?\r\n   - *Key Focus:* Explain input, generation, selection, editing, and output. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n5. **Generative Art: Control Over Expressive Elements**\r\n   - *Question:* How does an artist shape composition beyond an initial prompt?\r\n   - *Key Focus:* Compare iterations, edits, and final decisions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Generative Art: An Image's Unclear Provenance**\r\n   - *Question:* Which records show how a generated image was made?\r\n   - *Key Focus:* Check files, metadata, project notes, and gaps. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n7. **Generative Art: A New Visual Generation Tool**\r\n   - *Question:* What task became possible or easier for a creator?\r\n   - *Key Focus:* Compare quality, control, accessibility, and cost. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n8. **Generative Art: An Artist's Process**\r\n   - *Question:* How does a named creator describe and document their choices?\r\n   - *Key Focus:* Use interviews, drafts, and work records. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n9. **Generative Art: A Generative-Art Exhibition**\r\n   - *Question:* How were works selected, labeled, and received?\r\n   - *Key Focus:* Read dated catalog, wall text, and audience response. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n10. **Generative Art: Image Model in an Art Workflow**\r\n   - *Question:* How do source inputs, generation, human selection, and finishing connect?\r\n   - *Key Focus:* Trace one consented project. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Generative Art: A Generative Art Trend Reassessed**\r\n   - *Question:* What changed in tools, institutions, and artist practice?\r\n   - *Key Focus:* Compare works and records across a defined period. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n12. **Generative Art: One Visual Brief Across Tools**\r\n   - *Question:* How did control, output, and labor change?\r\n   - *Key Focus:* Use matched brief and transparent workflow. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n13. **Generative Art: A Proposed Creative Tool**\r\n   - *Question:* What would make it useful and fair to working artists?\r\n   - *Key Focus:* Test rights, control, costs, and accessibility. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n14. **Generative Art: One Prompt Equals Full Authorship?**\r\n   - *Question:* Which expressive decisions occurred before and after generation?\r\n   - *Key Focus:* Document actual workflow and jurisdiction-specific rules. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n15. **Generative Art: Making One Generative Work**\r\n   - *Question:* What happened from idea to exhibition or publication?\r\n   - *Key Focus:* Follow drafts, collaborators, rights, and audience. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Generative Art: A Visual Problem for a Creator**\r\n   - *Question:* What was the intended message, audience, and constraint?\r\n   - *Key Focus:* Read brief and compare finished work. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n17. **Generative Art: Models as Art Materials**\r\n   - *Question:* Which model, dataset, editing tools, and physical media were used?\r\n   - *Key Focus:* Document versions, sources, and permissions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n18. **Generative Art: Iterations to Final Image**\r\n   - *Question:* Which candidates were rejected and why?\r\n   - *Key Focus:* Examine consented process records and edits. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n19. **Generative Art: Composition Under Human Control**\r\n   - *Question:* How were framing, color, texture, and emphasis chosen?\r\n   - *Key Focus:* Compare generated variants and final decisions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n20. **Generative Art: Many Hands in One Image**\r\n   - *Question:* How should contributors and source creators be credited?\r\n   - *Key Focus:* Trace agreements and actual creative roles. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 339 (Generative Art)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Generative Art: Before Current AI*\r\n- **Episode Slug:** `339_generative_art_deep_dive_the_architecture_of_generative_art_before_current_ai`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/339_generative_art/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "0a04f83111bab74bceaf9efd332c6ef2ca26dca6835894c5615ca97eecead3f9",
+        "original_text": "# 339 Generative Art -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 339 Generative Art (Visual_Arts_Crafts)  \r\n> **Storage Directory:** `topics/339_generative_art/`  \r\n> **Synchronized With:** `OUTPUT/339_generative_art/`, `REGISTRY/Niches/339_generative_art/`, and `339_GENERATIVE_ART_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 339 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/339_generative_art](../../OUTPUT/339_generative_art) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Generative Art: Before Current AI** | Tier 1: Foundational Frameworks | `history_origins` | `generative_art_before_current_ai` | A rigorous pedagogical investigation exploring before current ai through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Generative Art: A Celebrated Generated Image Revisited** | Tier 1: Foundational Frameworks | `famous_examples` | `generative_art_a_celebrated_generated_image_revisited` | A rigorous pedagogical investigation exploring a celebrated generated image revisited through documented evidence. | `QUEUED` |\r\n| 3 | **Generative Art: Labor Behind a Generated Image** | Tier 1: Foundational Frameworks | `hidden_stories` | `generative_art_labor_behind_a_generated_image` | A rigorous pedagogical investigation exploring labor behind a generated image through documented evidence. | `QUEUED` |\r\n| 4 | **Generative Art: From Brief to Image** | Tier 1: Foundational Frameworks | `beginner_explainers` | `generative_art_from_brief_to_image` | A rigorous pedagogical investigation exploring from brief to image through documented evidence. | `QUEUED` |\r\n| 5 | **Generative Art: Control Over Expressive Elements** | Tier 1: Foundational Frameworks | `advanced_concepts` | `generative_art_control_over_expressive_elements` | A rigorous pedagogical investigation exploring control over expressive elements through documented evidence. | `QUEUED` |\r\n| 6 | **Generative Art: An Image's Unclear Provenance** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `generative_art_an_image_s_unclear_provenance` | A rigorous pedagogical investigation exploring an image's unclear provenance through documented evidence. | `QUEUED` |\r\n| 7 | **Generative Art: A New Visual Generation Tool** | Tier 2: Methodological Deep Dives | `technology_innovation` | `generative_art_a_new_visual_generation_tool` | A rigorous pedagogical investigation exploring a new visual generation tool through documented evidence. | `QUEUED` |\r\n| 8 | **Generative Art: An Artist's Process** | Tier 2: Methodological Deep Dives | `people_personalities` | `generative_art_an_artist_s_process` | A rigorous pedagogical investigation exploring an artist's process through documented evidence. | `QUEUED` |\r\n| 9 | **Generative Art: A Generative-Art Exhibition** | Tier 2: Methodological Deep Dives | `major_events` | `generative_art_a_generative_art_exhibition` | A rigorous pedagogical investigation exploring a generative-art exhibition through documented evidence. | `QUEUED` |\r\n| 10 | **Generative Art: Image Model in an Art Workflow** | Tier 2: Methodological Deep Dives | `how_it_works` | `generative_art_image_model_in_an_art_workflow` | A rigorous pedagogical investigation exploring image model in an art workflow through documented evidence. | `QUEUED` |\r\n| 11 | **Generative Art: A Generative Art Trend Reassessed** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `generative_art_a_generative_art_trend_reassessed` | A rigorous pedagogical investigation exploring a generative art trend reassessed through documented evidence. | `QUEUED` |\r\n| 12 | **Generative Art: One Visual Brief Across Tools** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `generative_art_one_visual_brief_across_tools` | A rigorous pedagogical investigation exploring one visual brief across tools through documented evidence. | `QUEUED` |\r\n| 13 | **Generative Art: A Proposed Creative Tool** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `generative_art_a_proposed_creative_tool` | A rigorous pedagogical investigation exploring a proposed creative tool through documented evidence. | `QUEUED` |\r\n| 14 | **Generative Art: One Prompt Equals Full Authorship?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `generative_art_one_prompt_equals_full_authorship` | A rigorous pedagogical investigation exploring one prompt equals full authorship? through documented evidence. | `QUEUED` |\r\n| 15 | **Generative Art: Making One Generative Work** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `generative_art_making_one_generative_work` | A rigorous pedagogical investigation exploring making one generative work through documented evidence. | `QUEUED` |\r\n| 16 | **Generative Art: A Visual Problem for a Creator** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `creative_brief` | `generative_art_a_visual_problem_for_a_creator` | A rigorous pedagogical investigation exploring a visual problem for a creator through documented evidence. | `QUEUED` |\r\n| 17 | **Generative Art: Models as Art Materials** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `materials_and_tools` | `generative_art_models_as_art_materials` | A rigorous pedagogical investigation exploring models as art materials through documented evidence. | `QUEUED` |\r\n| 18 | **Generative Art: Iterations to Final Image** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `process_breakdown` | `generative_art_iterations_to_final_image` | A rigorous pedagogical investigation exploring iterations to final image through documented evidence. | `QUEUED` |\r\n| 19 | **Generative Art: Composition Under Human Control** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `composition_choice` | `generative_art_composition_under_human_control` | A rigorous pedagogical investigation exploring composition under human control through documented evidence. | `QUEUED` |\r\n| 20 | **Generative Art: Many Hands in One Image** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `collaborative_authorship` | `generative_art_many_hands_in_one_image` | A rigorous pedagogical investigation exploring many hands in one image through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Generative Art: Record Extremes & Superlatives** | **98** | `extreme_case` | `generative_art_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Generative Art: An Image's Unclear Provenance** | **96** | `mysteries_unsolved_cases` | `generative_art_mysteries_unsolved_cases` | High viral search interest exploring which records show how a generated image was made backed by field records. | `Queued` |\r\n| 23 | **Generative Art: A New Visual Generation Tool** | **95** | `technology_innovation` | `generative_art_technology_innovation` | High viral search interest exploring what task became possible or easier for a creator backed by field records. | `Queued` |\r\n| 24 | **Generative Art: One Prompt Equals Full Authorship?** | **94** | `myths_vs_facts` | `generative_art_myths_vs_facts` | High viral search interest exploring which expressive decisions occurred before and after generation backed by field records. | `Queued` |\r\n| 25 | **Generative Art: A Generative-Art Exhibition** | **93** | `major_events` | `generative_art_major_events` | High viral search interest exploring how were works selected, labeled, and received backed by field records. | `Queued` |\r\n| 26 | **Generative Art: Labor Behind a Generated Image** | **92** | `hidden_stories` | `generative_art_hidden_stories` | High viral search interest exploring who supplied source work, labels, software, and curatorial decisions backed by field records. | `Queued` |\r\n| 27 | **Generative Art: Making One Generative Work** | **91** | `documentary_stories` | `generative_art_documentary_stories` | High viral search interest exploring what happened from idea to exhibition or publication backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/339_generative_art/339_GENERATIVE_ART_CHANNEL_TOPIC_ROADMAP.md`](./339_GENERATIVE_ART_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/339_generative_art/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/339_generative_art/NICHE_339_generative_art.md`](file:///h:/script-raw-/REGISTRY/Niches/339_generative_art/NICHE_339_generative_art.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/339_generative_art/CAT_339_generative_art.md`](file:///h:/script-raw-/REGISTRY/Niches/339_generative_art/CAT_339_generative_art.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/339_generative_art/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/339_generative_art/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/339_generative_art/`](file:///h:/script-raw-/OUTPUT/339_generative_art/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "f47a7f791990e63872e632cd630dcd0af32b9feb9d4d4d0734e64c748f21b940",
+        "original_text": "{\r\n  \"niche_id\": \"339\",\r\n  \"niche_name\": \"generative_art\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Generative Art: Before Current AI\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"generative_art_before_current_ai\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring before current ai through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Generative Art: A Celebrated Generated Image Revisited\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"generative_art_a_celebrated_generated_image_revisited\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a celebrated generated image revisited through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Generative Art: Labor Behind a Generated Image\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"generative_art_labor_behind_a_generated_image\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring labor behind a generated image through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Generative Art: From Brief to Image\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"generative_art_from_brief_to_image\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from brief to image through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Generative Art: Control Over Expressive Elements\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"generative_art_control_over_expressive_elements\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring control over expressive elements through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Generative Art: An Image's Unclear Provenance\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"generative_art_an_image_s_unclear_provenance\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an image's unclear provenance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Generative Art: A New Visual Generation Tool\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"generative_art_a_new_visual_generation_tool\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new visual generation tool through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Generative Art: An Artist's Process\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"generative_art_an_artist_s_process\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an artist's process through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Generative Art: A Generative-Art Exhibition\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"generative_art_a_generative_art_exhibition\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a generative-art exhibition through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Generative Art: Image Model in an Art Workflow\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"generative_art_image_model_in_an_art_workflow\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring image model in an art workflow through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Generative Art: A Generative Art Trend Reassessed\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"generative_art_a_generative_art_trend_reassessed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a generative art trend reassessed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Generative Art: One Visual Brief Across Tools\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"generative_art_one_visual_brief_across_tools\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one visual brief across tools through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Generative Art: A Proposed Creative Tool\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"generative_art_a_proposed_creative_tool\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed creative tool through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Generative Art: One Prompt Equals Full Authorship?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"generative_art_one_prompt_equals_full_authorship\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one prompt equals full authorship? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Generative Art: Making One Generative Work\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"generative_art_making_one_generative_work\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring making one generative work through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Generative Art: A Visual Problem for a Creator\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"creative_brief\",\r\n      \"slug\": \"generative_art_a_visual_problem_for_a_creator\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a visual problem for a creator through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Generative Art: Models as Art Materials\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"materials_and_tools\",\r\n      \"slug\": \"generative_art_models_as_art_materials\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring models as art materials through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Generative Art: Iterations to Final Image\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"process_breakdown\",\r\n      \"slug\": \"generative_art_iterations_to_final_image\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring iterations to final image through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Generative Art: Composition Under Human Control\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"composition_choice\",\r\n      \"slug\": \"generative_art_composition_under_human_control\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring composition under human control through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Generative Art: Many Hands in One Image\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"collaborative_authorship\",\r\n      \"slug\": \"generative_art_many_hands_in_one_image\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring many hands in one image through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Generative Art: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"generative_art_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Generative Art: An Image's Unclear Provenance\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"generative_art_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which records show how a generated image was made backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Generative Art: A New Visual Generation Tool\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"generative_art_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what task became possible or easier for a creator backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Generative Art: One Prompt Equals Full Authorship?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"generative_art_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which expressive decisions occurred before and after generation backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Generative Art: A Generative-Art Exhibition\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"generative_art_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring how were works selected, labeled, and received backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Generative Art: Labor Behind a Generated Image\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"generative_art_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who supplied source work, labels, software, and curatorial decisions backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Generative Art: Making One Generative Work\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"generative_art_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring what happened from idea to exhibition or publication backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "339",
+      "niche_name": "generative_art",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Generative Art: Before Current AI",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "generative_art_before_current_ai",
+          "reason": "A rigorous pedagogical investigation exploring before current ai through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Generative Art: A Celebrated Generated Image Revisited",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "generative_art_a_celebrated_generated_image_revisited",
+          "reason": "A rigorous pedagogical investigation exploring a celebrated generated image revisited through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Generative Art: Labor Behind a Generated Image",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "generative_art_labor_behind_a_generated_image",
+          "reason": "A rigorous pedagogical investigation exploring labor behind a generated image through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Generative Art: From Brief to Image",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "generative_art_from_brief_to_image",
+          "reason": "A rigorous pedagogical investigation exploring from brief to image through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Generative Art: Control Over Expressive Elements",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "generative_art_control_over_expressive_elements",
+          "reason": "A rigorous pedagogical investigation exploring control over expressive elements through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Generative Art: An Image's Unclear Provenance",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "generative_art_an_image_s_unclear_provenance",
+          "reason": "A rigorous pedagogical investigation exploring an image's unclear provenance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Generative Art: A New Visual Generation Tool",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "generative_art_a_new_visual_generation_tool",
+          "reason": "A rigorous pedagogical investigation exploring a new visual generation tool through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Generative Art: An Artist's Process",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "generative_art_an_artist_s_process",
+          "reason": "A rigorous pedagogical investigation exploring an artist's process through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Generative Art: A Generative-Art Exhibition",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "generative_art_a_generative_art_exhibition",
+          "reason": "A rigorous pedagogical investigation exploring a generative-art exhibition through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Generative Art: Image Model in an Art Workflow",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "generative_art_image_model_in_an_art_workflow",
+          "reason": "A rigorous pedagogical investigation exploring image model in an art workflow through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Generative Art: A Generative Art Trend Reassessed",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "generative_art_a_generative_art_trend_reassessed",
+          "reason": "A rigorous pedagogical investigation exploring a generative art trend reassessed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Generative Art: One Visual Brief Across Tools",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "generative_art_one_visual_brief_across_tools",
+          "reason": "A rigorous pedagogical investigation exploring one visual brief across tools through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Generative Art: A Proposed Creative Tool",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "generative_art_a_proposed_creative_tool",
+          "reason": "A rigorous pedagogical investigation exploring a proposed creative tool through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Generative Art: One Prompt Equals Full Authorship?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "generative_art_one_prompt_equals_full_authorship",
+          "reason": "A rigorous pedagogical investigation exploring one prompt equals full authorship? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Generative Art: Making One Generative Work",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "generative_art_making_one_generative_work",
+          "reason": "A rigorous pedagogical investigation exploring making one generative work through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Generative Art: A Visual Problem for a Creator",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "creative_brief",
+          "slug": "generative_art_a_visual_problem_for_a_creator",
+          "reason": "A rigorous pedagogical investigation exploring a visual problem for a creator through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Generative Art: Models as Art Materials",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "materials_and_tools",
+          "slug": "generative_art_models_as_art_materials",
+          "reason": "A rigorous pedagogical investigation exploring models as art materials through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Generative Art: Iterations to Final Image",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "process_breakdown",
+          "slug": "generative_art_iterations_to_final_image",
+          "reason": "A rigorous pedagogical investigation exploring iterations to final image through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Generative Art: Composition Under Human Control",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "composition_choice",
+          "slug": "generative_art_composition_under_human_control",
+          "reason": "A rigorous pedagogical investigation exploring composition under human control through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Generative Art: Many Hands in One Image",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "collaborative_authorship",
+          "slug": "generative_art_many_hands_in_one_image",
+          "reason": "A rigorous pedagogical investigation exploring many hands in one image through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Generative Art: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "generative_art_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Generative Art: An Image's Unclear Provenance",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "generative_art_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which records show how a generated image was made backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Generative Art: A New Visual Generation Tool",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "generative_art_technology_innovation",
+          "why_trending": "High viral search interest exploring what task became possible or easier for a creator backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Generative Art: One Prompt Equals Full Authorship?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "generative_art_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which expressive decisions occurred before and after generation backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Generative Art: A Generative-Art Exhibition",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "generative_art_major_events",
+          "why_trending": "High viral search interest exploring how were works selected, labeled, and received backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Generative Art: Labor Behind a Generated Image",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "generative_art_hidden_stories",
+          "why_trending": "High viral search interest exploring who supplied source work, labels, software, and curatorial decisions backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Generative Art: Making One Generative Work",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "generative_art_documentary_stories",
+          "why_trending": "High viral search interest exploring what happened from idea to exhibition or publication backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "df0dee3430ae6ea63371c2441b16ec09d3e542e8196042fb572eca2c856e9702"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "dcefedb50c6395553e894050e315f6036ec6ecec489e3f54b48d063096310b00"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "cb6cc13150ad703d97b00cd336e013110422f5eacc1df066047565129a22960b"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "1ce4119a41398c74653e1988215c862d122fea2708e74aa2a0197a60e58b9d32"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "917d3acd3bb5a7ea0ecf25eb08846c546c25ec880082b7992eb072d59b861913"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-339-01",
+      "title": "Mechanisms",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-02",
+      "title": "Control",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-03",
+      "title": "Rights",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-04",
+      "title": "Critique",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-05",
+      "title": "Production",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-06",
+      "title": "Documentation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-07",
+      "title": "Credits",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-339-08",
+      "title": "Composition",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "339",
+    "slug": "generative_art",
+    "name": "Generative Art",
+    "primary_category": "Visual_Arts_Crafts",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Generative Art YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-339-01",
+        "title": "Creative systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-339-001",
+            "title": "Diffusion model conditioning",
+            "question": "Diffusion model conditioning: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Generative Art; branch: Creative systems. Address Diffusion model conditioning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Diffusion model conditioning.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-002",
+            "title": "Style consistency",
+            "question": "Style consistency: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Generative Art; branch: Creative systems. Address Style consistency through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Style consistency.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-003",
+            "title": "Reference image influence",
+            "question": "Reference image influence: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Generative Art; branch: Creative systems. Address Reference image influence through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Reference image influence.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-339-02",
+        "title": "Art practice",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-339-01"
+        ],
+        "research_profile": "media",
+        "topics": [
+          {
+            "id": "BANK-339-004",
+            "title": "Iterative visual direction",
+            "question": "Iterative visual direction: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Generative Art; branch: Art practice. Address Iterative visual direction through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Iterative visual direction.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-005",
+            "title": "Controlled variation",
+            "question": "Controlled variation: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Generative Art; branch: Art practice. Address Controlled variation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Controlled variation.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-006",
+            "title": "Integrating generated textures",
+            "question": "Integrating generated textures: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Generative Art; branch: Art practice. Address Integrating generated textures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Integrating generated textures.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-339-03",
+        "title": "Rights and provenance",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-339-01"
+        ],
+        "research_profile": "civic",
+        "topics": [
+          {
+            "id": "BANK-339-007",
+            "title": "Training-data disclosure",
+            "question": "Training-data disclosure: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Generative Art; branch: Rights and provenance. Address Training-data disclosure through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Training-data disclosure.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-008",
+            "title": "Artist attribution",
+            "question": "Artist attribution: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Generative Art; branch: Rights and provenance. Address Artist attribution through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Artist attribution.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-339-009",
+            "title": "Documenting generated-image edits",
+            "question": "Documenting generated-image edits: how do the rules and institutions work in a named jurisdiction?",
+            "coverage": "Primary context: Generative Art; branch: Rights and provenance. Address Documenting generated-image edits through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the responsible institutions, applicable date and jurisdiction for Documenting generated-image edits.",
+              "Trace a documented case or service journey from entry conditions to outcome, distinguishing rules from actual implementation.",
+              "Compare access, costs, incentives and accountability for different affected groups.",
+              "Check amendments, exceptions and competing interpretations; identify where qualified local guidance is required."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "media": {
+        "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+        "source_leads": [
+          "the actual work and authorized production materials",
+          "creator interviews or published craft explanations",
+          "permission-cleared examples and audience feedback"
+        ]
+      },
+      "civic": {
+        "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+        "source_leads": [
+          "official laws, rules and administrative guidance",
+          "audits, judgments and public service records",
+          "consented accounts from affected people and qualified specialists"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "079",
+        "title": "Creative Arts",
+        "directory": "079_creative_arts",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "095",
+        "title": "Handicrafts & Traditional Skills",
+        "directory": "095_handicrafts_traditional_skills",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "126",
+        "title": "Photography",
+        "directory": "126_photography",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "127",
+        "title": "Visual Effects",
+        "directory": "127_visual_effects",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "128",
+        "title": "Virtual Reality / AR",
+        "directory": "128_virtual_reality_ar",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "258",
+        "title": "Traditional Painting",
+        "directory": "258_traditional_painting",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Generative Art: Before Current AI",
+      "question": "Which rule-based or computational practice shaped a later work?",
+      "coverage": "Use dated artwork, code, artist statements, and context. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A Celebrated Generated Image Revisited",
+      "question": "Which creative choices did people make and which were automated?",
+      "coverage": "Trace prompts, selection, edits, model, and display. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Labor Behind a Generated Image",
+      "question": "Who supplied source work, labels, software, and curatorial decisions?",
+      "coverage": "Credit documented contributors and rights holders. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: From Brief to Image",
+      "question": "How do a model and artist produce a finished visual work?",
+      "coverage": "Explain input, generation, selection, editing, and output. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Control Over Expressive Elements",
+      "question": "How does an artist shape composition beyond an initial prompt?",
+      "coverage": "Compare iterations, edits, and final decisions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: An Image's Unclear Provenance",
+      "question": "Which records show how a generated image was made?",
+      "coverage": "Check files, metadata, project notes, and gaps. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A New Visual Generation Tool",
+      "question": "What task became possible or easier for a creator?",
+      "coverage": "Compare quality, control, accessibility, and cost. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: An Artist's Process",
+      "question": "How does a named creator describe and document their choices?",
+      "coverage": "Use interviews, drafts, and work records. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A Generative-Art Exhibition",
+      "question": "How were works selected, labeled, and received?",
+      "coverage": "Read dated catalog, wall text, and audience response. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Image Model in an Art Workflow",
+      "question": "How do source inputs, generation, human selection, and finishing connect?",
+      "coverage": "Trace one consented project. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A Generative Art Trend Reassessed",
+      "question": "What changed in tools, institutions, and artist practice?",
+      "coverage": "Compare works and records across a defined period. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: One Visual Brief Across Tools",
+      "question": "How did control, output, and labor change?",
+      "coverage": "Use matched brief and transparent workflow. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A Proposed Creative Tool",
+      "question": "What would make it useful and fair to working artists?",
+      "coverage": "Test rights, control, costs, and accessibility. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: One Prompt Equals Full Authorship?",
+      "question": "Which expressive decisions occurred before and after generation?",
+      "coverage": "Document actual workflow and jurisdiction-specific rules. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Making One Generative Work",
+      "question": "What happened from idea to exhibition or publication?",
+      "coverage": "Follow drafts, collaborators, rights, and audience. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: A Visual Problem for a Creator",
+      "question": "What was the intended message, audience, and constraint?",
+      "coverage": "Read brief and compare finished work. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Models as Art Materials",
+      "question": "Which model, dataset, editing tools, and physical media were used?",
+      "coverage": "Document versions, sources, and permissions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Iterations to Final Image",
+      "question": "Which candidates were rejected and why?",
+      "coverage": "Examine consented process records and edits. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Composition Under Human Control",
+      "question": "How were framing, color, texture, and emphasis chosen?",
+      "coverage": "Compare generated variants and final decisions. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Generative Art: Many Hands in One Image",
+      "question": "How should contributors and source creators be credited?",
+      "coverage": "Trace agreements and actual creative roles. Evidence base: dated artworks and artist records, versioned tools, production files, exhibition materials, U.S. Copyright Office guidance, and audience research.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-339-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "54e5bad599f09197c91ba392e32036cc7ba6650d14063a624fc82d1805a68e71",
+    "TOPIC_BANK_RECONCILIATION.md": "756dc52dfb846ff303f41d04eb50250c76fa30a5fab553fcab7ad4cd4ab20717",
+    "TOPICS_COVERED_REPORT.md": "8640e38ee19ddbf0e6d14d2155e0cb388e50f58d72cede1bad9515ea40aacf36",
+    "339_GENERATIVE_ART_CHANNEL_TOPIC_ROADMAP.md": "a5015c193bc4a7f92d7c92c17e7711f887daada3a61c5e65af8fc8d72341dbdd"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-339-001": [
+      "BANK-339-030"
+    ],
+    "BANK-339-002": [
+      "BANK-339-031"
+    ],
+    "BANK-339-003": [
+      "BANK-339-031"
+    ],
+    "BANK-339-005": [
+      "BANK-339-031"
+    ],
+    "BANK-339-007": [
+      "BANK-339-032"
+    ],
+    "BANK-339-004": [
+      "BANK-339-033"
+    ],
+    "BANK-339-006": [
+      "BANK-339-034"
+    ],
+    "BANK-339-009": [
+      "BANK-339-035"
+    ],
+    "BANK-339-008": [
+      "BANK-339-036"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-035"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-036"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-035"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-031"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-339-038"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-031"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-031"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-031"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-339-038"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-030"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-035"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-037"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-036"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-035"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-031"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-033"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-339-038"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-339-036"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-339-038"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-339-038",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_product_or_institutional_sources_inspected",
+    "semantic_candidates_reviewed": 27,
+    "neighbor_overlap": "BANK-339-033 covers artist decisions generally, BANK-339-035 edit histories, and BANK-339-036 attribution; this named museum installation adds a bounded institutional record. BANK-335-* covers digital humans, BANK-340-* generated music and BANK-341-* synthetic voice, not this visual installation."
+  }
+}

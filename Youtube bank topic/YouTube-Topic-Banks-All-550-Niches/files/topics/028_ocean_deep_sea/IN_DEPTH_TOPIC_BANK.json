@@ -1,0 +1,760 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "028",
+  "slug": "ocean_deep_sea",
+  "name": "Ocean & Deep Sea",
+  "primary_category": "Earth_Environment",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for Ocean & Deep Sea. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 32
+  },
+  "categories": [
+    {
+      "title": "Deep-ocean environments",
+      "level": "foundation",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How do pressure, temperature and food availability vary with ocean depth?",
+          "coverage": "Separate physical gradients and regional differences rather than presenting one uniform dark abyss.",
+          "id": "BANK-028-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is a mapped seafloor not the same as a directly observed habitat?",
+          "coverage": "Compare sonar coverage, resolution, cameras and sampling; clarify what each method can establish.",
+          "id": "BANK-028-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do abyssal plains and hadal trenches pose different research questions?",
+          "coverage": "Compare geography, sediment, pressure and biology without using deepest as a synonym for every deep-sea environment.",
+          "id": "BANK-028-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can one deep-sea specimen reveal without representing an entire population?",
+          "coverage": "Inspect collection context, sample size and preservation before generalizing anatomy or behavior.",
+          "id": "BANK-028-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Energy and food webs",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How do hydrothermal-vent communities obtain energy without depending on local sunlight?",
+          "coverage": "Explain documented chemical and biological relationships while preserving variation among sites.",
+          "id": "BANK-028-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What distinguishes a cold-seep ecosystem from a hydrothermal vent?",
+          "coverage": "Compare fluid source, chemistry, organisms and time scales rather than grouping both under one mechanism.",
+          "id": "BANK-028-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does marine snow connect surface production with the deep ocean?",
+          "coverage": "Trace particles, consumption, decomposition and measurement uncertainty in carbon transfer.",
+          "id": "BANK-028-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can deep-sea food availability change over time?",
+          "coverage": "Compare surface processes, transport, episodic inputs and long-term observations rather than assuming permanent scarcity at one level.",
+          "id": "BANK-028-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D02",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "Adaptation and behavior",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What makes bioluminescence useful in different deep-sea contexts?",
+          "coverage": "Compare documented signaling, predation and defense examples rather than assigning one purpose to all light production.",
+          "id": "BANK-028-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can pressure influence the way researchers interpret animal physiology?",
+          "coverage": "Distinguish observed adaptation from changes caused by bringing specimens to the surface.",
+          "id": "BANK-028-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can camera observations establish about rare deep-sea behavior?",
+          "coverage": "Consider lighting, disturbance, sample duration and alternative interpretations of a short encounter.",
+          "id": "BANK-028-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can similar-looking deep-sea animals belong to very different groups?",
+          "coverage": "Compare diagnostic anatomy and genetic evidence instead of identification from spectacle alone.",
+          "id": "BANK-028-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D03",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "ROVs and autonomous vehicles",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do ROVs and AUVs trade control, endurance and coverage?",
+          "coverage": "Compare mission requirements, tether limits, power and recovery using documented deployments.",
+          "id": "BANK-028-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes navigation difficult when satellite positioning is unavailable underwater?",
+          "coverage": "Explain acoustic references, inertial estimates, drift and uncertainty without pretending one sensor gives perfect position.",
+          "id": "BANK-028-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can vehicle lighting alter what a deep-sea survey records?",
+          "coverage": "Compare visibility, color, animal response and the difference between natural appearance and illuminated footage.",
+          "id": "BANK-028-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be recorded when a robot collects a deep-sea sample?",
+          "coverage": "Track position, depth, time, conditions, disturbance and custody so later analysis remains interpretable.",
+          "id": "BANK-028-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D04",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "Sampling and measurement",
+      "level": "intermediate",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can a sediment core preserve a history that a surface image cannot?",
+          "coverage": "Compare layers, dating, disturbance and the specific inference supported by the sampled material.",
+          "id": "BANK-028-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What is gained by collecting a specimen while retaining pressure?",
+          "coverage": "Inspect preservation aims, apparatus limitations and comparison with conventional recovery.",
+          "id": "BANK-028-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should eDNA results be interpreted in an ocean with moving water?",
+          "coverage": "Consider transport, persistence, contamination and the difference between detection and local abundance.",
+          "id": "BANK-028-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do deep-sea biodiversity estimates depend strongly on sampling design?",
+          "coverage": "Compare area, gear, taxonomic resolution and unseen species rather than reporting one exact global count.",
+          "id": "BANK-028-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D05",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "Disturbance and resource use",
+      "level": "intermediate",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "What evidence is needed to evaluate seabed mining effects?",
+          "coverage": "Separate direct removal, sediment plumes, noise, recovery and uncertainty across different proposed sites.",
+          "id": "BANK-028-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a short pilot disturbance fail to represent long-term commercial extraction?",
+          "coverage": "Compare scale, repetition, monitoring duration and environmental conditions before extrapolating.",
+          "id": "BANK-028-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does recovery mean for a slow-changing deep-sea community?",
+          "coverage": "Define physical, biological and functional outcomes rather than using one visible species as the whole measure.",
+          "id": "BANK-028-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a documentary distinguish a mineral-resource estimate from a viable mining project?",
+          "coverage": "Inspect concentration, engineering, economics, regulation and environmental evidence separately.",
+          "id": "BANK-028-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D06",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "Observation networks",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do long-term seabed observatories change questions researchers can ask?",
+          "coverage": "Compare continuity, power, sensors and maintenance against intermittent vessel visits.",
+          "id": "BANK-028-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can acoustic monitoring detect without showing the source directly?",
+          "coverage": "Examine classification, background noise, range and validation with other observations.",
+          "id": "BANK-028-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can remote sensing help select deep-sea survey sites?",
+          "coverage": "Separate surface signals, bathymetric inference and direct habitat confirmation rather than claiming satellites see every seabed detail.",
+          "id": "BANK-028-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why must instrument calibration accompany deep-ocean data interpretation?",
+          "coverage": "Trace sensor drift, pressure response, sampling and processing before attributing a change to the environment.",
+          "id": "BANK-028-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D07",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    },
+    {
+      "title": "Documentary explanation",
+      "level": "advanced",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How can a deep-sea film preserve scale when everything floats against darkness?",
+          "coverage": "Use reliable size references, camera geometry and labels instead of dramatic enlargement.",
+          "id": "BANK-028-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be disclosed when deep-sea imagery is color corrected?",
+          "coverage": "Distinguish illumination, processing and illustrative choices from an animal's natural appearance in situ.",
+          "id": "BANK-028-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an episode explain an unidentified organism without inventing a species?",
+          "coverage": "State observed traits, expert uncertainty and the analysis needed for identification.",
+          "id": "BANK-028-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why should a discovery story include ship crews and technical teams?",
+          "coverage": "Credit navigation, engineering, sampling and data work rather than attributing an expedition's result to one on-screen scientist.",
+          "id": "BANK-028-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-028-D08",
+      "prerequisites": [
+        "CATALOG-028-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "048",
+      "title": "Maritime",
+      "directory": "048_maritime",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "197",
+      "title": "Marine Mammals",
+      "directory": "197_marine_mammals",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "198",
+      "title": "Marine Life",
+      "directory": "198_marine_life",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "199",
+      "title": "Coral Reefs",
+      "directory": "199_coral_reefs",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "362",
+      "title": "Oceanography",
+      "directory": "362_oceanography",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "424",
+      "title": "Shipbuilding",
+      "directory": "424_shipbuilding",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "028",
+    "slug": "ocean_deep_sea",
+    "name": "Ocean & Deep Sea",
+    "primary_category": "Earth_Environment",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Ocean & Deep Sea YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-028-01",
+        "title": "Deep-sea environments",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-028-001",
+            "title": "Hydrothermal vent ecosystems",
+            "question": "Hydrothermal vent ecosystems: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Deep-sea environments. Address Hydrothermal vent ecosystems through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Hydrothermal vent ecosystems precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-002",
+            "title": "Cold seeps and chemosynthesis",
+            "question": "Cold seeps and chemosynthesis: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Deep-sea environments. Address Cold seeps and chemosynthesis through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Cold seeps and chemosynthesis precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-003",
+            "title": "Hadal trenches and pressure adaptation",
+            "question": "Hadal trenches and pressure adaptation: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Deep-sea environments. Address Hadal trenches and pressure adaptation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Hadal trenches and pressure adaptation precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-004",
+            "title": "Marine snow and deep-ocean food webs",
+            "question": "Marine snow and deep-ocean food webs: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Deep-sea environments. Address Marine snow and deep-ocean food webs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Marine snow and deep-ocean food webs precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-028-02",
+        "title": "Exploration technology",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-028-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-028-005",
+            "title": "ROV sampling and disturbance",
+            "question": "ROV sampling and disturbance: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Exploration technology. Address ROV sampling and disturbance through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind ROV sampling and disturbance.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-006",
+            "title": "AUV mapping under low visibility",
+            "question": "AUV mapping under low visibility: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Exploration technology. Address AUV mapping under low visibility through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind AUV mapping under low visibility.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-007",
+            "title": "Deep-sea camera lighting",
+            "question": "Deep-sea camera lighting: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Exploration technology. Address Deep-sea camera lighting through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Deep-sea camera lighting.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-008",
+            "title": "Pressure-retaining specimen collection",
+            "question": "Pressure-retaining specimen collection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Exploration technology. Address Pressure-retaining specimen collection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Pressure-retaining specimen collection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-028-03",
+        "title": "Knowledge gaps",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-028-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-028-009",
+            "title": "Deep-sea biodiversity estimates",
+            "question": "Deep-sea biodiversity estimates: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Knowledge gaps. Address Deep-sea biodiversity estimates through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Deep-sea biodiversity estimates precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-010",
+            "title": "Mapping versus directly observing the seabed",
+            "question": "Mapping versus directly observing the seabed: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Knowledge gaps. Address Mapping versus directly observing the seabed through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Mapping versus directly observing the seabed precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-011",
+            "title": "Mining impacts on abyssal communities",
+            "question": "Mining impacts on abyssal communities: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Knowledge gaps. Address Mining impacts on abyssal communities through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Mining impacts on abyssal communities precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-028-012",
+            "title": "Long-term monitoring of vent fields",
+            "question": "Long-term monitoring of vent fields: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Ocean & Deep Sea; branch: Knowledge gaps. Address Long-term monitoring of vent fields through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Long-term monitoring of vent fields precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "048",
+        "title": "Maritime",
+        "directory": "048_maritime",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "197",
+        "title": "Marine Mammals",
+        "directory": "197_marine_mammals",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "198",
+        "title": "Marine Life",
+        "directory": "198_marine_life",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "199",
+        "title": "Coral Reefs",
+        "directory": "199_coral_reefs",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "362",
+        "title": "Oceanography",
+        "directory": "362_oceanography",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "424",
+        "title": "Shipbuilding",
+        "directory": "424_shipbuilding",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_02"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  }
+}

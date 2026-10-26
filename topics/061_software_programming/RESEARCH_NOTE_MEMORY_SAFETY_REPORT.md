@@ -1,0 +1,7 @@
+# 2024 US memory-safety report: bounded policy note
+
+Linked proposal: [BANK-061-075](IN_DEPTH_TOPIC_BANK.md#bank-061-075). Research checked 2026-10-24. This note evaluates the wording of one historical report; it is not legal guidance or a statement of current procurement requirements.
+
+The US Office of the National Cyber Director’s [February 2024 technical report](https://whitehouse.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf) recommends moving toward memory-safe programming languages as one way to reduce whole classes of vulnerabilities. It discusses C and C++ as widely used languages that lack built-in memory safety, while acknowledging situations where replacing the language may not be feasible. It also discusses memory-safe hardware and formal methods as complementary approaches. A later [2024 federal cybersecurity posture report](https://www.whitehouse.gov/wp-content/uploads/2024/05/2024-Report-on-the-Cybersecurity-Posture-of-the-United-States.pdf) summarizes that recommendation.
+
+For an episode, quote the precise recommendation and identify the document’s author and date. Compare it with the relevant software sector’s constraints and distinguish policy advice from a statute, blanket ban, or instruction to stop all C and C++ use immediately. The report does not prove that any one replacement language removes logic bugs or all security failures. A current-policy claim requires a separate dated check; this note only bounds the 2024 document.

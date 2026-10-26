@@ -1,0 +1,864 @@
+{
+  "input": "Scripts/editorial_review_inputs/final_new_semantic_candidates.json",
+  "pairs_reviewed": 60,
+  "method": "Manual reading of both full questions and coverage scopes; similarity is only triage.",
+  "candidate_decisions": [
+    {
+      "pair_index": 0,
+      "ids": [
+        "BANK-234-033",
+        "BANK-386-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Airport noise, land and surface transport distribution differ from theme-park housing and services impact.",
+      "scope_evidence": [
+        "Compare connectivity, jobs, noise, land, surface transport and distribution of impacts; keep valuation assumptions explicit.",
+        "Compare transport, housing, jobs and public services in a bounded region."
+      ]
+    },
+    {
+      "pair_index": 1,
+      "ids": [
+        "BANK-006-125",
+        "BANK-354-040"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both trace microbial horizontal gene transfer, gene trees and the failure of a single organism tree; retain the established mechanism scope.",
+      "scope_evidence": [
+        "Use a documented microbial example, gene trees and competing explanations such as contamination; distinguish movement of a sequence from transfer of an entire organism's history.",
+        "Compare gene histories, organism relationships, mobile elements and alternative network representations in a bounded microbial example; distinguish transfer evidence from sequence similarity alone."
+      ]
+    },
+    {
+      "pair_index": 2,
+      "ids": [
+        "BANK-470-038",
+        "BANK-470-041"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both ask who consents to enhancement affecting future generations and compare reversibility and intergenerational consequences.",
+      "scope_evidence": [
+        "Map life stages, reversibility and unequal access.",
+        "Distinguish individual choice and intergenerational consequences without biological procedures."
+      ]
+    },
+    {
+      "pair_index": 3,
+      "ids": [
+        "BANK-413-034",
+        "BANK-413-043"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Campaign coordination and data submission differ from uncertainty in one amateur occultation timing.",
+      "scope_evidence": [
+        "Trace coordination, timestamps, uncertainty and data submission.",
+        "Track clocks, reaction method, location and event visibility."
+      ]
+    },
+    {
+      "pair_index": 4,
+      "ids": [
+        "BANK-004-162",
+        "BANK-541-039"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both map Mahabharata telling occasions and narrator knowledge in an edition; keep the newly bounded frame-structure proposal.",
+      "scope_evidence": [
+        "Track the telling settings, reported speakers, audience and knowledge available at each level in a specified public edition; distinguish the frame structure from a chronological summary of the war.",
+        "Map telling occasions and narrator knowledge in a named edition."
+      ]
+    },
+    {
+      "pair_index": 5,
+      "ids": [
+        "BANK-002-076",
+        "BANK-056-053"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both examine Beale paper editions, provenance and cipher claims before accepting the treasure narrative.",
+      "scope_evidence": [
+        "Trace editions, document provenance and claimed ciphers; exclude unauthorized searches or fabricated decipherment certainty.",
+        "Separate pamphlet provenance, purported historical actors, cipher claims, independent records and gaps; do not encourage trespass, digging or present the treasure as established."
+      ]
+    },
+    {
+      "pair_index": 6,
+      "ids": [
+        "BANK-146-031",
+        "BANK-146-045"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Memoir reshaping of early letters differs from constructing a chronology across conflicting record classes.",
+      "scope_evidence": [
+        "Compare dates, audience, retrospective selection and surviving gaps.",
+        "Compare event proximity, calendars, document purpose, independence, inferred intervals and unresolved contradictions; do not silently choose the most dramatic sequence."
+      ]
+    },
+    {
+      "pair_index": 7,
+      "ids": [
+        "BANK-448-030",
+        "BANK-448-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "National largest-city/capital contrast differs from the administrative role of a provincial capital.",
+      "scope_evidence": [
+        "Compare administrative history, geography and political compromise.",
+        "Compare administration and transport access."
+      ]
+    },
+    {
+      "pair_index": 8,
+      "ids": [
+        "BANK-020-025",
+        "BANK-501-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Resident authority in travel documentary framing differs from accountable health-program needs assessment.",
+      "scope_evidence": [
+        "Use consented conversations about place, change and visitor behavior rather than asking only for colorful anecdotes.",
+        "Compare needs assessment, authority and accountable feedback."
+      ]
+    },
+    {
+      "pair_index": 9,
+      "ids": [
+        "BANK-334-031",
+        "BANK-334-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Multiplayer synchronization differs from preservation when a virtual-world server closes.",
+      "scope_evidence": [
+        "Trace synchronization, latency, prediction and consistency with an explicitly simplified model.",
+        "Compare personal exports, social records, asset formats, licenses, server dependencies and community archives without assuming an export makes a world independently playable."
+      ]
+    },
+    {
+      "pair_index": 10,
+      "ids": [
+        "BANK-541-052",
+        "BANK-541-061"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General oral-performance adaptation differs from the named Terukkuttu staging and local musical roles; case binding is still required.",
+      "scope_evidence": [
+        "Name a tradition and compare selection, voice and duration.",
+        "Compare roles, music, audience knowledge and performance context with the chosen textual episode without assuming direct equivalence."
+      ]
+    },
+    {
+      "pair_index": 11,
+      "ids": [
+        "BANK-081-050",
+        "BANK-249-036"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Whole theatre-production preservation differs from contextual metadata for a folk-theatre recording.",
+      "scope_evidence": [
+        "Connect scripts, prompt books, designs, cue records and participant accounts while retaining performance dates, rights and absent evidence.",
+        "Include cast, language, context, audience interaction, staging and rights; distinguish video storage from adequate documentation."
+      ]
+    },
+    {
+      "pair_index": 12,
+      "ids": [
+        "BANK-181-044",
+        "BANK-342-038"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Clinical patient-footage reconstruction differs from synthetic imagery mistaken for archival footage.",
+      "scope_evidence": [
+        "Plan labels, actors' consent, composite cases, medical records, chronology and visual boundaries; preserve uncertainty and exclude identifiable patient information.",
+        "Compare shot-level context, descriptions, provenance, sound and excerpt reuse; separate visual plausibility from historical evidence."
+      ]
+    },
+    {
+      "pair_index": 13,
+      "ids": [
+        "BANK-012-025",
+        "BANK-012-049"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "A black-hole horizon model differs from comparison with the cosmological particle horizon.",
+      "scope_evidence": [
+        "Distinguish the horizon, surrounding matter, observational signatures and the limits of intuitive surface analogies.",
+        "Compare the past light signals reachable under a stated expansion model with the causal boundary of a black hole; distinguish observable extent, event horizons and a claim about the size of all space."
+      ]
+    },
+    {
+      "pair_index": 14,
+      "ids": [
+        "BANK-385-033",
+        "BANK-385-041"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Circus publicity about race/nationality differs from labor bargaining over pay and working conditions.",
+      "scope_evidence": [
+        "Examine named archival examples with attribution and stereotype awareness.",
+        "Use a bounded historical organization and distinguish worker accounts from publicity."
+      ]
+    },
+    {
+      "pair_index": 15,
+      "ids": [
+        "BANK-391-030",
+        "BANK-391-041"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Audience tracking of a selected card differs from measured differences between remembered and actual routine conditions.",
+      "scope_evidence": [
+        "Map stated conditions, remembered events and clear revelation.",
+        "Compare consented recall tasks and presentation choices."
+      ]
+    },
+    {
+      "pair_index": 16,
+      "ids": [
+        "BANK-418-041",
+        "BANK-443-030"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Drivetrain operating-point efficiency and percentage-point arithmetic have different objects.",
+      "scope_evidence": [
+        "Compare load, speed and conversion pathways conceptually.",
+        "Use population and price examples with explicit denominators."
+      ]
+    },
+    {
+      "pair_index": 17,
+      "ids": [
+        "BANK-009-053",
+        "BANK-073-050"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General longitudinal versus cross-sectional age design differs from the measurement of children’s sleep.",
+      "scope_evidence": [
+        "Compare longitudinal and cross-sectional designs, cohort effects and attrition.",
+        "Compare age, diary or device measures, caregiver report, household conditions, repeated observations and uncertainty; exclude infant sleep instructions or individual medical advice."
+      ]
+    },
+    {
+      "pair_index": 18,
+      "ids": [
+        "BANK-470-032",
+        "BANK-471-042"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Workplace incentives, refusal costs and nominally optional enhancement are the same episode; retain the general ethics primary.",
+      "scope_evidence": [
+        "Trace incentives, consent and unequal bargaining power.",
+        "Trace incentives, refusal costs and protective governance."
+      ]
+    },
+    {
+      "pair_index": 19,
+      "ids": [
+        "BANK-425-036",
+        "BANK-425-045"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both cover train stopping and station coordination for platform doors; the newer scope also bounds evacuation responsibilities.",
+      "scope_evidence": [
+        "Explain coordination without operational control instructions.",
+        "Compare alignment, service disruption and qualified safety responsibilities without operating procedures."
+      ]
+    },
+    {
+      "pair_index": 20,
+      "ids": [
+        "BANK-081-042",
+        "BANK-368-045"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Reviewing experimental live performance differs from analyzing attention in an experimental film.",
+      "scope_evidence": [
+        "Identify the work's apparent aims, formal choices and audience relationship using observable evidence; separate personal preference from a claim of objective failure.",
+        "Compare rhythm, repetition and material texture in an eligible short work."
+      ]
+    },
+    {
+      "pair_index": 21,
+      "ids": [
+        "BANK-435-033",
+        "BANK-435-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Pipeline gas composition and specification differ from liquefaction, storage and receiving systems.",
+      "scope_evidence": [
+        "Discuss composition and specification roles without operational instructions.",
+        "Map liquefaction, storage and receiving infrastructure conceptually."
+      ]
+    },
+    {
+      "pair_index": 22,
+      "ids": [
+        "BANK-422-033",
+        "BANK-422-044"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Landing-impact and mass design tradeoffs differ from seals, actuation and repeated-service reliability.",
+      "scope_evidence": [
+        "Compare load cases, geometry and packaging conceptually.",
+        "Include seals, actuation, inspection and repeated service."
+      ]
+    },
+    {
+      "pair_index": 23,
+      "ids": [
+        "BANK-008-122",
+        "BANK-312-040"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Household currency mismatch management differs from economy-wide foreign-currency functions.",
+      "scope_evidence": [
+        "Build explicit exchange-rate scenarios, transfer timing and cash buffers using fictional amounts; distinguish managing a mismatch from speculating on future exchange rates.",
+        "Compare official versus informal use, contracts, cash supply, bank settlement and policy constraints; exclude predictions about a present country's currency choice."
+      ]
+    },
+    {
+      "pair_index": 24,
+      "ids": [
+        "BANK-034-048",
+        "BANK-098-036"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Protected-land access, sampling and data release differ from commercial image publication rights.",
+      "scope_evidence": [
+        "Map access, sampling, specimen transfer, community authority, recording and data-release permissions in a hypothetical research expedition; select actual jurisdiction and official rules later rather than supplying a transferable permit checklist.",
+        "Compare property rules, privacy, copyright and contracts in a named jurisdiction; exclude blanket claims that public visibility settles every right."
+      ]
+    },
+    {
+      "pair_index": 25,
+      "ids": [
+        "BANK-007-030",
+        "BANK-342-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Character appearance continuity differs from downstream editing and sound revisions after a changed shot.",
+      "scope_evidence": [
+        "Compare references, seeds, prompts, lighting and model versions while documenting which controls actually affect identity.",
+        "Trace timing, screen position, continuity, dialogue, handles and version dependencies in a fictional three-shot scene; distinguish revision planning from prompt archival alone."
+      ]
+    },
+    {
+      "pair_index": 26,
+      "ids": [
+        "BANK-009-043",
+        "BANK-481-040"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Emotion regulation versus suppression is a human measurement question; recognition versus experience concerns AI consciousness.",
+      "scope_evidence": [
+        "Compare strategies, timing, physiological measures and context without ranking one strategy as best in every situation.",
+        "Separate classification, expression and contested subjective experience."
+      ]
+    },
+    {
+      "pair_index": 27,
+      "ids": [
+        "BANK-470-032",
+        "BANK-470-043"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Formally optional hiring enhancement under unequal bargaining power repeats the workplace-compulsion question.",
+      "scope_evidence": [
+        "Trace incentives, consent and unequal bargaining power.",
+        "Map incentives and unequal bargaining power."
+      ]
+    },
+    {
+      "pair_index": 28,
+      "ids": [
+        "BANK-443-042",
+        "BANK-524-031"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Food-web dependencies and supply-chain food loss are unrelated despite shared food wording.",
+      "scope_evidence": [
+        "Trace multiple dependencies and changing context.",
+        "Define supply-chain stages and measurement boundaries."
+      ]
+    },
+    {
+      "pair_index": 29,
+      "ids": [
+        "BANK-450-037",
+        "BANK-450-047"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Participle translation and finite tense/aspect translation are different grammatical objects.",
+      "scope_evidence": [
+        "Separate tense, aspect, voice and discourse context.",
+        "Separate form, narrative context and translation convention."
+      ]
+    },
+    {
+      "pair_index": 30,
+      "ids": [
+        "BANK-032-017",
+        "BANK-423-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Staging/payload performance design differs from integration interface test failures.",
+      "scope_evidence": [
+        "Use explicit mass and performance assumptions without interpreting a simplified calculation as a complete rocket design.",
+        "Compare mechanical, thermal and electrical interfaces."
+      ]
+    },
+    {
+      "pair_index": 31,
+      "ids": [
+        "BANK-053-029",
+        "BANK-459-041"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Macro employment/ownership futures differ from training apprentices when entry tasks change.",
+      "scope_evidence": [
+        "Construct multiple employment and ownership scenarios without treating job disappearance or universal abundance as established outcomes.",
+        "Compare supervised practice and retained foundational judgment."
+      ]
+    },
+    {
+      "pair_index": 32,
+      "ids": [
+        "BANK-411-039",
+        "BANK-411-044"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Oversized material texture in a miniature is already the concrete scale-cue and surface-detail problem in the primary scope.",
+      "scope_evidence": [
+        "Compare scale cues and material stability.",
+        "Compare feature scale, lighting and camera distance in original material tests."
+      ]
+    },
+    {
+      "pair_index": 33,
+      "ids": [
+        "BANK-063-035",
+        "BANK-482-034"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General product service shutdown differs from memorial-data custody and deletion after provider closure.",
+      "scope_evidence": [
+        "Trace documented announcements, export windows, replacement functions and consumer remedies in one case; avoid assuming all owners had identical outcomes.",
+        "Map export, deletion, custody and continued access."
+      ]
+    },
+    {
+      "pair_index": 34,
+      "ids": [
+        "BANK-004-138",
+        "BANK-018-015"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Mahabharata dialogue close reading differs from planning a visual adaptation of that dialogue.",
+      "scope_evidence": [
+        "Read the sequence of requests and responses in a specified edition; preserve the character's reasoning and avoid presenting the narrative as a guaranteed longevity practice.",
+        "Trace the selected source's exchanges, sequence and agency; disclose simplified or invented wording."
+      ]
+    },
+    {
+      "pair_index": 35,
+      "ids": [
+        "BANK-064-046",
+        "BANK-396-030"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both compare household appliance power, running time and measured energy; the existing scope has explicit cycles and service denominators.",
+      "scope_evidence": [
+        "Use hypothetical power, cycles, standby use and service delivered; distinguish a label rating from measured household consumption and avoid invented savings.",
+        "Read appliance ratings, running time and measured consumption."
+      ]
+    },
+    {
+      "pair_index": 36,
+      "ids": [
+        "BANK-014-043",
+        "BANK-444-034"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Updating current-event analysis differs from correcting dated trivia answers in an archive.",
+      "scope_evidence": [
+        "Date the analysis, identify revised facts and preserve the distinction between contemporary uncertainty and later knowledge.",
+        "Preserve original date and publish corrections with replacement questions."
+      ]
+    },
+    {
+      "pair_index": 37,
+      "ids": [
+        "BANK-066-042",
+        "BANK-067-038"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Wildlife camera disturbance differs from drone footage permissions and aviation rules.",
+      "scope_evidence": [
+        "Inspect baiting, playback, lights, proximity and researcher protocols; require transparent methods and exclude demonstrations that disturb breeding or threatened animals.",
+        "Consult current aviation, land-management and species-disturbance rules for the exact site; require permissions and exclude tactics for evading restrictions."
+      ]
+    },
+    {
+      "pair_index": 38,
+      "ids": [
+        "BANK-096-042",
+        "BANK-526-042"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both ask about museum and source-community care, authority and responsibilities after repatriation, beyond the handover ceremony.",
+      "scope_evidence": [
+        "Investigate documented care, transport, records, community priorities and continuing agreements; avoid implying return resolves every historical harm.",
+        "Track authority, care agreements, access and continuing responsibilities rather than end the story at transfer."
+      ]
+    },
+    {
+      "pair_index": 39,
+      "ids": [
+        "BANK-002-024",
+        "BANK-056-030"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both test claimed Voynich decipherment by reproducibility, broad corpus coverage and independent validation.",
+      "scope_evidence": [
+        "Require a reproducible method, predictive readings and treatment of the whole corpus rather than isolated suggestive words.",
+        "Specify repeatability, coverage, independent validation and the handling of failed predictions without endorsing a proposed solution."
+      ]
+    },
+    {
+      "pair_index": 40,
+      "ids": [
+        "BANK-419-033",
+        "BANK-419-044"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Road/track brake behavior differs from regulatory approval of a road-legal vehicle.",
+      "scope_evidence": [
+        "Separate temperature windows, wear and everyday usability.",
+        "State jurisdiction and separate regulatory compliance from marketing."
+      ]
+    },
+    {
+      "pair_index": 41,
+      "ids": [
+        "BANK-006-025",
+        "BANK-012-046"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Detector signals and noise rejection differ from multimessenger evidence compared with telescope images.",
+      "scope_evidence": [
+        "Trace detector signals, noise rejection, independent observations and model-based parameter estimation.",
+        "Compare strain, source models, localization and complementary light observations without claiming every event has a visible counterpart."
+      ]
+    },
+    {
+      "pair_index": 42,
+      "ids": [
+        "BANK-004-110",
+        "BANK-274-033"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Garuda narrative roles differ from regional Vaishnava emphasis among forms of Vishnu.",
+      "scope_evidence": [
+        "Read attributed sources on family, freedom and divine relationship.",
+        "Compare selected communities, texts and devotional relationships without imposing one hierarchy."
+      ]
+    },
+    {
+      "pair_index": 43,
+      "ids": [
+        "BANK-115-030",
+        "BANK-115-032"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Forest system structure differs from the specific ecological roles of dead trees.",
+      "scope_evidence": [
+        "Trace canopy, understory, soil, fungi and animal relationships in one forest type; distinguish plantations from diverse ecosystems.",
+        "Examine decomposition, cavities, moisture and nutrient cycling while separating ecological roles from site-specific safety decisions."
+      ]
+    },
+    {
+      "pair_index": 44,
+      "ids": [
+        "BANK-054-013",
+        "BANK-054-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Definitions of consciousness differ from clinical assessment as a limit on philosophical inference.",
+      "scope_evidence": [
+        "Separate wakefulness, subjective experience, access and self-awareness before comparing theories.",
+        "Describe the distinction between observable response and inferred awareness through authoritative research, with no patient-specific advice."
+      ]
+    },
+    {
+      "pair_index": 45,
+      "ids": [
+        "BANK-021-022",
+        "BANK-140-044"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both bound what a pre-purchase marine survey can establish when access and testing exclude systems.",
+      "scope_evidence": [
+        "Distinguish visible condition, inspection access, tests and excluded systems; do not treat a survey as a guarantee.",
+        "Compare access, haul-out limits, equipment tests, documentation, exclusions and specialist follow-up in a fictional survey; avoid certifying a boat or replacing a qualified surveyor."
+      ]
+    },
+    {
+      "pair_index": 46,
+      "ids": [
+        "BANK-236-031",
+        "BANK-236-037"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Service access due to distance differs from historical administrative transfer of a territory.",
+      "scope_evidence": [
+        "Trace transport, healthcare referrals, procurement and digital links without assuming present service quality.",
+        "Trace citizenship, laws, records, public employment, currency and infrastructure through a bounded historical case."
+      ]
+    },
+    {
+      "pair_index": 47,
+      "ids": [
+        "BANK-128-032",
+        "BANK-128-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Why headset motion causes discomfort differs from measuring discomfort without a universal latency threshold.",
+      "scope_evidence": [
+        "Compare visual motion, physical motion, latency and individual variability; avoid medical diagnosis or universal comfort promises.",
+        "Compare baseline symptoms, task, duration, self-report, performance, dropout and individual variation; distinguish a research measure from personal medical advice or proof of universal comfort."
+      ]
+    },
+    {
+      "pair_index": 48,
+      "ids": [
+        "BANK-512-035",
+        "BANK-512-041"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Classical stages of a quantum workload differ from classical control-hardware scaling constraints.",
+      "scope_evidence": [
+        "Map preparation, control, decoding and output analysis.",
+        "Map wiring, timing, heat and calibration."
+      ]
+    },
+    {
+      "pair_index": 49,
+      "ids": [
+        "BANK-006-047",
+        "BANK-481-042"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General theory-measurement disagreement differs from discriminating AI-specific consciousness predictions.",
+      "scope_evidence": [
+        "Identify their proposed mechanisms, predictions and the degree to which tests can distinguish them.",
+        "Require specific mechanisms and possible discriminating observations."
+      ]
+    },
+    {
+      "pair_index": 50,
+      "ids": [
+        "BANK-447-035",
+        "BANK-447-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Meaning of unofficial flag use differs from historical adoption and changing legal status.",
+      "scope_evidence": [
+        "Separate legal status, community use and contested representation.",
+        "Trace adoption, public use and contested representation."
+      ]
+    },
+    {
+      "pair_index": 51,
+      "ids": [
+        "BANK-004-152",
+        "BANK-543-049"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "One verse with its traditional commentary differs from a landscape-imagery and speaker reading; select passages to preserve this boundary.",
+      "scope_evidence": [
+        "Bound the episode to one verse and named commentary, explaining key Tamil terms; avoid claiming that one English rendering contains every theological meaning.",
+        "Name collection, Tamil text and translation choices; distinguish poet, speaker and later commentary."
+      ]
+    },
+    {
+      "pair_index": 52,
+      "ids": [
+        "BANK-003-104",
+        "BANK-544-047"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General household labor archaeology differs from Egyptian craft-workshop debris as a bounded case.",
+      "scope_evidence": [
+        "Compare tools, spatial patterns, residues and production debris.",
+        "Compare tools, unfinished objects and spatial context without reconstructing unsupported production recipes."
+      ]
+    },
+    {
+      "pair_index": 53,
+      "ids": [
+        "BANK-430-035",
+        "BANK-430-041"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "The generic tower conversion scope repeats floor plate, services and egress barriers already bounded to housing conversion.",
+      "scope_evidence": [
+        "Compare floor depth, services, egress and local approval requirements.",
+        "Compare floor plates, services and egress questions."
+      ]
+    },
+    {
+      "pair_index": 54,
+      "ids": [
+        "BANK-388-036",
+        "BANK-388-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Linear versus parallel clue paths differ from remote-participant clue fairness.",
+      "scope_evidence": [
+        "Map dependencies and player participation.",
+        "Compare camera access, communication and interaction limits."
+      ]
+    },
+    {
+      "pair_index": 55,
+      "ids": [
+        "BANK-061-026",
+        "BANK-324-043"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both explain why asynchronous operations do not imply parallel CPU computation using scheduling and I/O examples.",
+      "scope_evidence": [
+        "Contrast waiting for independent I/O with CPU-bound work using runtime diagrams and controlled examples; verify the chosen language's scheduling model.",
+        "Compare event loops, waiting, scheduling, CPU work, cancellation and shared state through a small language-neutral trace."
+      ]
+    },
+    {
+      "pair_index": 56,
+      "ids": [
+        "BANK-124-042",
+        "BANK-550-046"
+      ],
+      "decision": "consolidate_same_episode",
+      "reason": "Both use pickup pattern, distance and room response to explain a microphone recording; the primary states the controlled comparison.",
+      "scope_evidence": [
+        "Compare on-axis and off-axis response, room sound, distance, proximity and handling in controlled recordings; distinguish a polar plot from a promise to remove every unwanted sound.",
+        "Compare pickup pattern, distance and source behavior conceptually; avoid a universal best-microphone claim."
+      ]
+    },
+    {
+      "pair_index": 57,
+      "ids": [
+        "BANK-269-039",
+        "BANK-269-049"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Pitch accent in recitation differs from editorial choices among manuscripts, accent notation and recitation.",
+      "scope_evidence": [
+        "Compare linguistic form, oral notation, training and manuscript representation; exclude certification of ritual pronunciation.",
+        "Compare editorial apparatus, witness selection, notation limits and explanatory notes for a selected passage; do not certify a single universally authentic version."
+      ]
+    },
+    {
+      "pair_index": 58,
+      "ids": [
+        "BANK-279-032",
+        "BANK-279-092"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "Defining an alternate-nostril intervention differs from choosing an active comparator in its trial.",
+      "scope_evidence": [
+        "Describe published protocol variables without turning them into viewer instructions.",
+        "Consider contact time, posture, expectation, attention, and actual breathing variables."
+      ]
+    },
+    {
+      "pair_index": 59,
+      "ids": [
+        "BANK-316-031",
+        "BANK-316-039"
+      ],
+      "decision": "retain_distinct_scope",
+      "reason": "General auction provenance and restriction checks differ from a restitution claim despite legal sale.",
+      "scope_evidence": [
+        "Trace ownership, attribution, condition, restrictions and uncertainty; avoid authenticating unknown objects.",
+        "Compare ownership history, removal context, claimants, records and jurisdiction without adjudicating an unresearched dispute."
+      ]
+    }
+  ],
+  "duplicate_recommendations": [
+    {
+      "retire_id": "BANK-354-040",
+      "primary_id": "BANK-006-125",
+      "reason": "Both trace microbial horizontal gene transfer, gene trees and the failure of a single organism tree; retain the established mechanism scope."
+    },
+    {
+      "retire_id": "BANK-470-041",
+      "primary_id": "BANK-470-038",
+      "reason": "Both ask who consents to enhancement affecting future generations and compare reversibility and intergenerational consequences."
+    },
+    {
+      "retire_id": "BANK-541-039",
+      "primary_id": "BANK-004-162",
+      "reason": "Both map Mahabharata telling occasions and narrator knowledge in an edition; keep the newly bounded frame-structure proposal."
+    },
+    {
+      "retire_id": "BANK-056-053",
+      "primary_id": "BANK-002-076",
+      "reason": "Both examine Beale paper editions, provenance and cipher claims before accepting the treasure narrative."
+    },
+    {
+      "retire_id": "BANK-471-042",
+      "primary_id": "BANK-470-032",
+      "reason": "Workplace incentives, refusal costs and nominally optional enhancement are the same episode; retain the general ethics primary."
+    },
+    {
+      "retire_id": "BANK-425-036",
+      "primary_id": "BANK-425-045",
+      "reason": "Both cover train stopping and station coordination for platform doors; the newer scope also bounds evacuation responsibilities."
+    },
+    {
+      "retire_id": "BANK-470-043",
+      "primary_id": "BANK-470-032",
+      "reason": "Formally optional hiring enhancement under unequal bargaining power repeats the workplace-compulsion question."
+    },
+    {
+      "retire_id": "BANK-411-044",
+      "primary_id": "BANK-411-039",
+      "reason": "Oversized material texture in a miniature is already the concrete scale-cue and surface-detail problem in the primary scope."
+    },
+    {
+      "retire_id": "BANK-396-030",
+      "primary_id": "BANK-064-046",
+      "reason": "Both compare household appliance power, running time and measured energy; the existing scope has explicit cycles and service denominators."
+    },
+    {
+      "retire_id": "BANK-526-042",
+      "primary_id": "BANK-096-042",
+      "reason": "Both ask about museum and source-community care, authority and responsibilities after repatriation, beyond the handover ceremony."
+    },
+    {
+      "retire_id": "BANK-056-030",
+      "primary_id": "BANK-002-024",
+      "reason": "Both test claimed Voynich decipherment by reproducibility, broad corpus coverage and independent validation."
+    },
+    {
+      "retire_id": "BANK-140-044",
+      "primary_id": "BANK-021-022",
+      "reason": "Both bound what a pre-purchase marine survey can establish when access and testing exclude systems."
+    },
+    {
+      "retire_id": "BANK-430-041",
+      "primary_id": "BANK-430-035",
+      "reason": "The generic tower conversion scope repeats floor plate, services and egress barriers already bounded to housing conversion."
+    },
+    {
+      "retire_id": "BANK-324-043",
+      "primary_id": "BANK-061-026",
+      "reason": "Both explain why asynchronous operations do not imply parallel CPU computation using scheduling and I/O examples."
+    },
+    {
+      "retire_id": "BANK-550-046",
+      "primary_id": "BANK-124-042",
+      "reason": "Both use pickup pattern, distance and room response to explain a microphone recording; the primary states the controlled comparison."
+    }
+  ]
+}

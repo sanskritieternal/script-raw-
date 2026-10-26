@@ -6,6 +6,7 @@ This repository holds the niche registry and a six-phase workflow for preparing 
 |---|---|
 | `CORE/` | Production contract, rules, and phase templates |
 | `REGISTRY/` | Niche taxonomy, plans, angles, and source records |
+| [topics/](topics/ALL_NICHE_TOPIC_BANKS.md) | YouTube topic banks: categories, subcategories, specific video proposals, and individual coverage scopes |
 | `OUTPUT/` | Episode projects and their deliverables |
 | `Tools/projects/` | Project creation, idea banks, and production packaging |
 | `Tools/registry/` | Registry generation, mapping, and editorial checks |

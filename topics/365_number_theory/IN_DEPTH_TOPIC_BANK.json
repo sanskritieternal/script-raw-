@@ -1,0 +1,1617 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "365",
+  "slug": "number_theory",
+  "name": "Number Theory",
+  "primary_category": "Math_Scientific_Methods",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Number Theory YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 13
+  },
+  "categories": [
+    {
+      "id": "CATALOG-365-R01",
+      "title": "Primes",
+      "level": "foundation",
+      "parent_id": "DOMAIN-365-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "8b669468468fcc5d6994d0d0e424fbecf521701bb81bbb8f31cc1b31defaf25c",
+      "topics": [
+        {
+          "question": "Why are prime numbers useful for understanding all whole-number multiplication?",
+          "coverage": "Explain divisibility, factorization and uniqueness through worked small examples without assuming an even spacing of primes.",
+          "id": "BANK-365-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R02",
+      "title": "Remainders",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2918efcc98e75440d8fddcf9f658d25fd7a8eb3606d9c15a434ee9653c7d03f3",
+      "topics": [
+        {
+          "question": "How can arithmetic wrap around while preserving useful structure?",
+          "coverage": "Compare congruence, addition, multiplication and clock examples; distinguish modular division from ordinary division.",
+          "id": "BANK-365-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R03",
+      "title": "Infinite primes",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "39d093f8a4cb5374e20f4bb1bd6d701e51599f6eaad44860995aa0760c1d14c1",
+      "topics": [
+        {
+          "question": "Why does Euclid's argument establish infinitely many primes without listing them?",
+          "coverage": "Trace the finite-list assumption, constructed number and contradiction; avoid implying the constructed number must itself be prime.",
+          "id": "BANK-365-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R04",
+      "title": "Prime patterns",
+      "level": "advanced",
+      "parent_id": "DOMAIN-365-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e9def19872a25b904554eb851ce57679d66215bf2f2695e2e0b34d0453eb5f43",
+      "topics": [
+        {
+          "question": "Why can strong numerical evidence fail to settle a number-theory conjecture?",
+          "coverage": "Compare checked ranges, proof, counterexample and asymptotic claims using a clearly labeled unsolved question.",
+          "id": "BANK-365-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R05",
+      "title": "Diophantine problems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "62e9a176a448dcd2e06262450a553c5977d4bded5ea299dbce8138f36cdc6775",
+      "topics": [
+        {
+          "question": "Why does requiring whole-number solutions change an ordinary-looking equation?",
+          "coverage": "Compare integer constraints, divisibility, bounds and worked small examples.",
+          "id": "BANK-365-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-003"
+          ]
+        },
+        {
+          "question": "What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem?",
+          "coverage": "Track the published modular-elliptic-curve result and companion ring-theoretic argument at the level of stated theorem and dependency; avoid presenting a short sketch as a verification of the full proof.",
+          "id": "BANK-365-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R06",
+      "title": "Fermat's little theorem",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "72726636acf996c79d5a84835de355dac523cdf253c3aca8164a2d8125a87c1a",
+      "topics": [
+        {
+          "question": "What does Fermat's little theorem guarantee and what does it not say about primality?",
+          "coverage": "State assumptions, demonstrate modular powers and distinguish necessary conditions from sufficient tests.",
+          "id": "BANK-365-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-005"
+          ]
+        },
+        {
+          "question": "What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair?",
+          "coverage": "Compare the 2004 theorem statement with the authors' specific correction to Lemma 4.3; separate asymptotic existence of an algorithm from a claim that it is fastest in practical use.",
+          "id": "BANK-365-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R07",
+      "title": "Squares",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9d26fbf4b7d7ad6682a51d0ed8ae0038586c5511ec835badde9d8dc34d77b2a1",
+      "topics": [
+        {
+          "question": "Why are only some remainders possible when integers are squared modulo a number?",
+          "coverage": "Compare residue classes, examples, structure and prime versus composite moduli.",
+          "id": "BANK-365-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R08",
+      "title": "Checksums",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-365-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6a1031dacd34859c9885a158312d6727a89b570addf6c24dc67fe58d2f7a2647",
+      "topics": [
+        {
+          "question": "How can modular arithmetic detect a mistyped number without recovering the intended one?",
+          "coverage": "Compare weighted sums, error patterns, collision limits and a small invented identifier.",
+          "id": "BANK-365-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R09",
+      "title": "Cryptography",
+      "level": "advanced",
+      "parent_id": "DOMAIN-365-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e0d1f6a191a98253efbe1bcfd6cc87745548eb35b3f91aa4c1a5e298cc775ce0",
+      "topics": [
+        {
+          "question": "Why can a number-theory problem be easy in one direction and difficult to reverse?",
+          "coverage": "Compare computation, problem assumptions, key sizes conceptually and security limits; exclude cryptographic implementation advice.",
+          "id": "BANK-365-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R10",
+      "title": "Pseudorandomness",
+      "level": "advanced",
+      "parent_id": "DOMAIN-365-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "470cb0f034a534780d60f9ae4df56b14fc3a2794b91c711413dd8583203aa8ec",
+      "topics": [
+        {
+          "question": "How can a deterministic arithmetic process produce random-looking numbers?",
+          "coverage": "Compare state, recurrence, period, distribution tests and predictability; distinguish appearance from cryptographic security.",
+          "id": "BANK-365-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-365-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-365-R11",
+      "title": "Constructive existence",
+      "level": "advanced",
+      "parent_id": "DOMAIN-365-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d1c8ab53a395f7cd181c5dfa0875bdcb2f09abc39f3e745661261c82cc7b16e8",
+      "topics": [
+        {
+          "question": "How can a number-theory proof establish that an integer exists without providing an efficient way to find it?",
+          "coverage": "Compare existence, construction, bounds, search and computational complexity through a selected accessible theorem; do not conflate proof with a practical algorithm.",
+          "id": "BANK-365-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "119",
+      "title": "Mathematics",
+      "directory": "119_mathematics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "120",
+      "title": "Logic & Critical Thinking",
+      "directory": "120_logic_critical_thinking",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "121",
+      "title": "Statistics & Data",
+      "directory": "121_statistics_data",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "364",
+      "title": "Geometry",
+      "directory": "364_geometry",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "366",
+      "title": "Infinity",
+      "directory": "366_infinity",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/365_number_theory/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "d761cd80f106d06291828cc7445e16733974e969be90ab94daf6dbea03f4908d",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-365-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6d52d80b6ee5f0d56d6433568e64800003fd537432ce5659a84af3e869709f60"
+      },
+      "BANK-365-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "31ebe69575b33d0a4f93cde9f4a1cc890201f749a1c5e311e5dc7674c62a619c"
+      },
+      "BANK-365-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e96912f9dcd6973554c528480ca1e3810fdb002aea7ec2582d413648a84fa83b"
+      },
+      "BANK-365-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "916780b446ee4fca12d6a604efb2d9e709515a8bceeae756b06fb7a3bb368d7e"
+      },
+      "BANK-365-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7d7cf6c4397398c8590fb46daf23be741eb87656f6ed5deb1469b5a5b5afbdb9"
+      },
+      "BANK-365-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e7a273c4e0f03c3806a7b941b7a7a65d5f4147ba81c7796a4c7fae3a90350b66"
+      },
+      "BANK-365-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9f2a480e4a8602580730766d31fd54aa5376e76eb18f6330703e699b46453eeb"
+      },
+      "BANK-365-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "56a3cba20e08a5440b0430d927f6c876b0bdd2fb584ea91303d1f989d5d6b210"
+      },
+      "BANK-365-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "912c3e8831db15c8cb334786860debaaa596902d90eb83754f0818e0ac698f7c"
+      }
+    },
+    "source_categories": {
+      "CATALOG-365-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "ad026a4484cb2322e36e62c1a1a610594a507300fa054aa64b19b7fedefaca01"
+      },
+      "CATALOG-365-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "2496a56fa1f2b8285a66d6b6bcfa4bb355823c1d7aa59bfe1788caf013ae9a6e"
+      },
+      "CATALOG-365-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "c931c5df222248b2f342aa9614753d3a0b2ddab8f56344565698a52e6f9e18f8"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "365_NUMBER_THEORY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "d550ecf2cb671fc627b75547060ff87b8cf3dbed237968424dd214efc9813870",
+        "original_text": "# Number Theory Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 365 Number Theory (Math_Scientific_Methods)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Number Theory Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/365_number_theory/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Number Theory across four progressive tiers:\r\n- **Tier 1: Number Theory Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Number Theory.\r\n- **Tier 2: Number Theory Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Number Theory.\r\n- **Tier 3: Number Theory Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Number Theory.\r\n- **Tier 4: Number Theory Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Number Theory.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/365_number_theory/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/365_number_theory/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Divisibility Question Emerges** | *Which problem led to a named number-theoretic method?* |\r\n| 2 | `famous_examples` | **A Classic Prime Proof Rechecked** | *What does the argument establish exactly?* |\r\n| 3 | `hidden_stories` | **Contributors to a Number-Theory Result** | *Whose proof, computation, or correspondence is overlooked?* |\r\n| 4 | `beginner_explainers` | **Divisibility and Remainders** | *How does modular arithmetic answer one concrete question?* |\r\n| 5 | `advanced_concepts` | **Proof Beyond Computation** | *Why can checking many integers never establish a universal claim?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Current Number-Theory Conjecture** | *Which ranges are checked and what remains unproved?* |\r\n| 7 | `technology_innovation` | **Computers in Number Theory** | *Did computation discover a pattern or certify a proof?* |\r\n| 8 | `people_personalities` | **A Proof Claim Examined** | *How did mathematicians check a proposed argument?* |\r\n| 9 | `major_events` | **A Theorem's Proof Milestone** | *Which lemma resolved a previously open case?* |\r\n| 10 | `how_it_works` | **A Modular Proof** | *How do residue classes constrain solutions?* |\r\n| 11 | `rise_fall` | **A Conjectured Pattern Reassessed** | *What counterexample or theorem changed it?* |\r\n| 12 | `then_vs_now` | **One Problem Across Methods** | *How did elementary, analytic, or computational approaches differ?* |\r\n| 13 | `future_developments` | **A Number-Theory Research Direction** | *Which exact special case might advance an open question?* |\r\n| 14 | `myths_vs_facts` | **Large Test Equals Proof?** | *What remains outside a finite search?* |\r\n| 15 | `documentary_stories` | **A Conjecture's Evidence Trail** | *How did examples, partial results, and proofs accumulate?* |\r\n| 16 | `observation_to_explanation` | **Pattern in Integers to Theorem** | *What conjecture follows from examples and how could it be tested?* |\r\n| 17 | `measurement_method` | **Counting Arithmetic Objects** | *Which algorithm and bound produced a reported count?* |\r\n| 18 | `scale_and_timespan` | **Small Numbers to All Integers** | *When does an observed pattern stop generalizing?* |\r\n| 19 | `field_vs_lab` | **Computation and Formal Proof** | *What can a search establish for a finite range?* |\r\n| 20 | `natural_variation` | **Residue Classes** | *How does a result differ across congruence classes?* |\r\n| 21 | `mechanism_chain` | **A Proof's Logical Dependencies** | *Which lemmas support the main claim?* |\r\n| 22 | `extreme_case` | **A Boundary Integer** | *Do zero, one, negative, or very large inputs alter the claim?* |\r\n| 23 | `classification_debate` | **Prime, Irreducible, and Unit** | *Which algebraic setting changes a definition?* |\r\n| 24 | `interacting_systems` | **Number Theory and Cryptography** | *Which mathematical theorem supports a protocol property?* |\r\n| 25 | `data_gap` | **A Missing Number-Theory Lemma** | *What precisely has not been established?* |\r\n| 26 | `prediction_test` | **Searching for Counterexamples** | *Which finite range would best stress a conjecture?* |\r\n| 27 | `human_impact` | **Arithmetic in Digital Systems** | *Which number-theory claim matters in a deployed method?* |\r\n| 28 | `field_proof_or_test` | **Proving an Infinite Claim** | *Which argument covers every allowed integer?* |\r\n| 29 | `field_definition_choice` | **What Is a Prime Here?** | *Does the definition include units or negative associates?* |\r\n| 30 | `field_model_assumptions` | **Working in a Number System** | *Which property of integers does the proof use?* |\r\n| 31 | `field_counterexample` | **One Number Changes the Claim** | *Which explicit input disproves an overbroad statement?* |\r\n| 32 | `field_teaching_difficulty` | **From Examples to Proof** | *Where do learners mistake pattern for certainty?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Number Theory: A Divisibility Question Emerges**\r\n   - *Question:* Which problem led to a named number-theoretic method?\r\n   - *Key Focus:* Use dated primary proofs and context. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n2. **Number Theory: A Classic Prime Proof Rechecked**\r\n   - *Question:* What does the argument establish exactly?\r\n   - *Key Focus:* Trace contradiction and avoid claiming a constructed next prime. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n3. **Number Theory: Contributors to a Number-Theory Result**\r\n   - *Question:* Whose proof, computation, or correspondence is overlooked?\r\n   - *Key Focus:* Use dated publications and attribution. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n4. **Number Theory: Divisibility and Remainders**\r\n   - *Question:* How does modular arithmetic answer one concrete question?\r\n   - *Key Focus:* Define congruence and show a small example. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n5. **Number Theory: Proof Beyond Computation**\r\n   - *Question:* Why can checking many integers never establish a universal claim?\r\n   - *Key Focus:* Compare finite evidence with deduction. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Number Theory: A Current Number-Theory Conjecture**\r\n   - *Question:* Which ranges are checked and what remains unproved?\r\n   - *Key Focus:* Use dated authoritative status and exact statement. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n7. **Number Theory: Computers in Number Theory**\r\n   - *Question:* Did computation discover a pattern or certify a proof?\r\n   - *Key Focus:* Describe algorithm, bounds, and verification. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n8. **Number Theory: A Proof Claim Examined**\r\n   - *Question:* How did mathematicians check a proposed argument?\r\n   - *Key Focus:* Follow paper, critique, and correction. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n9. **Number Theory: A Theorem's Proof Milestone**\r\n   - *Question:* Which lemma resolved a previously open case?\r\n   - *Key Focus:* Use original work and independent exposition. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n10. **Number Theory: A Modular Proof**\r\n   - *Question:* How do residue classes constrain solutions?\r\n   - *Key Focus:* Write definitions, inference, and boundary cases. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Number Theory: A Conjectured Pattern Reassessed**\r\n   - *Question:* What counterexample or theorem changed it?\r\n   - *Key Focus:* Show exact statement before and after. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n12. **Number Theory: One Problem Across Methods**\r\n   - *Question:* How did elementary, analytic, or computational approaches differ?\r\n   - *Key Focus:* Compare what each proves. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n13. **Number Theory: A Number-Theory Research Direction**\r\n   - *Question:* Which exact special case might advance an open question?\r\n   - *Key Focus:* State known bounds and proof gap. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n14. **Number Theory: Large Test Equals Proof?**\r\n   - *Question:* What remains outside a finite search?\r\n   - *Key Focus:* Explain quantifier and possible counterexample. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n15. **Number Theory: A Conjecture's Evidence Trail**\r\n   - *Question:* How did examples, partial results, and proofs accumulate?\r\n   - *Key Focus:* Date claims and correct status. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Number Theory: Pattern in Integers to Theorem**\r\n   - *Question:* What conjecture follows from examples and how could it be tested?\r\n   - *Key Focus:* Separate data and proof. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n17. **Number Theory: Counting Arithmetic Objects**\r\n   - *Question:* Which algorithm and bound produced a reported count?\r\n   - *Key Focus:* State exactness, code, and verification. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n18. **Number Theory: Small Numbers to All Integers**\r\n   - *Question:* When does an observed pattern stop generalizing?\r\n   - *Key Focus:* Seek structural proof or counterexample. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n19. **Number Theory: Computation and Formal Proof**\r\n   - *Question:* What can a search establish for a finite range?\r\n   - *Key Focus:* State machine, method, bound, and theorem status. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n20. **Number Theory: Residue Classes**\r\n   - *Question:* How does a result differ across congruence classes?\r\n   - *Key Focus:* Partition cases and verify coverage. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 365 (Number Theory)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Number Theory: A Divisibility Question Emerges*\r\n- **Episode Slug:** `365_number_theory_deep_dive_the_architecture_of_number_theory_a_divisibility_question_em`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/365_number_theory/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "d9999609d5b90625aca8e57425fe1f17a5d276ed2943fe4be290e17baaf5c227",
+        "original_text": "# 365 Number Theory -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 365 Number Theory (Math_Scientific_Methods)  \r\n> **Storage Directory:** `topics/365_number_theory/`  \r\n> **Synchronized With:** `OUTPUT/365_number_theory/`, `REGISTRY/Niches/365_number_theory/`, and `365_NUMBER_THEORY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 365 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/365_number_theory](../../OUTPUT/365_number_theory) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Number Theory: A Divisibility Question Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `number_theory_a_divisibility_question_emerges` | A rigorous pedagogical investigation exploring a divisibility question emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Number Theory: A Classic Prime Proof Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `number_theory_a_classic_prime_proof_rechecked` | A rigorous pedagogical investigation exploring a classic prime proof rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Number Theory: Contributors to a Number-Theory Result** | Tier 1: Foundational Frameworks | `hidden_stories` | `number_theory_contributors_to_a_number_theory_result` | A rigorous pedagogical investigation exploring contributors to a number-theory result through documented evidence. | `QUEUED` |\r\n| 4 | **Number Theory: Divisibility and Remainders** | Tier 1: Foundational Frameworks | `beginner_explainers` | `number_theory_divisibility_and_remainders` | A rigorous pedagogical investigation exploring divisibility and remainders through documented evidence. | `QUEUED` |\r\n| 5 | **Number Theory: Proof Beyond Computation** | Tier 1: Foundational Frameworks | `advanced_concepts` | `number_theory_proof_beyond_computation` | A rigorous pedagogical investigation exploring proof beyond computation through documented evidence. | `QUEUED` |\r\n| 6 | **Number Theory: A Current Number-Theory Conjecture** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `number_theory_a_current_number_theory_conjecture` | A rigorous pedagogical investigation exploring a current number-theory conjecture through documented evidence. | `QUEUED` |\r\n| 7 | **Number Theory: Computers in Number Theory** | Tier 2: Methodological Deep Dives | `technology_innovation` | `number_theory_computers_in_number_theory` | A rigorous pedagogical investigation exploring computers in number theory through documented evidence. | `QUEUED` |\r\n| 8 | **Number Theory: A Proof Claim Examined** | Tier 2: Methodological Deep Dives | `people_personalities` | `number_theory_a_proof_claim_examined` | A rigorous pedagogical investigation exploring a proof claim examined through documented evidence. | `QUEUED` |\r\n| 9 | **Number Theory: A Theorem's Proof Milestone** | Tier 2: Methodological Deep Dives | `major_events` | `number_theory_a_theorem_s_proof_milestone` | A rigorous pedagogical investigation exploring a theorem's proof milestone through documented evidence. | `QUEUED` |\r\n| 10 | **Number Theory: A Modular Proof** | Tier 2: Methodological Deep Dives | `how_it_works` | `number_theory_a_modular_proof` | A rigorous pedagogical investigation exploring a modular proof through documented evidence. | `QUEUED` |\r\n| 11 | **Number Theory: A Conjectured Pattern Reassessed** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `number_theory_a_conjectured_pattern_reassessed` | A rigorous pedagogical investigation exploring a conjectured pattern reassessed through documented evidence. | `QUEUED` |\r\n| 12 | **Number Theory: One Problem Across Methods** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `number_theory_one_problem_across_methods` | A rigorous pedagogical investigation exploring one problem across methods through documented evidence. | `QUEUED` |\r\n| 13 | **Number Theory: A Number-Theory Research Direction** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `number_theory_a_number_theory_research_direction` | A rigorous pedagogical investigation exploring a number-theory research direction through documented evidence. | `QUEUED` |\r\n| 14 | **Number Theory: Large Test Equals Proof?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `number_theory_large_test_equals_proof` | A rigorous pedagogical investigation exploring large test equals proof? through documented evidence. | `QUEUED` |\r\n| 15 | **Number Theory: A Conjecture's Evidence Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `number_theory_a_conjecture_s_evidence_trail` | A rigorous pedagogical investigation exploring a conjecture's evidence trail through documented evidence. | `QUEUED` |\r\n| 16 | **Number Theory: Pattern in Integers to Theorem** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `observation_to_explanation` | `number_theory_pattern_in_integers_to_theorem` | A rigorous pedagogical investigation exploring pattern in integers to theorem through documented evidence. | `QUEUED` |\r\n| 17 | **Number Theory: Counting Arithmetic Objects** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `measurement_method` | `number_theory_counting_arithmetic_objects` | A rigorous pedagogical investigation exploring counting arithmetic objects through documented evidence. | `QUEUED` |\r\n| 18 | **Number Theory: Small Numbers to All Integers** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `scale_and_timespan` | `number_theory_small_numbers_to_all_integers` | A rigorous pedagogical investigation exploring small numbers to all integers through documented evidence. | `QUEUED` |\r\n| 19 | **Number Theory: Computation and Formal Proof** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_vs_lab` | `number_theory_computation_and_formal_proof` | A rigorous pedagogical investigation exploring computation and formal proof through documented evidence. | `QUEUED` |\r\n| 20 | **Number Theory: Residue Classes** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `natural_variation` | `number_theory_residue_classes` | A rigorous pedagogical investigation exploring residue classes through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Number Theory: A Boundary Integer** | **98** | `extreme_case` | `number_theory_extreme_case` | High viral search interest exploring do zero, one, negative, or very large inputs alter the claim backed by field records. | `Queued` |\r\n| 22 | **Number Theory: A Current Number-Theory Conjecture** | **96** | `mysteries_unsolved_cases` | `number_theory_mysteries_unsolved_cases` | High viral search interest exploring which ranges are checked and what remains unproved backed by field records. | `Queued` |\r\n| 23 | **Number Theory: Computers in Number Theory** | **95** | `technology_innovation` | `number_theory_technology_innovation` | High viral search interest exploring did computation discover a pattern or certify a proof backed by field records. | `Queued` |\r\n| 24 | **Number Theory: Large Test Equals Proof?** | **94** | `myths_vs_facts` | `number_theory_myths_vs_facts` | High viral search interest exploring what remains outside a finite search backed by field records. | `Queued` |\r\n| 25 | **Number Theory: A Theorem's Proof Milestone** | **93** | `major_events` | `number_theory_major_events` | High viral search interest exploring which lemma resolved a previously open case backed by field records. | `Queued` |\r\n| 26 | **Number Theory: Contributors to a Number-Theory Result** | **92** | `hidden_stories` | `number_theory_hidden_stories` | High viral search interest exploring whose proof, computation, or correspondence is overlooked backed by field records. | `Queued` |\r\n| 27 | **Number Theory: A Conjecture's Evidence Trail** | **91** | `documentary_stories` | `number_theory_documentary_stories` | High viral search interest exploring how did examples, partial results, and proofs accumulate backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/365_number_theory/365_NUMBER_THEORY_CHANNEL_TOPIC_ROADMAP.md`](./365_NUMBER_THEORY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/365_number_theory/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/365_number_theory/NICHE_365_number_theory.md`](file:///h:/script-raw-/REGISTRY/Niches/365_number_theory/NICHE_365_number_theory.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/365_number_theory/CAT_365_number_theory.md`](file:///h:/script-raw-/REGISTRY/Niches/365_number_theory/CAT_365_number_theory.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/365_number_theory/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/365_number_theory/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/365_number_theory/`](file:///h:/script-raw-/OUTPUT/365_number_theory/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "cd36adafb44e88a0ce5b63e53949edd687fcb22acb6c38ba63f9e74453549157",
+        "original_text": "{\r\n  \"niche_id\": \"365\",\r\n  \"niche_name\": \"number_theory\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Number Theory: A Divisibility Question Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"number_theory_a_divisibility_question_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a divisibility question emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Number Theory: A Classic Prime Proof Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"number_theory_a_classic_prime_proof_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a classic prime proof rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Number Theory: Contributors to a Number-Theory Result\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"number_theory_contributors_to_a_number_theory_result\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring contributors to a number-theory result through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Number Theory: Divisibility and Remainders\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"number_theory_divisibility_and_remainders\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring divisibility and remainders through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Number Theory: Proof Beyond Computation\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"number_theory_proof_beyond_computation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring proof beyond computation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Number Theory: A Current Number-Theory Conjecture\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"number_theory_a_current_number_theory_conjecture\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a current number-theory conjecture through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Number Theory: Computers in Number Theory\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"number_theory_computers_in_number_theory\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring computers in number theory through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Number Theory: A Proof Claim Examined\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"number_theory_a_proof_claim_examined\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proof claim examined through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Number Theory: A Theorem's Proof Milestone\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"number_theory_a_theorem_s_proof_milestone\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a theorem's proof milestone through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Number Theory: A Modular Proof\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"number_theory_a_modular_proof\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a modular proof through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Number Theory: A Conjectured Pattern Reassessed\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"number_theory_a_conjectured_pattern_reassessed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a conjectured pattern reassessed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Number Theory: One Problem Across Methods\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"number_theory_one_problem_across_methods\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one problem across methods through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Number Theory: A Number-Theory Research Direction\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"number_theory_a_number_theory_research_direction\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a number-theory research direction through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Number Theory: Large Test Equals Proof?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"number_theory_large_test_equals_proof\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring large test equals proof? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Number Theory: A Conjecture's Evidence Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"number_theory_a_conjecture_s_evidence_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a conjecture's evidence trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Number Theory: Pattern in Integers to Theorem\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"observation_to_explanation\",\r\n      \"slug\": \"number_theory_pattern_in_integers_to_theorem\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring pattern in integers to theorem through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Number Theory: Counting Arithmetic Objects\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"number_theory_counting_arithmetic_objects\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring counting arithmetic objects through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Number Theory: Small Numbers to All Integers\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"scale_and_timespan\",\r\n      \"slug\": \"number_theory_small_numbers_to_all_integers\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring small numbers to all integers through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Number Theory: Computation and Formal Proof\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"number_theory_computation_and_formal_proof\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring computation and formal proof through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Number Theory: Residue Classes\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"natural_variation\",\r\n      \"slug\": \"number_theory_residue_classes\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring residue classes through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Number Theory: A Boundary Integer\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"number_theory_extreme_case\",\r\n      \"why_trending\": \"High viral search interest exploring do zero, one, negative, or very large inputs alter the claim backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Number Theory: A Current Number-Theory Conjecture\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"number_theory_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which ranges are checked and what remains unproved backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Number Theory: Computers in Number Theory\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"number_theory_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did computation discover a pattern or certify a proof backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Number Theory: Large Test Equals Proof?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"number_theory_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring what remains outside a finite search backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Number Theory: A Theorem's Proof Milestone\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"number_theory_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring which lemma resolved a previously open case backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Number Theory: Contributors to a Number-Theory Result\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"number_theory_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose proof, computation, or correspondence is overlooked backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Number Theory: A Conjecture's Evidence Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"number_theory_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did examples, partial results, and proofs accumulate backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "365",
+      "niche_name": "number_theory",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Number Theory: A Divisibility Question Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "number_theory_a_divisibility_question_emerges",
+          "reason": "A rigorous pedagogical investigation exploring a divisibility question emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Number Theory: A Classic Prime Proof Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "number_theory_a_classic_prime_proof_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a classic prime proof rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Number Theory: Contributors to a Number-Theory Result",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "number_theory_contributors_to_a_number_theory_result",
+          "reason": "A rigorous pedagogical investigation exploring contributors to a number-theory result through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Number Theory: Divisibility and Remainders",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "number_theory_divisibility_and_remainders",
+          "reason": "A rigorous pedagogical investigation exploring divisibility and remainders through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Number Theory: Proof Beyond Computation",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "number_theory_proof_beyond_computation",
+          "reason": "A rigorous pedagogical investigation exploring proof beyond computation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Number Theory: A Current Number-Theory Conjecture",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "number_theory_a_current_number_theory_conjecture",
+          "reason": "A rigorous pedagogical investigation exploring a current number-theory conjecture through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Number Theory: Computers in Number Theory",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "number_theory_computers_in_number_theory",
+          "reason": "A rigorous pedagogical investigation exploring computers in number theory through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Number Theory: A Proof Claim Examined",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "number_theory_a_proof_claim_examined",
+          "reason": "A rigorous pedagogical investigation exploring a proof claim examined through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Number Theory: A Theorem's Proof Milestone",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "number_theory_a_theorem_s_proof_milestone",
+          "reason": "A rigorous pedagogical investigation exploring a theorem's proof milestone through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Number Theory: A Modular Proof",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "number_theory_a_modular_proof",
+          "reason": "A rigorous pedagogical investigation exploring a modular proof through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Number Theory: A Conjectured Pattern Reassessed",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "number_theory_a_conjectured_pattern_reassessed",
+          "reason": "A rigorous pedagogical investigation exploring a conjectured pattern reassessed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Number Theory: One Problem Across Methods",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "number_theory_one_problem_across_methods",
+          "reason": "A rigorous pedagogical investigation exploring one problem across methods through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Number Theory: A Number-Theory Research Direction",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "number_theory_a_number_theory_research_direction",
+          "reason": "A rigorous pedagogical investigation exploring a number-theory research direction through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Number Theory: Large Test Equals Proof?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "number_theory_large_test_equals_proof",
+          "reason": "A rigorous pedagogical investigation exploring large test equals proof? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Number Theory: A Conjecture's Evidence Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "number_theory_a_conjecture_s_evidence_trail",
+          "reason": "A rigorous pedagogical investigation exploring a conjecture's evidence trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Number Theory: Pattern in Integers to Theorem",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "observation_to_explanation",
+          "slug": "number_theory_pattern_in_integers_to_theorem",
+          "reason": "A rigorous pedagogical investigation exploring pattern in integers to theorem through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Number Theory: Counting Arithmetic Objects",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "measurement_method",
+          "slug": "number_theory_counting_arithmetic_objects",
+          "reason": "A rigorous pedagogical investigation exploring counting arithmetic objects through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Number Theory: Small Numbers to All Integers",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "scale_and_timespan",
+          "slug": "number_theory_small_numbers_to_all_integers",
+          "reason": "A rigorous pedagogical investigation exploring small numbers to all integers through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Number Theory: Computation and Formal Proof",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_vs_lab",
+          "slug": "number_theory_computation_and_formal_proof",
+          "reason": "A rigorous pedagogical investigation exploring computation and formal proof through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Number Theory: Residue Classes",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "natural_variation",
+          "slug": "number_theory_residue_classes",
+          "reason": "A rigorous pedagogical investigation exploring residue classes through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Number Theory: A Boundary Integer",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "number_theory_extreme_case",
+          "why_trending": "High viral search interest exploring do zero, one, negative, or very large inputs alter the claim backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Number Theory: A Current Number-Theory Conjecture",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "number_theory_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which ranges are checked and what remains unproved backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Number Theory: Computers in Number Theory",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "number_theory_technology_innovation",
+          "why_trending": "High viral search interest exploring did computation discover a pattern or certify a proof backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Number Theory: Large Test Equals Proof?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "number_theory_myths_vs_facts",
+          "why_trending": "High viral search interest exploring what remains outside a finite search backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Number Theory: A Theorem's Proof Milestone",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "number_theory_major_events",
+          "why_trending": "High viral search interest exploring which lemma resolved a previously open case backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Number Theory: Contributors to a Number-Theory Result",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "number_theory_hidden_stories",
+          "why_trending": "High viral search interest exploring whose proof, computation, or correspondence is overlooked backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Number Theory: A Conjecture's Evidence Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "number_theory_documentary_stories",
+          "why_trending": "High viral search interest exploring how did examples, partial results, and proofs accumulate backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "a5dd8a433b0e8b1a4a630533f542cd78aedde692c341ee92b5bf87ac4ea2e843"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "13d110a686601db8ee2579063de1dc88bc04cd88963de87c9c1ddbbab72077fe"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "b7bdb68db4c89ca61a20d6f5d54cca81d57cfae648e59a6222a49c002dbdd8e9"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "575e6310af195d5b58dadc7c16b1bee32becb94292ead1fd57fde18fe52d7447"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "bc1e395196c1c9ed550f21fa32595340a3e33ccb08ad5792e7e1fc6cc6e91a9a"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-365-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-02",
+      "title": "Modular arithmetic",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-03",
+      "title": "Proof",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-04",
+      "title": "Frontiers",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-05",
+      "title": "Equations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-06",
+      "title": "Theorems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-07",
+      "title": "Residues",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-08",
+      "title": "Applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-365-09",
+      "title": "Sequences",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "365",
+    "slug": "number_theory",
+    "name": "Number Theory",
+    "primary_category": "Math_Scientific_Methods",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Number Theory YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-365-01",
+        "title": "Integer structures",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-365-001",
+            "title": "Prime factorization",
+            "question": "Prime factorization: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Integer structures. Address Prime factorization through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Prime factorization precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-002",
+            "title": "Modular arithmetic",
+            "question": "Modular arithmetic: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Integer structures. Address Modular arithmetic through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Modular arithmetic precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-003",
+            "title": "Diophantine equations",
+            "question": "Diophantine equations: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Integer structures. Address Diophantine equations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Diophantine equations precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-365-02",
+        "title": "Theorems and methods",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-365-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-365-004",
+            "title": "Euclid's infinitude proof",
+            "question": "Euclid's infinitude proof: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Theorems and methods. Address Euclid's infinitude proof through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Euclid's infinitude proof precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-005",
+            "title": "Fermat's little theorem",
+            "question": "Fermat's little theorem: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Theorems and methods. Address Fermat's little theorem through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Fermat's little theorem precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-006",
+            "title": "Quadratic residues",
+            "question": "Quadratic residues: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Number Theory; branch: Theorems and methods. Address Quadratic residues through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Quadratic residues precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-365-03",
+        "title": "Applications",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-365-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-365-007",
+            "title": "Cryptographic number theory",
+            "question": "Cryptographic number theory: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Number Theory; branch: Applications. Address Cryptographic number theory through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cryptographic number theory.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-008",
+            "title": "Error-detecting checksums",
+            "question": "Error-detecting checksums: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Number Theory; branch: Applications. Address Error-detecting checksums through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Error-detecting checksums.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-365-009",
+            "title": "Pseudorandomness and periods",
+            "question": "Pseudorandomness and periods: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Number Theory; branch: Applications. Address Pseudorandomness and periods through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Pseudorandomness and periods.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "119",
+        "title": "Mathematics",
+        "directory": "119_mathematics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "120",
+        "title": "Logic & Critical Thinking",
+        "directory": "120_logic_critical_thinking",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "121",
+        "title": "Statistics & Data",
+        "directory": "121_statistics_data",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "364",
+        "title": "Geometry",
+        "directory": "364_geometry",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "366",
+        "title": "Infinity",
+        "directory": "366_infinity",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Number Theory: A Divisibility Question Emerges",
+      "question": "Which problem led to a named number-theoretic method?",
+      "coverage": "Use dated primary proofs and context. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Classic Prime Proof Rechecked",
+      "question": "What does the argument establish exactly?",
+      "coverage": "Trace contradiction and avoid claiming a constructed next prime. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Contributors to a Number-Theory Result",
+      "question": "Whose proof, computation, or correspondence is overlooked?",
+      "coverage": "Use dated publications and attribution. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Divisibility and Remainders",
+      "question": "How does modular arithmetic answer one concrete question?",
+      "coverage": "Define congruence and show a small example. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Proof Beyond Computation",
+      "question": "Why can checking many integers never establish a universal claim?",
+      "coverage": "Compare finite evidence with deduction. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Current Number-Theory Conjecture",
+      "question": "Which ranges are checked and what remains unproved?",
+      "coverage": "Use dated authoritative status and exact statement. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Computers in Number Theory",
+      "question": "Did computation discover a pattern or certify a proof?",
+      "coverage": "Describe algorithm, bounds, and verification. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Proof Claim Examined",
+      "question": "How did mathematicians check a proposed argument?",
+      "coverage": "Follow paper, critique, and correction. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Theorem's Proof Milestone",
+      "question": "Which lemma resolved a previously open case?",
+      "coverage": "Use original work and independent exposition. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Modular Proof",
+      "question": "How do residue classes constrain solutions?",
+      "coverage": "Write definitions, inference, and boundary cases. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Conjectured Pattern Reassessed",
+      "question": "What counterexample or theorem changed it?",
+      "coverage": "Show exact statement before and after. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: One Problem Across Methods",
+      "question": "How did elementary, analytic, or computational approaches differ?",
+      "coverage": "Compare what each proves. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Number-Theory Research Direction",
+      "question": "Which exact special case might advance an open question?",
+      "coverage": "State known bounds and proof gap. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Large Test Equals Proof?",
+      "question": "What remains outside a finite search?",
+      "coverage": "Explain quantifier and possible counterexample. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: A Conjecture's Evidence Trail",
+      "question": "How did examples, partial results, and proofs accumulate?",
+      "coverage": "Date claims and correct status. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Pattern in Integers to Theorem",
+      "question": "What conjecture follows from examples and how could it be tested?",
+      "coverage": "Separate data and proof. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Counting Arithmetic Objects",
+      "question": "Which algorithm and bound produced a reported count?",
+      "coverage": "State exactness, code, and verification. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Small Numbers to All Integers",
+      "question": "When does an observed pattern stop generalizing?",
+      "coverage": "Seek structural proof or counterexample. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Computation and Formal Proof",
+      "question": "What can a search establish for a finite range?",
+      "coverage": "State machine, method, bound, and theorem status. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Number Theory: Residue Classes",
+      "question": "How does a result differ across congruence classes?",
+      "coverage": "Partition cases and verify coverage. Evidence base: original theorems and proofs, mathematical society expositions, verified algorithms, dated conjecture status, and formal counterexamples.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-365-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "b3111eed6388c46f94a2ff34c24385f82255e601abf63373053dfcc4aa82e7a9",
+    "TOPIC_BANK_RECONCILIATION.md": "6eb27f13810eb2b01267c76367beca1f01d56bf32440ee4b2168f07f112d391b",
+    "TOPICS_COVERED_REPORT.md": "6972b6391ea671f83b16dafa4f9a8c6c4fc963b4896202bb00bc9241743fb2b2",
+    "365_NUMBER_THEORY_CHANNEL_TOPIC_ROADMAP.md": "8aee9e37908e262065bce86289e456c5db6113316aee30bf7445f1df1199c455"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-365-001": [
+      "BANK-365-030"
+    ],
+    "BANK-365-002": [
+      "BANK-365-031"
+    ],
+    "BANK-365-004": [
+      "BANK-365-032"
+    ],
+    "BANK-365-003": [
+      "BANK-365-034"
+    ],
+    "BANK-365-005": [
+      "BANK-365-035"
+    ],
+    "BANK-365-006": [
+      "BANK-365-036"
+    ],
+    "BANK-365-008": [
+      "BANK-365-037"
+    ],
+    "BANK-365-007": [
+      "BANK-365-038"
+    ],
+    "BANK-365-009": [
+      "BANK-365-039"
+    ]
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-030"
+      ],
+      "reason": "Existing question covers archived pitch 1 (The Architecture of Number Theory: A Divisibility Question Emerges) through: Why are prime numbers useful for understanding all whole-number multiplication? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-032"
+      ],
+      "reason": "Existing question covers archived pitch 2 (Number Theory: A Classic Prime Proof Rechecked) through: Why does Euclid's argument establish infinitely many primes without listing them? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 3 (Number Theory: Contributors to a Number-Theory Result) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-031"
+      ],
+      "reason": "Existing question covers archived pitch 4 (Number Theory: Divisibility and Remainders) through: How can arithmetic wrap around while preserving useful structure? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 5 (Number Theory: Proof Beyond Computation) through: What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 6 (Number Theory: A Current Number-Theory Conjecture) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 7 (Number Theory: Computers in Number Theory) through: What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 8 (Number Theory: A Proof Claim Examined) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 9 (Number Theory: A Theorem's Proof Milestone) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-031"
+      ],
+      "reason": "Existing question covers archived pitch 10 (Number Theory: A Modular Proof) through: How can arithmetic wrap around while preserving useful structure? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 11 (Number Theory: A Conjectured Pattern Reassessed) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 12 (Number Theory: One Problem Across Methods) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 13 (Number Theory: A Number-Theory Research Direction) through: What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 14 (Number Theory: Large Test Equals Proof?) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 15 (Number Theory: A Conjecture's Evidence Trail) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-040"
+      ],
+      "reason": "Existing question covers archived pitch 16 (Number Theory: Pattern in Integers to Theorem) through: How can a number-theory proof establish that an integer exists without providing an efficient way to find it? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-030"
+      ],
+      "reason": "Existing question covers archived pitch 17 (Number Theory: Counting Arithmetic Objects) through: Why are prime numbers useful for understanding all whole-number multiplication? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-032"
+      ],
+      "reason": "Existing question covers archived pitch 18 (Number Theory: Small Numbers to All Integers) through: Why does Euclid's argument establish infinitely many primes without listing them? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 19 (Number Theory: Computation and Formal Proof) through: What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-036"
+      ],
+      "reason": "Existing question covers archived pitch 20 (Number Theory: Residue Classes) through: Why are only some remainders possible when integers are squared modulo a number? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 21 (Number Theory: A Boundary Integer) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 22 (Number Theory: A Current Number-Theory Conjecture) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-042"
+      ],
+      "reason": "Named sourced case covers archived pitch 23 (Number Theory: Computers in Number Theory) through: What did the AKS primality paper prove about deterministic polynomial-time testing, and what did its 2019 erratum repair? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 24 (Number Theory: Large Test Equals Proof?) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 25 (Number Theory: A Theorem's Proof Milestone) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-365-041"
+      ],
+      "reason": "Named sourced case covers archived pitch 26 (Number Theory: Contributors to a Number-Theory Result) through: What did the paired 1995 Wiles and Taylor–Wiles papers establish on the route to Fermat's Last Theorem? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-365-033"
+      ],
+      "reason": "Existing question covers archived pitch 27 (Number Theory: A Conjecture's Evidence Trail) through: Why can strong numerical evidence fail to settle a number-theory conjecture? Original archive wording remains in topics_status.json and does not establish a superlative or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-365-041",
+      "note_file": "365_NUMBER_THEORY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-365-042",
+      "note_file": "365_NUMBER_THEORY_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-365-041",
+      "related_id": "BANK-365-034",
+      "boundary": "A named theorem/proof publication versus general integer-solution constraints."
+    },
+    {
+      "topic_id": "BANK-365-041",
+      "related_id": "BANK-365-033",
+      "boundary": "Proved historical claim versus numerical evidence for unsolved conjectures."
+    },
+    {
+      "topic_id": "BANK-365-042",
+      "related_id": "BANK-365-035",
+      "boundary": "Deterministic full primality algorithm versus the limited statement of Fermat's little theorem."
+    },
+    {
+      "topic_id": "BANK-365-042",
+      "related_id": "BANK-365-038",
+      "boundary": "Complexity theorem for primality versus generic forward/reverse computational asymmetry."
+    },
+    {
+      "topic_id": "BANK-365-042",
+      "related_id": "BANK-366-030",
+      "boundary": "Finite integer decision problem versus the distinction between endless processes and completed infinite sets."
+    }
+  ]
+}

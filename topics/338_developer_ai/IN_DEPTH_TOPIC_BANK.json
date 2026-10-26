@@ -1,0 +1,1549 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "338",
+  "slug": "developer_ai",
+  "name": "Developer AI",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Developer AI YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 10
+  },
+  "categories": [
+    {
+      "id": "CATALOG-338-R01",
+      "title": "Code assistance",
+      "level": "foundation",
+      "parent_id": "DOMAIN-338-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d045149ef12271b960fd1cd0c1f12cf7384094dfd96f76c4c27cadda7129af34",
+      "topics": [
+        {
+          "question": "Why should AI-generated code be checked against requirements before style?",
+          "coverage": "Compare behavior, assumptions, edge cases, integration and maintainability using a hypothetical change.",
+          "id": "BANK-338-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-338-007",
+            "BANK-338-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R02",
+      "title": "Repository grounding",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-338-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "61243d888eaba40da2b3844a53e8369d7a16f108e787cda1e8dcf7f4519b8411",
+      "topics": [
+        {
+          "question": "Why does a coding assistant need more than the file being edited?",
+          "coverage": "Trace interfaces, tests, conventions, configuration and dependency contracts without provider-specific claims.",
+          "id": "BANK-338-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-338-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R03",
+      "title": "Productivity",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-338-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9b464dfd04b573f0e2dfdcb26e0a266a178a8db1a8bf624d4528d0e0dcee8f96",
+      "topics": [
+        {
+          "question": "How can a study measure whether developer AI actually saves time?",
+          "coverage": "Compare task selection, experience, review effort, defects and delayed maintenance rather than code volume alone.",
+          "id": "BANK-338-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did GitHub's 2022 Copilot HTTP-server experiment measure about developer speed?",
+          "coverage": "Examine randomized task assignment, 95 recruited professional developers, one JavaScript HTTP-server task, completion and elapsed-time measures; distinguish that bounded experiment from production maintenance, security, team throughput and present-day product claims.",
+          "id": "BANK-338-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R04",
+      "title": "Tool permissions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-338-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bcf08513e7ae39f6a8bc452f9a4597a3a261558dd4ee7bd36cf717595eb3e173",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-338-R05",
+      "title": "Hallucinated packages",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-338-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7ef0c7df0cba9d6107ff9fbec38f32a71a21eef703af34c9244bce77f1d46550",
+      "topics": [
+        {
+          "question": "Why can plausible-looking generated imports create security and reliability risks?",
+          "coverage": "Compare package existence, ownership, version compatibility, provenance and review from a defensive standpoint.",
+          "id": "BANK-338-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-338-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R06",
+      "title": "Generated tests",
+      "level": "advanced",
+      "parent_id": "DOMAIN-338-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1c91a4814db8e05e3254715700c3cb99d30b5f50a3e4640ada43edb14c05e9e9",
+      "topics": [
+        {
+          "question": "How can AI-generated tests repeat the same misunderstanding as AI-generated code?",
+          "coverage": "Compare independent requirements, assertions, edge cases, mutation and human review rather than rewarding passing tests alone.",
+          "id": "BANK-338-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-338-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R07",
+      "title": "Refactoring",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-338-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1aef5a116351b7164d6ca539258fe98e723dbe695639810b23f9b5848c030d6f",
+      "topics": [
+        {
+          "question": "How can AI-assisted refactoring preserve behavior while changing code structure?",
+          "coverage": "Compare contracts, characterization tests, dependencies and review against a bounded change.",
+          "covers_starter_ids": [
+            "BANK-338-002"
+          ],
+          "id": "BANK-338-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R08",
+      "title": "Continuous integration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-338-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0356796c89f8cb11c49aa3028d58a314707dfe6958f37c7157d7782c55637eac",
+      "topics": [
+        {
+          "question": "Why can passing CI fail to establish that an AI-generated patch solves the reported issue?",
+          "coverage": "Compare test coverage, reproduction, requirements, environments and independent acceptance evidence.",
+          "covers_starter_ids": [
+            "BANK-338-006"
+          ],
+          "id": "BANK-338-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R09",
+      "title": "Editor assistants",
+      "level": "foundation",
+      "parent_id": "DOMAIN-338-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7a80e93e7cb8b1b388973417738afc4700e1019c1243f706557deffe08f39ffc",
+      "topics": [
+        {
+          "question": "How does an inline coding assistant change the feedback available while a developer is typing?",
+          "coverage": "Compare completion, chat, diagnostics, context selection and interruption cost without claiming one tool improves every workflow.",
+          "covers_starter_ids": [
+            "BANK-338-004"
+          ],
+          "id": "BANK-338-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-338-R10",
+      "title": "Review workload",
+      "level": "advanced",
+      "parent_id": "DOMAIN-338-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3be5ae73419f87f4fcb71d2a38adc4663d1dbbb5158bb4f45aa4ba19ed8b5aaa",
+      "topics": [
+        {
+          "question": "How can AI coding tools shift work from writing code to reviewing and maintaining a larger volume of changes?",
+          "coverage": "Compare patch size, defect discovery, reviewer time, ownership and later maintenance in a bounded study design; distinguish total team cost from an individual's typing speed.",
+          "id": "BANK-338-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "007",
+      "title": "AI Tools / AI Tutorials",
+      "directory": "007_ai_tools_ai_tutorials",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/338_developer_ai/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "f62907707de0eaf6e501677691a9afc30cf6bba0525ddcc33001066cd9d50eba",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-338-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cbb5c6721c1697130bee1d34affc6c680e1b82f041997cd58d7b0ce4c4956452"
+      },
+      "BANK-338-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "15ecb83b695bde6ca4ae0a0472f15d472fef581a55b58daf910a5e7495599887"
+      },
+      "BANK-338-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "abde68e127fa2c8eb8fd7feb0e4e9c95eb16ee07e6b22ae1fc81d22583bbeb60"
+      },
+      "BANK-338-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "301eca2a47687fcbec5805179e1337dfae5433b09a0da50b535e0422c85aa278"
+      },
+      "BANK-338-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f81b5a0de30cace32ae7be27440fa8fddfe966eea2a3603e620ad9029028b109"
+      },
+      "BANK-338-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bc297acca04e881127d8967ac654338aa7674164eb8c5d83e71ad0f713ad11e9"
+      },
+      "BANK-338-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a3309542dba8e1ae65a7f04035fd823a6bec1ba20c99a1216e866e53e2b9bcfd"
+      },
+      "BANK-338-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "392a9ac10284333df9e8864a3e451152e1c9d444b2767960734cf29407b2e3a2"
+      },
+      "BANK-338-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d0bdd1c54ffbe6cd3774898ed4481724d9655c608871167688ffa07c20a850e0"
+      }
+    },
+    "source_categories": {
+      "CATALOG-338-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "a7b8a3b21bb42b0a5dc059289bfda39179465a48bc769b3b467c36740581d302"
+      },
+      "CATALOG-338-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3ee8ba86d5addb95aef8e37551dba4246a4b8d7d78dcf35d9b126afba4188026"
+      },
+      "CATALOG-338-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "fafaa419445044ff4eea40e3c39e87cbe97e9579a431897bc03aa1905ec69fc5"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "338_DEVELOPER_AI_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "e404ab0c8f9e1340b19f78f0b429e83f9c7adc291176cab9a8f0d800b2a570b4",
+        "original_text": "# Developer AI Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 338 Developer AI (Robotics_AI)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Developer AI Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/338_developer_ai/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Developer AI across four progressive tiers:\r\n- **Tier 1: Developer AI Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Developer AI.\r\n- **Tier 2: Developer AI Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Developer AI.\r\n- **Tier 3: Developer AI Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Developer AI.\r\n- **Tier 4: Developer AI Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Developer AI.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/338_developer_ai/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/338_developer_ai/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **AI in Developer Tools** | *Which task did an early code-assistance system actually support?* |\r\n| 2 | `famous_examples` | **A Coding Assistant Demo Rechecked** | *Does it solve the same task in a real repository?* |\r\n| 3 | `hidden_stories` | **People Behind Generated Code** | *Who curates examples, reviews suggestions, and fixes failures?* |\r\n| 4 | `beginner_explainers` | **A Suggestion's Journey** | *How does a prompt become code a developer may accept?* |\r\n| 5 | `advanced_concepts` | **Correctness Beyond Compilation** | *Does generated code preserve behavior and security?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Passing Patch That Regressed** | *Which missed condition explains a generated-code failure?* |\r\n| 7 | `technology_innovation` | **A New Coding Agent** | *Did it improve a defined development task?* |\r\n| 8 | `people_personalities` | **The Developer's Judgment** | *How did a reviewer accept, change, or reject an AI proposal?* |\r\n| 9 | `major_events` | **An AI Tool Rollout** | *What changed after a team introduced it?* |\r\n| 10 | `how_it_works` | **AI Edit to Release** | *How does a generated change pass through normal delivery controls?* |\r\n| 11 | `rise_fall` | **A Coding Tool Is Retired** | *Which quality, cost, trust, or workflow issue drove removal?* |\r\n| 12 | `then_vs_now` | **One Task With and Without AI** | *Did time, quality, and comprehension change?* |\r\n| 13 | `future_developments` | **A Claimed Autonomous Developer** | *What evidence would show reliable end-to-end delivery?* |\r\n| 14 | `myths_vs_facts` | **Passing Tests Means Safe Code?** | *Which untested behavior or vulnerability can remain?* |\r\n| 15 | `documentary_stories` | **One AI-Assisted Pull Request** | *What did the model propose and what did people verify?* |\r\n| 16 | `system_boundary` | **Model, IDE, Repository, and Human** | *Which system can read, write, or execute code?* |\r\n| 17 | `input_output_trace` | **A Repository Prompt to Diff** | *What context was sent and how did a suggestion change files?* |\r\n| 18 | `design_tradeoff` | **Fast Suggestions and Review Load** | *Does more generated code save or shift work?* |\r\n| 19 | `failure_mode` | **A Plausible Wrong Fix** | *Why did a generated patch miss the real bug?* |\r\n| 20 | `testing_limits` | **Coding Benchmark Versus Production** | *Which repository, dependency, and team conditions differ?* |\r\n| 21 | `standards_interoperability` | **AI Tool Across IDEs** | *Which context, diff, and tool protocols are portable?* |\r\n| 22 | `security_threat_model` | **Repository Context Exposure** | *Who can receive code, secrets, or build access?* |\r\n| 23 | `maintenance_lifecycle` | **Maintaining AI-Written Code** | *Who owns updates, documentation, and future debugging?* |\r\n| 24 | `infrastructure_dependencies` | **A Coding Assistant's Supply Chain** | *Which model endpoint, IDE, packages, and build services are required?* |\r\n| 25 | `accessibility_usability` | **Developer AI for Different Users** | *Can developers inspect, reject, and edit suggestions accessibly?* |\r\n| 26 | `independent_replication` | **Repeating a Productivity Claim** | *Can another team reproduce a reported gain?* |\r\n| 27 | `responsible_deployment` | **AI Code in a Real Product** | *Who is accountable for defects, licenses, and user harm?* |\r\n| 28 | `field_training_or_control_data` | **Code Data and Context** | *Which repositories or prompts shaped an output?* |\r\n| 29 | `field_real_world_testing` | **Assistant in a Real Repository** | *Does it handle project constraints and passing tests?* |\r\n| 30 | `field_human_oversight` | **Reviewing AI Changes** | *Can a human understand and reject each proposed diff?* |\r\n| 31 | `field_failure_recovery` | **Undoing a Bad AI Edit** | *Can the team find and reverse a harmful change?* |\r\n| 32 | `field_hardware_dependency` | **Compute Behind Developer AI** | *How do local device and remote model limits affect usability?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Developer AI: AI in Developer Tools**\r\n   - *Question:* Which task did an early code-assistance system actually support?\r\n   - *Key Focus:* Use dated tools, studies, and task descriptions. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n2. **Developer AI: A Coding Assistant Demo Rechecked**\r\n   - *Question:* Does it solve the same task in a real repository?\r\n   - *Key Focus:* Compare environment, tests, human edits, and time. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n3. **Developer AI: People Behind Generated Code**\r\n   - *Question:* Who curates examples, reviews suggestions, and fixes failures?\r\n   - *Key Focus:* Credit maintainers and developers. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n4. **Developer AI: A Suggestion's Journey**\r\n   - *Question:* How does a prompt become code a developer may accept?\r\n   - *Key Focus:* Trace context, model, edit, review, test, and commit. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n5. **Developer AI: Correctness Beyond Compilation**\r\n   - *Question:* Does generated code preserve behavior and security?\r\n   - *Key Focus:* Test edge cases, dependencies, and maintainability. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Developer AI: A Passing Patch That Regressed**\r\n   - *Question:* Which missed condition explains a generated-code failure?\r\n   - *Key Focus:* Trace issue, review, test, and incident evidence. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n7. **Developer AI: A New Coding Agent**\r\n   - *Question:* Did it improve a defined development task?\r\n   - *Key Focus:* Compare controlled repositories, success rate, intervention, and cost. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n8. **Developer AI: The Developer's Judgment**\r\n   - *Question:* How did a reviewer accept, change, or reject an AI proposal?\r\n   - *Key Focus:* Use consented workflow study and code review. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n9. **Developer AI: An AI Tool Rollout**\r\n   - *Question:* What changed after a team introduced it?\r\n   - *Key Focus:* Compare adoption, defects, review time, and workload. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n10. **Developer AI: AI Edit to Release**\r\n   - *Question:* How does a generated change pass through normal delivery controls?\r\n   - *Key Focus:* Map context, diff, tests, review, build, and deployment. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Developer AI: A Coding Tool Is Retired**\r\n   - *Question:* Which quality, cost, trust, or workflow issue drove removal?\r\n   - *Key Focus:* Compare records and developer feedback. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n12. **Developer AI: One Task With and Without AI**\r\n   - *Question:* Did time, quality, and comprehension change?\r\n   - *Key Focus:* Use matched tasks and account for reviewer effort. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n13. **Developer AI: A Claimed Autonomous Developer**\r\n   - *Question:* What evidence would show reliable end-to-end delivery?\r\n   - *Key Focus:* Require scoped tasks, independent tests, security, and accountability. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n14. **Developer AI: Passing Tests Means Safe Code?**\r\n   - *Question:* Which untested behavior or vulnerability can remain?\r\n   - *Key Focus:* Inspect coverage, requirements, dependencies, and review. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n15. **Developer AI: One AI-Assisted Pull Request**\r\n   - *Question:* What did the model propose and what did people verify?\r\n   - *Key Focus:* Follow diff, tests, comments, and release outcome. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Developer AI: Model, IDE, Repository, and Human**\r\n   - *Question:* Which system can read, write, or execute code?\r\n   - *Key Focus:* Draw permissions and approval boundaries. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n17. **Developer AI: A Repository Prompt to Diff**\r\n   - *Question:* What context was sent and how did a suggestion change files?\r\n   - *Key Focus:* Use redacted logs and consented repository data. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n18. **Developer AI: Fast Suggestions and Review Load**\r\n   - *Question:* Does more generated code save or shift work?\r\n   - *Key Focus:* Measure accepted lines, defects, comprehension, and upkeep. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n19. **Developer AI: A Plausible Wrong Fix**\r\n   - *Question:* Why did a generated patch miss the real bug?\r\n   - *Key Focus:* Use harmless reproductions and code review evidence. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n20. **Developer AI: Coding Benchmark Versus Production**\r\n   - *Question:* Which repository, dependency, and team conditions differ?\r\n   - *Key Focus:* State task selection and grading limits. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 338 (Developer AI)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Developer AI: AI in Developer Tools*\r\n- **Episode Slug:** `338_developer_ai_deep_dive_the_architecture_of_developer_ai_ai_in_developer_tools`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/338_developer_ai/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "14c36c03ee5a72f7d38ad0418283954b2021a2d51c66a6609151fb2ef2948758",
+        "original_text": "# 338 Developer AI -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 338 Developer AI (Robotics_AI)  \r\n> **Storage Directory:** `topics/338_developer_ai/`  \r\n> **Synchronized With:** `OUTPUT/338_developer_ai/`, `REGISTRY/Niches/338_developer_ai/`, and `338_DEVELOPER_AI_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 338 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/338_developer_ai](../../OUTPUT/338_developer_ai) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Developer AI: AI in Developer Tools** | Tier 1: Foundational Frameworks | `history_origins` | `developer_ai_ai_in_developer_tools` | A rigorous pedagogical investigation exploring ai in developer tools through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Developer AI: A Coding Assistant Demo Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `developer_ai_a_coding_assistant_demo_rechecked` | A rigorous pedagogical investigation exploring a coding assistant demo rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Developer AI: People Behind Generated Code** | Tier 1: Foundational Frameworks | `hidden_stories` | `developer_ai_people_behind_generated_code` | A rigorous pedagogical investigation exploring people behind generated code through documented evidence. | `QUEUED` |\r\n| 4 | **Developer AI: A Suggestion's Journey** | Tier 1: Foundational Frameworks | `beginner_explainers` | `developer_ai_a_suggestion_s_journey` | A rigorous pedagogical investigation exploring a suggestion's journey through documented evidence. | `QUEUED` |\r\n| 5 | **Developer AI: Correctness Beyond Compilation** | Tier 1: Foundational Frameworks | `advanced_concepts` | `developer_ai_correctness_beyond_compilation` | A rigorous pedagogical investigation exploring correctness beyond compilation through documented evidence. | `QUEUED` |\r\n| 6 | **Developer AI: A Passing Patch That Regressed** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `developer_ai_a_passing_patch_that_regressed` | A rigorous pedagogical investigation exploring a passing patch that regressed through documented evidence. | `QUEUED` |\r\n| 7 | **Developer AI: A New Coding Agent** | Tier 2: Methodological Deep Dives | `technology_innovation` | `developer_ai_a_new_coding_agent` | A rigorous pedagogical investigation exploring a new coding agent through documented evidence. | `QUEUED` |\r\n| 8 | **Developer AI: The Developer's Judgment** | Tier 2: Methodological Deep Dives | `people_personalities` | `developer_ai_the_developer_s_judgment` | A rigorous pedagogical investigation exploring the developer's judgment through documented evidence. | `QUEUED` |\r\n| 9 | **Developer AI: An AI Tool Rollout** | Tier 2: Methodological Deep Dives | `major_events` | `developer_ai_an_ai_tool_rollout` | A rigorous pedagogical investigation exploring an ai tool rollout through documented evidence. | `QUEUED` |\r\n| 10 | **Developer AI: AI Edit to Release** | Tier 2: Methodological Deep Dives | `how_it_works` | `developer_ai_ai_edit_to_release` | A rigorous pedagogical investigation exploring ai edit to release through documented evidence. | `QUEUED` |\r\n| 11 | **Developer AI: A Coding Tool Is Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `developer_ai_a_coding_tool_is_retired` | A rigorous pedagogical investigation exploring a coding tool is retired through documented evidence. | `QUEUED` |\r\n| 12 | **Developer AI: One Task With and Without AI** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `developer_ai_one_task_with_and_without_ai` | A rigorous pedagogical investigation exploring one task with and without ai through documented evidence. | `QUEUED` |\r\n| 13 | **Developer AI: A Claimed Autonomous Developer** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `developer_ai_a_claimed_autonomous_developer` | A rigorous pedagogical investigation exploring a claimed autonomous developer through documented evidence. | `QUEUED` |\r\n| 14 | **Developer AI: Passing Tests Means Safe Code?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `developer_ai_passing_tests_means_safe_code` | A rigorous pedagogical investigation exploring passing tests means safe code? through documented evidence. | `QUEUED` |\r\n| 15 | **Developer AI: One AI-Assisted Pull Request** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `developer_ai_one_ai_assisted_pull_request` | A rigorous pedagogical investigation exploring one ai-assisted pull request through documented evidence. | `QUEUED` |\r\n| 16 | **Developer AI: Model, IDE, Repository, and Human** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `developer_ai_model_ide_repository_and_human` | A rigorous pedagogical investigation exploring model, ide, repository, and human through documented evidence. | `QUEUED` |\r\n| 17 | **Developer AI: A Repository Prompt to Diff** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `developer_ai_a_repository_prompt_to_diff` | A rigorous pedagogical investigation exploring a repository prompt to diff through documented evidence. | `QUEUED` |\r\n| 18 | **Developer AI: Fast Suggestions and Review Load** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `developer_ai_fast_suggestions_and_review_load` | A rigorous pedagogical investigation exploring fast suggestions and review load through documented evidence. | `QUEUED` |\r\n| 19 | **Developer AI: A Plausible Wrong Fix** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `developer_ai_a_plausible_wrong_fix` | A rigorous pedagogical investigation exploring a plausible wrong fix through documented evidence. | `QUEUED` |\r\n| 20 | **Developer AI: Coding Benchmark Versus Production** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `developer_ai_coding_benchmark_versus_production` | A rigorous pedagogical investigation exploring coding benchmark versus production through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Developer AI: Record Extremes & Superlatives** | **98** | `extreme_case` | `developer_ai_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Developer AI: A Passing Patch That Regressed** | **96** | `mysteries_unsolved_cases` | `developer_ai_mysteries_unsolved_cases` | High viral search interest exploring which missed condition explains a generated-code failure backed by field records. | `Queued` |\r\n| 23 | **Developer AI: A New Coding Agent** | **95** | `technology_innovation` | `developer_ai_technology_innovation` | High viral search interest exploring did it improve a defined development task backed by field records. | `Queued` |\r\n| 24 | **Developer AI: Passing Tests Means Safe Code?** | **94** | `myths_vs_facts` | `developer_ai_myths_vs_facts` | High viral search interest exploring which untested behavior or vulnerability can remain backed by field records. | `Queued` |\r\n| 25 | **Developer AI: An AI Tool Rollout** | **93** | `major_events` | `developer_ai_major_events` | High viral search interest exploring what changed after a team introduced it backed by field records. | `Queued` |\r\n| 26 | **Developer AI: People Behind Generated Code** | **92** | `hidden_stories` | `developer_ai_hidden_stories` | High viral search interest exploring who curates examples, reviews suggestions, and fixes failures backed by field records. | `Queued` |\r\n| 27 | **Developer AI: One AI-Assisted Pull Request** | **91** | `documentary_stories` | `developer_ai_documentary_stories` | High viral search interest exploring what did the model propose and what did people verify backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/338_developer_ai/338_DEVELOPER_AI_CHANNEL_TOPIC_ROADMAP.md`](./338_DEVELOPER_AI_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/338_developer_ai/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/338_developer_ai/NICHE_338_developer_ai.md`](file:///h:/script-raw-/REGISTRY/Niches/338_developer_ai/NICHE_338_developer_ai.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/338_developer_ai/CAT_338_developer_ai.md`](file:///h:/script-raw-/REGISTRY/Niches/338_developer_ai/CAT_338_developer_ai.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/338_developer_ai/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/338_developer_ai/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/338_developer_ai/`](file:///h:/script-raw-/OUTPUT/338_developer_ai/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "5e4fc26c217ef9910ad2f9bcd5abb7675e292c9d89ec5b8782ba7261bc072162",
+        "original_text": "{\r\n  \"niche_id\": \"338\",\r\n  \"niche_name\": \"developer_ai\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Developer AI: AI in Developer Tools\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"developer_ai_ai_in_developer_tools\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring ai in developer tools through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Developer AI: A Coding Assistant Demo Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"developer_ai_a_coding_assistant_demo_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a coding assistant demo rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Developer AI: People Behind Generated Code\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"developer_ai_people_behind_generated_code\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people behind generated code through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Developer AI: A Suggestion's Journey\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"developer_ai_a_suggestion_s_journey\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a suggestion's journey through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Developer AI: Correctness Beyond Compilation\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"developer_ai_correctness_beyond_compilation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring correctness beyond compilation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Developer AI: A Passing Patch That Regressed\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"developer_ai_a_passing_patch_that_regressed\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a passing patch that regressed through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Developer AI: A New Coding Agent\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"developer_ai_a_new_coding_agent\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new coding agent through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Developer AI: The Developer's Judgment\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"developer_ai_the_developer_s_judgment\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the developer's judgment through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Developer AI: An AI Tool Rollout\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"developer_ai_an_ai_tool_rollout\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an ai tool rollout through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Developer AI: AI Edit to Release\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"developer_ai_ai_edit_to_release\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring ai edit to release through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Developer AI: A Coding Tool Is Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"developer_ai_a_coding_tool_is_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a coding tool is retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Developer AI: One Task With and Without AI\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"developer_ai_one_task_with_and_without_ai\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one task with and without ai through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Developer AI: A Claimed Autonomous Developer\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"developer_ai_a_claimed_autonomous_developer\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a claimed autonomous developer through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Developer AI: Passing Tests Means Safe Code?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"developer_ai_passing_tests_means_safe_code\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring passing tests means safe code? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Developer AI: One AI-Assisted Pull Request\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"developer_ai_one_ai_assisted_pull_request\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one ai-assisted pull request through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Developer AI: Model, IDE, Repository, and Human\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"developer_ai_model_ide_repository_and_human\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring model, ide, repository, and human through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Developer AI: A Repository Prompt to Diff\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"developer_ai_a_repository_prompt_to_diff\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a repository prompt to diff through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Developer AI: Fast Suggestions and Review Load\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"developer_ai_fast_suggestions_and_review_load\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring fast suggestions and review load through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Developer AI: A Plausible Wrong Fix\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"developer_ai_a_plausible_wrong_fix\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a plausible wrong fix through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Developer AI: Coding Benchmark Versus Production\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"developer_ai_coding_benchmark_versus_production\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring coding benchmark versus production through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Developer AI: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"developer_ai_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Developer AI: A Passing Patch That Regressed\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"developer_ai_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which missed condition explains a generated-code failure backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Developer AI: A New Coding Agent\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"developer_ai_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it improve a defined development task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Developer AI: Passing Tests Means Safe Code?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"developer_ai_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which untested behavior or vulnerability can remain backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Developer AI: An AI Tool Rollout\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"developer_ai_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what changed after a team introduced it backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Developer AI: People Behind Generated Code\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"developer_ai_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who curates examples, reviews suggestions, and fixes failures backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Developer AI: One AI-Assisted Pull Request\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"developer_ai_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring what did the model propose and what did people verify backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "338",
+      "niche_name": "developer_ai",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Developer AI: AI in Developer Tools",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "developer_ai_ai_in_developer_tools",
+          "reason": "A rigorous pedagogical investigation exploring ai in developer tools through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Developer AI: A Coding Assistant Demo Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "developer_ai_a_coding_assistant_demo_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a coding assistant demo rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Developer AI: People Behind Generated Code",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "developer_ai_people_behind_generated_code",
+          "reason": "A rigorous pedagogical investigation exploring people behind generated code through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Developer AI: A Suggestion's Journey",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "developer_ai_a_suggestion_s_journey",
+          "reason": "A rigorous pedagogical investigation exploring a suggestion's journey through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Developer AI: Correctness Beyond Compilation",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "developer_ai_correctness_beyond_compilation",
+          "reason": "A rigorous pedagogical investigation exploring correctness beyond compilation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Developer AI: A Passing Patch That Regressed",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "developer_ai_a_passing_patch_that_regressed",
+          "reason": "A rigorous pedagogical investigation exploring a passing patch that regressed through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Developer AI: A New Coding Agent",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "developer_ai_a_new_coding_agent",
+          "reason": "A rigorous pedagogical investigation exploring a new coding agent through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Developer AI: The Developer's Judgment",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "developer_ai_the_developer_s_judgment",
+          "reason": "A rigorous pedagogical investigation exploring the developer's judgment through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Developer AI: An AI Tool Rollout",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "developer_ai_an_ai_tool_rollout",
+          "reason": "A rigorous pedagogical investigation exploring an ai tool rollout through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Developer AI: AI Edit to Release",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "developer_ai_ai_edit_to_release",
+          "reason": "A rigorous pedagogical investigation exploring ai edit to release through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Developer AI: A Coding Tool Is Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "developer_ai_a_coding_tool_is_retired",
+          "reason": "A rigorous pedagogical investigation exploring a coding tool is retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Developer AI: One Task With and Without AI",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "developer_ai_one_task_with_and_without_ai",
+          "reason": "A rigorous pedagogical investigation exploring one task with and without ai through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Developer AI: A Claimed Autonomous Developer",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "developer_ai_a_claimed_autonomous_developer",
+          "reason": "A rigorous pedagogical investigation exploring a claimed autonomous developer through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Developer AI: Passing Tests Means Safe Code?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "developer_ai_passing_tests_means_safe_code",
+          "reason": "A rigorous pedagogical investigation exploring passing tests means safe code? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Developer AI: One AI-Assisted Pull Request",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "developer_ai_one_ai_assisted_pull_request",
+          "reason": "A rigorous pedagogical investigation exploring one ai-assisted pull request through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Developer AI: Model, IDE, Repository, and Human",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "developer_ai_model_ide_repository_and_human",
+          "reason": "A rigorous pedagogical investigation exploring model, ide, repository, and human through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Developer AI: A Repository Prompt to Diff",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "developer_ai_a_repository_prompt_to_diff",
+          "reason": "A rigorous pedagogical investigation exploring a repository prompt to diff through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Developer AI: Fast Suggestions and Review Load",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "developer_ai_fast_suggestions_and_review_load",
+          "reason": "A rigorous pedagogical investigation exploring fast suggestions and review load through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Developer AI: A Plausible Wrong Fix",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "developer_ai_a_plausible_wrong_fix",
+          "reason": "A rigorous pedagogical investigation exploring a plausible wrong fix through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Developer AI: Coding Benchmark Versus Production",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "developer_ai_coding_benchmark_versus_production",
+          "reason": "A rigorous pedagogical investigation exploring coding benchmark versus production through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Developer AI: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "developer_ai_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Developer AI: A Passing Patch That Regressed",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "developer_ai_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which missed condition explains a generated-code failure backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Developer AI: A New Coding Agent",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "developer_ai_technology_innovation",
+          "why_trending": "High viral search interest exploring did it improve a defined development task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Developer AI: Passing Tests Means Safe Code?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "developer_ai_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which untested behavior or vulnerability can remain backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Developer AI: An AI Tool Rollout",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "developer_ai_major_events",
+          "why_trending": "High viral search interest exploring what changed after a team introduced it backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Developer AI: People Behind Generated Code",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "developer_ai_hidden_stories",
+          "why_trending": "High viral search interest exploring who curates examples, reviews suggestions, and fixes failures backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Developer AI: One AI-Assisted Pull Request",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "developer_ai_documentary_stories",
+          "why_trending": "High viral search interest exploring what did the model propose and what did people verify backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "29ffc3795089b782f5263bae9b5f14cdef9268609ba7f913f277441226cded09"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "8358fc3f8f36d4e870b66af6420db870f1155b2dcfab1a717e1202dfa42f5396"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "ff332053dda2d7cb7fe51d5b1fcd127c37f8b56e37faf8dcb2e879fe47869853"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "c79815eac394d2bbb4c84107376c6db3f245acf4186a9c7a267b269f18e24a5e"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "36129de9966a6cd81e04b16f7b2c77f0ec1cb484805627982b383b9a51c27d41"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-338-01",
+      "title": "Workflow",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-02",
+      "title": "Context",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-03",
+      "title": "Evaluation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-04",
+      "title": "Autonomy",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-05",
+      "title": "Dependencies",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-06",
+      "title": "Testing",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-07",
+      "title": "Feedback",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-08",
+      "title": "Interfaces",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-338-09",
+      "title": "Team workflow",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "338",
+    "slug": "developer_ai",
+    "name": "Developer AI",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Developer AI YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-338-01",
+        "title": "Coding workflows",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-338-001",
+            "title": "Repository-aware retrieval",
+            "question": "Repository-aware retrieval: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Coding workflows. Address Repository-aware retrieval through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Repository-aware retrieval.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-002",
+            "title": "AI-assisted refactoring",
+            "question": "AI-assisted refactoring: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Coding workflows. Address AI-assisted refactoring through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind AI-assisted refactoring.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-003",
+            "title": "Test generation quality",
+            "question": "Test generation quality: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Coding workflows. Address Test generation quality through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Test generation quality.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-338-02",
+        "title": "Tool integration",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-338-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-338-004",
+            "title": "Editor assistants",
+            "question": "Editor assistants: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Tool integration. Address Editor assistants through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Editor assistants.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-005",
+            "title": "Command execution boundaries",
+            "question": "Command execution boundaries: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Tool integration. Address Command execution boundaries through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Command execution boundaries.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-006",
+            "title": "CI feedback loops",
+            "question": "CI feedback loops: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Tool integration. Address CI feedback loops through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind CI feedback loops.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-338-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-338-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-338-007",
+            "title": "Patch correctness",
+            "question": "Patch correctness: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Evaluation. Address Patch correctness through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Patch correctness.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-008",
+            "title": "Dependency hallucinations",
+            "question": "Dependency hallucinations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Evaluation. Address Dependency hallucinations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Dependency hallucinations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-338-009",
+            "title": "Human review of generated changes",
+            "question": "Human review of generated changes: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Developer AI; branch: Evaluation. Address Human review of generated changes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Human review of generated changes.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "007",
+        "title": "AI Tools / AI Tutorials",
+        "directory": "007_ai_tools_ai_tutorials",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Developer AI: AI in Developer Tools",
+      "question": "Which task did an early code-assistance system actually support?",
+      "coverage": "Use dated tools, studies, and task descriptions. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Coding Assistant Demo Rechecked",
+      "question": "Does it solve the same task in a real repository?",
+      "coverage": "Compare environment, tests, human edits, and time. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: People Behind Generated Code",
+      "question": "Who curates examples, reviews suggestions, and fixes failures?",
+      "coverage": "Credit maintainers and developers. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Suggestion's Journey",
+      "question": "How does a prompt become code a developer may accept?",
+      "coverage": "Trace context, model, edit, review, test, and commit. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: Correctness Beyond Compilation",
+      "question": "Does generated code preserve behavior and security?",
+      "coverage": "Test edge cases, dependencies, and maintainability. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Passing Patch That Regressed",
+      "question": "Which missed condition explains a generated-code failure?",
+      "coverage": "Trace issue, review, test, and incident evidence. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A New Coding Agent",
+      "question": "Did it improve a defined development task?",
+      "coverage": "Compare controlled repositories, success rate, intervention, and cost. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: The Developer's Judgment",
+      "question": "How did a reviewer accept, change, or reject an AI proposal?",
+      "coverage": "Use consented workflow study and code review. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: An AI Tool Rollout",
+      "question": "What changed after a team introduced it?",
+      "coverage": "Compare adoption, defects, review time, and workload. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: AI Edit to Release",
+      "question": "How does a generated change pass through normal delivery controls?",
+      "coverage": "Map context, diff, tests, review, build, and deployment. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Coding Tool Is Retired",
+      "question": "Which quality, cost, trust, or workflow issue drove removal?",
+      "coverage": "Compare records and developer feedback. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: One Task With and Without AI",
+      "question": "Did time, quality, and comprehension change?",
+      "coverage": "Use matched tasks and account for reviewer effort. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Claimed Autonomous Developer",
+      "question": "What evidence would show reliable end-to-end delivery?",
+      "coverage": "Require scoped tasks, independent tests, security, and accountability. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: Passing Tests Means Safe Code?",
+      "question": "Which untested behavior or vulnerability can remain?",
+      "coverage": "Inspect coverage, requirements, dependencies, and review. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: One AI-Assisted Pull Request",
+      "question": "What did the model propose and what did people verify?",
+      "coverage": "Follow diff, tests, comments, and release outcome. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: Model, IDE, Repository, and Human",
+      "question": "Which system can read, write, or execute code?",
+      "coverage": "Draw permissions and approval boundaries. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Repository Prompt to Diff",
+      "question": "What context was sent and how did a suggestion change files?",
+      "coverage": "Use redacted logs and consented repository data. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: Fast Suggestions and Review Load",
+      "question": "Does more generated code save or shift work?",
+      "coverage": "Measure accepted lines, defects, comprehension, and upkeep. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: A Plausible Wrong Fix",
+      "question": "Why did a generated patch miss the real bug?",
+      "coverage": "Use harmless reproductions and code review evidence. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Developer AI: Coding Benchmark Versus Production",
+      "question": "Which repository, dependency, and team conditions differ?",
+      "coverage": "State task selection and grading limits. Evidence base: versioned tool documentation, consented repository diffs, developer workflow studies, test and incident records, and secure development guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-338-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "f10404aba1552e134b96c95c353a80f723cf500eebf9fd22b44ed9efe0108250",
+    "TOPIC_BANK_RECONCILIATION.md": "008c65a234080f54846a071031aae8aa495a44c9ab2926b473ecef27aa1e89b4",
+    "TOPICS_COVERED_REPORT.md": "4d51d4942fcc22659a255ee9d89ee6f4a8c833b51d4057d6acaf921fb8243ee0",
+    "338_DEVELOPER_AI_CHANNEL_TOPIC_ROADMAP.md": "224f7703a9e0813bacf2513d9dfb438789de037d75220f5ad26f6940311680b3"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-338-007": [
+      "BANK-338-030"
+    ],
+    "BANK-338-009": [
+      "BANK-338-030"
+    ],
+    "BANK-338-001": [
+      "BANK-338-031"
+    ],
+    "BANK-338-005": [
+      "BANK-001-082"
+    ],
+    "BANK-338-008": [
+      "BANK-338-034"
+    ],
+    "BANK-338-003": [
+      "BANK-338-035"
+    ],
+    "BANK-338-002": [
+      "BANK-338-036"
+    ],
+    "BANK-338-006": [
+      "BANK-338-037"
+    ],
+    "BANK-338-004": [
+      "BANK-338-038"
+    ]
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How should an AI coding agent's permissions match its task?",
+      "coverage": "Map read, write, execution and publication boundaries; compare recovery, audit trails and human decisions.",
+      "id": "BANK-338-033",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-338-005"
+      ],
+      "duplicate_of": "BANK-001-082",
+      "retirement_reason": "Read, write and external-action boundaries are the same least-privilege question; a coding-agent label does not warrant a second active proposal.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-338-R04"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-038"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-032"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-039"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-031"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-030"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-030"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-338-040"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-038"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-338-040"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-031"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-031"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-039"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-338-040"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-032"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "Distinct bounded case proposed.",
+      "reason": "Named dated primary record supports a bounded case; broader outcomes need separate evidence.",
+      "bank_ids": [
+        "BANK-338-040"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-039"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "Routed to existing scoped BANK proposal.",
+      "reason": "The broad archived framing merges into this narrower active question; generic trend, superlative and universal capability claims are not adopted.",
+      "bank_ids": [
+        "BANK-338-037"
+      ]
+    }
+  },
+  "case_research_note": "CASE_SOURCE_NOTES.md",
+  "research_followups": [
+    {
+      "topic_id": "BANK-338-040",
+      "note_file": "CASE_SOURCE_NOTES.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "source_verification": "selected_primary_product_or_institutional_sources_inspected",
+    "semantic_candidates_reviewed": 27,
+    "neighbor_overlap": "BANK-338-032 asks generally how productivity studies should be measured; this new case audits a named randomized task. BANK-338-037 covers CI passing without issue resolution, and BANK-338-039 covers shifted review effort. Retired BANK-338-033 stays retired as duplicate of BANK-001-082. BANK-337-* concerns research methodology broadly; 339–341 cover art, music and voice generation."
+  }
+}

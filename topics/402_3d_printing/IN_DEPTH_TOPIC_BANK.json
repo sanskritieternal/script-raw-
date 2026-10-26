@@ -1,0 +1,1584 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "402",
+  "slug": "3d_printing",
+  "name": "3D Printing",
+  "primary_category": "Craft_Making",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a 3D Printing YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 10,
+    "proposed_topics": 14
+  },
+  "categories": [
+    {
+      "id": "CATALOG-402-R01",
+      "title": "Printing foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-402-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c2885f284a4792b26722487bcabaa03ee5143ffa4a8b85170ed9bfcae92382e9",
+      "topics": [
+        {
+          "question": "Why can a watertight-looking 3D model fail to slice?",
+          "coverage": "Inspect nonmanifold geometry, normals and thin walls.",
+          "id": "BANK-402-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does nozzle width constrain the detail an FDM printer can reproduce?",
+          "coverage": "Compare line width, wall count and intended geometry.",
+          "id": "BANK-402-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R02",
+      "title": "Print preparation",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-402-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "ea295931711f0685aeb4dfcd34e4817c7be79660d36c4103ceff252609437c47",
+      "topics": [
+        {
+          "question": "When should a model be split into several printed parts?",
+          "coverage": "Compare orientation, assembly, support and seam placement.",
+          "id": "BANK-402-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do clearances differ between a static fit and a moving joint?",
+          "coverage": "Use a calibration specimen and document machine-specific results.",
+          "id": "BANK-402-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R03",
+      "title": "Quality and decisions",
+      "level": "advanced",
+      "parent_id": "DOMAIN-402-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "09e153add0bd8d80eb8364ade491d3c92997246e444d2f04b8df139d72a1023b",
+      "topics": [
+        {
+          "question": "How can a printer fault be separated from a wet-filament problem?",
+          "coverage": "Design controlled comparisons without changing every setting at once.",
+          "id": "BANK-402-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence is needed before using a printed part in a critical application?",
+          "coverage": "Distinguish hobby prototypes from qualified materials and validated manufacturing.",
+          "id": "BANK-402-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality?",
+          "coverage": "Use the benchmark description to connect raster direction, cut coupon geometry and specified mass, thickness, void and tensile comparisons. Distinguish prescribed test metrics from measured results or qualification of an end-use part.",
+          "id": "BANK-402-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R04",
+      "title": "Print-process choices",
+      "level": "foundation",
+      "parent_id": "DOMAIN-402-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1e4231702d12ea6580aa2a20308691e47ce8ca6936ea8d912d9a231b733a592a",
+      "topics": [
+        {
+          "question": "How do extrusion, resin curing and powder-bed fusion build layers differently?",
+          "coverage": "Compare process families and resulting constraints.",
+          "id": "BANK-402-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-402-002",
+            "BANK-402-003",
+            "BANK-402-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R05",
+      "title": "Print-process choices",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-402-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "83e7a4a51b64d33f062e5790dba0896f756c42d22ea88d6c11bf2cd408245b8a",
+      "topics": [
+        {
+          "question": "How do layer orientation and supports change strength and surface quality?",
+          "coverage": "Separate anisotropy, removal and dimensional compensation.",
+          "id": "BANK-402-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-402-004",
+            "BANK-402-005",
+            "BANK-402-006",
+            "BANK-402-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R06",
+      "title": "Print-process choices",
+      "level": "advanced",
+      "parent_id": "DOMAIN-402-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "36fe3bf9d2de6f448963b601f8cda76797380ab23b6ccff18e03ef9f006e105c",
+      "topics": [
+        {
+          "question": "How can printer calibration and ventilation planning address different forms of print failure?",
+          "coverage": "Distinguish geometry quality and material-emission controls.",
+          "id": "BANK-402-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-402-008",
+            "BANK-402-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R07",
+      "title": "Slicer infill strategies",
+      "level": "foundation",
+      "parent_id": "DOMAIN-402-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a5d1c8e6c3317b0143720cd72099e4b3accd4efeb23d436c2f9aa884c799d753",
+      "topics": [
+        {
+          "question": "How does infill change print time without guaranteeing part strength?",
+          "coverage": "Compare geometry, load direction and wall contributions.",
+          "id": "BANK-402-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R08",
+      "title": "Multi-material printing",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-402-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "89a9ed6484038ea7366c97b7d34f6bbdaba64c8402d0e0b79c5caab00dd676d2",
+      "topics": [
+        {
+          "question": "Why can two printable materials fail at their shared boundary?",
+          "coverage": "Compare adhesion, temperature compatibility and differential shrinkage.",
+          "id": "BANK-402-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R09",
+      "title": "Digital fabrication tolerances",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-402-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "bb8bdc7702f82b1b066306fa14c5284e476c7305e0606b7d366fd6fe145da22d",
+      "topics": [
+        {
+          "question": "How should a printed part's tolerances change when it must fit a laser-cut or machined component?",
+          "coverage": "Trace process variation through one assembly.",
+          "id": "BANK-402-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-402-R10",
+      "title": "Print-farm operations",
+      "level": "advanced",
+      "parent_id": "DOMAIN-402-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d95d9907cc6144f66ec3ce290405a8ddd674543efa1174fdf85e410a7b89588f",
+      "topics": [
+        {
+          "question": "How can a print farm detect recurring failure without treating every printer as identical?",
+          "coverage": "Track machine configuration, batches and maintenance evidence.",
+          "id": "BANK-402-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "064",
+      "title": "Home & Lifestyle",
+      "directory": "064_home_lifestyle",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "085",
+      "title": "DIY & Making",
+      "directory": "085_diy_making",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "086",
+      "title": "Restoration",
+      "directory": "086_restoration",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "087",
+      "title": "How Things Work",
+      "directory": "087_how_things_work",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "088",
+      "title": "How It's Made",
+      "directory": "088_how_its_made",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "089",
+      "title": "Inventions & Inventors",
+      "directory": "089_inventions_inventors",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/402_3d_printing/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "ec66d9720b3618c07b078fde0f9d9ae62d2b229c0d000eb8e9dd876c1c78bb85",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-402-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e7ecd1bbf3bacbae910000a2e7803cbd89dcbfa14b630ed2de9ce4a8abf69fb8"
+      },
+      "BANK-402-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "25295a5e807c33d7e4bd6afba28863485e5f4b63190011adb57a238f9bd1fc98"
+      },
+      "BANK-402-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "13233b670a2da7d0160a094affb69beb63a16ae7010abedcc0423885e36d1547"
+      },
+      "BANK-402-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e0a8af7152b3ca9df50e53c7a69cde62d82fe3ae82ce1d64b01e391e1f8ce8c4"
+      },
+      "BANK-402-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "201795d386e7d1610d524f45a6335a2c463b310792ba3c8ac82140c8b3e51590"
+      },
+      "BANK-402-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "aead91997de52efa2677b53a6fd81d7506839c0d20194b715a07a1cf5f9670fa"
+      },
+      "BANK-402-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a2765d90ac7e5bf34f351a06ba9e50629453514b85f1e17b60802a600c1b679b"
+      },
+      "BANK-402-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "960886114ba4ab4520f58b1f594b62eaed5eb1e510ebed8ede3acca5e095c01e"
+      },
+      "BANK-402-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7e3ad76a7b7e70d84d2bd1e6b0bc87f283a59b9190caa3c3392a9ce01e2f583d"
+      }
+    },
+    "source_categories": {
+      "CATALOG-402-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "13a37523b3561087feaca092a0177756a004a27136aada4a1d16d6a2592fe3bb"
+      },
+      "CATALOG-402-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "79051b00c5e7d7cf7aef83457711a6c08bd9b7ef1328da85d6de458b9b5a2d1c"
+      },
+      "CATALOG-402-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "3fc799d2614562f00f9f740aec4afd2e4db47d08e14d9b45f86591066aa31102"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "402_3D_PRINTING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "dc959b28f8330dcda05a1ffccfc39274a24029ab6accf3a4b0e7ddf2e1e2e3a3",
+        "original_text": "# 3D Printing Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 402 3D Printing (Craft_Making)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** 3D Printing Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/402_3d_printing/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of 3D Printing across four progressive tiers:\r\n- **Tier 1: 3D Printing Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in 3D Printing.\r\n- **Tier 2: 3D Printing Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of 3D Printing.\r\n- **Tier 3: 3D Printing Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in 3D Printing.\r\n- **Tier 4: 3D Printing Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for 3D Printing.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/402_3d_printing/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/402_3d_printing/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **An Additive Process Emerges** | *Which dated patent or machine changed a specific printing process?* |\r\n| 2 | `famous_examples` | **A Printed Part under Test** | *What does a named printed object's documented test prove?* |\r\n| 3 | `hidden_stories` | **Work behind a Printed Object** | *Who modeled, prepared, operated, postprocessed, and inspected it?* |\r\n| 4 | `beginner_explainers` | **From Model to Part** | *How do geometry, slicing, build, postprocessing, and inspection connect?* |\r\n| 5 | `advanced_concepts` | **Anisotropy in a Print** | *How can build orientation change measured properties?* |\r\n| 6 | `mysteries_unsolved_cases` | **Why Did a Print Fail?** | *Which data distinguish feedstock, geometry, process, and handling causes?* |\r\n| 7 | `technology_innovation` | **A New Printing Method** | *Which measurable limit did a particular process improve?* |\r\n| 8 | `people_personalities` | **A Designer Revises a Part** | *What test result led to a documented redesign?* |\r\n| 9 | `major_events` | **A Standard Changes Qualification** | *How did a dated test or standard alter a specified application?* |\r\n| 10 | `how_it_works` | **Building Layer by Layer** | *Which process variables affect one part's geometry and properties?* |\r\n| 11 | `rise_fall` | **A Printed Prototype Replaced** | *Why was a print abandoned for another process?* |\r\n| 12 | `then_vs_now` | **A Part across Machine Versions** | *Which properties changed after hardware or software update?* |\r\n| 13 | `future_developments` | **A Proposed Printed Application** | *What qualification evidence is missing for intended use?* |\r\n| 14 | `myths_vs_facts` | **Can Print Anything?** | *Which size, material, finish, and strength limits matter for a named use?* |\r\n| 15 | `documentary_stories` | **One Part's Digital Thread** | *How did CAD revision, print log, and test produce the final object?* |\r\n| 16 | `creative_brief` | **What the Part Must Do** | *Which fit, load, surface, and service-life requirements were specified?* |\r\n| 17 | `materials_and_tools` | **Feedstock and Machine Match** | *What do material batch and machine condition contribute?* |\r\n| 18 | `process_breakdown` | **A Test Print's Lessons** | *Which measured deviation changed the model or settings?* |\r\n| 19 | `composition_choice` | **Form Enabled by Printing** | *Which geometry could be made more simply or differently?* |\r\n| 20 | `collaborative_authorship` | **A Printed Part's Makers** | *Who designed, prepared, printed, finished, and qualified it?* |\r\n| 21 | `adaptation_across_media` | **CAD Image versus Physical Part** | *Which details changed after fabrication and finishing?* |\r\n| 22 | `audience_reception` | **Users of a Printed Part** | *What do actual users report about fit and durability?* |\r\n| 23 | `cultural_context` | **Printing in a Local Workshop** | *How do access, materials, and skills affect a maker community?* |\r\n| 24 | `preservation_restoration` | **Archiving a Print** | *Which files, software versions, settings, and material batches are needed?* |\r\n| 25 | `rights_and_attribution` | **Sharing a Printable Model** | *What license covers the model and any incorporated design?* |\r\n| 26 | `style_comparison` | **Two Additive Processes** | *How do outputs differ for an identical part requirement?* |\r\n| 27 | `creative_failure` | **A Rejected Build** | *Which inspection criterion was missed and why?* |\r\n| 28 | `field_material_selection` | **Choosing Feedstock** | *Which material properties and batch data fit the intended service?* |\r\n| 29 | `field_tool_control` | **Emissions and Machine Safety** | *What enclosure, ventilation, or operating controls are documented?* |\r\n| 30 | `field_pattern_design` | **Designing for a Build** | *Which wall, support, and tolerance choices affect a specific process?* |\r\n| 31 | `field_repairability` | **Fixing a Printed Object** | *Can a worn component be replaced or reprinted with documented equivalence?* |\r\n| 32 | `field_craft_lineage` | **From Craft to Digital Fabrication** | *Which earlier making practice informs a printed form?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of 3D Printing: An Additive Process Emerges**\r\n   - *Question:* Which dated patent or machine changed a specific printing process?\r\n   - *Key Focus:* Distinguish prototype, commercialization, and later variants. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n2. **3D Printing: A Printed Part under Test**\r\n   - *Question:* What does a named printed object's documented test prove?\r\n   - *Key Focus:* Specify material, orientation, machine, process, and load. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n3. **3D Printing: Work behind a Printed Object**\r\n   - *Question:* Who modeled, prepared, operated, postprocessed, and inspected it?\r\n   - *Key Focus:* Use credits and process logs. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n4. **3D Printing: From Model to Part**\r\n   - *Question:* How do geometry, slicing, build, postprocessing, and inspection connect?\r\n   - *Key Focus:* Follow one documented part and record versions. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n5. **3D Printing: Anisotropy in a Print**\r\n   - *Question:* How can build orientation change measured properties?\r\n   - *Key Focus:* Compare controlled specimens and test methods. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n### Tier 2: Methodological Deep Dives\r\n6. **3D Printing: Why Did a Print Fail?**\r\n   - *Question:* Which data distinguish feedstock, geometry, process, and handling causes?\r\n   - *Key Focus:* Review machine log and material test; avoid diagnosis from a photo. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n7. **3D Printing: A New Printing Method**\r\n   - *Question:* Which measurable limit did a particular process improve?\r\n   - *Key Focus:* Compare accuracy, throughput, material, and repeatability. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n8. **3D Printing: A Designer Revises a Part**\r\n   - *Question:* What test result led to a documented redesign?\r\n   - *Key Focus:* Use model versions and inspection reports. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n9. **3D Printing: A Standard Changes Qualification**\r\n   - *Question:* How did a dated test or standard alter a specified application?\r\n   - *Key Focus:* Check edition, jurisdiction, and actual adoption. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n10. **3D Printing: Building Layer by Layer**\r\n   - *Question:* Which process variables affect one part's geometry and properties?\r\n   - *Key Focus:* Describe principle and measured parameters, not unsafe machine operation. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **3D Printing: A Printed Prototype Replaced**\r\n   - *Question:* Why was a print abandoned for another process?\r\n   - *Key Focus:* Compare documented cost, quality, and function. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n12. **3D Printing: A Part across Machine Versions**\r\n   - *Question:* Which properties changed after hardware or software update?\r\n   - *Key Focus:* Use same material and test where possible. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n13. **3D Printing: A Proposed Printed Application**\r\n   - *Question:* What qualification evidence is missing for intended use?\r\n   - *Key Focus:* Identify tests and regulatory path without prediction. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n14. **3D Printing: Can Print Anything?**\r\n   - *Question:* Which size, material, finish, and strength limits matter for a named use?\r\n   - *Key Focus:* Use actual machine specification and test. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n15. **3D Printing: One Part's Digital Thread**\r\n   - *Question:* How did CAD revision, print log, and test produce the final object?\r\n   - *Key Focus:* Follow provenance and accountable approvals. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **3D Printing: What the Part Must Do**\r\n   - *Question:* Which fit, load, surface, and service-life requirements were specified?\r\n   - *Key Focus:* Compare brief with measured output. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n17. **3D Printing: Feedstock and Machine Match**\r\n   - *Question:* What do material batch and machine condition contribute?\r\n   - *Key Focus:* Use certificates, logs, and process notes. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n18. **3D Printing: A Test Print's Lessons**\r\n   - *Question:* Which measured deviation changed the model or settings?\r\n   - *Key Focus:* Compare build, inspection, and revision record. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n19. **3D Printing: Form Enabled by Printing**\r\n   - *Question:* Which geometry could be made more simply or differently?\r\n   - *Key Focus:* Compare with alternative fabrication and function. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n20. **3D Printing: A Printed Part's Makers**\r\n   - *Question:* Who designed, prepared, printed, finished, and qualified it?\r\n   - *Key Focus:* Use revision history and credits. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 402 (3D Printing)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of 3D Printing: An Additive Process Emerges*\r\n- **Episode Slug:** `402_3d_printing_deep_dive_the_architecture_of_3d_printing_an_additive_process_emerges`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/402_3d_printing/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "a63a315190f7378b33a443317e28c4c5c1a201c51348a102fe5591c87f78e4a3",
+        "original_text": "# 402 3D Printing -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 402 3D Printing (Craft_Making)  \r\n> **Storage Directory:** `topics/402_3d_printing/`  \r\n> **Synchronized With:** `OUTPUT/402_3d_printing/`, `REGISTRY/Niches/402_3d_printing/`, and `402_3D_PRINTING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 402 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/402_3d_printing](../../OUTPUT/402_3d_printing) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of 3D Printing: An Additive Process Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `3d_printing_an_additive_process_emerges` | A rigorous pedagogical investigation exploring an additive process emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **3D Printing: A Printed Part under Test** | Tier 1: Foundational Frameworks | `famous_examples` | `3d_printing_a_printed_part_under_test` | A rigorous pedagogical investigation exploring a printed part under test through documented evidence. | `QUEUED` |\r\n| 3 | **3D Printing: Work behind a Printed Object** | Tier 1: Foundational Frameworks | `hidden_stories` | `3d_printing_work_behind_a_printed_object` | A rigorous pedagogical investigation exploring work behind a printed object through documented evidence. | `QUEUED` |\r\n| 4 | **3D Printing: From Model to Part** | Tier 1: Foundational Frameworks | `beginner_explainers` | `3d_printing_from_model_to_part` | A rigorous pedagogical investigation exploring from model to part through documented evidence. | `QUEUED` |\r\n| 5 | **3D Printing: Anisotropy in a Print** | Tier 1: Foundational Frameworks | `advanced_concepts` | `3d_printing_anisotropy_in_a_print` | A rigorous pedagogical investigation exploring anisotropy in a print through documented evidence. | `QUEUED` |\r\n| 6 | **3D Printing: Why Did a Print Fail?** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `3d_printing_why_did_a_print_fail` | A rigorous pedagogical investigation exploring why did a print fail? through documented evidence. | `QUEUED` |\r\n| 7 | **3D Printing: A New Printing Method** | Tier 2: Methodological Deep Dives | `technology_innovation` | `3d_printing_a_new_printing_method` | A rigorous pedagogical investigation exploring a new printing method through documented evidence. | `QUEUED` |\r\n| 8 | **3D Printing: A Designer Revises a Part** | Tier 2: Methodological Deep Dives | `people_personalities` | `3d_printing_a_designer_revises_a_part` | A rigorous pedagogical investigation exploring a designer revises a part through documented evidence. | `QUEUED` |\r\n| 9 | **3D Printing: A Standard Changes Qualification** | Tier 2: Methodological Deep Dives | `major_events` | `3d_printing_a_standard_changes_qualification` | A rigorous pedagogical investigation exploring a standard changes qualification through documented evidence. | `QUEUED` |\r\n| 10 | **3D Printing: Building Layer by Layer** | Tier 2: Methodological Deep Dives | `how_it_works` | `3d_printing_building_layer_by_layer` | A rigorous pedagogical investigation exploring building layer by layer through documented evidence. | `QUEUED` |\r\n| 11 | **3D Printing: A Printed Prototype Replaced** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `3d_printing_a_printed_prototype_replaced` | A rigorous pedagogical investigation exploring a printed prototype replaced through documented evidence. | `QUEUED` |\r\n| 12 | **3D Printing: A Part across Machine Versions** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `3d_printing_a_part_across_machine_versions` | A rigorous pedagogical investigation exploring a part across machine versions through documented evidence. | `QUEUED` |\r\n| 13 | **3D Printing: A Proposed Printed Application** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `3d_printing_a_proposed_printed_application` | A rigorous pedagogical investigation exploring a proposed printed application through documented evidence. | `QUEUED` |\r\n| 14 | **3D Printing: Can Print Anything?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `3d_printing_can_print_anything` | A rigorous pedagogical investigation exploring can print anything? through documented evidence. | `QUEUED` |\r\n| 15 | **3D Printing: One Part's Digital Thread** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `3d_printing_one_part_s_digital_thread` | A rigorous pedagogical investigation exploring one part's digital thread through documented evidence. | `QUEUED` |\r\n| 16 | **3D Printing: What the Part Must Do** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `creative_brief` | `3d_printing_what_the_part_must_do` | A rigorous pedagogical investigation exploring what the part must do through documented evidence. | `QUEUED` |\r\n| 17 | **3D Printing: Feedstock and Machine Match** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `materials_and_tools` | `3d_printing_feedstock_and_machine_match` | A rigorous pedagogical investigation exploring feedstock and machine match through documented evidence. | `QUEUED` |\r\n| 18 | **3D Printing: A Test Print's Lessons** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `process_breakdown` | `3d_printing_a_test_print_s_lessons` | A rigorous pedagogical investigation exploring a test print's lessons through documented evidence. | `QUEUED` |\r\n| 19 | **3D Printing: Form Enabled by Printing** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `composition_choice` | `3d_printing_form_enabled_by_printing` | A rigorous pedagogical investigation exploring form enabled by printing through documented evidence. | `QUEUED` |\r\n| 20 | **3D Printing: A Printed Part's Makers** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `collaborative_authorship` | `3d_printing_a_printed_part_s_makers` | A rigorous pedagogical investigation exploring a printed part's makers through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **3D Printing: Record Extremes & Superlatives** | **98** | `extreme_case` | `3d_printing_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **3D Printing: Why Did a Print Fail?** | **96** | `mysteries_unsolved_cases` | `3d_printing_mysteries_unsolved_cases` | High viral search interest exploring which data distinguish feedstock, geometry, process, and handling causes backed by field records. | `Queued` |\r\n| 23 | **3D Printing: A New Printing Method** | **95** | `technology_innovation` | `3d_printing_technology_innovation` | High viral search interest exploring which measurable limit did a particular process improve backed by field records. | `Queued` |\r\n| 24 | **3D Printing: Can Print Anything?** | **94** | `myths_vs_facts` | `3d_printing_myths_vs_facts` | High viral search interest exploring which size, material, finish, and strength limits matter for a named use backed by field records. | `Queued` |\r\n| 25 | **3D Printing: A Standard Changes Qualification** | **93** | `major_events` | `3d_printing_major_events` | High viral search interest exploring how did a dated test or standard alter a specified application backed by field records. | `Queued` |\r\n| 26 | **3D Printing: Work behind a Printed Object** | **92** | `hidden_stories` | `3d_printing_hidden_stories` | High viral search interest exploring who modeled, prepared, operated, postprocessed, and inspected it backed by field records. | `Queued` |\r\n| 27 | **3D Printing: One Part's Digital Thread** | **91** | `documentary_stories` | `3d_printing_documentary_stories` | High viral search interest exploring how did cad revision, print log, and test produce the final object backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/402_3d_printing/402_3D_PRINTING_CHANNEL_TOPIC_ROADMAP.md`](./402_3D_PRINTING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/402_3d_printing/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/402_3d_printing/NICHE_402_3d_printing.md`](file:///h:/script-raw-/REGISTRY/Niches/402_3d_printing/NICHE_402_3d_printing.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/402_3d_printing/CAT_402_3d_printing.md`](file:///h:/script-raw-/REGISTRY/Niches/402_3d_printing/CAT_402_3d_printing.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/402_3d_printing/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/402_3d_printing/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/402_3d_printing/`](file:///h:/script-raw-/OUTPUT/402_3d_printing/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "f670f5a15fb8910848bcca9416095c0c13040f51532a4f10b01d111e4019f5c5",
+        "original_text": "{\r\n  \"niche_id\": \"402\",\r\n  \"niche_name\": \"3d_printing\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of 3D Printing: An Additive Process Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"3d_printing_an_additive_process_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an additive process emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"3D Printing: A Printed Part under Test\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"3d_printing_a_printed_part_under_test\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a printed part under test through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"3D Printing: Work behind a Printed Object\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"3d_printing_work_behind_a_printed_object\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring work behind a printed object through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"3D Printing: From Model to Part\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"3d_printing_from_model_to_part\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from model to part through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"3D Printing: Anisotropy in a Print\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"3d_printing_anisotropy_in_a_print\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring anisotropy in a print through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"3D Printing: Why Did a Print Fail?\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"3d_printing_why_did_a_print_fail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring why did a print fail? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"3D Printing: A New Printing Method\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"3d_printing_a_new_printing_method\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new printing method through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"3D Printing: A Designer Revises a Part\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"3d_printing_a_designer_revises_a_part\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a designer revises a part through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"3D Printing: A Standard Changes Qualification\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"3d_printing_a_standard_changes_qualification\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a standard changes qualification through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"3D Printing: Building Layer by Layer\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"3d_printing_building_layer_by_layer\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring building layer by layer through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"3D Printing: A Printed Prototype Replaced\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"3d_printing_a_printed_prototype_replaced\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a printed prototype replaced through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"3D Printing: A Part across Machine Versions\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"3d_printing_a_part_across_machine_versions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a part across machine versions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"3D Printing: A Proposed Printed Application\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"3d_printing_a_proposed_printed_application\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed printed application through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"3D Printing: Can Print Anything?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"3d_printing_can_print_anything\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring can print anything? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"3D Printing: One Part's Digital Thread\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"3d_printing_one_part_s_digital_thread\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one part's digital thread through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"3D Printing: What the Part Must Do\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"creative_brief\",\r\n      \"slug\": \"3d_printing_what_the_part_must_do\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what the part must do through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"3D Printing: Feedstock and Machine Match\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"materials_and_tools\",\r\n      \"slug\": \"3d_printing_feedstock_and_machine_match\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring feedstock and machine match through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"3D Printing: A Test Print's Lessons\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"process_breakdown\",\r\n      \"slug\": \"3d_printing_a_test_print_s_lessons\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a test print's lessons through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"3D Printing: Form Enabled by Printing\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"composition_choice\",\r\n      \"slug\": \"3d_printing_form_enabled_by_printing\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring form enabled by printing through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"3D Printing: A Printed Part's Makers\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"collaborative_authorship\",\r\n      \"slug\": \"3d_printing_a_printed_part_s_makers\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a printed part's makers through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"3D Printing: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"3d_printing_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"3D Printing: Why Did a Print Fail?\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"3d_printing_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which data distinguish feedstock, geometry, process, and handling causes backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"3D Printing: A New Printing Method\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"3d_printing_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring which measurable limit did a particular process improve backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"3D Printing: Can Print Anything?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"3d_printing_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which size, material, finish, and strength limits matter for a named use backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"3D Printing: A Standard Changes Qualification\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"3d_printing_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring how did a dated test or standard alter a specified application backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"3D Printing: Work behind a Printed Object\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"3d_printing_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who modeled, prepared, operated, postprocessed, and inspected it backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"3D Printing: One Part's Digital Thread\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"3d_printing_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did cad revision, print log, and test produce the final object backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "402",
+      "niche_name": "3d_printing",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of 3D Printing: An Additive Process Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "3d_printing_an_additive_process_emerges",
+          "reason": "A rigorous pedagogical investigation exploring an additive process emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "3D Printing: A Printed Part under Test",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "3d_printing_a_printed_part_under_test",
+          "reason": "A rigorous pedagogical investigation exploring a printed part under test through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "3D Printing: Work behind a Printed Object",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "3d_printing_work_behind_a_printed_object",
+          "reason": "A rigorous pedagogical investigation exploring work behind a printed object through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "3D Printing: From Model to Part",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "3d_printing_from_model_to_part",
+          "reason": "A rigorous pedagogical investigation exploring from model to part through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "3D Printing: Anisotropy in a Print",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "3d_printing_anisotropy_in_a_print",
+          "reason": "A rigorous pedagogical investigation exploring anisotropy in a print through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "3D Printing: Why Did a Print Fail?",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "3d_printing_why_did_a_print_fail",
+          "reason": "A rigorous pedagogical investigation exploring why did a print fail? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "3D Printing: A New Printing Method",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "3d_printing_a_new_printing_method",
+          "reason": "A rigorous pedagogical investigation exploring a new printing method through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "3D Printing: A Designer Revises a Part",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "3d_printing_a_designer_revises_a_part",
+          "reason": "A rigorous pedagogical investigation exploring a designer revises a part through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "3D Printing: A Standard Changes Qualification",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "3d_printing_a_standard_changes_qualification",
+          "reason": "A rigorous pedagogical investigation exploring a standard changes qualification through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "3D Printing: Building Layer by Layer",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "3d_printing_building_layer_by_layer",
+          "reason": "A rigorous pedagogical investigation exploring building layer by layer through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "3D Printing: A Printed Prototype Replaced",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "3d_printing_a_printed_prototype_replaced",
+          "reason": "A rigorous pedagogical investigation exploring a printed prototype replaced through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "3D Printing: A Part across Machine Versions",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "3d_printing_a_part_across_machine_versions",
+          "reason": "A rigorous pedagogical investigation exploring a part across machine versions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "3D Printing: A Proposed Printed Application",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "3d_printing_a_proposed_printed_application",
+          "reason": "A rigorous pedagogical investigation exploring a proposed printed application through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "3D Printing: Can Print Anything?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "3d_printing_can_print_anything",
+          "reason": "A rigorous pedagogical investigation exploring can print anything? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "3D Printing: One Part's Digital Thread",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "3d_printing_one_part_s_digital_thread",
+          "reason": "A rigorous pedagogical investigation exploring one part's digital thread through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "3D Printing: What the Part Must Do",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "creative_brief",
+          "slug": "3d_printing_what_the_part_must_do",
+          "reason": "A rigorous pedagogical investigation exploring what the part must do through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "3D Printing: Feedstock and Machine Match",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "materials_and_tools",
+          "slug": "3d_printing_feedstock_and_machine_match",
+          "reason": "A rigorous pedagogical investigation exploring feedstock and machine match through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "3D Printing: A Test Print's Lessons",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "process_breakdown",
+          "slug": "3d_printing_a_test_print_s_lessons",
+          "reason": "A rigorous pedagogical investigation exploring a test print's lessons through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "3D Printing: Form Enabled by Printing",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "composition_choice",
+          "slug": "3d_printing_form_enabled_by_printing",
+          "reason": "A rigorous pedagogical investigation exploring form enabled by printing through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "3D Printing: A Printed Part's Makers",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "collaborative_authorship",
+          "slug": "3d_printing_a_printed_part_s_makers",
+          "reason": "A rigorous pedagogical investigation exploring a printed part's makers through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "3D Printing: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "3d_printing_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "3D Printing: Why Did a Print Fail?",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "3d_printing_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which data distinguish feedstock, geometry, process, and handling causes backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "3D Printing: A New Printing Method",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "3d_printing_technology_innovation",
+          "why_trending": "High viral search interest exploring which measurable limit did a particular process improve backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "3D Printing: Can Print Anything?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "3d_printing_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which size, material, finish, and strength limits matter for a named use backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "3D Printing: A Standard Changes Qualification",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "3d_printing_major_events",
+          "why_trending": "High viral search interest exploring how did a dated test or standard alter a specified application backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "3D Printing: Work behind a Printed Object",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "3d_printing_hidden_stories",
+          "why_trending": "High viral search interest exploring who modeled, prepared, operated, postprocessed, and inspected it backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "3D Printing: One Part's Digital Thread",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "3d_printing_documentary_stories",
+          "why_trending": "High viral search interest exploring how did cad revision, print log, and test produce the final object backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "156af60d7f09db642edd70a3de2f492446e206718eeb2c1e05c9726fd51e889e"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "e7c8b9b0902398a5f4db101b181a031f433a5c39f8e7da2b50c932d8876c5f79"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "e067d229fd3bd74f2597e7f8987b7f2ac9301999983c6d53fdcdcf1b3f473cfc"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "bfb31a973fd1194ac3576da03c8dc95d30469fdf161c8785b1ffa9c2f2a6d333"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "7214a1bd74e14521b05ced63de883a1869cf8eea85238580251b6e8318fc2cc5"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "082ace70d69f95a8e0526312de136b802786ed6e4a52c342da1987fecaf291f3"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-402-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-402-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-402-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-402-04",
+      "title": "Print planning",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-402-05",
+      "title": "Fabrication systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "402",
+    "slug": "3d_printing",
+    "name": "3D Printing",
+    "primary_category": "Craft_Making",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a 3D Printing YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-402-01",
+        "title": "Printing processes",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-402-001",
+            "title": "FDM extrusion",
+            "question": "FDM extrusion: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Printing processes. Address FDM extrusion through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind FDM extrusion.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-002",
+            "title": "Resin curing",
+            "question": "Resin curing: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Printing processes. Address Resin curing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Resin curing.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-003",
+            "title": "Powder-bed fusion",
+            "question": "Powder-bed fusion: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Printing processes. Address Powder-bed fusion through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Powder-bed fusion.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-402-02",
+        "title": "Design for printing",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-402-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-402-004",
+            "title": "Layer orientation",
+            "question": "Layer orientation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Design for printing. Address Layer orientation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Layer orientation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-005",
+            "title": "Support removal",
+            "question": "Support removal: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Design for printing. Address Support removal through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Support removal.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-006",
+            "title": "Dimensional compensation",
+            "question": "Dimensional compensation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Design for printing. Address Dimensional compensation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Dimensional compensation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-402-03",
+        "title": "Quality",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-402-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-402-007",
+            "title": "Strength anisotropy",
+            "question": "Strength anisotropy: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Quality. Address Strength anisotropy through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Strength anisotropy.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-008",
+            "title": "Printer calibration",
+            "question": "Printer calibration: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Quality. Address Printer calibration through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Printer calibration.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-402-009",
+            "title": "Material emissions and ventilation",
+            "question": "Material emissions and ventilation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: 3D Printing; branch: Quality. Address Material emissions and ventilation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Material emissions and ventilation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "064",
+        "title": "Home & Lifestyle",
+        "directory": "064_home_lifestyle",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "085",
+        "title": "DIY & Making",
+        "directory": "085_diy_making",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "086",
+        "title": "Restoration",
+        "directory": "086_restoration",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "087",
+        "title": "How Things Work",
+        "directory": "087_how_things_work",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "088",
+        "title": "How It's Made",
+        "directory": "088_how_its_made",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "089",
+        "title": "Inventions & Inventors",
+        "directory": "089_inventions_inventors",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of 3D Printing: An Additive Process Emerges",
+      "question": "Which dated patent or machine changed a specific printing process?",
+      "coverage": "Distinguish prototype, commercialization, and later variants. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Printed Part under Test",
+      "question": "What does a named printed object's documented test prove?",
+      "coverage": "Specify material, orientation, machine, process, and load. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Work behind a Printed Object",
+      "question": "Who modeled, prepared, operated, postprocessed, and inspected it?",
+      "coverage": "Use credits and process logs. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: From Model to Part",
+      "question": "How do geometry, slicing, build, postprocessing, and inspection connect?",
+      "coverage": "Follow one documented part and record versions. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Anisotropy in a Print",
+      "question": "How can build orientation change measured properties?",
+      "coverage": "Compare controlled specimens and test methods. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Why Did a Print Fail?",
+      "question": "Which data distinguish feedstock, geometry, process, and handling causes?",
+      "coverage": "Review machine log and material test; avoid diagnosis from a photo. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A New Printing Method",
+      "question": "Which measurable limit did a particular process improve?",
+      "coverage": "Compare accuracy, throughput, material, and repeatability. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Designer Revises a Part",
+      "question": "What test result led to a documented redesign?",
+      "coverage": "Use model versions and inspection reports. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Standard Changes Qualification",
+      "question": "How did a dated test or standard alter a specified application?",
+      "coverage": "Check edition, jurisdiction, and actual adoption. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Building Layer by Layer",
+      "question": "Which process variables affect one part's geometry and properties?",
+      "coverage": "Describe principle and measured parameters, not unsafe machine operation. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Printed Prototype Replaced",
+      "question": "Why was a print abandoned for another process?",
+      "coverage": "Compare documented cost, quality, and function. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Part across Machine Versions",
+      "question": "Which properties changed after hardware or software update?",
+      "coverage": "Use same material and test where possible. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Proposed Printed Application",
+      "question": "What qualification evidence is missing for intended use?",
+      "coverage": "Identify tests and regulatory path without prediction. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Can Print Anything?",
+      "question": "Which size, material, finish, and strength limits matter for a named use?",
+      "coverage": "Use actual machine specification and test. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: One Part's Digital Thread",
+      "question": "How did CAD revision, print log, and test produce the final object?",
+      "coverage": "Follow provenance and accountable approvals. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: What the Part Must Do",
+      "question": "Which fit, load, surface, and service-life requirements were specified?",
+      "coverage": "Compare brief with measured output. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Feedstock and Machine Match",
+      "question": "What do material batch and machine condition contribute?",
+      "coverage": "Use certificates, logs, and process notes. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Test Print's Lessons",
+      "question": "Which measured deviation changed the model or settings?",
+      "coverage": "Compare build, inspection, and revision record. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: Form Enabled by Printing",
+      "question": "Which geometry could be made more simply or differently?",
+      "coverage": "Compare with alternative fabrication and function. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "3D Printing: A Printed Part's Makers",
+      "question": "Who designed, prepared, printed, finished, and qualified it?",
+      "coverage": "Use revision history and credits. Evidence base: CAD and slicer versions, machine logs, feedstock batches, material characterization, part inspection and test records, NIST measurement research, and NIOSH emissions guidance.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-402-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "0f5a286191318288995631dff0bbecbab916f32a68cfab51a755509ec24aa1a7",
+    "TOPIC_BANK_RECONCILIATION.md": "d349549c457d19c3128a1e1e058a14ad280b7fbe30260c66cd58a39fbdda9013",
+    "TOPICS_COVERED_REPORT.md": "7b2ee313978e8c3904823b8b58188f3f4e63ef05585dd9fba3ffa3692aae198d",
+    "402_3D_PRINTING_CHANNEL_TOPIC_ROADMAP.md": "a64cee12cfb6976c8fa917271f3491fe82509d09734341f006a0d94968b6bebe"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-402-002": [
+      "BANK-402-036"
+    ],
+    "BANK-402-003": [
+      "BANK-402-036"
+    ],
+    "BANK-402-004": [
+      "BANK-402-037"
+    ],
+    "BANK-402-005": [
+      "BANK-402-037"
+    ],
+    "BANK-402-006": [
+      "BANK-402-037"
+    ],
+    "BANK-402-007": [
+      "BANK-402-037"
+    ],
+    "BANK-402-008": [
+      "BANK-402-038"
+    ],
+    "BANK-402-009": [
+      "BANK-402-038"
+    ],
+    "BANK-402-001": [
+      "BANK-402-036"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Slicer infill strategies",
+      "next_step": "Compare geometry, load direction and wall contributions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Multi-material printing",
+      "next_step": "Compare adhesion, temperature compatibility and differential shrinkage. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Digital fabrication tolerances",
+      "next_step": "Trace process variation through one assembly. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Print-farm operations",
+      "next_step": "Track machine configuration, batches and maintenance evidence. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-036"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 0 (original ID 1, title ?The Architecture of 3D Printing: An Additive Process Emerges?) to: How do extrusion, resin curing and powder-bed fusion build layers differently? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-402-043"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 1 (original ID 2, title ?3D Printing: A Printed Part under Test?) to: What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-038"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 2 (original ID 3, title ?3D Printing: Work behind a Printed Object?) to: How can printer calibration and ventilation planning address different forms of print failure? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-030"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 3 (original ID 4, title ?3D Printing: From Model to Part?) to: Why can a watertight-looking 3D model fail to slice? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-402-043"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 4 (original ID 5, title ?3D Printing: Anisotropy in a Print?) to: What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-034"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 5 (original ID 6, title ?3D Printing: Why Did a Print Fail??) to: How can a printer fault be separated from a wet-filament problem? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-036"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 6 (original ID 7, title ?3D Printing: A New Printing Method?) to: How do extrusion, resin curing and powder-bed fusion build layers differently? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-032"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 7 (original ID 8, title ?3D Printing: A Designer Revises a Part?) to: When should a model be split into several printed parts? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 8 (original ID 9, title ?3D Printing: A Standard Changes Qualification?) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-036"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 9 (original ID 10, title ?3D Printing: Building Layer by Layer?) to: How do extrusion, resin curing and powder-bed fusion build layers differently? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 10 (original ID 11, title ?3D Printing: A Printed Prototype Replaced?) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-038"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 11 (original ID 12, title ?3D Printing: A Part across Machine Versions?) to: How can printer calibration and ventilation planning address different forms of print failure? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 12 (original ID 13, title ?3D Printing: A Proposed Printed Application?) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 13 (original ID 14, title ?3D Printing: Can Print Anything??) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-402-043"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 14 (original ID 15, title ?3D Printing: One Part's Digital Thread?) to: What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 15 (original ID 16, title ?3D Printing: What the Part Must Do?) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-040"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 16 (original ID 17, title ?3D Printing: Feedstock and Machine Match?) to: Why can two printable materials fail at their shared boundary? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-402-043"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 17 (original ID 18, title ?3D Printing: A Test Print's Lessons?) to: What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-032"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 18 (original ID 19, title ?3D Printing: Form Enabled by Printing?) to: When should a model be split into several printed parts? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-042"
+      ],
+      "reason": "Existing scoped question routes archived pending_topics position 19 (original ID 20, title ?3D Printing: A Printed Part's Makers?) to: How can a print farm detect recurring failure without treating every printer as identical? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "reject_unsubstantiated_superlative",
+      "bank_ids": [],
+      "reason": "Archived trending_topics position 0 (original ID 21, title ?3D Printing: Record Extremes & Superlatives?) asserts an unspecified record or superlative without a defined measure, source, date or comparison set. Original record/status remain preserved; no active proposal adopts the claim."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-034"
+      ],
+      "reason": "Existing scoped question routes archived trending_topics position 1 (original ID 22, title ?3D Printing: Why Did a Print Fail??) to: How can a printer fault be separated from a wet-filament problem? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-036"
+      ],
+      "reason": "Existing scoped question routes archived trending_topics position 2 (original ID 23, title ?3D Printing: A New Printing Method?) to: How do extrusion, resin curing and powder-bed fusion build layers differently? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived trending_topics position 3 (original ID 24, title ?3D Printing: Can Print Anything??) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-035"
+      ],
+      "reason": "Existing scoped question routes archived trending_topics position 4 (original ID 25, title ?3D Printing: A Standard Changes Qualification?) to: What evidence is needed before using a printed part in a critical application? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-402-038"
+      ],
+      "reason": "Existing scoped question routes archived trending_topics position 5 (original ID 26, title ?3D Printing: Work behind a Printed Object?) to: How can printer calibration and ventilation planning address different forms of print failure? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-402-043"
+      ],
+      "reason": "Named primary-source case routes archived trending_topics position 6 (original ID 27, title ?3D Printing: One Part's Digital Thread?) to: What does NIST?s AMB2018-03 printed polycarbonate coupon make testable about layer orientation and part quality? Original archive wording/status remain preserved; the route is not verification of results, historical claims or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-402-043",
+      "note_file": "402_3D_PRINTING_SOURCE_NOTE.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-402-043",
+      "related_id": "BANK-402-037",
+      "boundary": "NIST?s named polymer-coupon geometry and benchmark outcomes versus general orientation/support tradeoffs."
+    },
+    {
+      "topic_id": "BANK-402-043",
+      "related_id": "BANK-402-035",
+      "boundary": "A benchmark test definition versus evidence required to qualify any critical application."
+    },
+    {
+      "topic_id": "BANK-402-043",
+      "related_id": "BANK-401-035",
+      "boundary": "Printed polymer-coupon comparisons versus general metal-part inspection reporting."
+    }
+  ]
+}

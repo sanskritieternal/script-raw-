@@ -1,0 +1,8 @@
+# Selected institutional source note — Ayurveda
+
+Inspected 2026-10-24 for `BANK-281-135`. This is a dated U.S. product-recall premise check, not medical advice or a judgment on all Ayurvedic materials.
+
+- [U.S. FDA, New York Wholesale Group recall announcement, 27 January 2025](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-york-wholesale-group-recalls-zaarah-herbals-shatavari-powder-because-possible-health-risk): identifies Zaarah Herbals Shatavari Powder, UPC 63502899940, Batch SR 04, manufactured July 2022, and says a Connecticut analysis found elevated lead. FDA labels this a company announcement posted as a public service; it says no illnesses had been reported to the company at that date.
+- [Connecticut Department of Consumer Protection, investigation announcement](https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/investigation-sparks-fda-recall-for-zaarah-herbals-powders): describes DCP collection and Connecticut Agricultural Experiment Station analysis of several Zaarah powders, with findings involving lead and inorganic arsenic across that investigated set. Do not transfer every analyte finding to the single Shatavari batch without its individual laboratory record.
+
+These public records establish a dated U.S. regulatory and company action, not the precise exposure of a particular user, a diagnosed illness, contamination of all Shatavari products or a general verdict on Ayurveda. Check current recall status, laboratory methods and jurisdiction before publication; route individual health concerns to qualified services, not an episode script.

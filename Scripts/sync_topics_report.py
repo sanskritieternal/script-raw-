@@ -456,55 +456,22 @@ def generate_markdown_report(done, pending, trending):
     return "\n".join(md)
 
 def main():
-    done, pending, trending = build_ayurveda_topics_report()
-    
-    # 1. Write the main markdown report for 281_ayurveda
-    target_md = TOPICS_DIR / "281_ayurveda" / "TOPICS_COVERED_REPORT.md"
-    content = generate_markdown_report(done, pending, trending)
-    with open(target_md, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"Report written to: {target_md}")
-    
-    # 2. Write a JSON sync data file for programmatic pipelines
-    target_json = TOPICS_DIR / "281_ayurveda" / "topics_status.json"
-    data = {
-        "niche_id": "281",
-        "niche_name": "ayurveda",
-        "last_synced": datetime.now().isoformat(),
-        "summary": {
-            "completed": len(done),
-            "pending": len(pending),
-            "trending": len(trending),
-            "total": len(done) + len(pending) + len(trending)
-        },
-        "completed_topics": done,
-        "pending_topics": pending,
-        "trending_topics": trending
-    }
-    with open(target_json, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Data sync JSON written to: {target_json}")
-
-    # 3. Create a master topics index at topics/README.md
-    master_index = TOPICS_DIR / "README.md"
-    master_md = f"""# Topics Master Registry
-
-Central index of topics covered, pending roadmap queues, and trending suggestions across all production niches.
-
-## Active Niches Tracked
-
-| Niche ID | Niche Name | Completed Episodes | Pending Queue | Trending Ideas | Report Link |
-|---|---|---|---|---|---|
-| **281** | **Ayurveda** | **{len(done)}** | **{len(pending)}** | **{len(trending)}** | [281_ayurveda Report](./281_ayurveda/TOPICS_COVERED_REPORT.md) |
-
-### Structure
-Each niche under `topics/` mirrors the naming conventions of `OUTPUT/<niche>/`:
-- `topics/<niche_folder>/TOPICS_COVERED_REPORT.md` — Human-readable status & roadmap breakdown.
-- `topics/<niche_folder>/topics_status.json` — Machine-readable status synced with pipeline compilers.
-"""
-    with open(master_index, "w", encoding="utf-8") as f:
-        f.write(master_md)
-    print(f"Master index written to: {master_index}")
+    try:
+        import sys
+        scripts_dir = Path(__file__).resolve().parent
+        if str(scripts_dir) not in sys.path:
+            sys.path.insert(0, str(scripts_dir))
+        from integrate_ayurveda_topics import main as run_integration
+        run_integration()
+    except Exception as e:
+        print(f"Error calling integrate_ayurveda_topics: {e}")
+        done, pending, trending = build_ayurveda_topics_report()
+        target_md = TOPICS_DIR / "281_ayurveda" / "TOPICS_COVERED_REPORT.md"
+        content = generate_markdown_report(done, pending, trending)
+        with open(target_md, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Fallback report written to: {target_md}")
 
 if __name__ == "__main__":
     main()
+

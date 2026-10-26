@@ -1,0 +1,1318 @@
+{
+  "schema_version": "1.0",
+  "niche_id": "280",
+  "slug": "yoga",
+  "name": "Yoga",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "purpose": "A channel-planning catalog of philosophical systems, ethics, texts, historical development, posture families, schools, teaching, adaptation, research and media. It treats yoga as a varied field rather than a synonym for exercise.",
+  "roadmap": "280_YOGA_CHANNEL_TOPIC_ROADMAP.md",
+  "counts": {
+    "categories": 20,
+    "proposed_topics": 120
+  },
+  "scope_routing": [
+    {
+      "name": "278 Meditation",
+      "directory": "278_meditation",
+      "roadmap": "278_MEDITATION_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for contemplative attention, named meditation methods, japa, meditation experience and meditation-program research."
+    },
+    {
+      "name": "279 Pranayama",
+      "directory": "279_pranayama",
+      "roadmap": "279_PRANAYAMA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for deliberate breath regulation, named pranayama techniques, traditional breath concepts, respiratory variables and protocol research."
+    },
+    {
+      "name": "280 Yoga",
+      "directory": "280_yoga",
+      "roadmap": "280_YOGA_CHANNEL_TOPIC_ROADMAP.md",
+      "boundary": "Primary home for yoga philosophy, ethics, whole-system history, posture families, schools, sequencing and teaching systems."
+    }
+  ],
+  "research_profiles": {
+    "TEXT": {
+      "requirements": "Inspect a named primary-text edition, passage locator, translator and commentary; compare attributions and keep spiritual or symbolic claims in their source context.",
+      "source_leads": [
+        "IIT Kanpur Gita Supersite corpus (entry point listed in the batch guide)",
+        "the named work in a traceable edition",
+        "authorized public teaching materials for the tradition concerned"
+      ]
+    },
+    "STUDY": {
+      "requirements": "Select actual study reports and registrations; extract intervention, population, comparator, outcomes, follow-up, adverse events, funding and limitations. Use current official guidance for clinical context.",
+      "source_leads": [
+        "ClinicalTrials.gov for study registrations",
+        "original journal reports and their supplementary protocols",
+        "NCCIH official guidance as orientation, not a substitute for original studies"
+      ]
+    },
+    "HISTORY": {
+      "requirements": "Locate dated books, archival records, correspondence, photographs or institutional publications; distinguish contemporary evidence, later recollection and disputed chronology.",
+      "source_leads": [
+        "the named author's dated original publications",
+        "institutional archives and catalog records",
+        "independent scholarship used to test historical interpretation"
+      ]
+    },
+    "GUIDANCE": {
+      "requirements": "Inspect current official guidance and a named institution's policies; record date, population, jurisdiction, scope, consent and referral boundaries. Do not infer individual suitability.",
+      "source_leads": [
+        "NCCIH official yoga and meditation guidance",
+        "current condition-specific professional guidance",
+        "the actual institution's qualification, safeguarding and participant policies"
+      ]
+    },
+    "MOVEMENT": {
+      "requirements": "Compare a named school's authorized curriculum with qualified movement educators and relevant original research; separate description, individual variation, instructional choices and therapeutic claims.",
+      "source_leads": [
+        "authorized public manuals from the named school",
+        "qualified educators' documented explanations",
+        "original biomechanics studies and current safety guidance where relevant"
+      ]
+    },
+    "DIGITAL": {
+      "requirements": "Inspect the named product version, dated terms, privacy policy and actual validation studies; distinguish engagement, measurement accuracy, benefit claims and financial incentives.",
+      "source_leads": [
+        "the provider's product documentation and privacy policy",
+        "original device/app validation studies",
+        "app change logs, funding disclosures and applicable official regulatory records"
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "CATALOG-280-01",
+      "title": "Definitions and learning foundations",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-001",
+          "question": "Why does yoga mean different things in different sources?",
+          "coverage": "Compare definitions in the Yoga Sutra, Bhagavad Gita, and a specified modern curriculum.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-002",
+          "question": "Yoga as philosophy, discipline, and class format: which meaning is being used?",
+          "coverage": "Separate historical categories, practitioner aims, and contemporary service labels.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-003",
+          "question": "What belongs in a beginner's map of yoga beyond postures?",
+          "coverage": "Introduce ethics, attention, breath, study, and community through one explicit framework.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-004",
+          "question": "Is flexibility a useful definition of progress in yoga?",
+          "coverage": "Compare movement capacity with educational, ethical, devotional, and contemplative goals.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-005",
+          "question": "What is a yoga lineage and what evidence supports a lineage claim?",
+          "coverage": "Distinguish documented transmission, institutional affiliation, oral memory, and branding.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-006",
+          "question": "How should a viewer distinguish a yoga documentary from an exercise class?",
+          "coverage": "Compare explanatory goals, participant assumptions, demonstrations, and instructional responsibilities.",
+          "angle": "beginner_explainers",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-02",
+      "title": "Early sources and historical questions",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-280-007",
+          "question": "Yoga in the Katha Upanishad: what discipline does the text describe?",
+          "coverage": "Read a defined passage, translation, and commentary without projecting modern studio classes backward.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-008",
+          "question": "Yoga in the Shvetashvatara Upanishad: how are body, breath, and contemplation connected?",
+          "coverage": "Use a specified edition and distinguish textual description from a modern practice prescription.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-009",
+          "question": "The Maitri Upanishad's yoga scheme: how does it compare with an eight-limb model?",
+          "coverage": "Verify the edition's categories and avoid implying that every source shares one system.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-010",
+          "question": "Yoga and ancient renunciant movements: what can the surviving evidence establish?",
+          "coverage": "Compare primary textual witnesses, dating uncertainty, and competing historical interpretations.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-011",
+          "question": "Indus seals and yoga-origin claims: why is posture resemblance insufficient?",
+          "coverage": "Evaluate archaeological context, dating, identification uncertainty, and the gap between image and tradition.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-012",
+          "question": "Who composed the Yoga Sutra and when: what remains uncertain?",
+          "coverage": "Distinguish authorship traditions, textual scholarship, manuscript evidence, and ranges of proposed dates.",
+          "angle": "source_and_history",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-03",
+      "title": "Yoga Sutra core concepts",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-013",
+          "question": "Yoga Sutra 1.2: how do translations of citta-vritti-nirodha differ?",
+          "coverage": "Compare exact wording and commentary rather than reducing the phrase to stop thinking.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-014",
+          "question": "The five vrittis: how does the Yoga Sutra classify mental activity?",
+          "coverage": "Study the list, examples in commentary, and its role within the text's argument.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-015",
+          "question": "The five kleshas: how is suffering explained in classical yoga?",
+          "coverage": "Keep avidya, asmita, raga, dvesha, and abhinivesha within their philosophical context.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-016",
+          "question": "Kriya yoga in Yoga Sutra 2.1: why are three disciplines grouped together?",
+          "coverage": "Study tapas, svadhyaya, and Ishvara pranidhana through attributed commentarial readings.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-017",
+          "question": "Purusha and prakriti: what dualism does classical yoga assume?",
+          "coverage": "Use a named commentary and distinguish this framework from Advaita accounts of self.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-018",
+          "question": "Kaivalya: why is the goal of classical yoga difficult to translate?",
+          "coverage": "Compare liberation terminology, commentarial interpretation, and modern wellness usage.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-04",
+      "title": "Yama and applied ethics",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-019",
+          "question": "Ahimsa in Yoga Sutra commentary: how is non-harming interpreted?",
+          "coverage": "Compare source interpretation with a bounded classroom example without claiming one universal application.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-020",
+          "question": "Satya and difficult truth-telling: how do yoga sources discuss ethical tension?",
+          "coverage": "Read commentary alongside a clearly labeled illustrative teaching scenario.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-021",
+          "question": "Asteya beyond property: which modern extensions are interpretation?",
+          "coverage": "Distinguish the textual precept from contemporary applications to credit, time, and appropriation.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-022",
+          "question": "Brahmacharya: why do celibacy and moderation translations need context?",
+          "coverage": "Compare renunciant, householder, and modern institutional readings with explicit attribution.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-023",
+          "question": "Aparigraha and consumer yoga: how is non-grasping discussed today?",
+          "coverage": "Connect an attributed reading with pricing, equipment, and consumption debates.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-024",
+          "question": "The great vow in Yoga Sutra 2.31: what does the passage qualify?",
+          "coverage": "Read the verse and commentary before comparing universalist and contextual modern readings.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-05",
+      "title": "Niyama and disciplined learning",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-025",
+          "question": "Shaucha: how do purity concepts differ from hygiene and detox marketing?",
+          "coverage": "Distinguish source meanings, ritual interpretation, ordinary cleanliness, and unsupported health claims.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-026",
+          "question": "Santosha: is contentment the same as passivity?",
+          "coverage": "Compare commentarial explanation and one attributed contemporary interpretation.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-027",
+          "question": "Tapas: why should discipline not be equated with pain endurance?",
+          "coverage": "Study textual meaning and distinguish it from classroom pressure or injury normalization.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-028",
+          "question": "Svadhyaya: how do recitation, study, and self-reflection interpretations differ?",
+          "coverage": "Trace exact usage across a source passage and named teaching materials.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-029",
+          "question": "Ishvara pranidhana in a pluralistic classroom: how do teachers communicate commitments?",
+          "coverage": "Compare transparent institutional policies, participant choice, and theological interpretation.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-030",
+          "question": "Yama and niyama in teacher training: what changes when ethics becomes a checklist?",
+          "coverage": "Inspect a named syllabus, assessment methods, and concrete accountability mechanisms.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-06",
+      "title": "Eight limbs and their relationships",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-031",
+          "question": "The eight limbs in Yoga Sutra 2.29: what does the list organize?",
+          "coverage": "Map the text's terms and avoid treating the list as eight commercial course levels.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-032",
+          "question": "Asana in Yoga Sutra 2.46-48: how much posture instruction is actually present?",
+          "coverage": "Compare the verses, commentary, and later expansion of posture repertoires.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-033",
+          "question": "Pranayama in the eight-limb framework: why does placement matter?",
+          "coverage": "Study its textual relationships and route technique-specific depth to niche 279.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-034",
+          "question": "Pratyahara: how do commentators describe the relation between senses and attention?",
+          "coverage": "Compare two translations and distinguish philosophical models from neurological claims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-035",
+          "question": "Dharana, dhyana, and samadhi: what changes across the three terms?",
+          "coverage": "Explain the textual relationship and route extended meditation-method episodes to niche 278.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-036",
+          "question": "Are the eight limbs strictly sequential: how do interpreters disagree?",
+          "coverage": "Compare named textual and modern institutional readings rather than assuming a universal ladder.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-07",
+      "title": "Bhagavad Gita and paths of yoga",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-037",
+          "question": "Karma yoga and action without attachment: what does the Gita ask of Arjuna?",
+          "coverage": "Read a bounded passage within the dialogue and distinguish ethics from productivity advice.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-038",
+          "question": "Jnana yoga: how do knowledge and action relate in a named commentary?",
+          "coverage": "Compare one interpretive tradition's account with the relevant verses.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-039",
+          "question": "Bhakti yoga in chapter 12: what relationships and qualities are emphasized?",
+          "coverage": "Use an identified translation and avoid presenting all devotional traditions as identical.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-040",
+          "question": "Equanimity and skill in action: how are two famous Gita phrases contextualized?",
+          "coverage": "Read surrounding verses and explain differences between translation and slogan.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-041",
+          "question": "Dhyana yoga in chapter 6: how does meditation fit the Gita's wider teaching?",
+          "coverage": "Focus on the chapter's place in the whole work and cross-link detailed contemplation to niche 278.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-042",
+          "question": "Are karma, jnana, and bhakti mutually exclusive paths?",
+          "coverage": "Compare two named commentaries and acknowledge different accounts of their relationship.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-08",
+      "title": "Hatha yoga texts and subtle-body models",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-043",
+          "question": "What does hatha mean in a selected historical source?",
+          "coverage": "Compare the chosen text's usage with later symbolic explanations and modern class labels.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-044",
+          "question": "Hatha Yoga Pradipika: how are posture, breath, mudra, and samadhi organized?",
+          "coverage": "Map a specified edition's structure and stated aims without teaching advanced techniques.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-045",
+          "question": "Gheranda Samhita: what distinguishes its sevenfold curriculum?",
+          "coverage": "Identify categories, terminology, and the relationship to other yoga schemes.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-046",
+          "question": "Shiva Samhita: how do philosophy and practice appear together?",
+          "coverage": "Use a named edition and compare its framing with one other hatha source.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-047",
+          "question": "Chakra diagrams: why do counts and correspondences vary across texts?",
+          "coverage": "Compare two specific sources without claiming a single universal anatomical map.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-048",
+          "question": "Mudra and bandha: why are they more than ordinary posture labels?",
+          "coverage": "Explain historical functions and interpretation while avoiding advanced procedural demonstrations.",
+          "angle": "text_source",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-09",
+      "title": "Standing and balancing posture families",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "MOVEMENT",
+      "topics": [
+        {
+          "id": "BANK-280-049",
+          "question": "Tadasana across two schools: what changes in the teaching emphasis?",
+          "coverage": "Compare names, visual conventions, pedagogical aims, and source attribution without prescribing alignment.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-050",
+          "question": "Virabhadrasana I, II, and III: how are the names and forms taught today?",
+          "coverage": "Document distinctions in named curricula and separate modern repertoire history from mythology.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-051",
+          "question": "Trikonasana and parivritta trikonasana: how does a posture family develop?",
+          "coverage": "Compare documented variations, supports, and differences in teaching aims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-052",
+          "question": "Vrikshasana and balance: what factors affect a person's experience?",
+          "coverage": "Discuss support, sensory input, task demands, and accessibility through qualified educator commentary.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-053",
+          "question": "Garudasana: how do arm and leg variations change participation?",
+          "coverage": "Compare documented adaptations without presenting one visible form as required for everyone.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-054",
+          "question": "Ardha chandrasana with a wall or support: what does an adaptation change?",
+          "coverage": "Explore teaching purpose, access, stability, and consent without giving an exercise sequence.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-10",
+      "title": "Seated postures, folds, and twists",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "MOVEMENT",
+      "topics": [
+        {
+          "id": "BANK-280-055",
+          "question": "Sukhasana and padmasana: why should seated stability not be judged by appearance?",
+          "coverage": "Compare cultural imagery, individual variation, access, and claims made by specific schools.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-056",
+          "question": "Dandasana: how do support and body proportions affect a seated demonstration?",
+          "coverage": "Use educator commentary and avoid diagnosing mobility or prescribing correction from video.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-057",
+          "question": "Paschimottanasana: how do schools describe purpose beyond touching the feet?",
+          "coverage": "Compare public teaching language and separate flexibility performance from broader practice goals.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-058",
+          "question": "Baddha konasana and upavishtha konasana: how are seated families categorized?",
+          "coverage": "Compare curricula and adaptation principles without claiming universal pelvic or reproductive benefits.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-059",
+          "question": "Ardha matsyendrasana: what do twisting-posture detox claims leave unmeasured?",
+          "coverage": "Separate historical interpretation, movement description, and unsupported organ-cleansing claims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-060",
+          "question": "Vajrasana and virasana: why do similar-looking seats need distinct explanations?",
+          "coverage": "Compare naming, support choices, cultural usage, and school-specific instruction boundaries.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-11",
+      "title": "Extensions, supports, and inversions",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "MOVEMENT",
+      "topics": [
+        {
+          "id": "BANK-280-061",
+          "question": "Bhujangasana and urdhva mukha svanasana: why are they different postures?",
+          "coverage": "Compare published teaching contexts, support patterns, and curricular roles without prescribing execution.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-062",
+          "question": "Shalabhasana and dhanurasana: how do posture families organize back extension?",
+          "coverage": "Discuss naming, variations, educator explanations, and limits on universal therapeutic claims.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-063",
+          "question": "Setu bandha sarvangasana: what changes between supported and active versions?",
+          "coverage": "Compare intended context, props, participant choice, and named school usage.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-064",
+          "question": "Adho mukha svanasana: why do instructors offer different adaptations?",
+          "coverage": "Explore body proportions, load, access, and pedagogical goals with qualified commentary.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-065",
+          "question": "Sirsasana and sarvangasana: why does a documentary need more than a striking image?",
+          "coverage": "Examine supervision, participant selection, source claims, and the risks of imitative editing.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-066",
+          "question": "Savasana: how do relaxation, accessibility, and consent shape its teaching?",
+          "coverage": "Compare position options, touch policies, spoken cues, and participant experience.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-12",
+      "title": "Sequencing and class architecture",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "MOVEMENT",
+      "topics": [
+        {
+          "id": "BANK-280-067",
+          "question": "Surya namaskar: how do sequences vary across modern institutions?",
+          "coverage": "Compare documented orders, names, origins, and devotional framing without making a follow-along routine.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-068",
+          "question": "Chandra namaskar: how can a film establish which sequence it is discussing?",
+          "coverage": "Trace a named curriculum rather than assuming a single ancient standardized form.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-069",
+          "question": "Warm-up, main practice, and rest: how does one class justify its structure?",
+          "coverage": "Use lesson plans and instructor interviews without claiming every class follows one physiological rule.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-070",
+          "question": "Vinyasa as a term and as a class label: what changes in meaning?",
+          "coverage": "Compare source usage, named lineages, and contemporary scheduling language.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-071",
+          "question": "Props and transitions: how does class design affect participation?",
+          "coverage": "Analyze pace, floor access, communication, and participant choice through a documented class plan.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-072",
+          "question": "A mixed-level class: how does a teacher avoid treating difficulty as rank?",
+          "coverage": "Examine choice architecture, opt-outs, adaptations, and consented participant feedback.",
+          "angle": "how_it_works",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-13",
+      "title": "Modern schools and style comparisons",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-280-073",
+          "question": "Iyengar Yoga: how does a named institution explain precision and props?",
+          "coverage": "Use official teaching materials and independent history without reducing a school to equipment.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-074",
+          "question": "Ashtanga Vinyasa: how are series, breath, and teaching format documented?",
+          "coverage": "Compare authorized descriptions and historical records without treating modern series as timeless.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-075",
+          "question": "Sivananda Yoga: what does its institutional framework include beyond asana?",
+          "coverage": "Study a dated curriculum's philosophy, practice components, and organizational context.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-076",
+          "question": "Viniyoga and individualized teaching: how is adaptation described?",
+          "coverage": "Use a named institution's materials and distinguish educational tailoring from clinical evidence.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-077",
+          "question": "Yin and restorative yoga: why are these not interchangeable class labels?",
+          "coverage": "Compare institutional definitions, duration language, support, and claims without prescribing holds.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-078",
+          "question": "Hot yoga: what changes when the environment becomes part of the intervention?",
+          "coverage": "Evaluate named formats, heat conditions, supervision, study design, and current guidance.",
+          "angle": "regional_variants",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-14",
+      "title": "People, institutions, and global transmission",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "HISTORY",
+      "topics": [
+        {
+          "id": "BANK-280-079",
+          "question": "Vivekananda's presentation of yoga: what did his audiences encounter?",
+          "coverage": "Use dated publications and reception records rather than attributing all modern yoga to one figure.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-080",
+          "question": "Krishnamacharya's teaching contexts: what do photographs and records establish?",
+          "coverage": "Compare dated evidence, students' accounts, institutional settings, and disputed details.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-081",
+          "question": "Swami Kuvalayananda and scientific yoga: how were research questions framed?",
+          "coverage": "Use early institutional publications and assess the historical meaning of scientific language.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-082",
+          "question": "Swami Sivananda and print networks: how did instructional texts circulate?",
+          "coverage": "Trace selected editions, organizations, readership, and translation context.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-083",
+          "question": "Indra Devi and international teaching: how do biographies document her role?",
+          "coverage": "Compare primary records and biographies while avoiding single-founder narratives.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-084",
+          "question": "Yoga in global public events: what does International Day of Yoga represent?",
+          "coverage": "Use official records and local accounts, distinguishing diplomacy, participation, and health evidence.",
+          "angle": "people_personalities",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-15",
+      "title": "Anatomy, movement, and interpretation",
+      "level": "intermediate",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "MOVEMENT",
+      "topics": [
+        {
+          "id": "BANK-280-085",
+          "question": "Joint range and body proportions: why can the same pose look different?",
+          "coverage": "Use anatomy and movement education sources without diagnosing skeletal differences from photographs.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-086",
+          "question": "Flexibility, mobility, strength, and balance: what does each measure?",
+          "coverage": "Compare operational definitions and distinguish class goals from a standardized fitness battery.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-087",
+          "question": "Pain during yoga: why is a visual posture review insufficient?",
+          "coverage": "Discuss instructor scope, participant reports, current guidance, and referral boundaries.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-088",
+          "question": "Alignment cues: when do universal-looking rules require individual context?",
+          "coverage": "Compare two educators' reasoning and the evidence supporting specific claims.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-089",
+          "question": "Stretch sensation and tissue change: what does a study actually measure?",
+          "coverage": "Separate subjective tolerance, range of motion, measurement method, and long-term adaptation.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-090",
+          "question": "Yoga breathing during movement: why does context matter for research?",
+          "coverage": "Separate movement load, attention, deliberate regulation, and protocol-specific outcomes.",
+          "angle": "advanced_concepts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-16",
+      "title": "Access, adaptation, and consent",
+      "level": "foundation",
+      "prerequisites": [],
+      "research_profile": "GUIDANCE",
+      "topics": [
+        {
+          "id": "BANK-280-091",
+          "question": "Chair yoga: what does meaningful access involve beyond replacing the floor?",
+          "coverage": "Assess space, transfers, language, support options, instructor knowledge, and participant choice.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-092",
+          "question": "Yoga for older adults: how do studies define their participants and outcomes?",
+          "coverage": "Compare eligibility, supervision, balance measures, adverse events, and generalization limits.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-093",
+          "question": "Prenatal yoga: how should a documentary evaluate a program's safeguards?",
+          "coverage": "Use current guidance, qualifications, participant screening, and the exact studied curriculum.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-094",
+          "question": "Yoga for children: what changes in consent, communication, and attention?",
+          "coverage": "Examine age-specific teaching, guardian involvement, voluntary participation, and evidence boundaries.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-095",
+          "question": "Trauma-sensitive yoga: how do choice and consent change classroom interaction?",
+          "coverage": "Review a named model's language, touch policies, scope, and support arrangements.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-096",
+          "question": "Disability access in online yoga: what does a usable video need?",
+          "coverage": "Examine captions, audio description, alternatives, pacing, and participant-led accessibility feedback.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-17",
+      "title": "Clinical evidence and safety research",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "STUDY",
+      "topics": [
+        {
+          "id": "BANK-280-097",
+          "question": "Yoga for chronic low-back pain: which program and comparator were tested?",
+          "coverage": "Use current guidance and trial reports; distinguish symptom, function, harms, and treatment substitution.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-098",
+          "question": "Yoga for stress: can movement, attention, and social support be separated?",
+          "coverage": "Compare component reporting, active controls, expectancy, and outcome measures.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-099",
+          "question": "Yoga and sleep: how do subjective improvements compare with objective outcomes?",
+          "coverage": "Inspect sleep measures, population, intervention details, follow-up, and uncertainty.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-100",
+          "question": "Yoga and balance: do test improvements mean fewer falls?",
+          "coverage": "Distinguish balance tasks, fall counts, follow-up length, sample size, and supervision.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-101",
+          "question": "Yoga injuries: why do rates depend on what researchers count?",
+          "coverage": "Compare surveys, prospective monitoring, severity definitions, exposure time, and reporting bias.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-102",
+          "question": "Yoga as an adjunct in mental-health research: what do studies not establish?",
+          "coverage": "Match diagnosis, concurrent care, instructor support, measured outcomes, and clinical boundaries.",
+          "angle": "myths_vs_facts",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-18",
+      "title": "Teacher education, ethics, and institutions",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "GUIDANCE",
+      "topics": [
+        {
+          "id": "BANK-280-103",
+          "question": "What does a yoga teacher training certificate actually certify?",
+          "coverage": "Inspect a named provider's curriculum, assessment, oversight, and limits on clinical competence.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-104",
+          "question": "Hands-on adjustments: how is consent requested and renewed?",
+          "coverage": "Compare documented policies, opt-in systems, power differences, and participant control.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-105",
+          "question": "Teacher authority and safeguarding: what complaint processes can students use?",
+          "coverage": "Study a named institution's published policies without making unsupported allegations about individuals.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-106",
+          "question": "Cultural attribution in yoga teaching: what counts as a specific, respectful credit?",
+          "coverage": "Compare source naming, pronunciation, translation, historical context, and commercial presentation.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-107",
+          "question": "Sanskrit names in class: how can teachers explain them accessibly?",
+          "coverage": "Examine transliteration, meaning, audio pronunciation, and avoidance of invented etymology.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-108",
+          "question": "Yoga teaching online: what changes in observation and responsibility?",
+          "coverage": "Assess camera limits, accessibility, consent, privacy, and boundaries on individualized correction.",
+          "angle": "ethics_in_context",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-19",
+      "title": "Commerce, media, and technology",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "DIGITAL",
+      "topics": [
+        {
+          "id": "BANK-280-109",
+          "question": "Yoga apps and subscriptions: what does the product actually offer?",
+          "coverage": "Inspect a dated version's curriculum, instructor disclosure, access features, price, and evidence claims.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-110",
+          "question": "AI pose correction: can a camera assess safe movement for every body?",
+          "coverage": "Evaluate validation data, occlusion, disability representation, uncertainty, and inappropriate medical inference.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-111",
+          "question": "Social media yoga images: how do visibility incentives shape the idea of progress?",
+          "coverage": "Analyze a defined sample and distinguish visual performance from practitioners' wider goals.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-112",
+          "question": "Eco-friendly yoga mats: what evidence supports material and environmental claims?",
+          "coverage": "Compare product disclosures, life-cycle boundaries, independent testing, and disposal assumptions.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-113",
+          "question": "Yoga tourism: how do local communities describe benefits and pressures?",
+          "coverage": "Use one destination, dated local accounts, economic evidence, and consented interviews.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-114",
+          "question": "Yoga research sponsorship: how should viewers assess financial conflicts?",
+          "coverage": "Trace funding, author affiliations, preregistration, comparator choices, and publication transparency.",
+          "angle": "technology_innovation",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-280-20",
+      "title": "Comparative philosophy and series synthesis",
+      "level": "advanced",
+      "prerequisites": [
+        "CATALOG-280-01"
+      ],
+      "research_profile": "TEXT",
+      "topics": [
+        {
+          "id": "BANK-280-115",
+          "question": "Classical yoga and Advaita Vedanta: why should their accounts of self remain distinct?",
+          "coverage": "Compare named source passages and commentaries without forcing philosophical agreement.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-116",
+          "question": "Yoga and Buddhist contemplation: how can similar practices have different aims?",
+          "coverage": "Define the selected traditions, texts, and comparison criteria; cross-link method depth to niche 278.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-117",
+          "question": "Hatha yoga and modern posture classes: what continuity can evidence establish?",
+          "coverage": "Compare dated textual, photographic, and institutional records rather than assuming either sameness or rupture.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-118",
+          "question": "Yoga and Ayurveda: where do two traditions intersect without becoming identical?",
+          "coverage": "Use specified sources and route detailed medical-system topics to niche 281.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-119",
+          "question": "How can a yoga documentary show disagreement without choosing a universal authentic form?",
+          "coverage": "Use attributed viewpoints, historical evidence, community voices, and clear limits on generalization.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "id": "BANK-280-120",
+          "question": "From ethics to meditation: how can a channel build a coherent yoga learning series?",
+          "coverage": "Link the bank's specific questions into a progression while preserving separate breath and meditation depth.",
+          "angle": "interpretive_lineages",
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "suggested_series": [
+    {
+      "title": "Yoga beyond flexibility",
+      "learning_outcome": "Build an initial map of definitions, sources, ethics and goals.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-280-001",
+        "BANK-280-003",
+        "BANK-280-004",
+        "BANK-280-013",
+        "BANK-280-019",
+        "BANK-280-025"
+      ]
+    },
+    {
+      "title": "Philosophical frameworks in context",
+      "learning_outcome": "Relate classical concepts, the eight limbs and Gita teaching without merging systems.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-280-017",
+        "BANK-280-018",
+        "BANK-280-031",
+        "BANK-280-033",
+        "BANK-280-036",
+        "BANK-280-037"
+      ]
+    },
+    {
+      "title": "Posture education and modern schools",
+      "learning_outcome": "Compare posture naming, adaptation, sequence variation and institutional teaching.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-280-049",
+        "BANK-280-052",
+        "BANK-280-055",
+        "BANK-280-060",
+        "BANK-280-067",
+        "BANK-280-073"
+      ]
+    },
+    {
+      "title": "Teaching access and evaluating evidence",
+      "learning_outcome": "Connect participant choice, qualifications, safety research and claims assessment.",
+      "ordering_reason": "Start with definitions and context, then compare concrete cases, and finish with interpretation or evidence limits. This is a viewing/research order, not a physical practice progression.",
+      "topic_ids": [
+        "BANK-280-091",
+        "BANK-280-093",
+        "BANK-280-095",
+        "BANK-280-097",
+        "BANK-280-101",
+        "BANK-280-103"
+      ]
+    }
+  ],
+  "handoff": [
+    "Retain the BANK ID in editorial notes. Name the exact case, edition, lineage, population, protocol or product version before promoting a broad question to an episode.",
+    "Inspect source passages and reports; add honest source-access records and a bounded idea through the existing registry workflow. Empty verified_sources lists mean this bank has not performed claim-level episode research.",
+    "Reuse an existing registered angle; confirm its current scope in ANGLE_PLAN.json. These catalog entries do not change Q1-Q42, CAT defaults, existing CONFIG snapshots or production gates.",
+    "If creating a formal depth plan, map the selected question to stable TOP IDs inside the niche Planning directory. Create a formal IDEA record only with its required evidence plan and readiness review; do not promote all proposals automatically.",
+    "Verify material claims in Phase 1 with exact locators. Attribute spiritual, historical and symbolic interpretations. Health outcomes require original evidence and current guidance; proposals do not supply personal medical advice.",
+    "Check neighboring banks for the same story question. Reuse the primary home and link the related topic; change the research question when a second niche needs its own episode.",
+    "Keep topic proposals, ready ideas, produced text packages and published videos as distinct statuses. Do not mark these proposals completed or trending based on their presence here."
+  ],
+  "coverage_limits": "This first batch does not exhaust asana repertoires, Sanskrit commentarial traditions, regional histories, institutional schools, women's contributions or disability-led teaching. Several categories deliberately open larger future series; posture entries describe education and interpretation rather than prescribing a routine."
+}

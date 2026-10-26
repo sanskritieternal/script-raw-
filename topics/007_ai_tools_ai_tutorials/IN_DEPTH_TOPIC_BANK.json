@@ -1,0 +1,3569 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "007",
+  "slug": "ai_tools_ai_tutorials",
+  "name": "AI Tools / AI Tutorials",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for AI Tools / AI Tutorials. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 21,
+    "proposed_topics": 110
+  },
+  "categories": [
+    {
+      "title": "Choosing and testing tools",
+      "level": "foundation",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a creator turn an AI tool comparison into a repeatable test?",
+          "coverage": "Define the task, input set, success criteria, versions, settings and failure log before selecting attractive examples.",
+          "id": "BANK-007-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a free AI plan actually allow a complete workflow to finish?",
+          "coverage": "Test quotas, exports, watermarks, commercial terms and repeat attempts on a dated plan rather than comparing only advertised access.",
+          "id": "BANK-007-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When is a local AI tool a practical alternative to a cloud service?",
+          "coverage": "Compare actual hardware, setup effort, privacy, quality, maintenance and end-to-end time on the same task.",
+          "id": "BANK-007-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a tutorial record model and application versions?",
+          "coverage": "Preserve settings, dates, interface changes and reproducible inputs so viewers can identify why their results differ.",
+          "id": "BANK-007-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes an AI-generated example cherry-picked?",
+          "coverage": "Report attempts, rejected outputs and selection criteria; distinguish illustrative success from representative performance.",
+          "id": "BANK-007-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Which prompt changes improve a fixed task across repeated runs rather than one cherry-picked answer?",
+          "coverage": "Choose a named model version, task set and scoring rubric, then compare instruction wording, examples and output constraints one variable at a time. Record failures, costs and run-to-run variation; do not promise a universal list of techniques that always works.",
+          "id": "BANK-007-117",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D01",
+      "prerequisites": [],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Choosing and testing tools"
+    },
+    {
+      "title": "Writing and document workflows",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How reliably can an AI tool extract a table with merged cells?",
+          "coverage": "Use known reference tables and score headers, units, spans and omissions separately from visual resemblance.",
+          "id": "BANK-007-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does OCR fail before the language model even sees the document?",
+          "coverage": "Compare scans, rotation, handwriting, scripts and layout; trace errors to extraction rather than blaming every failure on reasoning.",
+          "id": "BANK-007-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a summarization workflow preserve exceptions and qualifications?",
+          "coverage": "Compare the summary with labeled source claims, dates and exclusions rather than judging only readability.",
+          "id": "BANK-007-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What checks should an AI-assisted citation workflow perform before export?",
+          "coverage": "Verify source existence, passage support, quote accuracy and bibliographic fields using an auditable source list.",
+          "id": "BANK-007-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can document question answering handle a later revision of the same policy?",
+          "coverage": "Track version, date, superseded text and retrieval filters; test whether answers cite the applicable edition.",
+          "id": "BANK-007-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a document-to-audio AI workflow keep claims traceable to the uploaded pages?",
+          "coverage": "Use a rights-cleared PDF set with known corrections, page references and contradictions. Compare the generated audio and transcript against the source pages, record omissions and invented dialogue, and test whether a listener can reach the supporting passage; do not promise that every PDF can become a studio-quality factual podcast.",
+          "id": "BANK-007-120",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D02",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G02",
+      "reading_subcategory": "Writing and document workflows"
+    },
+    {
+      "title": "Image-generation workflows",
+      "level": "intermediate",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How can a reference board improve consistency across generated images?",
+          "coverage": "Separate character identity, costume, palette, composition and lighting; test changes one variable at a time.",
+          "id": "BANK-007-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does full-body framing not require every limb to be visible?",
+          "coverage": "Compare complete pose framing, plausible concealment and anatomy; avoid forcing an extra hand or foot into view.",
+          "id": "BANK-007-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can animal-faced characters remain visually consistent with human characters?",
+          "coverage": "Test linework, shading, facial design and rendering vocabulary rather than assuming one style label controls every subject.",
+          "id": "BANK-007-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be checked when editing one object in a generated image?",
+          "coverage": "Inspect surrounding geometry, shadows, texture, identity and unintended changes against the original reference.",
+          "id": "BANK-007-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a creator evaluate text rendering in generated thumbnails?",
+          "coverage": "Score spelling, script shape, hierarchy and mobile-size readability; distinguish editable typography from baked-in image text.",
+          "id": "BANK-007-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D03",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G03",
+      "reading_subcategory": "Image-generation workflows"
+    },
+    {
+      "title": "Video generation and continuity",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What makes a source image suitable for a restrained image-to-video shot?",
+          "coverage": "Check pose stability, depth cues, moving elements and camera intent before selecting the generation settings.",
+          "id": "BANK-007-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a static-camera ambient scene retain believable movement?",
+          "coverage": "Specify local motions, loop boundaries and stable geometry; evaluate flicker, drifting objects and unintended camera changes.",
+          "id": "BANK-007-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do generated characters change appearance between adjacent shots?",
+          "coverage": "Compare references, seeds, prompts, lighting and model versions while documenting which controls actually affect identity.",
+          "id": "BANK-007-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an editor assemble usable coverage from imperfect generated clips?",
+          "coverage": "Plan shot purpose, continuity, cut points and sound bridges without hiding factual reconstruction as real footage.",
+          "id": "BANK-007-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a good loop test reveal beyond matching the first and last frame?",
+          "coverage": "Inspect motion direction, timing, light, audio and objects across repeated playback cycles.",
+          "id": "BANK-007-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D04",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G03",
+      "reading_subcategory": "Video generation and continuity"
+    },
+    {
+      "title": "Voice, transcription and music",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How should a transcription tool be tested on accented and multilingual speech?",
+          "coverage": "Use consented recordings and reference transcripts; score names, code-switching, omissions and speaker attribution separately.",
+          "id": "BANK-007-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a synthetic voice's pronunciation controllable across a series?",
+          "coverage": "Compare pronunciation dictionaries, phonetic hints, text normalization and voice settings on recurring names.",
+          "id": "BANK-007-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a voice-cloning workflow document meaningful authorization?",
+          "coverage": "Verify the speaker, permitted uses, retention and withdrawal terms without treating possession of a recording as consent.",
+          "id": "BANK-007-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can AI-generated music be evaluated for a seamless meditation loop?",
+          "coverage": "Inspect structure, abrupt transitions, changing intensity, clipping and repetition fatigue; do not infer therapeutic effects from genre.",
+          "id": "BANK-007-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does stem separation help an edit, and when do artifacts make it worse?",
+          "coverage": "Compare isolated and recombined stems using controlled listening, phase checks and the actual delivery requirement.",
+          "id": "BANK-007-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a real-time voice-agent tutorial measure before placing a live call?",
+          "coverage": "Use a consented test environment to log speech recognition errors, response latency, interruptions, handoff, synthetic-voice disclosure and failure recovery across a named stack version. Keep real contacts and production phone lines out of the demonstration until the workflow is reviewed.",
+          "id": "BANK-007-118",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a family rehearse verification when a caller sounds like a relative?",
+          "coverage": "Use a harmless consented role-play to test pausing a money request and calling the person back through a previously known number or another trusted contact. Explain that a familiar-sounding voice and caller ID are not sufficient identity proof; do not clone a real relative's voice for the demonstration without permission or claim any single trick prevents every scam.",
+          "id": "BANK-007-122",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D05",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G03",
+      "reading_subcategory": "Voice, transcription and music"
+    },
+    {
+      "title": "Coding and automation",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an AI coding tutorial prove that its generated program works?",
+          "coverage": "Run meaningful task checks, inspect dependencies and show failures rather than relying on a successful-looking explanation.",
+          "id": "BANK-007-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should happen when a coding assistant names an unavailable library function?",
+          "coverage": "Check official versioned documentation, reproduce the error and repair the implementation without inventing a second unsupported API.",
+          "id": "BANK-007-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a file-renaming automation preview its effects safely?",
+          "coverage": "Separate selection, proposed changes, collision checks, execution and recovery in a reversible local example.",
+          "id": "BANK-007-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should an automated workflow stop for a human decision?",
+          "coverage": "Identify consequential ambiguity, authority boundaries and recoverability using a concrete process rather than approval at every step.",
+          "id": "BANK-007-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can tool execution logs distinguish a proposed action from a completed one?",
+          "coverage": "Capture inputs, results, errors and postconditions; require evidence before reporting that a file or external record changed.",
+          "id": "BANK-007-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D06",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G04",
+      "reading_subcategory": "Coding and automation"
+    },
+    {
+      "title": "Data, privacy and portability",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "Where can a supposedly private AI workflow still send user data?",
+          "coverage": "Trace uploads, prompts, telemetry, integrations and logs using actual policies and network or architecture documentation.",
+          "id": "BANK-007-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be exported before changing AI providers?",
+          "coverage": "Inventory source files, references, prompts, configuration and editable outputs; test that the replacement can read them.",
+          "id": "BANK-007-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an app's privacy policy differ from settings visible in its interface?",
+          "coverage": "Compare policy scope, account tier, retention, training use and deletion terms at a recorded date.",
+          "id": "BANK-007-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does an AI tool's commercial-use claim leave unresolved?",
+          "coverage": "Inspect input rights, output terms, likeness, music, trademarks and jurisdiction rather than treating one label as complete clearance.",
+          "id": "BANK-007-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a tutorial disclose an affiliate relationship or sponsored access?",
+          "coverage": "Separate compensation, preferential access, test design and conclusions; keep failures visible alongside benefits.",
+          "id": "BANK-007-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D07",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G02",
+      "reading_subcategory": "Data, privacy and portability"
+    },
+    {
+      "title": "Reliability and tutorial maintenance",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a tutorial remain useful after the product interface changes?",
+          "coverage": "Explain underlying decisions, preserve versioned screenshots or notes and define the steps that need rechecking.",
+          "id": "BANK-007-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What belongs in the total cost of an AI content workflow?",
+          "coverage": "Include retries, rendering, storage, review, correction and licensing using a transparent project budget.",
+          "id": "BANK-007-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a team measure whether AI reduced work rather than moved it to review?",
+          "coverage": "Compare completed-task quality, human time, rework and failure handling against the previous process.",
+          "id": "BANK-007-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why should a tool-ranking video report uncertainty instead of one universal winner?",
+          "coverage": "Compare different tasks, users, hardware and constraints; show when the ranking reverses.",
+          "id": "BANK-007-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What is a responsible way to publish an AI workflow with known failure cases?",
+          "coverage": "Document limitations, recovery steps, suitable uses and updates without presenting the workflow as universally reliable.",
+          "id": "BANK-007-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-D08",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Reliability and tutorial maintenance"
+    },
+    {
+      "title": "Local model installation and environment checks",
+      "level": "foundation",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a tutorial verify that a local model server is actually running?",
+          "coverage": "Inspect official versioned setup instructions and a harmless health check; distinguish process startup from successful inference.",
+          "id": "BANK-007-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should be recorded before troubleshooting a local AI installation?",
+          "coverage": "Capture operating system, runtime, application version and redacted error messages.",
+          "id": "BANK-007-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can model download failure be separated from insufficient memory at inference time?",
+          "coverage": "Compare logs, file integrity and resource observations using official diagnostics.",
+          "id": "BANK-007-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a model's runtime compatibility require beyond its filename?",
+          "coverage": "Verify architecture, format, tokenizer and supported features in current documentation.",
+          "id": "BANK-007-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a creator test CPU-only inference before buying hardware?",
+          "coverage": "Use a bounded representative task and measured latency; leave purchase decisions to dated comparisons.",
+          "id": "BANK-007-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What must be checked before exposing a local AI server to another device?",
+          "coverage": "Inspect authentication, network scope and official security guidance; exclude public unauthenticated deployment.",
+          "id": "BANK-007-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E01",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Local model installation and environment checks"
+    },
+    {
+      "title": "Local workflow quality and resource limits",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can context length be increased without misreading a memory-allocation failure?",
+          "coverage": "Record runtime settings, model variant and resource use on an actual supported setup.",
+          "id": "BANK-007-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a local-model tutorial compare several quantized files?",
+          "coverage": "Use the same prompts, precision disclosures and task-specific review; avoid size-only quality rankings.",
+          "id": "BANK-007-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a controlled batch test reveal about a local model's usability?",
+          "coverage": "Measure failures, latency and review effort rather than displaying only successful answers.",
+          "id": "BANK-007-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a workflow resume after a local model process restarts?",
+          "coverage": "Preserve external task state, inputs and completed outputs in a disposable example.",
+          "id": "BANK-007-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can an application show a model as connected while a specific feature still fails?",
+          "coverage": "Check endpoint compatibility, authentication and supported tool or image capabilities.",
+          "id": "BANK-007-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E02",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Local workflow quality and resource limits"
+    },
+    {
+      "title": "Retrieval and personal-document workflows",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a creator build a test set for document retrieval before uploading a whole archive?",
+          "coverage": "Select permission-cleared questions with known passages and explicit missing-answer cases.",
+          "id": "BANK-007-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should happen when scanned pages enter a retrieval index with incorrect reading order?",
+          "coverage": "Compare original pages, OCR output and corrected ingestion before evaluating answers.",
+          "id": "BANK-007-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can duplicate document versions distort a retrieval demonstration?",
+          "coverage": "Track identity, dates and superseded records; preserve the authoritative version.",
+          "id": "BANK-007-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a citation click-through test reveal about an AI document assistant?",
+          "coverage": "Verify the exact supporting passage, file version and displayed claim.",
+          "id": "BANK-007-067",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a local document assistant handle sensitive files without accidental telemetry exposure?",
+          "coverage": "Inspect current app settings, data flows and official policies; do not claim unobserved backend isolation.",
+          "id": "BANK-007-068",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a no-code custom assistant test before using private domain documents and tools?",
+          "coverage": "Pin the builder and model version, define an instruction boundary, attach a small permissioned document set, and test source citation, stale-version handling, tool permissions, refusal and export. Distinguish a configured assistant from a trained domain-specific model.",
+          "id": "BANK-007-121",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E03",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G02",
+      "reading_subcategory": "Retrieval and personal-document workflows"
+    },
+    {
+      "title": "Research, spreadsheets and data workflows",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can an AI spreadsheet helper be checked for formulas that merely look plausible?",
+          "coverage": "Use original test inputs, independent calculations and recalculation in the actual spreadsheet engine.",
+          "id": "BANK-007-069",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a chart-generation tutorial verify before presenting an AI-created graph?",
+          "coverage": "Compare source values, units, aggregation and labels against the plotted data.",
+          "id": "BANK-007-070",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a research assistant distinguish a search snippet from a source it actually read?",
+          "coverage": "Track retrieval, access and supporting text; mark inaccessible sources rather than inventing findings.",
+          "id": "BANK-007-071",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes AI extraction of invoices require more than correct-looking totals?",
+          "coverage": "Check document identity, currencies, tax fields and exceptions with permission-cleared samples.",
+          "id": "BANK-007-072",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool turn a structured topic bank into a readable document without losing IDs?",
+          "coverage": "Compare exported rows, scopes and source records with automated count checks.",
+          "id": "BANK-007-073",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E04",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G02",
+      "reading_subcategory": "Research, spreadsheets and data workflows"
+    },
+    {
+      "title": "Creator pipelines from brief to delivery",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a devotional image workflow separate iconography checks from stylistic consistency?",
+          "coverage": "Use authorized attributes and a designated visual guide; do not treat generated detail as source evidence.",
+          "id": "BANK-007-074",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a thumbnail workflow compare before choosing a final image?",
+          "coverage": "Inspect composition, legibility, claim accuracy, crop and actual export size.",
+          "id": "BANK-007-075",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a long ambient-video workflow avoid repeating an obvious visual defect?",
+          "coverage": "Review loop seams, motion continuity and representative samples before full rendering.",
+          "id": "BANK-007-076",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does multilingual subtitle export need beyond a translated transcript?",
+          "coverage": "Check timing, script shaping, names, speaker identity and source-language review.",
+          "id": "BANK-007-077",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can generated music be combined with a nature recording while preserving provenance?",
+          "coverage": "Track licenses, levels, edits and the original recordings; avoid commercial-rights assumptions.",
+          "id": "BANK-007-078",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI video tool's export be tested for the platform format actually needed?",
+          "coverage": "Verify dimensions, frame rate, duration, codec and visible artifacts in the delivered file.",
+          "id": "BANK-007-079",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E05",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G03",
+      "reading_subcategory": "Creator pipelines from brief to delivery"
+    },
+    {
+      "title": "Coding assistants and development projects",
+      "level": "intermediate",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can a coding assistant propose a reviewable change before modifying a project?",
+          "coverage": "Inspect the actual repository, scope, diff and existing tests using a disposable example.",
+          "id": "BANK-007-080",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a generated website be checked for beyond its first screenshot?",
+          "coverage": "Test navigation, forms, mobile layout, accessibility and actual stored state.",
+          "id": "BANK-007-081",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI assistant repair an error without silently replacing unrelated work?",
+          "coverage": "Use isolated edits, version history and explicit preservation checks.",
+          "id": "BANK-007-082",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a dependency-installation tutorial need to verify before running suggested commands?",
+          "coverage": "Check official package identity, versions, permissions and actual project requirements.",
+          "id": "BANK-007-083",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI coding workflow distinguish an existing repository issue from a new regression?",
+          "coverage": "Compare baseline behavior, changed scope and appropriate reproducible checks.",
+          "id": "BANK-007-084",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E06",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G04",
+      "reading_subcategory": "Coding assistants and development projects"
+    },
+    {
+      "title": "Automation, connectors and persistent work",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can an automation be tested without sending real messages or changing real records?",
+          "coverage": "Use drafts, sandbox data and explicit action boundaries.",
+          "id": "BANK-007-085",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a connector disclose before an AI tool reads a cloud account?",
+          "coverage": "Inspect permissions, selected resources, retention and current official documentation.",
+          "id": "BANK-007-086",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a scheduled AI task avoid repeating work after an interrupted run?",
+          "coverage": "Use stable IDs, saved checkpoints and completion evidence outside transient memory.",
+          "id": "BANK-007-087",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens when two AI workflows try to update the same saved artifact?",
+          "coverage": "Demonstrate guarded writes, conflict detection and reconciliation using placeholder content.",
+          "id": "BANK-007-088",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an automation report a genuine blocker without implying partial work is complete?",
+          "coverage": "Define observable progress, missing requirements and an honest remaining-work tracker.",
+          "id": "BANK-007-089",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a workflow distinguish private saving from public publication?",
+          "coverage": "Verify actual access settings and deployment state rather than relying on a success message.",
+          "id": "BANK-007-090",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool-using assistant tutorial test prompt injection without exposing a real account?",
+          "coverage": "Build an authorized sandbox with a lower-trust retrieved page or document, a canary instruction and a harmless mock action. Record whether the assistant separates source content from user authority, whether permissions prevent side effects and what appears in the tool log; distinguish this workflow test from a general explanation of the attack.",
+          "id": "BANK-007-119",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E07",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G04",
+      "reading_subcategory": "Automation, connectors and persistent work"
+    },
+    {
+      "title": "Evaluation, exports and switching tools",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can a creator compare image tools when each produces different random outputs?",
+          "coverage": "Use multiple controlled trials, explicit criteria and uncertainty instead of one best image.",
+          "id": "BANK-007-091",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI workflow export include so another person can reproduce it?",
+          "coverage": "Preserve prompts, versions, assets, permissions and execution settings without exposing credentials.",
+          "id": "BANK-007-092",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool's claimed time saving be measured across setup, review and correction?",
+          "coverage": "Record all work stages on comparable tasks rather than timing generation alone.",
+          "id": "BANK-007-093",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a creator test before moving a content pipeline to a new provider?",
+          "coverage": "Compare required features, output compatibility, rights and complete representative runs.",
+          "id": "BANK-007-094",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI tutorial be corrected when a previously free capability becomes paid?",
+          "coverage": "Date the change, update the workflow and distinguish historical instructions from current availability.",
+          "id": "BANK-007-095",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E08",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Evaluation, exports and switching tools"
+    },
+    {
+      "title": "Named local-runtime tutorial plans",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an Ollama tutorial test model availability separately from chat-template behavior?",
+          "coverage": "At production, record the actual Ollama version, official model documentation, local list and a minimal request using harmless text; plan separate checks for model loading and role formatting rather than assuming every model supports identical options.",
+          "id": "BANK-007-096",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a llama.cpp tutorial verify that its selected backend is actually doing the computation?",
+          "coverage": "Pin the tested release, build options, hardware and official logs; compare a small controlled run and resource evidence without using a GPU usage screenshot alone as proof of complete offload.",
+          "id": "BANK-007-097",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an LM Studio model-import lesson verify before declaring a downloaded file compatible?",
+          "coverage": "Record application version, model architecture, file provenance and official supported-runtime guidance; keep the proposed steps provisional until executed on the specified system.",
+          "id": "BANK-007-098",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a Whisper transcription lesson expose errors that a fluent paragraph conceals?",
+          "coverage": "Use licensed or consented audio with an aligned reference including names, numbers and overlapping speech; record the exact implementation, model and language settings without claiming a successful test before running it.",
+          "id": "BANK-007-099",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E09",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Named local-runtime tutorial plans"
+    },
+    {
+      "title": "Document and spreadsheet failure test sets",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an invoice-extraction test distinguish a credit note from a normal invoice?",
+          "coverage": "Author fictional paired documents with signed totals, taxes, currency and explicit document type; score extracted fields and downstream sign handling rather than only readable text.",
+          "id": "BANK-007-100",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI table-extraction test do with a total split across two scanned pages?",
+          "coverage": "Construct an original multipage fixture with carried subtotals, repeated headers and reading-order traps; compare cell structure and arithmetic against an independent answer key.",
+          "id": "BANK-007-101",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a spreadsheet assistant be tested on percentages stored as text?",
+          "coverage": "Use a disposable workbook containing numeric percentages, localized text and blanks; inspect formula results and type conversion against manual calculations without altering real financial records.",
+          "id": "BANK-007-102",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a hidden-row test reveal about an AI-generated spreadsheet summary?",
+          "coverage": "Create an original workbook with filters, hidden rows and clearly labeled totals; require the tool to state its inclusion rule and compare results with the intended view.",
+          "id": "BANK-007-103",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a document-conversion workflow preserve footnote qualifiers attached to a claim?",
+          "coverage": "Build a short original source with endnotes, tables and a qualified statement; verify rendered pages and claim-footnote links rather than judging only extracted body text.",
+          "id": "BANK-007-104",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E10",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G02",
+      "reading_subcategory": "Document and spreadsheet failure test sets"
+    },
+    {
+      "title": "Audio, video and creator export diagnostics",
+      "level": "intermediate",
+      "research_profile": "media",
+      "topics": [
+        {
+          "question": "How can a subtitle workflow detect timing drift in a long recording?",
+          "coverage": "Use consented or original audio with timed markers near the beginning, middle and end; compare exported cues with the exact media timebase and separate transcription errors from synchronization errors.",
+          "id": "BANK-007-105",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should an AI video-export test measure when frame rate is variable?",
+          "coverage": "Record source timestamps, output metadata and visible synchronization markers using official tool documentation; avoid assuming a nominal frame-rate label proves uniform timing.",
+          "id": "BANK-007-106",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an ambient-loop test distinguish a seamless image transition from an audible seam?",
+          "coverage": "Render an original short loop and inspect the boundary in both waveform and frame sequence; assess repeated listening and viewing without declaring a long export verified from one still image.",
+          "id": "BANK-007-107",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a generated Hindi voiceover be checked for devotional names and honorifics?",
+          "coverage": "Use a source-language reviewer, an approved word list and actual audio rather than transcript-only scoring; verify voice-use permission and avoid cloning an identifiable person's voice without consent.",
+          "id": "BANK-007-108",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E11",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G03",
+      "reading_subcategory": "Audio, video and creator export diagnostics"
+    },
+    {
+      "title": "Reproducible migrations and changing providers",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How can an embedding-index migration be tested when the new vectors have a different dimension?",
+          "coverage": "Keep original documents, chunk IDs, retrieval questions and reference passages; build a separate index using versioned official interfaces and compare results without mixing incompatible vector spaces.",
+          "id": "BANK-007-109",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What should a tool-calling migration test verify about optional and missing arguments?",
+          "coverage": "Use a fictional local service with explicit schemas, nulls and omitted fields; check validated calls and returned outcomes rather than assuming matching function names imply equivalent behavior.",
+          "id": "BANK-007-110",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a structured-output migration detect silent changes to dates and decimal numbers?",
+          "coverage": "Build an original fixture with ambiguous dates, locale-specific separators and required types; compare parsed values with the answer key under both providers' documented contracts.",
+          "id": "BANK-007-111",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What data must be preserved before retiring a provider-specific conversation store?",
+          "coverage": "Inventory user-owned source messages, attachments, tool results, access restrictions and export capabilities; distinguish available export evidence from a promise of full portability.",
+          "id": "BANK-007-112",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E12",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G01",
+      "reading_subcategory": "Reproducible migrations and changing providers"
+    },
+    {
+      "title": "Accessibility and multilingual end-to-end validation",
+      "level": "advanced",
+      "research_profile": "community",
+      "topics": [
+        {
+          "question": "How can a keyboard-only user complete an AI image-generation workflow from prompt to saved file?",
+          "coverage": "Plan a consented task test covering focus order, labels, progress, error recovery and download; inspect the actual versioned interface rather than assuming keyboard access from general accessibility claims.",
+          "id": "BANK-007-113",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a screen-reader test reveal missing information in an AI tool's image choices?",
+          "coverage": "Compare spoken labels, card selection, generation status and alternative descriptions in a named version; use intended-user feedback and do not infer accessibility from visual layout alone.",
+          "id": "BANK-007-114",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What can a Hindi-English mixed-script test reveal about a search-and-summary workflow?",
+          "coverage": "Create public or original paired documents, preserve transliteration variants and score retrieval and source attribution separately; avoid generalizing from one dialect or script convention.",
+          "id": "BANK-007-115",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should an AI tutorial distinguish a tested workflow from a planned one?",
+          "coverage": "Publish a version-and-environment ledger with actual commands, observed failures and reproducibility limits after execution; label every unexecuted step and do not fabricate a success screenshot or timing result.",
+          "id": "BANK-007-116",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-007-E13",
+      "prerequisites": [
+        "CATALOG-007-D01"
+      ],
+      "parent_id": "DOMAIN-007-G04",
+      "reading_subcategory": "Accessibility and multilingual end-to-end validation"
+    }
+  ],
+  "research_profiles": {
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "community": {
+      "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+      "source_leads": [
+        "consented interviews and oral histories",
+        "community publications and local records",
+        "field notes with method and consent documented"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "001",
+      "title": "AI + Technology Explainers",
+      "directory": "001_ai_technology_explainers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "007",
+    "slug": "ai_tools_ai_tutorials",
+    "name": "AI Tools / AI Tutorials",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a AI Tools / AI Tutorials YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-007-01",
+        "title": "Practical workflows",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-007-001",
+            "title": "Comparing transcription tools on accented speech",
+            "question": "Comparing transcription tools on accented speech: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Comparing transcription tools on accented speech through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Comparing transcription tools on accented speech.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-002",
+            "title": "Testing document extraction on complex tables",
+            "question": "Testing document extraction on complex tables: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Testing document extraction on complex tables through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Testing document extraction on complex tables.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-003",
+            "title": "Image generation with consistent references",
+            "question": "Image generation with consistent references: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Image generation with consistent references through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Image generation with consistent references.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-004",
+            "title": "Evaluating text-to-video continuity",
+            "question": "Evaluating text-to-video continuity: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Practical workflows. Address Evaluating text-to-video continuity through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Evaluating text-to-video continuity.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-007-02",
+        "title": "Tool selection",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-007-01"
+        ],
+        "research_profile": "digital",
+        "topics": [
+          {
+            "id": "BANK-007-005",
+            "title": "Local versus cloud AI workflows",
+            "question": "Local versus cloud AI workflows: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Local versus cloud AI workflows through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Local versus cloud AI workflows.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-006",
+            "title": "Free tiers and total workflow cost",
+            "question": "Free tiers and total workflow cost: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Free tiers and total workflow cost through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Free tiers and total workflow cost.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-007",
+            "title": "Export formats and vendor lock-in",
+            "question": "Export formats and vendor lock-in: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Export formats and vendor lock-in through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Export formats and vendor lock-in.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-008",
+            "title": "Data retention in AI applications",
+            "question": "Data retention in AI applications: what changes across products, versions and user settings?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Tool selection. Address Data retention in AI applications through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the product, version, region and user settings relevant to Data retention in AI applications.",
+              "Trace an ordinary user task and observe what succeeds, fails or requires an undocumented assumption.",
+              "Compare cost, accessibility, portability and data flows against an appropriate alternative.",
+              "Check changes since the cited documentation and avoid presenting a single test as universal performance."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-007-03",
+        "title": "Verification",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-007-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-007-009",
+            "title": "Checking AI-generated citations",
+            "question": "Checking AI-generated citations: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Checking AI-generated citations through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Checking AI-generated citations.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-010",
+            "title": "Measuring coding-assistant regressions",
+            "question": "Measuring coding-assistant regressions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Measuring coding-assistant regressions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Measuring coding-assistant regressions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-011",
+            "title": "Evaluating speech-cloning consent controls",
+            "question": "Evaluating speech-cloning consent controls: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Evaluating speech-cloning consent controls through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Evaluating speech-cloning consent controls.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-007-012",
+            "title": "Reproducing an AI tutorial across versions",
+            "question": "Reproducing an AI tutorial across versions: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI Tools / AI Tutorials; branch: Verification. Address Reproducing an AI tutorial across versions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Reproducing an AI tutorial across versions.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "digital": {
+        "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+        "source_leads": [
+          "official versioned documentation and release notes",
+          "dated privacy policies and service terms",
+          "reproducible product tests and original validation reports"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "001",
+        "title": "AI + Technology Explainers",
+        "directory": "001_ai_technology_explainers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_01"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "applied_extension_batches": [
+    "first_ten_depth_extension_01",
+    "first_ten_depth_extension_02"
+  ],
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/007_ai_tools_ai_tutorials/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "6b885c434236ca7ef5cf86a2051f48253d90e6789ce5b00942354540c531cd07",
+    "source_kind": "detailed_expansion",
+    "source_records": {
+      "BANK-007-013": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eb5bc9c8420358d9968c78c3986d63b440326fed35cb4bc62ec754edb867d71d"
+      },
+      "BANK-007-014": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e13bcfb1c31400681b456de49b113399ad792869cadbaf758745237900366ec0"
+      },
+      "BANK-007-015": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "69654a43b2c515aa932f8d59125d44e0cd2a6bcc566401fda4182be0d21cb80d"
+      },
+      "BANK-007-016": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ae63a86b23293cfbcb8ef3160632c622720a09bc81a37d01d95ae63c09fe6158"
+      },
+      "BANK-007-017": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dd7cb81dc19775a9c18cb12d22f54aee90761cef4a8599bbdedc0ba2bcd447f1"
+      },
+      "BANK-007-018": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "166671baf89216d9f62caebda47925ecb0ed6590838f71f225c70ae7b9250fae"
+      },
+      "BANK-007-019": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "51ca191626343f8f02be40c52bd804f8ebd23b09e46fbfbbe8dad81eff987398"
+      },
+      "BANK-007-020": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "39f2bff89e594e246cb181ecae72618f4ddf9f8313eb6621358e7a613d8495bc"
+      },
+      "BANK-007-021": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2835d3d5cf3300dce770ba8d0b2c3771363508af1256346676beb9199e725467"
+      },
+      "BANK-007-022": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "883464ac39f446c943e015cf997522c0bd39f1939c4307db3d37b3280319b0d5"
+      },
+      "BANK-007-023": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2571695cbcc81b7e801110fb547d13ec7d4dc60b3855dee445deb516ddc06591"
+      },
+      "BANK-007-024": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "39674a198ae1f4ded721d09c4da6cc169243b2fd5e117fd1caefc346bb4dc141"
+      },
+      "BANK-007-025": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e8d5b16fded225f5b6d2c4cb6b95dbe151e4d49172d6c73c3883e362623178c4"
+      },
+      "BANK-007-026": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c0b29f002efda163de97dbb5197f0fe7c4a43a9048962dbdaaea3eab6782a020"
+      },
+      "BANK-007-027": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0d3d6eade8ea46673621910060114c4029e7aaf8b1748af82d0a84d8c8de4c20"
+      },
+      "BANK-007-028": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef5155819b36d57ddc8acdc00ea8aa9fcab705538de1e13a845d4e23450a49c2"
+      },
+      "BANK-007-029": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0e18c54bc87a91b2cd890a793f9f218d1f74cd74575db81e51fddbcecc2d438c"
+      },
+      "BANK-007-030": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1bdb4d64eca13efe0c97df4c8fb8176be25cf547a48f2a35ad520c07ad782fd7"
+      },
+      "BANK-007-031": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9c70dfe4d510459fb9fd58116f445f44f37be29f9d4e7504c083ffb13f236bc3"
+      },
+      "BANK-007-032": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "9d3edda9db147a1ae454243865f113dd3681fe6883af13d20c0c78d7fc48725c"
+      },
+      "BANK-007-033": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cd31c29ae0c180b49d22f79c533174a09b6e1da85cfc156e097d9b51de22ae53"
+      },
+      "BANK-007-034": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a4a291b5a27c9aded24f15c14075e3d933bc2b5173f00e8c5591a37013cb9014"
+      },
+      "BANK-007-035": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f139740940a5491229f9400e9cf635f6ae8a4204261a77f309d677f267591cab"
+      },
+      "BANK-007-036": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f383d0ea50e7525f3f2288c323c6c5efd1b60f98894a09a6efb2f9fecbd9e7e5"
+      },
+      "BANK-007-037": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b94cea7bc546595af5574de8a90e57cda989b1bf0637a9cc8ae2b34fa2615174"
+      },
+      "BANK-007-038": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c4379aaf55b46c3e2c7270284fb735ebe42c6d47b7171233209b5c815d6d91db"
+      },
+      "BANK-007-039": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d6d955d00b5c4eba42067cec55ead7c7686a9530edd148636a89dbeba95ea9a0"
+      },
+      "BANK-007-040": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c588c9db2da2b541b3a90152b7a32cf51bfb9d14d31ee92945a9b1646748b240"
+      },
+      "BANK-007-041": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "465ddff09e86a61025db513b38d306d9273adad8b037962b59fd67f417d688e2"
+      },
+      "BANK-007-042": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "df5729d08a3a8dd68782810e71ad3ca4b1c89ae80950807b1ea6b811827f82e6"
+      },
+      "BANK-007-043": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "74ee7396a7ae510a923b30b1dc9fbf8747c3ec812432f5f0774dc1be67819ac8"
+      },
+      "BANK-007-044": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "18bee5e87f1548bf9eb7c1ff338b87e930e0d6ae6da041c0f54bc3cf767a93ae"
+      },
+      "BANK-007-045": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "88b861829bf0df0a956cf72b17bf54cfe2526ad0590f922642e9f10947324a67"
+      },
+      "BANK-007-046": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0b290ddccd7f284e4f51d65a5077a6a51e22a0c10215a7751c4dbd6b6fc8228c"
+      },
+      "BANK-007-047": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d87e28f8645e5f0dfb67451bd3e46f2019dd5edeb585e65d417f70f4ae023bd8"
+      },
+      "BANK-007-048": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3a5394c87c09e36c6a67f5f8a8837b1b6b4e1027046ffbca1343b15c852c5f14"
+      },
+      "BANK-007-049": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3a837b790752dace60ab62cc8a63e2872aa1cbf0e56dc8929f53cab62ec367de"
+      },
+      "BANK-007-050": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b0b2761476c39e5e351d61a9dac6a11b9f3a55db25e197e8fdd2a7fd174fa7f5"
+      },
+      "BANK-007-051": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b21817414752e3b438eb26bb77c2ec2353d8fb90f35a4af63df58d071bf29804"
+      },
+      "BANK-007-052": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6388cc0b2ac713ece9494d8eae195167d0afa639a4a1ef4763cc7203be64985a"
+      },
+      "BANK-007-053": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a0ee8997b8eca439da653b8443995524f6efb008effffc923cd943d7b20f8866"
+      },
+      "BANK-007-054": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ab423177fb520453933551f8bf5e2a0cc0e101e9fa21637f9123c979b444dda4"
+      },
+      "BANK-007-055": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4b9118ca2f89c9a66283d3118928871ad251263ab764af74b56268a566a15200"
+      },
+      "BANK-007-056": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "271e93b40e740d4af4a62f016183e1399bcc391924dbde3356d898e7f43d59c6"
+      },
+      "BANK-007-057": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "042a4006462215f770bebb6b5c172e2231d3bd8e568c81e0cff45ebbca50de21"
+      },
+      "BANK-007-058": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d8c185c7208215392f41e963952e422cdeb50c693befe7ee104ed8004f8a6c84"
+      },
+      "BANK-007-059": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f841716b9080b9b30fdba7ba29bd6870f872bc7f5b487eb9a3942a5014706235"
+      },
+      "BANK-007-060": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "93cf02c706bcf98fe576b6d7a66fa84b35f891ce6e30c61fe50c818b47af0f75"
+      },
+      "BANK-007-061": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "45a11959224d36e00fd741d0129170ab50eef991e66c5ac30e07222d2ef0be67"
+      },
+      "BANK-007-062": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "32c30d7a9e9b94bd84fa25cc4417669fc814aefa54af71ffeab7f207e4320907"
+      },
+      "BANK-007-063": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6719a5a4be721e7ef538322e6d61f1bd9e9171e82d0fa4d3f695bdcf21a2b975"
+      },
+      "BANK-007-064": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0c535031deb0eab67e7ae6069e59bbd50c520732e760f28903be60724cdf3ac4"
+      },
+      "BANK-007-065": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "904c5337a2cbd0d7c7390cd79dbdc05b2c570815ab943cdf0cca6c7ae8f8b7ba"
+      },
+      "BANK-007-066": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0c08c5db4d0ed93510386f6913d281e7313741c44293b735b2872109c2db6cac"
+      },
+      "BANK-007-067": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "00deb7237ea3453d026e012d3d306d8a146811ecb5b6c5dd9709480714d85606"
+      },
+      "BANK-007-068": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "717c6fd50af2782509fef2d5ef31ecb203384be21d96335a32cb7aaf1a8328fd"
+      },
+      "BANK-007-069": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "89e21074390bb75fefcfb01f609464267fddb536beaa23d6b24c6d04b919cde3"
+      },
+      "BANK-007-070": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "de584ff16be42d91047cf70b47c4e2feaa121ba8e49f421fe5739856301abeec"
+      },
+      "BANK-007-071": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "764ada9c2a1aedb77b7fc60d45d5c5fc04ec288dff13be34f98030a32e69e321"
+      },
+      "BANK-007-072": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7bd7155935991187cc4d7f7bebb1c9b385cf88fb67e582a3db52b15186af55d8"
+      },
+      "BANK-007-073": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0857b129aea3fab224d4177f3703827b2a0e29c4e43e5b655e188c52cbf73a5f"
+      },
+      "BANK-007-074": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2bc4e613c1b61390f0d49ba2c3bdb71d6f4ac1efab676b4376fa36e2c3bb79ca"
+      },
+      "BANK-007-075": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "654c85d544289f5e2b8ae0954ebae864a74b5248b9c7c0d661d4005c479bb739"
+      },
+      "BANK-007-076": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b9831fe7399e403d87562109207819f233168530f882a3f07a0942f20529ed76"
+      },
+      "BANK-007-077": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d55fd7bb198a97d913ea984b24156ce39079cf91bb1c64c113426d2bcf789407"
+      },
+      "BANK-007-078": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6622dd4fa0596c20b7a792f74b1cc2ea5618ed980bed4509aca0c14f70b71f6f"
+      },
+      "BANK-007-079": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a4183fec7f76a2c5747cf4a9b65584275b8bc8cddb0982751a0253e370b73a99"
+      },
+      "BANK-007-080": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "61a7d8296a70455ce5924cc3b7f74fbfa34e1757e883b0f9f2d92fbb642fa94e"
+      },
+      "BANK-007-081": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "37e1bd17f513fbf2984f08039be76fb8242fa20ef01cb0e771f74fbef960039f"
+      },
+      "BANK-007-082": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c9dd650a85f316f1ee5d2d91041387c9af51fcafff759f229951939e6f432317"
+      },
+      "BANK-007-083": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "032bea2dd336832a71c213d3a10a0a96caad63f440530fd5681362f2f96088a3"
+      },
+      "BANK-007-084": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c22f9461a220fd80d0fdf9a932636a1eeda2a9722be351a7b763c450ba380440"
+      },
+      "BANK-007-085": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a1ecb9c0128712e84120800b0942c03dbe7c1ce2861eda7760c8ced1cca25bcc"
+      },
+      "BANK-007-086": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b28278f35934324c3c379031efadbc241c2d3ec7226897a2737f6c1b8190ecc8"
+      },
+      "BANK-007-087": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "8d11e142855b3cf7d9cf0cb0632cd5dba4501d50ce8382c4077e40e78a8239e0"
+      },
+      "BANK-007-088": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "16852e9d55922b3b47083f68a02228792fb3ee3ceb248c243cb31eb17ae6f114"
+      },
+      "BANK-007-089": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c6dfe85b0288dfb0f25ad949578bcbb247af7785cf4ab692162dfdedb090bbbf"
+      },
+      "BANK-007-090": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2d9730390e547af7d6110394f97bdea3952e6d20185b8cd1b6da5026f584b77b"
+      },
+      "BANK-007-091": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "16c4f4ec8b470ce3352c49a4ef5285aed98a3b2ea46e09a6d280fc3361fd4f44"
+      },
+      "BANK-007-092": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e5907218a74d59a67bc6c0e2ac93a60fc25deec5ddd410c2a83389a0596330e8"
+      },
+      "BANK-007-093": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fcda7d7299342e38978d86b832aa42888fd96ffdb4b3280c613b18c7d33b80b3"
+      },
+      "BANK-007-094": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "98f3662c3575077d76e1b571ee930e77efdf1701a1b491b5b8957664796e3fa1"
+      },
+      "BANK-007-095": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f34c0bfdad1574763b2b2cda0c7f9563b0bfa7ee100c85c86d537ff09fe155d0"
+      },
+      "BANK-007-096": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "78ec028ab36fc0092544c3c60f536e1324bdcc2244289f2f59a78881f3b30685"
+      },
+      "BANK-007-097": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "88f84e30e4d0d2e9de2439a7927d7b2c5128d1e3c0523272abc4dd50f782eede"
+      },
+      "BANK-007-098": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fdd078ab4edb6d7ad77fe3bb936a77ce167f16df05809d887187d758e53417c8"
+      },
+      "BANK-007-099": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ae42fa1cdd2436a14bdc8df18902fc87bc8cc2bda009f5f18b83532161d600fc"
+      },
+      "BANK-007-100": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "09f905f3d5eae5c6aafe144d2efad56f21a256d1a6c48b31704f214a403c29a4"
+      },
+      "BANK-007-101": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "23d1054f3c4e1f931b4c465d1ba9941693441125a986a5e96ec18097169ef59a"
+      },
+      "BANK-007-102": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7af8c3f296036c409a2b77063013eee482e5714d52565af66b080c18a97a3620"
+      },
+      "BANK-007-103": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cff26a6cf2a75254e0d090261152529d355f747adcb0a2461d2dd096780bcd9d"
+      },
+      "BANK-007-104": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1a9bb594f17f3ca8ad94db4512e79d13e9ed768a91d7638565dc452d920435d7"
+      },
+      "BANK-007-105": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "209aff48c0e50dea6336459cba780f8e9d7ce0c10cb0d28f1822d1611b34e772"
+      },
+      "BANK-007-106": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0130a159f1967e6aed2bf268cb4de47c162eba73b0f0ec97c65d12b006528350"
+      },
+      "BANK-007-107": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e0b9a566020cdb780e5c43c44bb7897e1f165cf201e7e2b2a3bbbdba7c84bd35"
+      },
+      "BANK-007-108": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ebad2ed39d973d24e8e3b8bb7ecec833762327633df92317261c1786973f0a8f"
+      },
+      "BANK-007-109": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e3c9b143acb9edaec11c31db3fc834b13c531c8358d1461e9385cdebb05f8853"
+      },
+      "BANK-007-110": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "508de8815028a2d9cdde37587dab7ea5ce9265cb68c0ddb5fc3c9bb92ceb751e"
+      },
+      "BANK-007-111": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "7087a7b26cc0a93d5c4daac96dcaea7bad1d7f6d6db8568d333b1da5f24e01ae"
+      },
+      "BANK-007-112": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "72f1a66a85f16e8bdeef891df2e776bdfbf1f2ef9c2f5422610e7f0e377076da"
+      },
+      "BANK-007-113": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c91623cf7c39fc461211189083468dd24c5a655e6f808be81cf0971e3d95d629"
+      },
+      "BANK-007-114": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e5f4299ee3da2d241cffe7afd2965d4cca78f95b1230362e71c0145e622c1894"
+      },
+      "BANK-007-115": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "602425a609ac57bf5702c14d69cd903190e29bc19f3f65337483f783a9ab99b5"
+      },
+      "BANK-007-116": {
+        "keys": [
+          "question",
+          "coverage",
+          "id",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "72f23d79fafed85df726762a0d590ef798d61f1d7aebe926c825691dd6dba208"
+      }
+    },
+    "source_categories": {
+      "CATALOG-007-D01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "107de531fbc27f08760bfc707b4861264895ebd5b34b13dd19d4e0212db6c7ad"
+      },
+      "CATALOG-007-D02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "ae9f15c92e5e056bd1c684cb263bd1a6a494dd5b4f755d06c558d4f2af4a5056"
+      },
+      "CATALOG-007-D03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "491b917ee719b1b1864142c19af2be9bfac776c5d9b407255b1873ffea5913b0"
+      },
+      "CATALOG-007-D04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "1460493a4014ddde6068ec2a9779e1605f34bd13e5e0fa2fa3a13ad2f01ba3ee"
+      },
+      "CATALOG-007-D05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "c88194c29d03962125ba162cd724067d15c189ab6d45aa7f7d5cce15e14a1ea8"
+      },
+      "CATALOG-007-D06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "6feab66d1abc37681db994fb9785c26acdabb74c7dbd66136914d515b85c79b7"
+      },
+      "CATALOG-007-D07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "6263bb98b235607754a2455f80d3fbea2567a084977fd41d24aa168593ca74a2"
+      },
+      "CATALOG-007-D08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "9f52081eec5949070440cd412653bb1a425e228f45295834b8416922f53a1d3f"
+      },
+      "CATALOG-007-E01": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "324da9266ae465f0ae13a82ed9362e2d147872eb7a9fc2f0e34d8ec167709117"
+      },
+      "CATALOG-007-E02": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "ee44c7199332bad9fb0c8e150091818bedf23e36606aae3005ed262826a972fd"
+      },
+      "CATALOG-007-E03": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "bb66a0d88416385c050279665729bf2b2a3309302ea63ef8eac6e82ff8a7cc12"
+      },
+      "CATALOG-007-E04": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "63f4aed41f187c451d54d38faa9913d4f6e5982cfc6abec614339724129bcb7c"
+      },
+      "CATALOG-007-E05": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "67f0029be8f28e67fcd555a85b14d1a37996d200eddb00150ca189e3295e4b00"
+      },
+      "CATALOG-007-E06": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "f50c091e2f3ecf56b65f1fe598c85ea155c3cde6462c01c94586a850dd0621dd"
+      },
+      "CATALOG-007-E07": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "256814ed8031fd539f91b0e2f50fece168e7e44703b2a5d95808744bdb94e279"
+      },
+      "CATALOG-007-E08": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "ef5b4b18c125b6f86c2cf6867bf729cace3af10d90edf120a05b6b93e1cfe9c3"
+      },
+      "CATALOG-007-E09": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "c6276017d64eadfc34e9c197c72eca9fe1ec55bc9ab8b93d3d068509c21e993d"
+      },
+      "CATALOG-007-E10": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "b70265794fa01a139aa2802dd2c6b45303645e6020087b069857f782b79f09ea"
+      },
+      "CATALOG-007-E11": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "fd96246408cabe56aba7a5989fe2abed47d629c0c86b747503e6ccfae6a2d39e"
+      },
+      "CATALOG-007-E12": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "e283b1a906522d121e1a75e1e4fb7016e750ec914d05dd6271e7bbdb4262ae72"
+      },
+      "CATALOG-007-E13": {
+        "keys": [
+          "title",
+          "level",
+          "research_profile",
+          "id",
+          "prerequisites"
+        ],
+        "sha256": "52a12659d919402b45bb0a8eca23efadeb20dd9ec051e263d0f14f9da7cbd740"
+      }
+    },
+    "source_initial_archive_sha256": "081f92419daead22d6aac2b81aeb5db8490bbb34437cfb5fb3850a47232683ef",
+    "local_files": {
+      "007_AI_TOOLS_AI_TUTORIALS_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "9d11ea0d0a5b8c717383d5a1ac18d70293eab3ba12586d3098e44751ddc2f0d8",
+        "original_text": "# AI Tools & AI Tutorials Channel Master Topic Roadmap (Scratch to Advanced)\n**Niche:** 007 AI Tools / AI Tutorials (Robotics_AI)  \n**Channel Language:** English (YouTube)  \n**Target Audience:** Creators, Knowledge Workers, Developers, Productivity Enthusiasts (Global)  \n**Production Format:** 10-Minute Tutorial & Workflow Explainer Episodes (600s, 75 Fixed 8s Scenes)  \n**Execution & Sync Report:** [topics/007_ai_tools_ai_tutorials/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \n\n---\n\n## 1. Channel Progression Strategy\n\nThis curriculum organizes practical AI tooling, prompting engineering, workflow automation, multimodal creative generation, and local open-source deployments across four progressive learning tiers:\n- **Tier 1: Foundations of Everyday AI (Scratch / Beginner)** — Core conversational tools (ChatGPT, Claude, Gemini), prompt engineering fundamentals (zero-shot, few-shot, role priming), and avoiding hallucination traps.\n- **Tier 2: Creative & Multimodal AI Tools (Intermediate)** — Image synthesis (Midjourney, Flux, Stable Diffusion), video generation (Runway Gen-3, Kling, Luma), audio/voice cloning (ElevenLabs), and design integrations.\n- **Tier 3: Productivity, Workflows & Automation (Upper Intermediate)** — Autonomous research tools (Perplexity, NotebookLM), workflow automation (Make, Zapier, n8n), custom GPTs, and document ingestion (RAG).\n- **Tier 4: Advanced Local AI, Open-Source & Developer Tools (Advanced / Expert)** — Running local models with Ollama & LM Studio, Cursor & Copilot coding workflows, prompt injection security, and building autonomous agent stacks.\n\n---\n\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\n\nEvery tutorial is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/007_ai_tools_ai_tutorials/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/007_ai_tools_ai_tutorials/ANGLE_PLAN.json):\n\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\n|---|---|---|---|\n| 1 | `history_origins` | **A Tool's Version History** | *How did an AI tool evolve from an experimental beta into an indispensable production utility?* |\n| 2 | `famous_examples` | **A Popular Demo Reproduced** | *Can a viral vendor product demo be reproduced reliably under real-world conditions?* |\n| 3 | `hidden_stories` | **People Behind a Seamless Demo** | *What human prompt crafting, cherry-picking, and fine-tuning made a demo look effortless?* |\n| 4 | `beginner_explainers` | **A First Task with an AI Tool** | *How can a complete novice complete their first high-value workflow without technical jargon?* |\n| 5 | `advanced_concepts` | **Tool, Model, and Workflow** | *How do tool wrappers, API layers, and underlying foundational models interact?* |\n| 6 | `mysteries_unsolved_cases` | **An Output That Cannot Be Reproduced** | *Why do identical prompts yield drastically different results across updates and seeds?* |\n| 7 | `technology_innovation` | **A New Feature Under Test** | *How does a major new feature update (e.g. Canvas, Artifacts, reasoning mode) change workflows?* |\n| 8 | `people_personalities` | **A Designer's Tradeoff** | *Why did product designers prioritize safety guardrails over raw output flexibility?* |\n| 9 | `major_events` | **A Model or API Change** | *How did an unannounced backend model deprecation break existing production pipelines?* |\n| 10 | `how_it_works` | **An AI Workflow End to End** | *What exact step-by-step pipeline connects raw user input to a fully finished asset?* |\n| 11 | `rise_fall` | **A Tool's Changing Reliability** | *Why did a once-hyped AI tool lose its edge to newer, open-source alternatives?* |\n| 12 | `then_vs_now` | **A Tutorial Across Versions** | *How has accomplishing the exact same task improved from 2023 clunkiness to 2026 ease?* |\n| 13 | `future_developments` | **A Proposed AI Feature** | *What roadmap features will transform AI tools from conversational toys into autonomous workers?* |\n| 14 | `myths_vs_facts` | **A Tool Claim Put to the Test** | *Does an AI tool really save '10 hours a week', or does fixing errors eat all the savings?* |\n| 15 | `documentary_stories` | **A Tutorial's Revision Trail** | *How did a creator test and troubleshoot a complex multi-step workflow before publishing?* |\n| 16 | `system_boundary` | **What the Tool Can Access** | *What data permissions, sandboxes, and cloud storage boundaries govern the tool?* |\n| 17 | `input_output_trace` | **One Run's Evidence** | *What raw tokens, system prompts, and API latency occurred during a single tool execution?* |\n| 18 | `design_tradeoff` | **Speed, Quality, and Cost** | *How do fast small models (Flash, Haiku) compare with frontier models on cost per task?* |\n| 19 | `failure_mode` | **A Known Failure Reproduced** | *What specific edge cases trigger hallucinations, formatting breaks, or prompt loops?* |\n| 20 | `testing_limits` | **What the Demo Did Not Test** | *How does the tool behave when fed dirty, unstructured, 50-page enterprise PDF documents?* |\n| 21 | `standards_interoperability`| **A Format or API Boundary** | *How can creators export and move data smoothly between competing AI ecosystems?* |\n| 22 | `security_threat_model` | **Untrusted Input in a Workflow** | *How can indirect prompt injection attacks hijack automated document summary tools?* |\n| 23 | `maintenance_lifecycle` | **Keeping a Tutorial Current** | *How can workflows be designed with modular components so UI updates don't break them?* |\n| 24 | `infrastructure_dependencies`| **What Makes the Demo Work** | *What server GPU clusters, vector embeddings, and web scraping backends power the tool?* |\n| 25 | `accessibility_usability` | **Who Can Complete the Workflow?** | *Is the tool accessible for non-technical users, mobile devices, and screen readers?* |\n| 26 | `independent_replication` | **Can Another User Repeat It?** | *Does the workflow include exact template copy-paste prompts that work for any viewer?* |\n| 27 | `responsible_deployment` | **From Demo to Real Use** | *What human-in-the-loop review steps must be maintained before sending AI outputs to clients?* |\n| 28 | `field_training_or_control_data`| **Data Behind the Behavior** | *How does system prompt priming steer a generic LLM into a specialized domain expert?* |\n| 29 | `field_real_world_testing` | **Performance on Actual Tasks** | *Testing 5 competing AI tools on the exact same complex real-world client brief.* |\n| 30 | `field_human_oversight` | **Who Reviews the Result?** | *Designing foolproof verification checklists to catch subtle AI errors in seconds.* |\n| 31 | `field_failure_recovery` | **Recovering from a Bad Output** | *How to steer and debug a confused AI model using corrective feedback prompts.* |\n| 32 | `field_hardware_dependency` | **Compute and Device Limits** | *What RAM, VRAM, and GPU hardware is actually required to run 8B, 14B, and 70B models?* |\n\n---\n\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\n\n### Tier 1: Foundations of Everyday AI\n1. **Prompt Engineering in 2026: The Only 5 Techniques That Actually Work**\n   - *Question:* How do modern reasoning models respond to role priming, few-shot examples, and chain-of-thought?\n   - *Key Focus:* Eliminating fluff prompts, structured JSON output formatting, context window management.\n2. **ChatGPT vs Claude vs Gemini: The Complete Real-World Benchmark Test**\n   - *Question:* Which leading AI model wins for coding, creative writing, data analysis, and long documents?\n   - *Key Focus:* Claude 3.5 Sonnet Artifacts, ChatGPT o1 reasoning chains, Gemini 2M context window.\n3. **Perplexity AI Masterclass: How to Replace Traditional Google Search**\n   - *Question:* How can students and researchers synthesize sourced academic papers with live web citations?\n   - *Key Focus:* Pro search queries, collections organization, focus modes (Academic, YouTube, Reddit).\n4. **NotebookLM: How to Turn Any Pile of PDFs into a Studio-Quality Podcast**\n   - *Question:* How does Google's source-grounded notebook generate multi-speaker audio discussions?\n   - *Key Focus:* Grounded source ingestion, avoiding hallucinations, audio overview generation, study guides.\n\n### Tier 2: Creative & Multimodal AI Tools\n5. **Midjourney v6 & Flux.1: The Definitive Photorealism Prompting Guide**\n   - *Question:* How do camera parameters, lighting styles, and raw parameters create hyper-realistic images?\n   - *Key Focus:* Aspect ratios, style references (--sref), inpainting, Flux open-weight prompting comparisons.\n6. **AI Video Generation: Runway Gen-3 vs Kling vs Luma Dream Machine**\n   - *Question:* How can creators generate consistent cinematic camera moves without unnatural morphing?\n   - *Key Focus:* Camera motion controls, motion brush painting, keyframe-to-keyframe consistency, text-to-video.\n7. **ElevenLabs & AI Audio: Cloning Your Voice and Generating Expressive Speech**\n   - *Question:* How do professional creators clone voice timbre, dynamic emotion, and multi-lingual dubbing?\n   - *Key Focus:* Voice design, audio isolation, latency reduction, pacing, ethical voice verification.\n8. **Canva & Adobe Firefly: Practical Graphic Design Workflows for Non-Designers**\n   - *Question:* How can small business owners create social graphics, posters, and pitch decks with generative fill?\n   - *Key Focus:* Generative expand, text effects, vector recoloring, brand kit automation.\n\n### Tier 3: Productivity, Workflows & Automation\n9. **Building Your First Custom GPT / Claude Project: Domain-Specific AI Assistants**\n   - *Question:* How do you configure instructions, knowledge files, and API actions for specialized tasks?\n   - *Key Focus:* System instructions framing, uploading clean reference data, preventing knowledge leakage.\n10. **Automate Everything with Make & n8n: Zero-Code AI Workflows**\n    - *Question:* How can you trigger AI summaries from incoming Gmail, update Notion, and post to Slack?\n    - *Key Focus:* Webhooks, API connectors, error handling, token cost optimization in automated loops.\n11. **RAG Demystified: How to Chat with Thousands of Company Documents Accurately**\n    - *Question:* How do vector embeddings and semantic search feed exact text chunks into language models?\n    - *Key Focus:* Chunking strategies, vector databases (Pinecone, Chroma), cosine similarity, context limits.\n12. **AI for Data Analysis: Turning Messy Spreadsheets into Interactive Dashboards**\n    - *Question:* How can non-coders clean dirty CSV data, run Python statistical regressions, and plot charts?\n    - *Key Focus:* Code Interpreter / Advanced Data Analysis, pivot tables, correlation heatmaps, trend forecasts.\n\n### Tier 4: Advanced Local AI, Open-Source & Developer Tools\n13. **Run AI Locally with Ollama & LM Studio: 100% Private, Free, and Offline**\n    - *Question:* How can you download Llama 3.3, Mistral, and DeepSeek to run on your laptop without the internet?\n    - *Key Focus:* Quantization levels (Q4_K_M vs Q8), memory allocation, CPU vs GPU offloading, local privacy.\n14. **Cursor AI & GitHub Copilot: The 10x Developer Coding Workflow**\n    - *Question:* How do AI-native code editors index your entire repository to refactor code and fix bugs?\n    - *Key Focus:* Multi-file edits, codebase chat, generating automated test suites, debugging compiler errors.\n15. **ComfyUI Masterclass: Node-Based Image Generation for Complete Creative Control**\n    - *Question:* How do professional AI artists build modular node workflows for ControlNet, LoRA, and upscaling?\n    - *Key Focus:* VAE loaders, sampling steps, ControlNet pose tracking, ultimate SD upscale nodes.\n16. **Voice Agents & Real-Time AI: Building Conversational Call Bots with LiveKit & Vapi**\n    - *Question:* How do sub-500ms voice-to-voice pipelines handle customer bookings and phone interviews?\n    - *Key Focus:* WebRTC audio streaming, whisper speech-to-text, fast LLM inference, text-to-speech synthesis.\n17. **AI Prompt Injection & Security: How to Protect Your Tools from Jailbreaks**\n    - *Question:* How do hackers use hidden prompt injections inside web pages and PDFs to hijack AI tools?\n    - *Key Focus:* Direct vs indirect injection, data exfiltration attacks, input sanitization defense layers.\n18. **Building Autonomous Agents: LangChain, CrewAI & AutoGen Explained**\n    - *Question:* How do multi-agent frameworks assign roles (Researcher, Writer, Editor) to complete complex projects?\n    - *Key Focus:* Agent coordination, tool calling, shared memory, infinite loop recovery.\n19. **Fine-Tuning vs RAG: Which Strategy Should Your Business Actually Choose?**\n    - *Question:* When does teaching a model new facts require LoRA fine-tuning versus retrieval augmentation?\n    - *Key Focus:* Cost comparisons, catastrophic forgetting, style adaptation vs knowledge recall.\n20. **The Best Free AI Tool Stack for Solopreneurs in 2026**\n    - *Question:* How can a single founder run marketing, customer service, coding, and legal for under $50/month?\n    - *Key Focus:* Essential tool stack, free tiers, API cost-slashing tricks, maximum leverage workflows.\n\n---\n\n## 4. Flagship Launch Episode\n- **Niche ID:** 007 (AI Tools / AI Tutorials)\n- **Angle Preset:** `beginner_explainers` (A First Task with an AI Tool)\n- **Episode Title:** *Prompt Engineering in 2026: The Only 5 Techniques That Actually Work*\n- **Episode Slug:** `007_ai_tools_ai_tutorials_beginner_explainers_prompt_engineering_guide`\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/007_ai_tools_ai_tutorials/`.\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "919733b7f9591572fe73f24e849511a81b9ddb2ef843bab1e740c1a33bd1985f",
+        "original_text": "# 007 AI Tools / AI Tutorials -- Master Topic Execution & Roadmap Sync Report\n> **Niche:** 007 AI Tools / AI Tutorials (Robotics_AI)  \n> **Storage Directory:** `topics/007_ai_tools_ai_tutorials/`  \n> **Synchronized With:** `OUTPUT/007_ai_tools_ai_tutorials/`, `REGISTRY/Niches/007_ai_tools_ai_tutorials/`, and `007_AI_TOOLS_AI_TUTORIALS_CHANNEL_TOPIC_ROADMAP.md`  \n> **Last Synced:** `2026-10-21 16:25:00`  \n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\n\n---\n\n## Executive Progress Summary\n\n| Metric | Count | Percentage | Status |\n|---|---|---|---|\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\n\n---\n\n## 1. Covered Topics (Done / Produced in OUTPUT)\n*Currently, 007 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\n\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\n|---|---|---|---|---|---|\n| - | *No episodes compiled yet* | - | - | [OUTPUT/007_ai_tools_ai_tutorials](../../OUTPUT/007_ai_tools_ai_tutorials) | `QUEUED FOR BATCH COMPILATION` |\n\n---\n\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\n\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\n|---|---|---|---|---|---|---|\n| 1 | **Prompt Engineering in 2026: The Only 5 Techniques That Actually Work** | Tier 1: Foundations | `beginner_explainers` | `prompt_engineering_in_2026_five_essential_techniques` | Flagship launch episode; strips away useless internet advice to provide practical, reliable prompting. | `QUEUED (Priority #1 Launch)` |\n| 2 | **ChatGPT vs Claude vs Gemini: The Complete Real-World Benchmark Test** | Tier 1: Foundations | `famous_examples` | `chatgpt_vs_claude_vs_gemini_head_to_head_test` | Direct, rigorous feature comparison for coding, long-document reasoning, and speed. | `QUEUED` |\n| 3 | **Perplexity AI Masterclass: How to Replace Traditional Google Search** | Tier 1: Foundations | `how_it_works` | `perplexity_ai_masterclass_search_collections_academic` | Essential guide to academic search, citation checking, and organizing research libraries. | `QUEUED` |\n| 4 | **NotebookLM: How to Turn Any Pile of PDFs into a Studio-Quality Podcast** | Tier 1: Foundations | `technology_innovation` | `notebooklm_turn_pdfs_into_audio_podcasts_and_study_guides` | Viral knowledge worker productivity tutorial for student notes and corporate reports. | `QUEUED` |\n| 5 | **Midjourney v6 & Flux.1: The Definitive Photorealism Prompting Guide** | Tier 2: Creative AI | `materials_and_tools` | `midjourney_v6_and_flux_photorealism_prompting_guide` | In-depth camera optics, lighting controls, style references, and parameter optimization. | `QUEUED` |\n| 6 | **AI Video Generation: Runway Gen-3 vs Kling vs Luma Dream Machine** | Tier 2: Creative AI | `design_tradeoff` | `ai_video_generation_runway_gen3_vs_kling_vs_luma` | Teaches filmmakers camera motion controls, keyframe continuity, and motion brush techniques. | `QUEUED` |\n| 7 | **ElevenLabs & AI Audio: Cloning Your Voice and Generating Expressive Speech** | Tier 2: Creative AI | `how_it_works` | `elevenlabs_ai_voice_cloning_emotional_speech_synthesis` | Complete guide to zero-shot voice cloning, pacing sliders, and multi-lingual dubbing. | `QUEUED` |\n| 8 | **Canva & Adobe Firefly: Practical Graphic Design Workflows for Non-Designers** | Tier 2: Creative AI | `accessibility_usability` | `canva_and_adobe_firefly_graphic_design_workflows` | Practical marketing design tutorial for social banners, product photography, and posters. | `QUEUED` |\n| 9 | **Building Your First Custom GPT / Claude Project: Domain-Specific AI Assistants** | Tier 3: Workflows & Automation | `advanced_concepts` | `building_custom_gpts_and_claude_projects_tutorial` | How to structure prompt systems, upload knowledge bases, and link actions cleanly. | `QUEUED` |\n| 10 | **Automate Everything with Make & n8n: Zero-Code AI Workflows** | Tier 3: Workflows & Automation | `standards_interoperability` | `automate_workflows_with_make_and_n8n_zero_code_ai` | Building multi-step automations that read emails, summarize documents, and update databases. | `QUEUED` |\n| 11 | **RAG Demystified: How to Chat with Thousands of Company Documents Accurately** | Tier 3: Workflows & Automation | `system_boundary` | `rag_demystified_chat_with_enterprise_documents_embeddings` | Explains vector embeddings, chunking strategies, and preventing context hallucinations. | `QUEUED` |\n| 12 | **AI for Data Analysis: Turning Messy Spreadsheets into Interactive Dashboards** | Tier 3: Workflows & Automation | `field_real_world_testing` | `ai_for_data_analysis_python_code_interpreter_spreadsheets` | Cleaning dirty data, generating Python charts, and running statistical analysis in seconds. | `QUEUED` |\n| 13 | **Run AI Locally with Ollama & LM Studio: 100% Private, Free, and Offline** | Tier 4: Local & Developer AI | `field_hardware_dependency` | `run_ai_locally_ollama_lm_studio_private_offline_setup` | Complete setup guide for running Llama 3.3 and DeepSeek on Mac and PC with zero subscriptions. | `QUEUED` |\n| 14 | **Cursor AI & GitHub Copilot: The 10x Developer Coding Workflow** | Tier 4: Local & Developer AI | `technology_innovation` | `cursor_ai_and_github_copilot_developer_workflow` | Refactoring legacy codebases, automated test writing, and multi-file code generation. | `QUEUED` |\n| 15 | **ComfyUI Masterclass: Node-Based Image Generation for Complete Creative Control** | Tier 4: Local & Developer AI | `materials_and_tools` | `comfyui_masterclass_node_based_stable_diffusion_workflows` | Advanced node architectures for ControlNet, LoRA stacking, and high-resolution upscaling. | `QUEUED` |\n| 16 | **Voice Agents & Real-Time AI: Building Conversational Call Bots with LiveKit & Vapi** | Tier 4: Local & Developer AI | `input_output_trace` | `voice_agents_real_time_ai_livekit_vapi_conversational_bots` | Low-latency voice pipelines handling real-time customer service calls. | `QUEUED` |\n| 17 | **AI Prompt Injection & Security: How to Protect Your Tools from Jailbreaks** | Tier 4: Local & Developer AI | `security_threat_model` | `ai_prompt_injection_security_and_jailbreak_defense` | Critical security tutorial on indirect prompt attacks and input sanitization boundaries. | `QUEUED` |\n| 18 | **Building Autonomous Agents: LangChain, CrewAI & AutoGen Explained** | Tier 4: Local & Developer AI | `advanced_concepts` | `building_autonomous_agents_crewai_autogen_langchain` | Orchestrating multi-agent collaboration with specialized roles and shared memory. | `QUEUED` |\n| 19 | **Fine-Tuning vs RAG: Which Strategy Should Your Business Actually Choose?** | Tier 4: Local & Developer AI | `design_tradeoff` | `fine_tuning_vs_rag_enterprise_decision_matrix` | Cost, training complexity, and maintenance trade-offs between LoRA weights and vector databases. | `QUEUED` |\n| 20 | **The Best Free AI Tool Stack for Solopreneurs in 2026** | Tier 4: Local & Developer AI | `process_breakdown` | `best_free_ai_tool_stack_for_solopreneurs_under_fifty_dollars` | Complete stack to run marketing, coding, content, and legal support on a shoestring budget. | `QUEUED` |\n\n---\n\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\n\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\n|---|---|---|---|---|---|---|\n| 21 | **DeepSeek V3 & R1 Explained: Why Open-Source China AI Is Shocking Silicon Valley** | **Trending #1 (Massive Global Viral Surge)** | `technology_innovation` | `deepseek_r1_open_source_reasoning_models_explained` | Massive viral surge; analyzes open weights, ultra-low training costs, and reasoning chains. | `TRENDING CANDIDATE` |\n| 22 | **Sora & Gen-3 Video Prompting: 10 Cinematic Secrets Nobody Tells You** | **Ultra High Creator CTR** | `materials_and_tools` | `sora_runway_gen3_cinematic_camera_prompting_secrets` | Advanced lens settings, lighting keywords, and shutter angle tricks for jaw-dropping video. | `TRENDING CANDIDATE` |\n| 23 | **How to Build a Second Brain with Notion AI and Obsidian** | **Perennial High-Retention Productivity Magnet** | `how_it_works` | `building_a_second_brain_notion_ai_obsidian_smart_notes` | Syncing daily meeting notes, bookmarks, and transcripts into an auto-summarizing digital memory. | `TRENDING CANDIDATE` |\n| 24 | **The Complete Guide to AI Music: Suno v4 vs Udio for Producers** | **High Viral Pop Culture Crossover** | `famous_examples` | `ai_music_generation_suno_v4_vs_udio_complete_guide` | Creating radio-quality vocals, song structures, chord progressions, and stem exports. | `TRENDING CANDIDATE` |\n| 25 | **Are Paid AI Subscriptions Still Worth It? ChatGPT Plus vs Claude Pro in 2026** | **High Consumer Buying Decision Traffic** | `design_tradeoff` | `chatgpt_plus_vs_claude_pro_are_paid_subscriptions_worth_it` | Clear financial audit of whether $20/month tiers justify the cost over free web models. | `TRENDING CANDIDATE` |\n| 26 | **Build a Full-Stack Web App in 10 Minutes with v0.dev and Supabase** | **Massive Developer & Indie Hacker Traffic** | `process_breakdown` | `build_full_stack_web_app_ten_minutes_v0_supabase` | Live coding workflow showing interactive UI generation, backend database wiring, and Vercel deploy. | `TRENDING CANDIDATE` |\n| 27 | **The Dark Side of AI Voice Cloning: Protecting Your Family from Phone Scams** | **Urgent Consumer Tech Safety Spike** | `security_threat_model` | `protect_family_from_ai_voice_cloning_phone_scams` | Practical household safety: setting family safewords, spotting synthesized cadence, and call verification. | `TRENDING CANDIDATE` |\n\n---\n\n## 4. Cross-Document Sync & File Linkages\nThis report is wired directly into the repository structure:\n- **Master Channel Roadmap:** [`topics/007_ai_tools_ai_tutorials/007_AI_TOOLS_AI_TUTORIALS_CHANNEL_TOPIC_ROADMAP.md`](./007_AI_TOOLS_AI_TUTORIALS_CHANNEL_TOPIC_ROADMAP.md)\n- **Machine Status File:** [`topics/007_ai_tools_ai_tutorials/topics_status.json`](./topics_status.json)\n- **Niche Registry Home:** [`REGISTRY/Niches/007_ai_tools_ai_tutorials/NICHE_007_ai_tools_ai_tutorials.md`](file:///h:/script-raw-/REGISTRY/Niches/007_ai_tools_ai_tutorials/NICHE_007_ai_tools_ai_tutorials.md)\n- **Category Configuration:** [`REGISTRY/Niches/007_ai_tools_ai_tutorials/CAT_007_ai_tools_ai_tutorials.md`](file:///h:/script-raw-/REGISTRY/Niches/007_ai_tools_ai_tutorials/CAT_007_ai_tools_ai_tutorials.md)\n- **Angle Plan Data:** [`REGISTRY/Niches/007_ai_tools_ai_tutorials/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/007_ai_tools_ai_tutorials/ANGLE_PLAN.json)\n- **Output Landing Directory:** [`OUTPUT/007_ai_tools_ai_tutorials/`](file:///h:/script-raw-/OUTPUT/007_ai_tools_ai_tutorials/)\n\n---\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\n"
+      },
+      "topics_status.json": {
+        "sha256": "6d95efbd8e1e1e281a5c554e55ea0846454a114843a18992e79a44706577c992",
+        "original_text": "{\n  \"niche_id\": \"007\",\n  \"niche_name\": \"ai_tools_ai_tutorials\",\n  \"last_synced\": \"2026-10-21T16:25:00.000000\",\n  \"summary\": {\n    \"completed\": 0,\n    \"pending\": 20,\n    \"trending\": 7,\n    \"total\": 27\n  },\n  \"completed_topics\": [],\n  \"pending_topics\": [\n    {\n      \"id\": 1,\n      \"title\": \"Prompt Engineering in 2026: The Only 5 Techniques That Actually Work\",\n      \"tier\": \"Tier 1: Foundations of Everyday AI\",\n      \"angle\": \"beginner_explainers\",\n      \"slug\": \"prompt_engineering_in_2026_five_essential_techniques\",\n      \"reason\": \"Flagship launch episode; strips away useless internet advice to provide practical, reliable prompting.\",\n      \"status\": \"QUEUED (Priority #1 Launch)\"\n    },\n    {\n      \"id\": 2,\n      \"title\": \"ChatGPT vs Claude vs Gemini: The Complete Real-World Benchmark Test\",\n      \"tier\": \"Tier 1: Foundations of Everyday AI\",\n      \"angle\": \"famous_examples\",\n      \"slug\": \"chatgpt_vs_claude_vs_gemini_head_to_head_test\",\n      \"reason\": \"Direct, rigorous feature comparison for coding, long-document reasoning, and speed.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 3,\n      \"title\": \"Perplexity AI Masterclass: How to Replace Traditional Google Search\",\n      \"tier\": \"Tier 1: Foundations of Everyday AI\",\n      \"angle\": \"how_it_works\",\n      \"slug\": \"perplexity_ai_masterclass_search_collections_academic\",\n      \"reason\": \"Essential guide to academic search, citation checking, and organizing research libraries.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 4,\n      \"title\": \"NotebookLM: How to Turn Any Pile of PDFs into a Studio-Quality Podcast\",\n      \"tier\": \"Tier 1: Foundations of Everyday AI\",\n      \"angle\": \"technology_innovation\",\n      \"slug\": \"notebooklm_turn_pdfs_into_audio_podcasts_and_study_guides\",\n      \"reason\": \"Viral knowledge worker productivity tutorial for student notes and corporate reports.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 5,\n      \"title\": \"Midjourney v6 & Flux.1: The Definitive Photorealism Prompting Guide\",\n      \"tier\": \"Tier 2: Creative & Multimodal AI Tools\",\n      \"angle\": \"materials_and_tools\",\n      \"slug\": \"midjourney_v6_and_flux_photorealism_prompting_guide\",\n      \"reason\": \"In-depth camera optics, lighting controls, style references, and parameter optimization.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 6,\n      \"title\": \"AI Video Generation: Runway Gen-3 vs Kling vs Luma Dream Machine\",\n      \"tier\": \"Tier 2: Creative & Multimodal AI Tools\",\n      \"angle\": \"design_tradeoff\",\n      \"slug\": \"ai_video_generation_runway_gen3_vs_kling_vs_luma\",\n      \"reason\": \"Teaches filmmakers camera motion controls, keyframe continuity, and motion brush techniques.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 7,\n      \"title\": \"ElevenLabs & AI Audio: Cloning Your Voice and Generating Expressive Speech\",\n      \"tier\": \"Tier 2: Creative & Multimodal AI Tools\",\n      \"angle\": \"how_it_works\",\n      \"slug\": \"elevenlabs_ai_voice_cloning_emotional_speech_synthesis\",\n      \"reason\": \"Complete guide to zero-shot voice cloning, pacing sliders, and multi-lingual dubbing.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 8,\n      \"title\": \"Canva & Adobe Firefly: Practical Graphic Design Workflows for Non-Designers\",\n      \"tier\": \"Tier 2: Creative & Multimodal AI Tools\",\n      \"angle\": \"accessibility_usability\",\n      \"slug\": \"canva_and_adobe_firefly_graphic_design_workflows\",\n      \"reason\": \"Practical marketing design tutorial for social banners, product photography, and posters.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 9,\n      \"title\": \"Building Your First Custom GPT / Claude Project: Domain-Specific AI Assistants\",\n      \"tier\": \"Tier 3: Productivity, Workflows & Automation\",\n      \"angle\": \"advanced_concepts\",\n      \"slug\": \"building_custom_gpts_and_claude_projects_tutorial\",\n      \"reason\": \"How to structure prompt systems, upload knowledge bases, and link actions cleanly.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 10,\n      \"title\": \"Automate Everything with Make & n8n: Zero-Code AI Workflows\",\n      \"tier\": \"Tier 3: Productivity, Workflows & Automation\",\n      \"angle\": \"standards_interoperability\",\n      \"slug\": \"automate_workflows_with_make_and_n8n_zero_code_ai\",\n      \"reason\": \"Building multi-step automations that read emails, summarize documents, and update databases.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 11,\n      \"title\": \"RAG Demystified: How to Chat with Thousands of Company Documents Accurately\",\n      \"tier\": \"Tier 3: Productivity, Workflows & Automation\",\n      \"angle\": \"system_boundary\",\n      \"slug\": \"rag_demystified_chat_with_enterprise_documents_embeddings\",\n      \"reason\": \"Explains vector embeddings, chunking strategies, and preventing context hallucinations.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 12,\n      \"title\": \"AI for Data Analysis: Turning Messy Spreadsheets into Interactive Dashboards\",\n      \"tier\": \"Tier 3: Productivity, Workflows & Automation\",\n      \"angle\": \"field_real_world_testing\",\n      \"slug\": \"ai_for_data_analysis_python_code_interpreter_spreadsheets\",\n      \"reason\": \"Cleaning dirty data, generating Python charts, and running statistical analysis in seconds.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 13,\n      \"title\": \"Run AI Locally with Ollama & LM Studio: 100% Private, Free, and Offline\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"field_hardware_dependency\",\n      \"slug\": \"run_ai_locally_ollama_lm_studio_private_offline_setup\",\n      \"reason\": \"Complete setup guide for running Llama 3.3 and DeepSeek on Mac and PC with zero subscriptions.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 14,\n      \"title\": \"Cursor AI & GitHub Copilot: The 10x Developer Coding Workflow\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"technology_innovation\",\n      \"slug\": \"cursor_ai_and_github_copilot_developer_workflow\",\n      \"reason\": \"Refactoring legacy codebases, automated test writing, and multi-file code generation.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 15,\n      \"title\": \"ComfyUI Masterclass: Node-Based Image Generation for Complete Creative Control\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"materials_and_tools\",\n      \"slug\": \"comfyui_masterclass_node_based_stable_diffusion_workflows\",\n      \"reason\": \"Advanced node architectures for ControlNet, LoRA stacking, and high-resolution upscaling.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 16,\n      \"title\": \"Voice Agents & Real-Time AI: Building Conversational Call Bots with LiveKit & Vapi\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"input_output_trace\",\n      \"slug\": \"voice_agents_real_time_ai_livekit_vapi_conversational_bots\",\n      \"reason\": \"Low-latency voice pipelines handling real-time customer service calls.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 17,\n      \"title\": \"AI Prompt Injection & Security: How to Protect Your Tools from Jailbreaks\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"security_threat_model\",\n      \"slug\": \"ai_prompt_injection_security_and_jailbreak_defense\",\n      \"reason\": \"Critical security tutorial on indirect prompt attacks and input sanitization boundaries.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 18,\n      \"title\": \"Building Autonomous Agents: LangChain, CrewAI & AutoGen Explained\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"advanced_concepts\",\n      \"slug\": \"building_autonomous_agents_crewai_autogen_langchain\",\n      \"reason\": \"Orchestrating multi-agent collaboration with specialized roles and shared memory.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 19,\n      \"title\": \"Fine-Tuning vs RAG: Which Strategy Should Your Business Actually Choose?\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"design_tradeoff\",\n      \"slug\": \"fine_tuning_vs_rag_enterprise_decision_matrix\",\n      \"reason\": \"Cost, training complexity, and maintenance trade-offs between LoRA weights and vector databases.\",\n      \"status\": \"QUEUED\"\n    },\n    {\n      \"id\": 20,\n      \"title\": \"The Best Free AI Tool Stack for Solopreneurs in 2026\",\n      \"tier\": \"Tier 4: Advanced Local AI, Open-Source & Developer Tools\",\n      \"angle\": \"process_breakdown\",\n      \"slug\": \"best_free_ai_tool_stack_for_solopreneurs_under_fifty_dollars\",\n      \"reason\": \"Complete stack to run marketing, coding, content, and legal support on a shoestring budget.\",\n      \"status\": \"QUEUED\"\n    }\n  ],\n  \"trending_topics\": [\n    {\n      \"id\": 21,\n      \"concept\": \"DeepSeek V3 & R1 Explained: Why Open-Source China AI Is Shocking Silicon Valley\",\n      \"velocity\": \"Trending #1 (Massive Global Viral Surge)\",\n      \"angle\": \"technology_innovation\",\n      \"slug\": \"deepseek_r1_open_source_reasoning_models_explained\",\n      \"hook\": \"Massive viral surge; analyzes open weights, ultra-low training costs, and reasoning chains.\"\n    },\n    {\n      \"id\": 22,\n      \"concept\": \"Sora & Gen-3 Video Prompting: 10 Cinematic Secrets Nobody Tells You\",\n      \"velocity\": \"Ultra High Creator CTR\",\n      \"angle\": \"materials_and_tools\",\n      \"slug\": \"sora_runway_gen3_cinematic_camera_prompting_secrets\",\n      \"hook\": \"Advanced lens settings, lighting keywords, and shutter angle tricks for jaw-dropping video.\"\n    },\n    {\n      \"id\": 23,\n      \"concept\": \"How to Build a Second Brain with Notion AI and Obsidian\",\n      \"velocity\": \"Perennial High-Retention Productivity Magnet\",\n      \"angle\": \"how_it_works\",\n      \"slug\": \"building_a_second_brain_notion_ai_obsidian_smart_notes\",\n      \"hook\": \"Syncing daily meeting notes, bookmarks, and transcripts into an auto-summarizing digital memory.\"\n    },\n    {\n      \"id\": 24,\n      \"concept\": \"The Complete Guide to AI Music: Suno v4 vs Udio for Producers\",\n      \"velocity\": \"High Viral Pop Culture Crossover\",\n      \"angle\": \"famous_examples\",\n      \"slug\": \"ai_music_generation_suno_v4_vs_udio_complete_guide\",\n      \"hook\": \"Creating radio-quality vocals, song structures, chord progressions, and stem exports.\"\n    },\n    {\n      \"id\": 25,\n      \"concept\": \"Are Paid AI Subscriptions Still Worth It? ChatGPT Plus vs Claude Pro in 2026\",\n      \"velocity\": \"High Consumer Buying Decision Traffic\",\n      \"angle\": \"design_tradeoff\",\n      \"slug\": \"chatgpt_plus_vs_claude_pro_are_paid_subscriptions_worth_it\",\n      \"hook\": \"Clear financial audit of whether $20/month tiers justify the cost over free web models.\"\n    },\n    {\n      \"id\": 26,\n      \"concept\": \"Build a Full-Stack Web App in 10 Minutes with v0.dev and Supabase\",\n      \"velocity\": \"Massive Developer & Indie Hacker Traffic\",\n      \"angle\": \"process_breakdown\",\n      \"slug\": \"build_full_stack_web_app_ten_minutes_v0_supabase\",\n      \"hook\": \"Live coding workflow showing interactive UI generation, backend database wiring, and Vercel deploy.\"\n    },\n    {\n      \"id\": 27,\n      \"concept\": \"The Dark Side of AI Voice Cloning: Protecting Your Family from Phone Scams\",\n      \"velocity\": \"Urgent Consumer Tech Safety Spike\",\n      \"angle\": \"security_threat_model\",\n      \"slug\": \"protect_family_from_ai_voice_cloning_phone_scams\",\n      \"hook\": \"Practical household safety: setting family safewords, spotting synthesized cadence, and call verification.\"\n    }\n  ]\n}\n"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "007",
+      "niche_name": "ai_tools_ai_tutorials",
+      "last_synced": "2026-10-21T16:25:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "Prompt Engineering in 2026: The Only 5 Techniques That Actually Work",
+          "tier": "Tier 1: Foundations of Everyday AI",
+          "angle": "beginner_explainers",
+          "slug": "prompt_engineering_in_2026_five_essential_techniques",
+          "reason": "Flagship launch episode; strips away useless internet advice to provide practical, reliable prompting.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "ChatGPT vs Claude vs Gemini: The Complete Real-World Benchmark Test",
+          "tier": "Tier 1: Foundations of Everyday AI",
+          "angle": "famous_examples",
+          "slug": "chatgpt_vs_claude_vs_gemini_head_to_head_test",
+          "reason": "Direct, rigorous feature comparison for coding, long-document reasoning, and speed.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Perplexity AI Masterclass: How to Replace Traditional Google Search",
+          "tier": "Tier 1: Foundations of Everyday AI",
+          "angle": "how_it_works",
+          "slug": "perplexity_ai_masterclass_search_collections_academic",
+          "reason": "Essential guide to academic search, citation checking, and organizing research libraries.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "NotebookLM: How to Turn Any Pile of PDFs into a Studio-Quality Podcast",
+          "tier": "Tier 1: Foundations of Everyday AI",
+          "angle": "technology_innovation",
+          "slug": "notebooklm_turn_pdfs_into_audio_podcasts_and_study_guides",
+          "reason": "Viral knowledge worker productivity tutorial for student notes and corporate reports.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Midjourney v6 & Flux.1: The Definitive Photorealism Prompting Guide",
+          "tier": "Tier 2: Creative & Multimodal AI Tools",
+          "angle": "materials_and_tools",
+          "slug": "midjourney_v6_and_flux_photorealism_prompting_guide",
+          "reason": "In-depth camera optics, lighting controls, style references, and parameter optimization.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "AI Video Generation: Runway Gen-3 vs Kling vs Luma Dream Machine",
+          "tier": "Tier 2: Creative & Multimodal AI Tools",
+          "angle": "design_tradeoff",
+          "slug": "ai_video_generation_runway_gen3_vs_kling_vs_luma",
+          "reason": "Teaches filmmakers camera motion controls, keyframe continuity, and motion brush techniques.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "ElevenLabs & AI Audio: Cloning Your Voice and Generating Expressive Speech",
+          "tier": "Tier 2: Creative & Multimodal AI Tools",
+          "angle": "how_it_works",
+          "slug": "elevenlabs_ai_voice_cloning_emotional_speech_synthesis",
+          "reason": "Complete guide to zero-shot voice cloning, pacing sliders, and multi-lingual dubbing.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Canva & Adobe Firefly: Practical Graphic Design Workflows for Non-Designers",
+          "tier": "Tier 2: Creative & Multimodal AI Tools",
+          "angle": "accessibility_usability",
+          "slug": "canva_and_adobe_firefly_graphic_design_workflows",
+          "reason": "Practical marketing design tutorial for social banners, product photography, and posters.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Building Your First Custom GPT / Claude Project: Domain-Specific AI Assistants",
+          "tier": "Tier 3: Productivity, Workflows & Automation",
+          "angle": "advanced_concepts",
+          "slug": "building_custom_gpts_and_claude_projects_tutorial",
+          "reason": "How to structure prompt systems, upload knowledge bases, and link actions cleanly.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Automate Everything with Make & n8n: Zero-Code AI Workflows",
+          "tier": "Tier 3: Productivity, Workflows & Automation",
+          "angle": "standards_interoperability",
+          "slug": "automate_workflows_with_make_and_n8n_zero_code_ai",
+          "reason": "Building multi-step automations that read emails, summarize documents, and update databases.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "RAG Demystified: How to Chat with Thousands of Company Documents Accurately",
+          "tier": "Tier 3: Productivity, Workflows & Automation",
+          "angle": "system_boundary",
+          "slug": "rag_demystified_chat_with_enterprise_documents_embeddings",
+          "reason": "Explains vector embeddings, chunking strategies, and preventing context hallucinations.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "AI for Data Analysis: Turning Messy Spreadsheets into Interactive Dashboards",
+          "tier": "Tier 3: Productivity, Workflows & Automation",
+          "angle": "field_real_world_testing",
+          "slug": "ai_for_data_analysis_python_code_interpreter_spreadsheets",
+          "reason": "Cleaning dirty data, generating Python charts, and running statistical analysis in seconds.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Run AI Locally with Ollama & LM Studio: 100% Private, Free, and Offline",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "field_hardware_dependency",
+          "slug": "run_ai_locally_ollama_lm_studio_private_offline_setup",
+          "reason": "Complete setup guide for running Llama 3.3 and DeepSeek on Mac and PC with zero subscriptions.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Cursor AI & GitHub Copilot: The 10x Developer Coding Workflow",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "technology_innovation",
+          "slug": "cursor_ai_and_github_copilot_developer_workflow",
+          "reason": "Refactoring legacy codebases, automated test writing, and multi-file code generation.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "ComfyUI Masterclass: Node-Based Image Generation for Complete Creative Control",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "materials_and_tools",
+          "slug": "comfyui_masterclass_node_based_stable_diffusion_workflows",
+          "reason": "Advanced node architectures for ControlNet, LoRA stacking, and high-resolution upscaling.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Voice Agents & Real-Time AI: Building Conversational Call Bots with LiveKit & Vapi",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "input_output_trace",
+          "slug": "voice_agents_real_time_ai_livekit_vapi_conversational_bots",
+          "reason": "Low-latency voice pipelines handling real-time customer service calls.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "AI Prompt Injection & Security: How to Protect Your Tools from Jailbreaks",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "security_threat_model",
+          "slug": "ai_prompt_injection_security_and_jailbreak_defense",
+          "reason": "Critical security tutorial on indirect prompt attacks and input sanitization boundaries.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Building Autonomous Agents: LangChain, CrewAI & AutoGen Explained",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "advanced_concepts",
+          "slug": "building_autonomous_agents_crewai_autogen_langchain",
+          "reason": "Orchestrating multi-agent collaboration with specialized roles and shared memory.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Fine-Tuning vs RAG: Which Strategy Should Your Business Actually Choose?",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "design_tradeoff",
+          "slug": "fine_tuning_vs_rag_enterprise_decision_matrix",
+          "reason": "Cost, training complexity, and maintenance trade-offs between LoRA weights and vector databases.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Best Free AI Tool Stack for Solopreneurs in 2026",
+          "tier": "Tier 4: Advanced Local AI, Open-Source & Developer Tools",
+          "angle": "process_breakdown",
+          "slug": "best_free_ai_tool_stack_for_solopreneurs_under_fifty_dollars",
+          "reason": "Complete stack to run marketing, coding, content, and legal support on a shoestring budget.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "concept": "DeepSeek V3 & R1 Explained: Why Open-Source China AI Is Shocking Silicon Valley",
+          "velocity": "Trending #1 (Massive Global Viral Surge)",
+          "angle": "technology_innovation",
+          "slug": "deepseek_r1_open_source_reasoning_models_explained",
+          "hook": "Massive viral surge; analyzes open weights, ultra-low training costs, and reasoning chains."
+        },
+        {
+          "id": 22,
+          "concept": "Sora & Gen-3 Video Prompting: 10 Cinematic Secrets Nobody Tells You",
+          "velocity": "Ultra High Creator CTR",
+          "angle": "materials_and_tools",
+          "slug": "sora_runway_gen3_cinematic_camera_prompting_secrets",
+          "hook": "Advanced lens settings, lighting keywords, and shutter angle tricks for jaw-dropping video."
+        },
+        {
+          "id": 23,
+          "concept": "How to Build a Second Brain with Notion AI and Obsidian",
+          "velocity": "Perennial High-Retention Productivity Magnet",
+          "angle": "how_it_works",
+          "slug": "building_a_second_brain_notion_ai_obsidian_smart_notes",
+          "hook": "Syncing daily meeting notes, bookmarks, and transcripts into an auto-summarizing digital memory."
+        },
+        {
+          "id": 24,
+          "concept": "The Complete Guide to AI Music: Suno v4 vs Udio for Producers",
+          "velocity": "High Viral Pop Culture Crossover",
+          "angle": "famous_examples",
+          "slug": "ai_music_generation_suno_v4_vs_udio_complete_guide",
+          "hook": "Creating radio-quality vocals, song structures, chord progressions, and stem exports."
+        },
+        {
+          "id": 25,
+          "concept": "Are Paid AI Subscriptions Still Worth It? ChatGPT Plus vs Claude Pro in 2026",
+          "velocity": "High Consumer Buying Decision Traffic",
+          "angle": "design_tradeoff",
+          "slug": "chatgpt_plus_vs_claude_pro_are_paid_subscriptions_worth_it",
+          "hook": "Clear financial audit of whether $20/month tiers justify the cost over free web models."
+        },
+        {
+          "id": 26,
+          "concept": "Build a Full-Stack Web App in 10 Minutes with v0.dev and Supabase",
+          "velocity": "Massive Developer & Indie Hacker Traffic",
+          "angle": "process_breakdown",
+          "slug": "build_full_stack_web_app_ten_minutes_v0_supabase",
+          "hook": "Live coding workflow showing interactive UI generation, backend database wiring, and Vercel deploy."
+        },
+        {
+          "id": 27,
+          "concept": "The Dark Side of AI Voice Cloning: Protecting Your Family from Phone Scams",
+          "velocity": "Urgent Consumer Tech Safety Spike",
+          "angle": "security_threat_model",
+          "slug": "protect_family_from_ai_voice_cloning_phone_scams",
+          "hook": "Practical household safety: setting family safewords, spotting synthesized cadence, and call verification."
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "preserved_detailed_draft_reviewed_coverage_open",
+  "local_authored_inputs": [],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-007-G01",
+      "title": "Tool choice, local setup and maintenance",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-007-G02",
+      "title": "Documents, data and retrieval",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-007-G03",
+      "title": "Creative media workflows",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    },
+    {
+      "id": "DOMAIN-007-G04",
+      "title": "Code, automation and inclusive validation",
+      "scope": "Read the subcategories from foundations through mechanisms, cases and interpretation; each video retains its individual scope."
+    }
+  ],
+  "organization_review": {
+    "date": "2026-10-23",
+    "source_categories_preserved": 21,
+    "method": "Manually assigned subject groupings. Source questions, scopes, category titles, IDs and prerequisites remain unchanged."
+  },
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "9ca9c8d5c3ae2ad6b64337ae92d6f15e3f705ba954938b712296cbb597fb0fcc",
+    "TOPIC_BANK_RECONCILIATION.md": "d2109352df9d4a920f67290bd602c51c7252a60a7edd7ebeddd7af9d8c7ce727",
+    "TOPICS_COVERED_REPORT.md": "29d94730eb2f39e45acb66cb5107cf14bf53fc4e1920ab0e13affa8d92fe5602",
+    "007_AI_TOOLS_AI_TUTORIALS_CHANNEL_TOPIC_ROADMAP.md": "731b53250c9686cba82f7ac190c84647506e0bfff7f31dd053c3710f4e370caa"
+  },
+  "open_coverage": [
+    {
+      "area": "Versioned workflow evidence",
+      "next_step": "Choose current named tool versions and run the proposed prompt, document-to-audio, local-server, voice-agent, prompt-injection, screen-reader, multilingual, export and migration tests; retain failure cases and maintenance dates. No live local-runtime test was possible in the current environment."
+    },
+    {
+      "area": "Sources and readiness",
+      "next_step": "Vendor documentation on Ollama and LM Studio data paths and FTC voice-scam guidance were inspected in bounded notes; most proposals still need actual versioned runs, independent observation and source checks. No research certification or production approval was performed."
+    },
+    {
+      "area": "Neighboring-niche boundary review",
+      "next_step": "The legacy RAG, prompt-injection and agent-framework pitches now name niche 001 as their conceptual home, while niche 007 retains hands-on workflow tests. Compare further related banks before production; lexical duplicate checks do not establish semantic uniqueness across every pair."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "not_performed",
+    "semantic_candidates_reviewed": 4,
+    "starter_concepts_reviewed": 12,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "reframe_as_repeated_prompt_test",
+      "reason": "The 'only five' and year-specific claim is untested. Compare controlled prompt changes on fixed tasks and report failures rather than guaranteeing universal techniques.",
+      "bank_ids": [
+        "BANK-007-117",
+        "BANK-007-017"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A named-version comparison needs the same tasks, scoring and uncertainty; there is no universal product winner.",
+      "bank_ids": [
+        "BANK-007-013",
+        "BANK-007-051",
+        "BANK-007-091"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Source access and citation click-through are testable research-workflow questions. Replacing search generally is a dated promotional claim, not an established outcome.",
+      "bank_ids": [
+        "BANK-007-071",
+        "BANK-007-067",
+        "BANK-007-021"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "reframe_as_document_to_audio_test",
+      "reason": "The distinct workflow is whether generated audio retains the PDF evidence and corrections; 'any pile' and 'studio-quality' are not guaranteed.",
+      "bank_ids": [
+        "BANK-007-120",
+        "BANK-007-020"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Compare current named image-model versions on reference consistency, edits and repeated outcomes; the archived v6/Flux.1 label is not a current-specification claim.",
+      "bank_ids": [
+        "BANK-007-023",
+        "BANK-007-026",
+        "BANK-007-091"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A video-tool comparison should use matching input shots, continuity criteria and export checks, with versions recorded at test time.",
+      "bank_ids": [
+        "BANK-007-028",
+        "BANK-007-030",
+        "BANK-007-079"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Authorization and pronunciation consistency are separate voice-cloning tests; the product-name hook adds no independent question.",
+      "bank_ids": [
+        "BANK-007-035",
+        "BANK-007-034"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A non-designer workflow can test text rendering, final thumbnails and commercial-use claims without declaring a universal design tool.",
+      "bank_ids": [
+        "BANK-007-027",
+        "BANK-007-075",
+        "BANK-007-046"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "reframe_as_configured_assistant_test",
+      "reason": "A no-code assistant configured with instructions and files is not a newly trained model; test current builder version, document scope and connector permissions.",
+      "bank_ids": [
+        "BANK-007-121",
+        "BANK-007-064",
+        "BANK-007-086"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Automation must be dry-run, permissioned and able to report a genuine blocker; 'automate everything' is unsupported.",
+      "bank_ids": [
+        "BANK-007-085",
+        "BANK-007-086",
+        "BANK-007-089"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "route_to_existing_scopes_and_neighbor",
+      "reason": "Niche 001 BANK-001-029 owns the retrieval-versus-training concept. Niche 007 covers test-set construction, document-version conflict and citation click-through; accuracy needs measured evidence.",
+      "bank_ids": [
+        "BANK-007-064",
+        "BANK-007-066",
+        "BANK-007-067"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Formula correctness and chart grounding, including text percentages and hidden rows, are distinct data-workflow tests.",
+      "bank_ids": [
+        "BANK-007-069",
+        "BANK-007-070",
+        "BANK-007-102",
+        "BANK-007-103"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "reframe_as_versioned_local_data_path",
+      "reason": "Current vendor docs distinguish local inference, model downloads, optional cloud processing and network exposure. No runtime was installed or tested here; the linked note records the source-only boundary.",
+      "bank_ids": [
+        "BANK-007-015",
+        "BANK-007-043",
+        "BANK-007-053",
+        "BANK-007-098"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Coding-assistant speed claims need a working program, reviewable diff and regression check; '10x' is unverified.",
+      "bank_ids": [
+        "BANK-007-038",
+        "BANK-007-080",
+        "BANK-007-084"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Node-graph creative control can be tested through reference consistency, isolated edits, repeatability and exported workflow state on a pinned tool version.",
+      "bank_ids": [
+        "BANK-007-023",
+        "BANK-007-026",
+        "BANK-007-091",
+        "BANK-007-092"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "reframe_as_consented_voice_agent_test",
+      "reason": "The distinct real-time workflow needs latency, interruption, disclosure and human handoff checks before any live calling; named service versions remain to be chosen.",
+      "bank_ids": [
+        "BANK-007-118",
+        "BANK-007-035",
+        "BANK-007-085"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "route_to_neighboring_concept_and_sandbox_test",
+      "reason": "Niche 001 BANK-001-046 is the conceptual home for prompt injection. Niche 007 adds a harmless lower-trust document and mock-action tutorial with no live account exposure.",
+      "bank_ids": [
+        "BANK-007-119",
+        "BANK-007-085"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "route_to_existing_scopes_and_neighbor",
+      "reason": "Niche 001 covers agent mechanisms; niche 007 tests a current framework through human decision gates, truthful tool logs and restart recovery rather than promising autonomy.",
+      "bank_ids": [
+        "BANK-007-041",
+        "BANK-007-042",
+        "BANK-007-087"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "route_to_neighboring_concept_and_workflow",
+      "reason": "Niche 001 BANK-001-029 owns the retrieval-versus-fine-tuning decision. Niche 007 can test retrieval quality and source-version handling for an actual business document set.",
+      "bank_ids": [
+        "BANK-007-064",
+        "BANK-007-066"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A free stack is versioned and task-dependent; finish a full workflow, count hidden costs and record when a previously free feature moves behind a paywall.",
+      "bank_ids": [
+        "BANK-007-014",
+        "BANK-007-049",
+        "BANK-007-095"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "route_to_existing_scopes",
+      "reason": "The geopolitical and performance headline is unverified. A model comparison would pin versions, tests and uncertainty without treating open weights as the same thing as open-source licensing.",
+      "bank_ids": [
+        "BANK-007-013",
+        "BANK-007-016",
+        "BANK-007-051"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "route_to_existing_scopes",
+      "reason": "The 'ten secrets' hook is an unverified count. Test named video versions on source-shot suitability, continuity and export requirements.",
+      "bank_ids": [
+        "BANK-007-028",
+        "BANK-007-030",
+        "BANK-007-079"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A second-brain claim becomes a data-portability and retrieval-version test, not a promise of improved memory or productivity.",
+      "bank_ids": [
+        "BANK-007-044",
+        "BANK-007-064",
+        "BANK-007-066",
+        "BANK-007-092"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Compare current music-tool versions through usable loop quality, stem artifacts, rights and provenance; archived product versions are not current facts.",
+      "bank_ids": [
+        "BANK-007-036",
+        "BANK-007-037",
+        "BANK-007-078"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "route_to_existing_scopes",
+      "reason": "Subscription value depends on current plan limits, total workflow cost and task-specific uncertainty, not one universal paid-versus-free answer.",
+      "bank_ids": [
+        "BANK-007-014",
+        "BANK-007-049",
+        "BANK-007-051"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "route_to_existing_scopes",
+      "reason": "A generated app needs functional, dependency, state and regression checks; the ten-minute production claim is an unverified promotional target.",
+      "bank_ids": [
+        "BANK-007-081",
+        "BANK-007-083",
+        "BANK-007-084"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "reframe_as_family_verification_rehearsal",
+      "reason": "A distinct consumer-safety tutorial is supported by FTC guidance on independently verifying emergency requests; voice-clone authorization remains a separate creator workflow.",
+      "bank_ids": [
+        "BANK-007-122",
+        "BANK-007-035"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-007-043",
+      "note_file": "RESEARCH_NOTES/BANK-007-043.md"
+    },
+    {
+      "topic_id": "BANK-007-122",
+      "note_file": "RESEARCH_NOTES/BANK-007-122.md"
+    }
+  ],
+  "starter_concept_crosswalk": {
+    "BANK-007-001": [
+      "BANK-007-033",
+      "BANK-007-099"
+    ],
+    "BANK-007-002": [
+      "BANK-007-101"
+    ],
+    "BANK-007-003": [
+      "BANK-007-023",
+      "BANK-007-025"
+    ],
+    "BANK-007-004": [
+      "BANK-007-028",
+      "BANK-007-030",
+      "BANK-007-031"
+    ],
+    "BANK-007-005": [
+      "BANK-007-015"
+    ],
+    "BANK-007-006": [
+      "BANK-007-049",
+      "BANK-007-095"
+    ],
+    "BANK-007-007": [
+      "BANK-007-044",
+      "BANK-007-112"
+    ],
+    "BANK-007-008": [
+      "BANK-007-043",
+      "BANK-007-045"
+    ],
+    "BANK-007-009": [
+      "BANK-007-067",
+      "BANK-007-071"
+    ],
+    "BANK-007-010": [
+      "BANK-007-038",
+      "BANK-007-084"
+    ],
+    "BANK-007-011": [
+      "BANK-007-035"
+    ],
+    "BANK-007-012": [
+      "BANK-007-016",
+      "BANK-007-048",
+      "BANK-007-092"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Bounded source note: February 2021 cold-weather outages
+
+Accessed 2026-10-24. Primary agency statement inspected: FERC, [release of the final February 2021 cold-weather inquiry](https://www.ferc.gov/news-events/news/final-report-february-2021-freeze-underscores-winterization-recommendations), November 16, 2021. The underlying FERC–NERC–regional-entity [joint report](https://www.nerc.com/globalassets/our-work/reports/event-reports/february_2021_cold_weather_report.pdf) is linked for production review; its full text was not read for this note.
+
+FERC’s statement identifies generation outages and derates, natural-gas fuel-supply problems, freeze issues and interdependent gas/electric systems. FERC reported that ERCOT ordered about 20,000 MW of rolling blackouts to avoid grid collapse. The inquiry covers Texas and other South Central U.S. areas; it does not support a one-fuel or one-equipment explanation for every outage. “Blackout” here involves controlled load shedding as well as unplanned generation failures, which need to be kept distinct.
+
+Limits: this is a historical system inquiry, not current operating guidance or proof that a single technology would have prevented the event. Production should check the specific report tables, regulator updates and local impacts before quoting magnitudes or assigning responsibility. The study note does not verify current preparedness, future outage probability, or individual household actions.

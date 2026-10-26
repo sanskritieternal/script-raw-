@@ -1,0 +1,1560 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "131",
+  "slug": "game_development",
+  "name": "Game Development",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Game Development YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 8,
+    "proposed_topics": 35
+  },
+  "categories": [
+    {
+      "id": "CATALOG-131-R01",
+      "title": "Original bounded cases and mechanisms",
+      "level": "foundation",
+      "parent_id": "DOMAIN-131-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "24a150a3cb4e5f6e2c72924cd42edbf18f99c0c631b3594786e1d276cfc67ff9",
+      "topics": [
+        {
+          "title": "The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario",
+          "question": "How did Bungie's '30 seconds of fun repeated thousands of times' philosophy create the greatest console shooter in history?",
+          "coverage": "The Golden Triangle of Halo (guns, grenades, melee), Nintendo's jump curve physics, action-feedback loops, and player retention.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 1,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-010",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Game Loop and Delta Time: The Code That Powers Every Game",
+          "question": "What happens under the hood when a game processes user input, updates physics, and renders pixels 60 times a second?",
+          "coverage": "ProcessInput -> Update -> Render, variable vs fixed time-steps, delta time (dt) frame rate independence, and preventing physics explosions at high FPS.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 2,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-011",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Juice It or Lose It: The Art of Screenshake, Particles, and Game Feel",
+          "question": "How does adding 3 frames of hit-stop, a 5-pixel screen rumble, and white flash turn a boring square into a satisfying weapon?",
+          "coverage": "Jan Willem Nijman's Vlambeer design principles, freeze frames, sound design layering, squash-and-stretch animation, and micro-satisfactions.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 3,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-012",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Collision Detection: How Computers Know When Two Virtual Objects Touch",
+          "question": "How do physics engines detect bullet hits without lagging the CPU using Axis-Aligned Bounding Boxes and SAT?",
+          "coverage": "AABB broad-phase pruning, Separating Axis Theorem (SAT) for convex polygons, spatial hashing, raycasting, and tunneling bullet glitches.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 4,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Psychology of Flow in Games: Pacing, Difficulty Curves, and Frustration",
+          "question": "How do games like Dark Souls and Celeste keep players in the sweet spot between boring ease and rage-quitting despair?",
+          "coverage": "Mihaly Csikszentmihalyi's flow channel, dynamic difficulty adjustment (Resident Evil 4), failure feedback framing, and player mastery loops.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 5,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R02",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-131-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "78a6929673606788d0df4450a7ddf1322b21a1ed060ebc0dcd69c03697127ed1",
+      "topics": [
+        {
+          "title": "Level Design Architecture: Leading the Player's Eye Without Breadcrumbs",
+          "question": "How does Valve's Half-Life 2 guide players through complex city ruins using light contrast, architectural silhouettes, and weenies?",
+          "coverage": "Walt Disney's 'weenie' visual landmarks, contrasting light pools, architectural lines pointing to goals, pinch points, and psychological affordances.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 6,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Shader Programming: The Math of Painting Light on Polygonal Surfaces",
+          "question": "How do vertex and fragment shaders calculate specular shine, metallic roughness, and water ripples on GPU cores?",
+          "coverage": "Graphics pipeline (rasterization), Phong vs PBR (Physically Based Rendering) lighting models, normal mapping optical illusions, and HLSL code.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 7,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Procedural Generation: How Spelunky and Minecraft Build Infinite Worlds",
+          "question": "How do algorithms generate unique, beatable dungeons and continental mountain ranges from a single numerical seed?",
+          "coverage": "Perlin and Simplex noise, Derek Yu's Spelunky room-template grid algorithm, cellular automata cave generation, and guaranteeing level solvability.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 8,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Finite State Machines vs Behavior Trees: Programming Game AI",
+          "question": "Why did Halo 2 abandon basic state machines (Patrol, Alert, Attack) for modular behavior trees?",
+          "coverage": "FSM spaghetti code breakdown, behavior tree Composites (Selectors/Sequences), decorators, blackboard memory, and reactive enemy coordination.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 9,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Multiplayer Netcode: Client-Side Prediction, Reconciliation, and Rollback",
+          "question": "How do online shooters and fighting games (GGPO) eliminate lag when player signals take 80ms to cross continents?",
+          "coverage": "Deterministic lockstep vs client prediction, server reconciliation rubberbanding, lag compensation rewind, and fighting game rollback mechanics.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 10,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R03",
+      "title": "Original bounded cases and mechanisms",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-131-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5814b8b859004bab4c4b4426d809a84fe008fff3cdafa6fb7f677c662c54f72e",
+      "topics": [
+        {
+          "title": "The Immersive Sim: Looking Glass Studios and Emergent Gameplay",
+          "question": "How did System Shock and Deus Ex invent games where player curiosity and physical simulation break developer expectations?",
+          "coverage": "Warren Spector's rules of immersion, systemic consistency (if it looks flammable, it must burn), player agency, and emergent problem solving.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 11,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "A* Pathfinding: How Game Characters Navigate Massive Game Maps in Milliseconds",
+          "question": "How do hundreds of RTS units find the shortest route through a winding maze without bringing the CPU to a screeching halt?",
+          "coverage": "Dijkstra's algorithm, heuristic distance functions (Manhattan/Euclidean), priority queues, navigation meshes (NavMesh), and funnelling path smoothing.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 12,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Tragedy of Development Hell: Why Duke Nukem Forever and Daikatana Failed",
+          "question": "How do brilliant game directors trap multi-million dollar projects in 14-year development nightmares?",
+          "coverage": "Feature creep, engine-switching traps (Quake II to Unreal to Unreal 2), lack of vertical slice discipline, perfectionism, and sunk cost fallacy.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 13,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Data-Oriented Design (ECS): Squeezing 100,000 Entities on Screen",
+          "question": "Why does traditional Object-Oriented Programming (OOP) choke modern CPU caches, and how does Entity Component System fix it?",
+          "coverage": "L1/L2 CPU cache lines, cache misses, array-of-structures vs structure-of-arrays, Unity DOTS, and mass parallel data processing.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 14,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Predatory Monetization: The Dark Psychology of Gacha, Loot Boxes, and Battle Passes",
+          "question": "How do mobile gaming algorithms deploy Skinner Box operant conditioning and variable reward schedules to hunt 'whales'?",
+          "coverage": "B.F. Skinner variable ratio rewards, FOMO artificial urgency, loss aversion, anchoring premium currencies, and European gambling regulatory crackdowns.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 15,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R04",
+      "title": "Original bounded cases and mechanisms",
+      "level": "advanced",
+      "parent_id": "DOMAIN-131-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "dd08f5103547b3ebb0484e0df97da79ee9723a24a0a7e3aaa019180ab1aeff49",
+      "topics": [
+        {
+          "title": "Interactive Audio: Dynamic Music Systems and Vertical Layering in Video Games",
+          "question": "How does the soundtrack of Red Dead Redemption 2 seamlessly add percussion when combat starts and fade to violin when you win?",
+          "coverage": "Vertical layering (stems fading based on game state parameters), horizontal re-sequencing (metric-boundary transitions), Wwise and FMOD middleware.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 16,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Solo Indie Phenomenon: How Stardew Valley and Undertale Made Millions",
+          "question": "How did Eric Barone spend 4.5 years working 12-hour days in total isolation to create a $100M agricultural empire alone?",
+          "coverage": "Full-stack solo discipline (art, code, music, design), scope management, community goodwill marketing, and surviving extreme isolation.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 17,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Procedural Animation and Ragdoll Physics: The Euphoria Engine Behind GTA",
+          "question": "Why do pedestrians in Grand Theft Auto IV realistically stumble down stairs and reach for handrails instead of playing canned death animations?",
+          "coverage": "NaturalMotion Euphoria engine, active biomechanical ragdolls, self-balancing PID controllers, muscle actuation, and procedural collision responses.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 18,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "Unreal Engine 5: Nanite, Lumen, and the Disappearance of Polygon Budgets",
+          "question": "How does Nanite render billions of micro-polygons directly from film-quality ZBrush sculpts without baking normal maps?",
+          "coverage": "Virtualized cluster geometry, continuous Level of Detail (LOD) down to 1 pixel, Lumen software/hardware ray-traced global illumination, and VRAM bandwidth.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 19,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "title": "The Master Game Design Architecture: From Prototype to Commercial Masterpiece",
+          "question": "What comprehensive production framework unites greybox prototyping, vertical slices, playtesting telemetry, and post-launch liveops?",
+          "coverage": "Rapid greybox prototyping, fail-fast mechanics testing, player analytics heatmaps, production pipeline milestone gates, and post-release support.",
+          "origin": "repository_roadmap",
+          "legacy_source_id": 20,
+          "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+          "id": "BANK-131-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R05",
+      "title": "Rules, state and feedback",
+      "level": "foundation",
+      "parent_id": "DOMAIN-131-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "90ef18fcbae9fdb403b5567723d4106f00ba4e3d8e7e00ccb34e99a9dff27b73",
+      "topics": [
+        {
+          "question": "What makes a playable prototype different from a collection of game assets?",
+          "coverage": "Build one action, rule, state change and feedback loop before adding art or content volume.",
+          "id": "BANK-131-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a game remember whether a door is open, locked or destroyed?",
+          "coverage": "Compare state machines, saved state and transitions in a small engine-independent example.",
+          "id": "BANK-131-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does frame rate change the behavior of some poorly designed games?",
+          "coverage": "Separate rendering, simulation steps and input timing; demonstrate a reproducible movement test.",
+          "id": "BANK-131-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does collision detection decide before physics response begins?",
+          "coverage": "Compare shapes, broad phase, contact and resolution using simple geometry.",
+          "id": "BANK-131-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R06",
+      "title": "Worlds, content and networking",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-131-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "fc10e766697aebb6fcbcc0dea5e944bd7b4e369126b33bcdc405d33783740022",
+      "topics": [
+        {
+          "question": "How can a level teach a mechanic before explaining it in text?",
+          "coverage": "Analyze sightlines, safe practice, feedback and increasing demands in an original sample level.",
+          "id": "BANK-131-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does pathfinding fail when a map changes during play?",
+          "coverage": "Compare navigation graphs, dynamic obstacles, replanning and agent size.",
+          "id": "BANK-131-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes multiplayer movement look smooth despite network delay?",
+          "coverage": "Explain prediction, interpolation, reconciliation and tradeoffs without recommending exploit techniques.",
+          "id": "BANK-131-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does procedural generation produce variety without making every level random noise?",
+          "coverage": "Compare constraints, seeds, structure and playability checks in a bounded generator.",
+          "id": "BANK-131-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R07",
+      "title": "Accessibility and release",
+      "level": "advanced",
+      "parent_id": "DOMAIN-131-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6ffde49e54487f0a75d5c6738ced7bddf60d3547d76f0b5bc2ac8f3aff57b2c9",
+      "topics": [
+        {
+          "question": "How can playtests distinguish a confusing rule from an unresponsive control?",
+          "coverage": "Define observation tasks, consent, input logs and interview limits rather than relying on completion time alone.",
+          "id": "BANK-131-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is a game's save format part of its long-term maintenance burden?",
+          "coverage": "Trace versioning, migrations, corruption handling and compatibility using fictional saved data.",
+          "id": "BANK-131-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes an accessibility option change the game system rather than just its interface?",
+          "coverage": "Compare remapping, timing, readability, feedback and alternatives while retaining explicit design goals.",
+          "id": "BANK-131-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a small game team decide what to cut before release?",
+          "coverage": "Map dependencies, player value, defects, production cost and scope limits in a sample backlog.",
+          "id": "BANK-131-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a monetization system be evaluated without treating engagement as player welfare?",
+          "coverage": "Compare transparency, spending controls, incentives and vulnerable players; avoid revenue-maximizing manipulation advice.",
+          "id": "BANK-131-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-131-R08",
+      "title": "Finding frame-time bottlenecks",
+      "level": "advanced",
+      "parent_id": "DOMAIN-131-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e7bf1f73f5055cca84094ac3a9b97ed834d1d460a24828437f61a94ab4d9adc0",
+      "topics": [
+        {
+          "question": "Why can a game report a high average frame rate while still producing noticeable stutters?",
+          "coverage": "Compare frame-time distributions, CPU work, GPU work, asset loading, shader compilation and capture overhead in one reproducible scene; distinguish a bottleneck measurement from a guessed optimization.",
+          "covers_starter_ids": [
+            "BANK-131-008"
+          ],
+          "id": "BANK-131-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does an Unreal Engine 5.8 Nanite mesh still need a fallback representation?",
+          "coverage": "Use Epic's versioned Nanite documentation to compare rendered virtualized detail with collision, ray tracing and stereo-VR support; specify asset type, renderer and hardware instead of asserting that polygon budgets disappeared.",
+          "id": "BANK-131-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "025",
+      "title": "Gaming Stories / Lore",
+      "directory": "025_gaming_stories_lore",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "132",
+      "title": "Retro Gaming",
+      "directory": "132_retro_gaming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "133",
+      "title": "Board Games & Tabletop",
+      "directory": "133_board_games_tabletop",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "134",
+      "title": "Chess",
+      "directory": "134_chess",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/131_game_development/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "6e7012c425cf0d6da119913ef8b68293590b3b3471a0e30dbd885d6d9040be17",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-131-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ce42277783f2b32067afa5f5dddfa05bd0a1d44c4eaf6514d346fede7dc9108e"
+      },
+      "BANK-131-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "d9d2b21c81a27af4b00edc8a56e10876c4b83111c0d7e8f71f0df3d7703e590f"
+      },
+      "BANK-131-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4a11ad9b9ae82d08a09a13a847b0da6d493c5cf89bb07efe99e9fb53e7b419c5"
+      },
+      "BANK-131-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6da6420f2377698a4f9f03ece1ebf0969cce7fe20c47ef0ce25f3bd6591b17ca"
+      },
+      "BANK-131-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "238913e6f3b52b505aeb4dbd45e6b23963c9a21911ba3da32e7abbcfd7689f6d"
+      },
+      "BANK-131-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "df2787865fd753e3edef58e1cb31d2d32d9b69b11424ab0485af021fb94f9aba"
+      },
+      "BANK-131-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "1c7d23122a9b3edb9da458259b1a1bba7693a8875fab5fc3d6de01172a8fc7b5"
+      },
+      "BANK-131-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a4258f92c9122f58121fcaf81982b65a9ad70ff18adfcaa1b176b090613253c6"
+      },
+      "BANK-131-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef717c903f42c86330eb02be098dc0ecca8161f7ac0386f547566dc60967ebe9"
+      }
+    },
+    "source_categories": {
+      "CATALOG-131-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "bd9836a16d85808690b2b8b160ac7701284ef731746e5c1af19c78062c5c11b0"
+      },
+      "CATALOG-131-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "5fabd632ec5257711c53e30015696b3296abad1f51b3ad5fea53efd325a0277d"
+      },
+      "CATALOG-131-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d0b7d78a7acb2dd611f734851fc5a14da0e7839dc0cbec6909654c8b4da14203"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "131_GAME_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "e4165c97cca3e428113b53e4c35725eb01c052b02de343a6ce82da6cb1c88240",
+        "original_text": "# Game Development Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 131 Game Development (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Game Designers, Indie Developers, Unity/Unreal Programmers, Gameplay Mechanics Geeks (Global)  \r\n**Production Format:** 10-Minute Documentary Explainer Episodes (600s, 75 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/131_game_development/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Game Development across four progressive tiers:\r\n- **Tier 1: Game Loops, Physics Engines & Core Mechanics Loops (Beginner / Scratch)** — The 60 FPS update-render game loop, delta time frame independence, collision detection (AABB/SAT), the 30-second core gameplay loop, and juice/game feel.\r\n- **Tier 2: Level Design Architecture, Shader Programming & Audio Systems (Intermediate)** — Guiding player eye lines, pacing curves, vertex and fragment shaders, HLSL/GLSL lighting models, spatial FMOD audio, and finite state machines (FSM).\r\n- **Tier 3: AI Behavior Trees, Multiplayer Netcode & Procedural Generation (Upper Intermediate)** — Client-side prediction and server reconciliation netcode, Perlin noise terrain generation, A* pathfinding optimization, and behavior trees vs utility AI.\r\n- **Tier 4: Monetization Ethics, Engine Architecture & The Master Game Blueprint (Advanced / Masterclass)** — Data-Oriented Technology Stack (DOTS/ECS), free-to-play predatory design vs player retention, custom C++ engine architecture, and shipping an indie hit.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/131_game_development/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/131_game_development/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **How a Game Project Started** | *Which player goal, platform, and team constraints shaped one game?* |\r\n| 2 | `famous_examples` | **A Celebrated Game's Design Record** | *Which choices made one game influential and which were later myths?* |\r\n| 3 | `hidden_stories` | **Uncredited Game Labor** | *Whose QA, localization, contract art, and support work shaped the release?* |\r\n| 4 | `beginner_explainers` | **From Input to Play** | *What happens when a player acts in one game?* |\r\n| 5 | `advanced_concepts` | **Balancing a Game System** | *How do rules, rewards, and player strategies interact?* |\r\n| 6 | `mysteries_unsolved_cases` | **Why a Feature Was Cut** | *Which evidence explains removal of a planned feature?* |\r\n| 7 | `technology_innovation` | **A New Engine Capability** | *Did one engine feature change design or production cost?* |\r\n| 8 | `people_personalities` | **A Designer's Decision in Context** | *What alternatives did a named developer have for one mechanic?* |\r\n| 9 | `major_events` | **A Launch-Day Failure** | *What did one documented release problem reveal about development?* |\r\n| 10 | `how_it_works` | **A Game's Production Loop** | *How do design, code, art, sound, test, and release depend on each other?* |\r\n| 11 | `rise_fall` | **A Live Game Ends** | *Why did one game stop receiving support or close servers?* |\r\n| 12 | `then_vs_now` | **One Game Across Versions** | *How did rules, access, performance, and player experience change?* |\r\n| 13 | `future_developments` | **A Planned Game Feature** | *What evidence would show whether a proposed feature improves play?* |\r\n| 14 | `myths_vs_facts` | **The One-Developer Legend** | *Does a game's production record support sole-author credit?* |\r\n| 15 | `documentary_stories` | **A Mechanic's Revision History** | *How did one rule evolve from prototype to shipped version?* |\r\n| 16 | `system_boundary` | **What Is the Playable Game?** | *Which server, store, device, account, and accessibility dependencies matter?* |\r\n| 17 | `input_output_trace` | **A Player Action Through Code** | *Which components turn one input into visible feedback?* |\r\n| 18 | `design_tradeoff` | **Freedom Versus Clarity** | *How did one game balance player options against understandable goals?* |\r\n| 19 | `failure_mode` | **A Bug Players Encountered** | *What public evidence explains one game failure and its fix?* |\r\n| 20 | `testing_limits` | **A Playtest's Blind Spots** | *Who and what did one test fail to represent?* |\r\n| 21 | `standards_interoperability` | **A Game Across Platforms** | *Which input, save, performance, or store rules affected porting?* |\r\n| 22 | `security_threat_model` | **Player Data and Online Play** | *What risks did one online feature create for privacy or fairness?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping a Game Playable** | *How do patches, server costs, and old hardware affect long-term access?* |\r\n| 24 | `infrastructure_dependencies` | **When the Server Is Part of the Game** | *What happens to play when one network or account service ends?* |\r\n| 25 | `accessibility_usability` | **A Game With Multiple Input Needs** | *Can players with defined access needs complete one core task?* |\r\n| 26 | `independent_replication` | **Can Another Team Repeat the Result?** | *Does one design claim hold in another game or player group?* |\r\n| 27 | `responsible_deployment` | **Launching an Online Game** | *Which readiness checks cover fairness, safety, accessibility, and support?* |\r\n| 28 | `field_software_architecture` | **A Game Feature's Components** | *How do engine, gameplay code, assets, and services support one mechanic?* |\r\n| 29 | `field_interface_design` | **Reading the Game State** | *Does the UI let players understand a critical choice?* |\r\n| 30 | `field_version_changes` | **A Patch Changes Play** | *How did one patch alter balance, performance, or access?* |\r\n| 31 | `field_open_standards` | **Can the Game Be Preserved?** | *Do file formats and released tools permit future access?* |\r\n| 32 | `field_technical_debt` | **A Shortcut That Grew Costly** | *Which early design decision made later updates harder?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario**\r\n   - *Question:* How did Bungie's '30 seconds of fun repeated thousands of times' philosophy create the greatest console shooter in history?\r\n   - *Key Focus:* The Golden Triangle of Halo (guns, grenades, melee), Nintendo's jump curve physics, action-feedback loops, and player retention.\r\n2. **The Game Loop and Delta Time: The Code That Powers Every Game**\r\n   - *Question:* What happens under the hood when a game processes user input, updates physics, and renders pixels 60 times a second?\r\n   - *Key Focus:* ProcessInput -> Update -> Render, variable vs fixed time-steps, delta time (dt) frame rate independence, and preventing physics explosions at high FPS.\r\n3. **Juice It or Lose It: The Art of Screenshake, Particles, and Game Feel**\r\n   - *Question:* How does adding 3 frames of hit-stop, a 5-pixel screen rumble, and white flash turn a boring square into a satisfying weapon?\r\n   - *Key Focus:* Jan Willem Nijman's Vlambeer design principles, freeze frames, sound design layering, squash-and-stretch animation, and micro-satisfactions.\r\n4. **Collision Detection: How Computers Know When Two Virtual Objects Touch**\r\n   - *Question:* How do physics engines detect bullet hits without lagging the CPU using Axis-Aligned Bounding Boxes and SAT?\r\n   - *Key Focus:* AABB broad-phase pruning, Separating Axis Theorem (SAT) for convex polygons, spatial hashing, raycasting, and tunneling bullet glitches.\r\n5. **The Psychology of Flow in Games: Pacing, Difficulty Curves, and Frustration**\r\n   - *Question:* How do games like Dark Souls and Celeste keep players in the sweet spot between boring ease and rage-quitting despair?\r\n   - *Key Focus:* Mihaly Csikszentmihalyi's flow channel, dynamic difficulty adjustment (Resident Evil 4), failure feedback framing, and player mastery loops.\r\n### Tier 2: Practical Mechanics & Channels\r\n6. **Level Design Architecture: Leading the Player's Eye Without Breadcrumbs**\r\n   - *Question:* How does Valve's Half-Life 2 guide players through complex city ruins using light contrast, architectural silhouettes, and weenies?\r\n   - *Key Focus:* Walt Disney's 'weenie' visual landmarks, contrasting light pools, architectural lines pointing to goals, pinch points, and psychological affordances.\r\n7. **Shader Programming: The Math of Painting Light on Polygonal Surfaces**\r\n   - *Question:* How do vertex and fragment shaders calculate specular shine, metallic roughness, and water ripples on GPU cores?\r\n   - *Key Focus:* Graphics pipeline (rasterization), Phong vs PBR (Physically Based Rendering) lighting models, normal mapping optical illusions, and HLSL code.\r\n8. **Procedural Generation: How Spelunky and Minecraft Build Infinite Worlds**\r\n   - *Question:* How do algorithms generate unique, beatable dungeons and continental mountain ranges from a single numerical seed?\r\n   - *Key Focus:* Perlin and Simplex noise, Derek Yu's Spelunky room-template grid algorithm, cellular automata cave generation, and guaranteeing level solvability.\r\n9. **Finite State Machines vs Behavior Trees: Programming Game AI**\r\n   - *Question:* Why did Halo 2 abandon basic state machines (Patrol, Alert, Attack) for modular behavior trees?\r\n   - *Key Focus:* FSM spaghetti code breakdown, behavior tree Composites (Selectors/Sequences), decorators, blackboard memory, and reactive enemy coordination.\r\n10. **Multiplayer Netcode: Client-Side Prediction, Reconciliation, and Rollback**\r\n   - *Question:* How do online shooters and fighting games (GGPO) eliminate lag when player signals take 80ms to cross continents?\r\n   - *Key Focus:* Deterministic lockstep vs client prediction, server reconciliation rubberbanding, lag compensation rewind, and fighting game rollback mechanics.\r\n### Tier 3: Strategic & Advanced Architectures\r\n11. **The Immersive Sim: Looking Glass Studios and Emergent Gameplay**\r\n   - *Question:* How did System Shock and Deus Ex invent games where player curiosity and physical simulation break developer expectations?\r\n   - *Key Focus:* Warren Spector's rules of immersion, systemic consistency (if it looks flammable, it must burn), player agency, and emergent problem solving.\r\n12. **A* Pathfinding: How Game Characters Navigate Massive Game Maps in Milliseconds**\r\n   - *Question:* How do hundreds of RTS units find the shortest route through a winding maze without bringing the CPU to a screeching halt?\r\n   - *Key Focus:* Dijkstra's algorithm, heuristic distance functions (Manhattan/Euclidean), priority queues, navigation meshes (NavMesh), and funnelling path smoothing.\r\n13. **The Tragedy of Development Hell: Why Duke Nukem Forever and Daikatana Failed**\r\n   - *Question:* How do brilliant game directors trap multi-million dollar projects in 14-year development nightmares?\r\n   - *Key Focus:* Feature creep, engine-switching traps (Quake II to Unreal to Unreal 2), lack of vertical slice discipline, perfectionism, and sunk cost fallacy.\r\n14. **Data-Oriented Design (ECS): Squeezing 100,000 Entities on Screen**\r\n   - *Question:* Why does traditional Object-Oriented Programming (OOP) choke modern CPU caches, and how does Entity Component System fix it?\r\n   - *Key Focus:* L1/L2 CPU cache lines, cache misses, array-of-structures vs structure-of-arrays, Unity DOTS, and mass parallel data processing.\r\n15. **Predatory Monetization: The Dark Psychology of Gacha, Loot Boxes, and Battle Passes**\r\n   - *Question:* How do mobile gaming algorithms deploy Skinner Box operant conditioning and variable reward schedules to hunt 'whales'?\r\n   - *Key Focus:* B.F. Skinner variable ratio rewards, FOMO artificial urgency, loss aversion, anchoring premium currencies, and European gambling regulatory crackdowns.\r\n### Tier 4: Future Horizons & Masterclasses\r\n16. **Interactive Audio: Dynamic Music Systems and Vertical Layering in Video Games**\r\n   - *Question:* How does the soundtrack of Red Dead Redemption 2 seamlessly add percussion when combat starts and fade to violin when you win?\r\n   - *Key Focus:* Vertical layering (stems fading based on game state parameters), horizontal re-sequencing (metric-boundary transitions), Wwise and FMOD middleware.\r\n17. **The Solo Indie Phenomenon: How Stardew Valley and Undertale Made Millions**\r\n   - *Question:* How did Eric Barone spend 4.5 years working 12-hour days in total isolation to create a $100M agricultural empire alone?\r\n   - *Key Focus:* Full-stack solo discipline (art, code, music, design), scope management, community goodwill marketing, and surviving extreme isolation.\r\n18. **Procedural Animation and Ragdoll Physics: The Euphoria Engine Behind GTA**\r\n   - *Question:* Why do pedestrians in Grand Theft Auto IV realistically stumble down stairs and reach for handrails instead of playing canned death animations?\r\n   - *Key Focus:* NaturalMotion Euphoria engine, active biomechanical ragdolls, self-balancing PID controllers, muscle actuation, and procedural collision responses.\r\n19. **Unreal Engine 5: Nanite, Lumen, and the Disappearance of Polygon Budgets**\r\n   - *Question:* How does Nanite render billions of micro-polygons directly from film-quality ZBrush sculpts without baking normal maps?\r\n   - *Key Focus:* Virtualized cluster geometry, continuous Level of Detail (LOD) down to 1 pixel, Lumen software/hardware ray-traced global illumination, and VRAM bandwidth.\r\n20. **The Master Game Design Architecture: From Prototype to Commercial Masterpiece**\r\n   - *Question:* What comprehensive production framework unites greybox prototyping, vertical slices, playtesting telemetry, and post-launch liveops?\r\n   - *Key Focus:* Rapid greybox prototyping, fail-fast mechanics testing, player analytics heatmaps, production pipeline milestone gates, and post-release support.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 131 (Game Development)\r\n- **Angle Preset:** `case_study`\r\n- **Episode Title:** *The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario*\r\n- **Episode Slug:** `131_game_development_case_study_core_gameplay_loop`\r\n- **Duration:** 10 Minutes (600 Seconds / 75 Scenes @ 8s fixed)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/131_game_development/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "0a866cfd9740b1f0dbc48a7acb92d7d07a04e36184a579c04318bfd199d678ad",
+        "original_text": "# 131 Game Development -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 131 Game Development (Computing_Software)  \r\n> **Storage Directory:** `topics/131_game_development/`  \r\n> **Synchronized With:** `OUTPUT/131_game_development/`, `REGISTRY/Niches/131_game_development/`, and `131_GAME_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10-Minute Episodes (600s, 75 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 131 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/131_game_development](../../OUTPUT/131_game_development) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario** | Tier 1: Foundational Frameworks | `case_study` | `core_gameplay_loop_halo_mario_design` | Crucial foundational episode exploring the fundamental psychological and mechanical heartbeat of game design. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **The Game Loop and Delta Time: The Code That Powers Every Game** | Tier 1: Foundational Frameworks | `beginner_guide` | `game_loop_delta_time_framerate_independence` | Teaches the core software architecture pattern powering every interactive game engine. | `QUEUED` |\r\n| 3 | **Juice It or Lose It: The Art of Screenshake, Particles, and Game Feel** | Tier 1: Foundational Frameworks | `practical_playbook` | `game_feel_juice_screenshake_hitstops` | Masterclass on transforming dull mechanical code into tactile, juicy, addictive player experiences. | `QUEUED` |\r\n| 4 | **Collision Detection: How Computers Know When Two Virtual Objects Touch** | Tier 1: Foundational Frameworks | `mechanisms_and_systems` | `collision_detection_aabb_separating_axis_theorem` | Deconstructs the mathematical geometry and computational efficiency behind virtual physical collisions. | `QUEUED` |\r\n| 5 | **The Psychology of Flow in Games: Pacing, Difficulty Curves, and Frustration** | Tier 1: Foundational Frameworks | `psychological_breakdown` | `flow_state_game_design_difficulty_curves` | Explores the psychological design balance required to maintain deep player immersion and resilience. | `QUEUED` |\r\n| 6 | **Level Design Architecture: Leading the Player's Eye Without Breadcrumbs** | Tier 2: Practical Mechanics & Channels | `case_study` | `level_design_leading_player_eye_valve` | Deconstructs the subconscious environmental cues that guide players naturally without immersion-breaking UI arrows. | `QUEUED` |\r\n| 7 | **Shader Programming: The Math of Painting Light on Polygonal Surfaces** | Tier 2: Practical Mechanics & Channels | `mechanisms_and_systems` | `shader_programming_vertex_fragment_lighting` | Demystifies the GPU graphics code responsible for modern visual fidelity and material rendering. | `QUEUED` |\r\n| 8 | **Procedural Generation: How Spelunky and Minecraft Build Infinite Worlds** | Tier 2: Practical Mechanics & Channels | `deep_dive` | `procedural_generation_spelunky_minecraft_noise` | Explores the mathematical algorithms that enable infinite replayability with minimal hand-crafted assets. | `QUEUED` |\r\n| 9 | **Finite State Machines vs Behavior Trees: Programming Game AI** | Tier 2: Practical Mechanics & Channels | `comparative_analysis` | `game_ai_finite_state_machines_behavior_trees` | Details the evolution of non-player character artificial intelligence from simple scripts to dynamic thinking squads. | `QUEUED` |\r\n| 10 | **Multiplayer Netcode: Client-Side Prediction, Reconciliation, and Rollback** | Tier 2: Practical Mechanics & Channels | `mechanisms_and_systems` | `multiplayer_netcode_rollback_prediction_lag` | Unveils the brilliant networking engineering that creates the illusion of instantaneous real-time multiplayer combat. | `QUEUED` |\r\n| 11 | **The Immersive Sim: Looking Glass Studios and Emergent Gameplay** | Tier 3: Strategic & Advanced Architectures | `historical_evolution` | `immersive_sim_looking_glass_deus_ex` | Masterclass on the high-water mark of systemic narrative game design where systems interact without scripted hand-holding. | `QUEUED` |\r\n| 12 | **A* Pathfinding: How Game Characters Navigate Massive Game Maps in Milliseconds** | Tier 3: Strategic & Advanced Architectures | `deep_dive` | `a_star_pathfinding_navigation_meshes` | Deconstructs the most famous and widely implemented spatial algorithm in computer science and game development. | `QUEUED` |\r\n| 13 | **The Tragedy of Development Hell: Why Duke Nukem Forever and Daikatana Failed** | Tier 3: Strategic & Advanced Architectures | `failure_mode_analysis` | `development_hell_duke_nukem_daikatana_feature_creep` | A sobering autopsy on the organizational pathologies and management failures that destroy ambitious video game projects. | `QUEUED` |\r\n| 14 | **Data-Oriented Design (ECS): Squeezing 100,000 Entities on Screen** | Tier 3: Strategic & Advanced Architectures | `mechanisms_and_systems` | `data_oriented_design_ecs_cache_locality` | Advanced computer science breakdown of high-performance modern game architecture and memory optimization. | `QUEUED` |\r\n| 15 | **Predatory Monetization: The Dark Psychology of Gacha, Loot Boxes, and Battle Passes** | Tier 3: Strategic & Advanced Architectures | `ethical_dimensions` | `predatory_monetization_gacha_loot_boxes_whales` | A rigorous ethical and psychological critique of monetization systems engineered to exploit human vulnerability. | `QUEUED` |\r\n| 16 | **Interactive Audio: Dynamic Music Systems and Vertical Layering in Video Games** | Tier 4: Future Horizons & Masterclasses | `cross_disciplinary` | `interactive_adaptive_audio_vertical_layering` | Explores the acoustic art of procedural, non-linear musical composition responsive to player action. | `QUEUED` |\r\n| 17 | **The Solo Indie Phenomenon: How Stardew Valley and Undertale Made Millions** | Tier 4: Future Horizons & Masterclasses | `case_study` | `solo_indie_developer_stardew_valley_undertale` | The inspiring case study proving that singular creative vision and obsessive polish can out-compete corporate studios. | `QUEUED` |\r\n| 18 | **Procedural Animation and Ragdoll Physics: The Euphoria Engine Behind GTA** | Tier 4: Future Horizons & Masterclasses | `mechanisms_and_systems` | `procedural_animation_ragdoll_euphoria_engine` | Details the revolutionary blend of robotics physics and animation that made digital worlds feel physically alive. | `QUEUED` |\r\n| 19 | **Unreal Engine 5: Nanite, Lumen, and the Disappearance of Polygon Budgets** | Tier 4: Future Horizons & Masterclasses | `emerging_trends` | `unreal_engine_5_nanite_lumen_virtual_geometry` | Assesses the generational leap eliminating traditional 3D asset optimization barriers for game artists. | `QUEUED` |\r\n| 20 | **The Master Game Design Architecture: From Prototype to Commercial Masterpiece** | Tier 4: Future Horizons & Masterclasses | `masterclass` | `master_game_design_architecture_blueprint` | Definitive capstone masterclass synthesizing all 20 game development episodes into an actionable game director's blueprint. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **The '30 Seconds of Fun' Rule: How Halo's Secret Design Formula Changed Gaming** | **Massive Game Design Fascination (Evergreen)** | `case_study` | `halo_30_seconds_of_fun_formula_viral` | Bungie's famous golden triangle formula breaking down why combat loops stay fun for 100 hours fascinates developers. | `READY FOR COMPILATION` |\r\n| 22 | **Juice It or Lose It: The Simple Tricks That Make Indie Games Feel Amazing** | **High Game Dev & Creator Traffic Spike** | `practical_playbook` | `juice_it_or_lose_it_game_feel_tricks` | Before-and-after clips showing how 3 frames of screenshake and sound transform dull boxes into thrilling games pull huge views. | `READY FOR COMPILATION` |\r\n| 23 | **How One Man Spent 4.5 Years Alone in His Bedroom Building Stardew Valley** | **High Inspirational Solo Dev Biography** | `famous_examples` | `eric_barone_stardew_valley_solo_development` | Eric Barone's grueling personal journey of writing every line of code, drawing every pixel, and composing every song is internet lore. | `READY FOR COMPILATION` |\r\n| 24 | **Why GTA IV's Ragdoll Physics Still Look Better Than GTA V (Euphoria Engine)** | **High Gaming Debate & Comparison Volume** | `mechanisms_and_systems` | `gta_iv_euphoria_physics_vs_gta_v` | Side-by-side videos showing NPCs in GTA IV grabbing gunshot wounds and stumbling naturally vs GTA V static deaths went massively viral. | `READY FOR COMPILATION` |\r\n| 25 | **How Spelunky's Room Generation Algorithm Solved Infinite Random Dungeons** | **High Algorithmic Curiosity Hook** | `deep_dive` | `spelunky_procedural_generation_room_algorithm` | Visualizing Derek Yu's 4x4 room grid and obstacle probability paths demystifies procedural magic for gamers. | `READY FOR COMPILATION` |\r\n| 26 | **Rollback Netcode Explained: The Mathematics That Saved Fighting Games** | **High Esports & Engineering Tech Hook** | `root_cause_analysis` | `rollback_netcode_vs_delay_based_fighting_games` | Explaining how games predict inputs and jump back in time to fix lag without stalling frames fascinated the competitive gaming world. | `READY FOR COMPILATION` |\r\n| 27 | **The 14-Year Disaster of Duke Nukem Forever: The Ultimate Development Hell** | **High Video Game History Comedy & Tragedy** | `failure_mode_analysis` | `duke_nukem_forever_development_hell_disaster` | Switching game engines three times, burning tens of millions, and releasing an outdated relic is the ultimate gaming cautionary tale. | `READY FOR COMPILATION` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/131_game_development/131_GAME_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md`](./131_GAME_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/131_game_development/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/131_game_development/NICHE_131_game_development.md`](file:///h:/script-raw-/REGISTRY/Niches/131_game_development/NICHE_131_game_development.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/131_game_development/CAT_131_game_development.md`](file:///h:/script-raw-/REGISTRY/Niches/131_game_development/CAT_131_game_development.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/131_game_development/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/131_game_development/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/131_game_development/`](file:///h:/script-raw-/OUTPUT/131_game_development/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "35d57d17a208a69214d94da04fb546e93245d4cb62e6c7ce80eaf85d0e6c540a",
+        "original_text": "{\r\n  \"niche_id\": \"131\",\r\n  \"niche_name\": \"game_development\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"core_gameplay_loop_halo_mario_design\",\r\n      \"reason\": \"Crucial foundational episode exploring the fundamental psychological and mechanical heartbeat of game design.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"The Game Loop and Delta Time: The Code That Powers Every Game\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_guide\",\r\n      \"slug\": \"game_loop_delta_time_framerate_independence\",\r\n      \"reason\": \"Teaches the core software architecture pattern powering every interactive game engine.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Juice It or Lose It: The Art of Screenshake, Particles, and Game Feel\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"practical_playbook\",\r\n      \"slug\": \"game_feel_juice_screenshake_hitstops\",\r\n      \"reason\": \"Masterclass on transforming dull mechanical code into tactile, juicy, addictive player experiences.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Collision Detection: How Computers Know When Two Virtual Objects Touch\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"collision_detection_aabb_separating_axis_theorem\",\r\n      \"reason\": \"Deconstructs the mathematical geometry and computational efficiency behind virtual physical collisions.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"The Psychology of Flow in Games: Pacing, Difficulty Curves, and Frustration\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"psychological_breakdown\",\r\n      \"slug\": \"flow_state_game_design_difficulty_curves\",\r\n      \"reason\": \"Explores the psychological design balance required to maintain deep player immersion and resilience.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Level Design Architecture: Leading the Player's Eye Without Breadcrumbs\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"level_design_leading_player_eye_valve\",\r\n      \"reason\": \"Deconstructs the subconscious environmental cues that guide players naturally without immersion-breaking UI arrows.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Shader Programming: The Math of Painting Light on Polygonal Surfaces\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"shader_programming_vertex_fragment_lighting\",\r\n      \"reason\": \"Demystifies the GPU graphics code responsible for modern visual fidelity and material rendering.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Procedural Generation: How Spelunky and Minecraft Build Infinite Worlds\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"procedural_generation_spelunky_minecraft_noise\",\r\n      \"reason\": \"Explores the mathematical algorithms that enable infinite replayability with minimal hand-crafted assets.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Finite State Machines vs Behavior Trees: Programming Game AI\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"comparative_analysis\",\r\n      \"slug\": \"game_ai_finite_state_machines_behavior_trees\",\r\n      \"reason\": \"Details the evolution of non-player character artificial intelligence from simple scripts to dynamic thinking squads.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Multiplayer Netcode: Client-Side Prediction, Reconciliation, and Rollback\",\r\n      \"tier\": \"Tier 2: Practical Mechanics & Channels\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"multiplayer_netcode_rollback_prediction_lag\",\r\n      \"reason\": \"Unveils the brilliant networking engineering that creates the illusion of instantaneous real-time multiplayer combat.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"The Immersive Sim: Looking Glass Studios and Emergent Gameplay\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"historical_evolution\",\r\n      \"slug\": \"immersive_sim_looking_glass_deus_ex\",\r\n      \"reason\": \"Masterclass on the high-water mark of systemic narrative game design where systems interact without scripted hand-holding.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"A* Pathfinding: How Game Characters Navigate Massive Game Maps in Milliseconds\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"a_star_pathfinding_navigation_meshes\",\r\n      \"reason\": \"Deconstructs the most famous and widely implemented spatial algorithm in computer science and game development.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"The Tragedy of Development Hell: Why Duke Nukem Forever and Daikatana Failed\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"failure_mode_analysis\",\r\n      \"slug\": \"development_hell_duke_nukem_daikatana_feature_creep\",\r\n      \"reason\": \"A sobering autopsy on the organizational pathologies and management failures that destroy ambitious video game projects.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Data-Oriented Design (ECS): Squeezing 100,000 Entities on Screen\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"data_oriented_design_ecs_cache_locality\",\r\n      \"reason\": \"Advanced computer science breakdown of high-performance modern game architecture and memory optimization.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Predatory Monetization: The Dark Psychology of Gacha, Loot Boxes, and Battle Passes\",\r\n      \"tier\": \"Tier 3: Strategic & Advanced Architectures\",\r\n      \"angle\": \"ethical_dimensions\",\r\n      \"slug\": \"predatory_monetization_gacha_loot_boxes_whales\",\r\n      \"reason\": \"A rigorous ethical and psychological critique of monetization systems engineered to exploit human vulnerability.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Interactive Audio: Dynamic Music Systems and Vertical Layering in Video Games\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"cross_disciplinary\",\r\n      \"slug\": \"interactive_adaptive_audio_vertical_layering\",\r\n      \"reason\": \"Explores the acoustic art of procedural, non-linear musical composition responsive to player action.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"The Solo Indie Phenomenon: How Stardew Valley and Undertale Made Millions\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"solo_indie_developer_stardew_valley_undertale\",\r\n      \"reason\": \"The inspiring case study proving that singular creative vision and obsessive polish can out-compete corporate studios.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Procedural Animation and Ragdoll Physics: The Euphoria Engine Behind GTA\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"procedural_animation_ragdoll_euphoria_engine\",\r\n      \"reason\": \"Details the revolutionary blend of robotics physics and animation that made digital worlds feel physically alive.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Unreal Engine 5: Nanite, Lumen, and the Disappearance of Polygon Budgets\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"emerging_trends\",\r\n      \"slug\": \"unreal_engine_5_nanite_lumen_virtual_geometry\",\r\n      \"reason\": \"Assesses the generational leap eliminating traditional 3D asset optimization barriers for game artists.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"The Master Game Design Architecture: From Prototype to Commercial Masterpiece\",\r\n      \"tier\": \"Tier 4: Future Horizons & Masterclasses\",\r\n      \"angle\": \"masterclass\",\r\n      \"slug\": \"master_game_design_architecture_blueprint\",\r\n      \"reason\": \"Definitive capstone masterclass synthesizing all 20 game development episodes into an actionable game director's blueprint.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"The '30 Seconds of Fun' Rule: How Halo's Secret Design Formula Changed Gaming\",\r\n      \"trend_score\": \"Massive Game Design Fascination (Evergreen)\",\r\n      \"angle\": \"case_study\",\r\n      \"slug\": \"halo_30_seconds_of_fun_formula_viral\",\r\n      \"why_trending\": \"Bungie's famous golden triangle formula breaking down why combat loops stay fun for 100 hours fascinates developers.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Juice It or Lose It: The Simple Tricks That Make Indie Games Feel Amazing\",\r\n      \"trend_score\": \"High Game Dev & Creator Traffic Spike\",\r\n      \"angle\": \"practical_playbook\",\r\n      \"slug\": \"juice_it_or_lose_it_game_feel_tricks\",\r\n      \"why_trending\": \"Before-and-after clips showing how 3 frames of screenshake and sound transform dull boxes into thrilling games pull huge views.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"How One Man Spent 4.5 Years Alone in His Bedroom Building Stardew Valley\",\r\n      \"trend_score\": \"High Inspirational Solo Dev Biography\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"eric_barone_stardew_valley_solo_development\",\r\n      \"why_trending\": \"Eric Barone's grueling personal journey of writing every line of code, drawing every pixel, and composing every song is internet lore.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Why GTA IV's Ragdoll Physics Still Look Better Than GTA V (Euphoria Engine)\",\r\n      \"trend_score\": \"High Gaming Debate & Comparison Volume\",\r\n      \"angle\": \"mechanisms_and_systems\",\r\n      \"slug\": \"gta_iv_euphoria_physics_vs_gta_v\",\r\n      \"why_trending\": \"Side-by-side videos showing NPCs in GTA IV grabbing gunshot wounds and stumbling naturally vs GTA V static deaths went massively viral.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"How Spelunky's Room Generation Algorithm Solved Infinite Random Dungeons\",\r\n      \"trend_score\": \"High Algorithmic Curiosity Hook\",\r\n      \"angle\": \"deep_dive\",\r\n      \"slug\": \"spelunky_procedural_generation_room_algorithm\",\r\n      \"why_trending\": \"Visualizing Derek Yu's 4x4 room grid and obstacle probability paths demystifies procedural magic for gamers.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Rollback Netcode Explained: The Mathematics That Saved Fighting Games\",\r\n      \"trend_score\": \"High Esports & Engineering Tech Hook\",\r\n      \"angle\": \"root_cause_analysis\",\r\n      \"slug\": \"rollback_netcode_vs_delay_based_fighting_games\",\r\n      \"why_trending\": \"Explaining how games predict inputs and jump back in time to fix lag without stalling frames fascinated the competitive gaming world.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"The 14-Year Disaster of Duke Nukem Forever: The Ultimate Development Hell\",\r\n      \"trend_score\": \"High Video Game History Comedy & Tragedy\",\r\n      \"angle\": \"failure_mode_analysis\",\r\n      \"slug\": \"duke_nukem_forever_development_hell_disaster\",\r\n      \"why_trending\": \"Switching game engines three times, burning tens of millions, and releasing an outdated relic is the ultimate gaming cautionary tale.\",\r\n      \"status\": \"READY FOR COMPILATION\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "131",
+      "niche_name": "game_development",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Core Gameplay Loop: How 30 Seconds of Fun Built Halo and Mario",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "case_study",
+          "slug": "core_gameplay_loop_halo_mario_design",
+          "reason": "Crucial foundational episode exploring the fundamental psychological and mechanical heartbeat of game design.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "The Game Loop and Delta Time: The Code That Powers Every Game",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_guide",
+          "slug": "game_loop_delta_time_framerate_independence",
+          "reason": "Teaches the core software architecture pattern powering every interactive game engine.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Juice It or Lose It: The Art of Screenshake, Particles, and Game Feel",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "practical_playbook",
+          "slug": "game_feel_juice_screenshake_hitstops",
+          "reason": "Masterclass on transforming dull mechanical code into tactile, juicy, addictive player experiences.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Collision Detection: How Computers Know When Two Virtual Objects Touch",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "mechanisms_and_systems",
+          "slug": "collision_detection_aabb_separating_axis_theorem",
+          "reason": "Deconstructs the mathematical geometry and computational efficiency behind virtual physical collisions.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "The Psychology of Flow in Games: Pacing, Difficulty Curves, and Frustration",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "psychological_breakdown",
+          "slug": "flow_state_game_design_difficulty_curves",
+          "reason": "Explores the psychological design balance required to maintain deep player immersion and resilience.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Level Design Architecture: Leading the Player's Eye Without Breadcrumbs",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "case_study",
+          "slug": "level_design_leading_player_eye_valve",
+          "reason": "Deconstructs the subconscious environmental cues that guide players naturally without immersion-breaking UI arrows.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Shader Programming: The Math of Painting Light on Polygonal Surfaces",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "mechanisms_and_systems",
+          "slug": "shader_programming_vertex_fragment_lighting",
+          "reason": "Demystifies the GPU graphics code responsible for modern visual fidelity and material rendering.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Procedural Generation: How Spelunky and Minecraft Build Infinite Worlds",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "deep_dive",
+          "slug": "procedural_generation_spelunky_minecraft_noise",
+          "reason": "Explores the mathematical algorithms that enable infinite replayability with minimal hand-crafted assets.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Finite State Machines vs Behavior Trees: Programming Game AI",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "comparative_analysis",
+          "slug": "game_ai_finite_state_machines_behavior_trees",
+          "reason": "Details the evolution of non-player character artificial intelligence from simple scripts to dynamic thinking squads.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Multiplayer Netcode: Client-Side Prediction, Reconciliation, and Rollback",
+          "tier": "Tier 2: Practical Mechanics & Channels",
+          "angle": "mechanisms_and_systems",
+          "slug": "multiplayer_netcode_rollback_prediction_lag",
+          "reason": "Unveils the brilliant networking engineering that creates the illusion of instantaneous real-time multiplayer combat.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "The Immersive Sim: Looking Glass Studios and Emergent Gameplay",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "historical_evolution",
+          "slug": "immersive_sim_looking_glass_deus_ex",
+          "reason": "Masterclass on the high-water mark of systemic narrative game design where systems interact without scripted hand-holding.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "A* Pathfinding: How Game Characters Navigate Massive Game Maps in Milliseconds",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "deep_dive",
+          "slug": "a_star_pathfinding_navigation_meshes",
+          "reason": "Deconstructs the most famous and widely implemented spatial algorithm in computer science and game development.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "The Tragedy of Development Hell: Why Duke Nukem Forever and Daikatana Failed",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "failure_mode_analysis",
+          "slug": "development_hell_duke_nukem_daikatana_feature_creep",
+          "reason": "A sobering autopsy on the organizational pathologies and management failures that destroy ambitious video game projects.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Data-Oriented Design (ECS): Squeezing 100,000 Entities on Screen",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "mechanisms_and_systems",
+          "slug": "data_oriented_design_ecs_cache_locality",
+          "reason": "Advanced computer science breakdown of high-performance modern game architecture and memory optimization.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Predatory Monetization: The Dark Psychology of Gacha, Loot Boxes, and Battle Passes",
+          "tier": "Tier 3: Strategic & Advanced Architectures",
+          "angle": "ethical_dimensions",
+          "slug": "predatory_monetization_gacha_loot_boxes_whales",
+          "reason": "A rigorous ethical and psychological critique of monetization systems engineered to exploit human vulnerability.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Interactive Audio: Dynamic Music Systems and Vertical Layering in Video Games",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "cross_disciplinary",
+          "slug": "interactive_adaptive_audio_vertical_layering",
+          "reason": "Explores the acoustic art of procedural, non-linear musical composition responsive to player action.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "The Solo Indie Phenomenon: How Stardew Valley and Undertale Made Millions",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "case_study",
+          "slug": "solo_indie_developer_stardew_valley_undertale",
+          "reason": "The inspiring case study proving that singular creative vision and obsessive polish can out-compete corporate studios.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Procedural Animation and Ragdoll Physics: The Euphoria Engine Behind GTA",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "mechanisms_and_systems",
+          "slug": "procedural_animation_ragdoll_euphoria_engine",
+          "reason": "Details the revolutionary blend of robotics physics and animation that made digital worlds feel physically alive.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Unreal Engine 5: Nanite, Lumen, and the Disappearance of Polygon Budgets",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "emerging_trends",
+          "slug": "unreal_engine_5_nanite_lumen_virtual_geometry",
+          "reason": "Assesses the generational leap eliminating traditional 3D asset optimization barriers for game artists.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "The Master Game Design Architecture: From Prototype to Commercial Masterpiece",
+          "tier": "Tier 4: Future Horizons & Masterclasses",
+          "angle": "masterclass",
+          "slug": "master_game_design_architecture_blueprint",
+          "reason": "Definitive capstone masterclass synthesizing all 20 game development episodes into an actionable game director's blueprint.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "The '30 Seconds of Fun' Rule: How Halo's Secret Design Formula Changed Gaming",
+          "trend_score": "Massive Game Design Fascination (Evergreen)",
+          "angle": "case_study",
+          "slug": "halo_30_seconds_of_fun_formula_viral",
+          "why_trending": "Bungie's famous golden triangle formula breaking down why combat loops stay fun for 100 hours fascinates developers.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 22,
+          "title": "Juice It or Lose It: The Simple Tricks That Make Indie Games Feel Amazing",
+          "trend_score": "High Game Dev & Creator Traffic Spike",
+          "angle": "practical_playbook",
+          "slug": "juice_it_or_lose_it_game_feel_tricks",
+          "why_trending": "Before-and-after clips showing how 3 frames of screenshake and sound transform dull boxes into thrilling games pull huge views.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 23,
+          "title": "How One Man Spent 4.5 Years Alone in His Bedroom Building Stardew Valley",
+          "trend_score": "High Inspirational Solo Dev Biography",
+          "angle": "famous_examples",
+          "slug": "eric_barone_stardew_valley_solo_development",
+          "why_trending": "Eric Barone's grueling personal journey of writing every line of code, drawing every pixel, and composing every song is internet lore.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 24,
+          "title": "Why GTA IV's Ragdoll Physics Still Look Better Than GTA V (Euphoria Engine)",
+          "trend_score": "High Gaming Debate & Comparison Volume",
+          "angle": "mechanisms_and_systems",
+          "slug": "gta_iv_euphoria_physics_vs_gta_v",
+          "why_trending": "Side-by-side videos showing NPCs in GTA IV grabbing gunshot wounds and stumbling naturally vs GTA V static deaths went massively viral.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 25,
+          "title": "How Spelunky's Room Generation Algorithm Solved Infinite Random Dungeons",
+          "trend_score": "High Algorithmic Curiosity Hook",
+          "angle": "deep_dive",
+          "slug": "spelunky_procedural_generation_room_algorithm",
+          "why_trending": "Visualizing Derek Yu's 4x4 room grid and obstacle probability paths demystifies procedural magic for gamers.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 26,
+          "title": "Rollback Netcode Explained: The Mathematics That Saved Fighting Games",
+          "trend_score": "High Esports & Engineering Tech Hook",
+          "angle": "root_cause_analysis",
+          "slug": "rollback_netcode_vs_delay_based_fighting_games",
+          "why_trending": "Explaining how games predict inputs and jump back in time to fix lag without stalling frames fascinated the competitive gaming world.",
+          "status": "READY FOR COMPILATION"
+        },
+        {
+          "id": 27,
+          "title": "The 14-Year Disaster of Duke Nukem Forever: The Ultimate Development Hell",
+          "trend_score": "High Video Game History Comedy & Tragedy",
+          "angle": "failure_mode_analysis",
+          "slug": "duke_nukem_forever_development_hell_disaster",
+          "why_trending": "Switching game engines three times, burning tens of millions, and releasing an outdated relic is the ultimate gaming cautionary tale.",
+          "status": "READY FOR COMPILATION"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "839990644c1a2134ba1cf321d7f1e4d221e7ccb2cf8d437ba094b8bb1bfa9cc0"
+    },
+    {
+      "input": "Scripts\\expansion_002_184.json",
+      "sha256": "60f8a8a3f117ab4f935e62311ea68fc48951239c664a96cc993d39533c6789a4"
+    },
+    {
+      "input": "Scripts\\editorial_pass_002_184.json",
+      "sha256": "6187409224e0d0a6baf167fe17c679b3a9e42865272974d94396e70482a6b695"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-131-01",
+      "title": "Tier 1: Foundational Frameworks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-02",
+      "title": "Tier 2: Practical Mechanics & Channels",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-03",
+      "title": "Tier 3: Strategic & Advanced Architectures",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-04",
+      "title": "Tier 4: Future Horizons & Masterclasses",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-05",
+      "title": "Game foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-06",
+      "title": "Game production",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-131-07",
+      "title": "Game evaluation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "131",
+    "slug": "game_development",
+    "name": "Game Development",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Game Development YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-131-01",
+        "title": "Game systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-131-001",
+            "title": "Game loops and state machines",
+            "question": "Game loops and state machines: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Game systems. Address Game loops and state machines through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Game loops and state machines.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-002",
+            "title": "Collision detection",
+            "question": "Collision detection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Game systems. Address Collision detection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Collision detection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-003",
+            "title": "Entity-component architecture",
+            "question": "Entity-component architecture: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Game systems. Address Entity-component architecture through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Entity-component architecture.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-131-02",
+        "title": "Design",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-131-01"
+        ],
+        "research_profile": "media",
+        "topics": [
+          {
+            "id": "BANK-131-004",
+            "title": "Feedback loops and player learning",
+            "question": "Feedback loops and player learning: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Game Development; branch: Design. Address Feedback loops and player learning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Feedback loops and player learning.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-005",
+            "title": "Difficulty curves",
+            "question": "Difficulty curves: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Game Development; branch: Design. Address Difficulty curves through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Difficulty curves.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-006",
+            "title": "Level readability",
+            "question": "Level readability: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Game Development; branch: Design. Address Level readability through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Level readability.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-131-03",
+        "title": "Production",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-131-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-131-007",
+            "title": "Save-system versioning",
+            "question": "Save-system versioning: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Production. Address Save-system versioning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Save-system versioning.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-008",
+            "title": "Performance profiling",
+            "question": "Performance profiling: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Production. Address Performance profiling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Performance profiling.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-131-009",
+            "title": "Accessible control remapping",
+            "question": "Accessible control remapping: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Game Development; branch: Production. Address Accessible control remapping through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Accessible control remapping.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "media": {
+        "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+        "source_leads": [
+          "the actual work and authorized production materials",
+          "creator interviews or published craft explanations",
+          "permission-cleared examples and audience feedback"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "025",
+        "title": "Gaming Stories / Lore",
+        "directory": "025_gaming_stories_lore",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "132",
+        "title": "Retro Gaming",
+        "directory": "132_retro_gaming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "133",
+        "title": "Board Games & Tabletop",
+        "directory": "133_board_games_tabletop",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "134",
+        "title": "Chess",
+        "directory": "134_chess",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [
+    "BANK-131-010",
+    "BANK-131-011",
+    "BANK-131-012",
+    "BANK-131-013",
+    "BANK-131-014",
+    "BANK-131-015",
+    "BANK-131-016",
+    "BANK-131-017",
+    "BANK-131-018",
+    "BANK-131-019",
+    "BANK-131-020",
+    "BANK-131-021",
+    "BANK-131-022",
+    "BANK-131-023",
+    "BANK-131-024",
+    "BANK-131-025",
+    "BANK-131-026",
+    "BANK-131-027",
+    "BANK-131-028",
+    "BANK-131-029"
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "fc836df692a92b06807055974a1c5f0ecf6abf01bcd9c863bbfb62744b775daf",
+    "TOPIC_BANK_RECONCILIATION.md": "4dc3b245e4aa95bf129772cfead700edf6ac4d39c2b9a2d8fb2a03f98ba4de70",
+    "TOPICS_COVERED_REPORT.md": "b20d8b2b5413b62c1ee2bde6eda83b4115354a792f2306685e9b1e95708e9ad8",
+    "131_GAME_DEVELOPMENT_CHANNEL_TOPIC_ROADMAP.md": "d5e001ee33bc30b58bf8f6b0e36b6057cdba4719bb607b4e8b2512d32e1e189a"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-131-001": [
+      "BANK-131-031"
+    ],
+    "BANK-131-002": [
+      "BANK-131-033"
+    ],
+    "BANK-131-004": [
+      "BANK-131-034"
+    ],
+    "BANK-131-006": [
+      "BANK-131-034"
+    ],
+    "BANK-131-007": [
+      "BANK-131-039"
+    ],
+    "BANK-131-009": [
+      "BANK-131-040"
+    ],
+    "BANK-131-008": [
+      "BANK-131-043"
+    ],
+    "BANK-131-003": [
+      "BANK-131-023"
+    ],
+    "BANK-131-005": [
+      "BANK-131-014"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Case and source readiness",
+      "next_step": "Epic's versioned Nanite documentation bounds one rendering-versus-fallback question; see RESEARCH_NOTES/BANK-131-044.md. Archived game comparisons, creator income, performance figures and employment claims require primary records. Game engine rendering stays here; VR hardware experience belongs in niche 128. No idea was approved."
+    },
+    {
+      "area": "Reviewed starter branches and primary-home boundaries",
+      "next_step": "All original starter concepts now have explicit individual-scope targets. See the starter crosswalk below and Scripts/editorial_review_002_184.json for scope evidence and semantic pair decisions; follow the primary-home referrals after consolidation."
+    },
+    {
+      "area": "Regional and participant variation",
+      "next_step": "Compare less-visible regions, languages, participants and contrary cases within this niche; record substantive distinctions before adding another proposal."
+    }
+  ],
+  "coverage_mapping_review": {
+    "date": "2026-10-23",
+    "method": "Manual thematic cross-references to authored questions. A link is a navigation aid, not a claim that every aspect of a starter branch has been exhausted.",
+    "mapped_starter_concepts": 6,
+    "unmapped_starter_concepts": 3
+  },
+  "editorial_review": {
+    "date": "2026-10-23",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "not_performed",
+    "semantic_candidates_reviewed": 0,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-010"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/1": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-011"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/2": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-012"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/3": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-013"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/4": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-014"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/5": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-015"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/6": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-016"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/7": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-017"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/8": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-018"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/9": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-019"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/10": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-020"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/11": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-021"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/12": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-022"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/13": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-023"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/14": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-024"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/15": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-025"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/16": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-026"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/17": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-027"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "pending_topics/18": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-028"
+      ],
+      "reason": "Existing Nanite scope. Epic's versioned documents describe supported uses and fallback meshes; polygon and performance constraints have not disappeared."
+    },
+    "pending_topics/19": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-029"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "trending_topics/0": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-010"
+      ],
+      "reason": "Duplicate Halo loop pitch; a slogan is not evidence of a universal design formula or a ranking of games."
+    },
+    "trending_topics/1": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-012"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "trending_topics/2": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-026"
+      ],
+      "reason": "Existing Stardew Valley creator scope; exact solitary hours, earnings and causes require developer or filed records."
+    },
+    "trending_topics/3": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-027"
+      ],
+      "reason": "Existing Euphoria procedural-animation scope; 'better than GTA V' needs a defined shot comparison."
+    },
+    "trending_topics/4": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-017",
+        "BANK-131-037"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    },
+    "trending_topics/5": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-019",
+        "BANK-131-036"
+      ],
+      "reason": "Existing network prediction and rollback scopes; do not claim physical latency was eliminated or that one algorithm saved all fighting games."
+    },
+    "trending_topics/6": {
+      "decision": "routed",
+      "bank_ids": [
+        "BANK-131-022"
+      ],
+      "reason": "Existing imported BANK question covers the mechanism or case; quoted performance, earnings and causal claims need primary production records."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-131-044",
+      "note_file": "RESEARCH_NOTES/BANK-131-044.md"
+    },
+    {
+      "topic_id": "BANK-131-028",
+      "note_file": "RESEARCH_NOTES/BANK-131-044.md"
+    }
+  ]
+}

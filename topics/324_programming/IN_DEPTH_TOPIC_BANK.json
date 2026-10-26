@@ -1,0 +1,1675 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "324",
+  "slug": "programming",
+  "name": "Programming",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Programming YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 14,
+    "proposed_topics": 15
+  },
+  "categories": [
+    {
+      "id": "CATALOG-324-R01",
+      "title": "Execution",
+      "level": "foundation",
+      "parent_id": "DOMAIN-324-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f6af44b5c71ea5fb62e6e6e6457f9a40119ec42d688af4c32c1777123d12d85e",
+      "topics": [
+        {
+          "question": "What happens between writing a program and seeing its output?",
+          "coverage": "Trace parsing, compilation or interpretation, runtime and input through a small conceptual example.",
+          "id": "BANK-324-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did PEP 238 move Python from classic integer division toward true division without changing every Python 2 program at once?",
+          "coverage": "Use Python 2.2's future statement, the explicit // operator and the planned Python 3 default to trace one language migration; distinguish proposed transition design from an empirical account of every project's migration.",
+          "id": "BANK-324-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R02",
+      "title": "State",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "52c1adc596878c456c76a6019171847d737de3884113ca22b1559c0ab7c50676",
+      "topics": [
+        {
+          "question": "Why can a function produce a different result when it depends on hidden state?",
+          "coverage": "Compare inputs, mutation, side effects and reproducibility; distinguish deterministic behavior from apparent randomness.",
+          "id": "BANK-324-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R03",
+      "title": "Reproduction",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a80754e3d2eb72dc931054d5e2464a565e31dc6ff76a25e23b2e924771f8a72b",
+      "topics": [
+        {
+          "question": "Why is reproducing a programming bug often harder than fixing it?",
+          "coverage": "Trace environment, timing, data, dependencies and minimum examples without language-specific claims.",
+          "id": "BANK-324-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R04",
+      "title": "Abstraction",
+      "level": "advanced",
+      "parent_id": "DOMAIN-324-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "966cfe1fca62a1fb0e72993f59eef9371814df605f9e18a18c3e8f8d1d83ff35",
+      "topics": [
+        {
+          "question": "When does a programming abstraction simplify a system and when does it hide essential details?",
+          "coverage": "Compare interfaces, invariants, coupling, leaks and maintenance using one bounded design problem.",
+          "id": "BANK-324-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R05",
+      "title": "Type inference",
+      "level": "foundation",
+      "parent_id": "DOMAIN-324-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "11ed9a232d005a3944cfe8204c1d623ebb69f4c4047ee024a9188317c58c9812",
+      "topics": [
+        {
+          "question": "How can a language detect type errors without requiring every type to be written?",
+          "coverage": "Trace constraints, inference, ambiguity and annotations through a small conceptual example.",
+          "id": "BANK-324-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-001"
+          ]
+        },
+        {
+          "question": "What did PEP 695 change about declaring generic type parameters in Python 3.12?",
+          "coverage": "Compare the PEP's new class and function parameter syntax and type alias statement with earlier TypeVar declarations; keep static typing and runtime enforcement distinct.",
+          "id": "BANK-324-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "origin": "editorial_case_expansion"
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R06",
+      "title": "Pattern matching",
+      "level": "foundation",
+      "parent_id": "DOMAIN-324-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c3b4d47334c3f6e24405db4ce9fff92c73e329ba07129c0b1299eba719097f71",
+      "topics": [
+        {
+          "question": "How is structural pattern matching different from a chain of equality checks?",
+          "coverage": "Compare decomposition, cases, bindings and exhaustiveness without assuming all languages implement the same rules.",
+          "id": "BANK-324-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R07",
+      "title": "Closures",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6e27ed82b799aecc683d954d6d866b0c7902b7f83b49a052d171bc4252d64a66",
+      "topics": [
+        {
+          "question": "How can a function remember a variable after its outer function has returned?",
+          "coverage": "Trace lexical scope, captured bindings, lifetime and mutation with a simple hypothetical program.",
+          "id": "BANK-324-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R08",
+      "title": "Composition",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a82e6166d0146863a0158ba472775225855d6f5efc207cac196deb0301ca788f",
+      "topics": [
+        {
+          "question": "When does combining small functions simplify a program's data flow?",
+          "coverage": "Compare types, intermediate values, side effects and error propagation rather than equating short code with clarity.",
+          "id": "BANK-324-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R09",
+      "title": "Dispatch",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5ea62ab75222605897d8ae4463a3e087adfb1db7a13ddb1f1ab145880a81657e",
+      "topics": [
+        {
+          "question": "How does a program choose which object's method runs at runtime?",
+          "coverage": "Compare interfaces, inheritance, dynamic dispatch and overriding with a bounded class hierarchy.",
+          "id": "BANK-324-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R10",
+      "title": "Logic programming",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "f2e1574c63b2d8f0b36fbf98f248f97abd5f58048b87528ff16e766df76caf8d",
+      "topics": [
+        {
+          "question": "How can a program specify relationships instead of an ordered list of commands?",
+          "coverage": "Trace facts, rules, queries, unification and search without treating execution order as irrelevant to performance.",
+          "id": "BANK-324-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R11",
+      "title": "Parsing",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a0f9d54f1f55de5c47e560fe376178b44f36ba10e7ac298ab9dcc4c03ed76cb5",
+      "topics": [
+        {
+          "question": "How does source text become a syntax tree before a program runs?",
+          "coverage": "Compare tokens, grammar, ambiguity and tree structure using an invented expression.",
+          "id": "BANK-324-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R12",
+      "title": "Garbage collection",
+      "level": "advanced",
+      "parent_id": "DOMAIN-324-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9e72099252047142243b25069e464e0fdc3db0821de4590700f306e0de88fe0b",
+      "topics": [
+        {
+          "question": "How does a runtime decide which objects are no longer reachable?",
+          "coverage": "Compare roots, references, cycles, collection pauses and memory limits; distinguish unreachable from unnecessary to a programmer.",
+          "id": "BANK-324-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R13",
+      "title": "Optimization",
+      "level": "advanced",
+      "parent_id": "DOMAIN-324-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "3bec1992e4d61a29a886db1868828164d24a8e4d2a7944c4650c9a9f50da7d5e",
+      "topics": [
+        {
+          "question": "Why must a compiler preserve observable behavior while transforming code?",
+          "coverage": "Compare semantics, undefined assumptions, aliasing and target costs through one conceptual optimization.",
+          "id": "BANK-324-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-324-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-324-R14",
+      "title": "Async tasks",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-324-10",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "9045a5a6ba7803bed470beea76df03efc45af19656d934394963981b796625e7",
+      "topics": []
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "061",
+      "title": "Software & Programming",
+      "directory": "061_software_programming",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "062",
+      "title": "Computer & PC",
+      "directory": "062_computer_pc",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "063",
+      "title": "Consumer Technology",
+      "directory": "063_consumer_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "318",
+      "title": "Internet",
+      "directory": "318_internet",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "319",
+      "title": "Mobile Technology",
+      "directory": "319_mobile_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "320",
+      "title": "5G / 6G",
+      "directory": "320_5g_6g",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/324_programming/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "da94ae14049defb9c16a9782242e7569917242e7cf150805fcd8c8073429cf4b",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-324-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b698caf3c7b0ef5bf08fa90088fd7dd9f9e770718aa107a37fde62d8acf0cdb4"
+      },
+      "BANK-324-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5556fefd5c0b8504829401b731f30d1de4826293686bed08879cf181bd9af4da"
+      },
+      "BANK-324-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5c9b0738939fd5760952db44432567165083a315e01a8b5b605bb0651a52c468"
+      },
+      "BANK-324-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c057d6e559e4fa93ffaed9e37d96d596277f4dc7ff9aaba0c6b099531feb89e0"
+      },
+      "BANK-324-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6f5e970521a5cc9102ea6629be2d01e74768896a42d6f2902d67e771e1a5e86f"
+      },
+      "BANK-324-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "aae4cdc558c924cd4554dd0713957d2bd5b3007c4c8060bed081603ae249575f"
+      },
+      "BANK-324-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "368a8e69f513135efcceb13bed8b5af33c5b94722114dad1ee83f201de6d2f18"
+      },
+      "BANK-324-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "94bb3734aa1190bceca36f6450ed3fb5f88cdde4ed9ef7ce4b853d730e6c9421"
+      },
+      "BANK-324-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "dcc47555549b887f410bd88be76e1a4f7bfb17347644f32a7198f9f27c23f3d0"
+      }
+    },
+    "source_categories": {
+      "CATALOG-324-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "c1ae68b04e5b51cb84785fc50c2ab3561da4b480869bdaf29bcdcfdb2cb5d4db"
+      },
+      "CATALOG-324-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "d8fc83427e4b90274c5a47e96ca7d6bb7524a212a312aadf7c4bf3a305017b05"
+      },
+      "CATALOG-324-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "37a9b487ebb73646d44447e62ffe77d03e3387350e895d88f78249e2f0eb348d"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "324_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "022e2b90f79b409e645f718826990735ed79861a244e9f9b038ccd1d8843fcf2",
+        "original_text": "# Programming Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 324 Programming (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Programming Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/324_programming/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Programming across four progressive tiers:\r\n- **Tier 1: Programming Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Programming.\r\n- **Tier 2: Programming Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Programming.\r\n- **Tier 3: Programming Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Programming.\r\n- **Tier 4: Programming Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Programming.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/324_programming/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/324_programming/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Language Feature's Origin** | *What problem did a named language feature originally solve?* |\r\n| 2 | `famous_examples` | **A Program Reconsidered** | *Why is one example taught so often and what does it omit?* |\r\n| 3 | `hidden_stories` | **The Maintainers Behind a Library** | *Who reviews changes, answers issues, and keeps compatibility?* |\r\n| 4 | `beginner_explainers` | **A Program from Input to Output** | *How does a short program transform one input?* |\r\n| 5 | `advanced_concepts` | **What an Abstraction Costs** | *When does a useful abstraction add time, memory, or complexity?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Bug That Appears Only Sometimes** | *Which runtime conditions explain a documented intermittent error?* |\r\n| 7 | `technology_innovation` | **A New Language Feature Tested** | *Did it improve a particular programming task?* |\r\n| 8 | `people_personalities` | **A Language Design Debate** | *Who argued for competing semantics and why?* |\r\n| 9 | `major_events` | **A Breaking Language Release** | *Which programs changed behavior after one release?* |\r\n| 10 | `how_it_works` | **Parsing to Execution** | *What happens between source text and a result?* |\r\n| 11 | `rise_fall` | **Why a Language Gained Users** | *Which tasks, tools, institutions, and measures explain adoption?* |\r\n| 12 | `then_vs_now` | **One Task Across Versions** | *How did syntax, safety, and performance change?* |\r\n| 13 | `future_developments` | **A Proposed Language Change** | *What compatibility and implementation questions remain?* |\r\n| 14 | `myths_vs_facts` | **Shorter Code Is Better?** | *When does brevity help or hide a defect?* |\r\n| 15 | `documentary_stories` | **A Bug Fix from Report to Release** | *How did a real issue become a tested change?* |\r\n| 16 | `system_boundary` | **Where Code Meets Its Environment** | *Which behavior comes from language, library, OS, or service?* |\r\n| 17 | `input_output_trace` | **A Function's Actual Contract** | *What inputs, exceptions, side effects, and outputs does it have?* |\r\n| 18 | `design_tradeoff` | **Mutable or Immutable State** | *How do two designs affect clarity, performance, and mistakes?* |\r\n| 19 | `failure_mode` | **An Error Path Nobody Tested** | *What input exposed a failure and how was it handled?* |\r\n| 20 | `testing_limits` | **Passing Tests and Missing Bugs** | *Which cases remain outside a program's test suite?* |\r\n| 21 | `standards_interoperability` | **Code Across Implementations** | *Which specified behavior is portable and which is implementation-specific?* |\r\n| 22 | `security_threat_model` | **Trusting Program Input** | *What can an untrusted input influence?* |\r\n| 23 | `maintenance_lifecycle` | **Keeping Code Usable** | *How do dependencies, deprecations, and documentation affect maintenance?* |\r\n| 24 | `infrastructure_dependencies` | **A Program Needs a Runtime** | *Which compiler, package source, OS, and service must work?* |\r\n| 25 | `accessibility_usability` | **Programming Tools for Learners** | *Can intended users understand errors and navigate an editor?* |\r\n| 26 | `independent_replication` | **Reproducing a Code Claim** | *Can another developer obtain the same output?* |\r\n| 27 | `responsible_deployment` | **When Code Reaches Users** | *Who may be harmed by an untested assumption?* |\r\n| 28 | `field_software_architecture` | **Modules Around One Task** | *How are responsibilities divided among functions and packages?* |\r\n| 29 | `field_interface_design` | **A Developer API's Clarity** | *Can a caller infer valid input and failure behavior?* |\r\n| 30 | `field_version_changes` | **A Dependency Update** | *Which behavior changed and which callers must adapt?* |\r\n| 31 | `field_open_standards` | **A Portable Language Claim** | *Does a public specification enable independent implementations?* |\r\n| 32 | `field_technical_debt` | **A Workaround That Stayed** | *Which earlier constraint created a fragile code path?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Programming: A Language Feature's Origin**\r\n   - *Question:* What problem did a named language feature originally solve?\r\n   - *Key Focus:* Use dated proposals, specifications, and early programs. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n2. **Programming: A Program Reconsidered**\r\n   - *Question:* Why is one example taught so often and what does it omit?\r\n   - *Key Focus:* Run it with a named language version and examine its limits. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n3. **Programming: The Maintainers Behind a Library**\r\n   - *Question:* Who reviews changes, answers issues, and keeps compatibility?\r\n   - *Key Focus:* Use public project records and attributed accounts. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n4. **Programming: A Program from Input to Output**\r\n   - *Question:* How does a short program transform one input?\r\n   - *Key Focus:* Trace variables, control flow, errors, and output. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n5. **Programming: What an Abstraction Costs**\r\n   - *Question:* When does a useful abstraction add time, memory, or complexity?\r\n   - *Key Focus:* Compare equivalent programs on a bounded task. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Programming: A Bug That Appears Only Sometimes**\r\n   - *Question:* Which runtime conditions explain a documented intermittent error?\r\n   - *Key Focus:* Reproduce safely with version, input, and environment. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n7. **Programming: A New Language Feature Tested**\r\n   - *Question:* Did it improve a particular programming task?\r\n   - *Key Focus:* Compare readability, correctness, compatibility, and runtime. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n8. **Programming: A Language Design Debate**\r\n   - *Question:* Who argued for competing semantics and why?\r\n   - *Key Focus:* Read dated proposals and decisions, credit contributors. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n9. **Programming: A Breaking Language Release**\r\n   - *Question:* Which programs changed behavior after one release?\r\n   - *Key Focus:* Test documented examples across exact versions. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n10. **Programming: Parsing to Execution**\r\n   - *Question:* What happens between source text and a result?\r\n   - *Key Focus:* Trace parser, representation, runtime, and system calls for one implementation. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Programming: Why a Language Gained Users**\r\n   - *Question:* Which tasks, tools, institutions, and measures explain adoption?\r\n   - *Key Focus:* Separate surveys, code counts, and real use. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n12. **Programming: One Task Across Versions**\r\n   - *Question:* How did syntax, safety, and performance change?\r\n   - *Key Focus:* Use matched code and versioned documentation. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n13. **Programming: A Proposed Language Change**\r\n   - *Question:* What compatibility and implementation questions remain?\r\n   - *Key Focus:* Distinguish proposal from accepted specification and deployed compiler. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n14. **Programming: Shorter Code Is Better?**\r\n   - *Question:* When does brevity help or hide a defect?\r\n   - *Key Focus:* Compare comprehension and tests for a defined audience. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n15. **Programming: A Bug Fix from Report to Release**\r\n   - *Question:* How did a real issue become a tested change?\r\n   - *Key Focus:* Follow issue, patch, review, release, and user impact. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Programming: Where Code Meets Its Environment**\r\n   - *Question:* Which behavior comes from language, library, OS, or service?\r\n   - *Key Focus:* Name implementation and version for one program. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n17. **Programming: A Function's Actual Contract**\r\n   - *Question:* What inputs, exceptions, side effects, and outputs does it have?\r\n   - *Key Focus:* Use tests and documentation on one version. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n18. **Programming: Mutable or Immutable State**\r\n   - *Question:* How do two designs affect clarity, performance, and mistakes?\r\n   - *Key Focus:* Compare matched tasks and measured outcomes. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n19. **Programming: An Error Path Nobody Tested**\r\n   - *Question:* What input exposed a failure and how was it handled?\r\n   - *Key Focus:* Use a harmless reproduction and avoid exploit instructions. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n20. **Programming: Passing Tests and Missing Bugs**\r\n   - *Question:* Which cases remain outside a program's test suite?\r\n   - *Key Focus:* Inspect boundaries, properties, platforms, and dependencies. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 324 (Programming)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Programming: A Language Feature's Origin*\r\n- **Episode Slug:** `324_programming_deep_dive_the_architecture_of_programming_a_language_feature_s_origin`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/324_programming/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "4898c337b7ed810a9ccc123a38ddbf13bbbbb35b54b09a0561d2333ca53af962",
+        "original_text": "# 324 Programming -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 324 Programming (Computing_Software)  \r\n> **Storage Directory:** `topics/324_programming/`  \r\n> **Synchronized With:** `OUTPUT/324_programming/`, `REGISTRY/Niches/324_programming/`, and `324_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 324 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/324_programming](../../OUTPUT/324_programming) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Programming: A Language Feature's Origin** | Tier 1: Foundational Frameworks | `history_origins` | `programming_a_language_feature_s_origin` | A rigorous pedagogical investigation exploring a language feature's origin through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Programming: A Program Reconsidered** | Tier 1: Foundational Frameworks | `famous_examples` | `programming_a_program_reconsidered` | A rigorous pedagogical investigation exploring a program reconsidered through documented evidence. | `QUEUED` |\r\n| 3 | **Programming: The Maintainers Behind a Library** | Tier 1: Foundational Frameworks | `hidden_stories` | `programming_the_maintainers_behind_a_library` | A rigorous pedagogical investigation exploring the maintainers behind a library through documented evidence. | `QUEUED` |\r\n| 4 | **Programming: A Program from Input to Output** | Tier 1: Foundational Frameworks | `beginner_explainers` | `programming_a_program_from_input_to_output` | A rigorous pedagogical investigation exploring a program from input to output through documented evidence. | `QUEUED` |\r\n| 5 | **Programming: What an Abstraction Costs** | Tier 1: Foundational Frameworks | `advanced_concepts` | `programming_what_an_abstraction_costs` | A rigorous pedagogical investigation exploring what an abstraction costs through documented evidence. | `QUEUED` |\r\n| 6 | **Programming: A Bug That Appears Only Sometimes** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `programming_a_bug_that_appears_only_sometimes` | A rigorous pedagogical investigation exploring a bug that appears only sometimes through documented evidence. | `QUEUED` |\r\n| 7 | **Programming: A New Language Feature Tested** | Tier 2: Methodological Deep Dives | `technology_innovation` | `programming_a_new_language_feature_tested` | A rigorous pedagogical investigation exploring a new language feature tested through documented evidence. | `QUEUED` |\r\n| 8 | **Programming: A Language Design Debate** | Tier 2: Methodological Deep Dives | `people_personalities` | `programming_a_language_design_debate` | A rigorous pedagogical investigation exploring a language design debate through documented evidence. | `QUEUED` |\r\n| 9 | **Programming: A Breaking Language Release** | Tier 2: Methodological Deep Dives | `major_events` | `programming_a_breaking_language_release` | A rigorous pedagogical investigation exploring a breaking language release through documented evidence. | `QUEUED` |\r\n| 10 | **Programming: Parsing to Execution** | Tier 2: Methodological Deep Dives | `how_it_works` | `programming_parsing_to_execution` | A rigorous pedagogical investigation exploring parsing to execution through documented evidence. | `QUEUED` |\r\n| 11 | **Programming: Why a Language Gained Users** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `programming_why_a_language_gained_users` | A rigorous pedagogical investigation exploring why a language gained users through documented evidence. | `QUEUED` |\r\n| 12 | **Programming: One Task Across Versions** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `programming_one_task_across_versions` | A rigorous pedagogical investigation exploring one task across versions through documented evidence. | `QUEUED` |\r\n| 13 | **Programming: A Proposed Language Change** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `programming_a_proposed_language_change` | A rigorous pedagogical investigation exploring a proposed language change through documented evidence. | `QUEUED` |\r\n| 14 | **Programming: Shorter Code Is Better?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `programming_shorter_code_is_better` | A rigorous pedagogical investigation exploring shorter code is better? through documented evidence. | `QUEUED` |\r\n| 15 | **Programming: A Bug Fix from Report to Release** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `programming_a_bug_fix_from_report_to_release` | A rigorous pedagogical investigation exploring a bug fix from report to release through documented evidence. | `QUEUED` |\r\n| 16 | **Programming: Where Code Meets Its Environment** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `programming_where_code_meets_its_environment` | A rigorous pedagogical investigation exploring where code meets its environment through documented evidence. | `QUEUED` |\r\n| 17 | **Programming: A Function's Actual Contract** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `programming_a_function_s_actual_contract` | A rigorous pedagogical investigation exploring a function's actual contract through documented evidence. | `QUEUED` |\r\n| 18 | **Programming: Mutable or Immutable State** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `programming_mutable_or_immutable_state` | A rigorous pedagogical investigation exploring mutable or immutable state through documented evidence. | `QUEUED` |\r\n| 19 | **Programming: An Error Path Nobody Tested** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `programming_an_error_path_nobody_tested` | A rigorous pedagogical investigation exploring an error path nobody tested through documented evidence. | `QUEUED` |\r\n| 20 | **Programming: Passing Tests and Missing Bugs** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `programming_passing_tests_and_missing_bugs` | A rigorous pedagogical investigation exploring passing tests and missing bugs through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Programming: Record Extremes & Superlatives** | **98** | `extreme_case` | `programming_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Programming: A Bug That Appears Only Sometimes** | **96** | `mysteries_unsolved_cases` | `programming_mysteries_unsolved_cases` | High viral search interest exploring which runtime conditions explain a documented intermittent error backed by field records. | `Queued` |\r\n| 23 | **Programming: A New Language Feature Tested** | **95** | `technology_innovation` | `programming_technology_innovation` | High viral search interest exploring did it improve a particular programming task backed by field records. | `Queued` |\r\n| 24 | **Programming: Shorter Code Is Better?** | **94** | `myths_vs_facts` | `programming_myths_vs_facts` | High viral search interest exploring when does brevity help or hide a defect backed by field records. | `Queued` |\r\n| 25 | **Programming: A Breaking Language Release** | **93** | `major_events` | `programming_major_events` | High viral search interest exploring which programs changed behavior after one release backed by field records. | `Queued` |\r\n| 26 | **Programming: The Maintainers Behind a Library** | **92** | `hidden_stories` | `programming_hidden_stories` | High viral search interest exploring who reviews changes, answers issues, and keeps compatibility backed by field records. | `Queued` |\r\n| 27 | **Programming: A Bug Fix from Report to Release** | **91** | `documentary_stories` | `programming_documentary_stories` | High viral search interest exploring how did a real issue become a tested change backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/324_programming/324_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md`](./324_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/324_programming/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/324_programming/NICHE_324_programming.md`](file:///h:/script-raw-/REGISTRY/Niches/324_programming/NICHE_324_programming.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/324_programming/CAT_324_programming.md`](file:///h:/script-raw-/REGISTRY/Niches/324_programming/CAT_324_programming.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/324_programming/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/324_programming/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/324_programming/`](file:///h:/script-raw-/OUTPUT/324_programming/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "d3820b0520397ac1accc9e16b5cb8d19950a811d8690c8a28fdcbfdd85644a77",
+        "original_text": "{\r\n  \"niche_id\": \"324\",\r\n  \"niche_name\": \"programming\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Programming: A Language Feature's Origin\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"programming_a_language_feature_s_origin\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a language feature's origin through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Programming: A Program Reconsidered\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"programming_a_program_reconsidered\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a program reconsidered through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Programming: The Maintainers Behind a Library\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"programming_the_maintainers_behind_a_library\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the maintainers behind a library through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Programming: A Program from Input to Output\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"programming_a_program_from_input_to_output\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a program from input to output through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Programming: What an Abstraction Costs\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"programming_what_an_abstraction_costs\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what an abstraction costs through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Programming: A Bug That Appears Only Sometimes\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"programming_a_bug_that_appears_only_sometimes\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a bug that appears only sometimes through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Programming: A New Language Feature Tested\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"programming_a_new_language_feature_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new language feature tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Programming: A Language Design Debate\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"programming_a_language_design_debate\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a language design debate through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Programming: A Breaking Language Release\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"programming_a_breaking_language_release\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a breaking language release through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Programming: Parsing to Execution\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"programming_parsing_to_execution\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring parsing to execution through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Programming: Why a Language Gained Users\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"programming_why_a_language_gained_users\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring why a language gained users through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Programming: One Task Across Versions\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"programming_one_task_across_versions\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one task across versions through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Programming: A Proposed Language Change\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"programming_a_proposed_language_change\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed language change through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Programming: Shorter Code Is Better?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"programming_shorter_code_is_better\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring shorter code is better? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Programming: A Bug Fix from Report to Release\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"programming_a_bug_fix_from_report_to_release\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a bug fix from report to release through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Programming: Where Code Meets Its Environment\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"programming_where_code_meets_its_environment\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring where code meets its environment through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Programming: A Function's Actual Contract\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"programming_a_function_s_actual_contract\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a function's actual contract through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Programming: Mutable or Immutable State\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"programming_mutable_or_immutable_state\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring mutable or immutable state through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Programming: An Error Path Nobody Tested\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"programming_an_error_path_nobody_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an error path nobody tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Programming: Passing Tests and Missing Bugs\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"programming_passing_tests_and_missing_bugs\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring passing tests and missing bugs through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Programming: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"programming_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Programming: A Bug That Appears Only Sometimes\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"programming_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which runtime conditions explain a documented intermittent error backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Programming: A New Language Feature Tested\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"programming_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring did it improve a particular programming task backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Programming: Shorter Code Is Better?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"programming_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring when does brevity help or hide a defect backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Programming: A Breaking Language Release\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"programming_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring which programs changed behavior after one release backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Programming: The Maintainers Behind a Library\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"programming_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who reviews changes, answers issues, and keeps compatibility backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Programming: A Bug Fix from Report to Release\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"programming_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did a real issue become a tested change backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "324",
+      "niche_name": "programming",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Programming: A Language Feature's Origin",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "programming_a_language_feature_s_origin",
+          "reason": "A rigorous pedagogical investigation exploring a language feature's origin through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Programming: A Program Reconsidered",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "programming_a_program_reconsidered",
+          "reason": "A rigorous pedagogical investigation exploring a program reconsidered through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Programming: The Maintainers Behind a Library",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "programming_the_maintainers_behind_a_library",
+          "reason": "A rigorous pedagogical investigation exploring the maintainers behind a library through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Programming: A Program from Input to Output",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "programming_a_program_from_input_to_output",
+          "reason": "A rigorous pedagogical investigation exploring a program from input to output through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Programming: What an Abstraction Costs",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "programming_what_an_abstraction_costs",
+          "reason": "A rigorous pedagogical investigation exploring what an abstraction costs through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Programming: A Bug That Appears Only Sometimes",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "programming_a_bug_that_appears_only_sometimes",
+          "reason": "A rigorous pedagogical investigation exploring a bug that appears only sometimes through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Programming: A New Language Feature Tested",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "programming_a_new_language_feature_tested",
+          "reason": "A rigorous pedagogical investigation exploring a new language feature tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Programming: A Language Design Debate",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "programming_a_language_design_debate",
+          "reason": "A rigorous pedagogical investigation exploring a language design debate through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Programming: A Breaking Language Release",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "programming_a_breaking_language_release",
+          "reason": "A rigorous pedagogical investigation exploring a breaking language release through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Programming: Parsing to Execution",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "programming_parsing_to_execution",
+          "reason": "A rigorous pedagogical investigation exploring parsing to execution through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Programming: Why a Language Gained Users",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "programming_why_a_language_gained_users",
+          "reason": "A rigorous pedagogical investigation exploring why a language gained users through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Programming: One Task Across Versions",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "programming_one_task_across_versions",
+          "reason": "A rigorous pedagogical investigation exploring one task across versions through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Programming: A Proposed Language Change",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "programming_a_proposed_language_change",
+          "reason": "A rigorous pedagogical investigation exploring a proposed language change through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Programming: Shorter Code Is Better?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "programming_shorter_code_is_better",
+          "reason": "A rigorous pedagogical investigation exploring shorter code is better? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Programming: A Bug Fix from Report to Release",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "programming_a_bug_fix_from_report_to_release",
+          "reason": "A rigorous pedagogical investigation exploring a bug fix from report to release through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Programming: Where Code Meets Its Environment",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "programming_where_code_meets_its_environment",
+          "reason": "A rigorous pedagogical investigation exploring where code meets its environment through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Programming: A Function's Actual Contract",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "programming_a_function_s_actual_contract",
+          "reason": "A rigorous pedagogical investigation exploring a function's actual contract through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Programming: Mutable or Immutable State",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "programming_mutable_or_immutable_state",
+          "reason": "A rigorous pedagogical investigation exploring mutable or immutable state through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Programming: An Error Path Nobody Tested",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "programming_an_error_path_nobody_tested",
+          "reason": "A rigorous pedagogical investigation exploring an error path nobody tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Programming: Passing Tests and Missing Bugs",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "programming_passing_tests_and_missing_bugs",
+          "reason": "A rigorous pedagogical investigation exploring passing tests and missing bugs through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Programming: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "programming_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Programming: A Bug That Appears Only Sometimes",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "programming_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which runtime conditions explain a documented intermittent error backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Programming: A New Language Feature Tested",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "programming_technology_innovation",
+          "why_trending": "High viral search interest exploring did it improve a particular programming task backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Programming: Shorter Code Is Better?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "programming_myths_vs_facts",
+          "why_trending": "High viral search interest exploring when does brevity help or hide a defect backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Programming: A Breaking Language Release",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "programming_major_events",
+          "why_trending": "High viral search interest exploring which programs changed behavior after one release backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Programming: The Maintainers Behind a Library",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "programming_hidden_stories",
+          "why_trending": "High viral search interest exploring who reviews changes, answers issues, and keeps compatibility backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Programming: A Bug Fix from Report to Release",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "programming_documentary_stories",
+          "why_trending": "High viral search interest exploring how did a real issue become a tested change backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "6bf670292b4719a56651b8db01c195fbc82d0e2b891fcfab412f52069eac0f41"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "dcc483c51e4c2aa734e7f14798f95d9948ea84673d193c572991c7eaafaeeb71"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "350473389cc5dd46fa676aa8d60c91aecb2068a0f00bf1ae6dd42bb16c5d333d"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "186cefe2b712de243cc2f861093bfd584a3511011a19ac92638c171fe7ccf6a5"
+    },
+    {
+      "input": "Scripts\\editorial_repairs_185_367.json",
+      "sha256": "d51797af761fa9d79b13de408c01a3f1e2cacb34897672d46bb0b3c0b17ad3ee"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-324-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-02",
+      "title": "Reasoning",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-03",
+      "title": "Debugging",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-04",
+      "title": "Design",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-05",
+      "title": "Languages",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-06",
+      "title": "Functions",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-07",
+      "title": "Objects",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-08",
+      "title": "Compilers",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-09",
+      "title": "Runtime",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-324-10",
+      "title": "Execution",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "324",
+    "slug": "programming",
+    "name": "Programming",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Programming YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-324-01",
+        "title": "Language concepts",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-324-001",
+            "title": "Type inference",
+            "question": "Type inference: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language concepts. Address Type inference through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Type inference.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-002",
+            "title": "Pattern matching",
+            "question": "Pattern matching: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language concepts. Address Pattern matching through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Pattern matching.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-003",
+            "title": "Closures",
+            "question": "Closures: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language concepts. Address Closures through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Closures.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-324-02",
+        "title": "Paradigms",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-324-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-324-004",
+            "title": "Functional composition",
+            "question": "Functional composition: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Paradigms. Address Functional composition through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Functional composition.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-005",
+            "title": "Object-oriented dispatch",
+            "question": "Object-oriented dispatch: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Paradigms. Address Object-oriented dispatch through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Object-oriented dispatch.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-006",
+            "title": "Logic programming",
+            "question": "Logic programming: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Paradigms. Address Logic programming through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Logic programming.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-324-03",
+        "title": "Language implementation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-324-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-324-007",
+            "title": "Parsing and syntax trees",
+            "question": "Parsing and syntax trees: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language implementation. Address Parsing and syntax trees through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Parsing and syntax trees.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-008",
+            "title": "Garbage collection",
+            "question": "Garbage collection: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language implementation. Address Garbage collection through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Garbage collection.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-324-009",
+            "title": "Compiler optimization boundaries",
+            "question": "Compiler optimization boundaries: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Programming; branch: Language implementation. Address Compiler optimization boundaries through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Compiler optimization boundaries.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "061",
+        "title": "Software & Programming",
+        "directory": "061_software_programming",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "062",
+        "title": "Computer & PC",
+        "directory": "062_computer_pc",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "063",
+        "title": "Consumer Technology",
+        "directory": "063_consumer_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "318",
+        "title": "Internet",
+        "directory": "318_internet",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "319",
+        "title": "Mobile Technology",
+        "directory": "319_mobile_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "320",
+        "title": "5G / 6G",
+        "directory": "320_5g_6g",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Programming: A Language Feature's Origin",
+      "question": "What problem did a named language feature originally solve?",
+      "coverage": "Use dated proposals, specifications, and early programs. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Program Reconsidered",
+      "question": "Why is one example taught so often and what does it omit?",
+      "coverage": "Run it with a named language version and examine its limits. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: The Maintainers Behind a Library",
+      "question": "Who reviews changes, answers issues, and keeps compatibility?",
+      "coverage": "Use public project records and attributed accounts. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Program from Input to Output",
+      "question": "How does a short program transform one input?",
+      "coverage": "Trace variables, control flow, errors, and output. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: What an Abstraction Costs",
+      "question": "When does a useful abstraction add time, memory, or complexity?",
+      "coverage": "Compare equivalent programs on a bounded task. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Bug That Appears Only Sometimes",
+      "question": "Which runtime conditions explain a documented intermittent error?",
+      "coverage": "Reproduce safely with version, input, and environment. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A New Language Feature Tested",
+      "question": "Did it improve a particular programming task?",
+      "coverage": "Compare readability, correctness, compatibility, and runtime. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Language Design Debate",
+      "question": "Who argued for competing semantics and why?",
+      "coverage": "Read dated proposals and decisions, credit contributors. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Breaking Language Release",
+      "question": "Which programs changed behavior after one release?",
+      "coverage": "Test documented examples across exact versions. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Parsing to Execution",
+      "question": "What happens between source text and a result?",
+      "coverage": "Trace parser, representation, runtime, and system calls for one implementation. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Why a Language Gained Users",
+      "question": "Which tasks, tools, institutions, and measures explain adoption?",
+      "coverage": "Separate surveys, code counts, and real use. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: One Task Across Versions",
+      "question": "How did syntax, safety, and performance change?",
+      "coverage": "Use matched code and versioned documentation. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Proposed Language Change",
+      "question": "What compatibility and implementation questions remain?",
+      "coverage": "Distinguish proposal from accepted specification and deployed compiler. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Shorter Code Is Better?",
+      "question": "When does brevity help or hide a defect?",
+      "coverage": "Compare comprehension and tests for a defined audience. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Bug Fix from Report to Release",
+      "question": "How did a real issue become a tested change?",
+      "coverage": "Follow issue, patch, review, release, and user impact. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Where Code Meets Its Environment",
+      "question": "Which behavior comes from language, library, OS, or service?",
+      "coverage": "Name implementation and version for one program. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: A Function's Actual Contract",
+      "question": "What inputs, exceptions, side effects, and outputs does it have?",
+      "coverage": "Use tests and documentation on one version. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Mutable or Immutable State",
+      "question": "How do two designs affect clarity, performance, and mistakes?",
+      "coverage": "Compare matched tasks and measured outcomes. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: An Error Path Nobody Tested",
+      "question": "What input exposed a failure and how was it handled?",
+      "coverage": "Use a harmless reproduction and avoid exploit instructions. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Programming: Passing Tests and Missing Bugs",
+      "question": "Which cases remain outside a program's test suite?",
+      "coverage": "Inspect boundaries, properties, platforms, and dependencies. Evidence base: language specifications and proposals, versioned documentation, source and issue histories, reproducible programs, and tests.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-324-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "861f638090625b15d220e96b958a3d2fbff182ef7d34b9a84289490a7c10c23e",
+    "TOPIC_BANK_RECONCILIATION.md": "b798036e5c16f7488ba405c79877b855a4a7ba9f194f7b8e905dfc7308ab042b",
+    "TOPICS_COVERED_REPORT.md": "6bc2a65a75e2654ecb56ef74a614d11aa45cf45c6feee663b1719f6930f80dc8",
+    "324_PROGRAMMING_CHANNEL_TOPIC_ROADMAP.md": "a571602d5a8301dc23c065830c23a58e63ec48d4a61fc90cff29c75233f87349"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-324-001": [
+      "BANK-324-034"
+    ],
+    "BANK-324-002": [
+      "BANK-324-035"
+    ],
+    "BANK-324-003": [
+      "BANK-324-036"
+    ],
+    "BANK-324-004": [
+      "BANK-324-037"
+    ],
+    "BANK-324-005": [
+      "BANK-324-038"
+    ],
+    "BANK-324-006": [
+      "BANK-324-039"
+    ],
+    "BANK-324-007": [
+      "BANK-324-040"
+    ],
+    "BANK-324-008": [
+      "BANK-324-041"
+    ],
+    "BANK-324-009": [
+      "BANK-324-042"
+    ]
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "Why does starting several asynchronous operations not necessarily run several computations in parallel?",
+      "coverage": "Compare event loops, waiting, scheduling, CPU work, cancellation and shared state through a small language-neutral trace.",
+      "id": "BANK-324-043",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-061-026",
+      "retirement_reason": "Both explain why asynchronous operations do not imply parallel CPU computation using scheduling and I/O examples.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-324-R14"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-044"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 1 (The Architecture of Programming: A Language Feature's Origin). Target: How did PEP 238 move Python from classic integer division toward true division without changing every Python 2 program at once? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 2 (Programming: A Program Reconsidered). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-041"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 3 (Programming: The Maintainers Behind a Library). Target: How does a runtime decide which objects are no longer reachable? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-030"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 4 (Programming: A Program from Input to Output). Target: What happens between writing a program and seeing its output? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-033"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 5 (Programming: What an Abstraction Costs). Target: When does a programming abstraction simplify a system and when does it hide essential details? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 6 (Programming: A Bug That Appears Only Sometimes). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/6": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-045"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 7 (Programming: A New Language Feature Tested). Target: What did PEP 695 change about declaring generic type parameters in Python 3.12? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/7": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-045"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 8 (Programming: A Language Design Debate). Target: What did PEP 695 change about declaring generic type parameters in Python 3.12? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-044"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 9 (Programming: A Breaking Language Release). Target: How did PEP 238 move Python from classic integer division toward true division without changing every Python 2 program at once? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-040"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 10 (Programming: Parsing to Execution). Target: How does source text become a syntax tree before a program runs? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-030"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 11 (Programming: Why a Language Gained Users). Target: What happens between writing a program and seeing its output? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/11": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-044"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 12 (Programming: One Task Across Versions). Target: How did PEP 238 move Python from classic integer division toward true division without changing every Python 2 program at once? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/12": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-045"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 13 (Programming: A Proposed Language Change). Target: What did PEP 695 change about declaring generic type parameters in Python 3.12? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/13": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-033"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 14 (Programming: Shorter Code Is Better?). Target: When does a programming abstraction simplify a system and when does it hide essential details? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/14": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 15 (Programming: A Bug Fix from Report to Release). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-030"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 16 (Programming: Where Code Meets Its Environment). Target: What happens between writing a program and seeing its output? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-031"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 17 (Programming: A Function's Actual Contract). Target: Why can a function produce a different result when it depends on hidden state? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-031"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 18 (Programming: Mutable or Immutable State). Target: Why can a function produce a different result when it depends on hidden state? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/18": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 19 (Programming: An Error Path Nobody Tested). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "pending_topics/19": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 20 (Programming: Passing Tests and Missing Bugs). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-030"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 21 (Programming: Record Extremes & Superlatives). Target: What happens between writing a program and seeing its output? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 22 (Programming: A Bug That Appears Only Sometimes). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/2": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-045"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 23 (Programming: A New Language Feature Tested). Target: What did PEP 695 change about declaring generic type parameters in Python 3.12? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-033"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 24 (Programming: Shorter Code Is Better?). Target: When does a programming abstraction simplify a system and when does it hide essential details? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-324-044"
+      ],
+      "reason": "A named source-backed case was selected for archived pitch 25 (Programming: A Breaking Language Release). Target: How did PEP 238 move Python from classic integer division toward true division without changing every Python 2 program at once? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-041"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 26 (Programming: The Maintainers Behind a Library). Target: How does a runtime decide which objects are no longer reachable? The archive wording does not establish a superlative, outcome or production readiness."
+    },
+    "trending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-324-032"
+      ],
+      "reason": "This broad pitch is merged into the existing scope for archived pitch 27 (Programming: A Bug Fix from Report to Release). Target: Why is reproducing a programming bug often harder than fixing it? The archive wording does not establish a superlative, outcome or production readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-324-044",
+      "note_file": "324_PROGRAMMING_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    },
+    {
+      "topic_id": "BANK-324-045",
+      "note_file": "324_PROGRAMMING_PRIMARY_SOURCE_NOTES.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-324-044",
+      "related_id": "BANK-324-030",
+      "boundary": "A named operator-semantics migration versus the general path from program text to output."
+    },
+    {
+      "topic_id": "BANK-324-044",
+      "related_id": "BANK-324-042",
+      "boundary": "Language compatibility across versions versus compiler optimization preserving behavior."
+    },
+    {
+      "topic_id": "BANK-324-045",
+      "related_id": "BANK-324-034",
+      "boundary": "A dated generic declaration design versus general type-inference errors."
+    },
+    {
+      "topic_id": "BANK-324-045",
+      "related_id": "BANK-061-073",
+      "boundary": "Generic declaration syntax versus Python's GIL and concurrency."
+    }
+  ]
+}

@@ -1,0 +1,1634 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "418",
+  "slug": "automotive_engineering",
+  "name": "Automotive Engineering",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Automotive Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 12,
+    "proposed_topics": 15
+  },
+  "categories": [
+    {
+      "id": "CATALOG-418-R01",
+      "title": "Vehicle foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-418-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "b02c99078d02fc7dfebfb4faf9eacd725b9ff376d71603df9024fc0faa76f582",
+      "topics": [
+        {
+          "question": "Why do engine torque and wheel torque tell different stories?",
+          "coverage": "Trace gearing, speed and losses through a conceptual drivetrain.",
+          "id": "BANK-418-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R02",
+      "title": "Integrated systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-418-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c40e2c693b1e934137b62c97b48d0b3caaf19d5fdc08f0b3e4d64b947f1bef61",
+      "topics": [
+        {
+          "question": "How can chassis stiffness change suspension tuning results?",
+          "coverage": "Separate structural compliance from spring and damper behavior.",
+          "id": "BANK-418-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does vehicle aerodynamics involve cooling as well as drag?",
+          "coverage": "Map air paths, heat rejection and packaging tradeoffs.",
+          "id": "BANK-418-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R03",
+      "title": "Engineering evidence",
+      "level": "advanced",
+      "parent_id": "DOMAIN-418-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0f89f2ee5a6548262f14063e0ed646c10f635094c6e120353881087f8c00cda5",
+      "topics": [
+        {
+          "question": "How can a component pass bench tests but fail in real driving?",
+          "coverage": "Compare duty cycles, interactions and environmental exposure.",
+          "id": "BANK-418-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a vehicle simulation trustworthy enough for a design decision?",
+          "coverage": "Trace assumptions, validation cases and uncertainty bounds.",
+          "id": "BANK-418-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why did Toyota?s 2020 Prius hybrid-control recall require a software remedy for loss of failsafe drive?",
+          "coverage": "Read U.S. NHTSA recall 20V-369 and Toyota?s notice for specified Prius/Prius V model years; distinguish the intended reduced-power failsafe from rare shutdown, and a defined software remedy from general claims about all hybrids.",
+          "id": "BANK-418-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R04",
+      "title": "Chassis systems",
+      "level": "foundation",
+      "parent_id": "DOMAIN-418-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7ec6b746ff6242a23f7bdf52c61ab2ca56d9e23e8efe1ec29bc576634746d9f5",
+      "topics": [
+        {
+          "question": "How does suspension geometry change wheel behavior as a car turns and pitches?",
+          "coverage": "Compare alignment changes and load transfer conceptually.",
+          "id": "BANK-418-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-418-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R05",
+      "title": "Chassis systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-418-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a81838ac118a3792f1336f8e29bfbd5c64defb97712944f21216b3165536abc0",
+      "topics": [
+        {
+          "question": "How do brake-force distribution and electronic stability control intervene differently?",
+          "coverage": "Separate driver demand, wheel behavior and control goals.",
+          "id": "BANK-418-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-418-004",
+            "BANK-418-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R06",
+      "title": "Powertrain systems",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-418-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "08044ae9aa2921b7f22fbbf7b4ce1ad62a89ada617f4092e69146780f1cb19de",
+      "topics": [
+        {
+          "question": "How do cooling circuits and transmission ratios constrain powertrain calibration?",
+          "coverage": "Trace thermal and mechanical operating envelopes.",
+          "id": "BANK-418-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-418-003",
+            "BANK-418-006",
+            "BANK-418-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R07",
+      "title": "Vehicle validation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-418-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d64658b80d300826bad9bfe7cc0a1f75e0e4a30f22da768462278285a211c05b",
+      "topics": [
+        {
+          "question": "What do crash protocols, vibration tests and durability cycles measure differently?",
+          "coverage": "Compare conditions and limits of extrapolating test outcomes.",
+          "id": "BANK-418-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-418-007",
+            "BANK-418-009",
+            "BANK-418-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R08",
+      "title": "Vehicle thermal integration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-418-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a25597fab21f4f5361d4fdeb99c8a783d019434e42c7a78144c35c0dac83cc5c",
+      "topics": [
+        {
+          "question": "How can cabin cooling and powertrain cooling compete within one vehicle?",
+          "coverage": "Trace shared heat rejection, controls and operating conditions.",
+          "id": "BANK-418-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R09",
+      "title": "Drivetrain efficiency maps",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-418-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "498bf697c13d6163926c13186849f9c7c88200dd707d67561428499675e2727d",
+      "topics": [
+        {
+          "question": "Why does drivetrain efficiency vary with operating point rather than one fixed percentage?",
+          "coverage": "Compare load, speed and conversion pathways conceptually.",
+          "id": "BANK-418-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R10",
+      "title": "Chassis simulation",
+      "level": "advanced",
+      "parent_id": "DOMAIN-418-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "de9d0f997382ec50d6bd167405ef4d9bac153a889ba978f47c3cd4c725d6edea",
+      "topics": [
+        {
+          "question": "How can a chassis simulation be wrong despite matching one road test?",
+          "coverage": "Inspect parameter fitting, untested conditions and uncertainty.",
+          "id": "BANK-418-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R11",
+      "title": "Manufacturing quality assurance",
+      "level": "foundation",
+      "parent_id": "DOMAIN-418-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "eedbfca79b5b8dc1522dadfd7f698021b9156952d619a7ca18c9ad687ae74861",
+      "topics": [
+        {
+          "question": "How can a production process detect vehicle variation before customers experience failures?",
+          "coverage": "Compare tolerances, inspections and traceability.",
+          "id": "BANK-418-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-418-R12",
+      "title": "Noise and vibration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-418-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "cf642f10a3c9945511b8c703401e37ab8cd3b50d525e938b5644d78dca710057",
+      "topics": [
+        {
+          "question": "How can engineers distinguish an unwanted vehicle noise from the vibration transmitting it?",
+          "coverage": "Trace source, transmission path and receiver using conceptual measurements rather than remote fault diagnosis.",
+          "covers_starter_ids": [
+            "BANK-418-008"
+          ],
+          "id": "BANK-418-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "022",
+      "title": "Cars / Automotive Stories",
+      "directory": "022_cars_automotive_stories",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "045",
+      "title": "Racing",
+      "directory": "045_racing",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "139",
+      "title": "Motorcycles",
+      "directory": "139_motorcycles",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "419",
+      "title": "Supercars",
+      "directory": "419_supercars",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "420",
+      "title": "Electric Vehicles",
+      "directory": "420_electric_vehicles",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "421",
+      "title": "EV Battery Technology",
+      "directory": "421_ev_battery_technology",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/418_automotive_engineering/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "27ced52b387957c917e40a31850f103b61f9c920196b59f29882aed19d8f4c27",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-418-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eaae2f096ea9cc82f4a49dff5130e147eadac7ae140e881a8a9e4764e44f7cd8"
+      },
+      "BANK-418-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "34b0c79f64a74e01919ceb9c0e82cfa8bcf6e6876a6c86dc1a6ddf6c795bd4b8"
+      },
+      "BANK-418-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "2845ef9ed187ec276b1a85e15a1991de45263fb776ac3d08add54b92e812ec5f"
+      },
+      "BANK-418-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "bdf7e146ba321a5243a7c9de90d224939034d61ee0c89f1ffa2d28a99140a5e8"
+      },
+      "BANK-418-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e1a7bbff2f9f86db469319482b08e6ebdaacf770d50bff229cc39dc182eab13a"
+      },
+      "BANK-418-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "373529202117cf3e377b349e651a7290181e7af36a30dfa3c8bb6c61bcb628b4"
+      },
+      "BANK-418-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "95a9ec210a261e63dbdffeff34247efa4249854a8b4b064e1abf0b716b73efd6"
+      },
+      "BANK-418-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c4af9ad2504fc70fe5ca72f838f9df97fd8ea697b071d2063b391c500e5be723"
+      },
+      "BANK-418-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b52ffff97397802114655b3d621a9a5cd8b16d943edde9af73b4da572b3c9153"
+      }
+    },
+    "source_categories": {
+      "CATALOG-418-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "a89f869150a9d1c2f82e0e39a0feb13c461db041292b4c8c21446c3e2bff3ee2"
+      },
+      "CATALOG-418-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6e2b5c6a0c00791e1f15434b439325d63396dd3309b30efe4f3d36a89105aa98"
+      },
+      "CATALOG-418-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "b930a9ea328e731baceb05f71a0f0b9abe69b4072a41f1317c3de89c5e686b9d"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "418_AUTOMOTIVE_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "50b15313f752e0996ad077c34642b328c2446bbdd8da0e51d6d2562f7dbffc03",
+        "original_text": "# Automotive Engineering Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 418 Automotive Engineering (Transport_Engineering)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Automotive Engineering Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/418_automotive_engineering/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Automotive Engineering across four progressive tiers:\r\n- **Tier 1: Automotive Engineering Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Automotive Engineering.\r\n- **Tier 2: Automotive Engineering Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Automotive Engineering.\r\n- **Tier 3: Automotive Engineering Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Automotive Engineering.\r\n- **Tier 4: Automotive Engineering Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Automotive Engineering.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/418_automotive_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/418_automotive_engineering/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Vehicle System's Design History** | *Which documented constraint drove an early design change?* |\r\n| 2 | `famous_examples` | **A Widely Studied Vehicle** | *Which engineering choices explain a named model's reputation?* |\r\n| 3 | `hidden_stories` | **Workers behind a Vehicle** | *Which technician, supplier, or test team contribution is missing?* |\r\n| 4 | `beginner_explainers` | **Follow Energy through a Car** | *Where does energy enter, convert, dissipate, and reach the wheels?* |\r\n| 5 | `advanced_concepts` | **Coupled Vehicle Tradeoffs** | *How does changing vehicle mass affect braking, handling, efficiency, and crash design?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Defect under Investigation** | *Which failure mechanism is supported by current evidence?* |\r\n| 7 | `technology_innovation` | **A New Component Tested** | *What changed when one component entered a production vehicle?* |\r\n| 8 | `people_personalities` | **An Engineer's Decision** | *What evidence explains one named design choice?* |\r\n| 9 | `major_events` | **A Recall and Redesign** | *What defect was identified, and what did the remedy address?* |\r\n| 10 | `how_it_works` | **One Vehicle System End to End** | *How do sensors, controls, hardware, and driver interact?* |\r\n| 11 | `rise_fall` | **A Design Retired** | *Which cost, safety, reliability, or regulatory pressures ended one design?* |\r\n| 12 | `then_vs_now` | **Two Generations Compared** | *Which measurements can be compared across model generations?* |\r\n| 13 | `future_developments` | **A Proposed Vehicle Feature** | *What proof would establish useful performance in production?* |\r\n| 14 | `myths_vs_facts` | **A Headline Performance Number** | *Which test conditions make a quoted result comparable?* |\r\n| 15 | `documentary_stories` | **From Prototype to Road** | *Which test and manufacturing decisions changed one vehicle?* |\r\n| 16 | `system_boundary` | **What Counts as the Car?** | *Which outcomes depend on vehicle, driver, road, fuel, or service network?* |\r\n| 17 | `input_output_trace` | **Driver Command to Motion** | *How does one command pass through control and actuation?* |\r\n| 18 | `design_tradeoff` | **Safety, Mass, and Efficiency** | *What gains and losses followed a documented design compromise?* |\r\n| 19 | `failure_mode` | **One Component Failure** | *What failed first and how did effects spread?* |\r\n| 20 | `testing_limits` | **Laboratory versus Road** | *Which dynamometer or track result fails to predict everyday use?* |\r\n| 21 | `standards_interoperability` | **A Vehicle Requirement** | *Which standard applies to the selected model and market?* |\r\n| 22 | `security_threat_model` | **Connected Vehicle Exposure** | *Which interface could permit a documented misuse?* |\r\n| 23 | `maintenance_lifecycle` | **Part through Service Life** | *When does inspection, repair, or replacement become necessary?* |\r\n| 24 | `infrastructure_dependencies` | **Vehicle and Road Network** | *Which road, fuel, repair, or data dependency shapes actual use?* |\r\n| 25 | `accessibility_usability` | **Controls for Different Drivers** | *Who can reach, understand, and operate a key function?* |\r\n| 26 | `independent_replication` | **Repeat a Vehicle Test** | *Can another lab reproduce a claimed result?* |\r\n| 27 | `responsible_deployment` | **Introducing a New Feature** | *What monitoring and remedy plan follows release?* |\r\n| 28 | `field_route_capacity` | **A Road Route's Capacity** | *How do vehicle dimensions and traffic conditions affect a named route?* |\r\n| 29 | `field_vehicle_design` | **Vehicle Layout in Context** | *How does a design serve one defined use case?* |\r\n| 30 | `field_maintenance_system` | **Service Network for a Model** | *Can a repair network diagnose and supply a critical part?* |\r\n| 31 | `field_safety_case` | **Evidence for Safe Operation** | *Which tests and real-use reports support a bounded safety claim?* |\r\n| 32 | `field_construction_impact` | **Building the Vehicle** | *Which material and factory choices create measurable impacts?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Automotive Engineering: A Vehicle System's Design History**\r\n   - *Question:* Which documented constraint drove an early design change?\r\n   - *Key Focus:* Trace dated drawings, tests, and production versions. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n2. **Automotive Engineering: A Widely Studied Vehicle**\r\n   - *Question:* Which engineering choices explain a named model's reputation?\r\n   - *Key Focus:* Compare measured outcomes with marketing and model-year changes. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n3. **Automotive Engineering: Workers behind a Vehicle**\r\n   - *Question:* Which technician, supplier, or test team contribution is missing?\r\n   - *Key Focus:* Use credits, oral histories, and dated production records. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n4. **Automotive Engineering: Follow Energy through a Car**\r\n   - *Question:* Where does energy enter, convert, dissipate, and reach the wheels?\r\n   - *Key Focus:* Specify powertrain and driving condition. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n5. **Automotive Engineering: Coupled Vehicle Tradeoffs**\r\n   - *Question:* How does changing vehicle mass affect braking, handling, efficiency, and crash design?\r\n   - *Key Focus:* Use one defined vehicle and engineering model. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Automotive Engineering: A Defect under Investigation**\r\n   - *Question:* Which failure mechanism is supported by current evidence?\r\n   - *Key Focus:* Separate complaints, investigation, and confirmed cause. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n7. **Automotive Engineering: A New Component Tested**\r\n   - *Question:* What changed when one component entered a production vehicle?\r\n   - *Key Focus:* Compare baseline and updated tests under matched conditions. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n8. **Automotive Engineering: An Engineer's Decision**\r\n   - *Question:* What evidence explains one named design choice?\r\n   - *Key Focus:* Use contemporaneous records and distinguish team work. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n9. **Automotive Engineering: A Recall and Redesign**\r\n   - *Question:* What defect was identified, and what did the remedy address?\r\n   - *Key Focus:* Trace official notice, affected models, and verification. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n10. **Automotive Engineering: One Vehicle System End to End**\r\n   - *Question:* How do sensors, controls, hardware, and driver interact?\r\n   - *Key Focus:* Follow a bounded function through input and response. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Automotive Engineering: A Design Retired**\r\n   - *Question:* Which cost, safety, reliability, or regulatory pressures ended one design?\r\n   - *Key Focus:* Compare documented versions and replacement. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n12. **Automotive Engineering: Two Generations Compared**\r\n   - *Question:* Which measurements can be compared across model generations?\r\n   - *Key Focus:* Control mass, tires, test cycle, and equipment. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n13. **Automotive Engineering: A Proposed Vehicle Feature**\r\n   - *Question:* What proof would establish useful performance in production?\r\n   - *Key Focus:* Define tests, failure criteria, and deployment context. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n14. **Automotive Engineering: A Headline Performance Number**\r\n   - *Question:* Which test conditions make a quoted result comparable?\r\n   - *Key Focus:* Check protocol, configuration, and independent replication. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n15. **Automotive Engineering: From Prototype to Road**\r\n   - *Question:* Which test and manufacturing decisions changed one vehicle?\r\n   - *Key Focus:* Follow dated prototype, homologation, and production evidence. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Automotive Engineering: What Counts as the Car?**\r\n   - *Question:* Which outcomes depend on vehicle, driver, road, fuel, or service network?\r\n   - *Key Focus:* Define boundary before comparing performance. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n17. **Automotive Engineering: Driver Command to Motion**\r\n   - *Question:* How does one command pass through control and actuation?\r\n   - *Key Focus:* Record latency, feedback, and operating mode. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n18. **Automotive Engineering: Safety, Mass, and Efficiency**\r\n   - *Question:* What gains and losses followed a documented design compromise?\r\n   - *Key Focus:* Compare matched measurements and constraints. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n19. **Automotive Engineering: One Component Failure**\r\n   - *Question:* What failed first and how did effects spread?\r\n   - *Key Focus:* Use inspection, recall, or test evidence; avoid speculation. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n20. **Automotive Engineering: Laboratory versus Road**\r\n   - *Question:* Which dynamometer or track result fails to predict everyday use?\r\n   - *Key Focus:* State cycle, weather, load, and driver behavior. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 418 (Automotive Engineering)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Automotive Engineering: A Vehicle System's Design History*\r\n- **Episode Slug:** `418_automotive_engineering_deep_dive_the_architecture_of_automotive_engineering_a_vehicle_system_`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/418_automotive_engineering/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "4edf2c395fc62bee25107cff5437d5c01090112ccce4c388286f28e7966305ca",
+        "original_text": "# 418 Automotive Engineering -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 418 Automotive Engineering (Transport_Engineering)  \r\n> **Storage Directory:** `topics/418_automotive_engineering/`  \r\n> **Synchronized With:** `OUTPUT/418_automotive_engineering/`, `REGISTRY/Niches/418_automotive_engineering/`, and `418_AUTOMOTIVE_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 418 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/418_automotive_engineering](../../OUTPUT/418_automotive_engineering) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Automotive Engineering: A Vehicle System's Design History** | Tier 1: Foundational Frameworks | `history_origins` | `automotive_engineering_a_vehicle_system_s_design_history` | A rigorous pedagogical investigation exploring a vehicle system's design history through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Automotive Engineering: A Widely Studied Vehicle** | Tier 1: Foundational Frameworks | `famous_examples` | `automotive_engineering_a_widely_studied_vehicle` | A rigorous pedagogical investigation exploring a widely studied vehicle through documented evidence. | `QUEUED` |\r\n| 3 | **Automotive Engineering: Workers behind a Vehicle** | Tier 1: Foundational Frameworks | `hidden_stories` | `automotive_engineering_workers_behind_a_vehicle` | A rigorous pedagogical investigation exploring workers behind a vehicle through documented evidence. | `QUEUED` |\r\n| 4 | **Automotive Engineering: Follow Energy through a Car** | Tier 1: Foundational Frameworks | `beginner_explainers` | `automotive_engineering_follow_energy_through_a_car` | A rigorous pedagogical investigation exploring follow energy through a car through documented evidence. | `QUEUED` |\r\n| 5 | **Automotive Engineering: Coupled Vehicle Tradeoffs** | Tier 1: Foundational Frameworks | `advanced_concepts` | `automotive_engineering_coupled_vehicle_tradeoffs` | A rigorous pedagogical investigation exploring coupled vehicle tradeoffs through documented evidence. | `QUEUED` |\r\n| 6 | **Automotive Engineering: A Defect under Investigation** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `automotive_engineering_a_defect_under_investigation` | A rigorous pedagogical investigation exploring a defect under investigation through documented evidence. | `QUEUED` |\r\n| 7 | **Automotive Engineering: A New Component Tested** | Tier 2: Methodological Deep Dives | `technology_innovation` | `automotive_engineering_a_new_component_tested` | A rigorous pedagogical investigation exploring a new component tested through documented evidence. | `QUEUED` |\r\n| 8 | **Automotive Engineering: An Engineer's Decision** | Tier 2: Methodological Deep Dives | `people_personalities` | `automotive_engineering_an_engineer_s_decision` | A rigorous pedagogical investigation exploring an engineer's decision through documented evidence. | `QUEUED` |\r\n| 9 | **Automotive Engineering: A Recall and Redesign** | Tier 2: Methodological Deep Dives | `major_events` | `automotive_engineering_a_recall_and_redesign` | A rigorous pedagogical investigation exploring a recall and redesign through documented evidence. | `QUEUED` |\r\n| 10 | **Automotive Engineering: One Vehicle System End to End** | Tier 2: Methodological Deep Dives | `how_it_works` | `automotive_engineering_one_vehicle_system_end_to_end` | A rigorous pedagogical investigation exploring one vehicle system end to end through documented evidence. | `QUEUED` |\r\n| 11 | **Automotive Engineering: A Design Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `automotive_engineering_a_design_retired` | A rigorous pedagogical investigation exploring a design retired through documented evidence. | `QUEUED` |\r\n| 12 | **Automotive Engineering: Two Generations Compared** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `automotive_engineering_two_generations_compared` | A rigorous pedagogical investigation exploring two generations compared through documented evidence. | `QUEUED` |\r\n| 13 | **Automotive Engineering: A Proposed Vehicle Feature** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `automotive_engineering_a_proposed_vehicle_feature` | A rigorous pedagogical investigation exploring a proposed vehicle feature through documented evidence. | `QUEUED` |\r\n| 14 | **Automotive Engineering: A Headline Performance Number** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `automotive_engineering_a_headline_performance_number` | A rigorous pedagogical investigation exploring a headline performance number through documented evidence. | `QUEUED` |\r\n| 15 | **Automotive Engineering: From Prototype to Road** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `automotive_engineering_from_prototype_to_road` | A rigorous pedagogical investigation exploring from prototype to road through documented evidence. | `QUEUED` |\r\n| 16 | **Automotive Engineering: What Counts as the Car?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `automotive_engineering_what_counts_as_the_car` | A rigorous pedagogical investigation exploring what counts as the car? through documented evidence. | `QUEUED` |\r\n| 17 | **Automotive Engineering: Driver Command to Motion** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `automotive_engineering_driver_command_to_motion` | A rigorous pedagogical investigation exploring driver command to motion through documented evidence. | `QUEUED` |\r\n| 18 | **Automotive Engineering: Safety, Mass, and Efficiency** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `automotive_engineering_safety_mass_and_efficiency` | A rigorous pedagogical investigation exploring safety, mass, and efficiency through documented evidence. | `QUEUED` |\r\n| 19 | **Automotive Engineering: One Component Failure** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `automotive_engineering_one_component_failure` | A rigorous pedagogical investigation exploring one component failure through documented evidence. | `QUEUED` |\r\n| 20 | **Automotive Engineering: Laboratory versus Road** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `automotive_engineering_laboratory_versus_road` | A rigorous pedagogical investigation exploring laboratory versus road through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Automotive Engineering: Record Extremes & Superlatives** | **98** | `extreme_case` | `automotive_engineering_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Automotive Engineering: A Defect under Investigation** | **96** | `mysteries_unsolved_cases` | `automotive_engineering_mysteries_unsolved_cases` | High viral search interest exploring which failure mechanism is supported by current evidence backed by field records. | `Queued` |\r\n| 23 | **Automotive Engineering: A New Component Tested** | **95** | `technology_innovation` | `automotive_engineering_technology_innovation` | High viral search interest exploring what changed when one component entered a production vehicle backed by field records. | `Queued` |\r\n| 24 | **Automotive Engineering: A Headline Performance Number** | **94** | `myths_vs_facts` | `automotive_engineering_myths_vs_facts` | High viral search interest exploring which test conditions make a quoted result comparable backed by field records. | `Queued` |\r\n| 25 | **Automotive Engineering: A Recall and Redesign** | **93** | `major_events` | `automotive_engineering_major_events` | High viral search interest exploring what defect was identified, and what did the remedy address backed by field records. | `Queued` |\r\n| 26 | **Automotive Engineering: Workers behind a Vehicle** | **92** | `hidden_stories` | `automotive_engineering_hidden_stories` | High viral search interest exploring which technician, supplier, or test team contribution is missing backed by field records. | `Queued` |\r\n| 27 | **Automotive Engineering: From Prototype to Road** | **91** | `documentary_stories` | `automotive_engineering_documentary_stories` | High viral search interest exploring which test and manufacturing decisions changed one vehicle backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/418_automotive_engineering/418_AUTOMOTIVE_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md`](./418_AUTOMOTIVE_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/418_automotive_engineering/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/418_automotive_engineering/NICHE_418_automotive_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/418_automotive_engineering/NICHE_418_automotive_engineering.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/418_automotive_engineering/CAT_418_automotive_engineering.md`](file:///h:/script-raw-/REGISTRY/Niches/418_automotive_engineering/CAT_418_automotive_engineering.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/418_automotive_engineering/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/418_automotive_engineering/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/418_automotive_engineering/`](file:///h:/script-raw-/OUTPUT/418_automotive_engineering/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "9822184e5f3ffa2c817e20bfb82019f60a4f06f0ddeb6139cc39d070b73e7ad2",
+        "original_text": "{\r\n  \"niche_id\": \"418\",\r\n  \"niche_name\": \"automotive_engineering\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Automotive Engineering: A Vehicle System's Design History\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"automotive_engineering_a_vehicle_system_s_design_history\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a vehicle system's design history through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Automotive Engineering: A Widely Studied Vehicle\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"automotive_engineering_a_widely_studied_vehicle\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a widely studied vehicle through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Automotive Engineering: Workers behind a Vehicle\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"automotive_engineering_workers_behind_a_vehicle\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring workers behind a vehicle through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Automotive Engineering: Follow Energy through a Car\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"automotive_engineering_follow_energy_through_a_car\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring follow energy through a car through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Automotive Engineering: Coupled Vehicle Tradeoffs\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"automotive_engineering_coupled_vehicle_tradeoffs\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring coupled vehicle tradeoffs through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Automotive Engineering: A Defect under Investigation\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"automotive_engineering_a_defect_under_investigation\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a defect under investigation through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Automotive Engineering: A New Component Tested\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"automotive_engineering_a_new_component_tested\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new component tested through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Automotive Engineering: An Engineer's Decision\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"automotive_engineering_an_engineer_s_decision\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an engineer's decision through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Automotive Engineering: A Recall and Redesign\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"automotive_engineering_a_recall_and_redesign\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a recall and redesign through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Automotive Engineering: One Vehicle System End to End\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"automotive_engineering_one_vehicle_system_end_to_end\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one vehicle system end to end through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Automotive Engineering: A Design Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"automotive_engineering_a_design_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a design retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Automotive Engineering: Two Generations Compared\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"automotive_engineering_two_generations_compared\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two generations compared through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Automotive Engineering: A Proposed Vehicle Feature\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"automotive_engineering_a_proposed_vehicle_feature\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed vehicle feature through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Automotive Engineering: A Headline Performance Number\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"automotive_engineering_a_headline_performance_number\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a headline performance number through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Automotive Engineering: From Prototype to Road\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"automotive_engineering_from_prototype_to_road\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from prototype to road through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Automotive Engineering: What Counts as the Car?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"automotive_engineering_what_counts_as_the_car\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring what counts as the car? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Automotive Engineering: Driver Command to Motion\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"automotive_engineering_driver_command_to_motion\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring driver command to motion through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Automotive Engineering: Safety, Mass, and Efficiency\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"automotive_engineering_safety_mass_and_efficiency\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring safety, mass, and efficiency through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Automotive Engineering: One Component Failure\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"automotive_engineering_one_component_failure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one component failure through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Automotive Engineering: Laboratory versus Road\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"automotive_engineering_laboratory_versus_road\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring laboratory versus road through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Automotive Engineering: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"automotive_engineering_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Automotive Engineering: A Defect under Investigation\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"automotive_engineering_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which failure mechanism is supported by current evidence backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Automotive Engineering: A New Component Tested\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"automotive_engineering_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring what changed when one component entered a production vehicle backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Automotive Engineering: A Headline Performance Number\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"automotive_engineering_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring which test conditions make a quoted result comparable backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Automotive Engineering: A Recall and Redesign\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"automotive_engineering_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what defect was identified, and what did the remedy address backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Automotive Engineering: Workers behind a Vehicle\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"automotive_engineering_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring which technician, supplier, or test team contribution is missing backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Automotive Engineering: From Prototype to Road\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"automotive_engineering_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring which test and manufacturing decisions changed one vehicle backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "418",
+      "niche_name": "automotive_engineering",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Automotive Engineering: A Vehicle System's Design History",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "automotive_engineering_a_vehicle_system_s_design_history",
+          "reason": "A rigorous pedagogical investigation exploring a vehicle system's design history through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Automotive Engineering: A Widely Studied Vehicle",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "automotive_engineering_a_widely_studied_vehicle",
+          "reason": "A rigorous pedagogical investigation exploring a widely studied vehicle through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Automotive Engineering: Workers behind a Vehicle",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "automotive_engineering_workers_behind_a_vehicle",
+          "reason": "A rigorous pedagogical investigation exploring workers behind a vehicle through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Automotive Engineering: Follow Energy through a Car",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "automotive_engineering_follow_energy_through_a_car",
+          "reason": "A rigorous pedagogical investigation exploring follow energy through a car through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Automotive Engineering: Coupled Vehicle Tradeoffs",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "automotive_engineering_coupled_vehicle_tradeoffs",
+          "reason": "A rigorous pedagogical investigation exploring coupled vehicle tradeoffs through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Automotive Engineering: A Defect under Investigation",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "automotive_engineering_a_defect_under_investigation",
+          "reason": "A rigorous pedagogical investigation exploring a defect under investigation through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Automotive Engineering: A New Component Tested",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "automotive_engineering_a_new_component_tested",
+          "reason": "A rigorous pedagogical investigation exploring a new component tested through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Automotive Engineering: An Engineer's Decision",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "automotive_engineering_an_engineer_s_decision",
+          "reason": "A rigorous pedagogical investigation exploring an engineer's decision through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Automotive Engineering: A Recall and Redesign",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "automotive_engineering_a_recall_and_redesign",
+          "reason": "A rigorous pedagogical investigation exploring a recall and redesign through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Automotive Engineering: One Vehicle System End to End",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "automotive_engineering_one_vehicle_system_end_to_end",
+          "reason": "A rigorous pedagogical investigation exploring one vehicle system end to end through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Automotive Engineering: A Design Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "automotive_engineering_a_design_retired",
+          "reason": "A rigorous pedagogical investigation exploring a design retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Automotive Engineering: Two Generations Compared",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "automotive_engineering_two_generations_compared",
+          "reason": "A rigorous pedagogical investigation exploring two generations compared through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Automotive Engineering: A Proposed Vehicle Feature",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "automotive_engineering_a_proposed_vehicle_feature",
+          "reason": "A rigorous pedagogical investigation exploring a proposed vehicle feature through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Automotive Engineering: A Headline Performance Number",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "automotive_engineering_a_headline_performance_number",
+          "reason": "A rigorous pedagogical investigation exploring a headline performance number through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Automotive Engineering: From Prototype to Road",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "automotive_engineering_from_prototype_to_road",
+          "reason": "A rigorous pedagogical investigation exploring from prototype to road through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Automotive Engineering: What Counts as the Car?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "automotive_engineering_what_counts_as_the_car",
+          "reason": "A rigorous pedagogical investigation exploring what counts as the car? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Automotive Engineering: Driver Command to Motion",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "automotive_engineering_driver_command_to_motion",
+          "reason": "A rigorous pedagogical investigation exploring driver command to motion through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Automotive Engineering: Safety, Mass, and Efficiency",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "automotive_engineering_safety_mass_and_efficiency",
+          "reason": "A rigorous pedagogical investigation exploring safety, mass, and efficiency through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Automotive Engineering: One Component Failure",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "automotive_engineering_one_component_failure",
+          "reason": "A rigorous pedagogical investigation exploring one component failure through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Automotive Engineering: Laboratory versus Road",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "automotive_engineering_laboratory_versus_road",
+          "reason": "A rigorous pedagogical investigation exploring laboratory versus road through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Automotive Engineering: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "automotive_engineering_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Automotive Engineering: A Defect under Investigation",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "automotive_engineering_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which failure mechanism is supported by current evidence backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Automotive Engineering: A New Component Tested",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "automotive_engineering_technology_innovation",
+          "why_trending": "High viral search interest exploring what changed when one component entered a production vehicle backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Automotive Engineering: A Headline Performance Number",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "automotive_engineering_myths_vs_facts",
+          "why_trending": "High viral search interest exploring which test conditions make a quoted result comparable backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Automotive Engineering: A Recall and Redesign",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "automotive_engineering_major_events",
+          "why_trending": "High viral search interest exploring what defect was identified, and what did the remedy address backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Automotive Engineering: Workers behind a Vehicle",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "automotive_engineering_hidden_stories",
+          "why_trending": "High viral search interest exploring which technician, supplier, or test team contribution is missing backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Automotive Engineering: From Prototype to Road",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "automotive_engineering_documentary_stories",
+          "why_trending": "High viral search interest exploring which test and manufacturing decisions changed one vehicle backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "9f3df6cd471027abc7850e08ce4ddb640e32f2d1f8df6d850e3e90bcf56afc06"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "d777940bad43a05e23b2bbc7d0d7690630eac217971f846bc3081721dd2e7933"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "271fc15a627e6f719d68dae61eaa66591b24a22cce88ecc81cfef2a537f38959"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "b2ec4c87c646f2fdf339ed675fe43ba115738820810c1d8d5bd5a34d326918ad"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "921ef89bd9248651010840cd8b6a71739227fb9aa61fa381059f7d96131f6efd"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "c4c1e10d067ce3f7328599fdff8c1258fff86ec7273b0bc88540efcdde1854c7"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-418-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-04",
+      "title": "Integrated vehicle systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-05",
+      "title": "Powertrain analysis",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-06",
+      "title": "Engineering models",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-07",
+      "title": "Vehicle production",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-418-08",
+      "title": "Vehicle engineering evidence",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "418",
+    "slug": "automotive_engineering",
+    "name": "Automotive Engineering",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Automotive Engineering YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-418-01",
+        "title": "Vehicle mechanics",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-418-001",
+            "title": "Suspension geometry",
+            "question": "Suspension geometry: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Vehicle mechanics. Address Suspension geometry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Suspension geometry.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-002",
+            "title": "Engine cooling circuits",
+            "question": "Engine cooling circuits: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Vehicle mechanics. Address Engine cooling circuits through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Engine cooling circuits.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-003",
+            "title": "Transmission ratios",
+            "question": "Transmission ratios: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Vehicle mechanics. Address Transmission ratios through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Transmission ratios.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-418-02",
+        "title": "Control systems",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-418-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-418-004",
+            "title": "Electronic stability control",
+            "question": "Electronic stability control: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Control systems. Address Electronic stability control through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Electronic stability control.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-005",
+            "title": "Brake force distribution",
+            "question": "Brake force distribution: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Control systems. Address Brake force distribution through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Brake force distribution.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-006",
+            "title": "Powertrain calibration",
+            "question": "Powertrain calibration: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Control systems. Address Powertrain calibration through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Powertrain calibration.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-418-03",
+        "title": "Validation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-418-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-418-007",
+            "title": "Crash-test protocols",
+            "question": "Crash-test protocols: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Validation. Address Crash-test protocols through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Crash-test protocols.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-008",
+            "title": "Noise and vibration analysis",
+            "question": "Noise and vibration analysis: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Validation. Address Noise and vibration analysis through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Noise and vibration analysis.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-418-009",
+            "title": "Durability test cycles",
+            "question": "Durability test cycles: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Automotive Engineering; branch: Validation. Address Durability test cycles through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Durability test cycles.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "022",
+        "title": "Cars / Automotive Stories",
+        "directory": "022_cars_automotive_stories",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "045",
+        "title": "Racing",
+        "directory": "045_racing",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "139",
+        "title": "Motorcycles",
+        "directory": "139_motorcycles",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "419",
+        "title": "Supercars",
+        "directory": "419_supercars",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "420",
+        "title": "Electric Vehicles",
+        "directory": "420_electric_vehicles",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "421",
+        "title": "EV Battery Technology",
+        "directory": "421_ev_battery_technology",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Automotive Engineering: A Vehicle System's Design History",
+      "question": "Which documented constraint drove an early design change?",
+      "coverage": "Trace dated drawings, tests, and production versions. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Widely Studied Vehicle",
+      "question": "Which engineering choices explain a named model's reputation?",
+      "coverage": "Compare measured outcomes with marketing and model-year changes. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Workers behind a Vehicle",
+      "question": "Which technician, supplier, or test team contribution is missing?",
+      "coverage": "Use credits, oral histories, and dated production records. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Follow Energy through a Car",
+      "question": "Where does energy enter, convert, dissipate, and reach the wheels?",
+      "coverage": "Specify powertrain and driving condition. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Coupled Vehicle Tradeoffs",
+      "question": "How does changing vehicle mass affect braking, handling, efficiency, and crash design?",
+      "coverage": "Use one defined vehicle and engineering model. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Defect under Investigation",
+      "question": "Which failure mechanism is supported by current evidence?",
+      "coverage": "Separate complaints, investigation, and confirmed cause. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A New Component Tested",
+      "question": "What changed when one component entered a production vehicle?",
+      "coverage": "Compare baseline and updated tests under matched conditions. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: An Engineer's Decision",
+      "question": "What evidence explains one named design choice?",
+      "coverage": "Use contemporaneous records and distinguish team work. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Recall and Redesign",
+      "question": "What defect was identified, and what did the remedy address?",
+      "coverage": "Trace official notice, affected models, and verification. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: One Vehicle System End to End",
+      "question": "How do sensors, controls, hardware, and driver interact?",
+      "coverage": "Follow a bounded function through input and response. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Design Retired",
+      "question": "Which cost, safety, reliability, or regulatory pressures ended one design?",
+      "coverage": "Compare documented versions and replacement. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Two Generations Compared",
+      "question": "Which measurements can be compared across model generations?",
+      "coverage": "Control mass, tires, test cycle, and equipment. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Proposed Vehicle Feature",
+      "question": "What proof would establish useful performance in production?",
+      "coverage": "Define tests, failure criteria, and deployment context. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: A Headline Performance Number",
+      "question": "Which test conditions make a quoted result comparable?",
+      "coverage": "Check protocol, configuration, and independent replication. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: From Prototype to Road",
+      "question": "Which test and manufacturing decisions changed one vehicle?",
+      "coverage": "Follow dated prototype, homologation, and production evidence. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: What Counts as the Car?",
+      "question": "Which outcomes depend on vehicle, driver, road, fuel, or service network?",
+      "coverage": "Define boundary before comparing performance. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Driver Command to Motion",
+      "question": "How does one command pass through control and actuation?",
+      "coverage": "Record latency, feedback, and operating mode. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Safety, Mass, and Efficiency",
+      "question": "What gains and losses followed a documented design compromise?",
+      "coverage": "Compare matched measurements and constraints. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: One Component Failure",
+      "question": "What failed first and how did effects spread?",
+      "coverage": "Use inspection, recall, or test evidence; avoid speculation. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Automotive Engineering: Laboratory versus Road",
+      "question": "Which dynamometer or track result fails to predict everyday use?",
+      "coverage": "State cycle, weather, load, and driver behavior. Evidence base: dated design and service documents, official test protocols and recalls, instrumented measurements, production records, and independent replication.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-418-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "ed5ae1ed9e6050b66e489bae2c199dd668e6cda60f6e3e80489b9ff21927d867",
+    "TOPIC_BANK_RECONCILIATION.md": "d243109ee8541e5749e62c7d0e0f9a2505f859702fc57f6cd5053ff792ac177e",
+    "TOPICS_COVERED_REPORT.md": "dde45be9a9fcc4d044bb69b0e7267e2813a70c263fb11bd997055d3987a4b87e",
+    "418_AUTOMOTIVE_ENGINEERING_CHANNEL_TOPIC_ROADMAP.md": "f11f7959f1417fe68ac8da8aa1cbf42b5fc1a7d27e08bf5e481951769d69c065"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-418-001": [
+      "BANK-418-036"
+    ],
+    "BANK-418-004": [
+      "BANK-418-037"
+    ],
+    "BANK-418-005": [
+      "BANK-418-037"
+    ],
+    "BANK-418-003": [
+      "BANK-418-038"
+    ],
+    "BANK-418-006": [
+      "BANK-418-038"
+    ],
+    "BANK-418-007": [
+      "BANK-418-039"
+    ],
+    "BANK-418-009": [
+      "BANK-418-039"
+    ],
+    "BANK-418-002": [
+      "BANK-418-038"
+    ],
+    "BANK-418-008": [
+      "BANK-418-044"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Vehicle thermal integration",
+      "next_step": "Trace shared heat rejection, controls and operating conditions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Drivetrain efficiency maps",
+      "next_step": "Compare load, speed and conversion pathways conceptually. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Chassis simulation",
+      "next_step": "Inspect parameter fitting, untested conditions and uncertainty. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Manufacturing quality assurance",
+      "next_step": "Compare tolerances, inspections and traceability. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Noise and vibration",
+      "next_step": "Trace source, transmission path and receiver using conceptual measurements rather than remote fault diagnosis. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 1,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How does tire contact affect braking beyond brake size?",
+      "coverage": "Compare grip, load transfer and surface conditions conceptually.",
+      "id": "BANK-418-031",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "duplicate_of": "BANK-045-020",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Compare tyre grip, load, energy, cooling and regulations using a specific racing category. / Compare grip, load transfer and surface conditions conceptually. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-418-R01"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-035 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-035"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-043 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-043"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-041 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-041"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-040 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-040"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-034 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-034"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-043 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-043"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-035 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-035"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-035 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-035"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-030 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-030"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-039 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-039"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-032 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-032"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-030 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-030"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-039 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-039"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-034 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-034"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "An extreme or superlative needs a defined metric, test conditions and dated comparator; the archived pitch names none.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-034 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-034"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-030 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-030"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "The named regulator/manufacturer records give a bounded example, with model years or test conditions and source limits in the linked note.",
+      "bank_ids": [
+        "BANK-418-045"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-043 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-043"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Existing BANK-418-039 covers the actionable engineering or comparison question; the broad archived pitch needs a dated model, test or document.",
+      "bank_ids": [
+        "BANK-418-039"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-418-045",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ]
+}

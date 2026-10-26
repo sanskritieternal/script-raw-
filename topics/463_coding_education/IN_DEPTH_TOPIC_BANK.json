@@ -1,0 +1,1626 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "463",
+  "slug": "coding_education",
+  "name": "Coding Education",
+  "primary_category": "Computing_Software",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Coding Education YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 11,
+    "proposed_topics": 15
+  },
+  "categories": [
+    {
+      "id": "CATALOG-463-R01",
+      "title": "Programming foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-463-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d1c04c2225ff3588dccde3de2cfad18f7bfe8e96d33e94e2758e1175b76b44b2",
+      "topics": [
+        {
+          "question": "Why does a variable's value differ from its name and type?",
+          "coverage": "Trace state changes in a small original program.",
+          "id": "BANK-463-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-001",
+            "BANK-463-003"
+          ]
+        },
+        {
+          "question": "How can a beginner debug a loop that never terminates?",
+          "coverage": "Use invariants, state tracing and stopping conditions.",
+          "id": "BANK-463-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-002",
+            "BANK-463-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R02",
+      "title": "Program construction",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-463-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "0a8fa577beef8277167fe0d17637f52ba66c0284e63d1cb5cf90a8d3776970ba",
+      "topics": [
+        {
+          "question": "When should repeated code become a function?",
+          "coverage": "Compare duplication, parameters and clarity without abstraction for its own sake.",
+          "id": "BANK-463-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do tests expose requirements that a working demo can miss?",
+          "coverage": "Use boundary cases and invalid inputs.",
+          "id": "BANK-463-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R03",
+      "title": "Learning and design",
+      "level": "advanced",
+      "parent_id": "DOMAIN-463-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7e64cf53f1d121864b31597adf0eed0e97e34c23747dadcae2a77e3f7c620825",
+      "topics": [
+        {
+          "question": "How can a beginner evaluate code suggested by an AI assistant?",
+          "coverage": "Trace behavior, dependencies and tests before adoption.",
+          "id": "BANK-463-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when a program must persist data across runs?",
+          "coverage": "Compare files, serialization and failure recovery.",
+          "id": "BANK-463-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did CS50x 2025 define acceptable help from its AI Duck during coding assignments?",
+          "coverage": "Compare the published 2025 CS50x course notes and academic-honesty policy on AI-assisted debugging, allowed tools and student-authored work; distinguish course rules and usage claims from measured learning effects.",
+          "id": "BANK-463-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R04",
+      "title": "Learning to code",
+      "level": "foundation",
+      "parent_id": "DOMAIN-463-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e1a9ad54b1b056ea5e0f4d49035a7ae66544ee45b76c6737877af9c6b3662479",
+      "topics": [
+        {
+          "question": "How can execution traces explain state changes better than copying a tutorial?",
+          "coverage": "Follow a small program step by step.",
+          "id": "BANK-463-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R05",
+      "title": "Learning to code",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-463-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d152712f47661f696c3fb339fd2258cdd4a5981d4f7d084e7787b0a2aca4ae86",
+      "topics": [
+        {
+          "question": "How can reading unfamiliar code expose a misconception about loops or variables?",
+          "coverage": "Compare predicted and observed behavior.",
+          "id": "BANK-463-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-006",
+            "BANK-463-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R06",
+      "title": "Learning to code",
+      "level": "advanced",
+      "parent_id": "DOMAIN-463-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "e8c9f1105edcfc5cbaf924d2c6b022d4991b04454746b62c4564e59c59238002",
+      "topics": [
+        {
+          "question": "What makes a coding environment accessible while preserving genuine problem solving?",
+          "coverage": "Compare input methods, feedback and transferable tasks.",
+          "id": "BANK-463-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-463-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R07",
+      "title": "Data structures",
+      "level": "foundation",
+      "parent_id": "DOMAIN-463-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "093d4719dc5bc01fd6724c373cb736536e541576abbd62504aa5e6c0381ace07",
+      "topics": [
+        {
+          "question": "Why does choosing a list or a map change how a program solves a lookup task?",
+          "coverage": "Trace operations and clarity in a small example.",
+          "id": "BANK-463-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R08",
+      "title": "Recursion",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-463-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2dda1ae6927fda39495356c406f09e70ef37c484b15a2e7ba5650acfbbd8cd55",
+      "topics": [
+        {
+          "question": "How can recursive code terminate reliably?",
+          "coverage": "Trace a base case and decreasing problem size.",
+          "id": "BANK-463-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R09",
+      "title": "File handling",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-463-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "c064b128e0221406cf98251fff3b4b698966de66269d4499a001823c4d3f2958",
+      "topics": [
+        {
+          "question": "How should a program handle a partially written input file?",
+          "coverage": "Compare validation, error reporting and recoverable state.",
+          "id": "BANK-463-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R10",
+      "title": "Version-control collaboration",
+      "level": "advanced",
+      "parent_id": "DOMAIN-463-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "46555ad4711756395997f9eb89385626df4adb14c4ab9fd21b8446ca839b4419",
+      "topics": [
+        {
+          "question": "How can two learners resolve a version-control conflict without losing either change?",
+          "coverage": "Use a disposable project and inspect intended behavior.",
+          "id": "BANK-463-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-463-R11",
+      "title": "Data structures",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-463-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2d2bc7b9667b278c0a1bcac08e0a6697b0dcffc40f88d12a8a766d543eb04773",
+      "topics": [
+        {
+          "question": "How do references and copied values change the effect of modifying a collection?",
+          "coverage": "Trace aliasing in an explicitly named language.",
+          "id": "BANK-463-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "media": {
+      "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+      "source_leads": [
+        "the actual work and authorized production materials",
+        "creator interviews or published craft explanations",
+        "permission-cleared examples and audience feedback"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "456",
+      "title": "Freelancing",
+      "directory": "456_freelancing",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "457",
+      "title": "Remote Work",
+      "directory": "457_remote_work",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "458",
+      "title": "Digital Nomad",
+      "directory": "458_digital_nomad",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "460",
+      "title": "AI Careers",
+      "directory": "460_ai_careers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "461",
+      "title": "Professional Skills",
+      "directory": "461_professional_skills",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "462",
+      "title": "Data Careers",
+      "directory": "462_data_careers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/463_coding_education/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "17b4e4d45a797812ce032ac17555da562d9736b53e4e318f6d740225cf4c8090",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-463-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3bc49f5b2d75585071933ff91729266022ee584409446db318a27c29f286f9a4"
+      },
+      "BANK-463-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5c7b1775d0d6e9cea8a0ac04bf1f5caf3bb159705adc0de6f437eb306c62ac9b"
+      },
+      "BANK-463-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "07e2c0ae4625828fa3a834f8754195f870f68b154675e2ba5a60f449a77da05f"
+      },
+      "BANK-463-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "e5f1bf2863206f76ac46b4dfed9ad113aa84155ffd989e8c891c0d3a2ca7e7d3"
+      },
+      "BANK-463-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "949ce96459cce6885aa47327acf8a027eb09393105ec15aecc277ee3f9de09d6"
+      },
+      "BANK-463-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "3cd35b2ec6997b6fe939263b060ee95c76cf6019037b4e9543b4250b21e29394"
+      },
+      "BANK-463-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "5dc7f58502c8985c1e032ad94bac35bd3dcc717d4c6e2f8e93ad941f7f314b1d"
+      },
+      "BANK-463-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "eff4ec41a785c2a7b25b9aa3a74f2ce5eee1b73e3de97ab0969eced7e02958e4"
+      },
+      "BANK-463-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "976aa0b88a159529bfea064971cb4945e33d97210d8d82ea316a48b058a4aac1"
+      }
+    },
+    "source_categories": {
+      "CATALOG-463-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "54b3ea1420865a8ca11fec97c5756949d1dfb27fbb66848aaa534383d294ab17"
+      },
+      "CATALOG-463-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "b10e33e71f5a45375cc6802946cc2824bd852a07d7ebbc3228ca4d299a93f025"
+      },
+      "CATALOG-463-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "6a5a135dc57fad210bffa9fd26e4d7b6b15c013b54aa1d6f730e74817bc11980"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "463_CODING_EDUCATION_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "07c2a0d9ab66d190eadf1a15555841e9a6c6ba40df5f77cc07e93665a7c8b6de",
+        "original_text": "# Coding Education Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 463 Coding Education (Computing_Software)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Coding Education Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/463_coding_education/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Coding Education across four progressive tiers:\r\n- **Tier 1: Coding Education Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Coding Education.\r\n- **Tier 2: Coding Education Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Coding Education.\r\n- **Tier 3: Coding Education Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Coding Education.\r\n- **Tier 4: Coding Education Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Coding Education.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/463_coding_education/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/463_coding_education/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Coding Curriculum Emerges** | *Which computing task shaped a teaching sequence?* |\r\n| 2 | `famous_examples` | **A Coding Lesson Rechecked** | *What can learners build and explain afterward?* |\r\n| 3 | `hidden_stories` | **Teachers and Support behind Code** | *Whose debugging, feedback, or accessibility work is omitted?* |\r\n| 4 | `beginner_explainers` | **Program, Input, and Output** | *How can a beginner predict one program's behavior?* |\r\n| 5 | `advanced_concepts` | **Abstraction for Learners** | *When does a useful abstraction hide a crucial detail?* |\r\n| 6 | `mysteries_unsolved_cases` | **Persistent Learner Bug** | *Which mistaken model explains repeated errors?* |\r\n| 7 | `technology_innovation` | **A Coding Tutor Evaluated** | *Does an automated hint improve independent problem solving?* |\r\n| 8 | `people_personalities` | **A Learner's Path** | *How did a student move from copying to design?* |\r\n| 9 | `major_events` | **A Course Changes Language** | *What learning goals changed with a language or tool switch?* |\r\n| 10 | `how_it_works` | **From Prompt to Working Program** | *How do planning, implementation, testing, and revision connect?* |\r\n| 11 | `rise_fall` | **A Teaching Tool Retired** | *Which access, maintenance, or learning evidence led to replacement?* |\r\n| 12 | `then_vs_now` | **Two Coding Courses** | *How do tasks and assessments differ across periods?* |\r\n| 13 | `future_developments` | **A Proposed AI Coding Course** | *What independent skills must still be assessed?* |\r\n| 14 | `myths_vs_facts` | **Syntax Equals Programming?** | *Can a learner reason about a new problem beyond memorized commands?* |\r\n| 15 | `documentary_stories` | **One Program's Learning Trail** | *How did initial code, test failures, and feedback lead to revision?* |\r\n| 16 | `system_boundary` | **Code or Whole System?** | *Which behavior depends on data, dependencies, and runtime?* |\r\n| 17 | `input_output_trace` | **Trace a Program** | *What output follows a given input and state?* |\r\n| 18 | `design_tradeoff` | **Readability and Performance** | *When does a simpler solution better serve a learning goal?* |\r\n| 19 | `failure_mode` | **A Bug as Evidence** | *What test reveals the learner's assumption?* |\r\n| 20 | `testing_limits` | **Passing One Test** | *What cases remain untested after a green check?* |\r\n| 21 | `standards_interoperability` | **Moving Code between Systems** | *Which format or API assumption blocks reuse?* |\r\n| 22 | `security_threat_model` | **Safe Coding Lesson** | *What defensive input and permission checks fit the learner's level?* |\r\n| 23 | `maintenance_lifecycle` | **A Student Project over Time** | *Can another learner understand and modify it?* |\r\n| 24 | `infrastructure_dependencies` | **Learning Environment** | *Which device, network, and account access is required?* |\r\n| 25 | `accessibility_usability` | **Accessible Coding Tools** | *Can varied learners navigate editor, errors, and output?* |\r\n| 26 | `independent_replication` | **Reproduce a Lesson Result** | *Can another teacher run the exercise?* |\r\n| 27 | `responsible_deployment` | **Publishing Learner Code** | *What privacy, license, and safety checks apply?* |\r\n| 28 | `field_software_architecture` | **Organizing a Small App** | *Which modules separate concerns without confusing learners?* |\r\n| 29 | `field_interface_design` | **A Usable Program** | *Can a novice user understand inputs and errors?* |\r\n| 30 | `field_version_changes` | **Library Update in Class** | *What broke when a dependency changed?* |\r\n| 31 | `field_open_standards` | **Portable Learning Artifact** | *Which open format enables reuse across tools?* |\r\n| 32 | `field_technical_debt` | **A Shortcut in Student Code** | *Which future change becomes harder?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Coding Education: A Coding Curriculum Emerges**\r\n   - *Question:* Which computing task shaped a teaching sequence?\r\n   - *Key Focus:* Trace dated standards and course materials. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n2. **Coding Education: A Coding Lesson Rechecked**\r\n   - *Question:* What can learners build and explain afterward?\r\n   - *Key Focus:* Use independent task evidence. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n3. **Coding Education: Teachers and Support behind Code**\r\n   - *Question:* Whose debugging, feedback, or accessibility work is omitted?\r\n   - *Key Focus:* Use course artifacts and credited accounts. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n4. **Coding Education: Program, Input, and Output**\r\n   - *Question:* How can a beginner predict one program's behavior?\r\n   - *Key Focus:* Use a small traceable example. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n5. **Coding Education: Abstraction for Learners**\r\n   - *Question:* When does a useful abstraction hide a crucial detail?\r\n   - *Key Focus:* Compare a model with execution evidence. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Coding Education: Persistent Learner Bug**\r\n   - *Question:* Which mistaken model explains repeated errors?\r\n   - *Key Focus:* Use anonymized code and learner reasoning. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n7. **Coding Education: A Coding Tutor Evaluated**\r\n   - *Question:* Does an automated hint improve independent problem solving?\r\n   - *Key Focus:* Compare delayed transfer tasks. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n8. **Coding Education: A Learner's Path**\r\n   - *Question:* How did a student move from copying to design?\r\n   - *Key Focus:* Use consented versions and context. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n9. **Coding Education: A Course Changes Language**\r\n   - *Question:* What learning goals changed with a language or tool switch?\r\n   - *Key Focus:* Compare assignments and outcomes. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n10. **Coding Education: From Prompt to Working Program**\r\n   - *Question:* How do planning, implementation, testing, and revision connect?\r\n   - *Key Focus:* Follow one bounded exercise. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Coding Education: A Teaching Tool Retired**\r\n   - *Question:* Which access, maintenance, or learning evidence led to replacement?\r\n   - *Key Focus:* Compare course records. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n12. **Coding Education: Two Coding Courses**\r\n   - *Question:* How do tasks and assessments differ across periods?\r\n   - *Key Focus:* Align learner age and prior experience. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n13. **Coding Education: A Proposed AI Coding Course**\r\n   - *Question:* What independent skills must still be assessed?\r\n   - *Key Focus:* Define tests and attribution. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n14. **Coding Education: Syntax Equals Programming?**\r\n   - *Question:* Can a learner reason about a new problem beyond memorized commands?\r\n   - *Key Focus:* Use transfer challenge. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n15. **Coding Education: One Program's Learning Trail**\r\n   - *Question:* How did initial code, test failures, and feedback lead to revision?\r\n   - *Key Focus:* Use version history. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Coding Education: Code or Whole System?**\r\n   - *Question:* Which behavior depends on data, dependencies, and runtime?\r\n   - *Key Focus:* Define environment before evaluating learner work. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n17. **Coding Education: Trace a Program**\r\n   - *Question:* What output follows a given input and state?\r\n   - *Key Focus:* Show steps and test result. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n18. **Coding Education: Readability and Performance**\r\n   - *Question:* When does a simpler solution better serve a learning goal?\r\n   - *Key Focus:* Compare correct alternatives. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n19. **Coding Education: A Bug as Evidence**\r\n   - *Question:* What test reveals the learner's assumption?\r\n   - *Key Focus:* Explain cause, not just fix. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n20. **Coding Education: Passing One Test**\r\n   - *Question:* What cases remain untested after a green check?\r\n   - *Key Focus:* Design edge and property cases. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 463 (Coding Education)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Coding Education: A Coding Curriculum Emerges*\r\n- **Episode Slug:** `463_coding_education_deep_dive_the_architecture_of_coding_education_a_coding_curriculum_eme`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/463_coding_education/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "16018e3abea0d8f7c46c1f9cba82aac774d9d1d777982687415f2c66d3f4b16f",
+        "original_text": "# 463 Coding Education -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 463 Coding Education (Computing_Software)  \r\n> **Storage Directory:** `topics/463_coding_education/`  \r\n> **Synchronized With:** `OUTPUT/463_coding_education/`, `REGISTRY/Niches/463_coding_education/`, and `463_CODING_EDUCATION_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 463 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/463_coding_education](../../OUTPUT/463_coding_education) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Coding Education: A Coding Curriculum Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `coding_education_a_coding_curriculum_emerges` | A rigorous pedagogical investigation exploring a coding curriculum emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Coding Education: A Coding Lesson Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `coding_education_a_coding_lesson_rechecked` | A rigorous pedagogical investigation exploring a coding lesson rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Coding Education: Teachers and Support behind Code** | Tier 1: Foundational Frameworks | `hidden_stories` | `coding_education_teachers_and_support_behind_code` | A rigorous pedagogical investigation exploring teachers and support behind code through documented evidence. | `QUEUED` |\r\n| 4 | **Coding Education: Program, Input, and Output** | Tier 1: Foundational Frameworks | `beginner_explainers` | `coding_education_program_input_and_output` | A rigorous pedagogical investigation exploring program, input, and output through documented evidence. | `QUEUED` |\r\n| 5 | **Coding Education: Abstraction for Learners** | Tier 1: Foundational Frameworks | `advanced_concepts` | `coding_education_abstraction_for_learners` | A rigorous pedagogical investigation exploring abstraction for learners through documented evidence. | `QUEUED` |\r\n| 6 | **Coding Education: Persistent Learner Bug** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `coding_education_persistent_learner_bug` | A rigorous pedagogical investigation exploring persistent learner bug through documented evidence. | `QUEUED` |\r\n| 7 | **Coding Education: A Coding Tutor Evaluated** | Tier 2: Methodological Deep Dives | `technology_innovation` | `coding_education_a_coding_tutor_evaluated` | A rigorous pedagogical investigation exploring a coding tutor evaluated through documented evidence. | `QUEUED` |\r\n| 8 | **Coding Education: A Learner's Path** | Tier 2: Methodological Deep Dives | `people_personalities` | `coding_education_a_learner_s_path` | A rigorous pedagogical investigation exploring a learner's path through documented evidence. | `QUEUED` |\r\n| 9 | **Coding Education: A Course Changes Language** | Tier 2: Methodological Deep Dives | `major_events` | `coding_education_a_course_changes_language` | A rigorous pedagogical investigation exploring a course changes language through documented evidence. | `QUEUED` |\r\n| 10 | **Coding Education: From Prompt to Working Program** | Tier 2: Methodological Deep Dives | `how_it_works` | `coding_education_from_prompt_to_working_program` | A rigorous pedagogical investigation exploring from prompt to working program through documented evidence. | `QUEUED` |\r\n| 11 | **Coding Education: A Teaching Tool Retired** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `coding_education_a_teaching_tool_retired` | A rigorous pedagogical investigation exploring a teaching tool retired through documented evidence. | `QUEUED` |\r\n| 12 | **Coding Education: Two Coding Courses** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `coding_education_two_coding_courses` | A rigorous pedagogical investigation exploring two coding courses through documented evidence. | `QUEUED` |\r\n| 13 | **Coding Education: A Proposed AI Coding Course** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `coding_education_a_proposed_ai_coding_course` | A rigorous pedagogical investigation exploring a proposed ai coding course through documented evidence. | `QUEUED` |\r\n| 14 | **Coding Education: Syntax Equals Programming?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `coding_education_syntax_equals_programming` | A rigorous pedagogical investigation exploring syntax equals programming? through documented evidence. | `QUEUED` |\r\n| 15 | **Coding Education: One Program's Learning Trail** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `coding_education_one_program_s_learning_trail` | A rigorous pedagogical investigation exploring one program's learning trail through documented evidence. | `QUEUED` |\r\n| 16 | **Coding Education: Code or Whole System?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `coding_education_code_or_whole_system` | A rigorous pedagogical investigation exploring code or whole system? through documented evidence. | `QUEUED` |\r\n| 17 | **Coding Education: Trace a Program** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `coding_education_trace_a_program` | A rigorous pedagogical investigation exploring trace a program through documented evidence. | `QUEUED` |\r\n| 18 | **Coding Education: Readability and Performance** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `coding_education_readability_and_performance` | A rigorous pedagogical investigation exploring readability and performance through documented evidence. | `QUEUED` |\r\n| 19 | **Coding Education: A Bug as Evidence** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `coding_education_a_bug_as_evidence` | A rigorous pedagogical investigation exploring a bug as evidence through documented evidence. | `QUEUED` |\r\n| 20 | **Coding Education: Passing One Test** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `coding_education_passing_one_test` | A rigorous pedagogical investigation exploring passing one test through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Coding Education: Record Extremes & Superlatives** | **98** | `extreme_case` | `coding_education_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **Coding Education: Persistent Learner Bug** | **96** | `mysteries_unsolved_cases` | `coding_education_mysteries_unsolved_cases` | High viral search interest exploring which mistaken model explains repeated errors backed by field records. | `Queued` |\r\n| 23 | **Coding Education: A Coding Tutor Evaluated** | **95** | `technology_innovation` | `coding_education_technology_innovation` | High viral search interest exploring does an automated hint improve independent problem solving backed by field records. | `Queued` |\r\n| 24 | **Coding Education: Syntax Equals Programming?** | **94** | `myths_vs_facts` | `coding_education_myths_vs_facts` | High viral search interest exploring can a learner reason about a new problem beyond memorized commands backed by field records. | `Queued` |\r\n| 25 | **Coding Education: A Course Changes Language** | **93** | `major_events` | `coding_education_major_events` | High viral search interest exploring what learning goals changed with a language or tool switch backed by field records. | `Queued` |\r\n| 26 | **Coding Education: Teachers and Support behind Code** | **92** | `hidden_stories` | `coding_education_hidden_stories` | High viral search interest exploring whose debugging, feedback, or accessibility work is omitted backed by field records. | `Queued` |\r\n| 27 | **Coding Education: One Program's Learning Trail** | **91** | `documentary_stories` | `coding_education_documentary_stories` | High viral search interest exploring how did initial code, test failures, and feedback lead to revision backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/463_coding_education/463_CODING_EDUCATION_CHANNEL_TOPIC_ROADMAP.md`](./463_CODING_EDUCATION_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/463_coding_education/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/463_coding_education/NICHE_463_coding_education.md`](file:///h:/script-raw-/REGISTRY/Niches/463_coding_education/NICHE_463_coding_education.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/463_coding_education/CAT_463_coding_education.md`](file:///h:/script-raw-/REGISTRY/Niches/463_coding_education/CAT_463_coding_education.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/463_coding_education/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/463_coding_education/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/463_coding_education/`](file:///h:/script-raw-/OUTPUT/463_coding_education/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "0281e3f55cdf75858c455d5d67cdf8a77f42294d44e402ec3c782bad8cb2ff36",
+        "original_text": "{\r\n  \"niche_id\": \"463\",\r\n  \"niche_name\": \"coding_education\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Coding Education: A Coding Curriculum Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"coding_education_a_coding_curriculum_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a coding curriculum emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Coding Education: A Coding Lesson Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"coding_education_a_coding_lesson_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a coding lesson rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Coding Education: Teachers and Support behind Code\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"coding_education_teachers_and_support_behind_code\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring teachers and support behind code through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Coding Education: Program, Input, and Output\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"coding_education_program_input_and_output\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring program, input, and output through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Coding Education: Abstraction for Learners\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"coding_education_abstraction_for_learners\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring abstraction for learners through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Coding Education: Persistent Learner Bug\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"coding_education_persistent_learner_bug\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring persistent learner bug through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Coding Education: A Coding Tutor Evaluated\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"coding_education_a_coding_tutor_evaluated\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a coding tutor evaluated through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Coding Education: A Learner's Path\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"coding_education_a_learner_s_path\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a learner's path through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Coding Education: A Course Changes Language\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"coding_education_a_course_changes_language\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a course changes language through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Coding Education: From Prompt to Working Program\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"coding_education_from_prompt_to_working_program\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from prompt to working program through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Coding Education: A Teaching Tool Retired\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"coding_education_a_teaching_tool_retired\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a teaching tool retired through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Coding Education: Two Coding Courses\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"coding_education_two_coding_courses\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two coding courses through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Coding Education: A Proposed AI Coding Course\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"coding_education_a_proposed_ai_coding_course\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed ai coding course through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Coding Education: Syntax Equals Programming?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"coding_education_syntax_equals_programming\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring syntax equals programming? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Coding Education: One Program's Learning Trail\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"coding_education_one_program_s_learning_trail\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one program's learning trail through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Coding Education: Code or Whole System?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"coding_education_code_or_whole_system\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring code or whole system? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Coding Education: Trace a Program\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"coding_education_trace_a_program\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring trace a program through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Coding Education: Readability and Performance\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"coding_education_readability_and_performance\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring readability and performance through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Coding Education: A Bug as Evidence\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"coding_education_a_bug_as_evidence\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a bug as evidence through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Coding Education: Passing One Test\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"coding_education_passing_one_test\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring passing one test through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Coding Education: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"coding_education_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Coding Education: Persistent Learner Bug\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"coding_education_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring which mistaken model explains repeated errors backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Coding Education: A Coding Tutor Evaluated\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"coding_education_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring does an automated hint improve independent problem solving backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Coding Education: Syntax Equals Programming?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"coding_education_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring can a learner reason about a new problem beyond memorized commands backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Coding Education: A Course Changes Language\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"coding_education_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what learning goals changed with a language or tool switch backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Coding Education: Teachers and Support behind Code\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"coding_education_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose debugging, feedback, or accessibility work is omitted backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Coding Education: One Program's Learning Trail\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"coding_education_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did initial code, test failures, and feedback lead to revision backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "463",
+      "niche_name": "coding_education",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Coding Education: A Coding Curriculum Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "coding_education_a_coding_curriculum_emerges",
+          "reason": "A rigorous pedagogical investigation exploring a coding curriculum emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Coding Education: A Coding Lesson Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "coding_education_a_coding_lesson_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring a coding lesson rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Coding Education: Teachers and Support behind Code",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "coding_education_teachers_and_support_behind_code",
+          "reason": "A rigorous pedagogical investigation exploring teachers and support behind code through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Coding Education: Program, Input, and Output",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "coding_education_program_input_and_output",
+          "reason": "A rigorous pedagogical investigation exploring program, input, and output through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Coding Education: Abstraction for Learners",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "coding_education_abstraction_for_learners",
+          "reason": "A rigorous pedagogical investigation exploring abstraction for learners through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Coding Education: Persistent Learner Bug",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "coding_education_persistent_learner_bug",
+          "reason": "A rigorous pedagogical investigation exploring persistent learner bug through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Coding Education: A Coding Tutor Evaluated",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "coding_education_a_coding_tutor_evaluated",
+          "reason": "A rigorous pedagogical investigation exploring a coding tutor evaluated through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Coding Education: A Learner's Path",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "coding_education_a_learner_s_path",
+          "reason": "A rigorous pedagogical investigation exploring a learner's path through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Coding Education: A Course Changes Language",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "coding_education_a_course_changes_language",
+          "reason": "A rigorous pedagogical investigation exploring a course changes language through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Coding Education: From Prompt to Working Program",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "coding_education_from_prompt_to_working_program",
+          "reason": "A rigorous pedagogical investigation exploring from prompt to working program through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Coding Education: A Teaching Tool Retired",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "coding_education_a_teaching_tool_retired",
+          "reason": "A rigorous pedagogical investigation exploring a teaching tool retired through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Coding Education: Two Coding Courses",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "coding_education_two_coding_courses",
+          "reason": "A rigorous pedagogical investigation exploring two coding courses through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Coding Education: A Proposed AI Coding Course",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "coding_education_a_proposed_ai_coding_course",
+          "reason": "A rigorous pedagogical investigation exploring a proposed ai coding course through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Coding Education: Syntax Equals Programming?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "coding_education_syntax_equals_programming",
+          "reason": "A rigorous pedagogical investigation exploring syntax equals programming? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Coding Education: One Program's Learning Trail",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "coding_education_one_program_s_learning_trail",
+          "reason": "A rigorous pedagogical investigation exploring one program's learning trail through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Coding Education: Code or Whole System?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "coding_education_code_or_whole_system",
+          "reason": "A rigorous pedagogical investigation exploring code or whole system? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Coding Education: Trace a Program",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "coding_education_trace_a_program",
+          "reason": "A rigorous pedagogical investigation exploring trace a program through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Coding Education: Readability and Performance",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "coding_education_readability_and_performance",
+          "reason": "A rigorous pedagogical investigation exploring readability and performance through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Coding Education: A Bug as Evidence",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "coding_education_a_bug_as_evidence",
+          "reason": "A rigorous pedagogical investigation exploring a bug as evidence through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Coding Education: Passing One Test",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "coding_education_passing_one_test",
+          "reason": "A rigorous pedagogical investigation exploring passing one test through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Coding Education: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "coding_education_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Coding Education: Persistent Learner Bug",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "coding_education_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring which mistaken model explains repeated errors backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Coding Education: A Coding Tutor Evaluated",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "coding_education_technology_innovation",
+          "why_trending": "High viral search interest exploring does an automated hint improve independent problem solving backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Coding Education: Syntax Equals Programming?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "coding_education_myths_vs_facts",
+          "why_trending": "High viral search interest exploring can a learner reason about a new problem beyond memorized commands backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Coding Education: A Course Changes Language",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "coding_education_major_events",
+          "why_trending": "High viral search interest exploring what learning goals changed with a language or tool switch backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Coding Education: Teachers and Support behind Code",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "coding_education_hidden_stories",
+          "why_trending": "High viral search interest exploring whose debugging, feedback, or accessibility work is omitted backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Coding Education: One Program's Learning Trail",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "coding_education_documentary_stories",
+          "why_trending": "High viral search interest exploring how did initial code, test failures, and feedback lead to revision backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "69c418d466339918acbaee9ccc38e0225afb60c70a05e21544f06e3ee77e46ef"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "ded8eb56ddfc627ca7b24f7c36afef7a7a5baac088e6253b930290b447cd5637"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "62a7d09645894f25f18a120cff9765fb98cc4a57af90810f6b5cfa2f4df1f6c4"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "2e2b78865c1798326f716cb766c942392baa8326b2abff56465d82910042418b"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "6b3decf1a9a3660fd0745102ffd19bed89e3d8f64611c3c51e9e974e58143a32"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "796fe70e56eab88e6660fb88c76909f45e69283ab6a2fa1ee6d60b7a408b7887"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-463-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-463-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-463-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-463-04",
+      "title": "Programming concepts",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-463-05",
+      "title": "Program reliability",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-463-06",
+      "title": "Programming practice",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "463",
+    "slug": "coding_education",
+    "name": "Coding Education",
+    "primary_category": "Computing_Software",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Coding Education YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-463-01",
+        "title": "Teaching code",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "media",
+        "topics": [
+          {
+            "id": "BANK-463-001",
+            "title": "Tracing program execution",
+            "question": "Tracing program execution: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Coding Education; branch: Teaching code. Address Tracing program execution through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Tracing program execution.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-002",
+            "title": "Visualizing loops",
+            "question": "Visualizing loops: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Coding Education; branch: Teaching code. Address Visualizing loops through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Visualizing loops.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-003",
+            "title": "Explaining state changes",
+            "question": "Explaining state changes: which creative choices change what the audience understands?",
+            "coverage": "Primary context: Coding Education; branch: Teaching code. Address Explaining state changes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Identify the audience, format and communication problem for Explaining state changes.",
+              "Annotate a specific scene, design or draft to show how the creative choice works.",
+              "Compare a revised version and explain what information, feeling or interpretation changes.",
+              "Check accessibility, rights, consent and possible misreadings before treating the example as a reusable method."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-463-02",
+        "title": "Learning tasks",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-463-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-463-004",
+            "title": "Debugging small programs",
+            "question": "Debugging small programs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Coding Education; branch: Learning tasks. Address Debugging small programs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Debugging small programs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-005",
+            "title": "Designing test cases",
+            "question": "Designing test cases: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Coding Education; branch: Learning tasks. Address Designing test cases through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Designing test cases.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-006",
+            "title": "Reading unfamiliar code",
+            "question": "Reading unfamiliar code: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Coding Education; branch: Learning tasks. Address Reading unfamiliar code through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Reading unfamiliar code.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-463-03",
+        "title": "Assessment",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-463-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-463-007",
+            "title": "Transfer beyond tutorial copying",
+            "question": "Transfer beyond tutorial copying: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Coding Education; branch: Assessment. Address Transfer beyond tutorial copying through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Transfer beyond tutorial copying precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-008",
+            "title": "Feedback on misconceptions",
+            "question": "Feedback on misconceptions: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Coding Education; branch: Assessment. Address Feedback on misconceptions through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Feedback on misconceptions precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-463-009",
+            "title": "Accessible coding environments",
+            "question": "Accessible coding environments: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Coding Education; branch: Assessment. Address Accessible coding environments through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Accessible coding environments precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      },
+      "media": {
+        "requirements": "Analyze an identifiable work or create a clearly labeled original example. Connect creative decisions to observable audience information; respect rights, attribution, consent and the difference between intent and reception.",
+        "source_leads": [
+          "the actual work and authorized production materials",
+          "creator interviews or published craft explanations",
+          "permission-cleared examples and audience feedback"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "456",
+        "title": "Freelancing",
+        "directory": "456_freelancing",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "457",
+        "title": "Remote Work",
+        "directory": "457_remote_work",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "458",
+        "title": "Digital Nomad",
+        "directory": "458_digital_nomad",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "460",
+        "title": "AI Careers",
+        "directory": "460_ai_careers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "461",
+        "title": "Professional Skills",
+        "directory": "461_professional_skills",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "462",
+        "title": "Data Careers",
+        "directory": "462_data_careers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Coding Education: A Coding Curriculum Emerges",
+      "question": "Which computing task shaped a teaching sequence?",
+      "coverage": "Trace dated standards and course materials. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Coding Lesson Rechecked",
+      "question": "What can learners build and explain afterward?",
+      "coverage": "Use independent task evidence. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Teachers and Support behind Code",
+      "question": "Whose debugging, feedback, or accessibility work is omitted?",
+      "coverage": "Use course artifacts and credited accounts. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Program, Input, and Output",
+      "question": "How can a beginner predict one program's behavior?",
+      "coverage": "Use a small traceable example. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Abstraction for Learners",
+      "question": "When does a useful abstraction hide a crucial detail?",
+      "coverage": "Compare a model with execution evidence. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Persistent Learner Bug",
+      "question": "Which mistaken model explains repeated errors?",
+      "coverage": "Use anonymized code and learner reasoning. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Coding Tutor Evaluated",
+      "question": "Does an automated hint improve independent problem solving?",
+      "coverage": "Compare delayed transfer tasks. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Learner's Path",
+      "question": "How did a student move from copying to design?",
+      "coverage": "Use consented versions and context. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Course Changes Language",
+      "question": "What learning goals changed with a language or tool switch?",
+      "coverage": "Compare assignments and outcomes. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: From Prompt to Working Program",
+      "question": "How do planning, implementation, testing, and revision connect?",
+      "coverage": "Follow one bounded exercise. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Teaching Tool Retired",
+      "question": "Which access, maintenance, or learning evidence led to replacement?",
+      "coverage": "Compare course records. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Two Coding Courses",
+      "question": "How do tasks and assessments differ across periods?",
+      "coverage": "Align learner age and prior experience. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Proposed AI Coding Course",
+      "question": "What independent skills must still be assessed?",
+      "coverage": "Define tests and attribution. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Syntax Equals Programming?",
+      "question": "Can a learner reason about a new problem beyond memorized commands?",
+      "coverage": "Use transfer challenge. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: One Program's Learning Trail",
+      "question": "How did initial code, test failures, and feedback lead to revision?",
+      "coverage": "Use version history. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Code or Whole System?",
+      "question": "Which behavior depends on data, dependencies, and runtime?",
+      "coverage": "Define environment before evaluating learner work. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Trace a Program",
+      "question": "What output follows a given input and state?",
+      "coverage": "Show steps and test result. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Readability and Performance",
+      "question": "When does a simpler solution better serve a learning goal?",
+      "coverage": "Compare correct alternatives. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: A Bug as Evidence",
+      "question": "What test reveals the learner's assumption?",
+      "coverage": "Explain cause, not just fix. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Coding Education: Passing One Test",
+      "question": "What cases remain untested after a green check?",
+      "coverage": "Design edge and property cases. Evidence base: CSTA computer-science learning objectives, versioned learner programs, task and rubric records, independent tests, learner explanations, and accessibility audits.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-463-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "110b42d31896abd7412e4f0793099e51995620e72006caead191aca65e7559a8",
+    "TOPIC_BANK_RECONCILIATION.md": "2ad07f69edd7450a653c3095e33890aa4f9c51422867295df0d316070e6821ab",
+    "TOPICS_COVERED_REPORT.md": "7272a67cef92a4a3facb8767eed7e1161e04ba8ec071722cdee3d26285cf4229",
+    "463_CODING_EDUCATION_CHANNEL_TOPIC_ROADMAP.md": "74235e3000089f1853382943d7fd6236c1320c0b0613de889231899259e18a08"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-463-006": [
+      "BANK-463-037"
+    ],
+    "BANK-463-009": [
+      "BANK-463-038"
+    ],
+    "BANK-463-001": [
+      "BANK-463-030"
+    ],
+    "BANK-463-003": [
+      "BANK-463-030"
+    ],
+    "BANK-463-002": [
+      "BANK-463-031"
+    ],
+    "BANK-463-004": [
+      "BANK-463-031"
+    ],
+    "BANK-463-005": [
+      "BANK-463-033"
+    ],
+    "BANK-463-007": [
+      "BANK-463-036"
+    ],
+    "BANK-463-008": [
+      "BANK-463-037"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Data structures",
+      "next_step": "Trace operations and clarity in a small example. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Recursion",
+      "next_step": "Trace a base case and decreasing problem size. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for File handling",
+      "next_step": "Compare validation, error reporting and recoverable state. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Version-control collaboration",
+      "next_step": "Use a disposable project and inspect intended behavior. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 0,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'The Architecture of Coding Education: A Coding Curriculum Emerges' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: A Coding Lesson Rechecked' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-034"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Teachers and Support behind Code' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-038"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Program, Input, and Output' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-030"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Abstraction for Learners' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-032"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Persistent Learner Bug' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-031"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Coding Education: A Coding Tutor Evaluated' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: A Learner's Path' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-036"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Coding Education: A Course Changes Language' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: From Prompt to Working Program' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-033"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "out_of_scope",
+      "reason": "Archived pitch 'Coding Education: A Teaching Tool Retired' needs a documented named case and evidence for its implied claim; retain the unchanged record for later review.",
+      "bank_ids": []
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Two Coding Courses' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-032"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Coding Education: A Proposed AI Coding Course' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Syntax Equals Programming?' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-034"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: One Program's Learning Trail' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-036"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Code or Whole System?' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-035"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Trace a Program' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-036"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Readability and Performance' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-032"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: A Bug as Evidence' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-031"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Passing One Test' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-033"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "out_of_scope",
+      "reason": "Archived pitch 'Coding Education: Record Extremes & Superlatives' needs a documented named case and evidence for its implied claim; retain the unchanged record for later review.",
+      "bank_ids": []
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Persistent Learner Bug' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-031"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Coding Education: A Coding Tutor Evaluated' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Syntax Equals Programming?' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-034"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Archived pitch 'Coding Education: A Course Changes Language' routes to this named source case; the linked note bounds the evidence and rights.",
+      "bank_ids": [
+        "BANK-463-044"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: Teachers and Support behind Code' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-038"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "existing_scope",
+      "reason": "Archived pitch 'Coding Education: One Program's Learning Trail' fits this existing active question's method or subject, but requires its own case, date and source before scripting.",
+      "bank_ids": [
+        "BANK-463-036"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-463-044",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ]
+}

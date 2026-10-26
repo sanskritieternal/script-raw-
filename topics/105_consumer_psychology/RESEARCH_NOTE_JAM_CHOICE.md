@@ -1,0 +1,7 @@
+# Bounded source note: the 6-versus-24 jam display
+
+Accessed 2026-10-24. Original research: Iyengar, S. S., and Lepper, M. R. (2000), [“When Choice Is Demotivating: Can One Desire Too Much of a Good Thing?”](https://www.decisionskills.com/uploads/5/1/6/0/5160560/iyengar_2000_when_choice_is_demotivating.pdf), *Journal of Personality and Social Psychology* 79(6), 995–1006, DOI: 10.1037//0022-3514.79.6.995. The [PubMed record](https://pubmed.ncbi.nlm.nih.gov/11138768/) identifies the published study.
+
+Study 1 used tasting booths at Draeger’s Supermarket in Menlo Park, California, on two Saturdays. The booth rotated between six and 24 Wilkin & Sons jam flavors. Of the shoppers who encountered each booth, 60% (145/242) stopped at the larger display and 40% (104/260) at the smaller one. Among the 249 who stopped, later coupon-coded purchases were 4/145 for the large-display condition and 31/104 for the small-display condition. Both groups encountered the full jam shelf when purchasing. Thus **attention and purchase were different outcomes with different denominators**.
+
+Limits: one upscale store, one inexpensive product, short observation window, selected flavors, and a coupon-linked purchase measure. The paper itself discusses alternative explanations. This result does not show that all large assortments reduce sales or that any particular shopper was “frozen.” A production episode should review later replication and product-context evidence before generalizing. This is a selected study check, not verification of all new consumer cases.

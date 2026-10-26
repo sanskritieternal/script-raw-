@@ -1,0 +1,1643 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "348",
+  "slug": "earth_science",
+  "name": "Earth Science",
+  "primary_category": "Earth_Environment",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a Earth Science YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 12,
+    "proposed_topics": 13
+  },
+  "categories": [
+    {
+      "id": "CATALOG-348-R01",
+      "title": "Earth interactions",
+      "level": "foundation",
+      "parent_id": "DOMAIN-348-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "eef370cd668c851ea227e22f41acf270c2af888b31fcca75f0e6d4d25003d89b",
+      "topics": [
+        {
+          "question": "How do rock, water, air and life change each other over time?",
+          "coverage": "Trace one bounded feedback cycle and distinguish fast responses from geological processes.",
+          "id": "BANK-348-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What did Aura MLS measure after the 2022 Hunga Tonga eruption, and what remains an inference?",
+          "coverage": "Follow the dated 2022 stratospheric water-vapor anomaly from MLS measurements and source-attribution analysis. Separate observed plume and bounded mass estimate from later climate-effect projections and volcanic hazard advice.",
+          "id": "BANK-348-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R02",
+      "title": "Remote sensing",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7765aa6f32a99190d40833fcfa161a1928da5ea34cbcb174592dc872610e2d86",
+      "topics": [
+        {
+          "question": "Why can satellites and ground stations report different views of the same Earth process?",
+          "coverage": "Compare footprint, timing, retrieval assumptions, calibration and spatial variability.",
+          "id": "BANK-348-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How did the Landsat 9 underflight of Landsat 8 test whether two Earth images could be compared?",
+          "coverage": "Use the 2021 near-simultaneous underflight and USGS 2022 calibration publication to examine common targets, sensor differences and data-product uncertainty. Do not assume identical pixels or that calibration proves an environmental trend.",
+          "id": "BANK-348-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R03",
+      "title": "Carbon reservoirs",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "14042f9cbf653a559f20cf10d31da9583bc75010782b7eacf96c857ec1629a8f",
+      "topics": [
+        {
+          "question": "Why does moving carbon between reservoirs matter as much as its total amount?",
+          "coverage": "Compare stocks, flows, residence time and exchange pathways with a labeled conceptual budget.",
+          "id": "BANK-348-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-348-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R04",
+      "title": "Past environments",
+      "level": "advanced",
+      "parent_id": "DOMAIN-348-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "6375dc7e50097fc16b5fbbf0320d7c331695e28f2695f88059ded2482597169a",
+      "topics": [
+        {
+          "question": "How can several imperfect proxies reconstruct a past environment?",
+          "coverage": "Compare independent records, dating, local biases and agreement limits; avoid treating reconstruction as direct measurement.",
+          "id": "BANK-348-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R05",
+      "title": "Tomography",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "603d1b7f674cc8d904d17df8caf13ea4d8e4503d8652be81560798327739b172",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-348-R06",
+      "title": "Gravimetry",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "10d545e21c12c97c1051e8fe50c73f8c5272fc3949ca014ece192949228616b8",
+      "topics": [
+        {
+          "question": "How can satellites infer changes in water or ice from tiny changes in gravity?",
+          "coverage": "Compare mass redistribution, orbital measurement, spatial resolution and other contributing signals.",
+          "id": "BANK-348-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-348-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R07",
+      "title": "Geodesy",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "815ff889d549e002f3b42f904020a9ef7cde8736b6660e3f812b150260cb8765",
+      "topics": [
+        {
+          "question": "Why does measuring Earth's shape require a changing reference frame?",
+          "coverage": "Compare rotation, plate motion, gravity, sea level and coordinate conventions.",
+          "id": "BANK-348-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-348-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R08",
+      "title": "Weathering",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "876933f54c21b493170c8eadbc18bd87016b56a1fc197fa91711c9c941227fcd",
+      "topics": [
+        {
+          "question": "How can breaking down rock influence atmospheric carbon over long times?",
+          "coverage": "Trace chemical reactions, water transport, burial and geological feedbacks with clearly stated time scales.",
+          "id": "BANK-348-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-348-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R09",
+      "title": "Sediment",
+      "level": "advanced",
+      "parent_id": "DOMAIN-348-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "07eed45833a5f8341f32c313691c07779a59d529b04dfb2511edab6731460806",
+      "topics": [
+        {
+          "question": "How do dams, mining and land clearing change Earth's sediment pathways?",
+          "coverage": "Compare mobilization, storage, trapping and downstream delivery across a bounded catchment.",
+          "id": "BANK-348-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-348-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R10",
+      "title": "Plate coupling",
+      "level": "advanced",
+      "parent_id": "DOMAIN-348-09",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d557101ce4a1fd5e6e7e0be2c827b33e4d24f9d0669073b8a1c55299304b95c1",
+      "topics": [
+        {
+          "question": "How can neighboring sections of a plate boundary transfer or store deformation differently?",
+          "coverage": "Compare locking, creeping, geodetic observations, rock properties and modeling limits; exclude earthquake forecasts.",
+          "covers_starter_ids": [
+            "BANK-348-001"
+          ],
+          "id": "BANK-348-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R11",
+      "title": "Land and atmosphere",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-348-10",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "a27e783a428ab022c49177ddb6e5f9c3843ff1096cf17e7b5d489b101f6abdd4",
+      "topics": [
+        {
+          "question": "How can changing vegetation alter local exchanges of heat and water with the atmosphere?",
+          "coverage": "Compare evapotranspiration, reflectivity, roughness and seasonal context without asserting every planting project cools equally.",
+          "covers_starter_ids": [
+            "BANK-348-007"
+          ],
+          "id": "BANK-348-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-348-R12",
+      "title": "Ocean heat",
+      "level": "advanced",
+      "parent_id": "DOMAIN-348-11",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "83a8e2fe71501ee4e252b733fa943f6ca07df67f0c05a00034cfb466b69034b4",
+      "topics": [
+        {
+          "question": "Why can oceans store a climate signal that differs from surface-air temperature trends?",
+          "coverage": "Compare heat capacity, mixing, depth, circulation and measurement coverage.",
+          "covers_starter_ids": [
+            "BANK-348-008"
+          ],
+          "id": "BANK-348-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "006",
+      "title": "Science & Big Questions",
+      "directory": "006_science_big_questions",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "118",
+      "title": "Scientists & Discoverers",
+      "directory": "118_scientists_discoverers",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "343",
+      "title": "Physics",
+      "directory": "343_physics",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "344",
+      "title": "Astronomy",
+      "directory": "344_astronomy",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "345",
+      "title": "Planetary Science",
+      "directory": "345_planetary_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "346",
+      "title": "Moon Science",
+      "directory": "346_moon_science",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/348_earth_science/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "182fb162d9767c3be7e0a587422906bfee7ed9a2542a5a2404d61196b08b35e8",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-348-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "fbf6a004b8ae30b313f1619a957eaa0571204b0dccd3abd72f891085b58b5d46"
+      },
+      "BANK-348-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "cd990db940287c8571aa55d18ec2cb85248710c352beffdf9b5b377e85995b12"
+      },
+      "BANK-348-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "a98481c60a1043ef539da6597da7d0a383668dc12e4adf51354e023fbadad6de"
+      },
+      "BANK-348-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "349fc9e5cffd9afa57011f49a446fb8b082dc2454e564c3c55a562911c1ed12d"
+      },
+      "BANK-348-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "f0993cffb46320eed20ff29e8ec7cedd0b3b294e1b9b4cf62e3a61376c2c3821"
+      },
+      "BANK-348-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "04427fc1edc200e1162f6409c1f4d62c12721b9f20ecb7fb53d0c034441f492f"
+      },
+      "BANK-348-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "b11d0533caad8291eea82db4925321093904eccafa2eaee88673570fc57a69b5"
+      },
+      "BANK-348-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "c458d97e5f4f4ac9dda310b07aa18362947a88f5e0af4c4c2d14826cc5cc10c3"
+      },
+      "BANK-348-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "532347067a1c859b05e609d345dc5f516bb7a30df5fdd1fd49abfe1cca186121"
+      }
+    },
+    "source_categories": {
+      "CATALOG-348-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "8076dfb0fb3916e878d9dca20ea22db1456e972f0653cc63609dd656e14b8190"
+      },
+      "CATALOG-348-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "54313361c982041c66202927a1dba857fd863007c445eaa8835333c30e1706ce"
+      },
+      "CATALOG-348-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "da5a028bf43309a88466ae19053f639ba0ddf6c194cc61b11c68c26be21b4cb9"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "348_EARTH_SCIENCE_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "64ef787eb13de202d5f5e15b33956f5993c8276932ddcfa218daf5a9d963d260",
+        "original_text": "# Earth Science Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 348 Earth Science (Earth_Environment)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** Earth Science Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/348_earth_science/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of Earth Science across four progressive tiers:\r\n- **Tier 1: Earth Science Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in Earth Science.\r\n- **Tier 2: Earth Science Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of Earth Science.\r\n- **Tier 3: Earth Science Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in Earth Science.\r\n- **Tier 4: Earth Science Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for Earth Science.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/348_earth_science/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/348_earth_science/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **An Earth-System Question Emerges** | *Which observation led to a testable account of change?* |\r\n| 2 | `famous_examples` | **An Earth Image Rechecked** | *What does one satellite product measure rather than show directly?* |\r\n| 3 | `hidden_stories` | **People Collecting Ground Truth** | *Who maintains stations, takes samples, and validates satellite data?* |\r\n| 4 | `beginner_explainers` | **Earth as Interacting Systems** | *How do air, water, land, ice, and living things affect one outcome?* |\r\n| 5 | `advanced_concepts` | **Attribution Across Causes** | *Which observations separate natural variability and human drivers?* |\r\n| 6 | `mysteries_unsolved_cases` | **A Conflicting Earth Dataset** | *Why do two products disagree for one region?* |\r\n| 7 | `technology_innovation` | **A New Earth-Observing Sensor** | *Which change could it measure more accurately?* |\r\n| 8 | `people_personalities` | **A Field Campaign's Choices** | *Who chose sites and whose knowledge informed the design?* |\r\n| 9 | `major_events` | **A Documented Environmental Change** | *What happened before, during, and after one event?* |\r\n| 10 | `how_it_works` | **Satellite Data to Earth Map** | *How are radiation measurements processed into a land or water product?* |\r\n| 11 | `rise_fall` | **An Environmental Trend** | *How much of a measured change reflects baseline, method, or real process?* |\r\n| 12 | `then_vs_now` | **One Place Across Decades** | *How did land, water, or air conditions change?* |\r\n| 13 | `future_developments` | **A Proposed Earth-Observing Mission** | *Which data gap would it close and for whom?* |\r\n| 14 | `myths_vs_facts` | **One Weather Event Proves a Trend?** | *What time series and causal evidence are needed?* |\r\n| 15 | `documentary_stories` | **A Field-to-Satellite Study** | *How did local measurements support a regional claim?* |\r\n| 16 | `observation_to_explanation` | **From Pixel to Earth Process** | *Which interpretation links a sensor value to physical change?* |\r\n| 17 | `measurement_method` | **Measuring an Earth Variable** | *Which station, satellite, or sample produced the value?* |\r\n| 18 | `scale_and_timespan` | **Local Event, Global Trend** | *When can a short or local record support broad inference?* |\r\n| 19 | `field_vs_lab` | **Field Observation and Controlled Study** | *How do laboratory mechanisms compare with open Earth systems?* |\r\n| 20 | `natural_variation` | **Seasonal and Year-to-Year Change** | *How much variation is expected without a new driver?* |\r\n| 21 | `mechanism_chain` | **Tracing an Earth-System Effect** | *Which physical and ecological steps link driver to outcome?* |\r\n| 22 | `extreme_case` | **An Exceptional Earth Event** | *What can an outlier teach without generalizing it?* |\r\n| 23 | `classification_debate` | **Defining Land Cover or Hazard** | *Which operational threshold changes a map or count?* |\r\n| 24 | `interacting_systems` | **Atmosphere, Water, Land, and Life** | *Which feedbacks matter for a bounded question?* |\r\n| 25 | `data_gap` | **Places Without Ground Measurements** | *Which regions or communities are poorly represented?* |\r\n| 26 | `prediction_test` | **An Earth Model Put to Test** | *Did it predict a defined variable at a defined scale?* |\r\n| 27 | `human_impact` | **People in the Earth System** | *Who experiences environmental change or data-driven decisions?* |\r\n| 28 | `field_field_sampling` | **Ground Sample Design** | *Were sites and dates chosen to represent the area?* |\r\n| 29 | `field_land_use` | **Changing Human Land Use** | *Which policy or activity changed the surface?* |\r\n| 30 | `field_weather_variability` | **Weather Around a Measurement** | *Could short-term conditions explain a signal?* |\r\n| 31 | `field_habitat_change` | **Habitat in Earth Data** | *Do mapped changes match ecological field evidence?* |\r\n| 32 | `field_restoration_evidence` | **Restoration Outcome Tested** | *Did a project improve a measured Earth-system outcome?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of Earth Science: An Earth-System Question Emerges**\r\n   - *Question:* Which observation led to a testable account of change?\r\n   - *Key Focus:* Use dated field, satellite, and model records. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n2. **Earth Science: An Earth Image Rechecked**\r\n   - *Question:* What does one satellite product measure rather than show directly?\r\n   - *Key Focus:* Read band, algorithm, validation, and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n3. **Earth Science: People Collecting Ground Truth**\r\n   - *Question:* Who maintains stations, takes samples, and validates satellite data?\r\n   - *Key Focus:* Credit field and community contributors. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n4. **Earth Science: Earth as Interacting Systems**\r\n   - *Question:* How do air, water, land, ice, and living things affect one outcome?\r\n   - *Key Focus:* Use a bounded place and timescale. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n5. **Earth Science: Attribution Across Causes**\r\n   - *Question:* Which observations separate natural variability and human drivers?\r\n   - *Key Focus:* Compare mechanisms, controls, and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n### Tier 2: Methodological Deep Dives\r\n6. **Earth Science: A Conflicting Earth Dataset**\r\n   - *Question:* Why do two products disagree for one region?\r\n   - *Key Focus:* Check coverage, processing, scale, and ground validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n7. **Earth Science: A New Earth-Observing Sensor**\r\n   - *Question:* Which change could it measure more accurately?\r\n   - *Key Focus:* Compare calibration, resolution, revisit, and validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n8. **Earth Science: A Field Campaign's Choices**\r\n   - *Question:* Who chose sites and whose knowledge informed the design?\r\n   - *Key Focus:* Read protocols and local participation records. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n9. **Earth Science: A Documented Environmental Change**\r\n   - *Question:* What happened before, during, and after one event?\r\n   - *Key Focus:* Use dated observations and avoid single-cause claims. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n10. **Earth Science: Satellite Data to Earth Map**\r\n   - *Question:* How are radiation measurements processed into a land or water product?\r\n   - *Key Focus:* Trace calibration, retrieval, and validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **Earth Science: An Environmental Trend**\r\n   - *Question:* How much of a measured change reflects baseline, method, or real process?\r\n   - *Key Focus:* Compare consistent series and uncertainties. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n12. **Earth Science: One Place Across Decades**\r\n   - *Question:* How did land, water, or air conditions change?\r\n   - *Key Focus:* Use comparable dates, seasons, and sensors. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n13. **Earth Science: A Proposed Earth-Observing Mission**\r\n   - *Question:* Which data gap would it close and for whom?\r\n   - *Key Focus:* State resolution, cadence, access, and validation needs. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n14. **Earth Science: One Weather Event Proves a Trend?**\r\n   - *Question:* What time series and causal evidence are needed?\r\n   - *Key Focus:* Separate event, variability, climate, and attribution. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n15. **Earth Science: A Field-to-Satellite Study**\r\n   - *Question:* How did local measurements support a regional claim?\r\n   - *Key Focus:* Follow sampling, data processing, model, and review. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **Earth Science: From Pixel to Earth Process**\r\n   - *Question:* Which interpretation links a sensor value to physical change?\r\n   - *Key Focus:* Check retrieval assumptions and ground evidence. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n17. **Earth Science: Measuring an Earth Variable**\r\n   - *Question:* Which station, satellite, or sample produced the value?\r\n   - *Key Focus:* State units, calibration, and coverage. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n18. **Earth Science: Local Event, Global Trend**\r\n   - *Question:* When can a short or local record support broad inference?\r\n   - *Key Focus:* Compare spatial and temporal sampling. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n19. **Earth Science: Field Observation and Controlled Study**\r\n   - *Question:* How do laboratory mechanisms compare with open Earth systems?\r\n   - *Key Focus:* Name missing feedbacks and confounders. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n20. **Earth Science: Seasonal and Year-to-Year Change**\r\n   - *Question:* How much variation is expected without a new driver?\r\n   - *Key Focus:* Use a suitable baseline and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 348 (Earth Science)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of Earth Science: An Earth-System Question Emerges*\r\n- **Episode Slug:** `348_earth_science_deep_dive_the_architecture_of_earth_science_an_earth_system_question_e`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/348_earth_science/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "8171433c7abf6d85d427b2d017f3594ff2a2b79964a0ce6fbf4ceda235d6a892",
+        "original_text": "# 348 Earth Science -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 348 Earth Science (Earth_Environment)  \r\n> **Storage Directory:** `topics/348_earth_science/`  \r\n> **Synchronized With:** `OUTPUT/348_earth_science/`, `REGISTRY/Niches/348_earth_science/`, and `348_EARTH_SCIENCE_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 348 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/348_earth_science](../../OUTPUT/348_earth_science) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of Earth Science: An Earth-System Question Emerges** | Tier 1: Foundational Frameworks | `history_origins` | `earth_science_an_earth_system_question_emerges` | A rigorous pedagogical investigation exploring an earth-system question emerges through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **Earth Science: An Earth Image Rechecked** | Tier 1: Foundational Frameworks | `famous_examples` | `earth_science_an_earth_image_rechecked` | A rigorous pedagogical investigation exploring an earth image rechecked through documented evidence. | `QUEUED` |\r\n| 3 | **Earth Science: People Collecting Ground Truth** | Tier 1: Foundational Frameworks | `hidden_stories` | `earth_science_people_collecting_ground_truth` | A rigorous pedagogical investigation exploring people collecting ground truth through documented evidence. | `QUEUED` |\r\n| 4 | **Earth Science: Earth as Interacting Systems** | Tier 1: Foundational Frameworks | `beginner_explainers` | `earth_science_earth_as_interacting_systems` | A rigorous pedagogical investigation exploring earth as interacting systems through documented evidence. | `QUEUED` |\r\n| 5 | **Earth Science: Attribution Across Causes** | Tier 1: Foundational Frameworks | `advanced_concepts` | `earth_science_attribution_across_causes` | A rigorous pedagogical investigation exploring attribution across causes through documented evidence. | `QUEUED` |\r\n| 6 | **Earth Science: A Conflicting Earth Dataset** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `earth_science_a_conflicting_earth_dataset` | A rigorous pedagogical investigation exploring a conflicting earth dataset through documented evidence. | `QUEUED` |\r\n| 7 | **Earth Science: A New Earth-Observing Sensor** | Tier 2: Methodological Deep Dives | `technology_innovation` | `earth_science_a_new_earth_observing_sensor` | A rigorous pedagogical investigation exploring a new earth-observing sensor through documented evidence. | `QUEUED` |\r\n| 8 | **Earth Science: A Field Campaign's Choices** | Tier 2: Methodological Deep Dives | `people_personalities` | `earth_science_a_field_campaign_s_choices` | A rigorous pedagogical investigation exploring a field campaign's choices through documented evidence. | `QUEUED` |\r\n| 9 | **Earth Science: A Documented Environmental Change** | Tier 2: Methodological Deep Dives | `major_events` | `earth_science_a_documented_environmental_change` | A rigorous pedagogical investigation exploring a documented environmental change through documented evidence. | `QUEUED` |\r\n| 10 | **Earth Science: Satellite Data to Earth Map** | Tier 2: Methodological Deep Dives | `how_it_works` | `earth_science_satellite_data_to_earth_map` | A rigorous pedagogical investigation exploring satellite data to earth map through documented evidence. | `QUEUED` |\r\n| 11 | **Earth Science: An Environmental Trend** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `earth_science_an_environmental_trend` | A rigorous pedagogical investigation exploring an environmental trend through documented evidence. | `QUEUED` |\r\n| 12 | **Earth Science: One Place Across Decades** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `earth_science_one_place_across_decades` | A rigorous pedagogical investigation exploring one place across decades through documented evidence. | `QUEUED` |\r\n| 13 | **Earth Science: A Proposed Earth-Observing Mission** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `earth_science_a_proposed_earth_observing_mission` | A rigorous pedagogical investigation exploring a proposed earth-observing mission through documented evidence. | `QUEUED` |\r\n| 14 | **Earth Science: One Weather Event Proves a Trend?** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `earth_science_one_weather_event_proves_a_trend` | A rigorous pedagogical investigation exploring one weather event proves a trend? through documented evidence. | `QUEUED` |\r\n| 15 | **Earth Science: A Field-to-Satellite Study** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `earth_science_a_field_to_satellite_study` | A rigorous pedagogical investigation exploring a field-to-satellite study through documented evidence. | `QUEUED` |\r\n| 16 | **Earth Science: From Pixel to Earth Process** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `observation_to_explanation` | `earth_science_from_pixel_to_earth_process` | A rigorous pedagogical investigation exploring from pixel to earth process through documented evidence. | `QUEUED` |\r\n| 17 | **Earth Science: Measuring an Earth Variable** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `measurement_method` | `earth_science_measuring_an_earth_variable` | A rigorous pedagogical investigation exploring measuring an earth variable through documented evidence. | `QUEUED` |\r\n| 18 | **Earth Science: Local Event, Global Trend** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `scale_and_timespan` | `earth_science_local_event_global_trend` | A rigorous pedagogical investigation exploring local event, global trend through documented evidence. | `QUEUED` |\r\n| 19 | **Earth Science: Field Observation and Controlled Study** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `field_vs_lab` | `earth_science_field_observation_and_controlled_study` | A rigorous pedagogical investigation exploring field observation and controlled study through documented evidence. | `QUEUED` |\r\n| 20 | **Earth Science: Seasonal and Year-to-Year Change** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `natural_variation` | `earth_science_seasonal_and_year_to_year_change` | A rigorous pedagogical investigation exploring seasonal and year-to-year change through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **Earth Science: An Exceptional Earth Event** | **98** | `extreme_case` | `earth_science_extreme_case` | High viral search interest exploring what can an outlier teach without generalizing it backed by field records. | `Queued` |\r\n| 22 | **Earth Science: A Conflicting Earth Dataset** | **96** | `mysteries_unsolved_cases` | `earth_science_mysteries_unsolved_cases` | High viral search interest exploring why do two products disagree for one region backed by field records. | `Queued` |\r\n| 23 | **Earth Science: A New Earth-Observing Sensor** | **95** | `technology_innovation` | `earth_science_technology_innovation` | High viral search interest exploring which change could it measure more accurately backed by field records. | `Queued` |\r\n| 24 | **Earth Science: One Weather Event Proves a Trend?** | **94** | `myths_vs_facts` | `earth_science_myths_vs_facts` | High viral search interest exploring what time series and causal evidence are needed backed by field records. | `Queued` |\r\n| 25 | **Earth Science: A Documented Environmental Change** | **93** | `major_events` | `earth_science_major_events` | High viral search interest exploring what happened before, during, and after one event backed by field records. | `Queued` |\r\n| 26 | **Earth Science: People Collecting Ground Truth** | **92** | `hidden_stories` | `earth_science_hidden_stories` | High viral search interest exploring who maintains stations, takes samples, and validates satellite data backed by field records. | `Queued` |\r\n| 27 | **Earth Science: A Field-to-Satellite Study** | **91** | `documentary_stories` | `earth_science_documentary_stories` | High viral search interest exploring how did local measurements support a regional claim backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/348_earth_science/348_EARTH_SCIENCE_CHANNEL_TOPIC_ROADMAP.md`](./348_EARTH_SCIENCE_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/348_earth_science/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/348_earth_science/NICHE_348_earth_science.md`](file:///h:/script-raw-/REGISTRY/Niches/348_earth_science/NICHE_348_earth_science.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/348_earth_science/CAT_348_earth_science.md`](file:///h:/script-raw-/REGISTRY/Niches/348_earth_science/CAT_348_earth_science.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/348_earth_science/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/348_earth_science/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/348_earth_science/`](file:///h:/script-raw-/OUTPUT/348_earth_science/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "8293874f7825ee96870487a254e8e33cfbb047c15451189ba560cc3571c9df17",
+        "original_text": "{\r\n  \"niche_id\": \"348\",\r\n  \"niche_name\": \"earth_science\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of Earth Science: An Earth-System Question Emerges\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"earth_science_an_earth_system_question_emerges\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an earth-system question emerges through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"Earth Science: An Earth Image Rechecked\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"earth_science_an_earth_image_rechecked\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an earth image rechecked through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"Earth Science: People Collecting Ground Truth\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"earth_science_people_collecting_ground_truth\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring people collecting ground truth through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"Earth Science: Earth as Interacting Systems\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"earth_science_earth_as_interacting_systems\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring earth as interacting systems through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"Earth Science: Attribution Across Causes\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"earth_science_attribution_across_causes\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring attribution across causes through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"Earth Science: A Conflicting Earth Dataset\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"earth_science_a_conflicting_earth_dataset\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a conflicting earth dataset through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"Earth Science: A New Earth-Observing Sensor\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"earth_science_a_new_earth_observing_sensor\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new earth-observing sensor through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"Earth Science: A Field Campaign's Choices\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"earth_science_a_field_campaign_s_choices\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a field campaign's choices through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"Earth Science: A Documented Environmental Change\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"earth_science_a_documented_environmental_change\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a documented environmental change through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"Earth Science: Satellite Data to Earth Map\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"earth_science_satellite_data_to_earth_map\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring satellite data to earth map through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"Earth Science: An Environmental Trend\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"earth_science_an_environmental_trend\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an environmental trend through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"Earth Science: One Place Across Decades\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"earth_science_one_place_across_decades\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one place across decades through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"Earth Science: A Proposed Earth-Observing Mission\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"earth_science_a_proposed_earth_observing_mission\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed earth-observing mission through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"Earth Science: One Weather Event Proves a Trend?\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"earth_science_one_weather_event_proves_a_trend\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one weather event proves a trend? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"Earth Science: A Field-to-Satellite Study\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"earth_science_a_field_to_satellite_study\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a field-to-satellite study through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"Earth Science: From Pixel to Earth Process\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"observation_to_explanation\",\r\n      \"slug\": \"earth_science_from_pixel_to_earth_process\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring from pixel to earth process through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"Earth Science: Measuring an Earth Variable\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"measurement_method\",\r\n      \"slug\": \"earth_science_measuring_an_earth_variable\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring measuring an earth variable through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"Earth Science: Local Event, Global Trend\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"scale_and_timespan\",\r\n      \"slug\": \"earth_science_local_event_global_trend\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring local event, global trend through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"Earth Science: Field Observation and Controlled Study\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"field_vs_lab\",\r\n      \"slug\": \"earth_science_field_observation_and_controlled_study\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring field observation and controlled study through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"Earth Science: Seasonal and Year-to-Year Change\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"natural_variation\",\r\n      \"slug\": \"earth_science_seasonal_and_year_to_year_change\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring seasonal and year-to-year change through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"Earth Science: An Exceptional Earth Event\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"earth_science_extreme_case\",\r\n      \"why_trending\": \"High viral search interest exploring what can an outlier teach without generalizing it backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"Earth Science: A Conflicting Earth Dataset\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"earth_science_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring why do two products disagree for one region backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"Earth Science: A New Earth-Observing Sensor\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"earth_science_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring which change could it measure more accurately backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"Earth Science: One Weather Event Proves a Trend?\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"earth_science_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring what time series and causal evidence are needed backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"Earth Science: A Documented Environmental Change\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"earth_science_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring what happened before, during, and after one event backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"Earth Science: People Collecting Ground Truth\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"earth_science_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring who maintains stations, takes samples, and validates satellite data backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"Earth Science: A Field-to-Satellite Study\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"earth_science_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring how did local measurements support a regional claim backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "348",
+      "niche_name": "earth_science",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of Earth Science: An Earth-System Question Emerges",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "earth_science_an_earth_system_question_emerges",
+          "reason": "A rigorous pedagogical investigation exploring an earth-system question emerges through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "Earth Science: An Earth Image Rechecked",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "earth_science_an_earth_image_rechecked",
+          "reason": "A rigorous pedagogical investigation exploring an earth image rechecked through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "Earth Science: People Collecting Ground Truth",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "earth_science_people_collecting_ground_truth",
+          "reason": "A rigorous pedagogical investigation exploring people collecting ground truth through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "Earth Science: Earth as Interacting Systems",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "earth_science_earth_as_interacting_systems",
+          "reason": "A rigorous pedagogical investigation exploring earth as interacting systems through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "Earth Science: Attribution Across Causes",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "earth_science_attribution_across_causes",
+          "reason": "A rigorous pedagogical investigation exploring attribution across causes through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "Earth Science: A Conflicting Earth Dataset",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "earth_science_a_conflicting_earth_dataset",
+          "reason": "A rigorous pedagogical investigation exploring a conflicting earth dataset through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "Earth Science: A New Earth-Observing Sensor",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "earth_science_a_new_earth_observing_sensor",
+          "reason": "A rigorous pedagogical investigation exploring a new earth-observing sensor through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "Earth Science: A Field Campaign's Choices",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "earth_science_a_field_campaign_s_choices",
+          "reason": "A rigorous pedagogical investigation exploring a field campaign's choices through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "Earth Science: A Documented Environmental Change",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "earth_science_a_documented_environmental_change",
+          "reason": "A rigorous pedagogical investigation exploring a documented environmental change through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "Earth Science: Satellite Data to Earth Map",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "earth_science_satellite_data_to_earth_map",
+          "reason": "A rigorous pedagogical investigation exploring satellite data to earth map through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "Earth Science: An Environmental Trend",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "earth_science_an_environmental_trend",
+          "reason": "A rigorous pedagogical investigation exploring an environmental trend through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "Earth Science: One Place Across Decades",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "earth_science_one_place_across_decades",
+          "reason": "A rigorous pedagogical investigation exploring one place across decades through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "Earth Science: A Proposed Earth-Observing Mission",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "earth_science_a_proposed_earth_observing_mission",
+          "reason": "A rigorous pedagogical investigation exploring a proposed earth-observing mission through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "Earth Science: One Weather Event Proves a Trend?",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "earth_science_one_weather_event_proves_a_trend",
+          "reason": "A rigorous pedagogical investigation exploring one weather event proves a trend? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "Earth Science: A Field-to-Satellite Study",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "earth_science_a_field_to_satellite_study",
+          "reason": "A rigorous pedagogical investigation exploring a field-to-satellite study through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "Earth Science: From Pixel to Earth Process",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "observation_to_explanation",
+          "slug": "earth_science_from_pixel_to_earth_process",
+          "reason": "A rigorous pedagogical investigation exploring from pixel to earth process through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "Earth Science: Measuring an Earth Variable",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "measurement_method",
+          "slug": "earth_science_measuring_an_earth_variable",
+          "reason": "A rigorous pedagogical investigation exploring measuring an earth variable through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "Earth Science: Local Event, Global Trend",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "scale_and_timespan",
+          "slug": "earth_science_local_event_global_trend",
+          "reason": "A rigorous pedagogical investigation exploring local event, global trend through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "Earth Science: Field Observation and Controlled Study",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "field_vs_lab",
+          "slug": "earth_science_field_observation_and_controlled_study",
+          "reason": "A rigorous pedagogical investigation exploring field observation and controlled study through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "Earth Science: Seasonal and Year-to-Year Change",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "natural_variation",
+          "slug": "earth_science_seasonal_and_year_to_year_change",
+          "reason": "A rigorous pedagogical investigation exploring seasonal and year-to-year change through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "Earth Science: An Exceptional Earth Event",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "earth_science_extreme_case",
+          "why_trending": "High viral search interest exploring what can an outlier teach without generalizing it backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "Earth Science: A Conflicting Earth Dataset",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "earth_science_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring why do two products disagree for one region backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "Earth Science: A New Earth-Observing Sensor",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "earth_science_technology_innovation",
+          "why_trending": "High viral search interest exploring which change could it measure more accurately backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "Earth Science: One Weather Event Proves a Trend?",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "earth_science_myths_vs_facts",
+          "why_trending": "High viral search interest exploring what time series and causal evidence are needed backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "Earth Science: A Documented Environmental Change",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "earth_science_major_events",
+          "why_trending": "High viral search interest exploring what happened before, during, and after one event backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "Earth Science: People Collecting Ground Truth",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "earth_science_hidden_stories",
+          "why_trending": "High viral search interest exploring who maintains stations, takes samples, and validates satellite data backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "Earth Science: A Field-to-Satellite Study",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "earth_science_documentary_stories",
+          "why_trending": "High viral search interest exploring how did local measurements support a regional claim backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "editorially_reviewed_scoped_proposals_research_pending",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "d02670bcb9bfdccb933117cdb790985d52e4abf02321749a6cb50378521fbd1c"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "e2f41b6f8fda61eb67260977f11abd11229ecdf60a5007e7b51bcf048a2057f3"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "41121ce20a61c337d6c1712394be7c048a36dc558333c58dced531da27fe2c95"
+    },
+    {
+      "input": "Scripts\\expansion_185_367.json",
+      "sha256": "02229bc21a4b2369ffc4eabf0a584300dfe70ba9836962e39ea0551095d91c25"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-348-01",
+      "title": "Systems",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-02",
+      "title": "Observation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-03",
+      "title": "Cycles",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-04",
+      "title": "Inference",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-05",
+      "title": "Solid Earth",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-06",
+      "title": "Measurement",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-07",
+      "title": "Processes",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-08",
+      "title": "Human influence",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-09",
+      "title": "Tectonics",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-10",
+      "title": "Feedbacks",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-348-11",
+      "title": "Energy",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "348",
+    "slug": "earth_science",
+    "name": "Earth Science",
+    "primary_category": "Earth_Environment",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a Earth Science YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-348-01",
+        "title": "Earth systems",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-348-001",
+            "title": "Plate tectonic coupling",
+            "question": "Plate tectonic coupling: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Earth systems. Address Plate tectonic coupling through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Plate tectonic coupling precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-002",
+            "title": "Carbon cycle reservoirs",
+            "question": "Carbon cycle reservoirs: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Earth systems. Address Carbon cycle reservoirs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Carbon cycle reservoirs precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-003",
+            "title": "Rock weathering",
+            "question": "Rock weathering: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Earth systems. Address Rock weathering through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Rock weathering precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-348-02",
+        "title": "Measurement",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-348-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-348-004",
+            "title": "Seismic tomography",
+            "question": "Seismic tomography: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Earth Science; branch: Measurement. Address Seismic tomography through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Seismic tomography.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-005",
+            "title": "Satellite gravimetry",
+            "question": "Satellite gravimetry: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Earth Science; branch: Measurement. Address Satellite gravimetry through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Satellite gravimetry.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-006",
+            "title": "Geodetic positioning",
+            "question": "Geodetic positioning: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: Earth Science; branch: Measurement. Address Geodetic positioning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Geodetic positioning.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-348-03",
+        "title": "Interactions",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-348-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-348-007",
+            "title": "Land-atmosphere feedbacks",
+            "question": "Land-atmosphere feedbacks: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Interactions. Address Land-atmosphere feedbacks through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Land-atmosphere feedbacks precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-008",
+            "title": "Ocean heat storage",
+            "question": "Ocean heat storage: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Interactions. Address Ocean heat storage through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Ocean heat storage precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-348-009",
+            "title": "Human alteration of sediment cycles",
+            "question": "Human alteration of sediment cycles: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: Earth Science; branch: Interactions. Address Human alteration of sediment cycles through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Human alteration of sediment cycles precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "006",
+        "title": "Science & Big Questions",
+        "directory": "006_science_big_questions",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "118",
+        "title": "Scientists & Discoverers",
+        "directory": "118_scientists_discoverers",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "343",
+        "title": "Physics",
+        "directory": "343_physics",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "344",
+        "title": "Astronomy",
+        "directory": "344_astronomy",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "345",
+        "title": "Planetary Science",
+        "directory": "345_planetary_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "346",
+        "title": "Moon Science",
+        "directory": "346_moon_science",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false,
+    "editorial_pass": "2026-10-23 individual scope review",
+    "review_record": "Scripts/editorial_review_185_367.json",
+    "starter_mapping_review": "all archived starter subjects reviewed against individual scopes; negative constraints remain explicit",
+    "semantic_review": "both saved candidate shortlists reviewed; root consolidates retirement recommendations"
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of Earth Science: An Earth-System Question Emerges",
+      "question": "Which observation led to a testable account of change?",
+      "coverage": "Use dated field, satellite, and model records. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: An Earth Image Rechecked",
+      "question": "What does one satellite product measure rather than show directly?",
+      "coverage": "Read band, algorithm, validation, and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: People Collecting Ground Truth",
+      "question": "Who maintains stations, takes samples, and validates satellite data?",
+      "coverage": "Credit field and community contributors. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Earth as Interacting Systems",
+      "question": "How do air, water, land, ice, and living things affect one outcome?",
+      "coverage": "Use a bounded place and timescale. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Attribution Across Causes",
+      "question": "Which observations separate natural variability and human drivers?",
+      "coverage": "Compare mechanisms, controls, and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A Conflicting Earth Dataset",
+      "question": "Why do two products disagree for one region?",
+      "coverage": "Check coverage, processing, scale, and ground validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A New Earth-Observing Sensor",
+      "question": "Which change could it measure more accurately?",
+      "coverage": "Compare calibration, resolution, revisit, and validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A Field Campaign's Choices",
+      "question": "Who chose sites and whose knowledge informed the design?",
+      "coverage": "Read protocols and local participation records. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A Documented Environmental Change",
+      "question": "What happened before, during, and after one event?",
+      "coverage": "Use dated observations and avoid single-cause claims. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Satellite Data to Earth Map",
+      "question": "How are radiation measurements processed into a land or water product?",
+      "coverage": "Trace calibration, retrieval, and validation. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: An Environmental Trend",
+      "question": "How much of a measured change reflects baseline, method, or real process?",
+      "coverage": "Compare consistent series and uncertainties. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: One Place Across Decades",
+      "question": "How did land, water, or air conditions change?",
+      "coverage": "Use comparable dates, seasons, and sensors. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A Proposed Earth-Observing Mission",
+      "question": "Which data gap would it close and for whom?",
+      "coverage": "State resolution, cadence, access, and validation needs. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: One Weather Event Proves a Trend?",
+      "question": "What time series and causal evidence are needed?",
+      "coverage": "Separate event, variability, climate, and attribution. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: A Field-to-Satellite Study",
+      "question": "How did local measurements support a regional claim?",
+      "coverage": "Follow sampling, data processing, model, and review. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: From Pixel to Earth Process",
+      "question": "Which interpretation links a sensor value to physical change?",
+      "coverage": "Check retrieval assumptions and ground evidence. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Measuring an Earth Variable",
+      "question": "Which station, satellite, or sample produced the value?",
+      "coverage": "State units, calibration, and coverage. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Local Event, Global Trend",
+      "question": "When can a short or local record support broad inference?",
+      "coverage": "Compare spatial and temporal sampling. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Field Observation and Controlled Study",
+      "question": "How do laboratory mechanisms compare with open Earth systems?",
+      "coverage": "Name missing feedbacks and confounders. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "Earth Science: Seasonal and Year-to-Year Change",
+      "question": "How much variation is expected without a new driver?",
+      "coverage": "Use a suitable baseline and uncertainty. Evidence base: NASA Earth-science data products and validation, ground and field observations, versioned processing methods, environmental records, and local accounts.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-348-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "9cce50730ede5b95b9ac500d11e1e63d8e9f1b7f401f09ce9cb06ce74f5d5794",
+    "TOPIC_BANK_RECONCILIATION.md": "e5706259349f2eb1ba9a5ce12bb1fb098ca3e498ae5aa0f01aa0d26a7af625d2",
+    "TOPICS_COVERED_REPORT.md": "05856a846e55c1f92760226d1df982e7abdd2f50a9da3454245d2873579fdf69",
+    "348_EARTH_SCIENCE_CHANNEL_TOPIC_ROADMAP.md": "28f597bc767692636af838e3b0e175238e4154fd4b190a10c26ebf8c5bedd4fe"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-348-002": [
+      "BANK-348-032"
+    ],
+    "BANK-348-004": [
+      "BANK-006-072"
+    ],
+    "BANK-348-005": [
+      "BANK-348-035"
+    ],
+    "BANK-348-006": [
+      "BANK-348-036"
+    ],
+    "BANK-348-003": [
+      "BANK-348-037"
+    ],
+    "BANK-348-009": [
+      "BANK-348-038"
+    ],
+    "BANK-348-001": [
+      "BANK-348-039"
+    ],
+    "BANK-348-007": [
+      "BANK-348-040"
+    ],
+    "BANK-348-008": [
+      "BANK-348-041"
+    ]
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How do seismic waves help create images of Earth's interior?",
+      "coverage": "Trace travel times, ray coverage, inversion and nonunique models; distinguish inferred wave speed from direct material identification.",
+      "id": "BANK-348-034",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-348-004"
+      ],
+      "duplicate_of": "BANK-006-072",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Trace travel times, model assumptions and uncertainty. / Trace travel times, ray coverage, inversion and nonunique models; distinguish inferred wave speed from direct material identification. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-348-R05"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "existing_scope",
+      "reason": "Earth-system framing is covered by interactions among rock, water, air and life.",
+      "bank_ids": [
+        "BANK-348-030"
+      ]
+    },
+    "pending_topics/1": {
+      "decision": "new_bounded_case",
+      "reason": "The Landsat 8/9 underflight makes image comparability concrete.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    },
+    "pending_topics/2": {
+      "decision": "existing_scope",
+      "reason": "Ground-versus-satellite comparison is active; no field team is named.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "pending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Interacting reservoirs and land-atmosphere exchange already cover the systems pitch.",
+      "bank_ids": [
+        "BANK-348-030",
+        "BANK-348-032"
+      ]
+    },
+    "pending_topics/4": {
+      "decision": "existing_scope",
+      "reason": "Past proxies and reservoirs address attribution with stated limits.",
+      "bank_ids": [
+        "BANK-348-033",
+        "BANK-348-032"
+      ]
+    },
+    "pending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "No two conflicting datasets are identified; general satellite-versus-ground comparison already supplies the evidence method.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "pending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Landsat 9 is a named sensor with USGS calibration record.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    },
+    "pending_topics/7": {
+      "decision": "existing_scope",
+      "reason": "No campaign named; satellite and ground comparison gives the field-choice framework.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "pending_topics/8": {
+      "decision": "new_bounded_case",
+      "reason": "The 2022 eruption produced a documented atmospheric change in MLS observations.",
+      "bank_ids": [
+        "BANK-348-043"
+      ]
+    },
+    "pending_topics/9": {
+      "decision": "new_bounded_case",
+      "reason": "Landsat underflight shows calibration before pixel-to-map inference.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    },
+    "pending_topics/10": {
+      "decision": "existing_scope",
+      "reason": "Carbon and ocean heat questions address trends without an unspecified time series.",
+      "bank_ids": [
+        "BANK-348-032",
+        "BANK-348-041"
+      ]
+    },
+    "pending_topics/11": {
+      "decision": "existing_scope",
+      "reason": "One-place change needs a named region and multi-decade dataset; proxy method remains active.",
+      "bank_ids": [
+        "BANK-348-033"
+      ]
+    },
+    "pending_topics/12": {
+      "decision": "existing_scope",
+      "reason": "No mission proposal or design document named; existing remote-sensing scope applies.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "pending_topics/13": {
+      "decision": "existing_scope",
+      "reason": "One event does not establish a trend; existing proxy and climate-record distinctions apply.",
+      "bank_ids": [
+        "BANK-348-033",
+        "BANK-348-041"
+      ]
+    },
+    "pending_topics/14": {
+      "decision": "new_bounded_case",
+      "reason": "Landsat cross-calibration gives an actual measurement bridge, not a generic field campaign.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    },
+    "pending_topics/15": {
+      "decision": "new_bounded_case",
+      "reason": "The MLS water-vapor event traces retrieval to process attribution.",
+      "bank_ids": [
+        "BANK-348-043"
+      ]
+    },
+    "pending_topics/16": {
+      "decision": "existing_scope",
+      "reason": "Gravimetry and reference-frame questions cover measurement generally.",
+      "bank_ids": [
+        "BANK-348-035",
+        "BANK-348-036"
+      ]
+    },
+    "pending_topics/17": {
+      "decision": "new_bounded_case",
+      "reason": "Hunga Tonga is a local eruption with measured stratospheric spread; long-term global climate effects remain outside the claim.",
+      "bank_ids": [
+        "BANK-348-043"
+      ]
+    },
+    "pending_topics/18": {
+      "decision": "existing_scope",
+      "reason": "Ground-station/satellite comparison already covers observational limits.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "pending_topics/19": {
+      "decision": "existing_scope",
+      "reason": "Seasonal and interannual interpretation needs a named record; ocean heat supplies a bounded variable.",
+      "bank_ids": [
+        "BANK-348-041"
+      ]
+    },
+    "trending_topics/0": {
+      "decision": "new_bounded_case",
+      "reason": "The Hunga Tonga MLS episode is an exceptional event within a specified record, not an all-time extreme.",
+      "bank_ids": [
+        "BANK-348-043"
+      ]
+    },
+    "trending_topics/1": {
+      "decision": "existing_scope",
+      "reason": "No two conflicting datasets are identified; general satellite-versus-ground comparison already supplies the evidence method.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "trending_topics/2": {
+      "decision": "new_bounded_case",
+      "reason": "Same sensor pitch as pending/6; route to Landsat 9.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    },
+    "trending_topics/3": {
+      "decision": "existing_scope",
+      "reason": "Same weather-event/trend pitch as pending/13.",
+      "bank_ids": [
+        "BANK-348-033",
+        "BANK-348-041"
+      ]
+    },
+    "trending_topics/4": {
+      "decision": "new_bounded_case",
+      "reason": "Same documented-change pitch as pending/8.",
+      "bank_ids": [
+        "BANK-348-043"
+      ]
+    },
+    "trending_topics/5": {
+      "decision": "existing_scope",
+      "reason": "Same unnamed ground-truth people pitch as pending/2.",
+      "bank_ids": [
+        "BANK-348-031"
+      ]
+    },
+    "trending_topics/6": {
+      "decision": "new_bounded_case",
+      "reason": "Same field/satellite bridge as pending/14; route to underflight calibration.",
+      "bank_ids": [
+        "BANK-348-042"
+      ]
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-348-042",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    },
+    {
+      "topic_id": "BANK-348-043",
+      "note_file": "SELECTED_SOURCE_NOTE.md"
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-24",
+    "audit": "../../Scripts/editorial_review_002_184.json",
+    "source_verification": "selected_bounded_note_only",
+    "semantic_candidates_reviewed": 8,
+    "starter_concepts_reviewed": 9,
+    "all_knowledge_exhausted": false,
+    "summary": "Routed all archived pitches by stable position and added two dated primary-source cases with explicit evidence and overlap limits."
+  }
+}

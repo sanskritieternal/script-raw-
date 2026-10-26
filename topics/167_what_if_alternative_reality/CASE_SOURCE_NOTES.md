@@ -1,0 +1,12 @@
+# Counterfactual case-source notes (2026-10-24)
+
+The sources below constrain the **real baseline** of proposed what-if cases. They cannot verify an alternate timeline; each script must label its changed assumption, model output and invented consequences.
+
+| Case | Primary study or record | Boundary |
+|---|---|---|
+| Chicxulub | [Collins et al., *Nature Communications* (2020)](https://www.nature.com/articles/s41467-020-15269-x) models impact trajectory using crater structure. | The paper tests angle and ejecta effects; it does not show that a 15-minute delay would shift impact into a harmless deep ocean or spare dinosaurs. |
+| Green Sahara | [Pausata et al., *PNAS* (2021)](https://doi.org/10.1073/pnas.2024898118) models rainfall requirements for early-Holocene greening. | A millennia-scale humid period is no analogue for a landscape turning green overnight. State the imposed vegetation/rainfall boundary and model uncertainty. |
+| Late Bronze Age crisis | [“Crisis in Context,” *American Journal of Archaeology* (2016)](https://www.journals.uchicago.edu/doi/10.3764/aja.120.1.0099) reviews uneven regional material and textual evidence. | Different regions and dates did not share one single collapse event; no source proves a unified civilization-continuity alternate timeline. |
+| Lake Agassiz | [Norris et al., *Geophysical Research Letters* (2021)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL093919) analyzes geomorphic evidence of a northwestern catastrophic drainage route; [USGS sediment study](https://www.usgs.gov/publications/two-episodes-meltwater-influx-glacial-lake-agassiz-lake-michigan-basin-and-their) documents distinct discharge episodes. | Outlet timing and climate effects remain debated. A modern standing mega-lake needs explicit ice-dam, water-balance and geography assumptions, not a forecast. |
+
+Semantic review: `BANK-167-010` asks about dinosaur evolution without extinction; the new Chicxulub question asks how much the impact's location and angle can actually vary in a physical model. `BANK-167-031` supplies alternate-history method, but new Green Sahara, Bronze Age and Agassiz cases fix distinct geographic or archaeological baselines. Neighbor `BANK-002-034` owns regional Bronze Age history; this case is a labeled counterfactual sensitivity test. Existing `BANK-167-028` covers fiction-franchise economics, and `030`/`040` cover assumptions and simulation limits. The Alexander megastate, endless-world-wars and Fallout revenue headlines are not validated outcomes.

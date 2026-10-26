@@ -1,0 +1,1711 @@
+{
+  "schema_version": "1.1",
+  "bank_type": "detailed_expansion",
+  "niche_id": "421",
+  "slug": "ev_battery_technology",
+  "name": "EV Battery Technology",
+  "primary_category": "Transport_Engineering",
+  "updated": "2026-10-23",
+  "status": "proposed",
+  "editorial_depth": "individually_scoped_authored_proposals",
+  "purpose": "A starting subject map for a EV Battery Technology YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+  "counts": {
+    "categories": 13,
+    "proposed_topics": 16
+  },
+  "categories": [
+    {
+      "id": "CATALOG-421-R01",
+      "title": "Battery foundations",
+      "level": "foundation",
+      "parent_id": "DOMAIN-421-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "da93b121c36235174e84fb14913f2c455b889994e3aafc14903e37df34ffbc81",
+      "topics": [
+        {
+          "question": "Why are cell energy density and pack energy density different?",
+          "coverage": "Include structure, cooling, protection and usable operating margins.",
+          "id": "BANK-421-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does electrode loading trade energy capacity against power performance?",
+          "coverage": "Explain transport distance and rate limitations conceptually.",
+          "id": "BANK-421-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R02",
+      "title": "Pack behavior",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-421-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "62b2da9183061c11fbf03a50ddf4ba739877aec87e43634605688d3025b9525c",
+      "topics": [
+        {
+          "question": "Why can one weak cell limit an entire battery pack?",
+          "coverage": "Trace series connections, balancing and protection thresholds.",
+          "id": "BANK-421-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-421-004"
+          ]
+        },
+        {
+          "question": "How can battery aging include both calendar time and cycling?",
+          "coverage": "Separate temperature, state of charge and usage history.",
+          "id": "BANK-421-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R03",
+      "title": "Battery evidence",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2d4cb728a10e833efa80ce3883625248b2d4f7e33f8516e85ce74eb18a55796d",
+      "topics": [
+        {
+          "question": "What must be reported before a new cell chemistry claim can be assessed?",
+          "coverage": "Compare cycle conditions, loading, size and reproducibility.",
+          "id": "BANK-421-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R04",
+      "title": "Battery materials",
+      "level": "foundation",
+      "parent_id": "DOMAIN-421-01",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4af2ed7d2eaf711599a7a19ea322cd84c04b80c3399adb401498f64a82dcbb96",
+      "topics": [
+        {
+          "question": "How do LFP and nickel-rich cathodes trade different material and performance properties?",
+          "coverage": "Compare energy, temperature behavior and supply-chain assumptions.",
+          "id": "BANK-421-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-421-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R05",
+      "title": "Battery materials",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-421-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "886f992e73bc7be440a3197389f3f4538a555219a4ee481e715af01ae43cedc6",
+      "topics": [
+        {
+          "question": "Why can silicon anodes and solid-state interfaces create different expansion problems?",
+          "coverage": "Explain mechanical and electrochemical constraints conceptually.",
+          "id": "BANK-421-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-421-002",
+            "BANK-421-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R06",
+      "title": "Battery management",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-421-02",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "5fa6c37e7c435f4d6b6bf3bbc9f309509e93380420ef4fb5abc2ea020786ca3c",
+      "topics": [
+        {
+          "question": "How do thermal propagation barriers complement rather than replace cell monitoring?",
+          "coverage": "Distinguish prevention, detection and consequence reduction.",
+          "id": "BANK-421-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": [],
+          "covers_starter_ids": [
+            "BANK-421-005"
+          ]
+        },
+        {
+          "question": "How is battery state of health estimated when it cannot be measured directly during ordinary use?",
+          "coverage": "Compare capacity, resistance and model-dependent inference.",
+          "covers_starter_ids": [
+            "BANK-421-006"
+          ],
+          "id": "BANK-421-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims?",
+          "coverage": "Examine NHTSA 21V-650?s manufacturer-submitted defect description, affected model years, estimated population and remedy revisions. Distinguish a filing?s scoped hazard account from the cause of every individual event or current safety guidance.",
+          "id": "BANK-421-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R07",
+      "title": "Battery lifecycle",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "1e7ae1159de08a7e5958405a595d040223bd8a500838b4b897b6cef0a9fc2fe0",
+      "topics": []
+    },
+    {
+      "id": "CATALOG-421-R08",
+      "title": "Battery management",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-03",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "2d4e6790881aca41d9397b4dbfb53577febf5debe0e8fd521624b1228517de3c",
+      "topics": [
+        {
+          "question": "Why can repeated fast charging affect battery aging differently under different conditions?",
+          "coverage": "Separate temperature, state of charge and chemistry without universal degradation claims.",
+          "covers_starter_ids": [
+            "BANK-421-007"
+          ],
+          "id": "BANK-421-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R09",
+      "title": "Electrolyte stability",
+      "level": "intermediate",
+      "parent_id": "DOMAIN-421-04",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "90e69874917d14f5e73bfa7c47b95fc3da768d2e2642816004becd479a1bf368",
+      "topics": [
+        {
+          "question": "Why can electrolyte stability limit a battery even when electrode materials look promising?",
+          "coverage": "Explain interfaces and operating-envelope tradeoffs conceptually.",
+          "id": "BANK-421-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R10",
+      "title": "Pack disassembly economics",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-05",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "373a7fba802654a78baa8cbfef05efc9cdc628dd2b19f7a1aece42df1f687342",
+      "topics": [
+        {
+          "question": "How do pack connections and adhesives change recovery and repair economics?",
+          "coverage": "Map labor, safe professional handling and material separation.",
+          "id": "BANK-421-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R11",
+      "title": "Diagnostic uncertainty",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-06",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "4b427be66193109e029f529936fe05500a12d08bba8d2db6c78b7f686b31bdf1",
+      "topics": [
+        {
+          "question": "How can two battery-health estimates disagree without either being fraudulent?",
+          "coverage": "Compare models, test conditions and available history.",
+          "id": "BANK-421-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R12",
+      "title": "Comparative aging datasets",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-07",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "d2d76a21b70dcbbf4626f1fc9fe3f8532ca59a8d530dfb911bfe0660d68ef72b",
+      "topics": [
+        {
+          "question": "What must an aging dataset record before cells can be compared fairly?",
+          "coverage": "Include temperature, cycling, storage and endpoint definitions.",
+          "id": "BANK-421-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    },
+    {
+      "id": "CATALOG-421-R13",
+      "title": "Recycling economics",
+      "level": "advanced",
+      "parent_id": "DOMAIN-421-08",
+      "research_profile": "technical",
+      "prerequisites": [],
+      "local_group_identity": "7b0b699cf0bac3035f08c0f5a324a75793ac4b9d81e13ec7f17309b5f7edfee4",
+      "topics": [
+        {
+          "question": "How can a battery recycling route recover material successfully while remaining commercially difficult?",
+          "coverage": "Separate feedstock mix, collection cost, commodity prices and required product purity without reuse or processing procedures.",
+          "covers_starter_ids": [
+            "BANK-421-009"
+          ],
+          "id": "BANK-421-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ]
+    }
+  ],
+  "research_profiles": {
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "022",
+      "title": "Cars / Automotive Stories",
+      "directory": "022_cars_automotive_stories",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "045",
+      "title": "Racing",
+      "directory": "045_racing",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "139",
+      "title": "Motorcycles",
+      "directory": "139_motorcycles",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "418",
+      "title": "Automotive Engineering",
+      "directory": "418_automotive_engineering",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "419",
+      "title": "Supercars",
+      "directory": "419_supercars",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "420",
+      "title": "Electric Vehicles",
+      "directory": "420_electric_vehicles",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals.",
+  "local_reconciliation": {
+    "date": "2026-10-23",
+    "archive_path": "Youtube bank topic/YouTube-Topic-Banks-All-550-Niches.zip",
+    "archive_sha256": "7892756232c9d04ba0ac99e8227317a4094d647335eddd629a76c9409ebd49da",
+    "member": "files/topics/421_ev_battery_technology/IN_DEPTH_TOPIC_BANK.json",
+    "member_sha256": "ae15d3c0f2d4b3e577289c1fd607770d05af67dcbe5de0fda94b3d8c1c362359",
+    "source_kind": "subject_map",
+    "source_records": {
+      "BANK-421-001": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "4b617176ad00f04f545838af6e3360d465f9a2088512ed807f0e5f1213813828"
+      },
+      "BANK-421-002": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "00a00bdca37ff84aefd19e8e1337266a4ec3c5e7cecc076eedcf2f6cfc575a6f"
+      },
+      "BANK-421-003": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "ef65e0aa6a59eb5f28dc54c481b3b848c2f9da099d902fbc0f4a9b779acc5d2a"
+      },
+      "BANK-421-004": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "6633607dd16fdf696be161cf75d10ecac030bc1647b4d9850edc2cb4541c5ddf"
+      },
+      "BANK-421-005": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "75766dde10f9257bf2a51315532764ea456a3f2fe7d4a72357d6903caa0e0d57"
+      },
+      "BANK-421-006": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0db5ef6360b8f889a88a44040c5c7d6851cf0eda208a477a2fb834eca223cd72"
+      },
+      "BANK-421-007": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "94517fac1576fbcea0d4ef4c4af7875dc5f34a5a4ed1a96ee798f99a7df3c160"
+      },
+      "BANK-421-008": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "07be84bed5ad523aa29ea8d2e25a3d28618f69ccf7ea38324acc37ca446fbf29"
+      },
+      "BANK-421-009": {
+        "keys": [
+          "id",
+          "title",
+          "question",
+          "coverage",
+          "research_outline",
+          "next_action",
+          "angle",
+          "status",
+          "verified_sources"
+        ],
+        "sha256": "0164ae61f7096d07a10c4e7e82c010a8da3c27bdaf87f2b78f7d6ece622d3571"
+      }
+    },
+    "source_categories": {
+      "CATALOG-421-01": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "f861abbd7a194bf737a4afadc68c488470aac1432e1d3b17b216117773738697"
+      },
+      "CATALOG-421-02": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "5fa0b988726c3a2fe58bd1309ff63f53da02567396cac08517f0da63d98485a8"
+      },
+      "CATALOG-421-03": {
+        "keys": [
+          "id",
+          "title",
+          "level",
+          "prerequisites",
+          "research_profile"
+        ],
+        "sha256": "a0cebaa5af2f1a701d8c99a6b12fa3f204a925b598287362adebcd9b466a547a"
+      }
+    },
+    "source_initial_archive_sha256": null,
+    "local_files": {
+      "421_EV_BATTERY_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md": {
+        "sha256": "10181345e03d820ca20e15bd0f853a64ca2fb802b2a7a7c61aa34d7c7f93ba84",
+        "original_text": "# EV Battery Technology Channel Master Topic Roadmap (Scratch to Advanced)\r\n**Niche:** 421 EV Battery Technology (Transport_Engineering)  \r\n**Channel Language:** English (YouTube)  \r\n**Target Audience:** EV Battery Technology Researchers, Domain Specialists, Documentary Viewers, General Public (Global)  \r\n**Production Format:** 10 to 30-Minute In-Depth Documentary Explainer Episodes (600s–1800s, 75–225 Fixed 8s Scenes)  \r\n**Execution & Sync Report:** [topics/421_ev_battery_technology/TOPICS_COVERED_REPORT.md](./TOPICS_COVERED_REPORT.md)  \r\n\r\n---\r\n\r\n## 1. Channel Progression Strategy\r\n\r\nThis curriculum organizes the core disciplines of EV Battery Technology across four progressive tiers:\r\n- **Tier 1: EV Battery Technology Foundations & Core Mechanisms (Beginner / Scratch)** — Core physical and conceptual fundamentals, terminology, primary mechanisms, and foundational observation methods in EV Battery Technology.\r\n- **Tier 2: EV Battery Technology Methodological Deep Dives & Empirical Evidence (Intermediate)** — Detailed instrumentation, measurement metrics, classification systems, and documented case studies of EV Battery Technology.\r\n- **Tier 3: EV Battery Technology Advanced Systemic Paradigms & Comparative Dynamics (Upper Intermediate)** — Complex systemic interactions, historical shifts, anomalous patterns, and comparative analyses across different contexts in EV Battery Technology.\r\n- **Tier 4: EV Battery Technology Frontier Technologies, Global Impact & Future Horizons (Advanced / Masterclass)** — Emerging technological breakthroughs, policy frameworks, environmental and human impact, and long-term evolutionary projections for EV Battery Technology.\r\n\r\n---\r\n\r\n## 2. Topic Styles & Narrative Angles (32 Curated Formats)\r\n\r\nEvery episode is produced using one of the 32 niche angle presets defined in [`REGISTRY/Niches/421_ev_battery_technology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/421_ev_battery_technology/ANGLE_PLAN.json):\r\n\r\n| # | Angle Slug / Style | Primary Angle Focus | Core Story Question Formulated |\r\n|---|---|---|---|\r\n| 1 | `history_origins` | **A Battery Chemistry Reaches the Road** | *Which tested advantage let a cell chemistry enter a named vehicle?* |\r\n| 2 | `famous_examples` | **A Battery Pack Examined** | *What does a well-documented pack show about architecture and performance?* |\r\n| 3 | `hidden_stories` | **Supply Chain behind a Cell** | *Whose extraction, processing, or assembly work is absent from the story?* |\r\n| 4 | `beginner_explainers` | **Cell, Module, and Pack** | *Which functions and protections are added at each level?* |\r\n| 5 | `advanced_concepts` | **The Degradation Problem** | *How do time, temperature, and cycling interact in a tested battery?* |\r\n| 6 | `mysteries_unsolved_cases` | **An Unexplained Pack Failure** | *What evidence distinguishes cell, cooling, control, and external damage?* |\r\n| 7 | `technology_innovation` | **A New Cell Design** | *Which benefit survives pack-level and life-cycle testing?* |\r\n| 8 | `people_personalities` | **Battery Development Team** | *Who made one documented design choice and why?* |\r\n| 9 | `major_events` | **A Battery Recall** | *Which packs were affected and how was the defect bounded?* |\r\n| 10 | `how_it_works` | **Charge through a Pack** | *How do cells, sensors, controls, and cooling shape charge power?* |\r\n| 11 | `rise_fall` | **A Cell Chemistry Replaced** | *Which durability, cost, supply, or safety evidence drove change?* |\r\n| 12 | `then_vs_now` | **Two Pack Generations** | *What changed in usable energy, mass, charging, and serviceability?* |\r\n| 13 | `future_developments` | **A Proposed Battery Breakthrough** | *What production-scale evidence would confirm the claim?* |\r\n| 14 | `myths_vs_facts` | **Capacity Is Not Range** | *When does nominal pack capacity fail to predict vehicle range?* |\r\n| 15 | `documentary_stories` | **One Battery's Lifecycle** | *What records follow cells from materials to reuse or recycling?* |\r\n| 16 | `system_boundary` | **Where Is Battery Performance Measured?** | *Does a figure describe cell, module, pack, or vehicle?* |\r\n| 17 | `input_output_trace` | **Power into Stored Energy** | *Where does energy go during a measured charge?* |\r\n| 18 | `design_tradeoff` | **Energy, Power, and Lifetime** | *What is gained and lost by changing cell or pack design?* |\r\n| 19 | `failure_mode` | **A Battery Fault Chain** | *Which initiating event and safeguards are documented?* |\r\n| 20 | `testing_limits` | **Accelerated Aging Limits** | *Which lab stress fails to represent years of road use?* |\r\n| 21 | `standards_interoperability` | **Battery Test Definition** | *Which test standard and edition produced a published result?* |\r\n| 22 | `security_threat_model` | **Battery Control Interface** | *What authenticated update or diagnostic path can alter limits?* |\r\n| 23 | `maintenance_lifecycle` | **Pack Health in Service** | *Which measurement supports a repair or replacement decision?* |\r\n| 24 | `infrastructure_dependencies` | **Materials and Power** | *Which supply and charging dependencies shape pack deployment?* |\r\n| 25 | `accessibility_usability` | **Battery Information for Drivers** | *Can a user interpret state of charge and health accurately?* |\r\n| 26 | `independent_replication` | **Repeat a Cell Result** | *Can another lab reproduce a reported lifetime?* |\r\n| 27 | `responsible_deployment` | **Pack after Vehicle Service** | *How are damaged and retired packs identified and handled?* |\r\n| 28 | `field_route_capacity` | **Battery on a Defined Route** | *What reserve is available after a specified trip?* |\r\n| 29 | `field_vehicle_design` | **Pack in Vehicle Structure** | *How do enclosure, cooling, crash protection, and repair access interact?* |\r\n| 30 | `field_maintenance_system` | **Diagnosing a Pack** | *What tools and trained workers are available for one model?* |\r\n| 31 | `field_safety_case` | **Battery Safety Evidence** | *Which abuse, crash, and field tests support a bounded claim?* |\r\n| 32 | `field_construction_impact` | **Battery Production Footprint** | *Which mining and manufacturing impacts are measurable?* |\r\n\r\n---\r\n\r\n## 3. Topic Catalog (Scratch to Advanced Curriculum)\r\n\r\n### Tier 1: Foundational Frameworks\r\n1. **The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road**\r\n   - *Question:* Which tested advantage let a cell chemistry enter a named vehicle?\r\n   - *Key Focus:* Trace dated cell, pack, and production evidence. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n2. **EV Battery Technology: A Battery Pack Examined**\r\n   - *Question:* What does a well-documented pack show about architecture and performance?\r\n   - *Key Focus:* State model year, cell chemistry, and configuration. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n3. **EV Battery Technology: Supply Chain behind a Cell**\r\n   - *Question:* Whose extraction, processing, or assembly work is absent from the story?\r\n   - *Key Focus:* Use traceable supplier and labor records. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n4. **EV Battery Technology: Cell, Module, and Pack**\r\n   - *Question:* Which functions and protections are added at each level?\r\n   - *Key Focus:* Follow one documented vehicle design. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n5. **EV Battery Technology: The Degradation Problem**\r\n   - *Question:* How do time, temperature, and cycling interact in a tested battery?\r\n   - *Key Focus:* Use capacity definitions and comparable cohorts. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n### Tier 2: Methodological Deep Dives\r\n6. **EV Battery Technology: An Unexplained Pack Failure**\r\n   - *Question:* What evidence distinguishes cell, cooling, control, and external damage?\r\n   - *Key Focus:* Use teardown and diagnostic records. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n7. **EV Battery Technology: A New Cell Design**\r\n   - *Question:* Which benefit survives pack-level and life-cycle testing?\r\n   - *Key Focus:* Compare matched conditions and production status. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n8. **EV Battery Technology: Battery Development Team**\r\n   - *Question:* Who made one documented design choice and why?\r\n   - *Key Focus:* Credit materials, integration, and test teams. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n9. **EV Battery Technology: A Battery Recall**\r\n   - *Question:* Which packs were affected and how was the defect bounded?\r\n   - *Key Focus:* Read official notice, remedy, and follow-up. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n10. **EV Battery Technology: Charge through a Pack**\r\n   - *Question:* How do cells, sensors, controls, and cooling shape charge power?\r\n   - *Key Focus:* Trace measurements across one session. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n### Tier 3: Advanced Analytical Paradigms\r\n11. **EV Battery Technology: A Cell Chemistry Replaced**\r\n   - *Question:* Which durability, cost, supply, or safety evidence drove change?\r\n   - *Key Focus:* Compare versions and production dates. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n12. **EV Battery Technology: Two Pack Generations**\r\n   - *Question:* What changed in usable energy, mass, charging, and serviceability?\r\n   - *Key Focus:* Use aligned metrics and test cycles. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n13. **EV Battery Technology: A Proposed Battery Breakthrough**\r\n   - *Question:* What production-scale evidence would confirm the claim?\r\n   - *Key Focus:* Require durability, safety, cost, and yield data. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n14. **EV Battery Technology: Capacity Is Not Range**\r\n   - *Question:* When does nominal pack capacity fail to predict vehicle range?\r\n   - *Key Focus:* Include usable window, efficiency, and conditions. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n15. **EV Battery Technology: One Battery's Lifecycle**\r\n   - *Question:* What records follow cells from materials to reuse or recycling?\r\n   - *Key Focus:* Trace custody and measured recovery. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n### Tier 4: Frontier Systems & Interdisciplinary Paradigms\r\n16. **EV Battery Technology: Where Is Battery Performance Measured?**\r\n   - *Question:* Does a figure describe cell, module, pack, or vehicle?\r\n   - *Key Focus:* Define energy, mass, and test temperature. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n17. **EV Battery Technology: Power into Stored Energy**\r\n   - *Question:* Where does energy go during a measured charge?\r\n   - *Key Focus:* Compare meter, pack, thermal, and auxiliary data. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n18. **EV Battery Technology: Energy, Power, and Lifetime**\r\n   - *Question:* What is gained and lost by changing cell or pack design?\r\n   - *Key Focus:* Use controlled tests and vehicle use case. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n19. **EV Battery Technology: A Battery Fault Chain**\r\n   - *Question:* Which initiating event and safeguards are documented?\r\n   - *Key Focus:* Use qualified incident and lab evidence. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n20. **EV Battery Technology: Accelerated Aging Limits**\r\n   - *Question:* Which lab stress fails to represent years of road use?\r\n   - *Key Focus:* Compare protocol and observed field degradation. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.\r\n\r\n---\r\n\r\n## 4. Flagship Launch Episode\r\n- **Niche ID:** 421 (EV Battery Technology)\r\n- **Angle Preset:** `history_origins`\r\n- **Episode Title:** *The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road*\r\n- **Episode Slug:** `421_ev_battery_technology_deep_dive_the_architecture_of_ev_battery_technology_a_battery_chemistr`\r\n- **Duration:** 10 to 30 Minutes (600s–1800s / 75–225 Scenes @ 8s fixed, expandable to 20m & 30m deep dives)\r\n- **Execution:** Full Phases 0–5 Autonomous Production Package inside `OUTPUT/421_ev_battery_technology/`.\r\n"
+      },
+      "TOPICS_COVERED_REPORT.md": {
+        "sha256": "596eeed78a2767be316224bdd682fdcb39bfc372bfafb583001ea1e35a932520",
+        "original_text": "# 421 EV Battery Technology -- Master Topic Execution & Roadmap Sync Report\r\n> **Niche:** 421 EV Battery Technology (Transport_Engineering)  \r\n> **Storage Directory:** `topics/421_ev_battery_technology/`  \r\n> **Synchronized With:** `OUTPUT/421_ev_battery_technology/`, `REGISTRY/Niches/421_ev_battery_technology/`, and `421_EV_BATTERY_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md`  \r\n> **Last Synced:** `2026-10-21 17:15:00`  \r\n> **Production Format:** 10–30 Minute Deep-Dive Episodes (600s–1800s, 75–225 Fixed 8s Scenes, Strict 4.2–5.6s VO Ceiling)\r\n\r\n---\r\n\r\n## Executive Progress Summary\r\n\r\n| Metric | Count | Percentage | Status |\r\n|---|---|---|---|\r\n| **Topics Completed & Produced (Phases 0-5)** | **0** | **0.0%** | `IN PIPELINE (Ready for Batch Production)` |\r\n| **Curriculum Topics Pending Production** | **20** | **74.1%** | `QUEUED (Foundational 4-Tier Curriculum)` |\r\n| **New High-Retention Trending Candidates** | **7** | **25.9%** | `READY FOR VIRAL / RETENTION EXPANSION` |\r\n| **Total Tracked Master Catalog** | **27** | **100%** | `Active Production Pipeline` |\r\n\r\n---\r\n\r\n## 1. Covered Topics (Done / Produced in OUTPUT)\r\n*Currently, 421 is queued for batch script compilation. No episodes have finalized Phase 5 audit in OUTPUT directory yet.*\r\n\r\n| # | Topic Title | Curriculum Tier | Angle Preset | Associated Output Folder & Files | Status |\r\n|---|---|---|---|---|---|\r\n| - | *No episodes compiled yet* | - | - | [OUTPUT/421_ev_battery_technology](../../OUTPUT/421_ev_battery_technology) | `QUEUED FOR BATCH COMPILATION` |\r\n\r\n---\r\n\r\n## 2. Pending Master Curriculum Topics (Scratch to Advanced Roadmap)\r\n\r\n| # | Proposed Topic Title | Target Tier | Angle Preset | Recommended Slug | Why It Matters | Status |\r\n|---|---|---|---|---|---|---|\r\n| 1 | **The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road** | Tier 1: Foundational Frameworks | `history_origins` | `ev_battery_technology_a_battery_chemistry_reaches_the_road` | A rigorous pedagogical investigation exploring a battery chemistry reaches the road through documented evidence. | `QUEUED (Priority #1 Launch)` |\r\n| 2 | **EV Battery Technology: A Battery Pack Examined** | Tier 1: Foundational Frameworks | `famous_examples` | `ev_battery_technology_a_battery_pack_examined` | A rigorous pedagogical investigation exploring a battery pack examined through documented evidence. | `QUEUED` |\r\n| 3 | **EV Battery Technology: Supply Chain behind a Cell** | Tier 1: Foundational Frameworks | `hidden_stories` | `ev_battery_technology_supply_chain_behind_a_cell` | A rigorous pedagogical investigation exploring supply chain behind a cell through documented evidence. | `QUEUED` |\r\n| 4 | **EV Battery Technology: Cell, Module, and Pack** | Tier 1: Foundational Frameworks | `beginner_explainers` | `ev_battery_technology_cell_module_and_pack` | A rigorous pedagogical investigation exploring cell, module, and pack through documented evidence. | `QUEUED` |\r\n| 5 | **EV Battery Technology: The Degradation Problem** | Tier 1: Foundational Frameworks | `advanced_concepts` | `ev_battery_technology_the_degradation_problem` | A rigorous pedagogical investigation exploring the degradation problem through documented evidence. | `QUEUED` |\r\n| 6 | **EV Battery Technology: An Unexplained Pack Failure** | Tier 2: Methodological Deep Dives | `mysteries_unsolved_cases` | `ev_battery_technology_an_unexplained_pack_failure` | A rigorous pedagogical investigation exploring an unexplained pack failure through documented evidence. | `QUEUED` |\r\n| 7 | **EV Battery Technology: A New Cell Design** | Tier 2: Methodological Deep Dives | `technology_innovation` | `ev_battery_technology_a_new_cell_design` | A rigorous pedagogical investigation exploring a new cell design through documented evidence. | `QUEUED` |\r\n| 8 | **EV Battery Technology: Battery Development Team** | Tier 2: Methodological Deep Dives | `people_personalities` | `ev_battery_technology_battery_development_team` | A rigorous pedagogical investigation exploring battery development team through documented evidence. | `QUEUED` |\r\n| 9 | **EV Battery Technology: A Battery Recall** | Tier 2: Methodological Deep Dives | `major_events` | `ev_battery_technology_a_battery_recall` | A rigorous pedagogical investigation exploring a battery recall through documented evidence. | `QUEUED` |\r\n| 10 | **EV Battery Technology: Charge through a Pack** | Tier 2: Methodological Deep Dives | `how_it_works` | `ev_battery_technology_charge_through_a_pack` | A rigorous pedagogical investigation exploring charge through a pack through documented evidence. | `QUEUED` |\r\n| 11 | **EV Battery Technology: A Cell Chemistry Replaced** | Tier 3: Advanced Analytical Paradigms | `rise_fall` | `ev_battery_technology_a_cell_chemistry_replaced` | A rigorous pedagogical investigation exploring a cell chemistry replaced through documented evidence. | `QUEUED` |\r\n| 12 | **EV Battery Technology: Two Pack Generations** | Tier 3: Advanced Analytical Paradigms | `then_vs_now` | `ev_battery_technology_two_pack_generations` | A rigorous pedagogical investigation exploring two pack generations through documented evidence. | `QUEUED` |\r\n| 13 | **EV Battery Technology: A Proposed Battery Breakthrough** | Tier 3: Advanced Analytical Paradigms | `future_developments` | `ev_battery_technology_a_proposed_battery_breakthrough` | A rigorous pedagogical investigation exploring a proposed battery breakthrough through documented evidence. | `QUEUED` |\r\n| 14 | **EV Battery Technology: Capacity Is Not Range** | Tier 3: Advanced Analytical Paradigms | `myths_vs_facts` | `ev_battery_technology_capacity_is_not_range` | A rigorous pedagogical investigation exploring capacity is not range through documented evidence. | `QUEUED` |\r\n| 15 | **EV Battery Technology: One Battery's Lifecycle** | Tier 3: Advanced Analytical Paradigms | `documentary_stories` | `ev_battery_technology_one_battery_s_lifecycle` | A rigorous pedagogical investigation exploring one battery's lifecycle through documented evidence. | `QUEUED` |\r\n| 16 | **EV Battery Technology: Where Is Battery Performance Measured?** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `system_boundary` | `ev_battery_technology_where_is_battery_performance_measured` | A rigorous pedagogical investigation exploring where is battery performance measured? through documented evidence. | `QUEUED` |\r\n| 17 | **EV Battery Technology: Power into Stored Energy** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `input_output_trace` | `ev_battery_technology_power_into_stored_energy` | A rigorous pedagogical investigation exploring power into stored energy through documented evidence. | `QUEUED` |\r\n| 18 | **EV Battery Technology: Energy, Power, and Lifetime** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `design_tradeoff` | `ev_battery_technology_energy_power_and_lifetime` | A rigorous pedagogical investigation exploring energy, power, and lifetime through documented evidence. | `QUEUED` |\r\n| 19 | **EV Battery Technology: A Battery Fault Chain** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `failure_mode` | `ev_battery_technology_a_battery_fault_chain` | A rigorous pedagogical investigation exploring a battery fault chain through documented evidence. | `QUEUED` |\r\n| 20 | **EV Battery Technology: Accelerated Aging Limits** | Tier 4: Frontier Systems & Interdisciplinary Paradigms | `testing_limits` | `ev_battery_technology_accelerated_aging_limits` | A rigorous pedagogical investigation exploring accelerated aging limits through documented evidence. | `QUEUED` |\r\n\r\n---\r\n\r\n## 3. Trending & High-Retention Topics (Algorithm & Search Optimized)\r\n\r\n| # | Trending Video Concept | Trend Velocity | Angle Preset | Recommended Slug | Retention Hook & Value | Status |\r\n|---|---|---|---|---|---|---|\r\n| 21 | **EV Battery Technology: Record Extremes & Superlatives** | **98** | `extreme_case` | `ev_battery_technology_extreme_case` | High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain.. | `Queued` |\r\n| 22 | **EV Battery Technology: An Unexplained Pack Failure** | **96** | `mysteries_unsolved_cases` | `ev_battery_technology_mysteries_unsolved_cases` | High viral search interest exploring what evidence distinguishes cell, cooling, control, and external damage backed by field records. | `Queued` |\r\n| 23 | **EV Battery Technology: A New Cell Design** | **95** | `technology_innovation` | `ev_battery_technology_technology_innovation` | High viral search interest exploring which benefit survives pack-level and life-cycle testing backed by field records. | `Queued` |\r\n| 24 | **EV Battery Technology: Capacity Is Not Range** | **94** | `myths_vs_facts` | `ev_battery_technology_myths_vs_facts` | High viral search interest exploring when does nominal pack capacity fail to predict vehicle range backed by field records. | `Queued` |\r\n| 25 | **EV Battery Technology: A Battery Recall** | **93** | `major_events` | `ev_battery_technology_major_events` | High viral search interest exploring which packs were affected and how was the defect bounded backed by field records. | `Queued` |\r\n| 26 | **EV Battery Technology: Supply Chain behind a Cell** | **92** | `hidden_stories` | `ev_battery_technology_hidden_stories` | High viral search interest exploring whose extraction, processing, or assembly work is absent from the story backed by field records. | `Queued` |\r\n| 27 | **EV Battery Technology: One Battery's Lifecycle** | **91** | `documentary_stories` | `ev_battery_technology_documentary_stories` | High viral search interest exploring what records follow cells from materials to reuse or recycling backed by field records. | `Queued` |\r\n\r\n---\r\n\r\n## 4. Cross-Document Sync & File Linkages\r\nThis report is wired directly into the repository structure:\r\n- **Master Channel Roadmap:** [`topics/421_ev_battery_technology/421_EV_BATTERY_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md`](./421_EV_BATTERY_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md)\r\n- **Machine Status File:** [`topics/421_ev_battery_technology/topics_status.json`](./topics_status.json)\r\n- **Niche Registry Home:** [`REGISTRY/Niches/421_ev_battery_technology/NICHE_421_ev_battery_technology.md`](file:///h:/script-raw-/REGISTRY/Niches/421_ev_battery_technology/NICHE_421_ev_battery_technology.md)\r\n- **Category Configuration:** [`REGISTRY/Niches/421_ev_battery_technology/CAT_421_ev_battery_technology.md`](file:///h:/script-raw-/REGISTRY/Niches/421_ev_battery_technology/CAT_421_ev_battery_technology.md)\r\n- **Angle Plan Data:** [`REGISTRY/Niches/421_ev_battery_technology/ANGLE_PLAN.json`](file:///h:/script-raw-/REGISTRY/Niches/421_ev_battery_technology/ANGLE_PLAN.json)\r\n- **Output Landing Directory:** [`OUTPUT/421_ev_battery_technology/`](file:///h:/script-raw-/OUTPUT/421_ev_battery_technology/)\r\n\r\n---\r\n*Generated by Script-Raw Workspace Topic Tracking Engine.*\r\n"
+      },
+      "topics_status.json": {
+        "sha256": "5a2b9349e8bbc6bf1c55e63f50cec80fd7aeec3e59a42ddb4b23bdd6e47b7b5c",
+        "original_text": "{\r\n  \"niche_id\": \"421\",\r\n  \"niche_name\": \"ev_battery_technology\",\r\n  \"last_synced\": \"2026-10-21T18:50:00.000000\",\r\n  \"summary\": {\r\n    \"completed\": 0,\r\n    \"pending\": 20,\r\n    \"trending\": 7,\r\n    \"total\": 27\r\n  },\r\n  \"completed_topics\": [],\r\n  \"pending_topics\": [\r\n    {\r\n      \"id\": 1,\r\n      \"title\": \"The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"history_origins\",\r\n      \"slug\": \"ev_battery_technology_a_battery_chemistry_reaches_the_road\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a battery chemistry reaches the road through documented evidence.\",\r\n      \"status\": \"QUEUED (Priority #1 Launch)\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"title\": \"EV Battery Technology: A Battery Pack Examined\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"famous_examples\",\r\n      \"slug\": \"ev_battery_technology_a_battery_pack_examined\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a battery pack examined through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"title\": \"EV Battery Technology: Supply Chain behind a Cell\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ev_battery_technology_supply_chain_behind_a_cell\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring supply chain behind a cell through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"title\": \"EV Battery Technology: Cell, Module, and Pack\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"beginner_explainers\",\r\n      \"slug\": \"ev_battery_technology_cell_module_and_pack\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring cell, module, and pack through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"title\": \"EV Battery Technology: The Degradation Problem\",\r\n      \"tier\": \"Tier 1: Foundational Frameworks\",\r\n      \"angle\": \"advanced_concepts\",\r\n      \"slug\": \"ev_battery_technology_the_degradation_problem\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring the degradation problem through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 6,\r\n      \"title\": \"EV Battery Technology: An Unexplained Pack Failure\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ev_battery_technology_an_unexplained_pack_failure\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring an unexplained pack failure through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 7,\r\n      \"title\": \"EV Battery Technology: A New Cell Design\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ev_battery_technology_a_new_cell_design\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a new cell design through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 8,\r\n      \"title\": \"EV Battery Technology: Battery Development Team\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"people_personalities\",\r\n      \"slug\": \"ev_battery_technology_battery_development_team\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring battery development team through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 9,\r\n      \"title\": \"EV Battery Technology: A Battery Recall\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ev_battery_technology_a_battery_recall\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a battery recall through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"title\": \"EV Battery Technology: Charge through a Pack\",\r\n      \"tier\": \"Tier 2: Methodological Deep Dives\",\r\n      \"angle\": \"how_it_works\",\r\n      \"slug\": \"ev_battery_technology_charge_through_a_pack\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring charge through a pack through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 11,\r\n      \"title\": \"EV Battery Technology: A Cell Chemistry Replaced\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"rise_fall\",\r\n      \"slug\": \"ev_battery_technology_a_cell_chemistry_replaced\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a cell chemistry replaced through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 12,\r\n      \"title\": \"EV Battery Technology: Two Pack Generations\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"then_vs_now\",\r\n      \"slug\": \"ev_battery_technology_two_pack_generations\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring two pack generations through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 13,\r\n      \"title\": \"EV Battery Technology: A Proposed Battery Breakthrough\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"future_developments\",\r\n      \"slug\": \"ev_battery_technology_a_proposed_battery_breakthrough\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a proposed battery breakthrough through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 14,\r\n      \"title\": \"EV Battery Technology: Capacity Is Not Range\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ev_battery_technology_capacity_is_not_range\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring capacity is not range through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 15,\r\n      \"title\": \"EV Battery Technology: One Battery's Lifecycle\",\r\n      \"tier\": \"Tier 3: Advanced Analytical Paradigms\",\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ev_battery_technology_one_battery_s_lifecycle\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring one battery's lifecycle through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 16,\r\n      \"title\": \"EV Battery Technology: Where Is Battery Performance Measured?\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"system_boundary\",\r\n      \"slug\": \"ev_battery_technology_where_is_battery_performance_measured\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring where is battery performance measured? through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 17,\r\n      \"title\": \"EV Battery Technology: Power into Stored Energy\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"input_output_trace\",\r\n      \"slug\": \"ev_battery_technology_power_into_stored_energy\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring power into stored energy through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 18,\r\n      \"title\": \"EV Battery Technology: Energy, Power, and Lifetime\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"design_tradeoff\",\r\n      \"slug\": \"ev_battery_technology_energy_power_and_lifetime\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring energy, power, and lifetime through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 19,\r\n      \"title\": \"EV Battery Technology: A Battery Fault Chain\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"failure_mode\",\r\n      \"slug\": \"ev_battery_technology_a_battery_fault_chain\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring a battery fault chain through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    },\r\n    {\r\n      \"id\": 20,\r\n      \"title\": \"EV Battery Technology: Accelerated Aging Limits\",\r\n      \"tier\": \"Tier 4: Frontier Systems & Interdisciplinary Paradigms\",\r\n      \"angle\": \"testing_limits\",\r\n      \"slug\": \"ev_battery_technology_accelerated_aging_limits\",\r\n      \"reason\": \"A rigorous pedagogical investigation exploring accelerated aging limits through documented evidence.\",\r\n      \"status\": \"QUEUED\"\r\n    }\r\n  ],\r\n  \"trending_topics\": [\r\n    {\r\n      \"id\": 21,\r\n      \"title\": \"EV Battery Technology: Record Extremes & Superlatives\",\r\n      \"trend_score\": 98,\r\n      \"angle\": \"extreme_case\",\r\n      \"slug\": \"ev_battery_technology_extreme_case\",\r\n      \"why_trending\": \"High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 22,\r\n      \"title\": \"EV Battery Technology: An Unexplained Pack Failure\",\r\n      \"trend_score\": 96,\r\n      \"angle\": \"mysteries_unsolved_cases\",\r\n      \"slug\": \"ev_battery_technology_mysteries_unsolved_cases\",\r\n      \"why_trending\": \"High viral search interest exploring what evidence distinguishes cell, cooling, control, and external damage backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 23,\r\n      \"title\": \"EV Battery Technology: A New Cell Design\",\r\n      \"trend_score\": 95,\r\n      \"angle\": \"technology_innovation\",\r\n      \"slug\": \"ev_battery_technology_technology_innovation\",\r\n      \"why_trending\": \"High viral search interest exploring which benefit survives pack-level and life-cycle testing backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 24,\r\n      \"title\": \"EV Battery Technology: Capacity Is Not Range\",\r\n      \"trend_score\": 94,\r\n      \"angle\": \"myths_vs_facts\",\r\n      \"slug\": \"ev_battery_technology_myths_vs_facts\",\r\n      \"why_trending\": \"High viral search interest exploring when does nominal pack capacity fail to predict vehicle range backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 25,\r\n      \"title\": \"EV Battery Technology: A Battery Recall\",\r\n      \"trend_score\": 93,\r\n      \"angle\": \"major_events\",\r\n      \"slug\": \"ev_battery_technology_major_events\",\r\n      \"why_trending\": \"High viral search interest exploring which packs were affected and how was the defect bounded backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 26,\r\n      \"title\": \"EV Battery Technology: Supply Chain behind a Cell\",\r\n      \"trend_score\": 92,\r\n      \"angle\": \"hidden_stories\",\r\n      \"slug\": \"ev_battery_technology_hidden_stories\",\r\n      \"why_trending\": \"High viral search interest exploring whose extraction, processing, or assembly work is absent from the story backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    },\r\n    {\r\n      \"id\": 27,\r\n      \"title\": \"EV Battery Technology: One Battery's Lifecycle\",\r\n      \"trend_score\": 91,\r\n      \"angle\": \"documentary_stories\",\r\n      \"slug\": \"ev_battery_technology_documentary_stories\",\r\n      \"why_trending\": \"High viral search interest exploring what records follow cells from materials to reuse or recycling backed by field records.\",\r\n      \"status\": \"Queued\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "local_status_original": {
+      "niche_id": "421",
+      "niche_name": "ev_battery_technology",
+      "last_synced": "2026-10-21T18:50:00.000000",
+      "summary": {
+        "completed": 0,
+        "pending": 20,
+        "trending": 7,
+        "total": 27
+      },
+      "completed_topics": [],
+      "pending_topics": [
+        {
+          "id": 1,
+          "title": "The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "history_origins",
+          "slug": "ev_battery_technology_a_battery_chemistry_reaches_the_road",
+          "reason": "A rigorous pedagogical investigation exploring a battery chemistry reaches the road through documented evidence.",
+          "status": "QUEUED (Priority #1 Launch)"
+        },
+        {
+          "id": 2,
+          "title": "EV Battery Technology: A Battery Pack Examined",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "famous_examples",
+          "slug": "ev_battery_technology_a_battery_pack_examined",
+          "reason": "A rigorous pedagogical investigation exploring a battery pack examined through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 3,
+          "title": "EV Battery Technology: Supply Chain behind a Cell",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "hidden_stories",
+          "slug": "ev_battery_technology_supply_chain_behind_a_cell",
+          "reason": "A rigorous pedagogical investigation exploring supply chain behind a cell through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 4,
+          "title": "EV Battery Technology: Cell, Module, and Pack",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "beginner_explainers",
+          "slug": "ev_battery_technology_cell_module_and_pack",
+          "reason": "A rigorous pedagogical investigation exploring cell, module, and pack through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 5,
+          "title": "EV Battery Technology: The Degradation Problem",
+          "tier": "Tier 1: Foundational Frameworks",
+          "angle": "advanced_concepts",
+          "slug": "ev_battery_technology_the_degradation_problem",
+          "reason": "A rigorous pedagogical investigation exploring the degradation problem through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 6,
+          "title": "EV Battery Technology: An Unexplained Pack Failure",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ev_battery_technology_an_unexplained_pack_failure",
+          "reason": "A rigorous pedagogical investigation exploring an unexplained pack failure through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 7,
+          "title": "EV Battery Technology: A New Cell Design",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "technology_innovation",
+          "slug": "ev_battery_technology_a_new_cell_design",
+          "reason": "A rigorous pedagogical investigation exploring a new cell design through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 8,
+          "title": "EV Battery Technology: Battery Development Team",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "people_personalities",
+          "slug": "ev_battery_technology_battery_development_team",
+          "reason": "A rigorous pedagogical investigation exploring battery development team through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 9,
+          "title": "EV Battery Technology: A Battery Recall",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "major_events",
+          "slug": "ev_battery_technology_a_battery_recall",
+          "reason": "A rigorous pedagogical investigation exploring a battery recall through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 10,
+          "title": "EV Battery Technology: Charge through a Pack",
+          "tier": "Tier 2: Methodological Deep Dives",
+          "angle": "how_it_works",
+          "slug": "ev_battery_technology_charge_through_a_pack",
+          "reason": "A rigorous pedagogical investigation exploring charge through a pack through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 11,
+          "title": "EV Battery Technology: A Cell Chemistry Replaced",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "rise_fall",
+          "slug": "ev_battery_technology_a_cell_chemistry_replaced",
+          "reason": "A rigorous pedagogical investigation exploring a cell chemistry replaced through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 12,
+          "title": "EV Battery Technology: Two Pack Generations",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "then_vs_now",
+          "slug": "ev_battery_technology_two_pack_generations",
+          "reason": "A rigorous pedagogical investigation exploring two pack generations through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 13,
+          "title": "EV Battery Technology: A Proposed Battery Breakthrough",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "future_developments",
+          "slug": "ev_battery_technology_a_proposed_battery_breakthrough",
+          "reason": "A rigorous pedagogical investigation exploring a proposed battery breakthrough through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 14,
+          "title": "EV Battery Technology: Capacity Is Not Range",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "myths_vs_facts",
+          "slug": "ev_battery_technology_capacity_is_not_range",
+          "reason": "A rigorous pedagogical investigation exploring capacity is not range through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 15,
+          "title": "EV Battery Technology: One Battery's Lifecycle",
+          "tier": "Tier 3: Advanced Analytical Paradigms",
+          "angle": "documentary_stories",
+          "slug": "ev_battery_technology_one_battery_s_lifecycle",
+          "reason": "A rigorous pedagogical investigation exploring one battery's lifecycle through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 16,
+          "title": "EV Battery Technology: Where Is Battery Performance Measured?",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "system_boundary",
+          "slug": "ev_battery_technology_where_is_battery_performance_measured",
+          "reason": "A rigorous pedagogical investigation exploring where is battery performance measured? through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 17,
+          "title": "EV Battery Technology: Power into Stored Energy",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "input_output_trace",
+          "slug": "ev_battery_technology_power_into_stored_energy",
+          "reason": "A rigorous pedagogical investigation exploring power into stored energy through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 18,
+          "title": "EV Battery Technology: Energy, Power, and Lifetime",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "design_tradeoff",
+          "slug": "ev_battery_technology_energy_power_and_lifetime",
+          "reason": "A rigorous pedagogical investigation exploring energy, power, and lifetime through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 19,
+          "title": "EV Battery Technology: A Battery Fault Chain",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "failure_mode",
+          "slug": "ev_battery_technology_a_battery_fault_chain",
+          "reason": "A rigorous pedagogical investigation exploring a battery fault chain through documented evidence.",
+          "status": "QUEUED"
+        },
+        {
+          "id": 20,
+          "title": "EV Battery Technology: Accelerated Aging Limits",
+          "tier": "Tier 4: Frontier Systems & Interdisciplinary Paradigms",
+          "angle": "testing_limits",
+          "slug": "ev_battery_technology_accelerated_aging_limits",
+          "reason": "A rigorous pedagogical investigation exploring accelerated aging limits through documented evidence.",
+          "status": "QUEUED"
+        }
+      ],
+      "trending_topics": [
+        {
+          "id": 21,
+          "title": "EV Battery Technology: Record Extremes & Superlatives",
+          "trend_score": 98,
+          "angle": "extreme_case",
+          "slug": "ev_battery_technology_extreme_case",
+          "why_trending": "High audience retention curiosity regarding extreme boundary conditions and anomalous phenomena recorded across the domain..",
+          "status": "Queued"
+        },
+        {
+          "id": 22,
+          "title": "EV Battery Technology: An Unexplained Pack Failure",
+          "trend_score": 96,
+          "angle": "mysteries_unsolved_cases",
+          "slug": "ev_battery_technology_mysteries_unsolved_cases",
+          "why_trending": "High viral search interest exploring what evidence distinguishes cell, cooling, control, and external damage backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 23,
+          "title": "EV Battery Technology: A New Cell Design",
+          "trend_score": 95,
+          "angle": "technology_innovation",
+          "slug": "ev_battery_technology_technology_innovation",
+          "why_trending": "High viral search interest exploring which benefit survives pack-level and life-cycle testing backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 24,
+          "title": "EV Battery Technology: Capacity Is Not Range",
+          "trend_score": 94,
+          "angle": "myths_vs_facts",
+          "slug": "ev_battery_technology_myths_vs_facts",
+          "why_trending": "High viral search interest exploring when does nominal pack capacity fail to predict vehicle range backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 25,
+          "title": "EV Battery Technology: A Battery Recall",
+          "trend_score": 93,
+          "angle": "major_events",
+          "slug": "ev_battery_technology_major_events",
+          "why_trending": "High viral search interest exploring which packs were affected and how was the defect bounded backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 26,
+          "title": "EV Battery Technology: Supply Chain behind a Cell",
+          "trend_score": 92,
+          "angle": "hidden_stories",
+          "slug": "ev_battery_technology_hidden_stories",
+          "why_trending": "High viral search interest exploring whose extraction, processing, or assembly work is absent from the story backed by field records.",
+          "status": "Queued"
+        },
+        {
+          "id": 27,
+          "title": "EV Battery Technology: One Battery's Lifecycle",
+          "trend_score": 91,
+          "angle": "documentary_stories",
+          "slug": "ev_battery_technology_documentary_stories",
+          "why_trending": "High viral search interest exploring what records follow cells from materials to reuse or recycling backed by field records.",
+          "status": "Queued"
+        }
+      ]
+    },
+    "merge_policy": "Preserve source detailed records and existing local status fields. Archive boilerplate starter maps before authored expansion. Legacy proposal counts remain a separate family; no source or completion certification is added."
+  },
+  "integration_stage": "authored_expansion_prepared_coverage_open",
+  "local_authored_inputs": [
+    {
+      "input": "Scripts\\topic_expansion_inputs\\adopt_existing_local_roadmaps.json",
+      "sha256": "ac2d6b71cccd5a6797d05f4ee0f2483119990698ecc75dc97e1b681c74e2f8f9"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "7cc6db1444e3c79ada346848d000afd363714e7498f0571305308617a3421080"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "45046c8b992bc6f2d3ff64d7253bf0f33c5a42d766498d9c455764c92661c906"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "64e447a0eee7f5dca54b060f4e07d64d8bf1a8044e76b11ab01b6fb519cbcf3f"
+    },
+    {
+      "input": "Scripts\\expansion_368_550.json",
+      "sha256": "1124ecc665ace1a02c5f8134310820eb37b3ac030b5a669cf4cd6826f5e8b966"
+    },
+    {
+      "input": "Scripts\\editorial_pass_368_550.json",
+      "sha256": "14643402af27aff821b88ef1915cdcf5554adf75c431b99a91ff63b3a854f24b"
+    }
+  ],
+  "parent_categories": [
+    {
+      "id": "DOMAIN-421-01",
+      "title": "Foundations",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-02",
+      "title": "Methods and applications",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-03",
+      "title": "Systems and interpretation",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-04",
+      "title": "Battery mechanisms",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-05",
+      "title": "Battery lifecycle",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-06",
+      "title": "Battery diagnostics",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-07",
+      "title": "Battery evidence",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    },
+    {
+      "id": "DOMAIN-421-08",
+      "title": "Battery circularity",
+      "scope": "Individual proposals below define the subjects and limits of this branch."
+    }
+  ],
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "421",
+    "slug": "ev_battery_technology",
+    "name": "EV Battery Technology",
+    "primary_category": "Transport_Engineering",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a EV Battery Technology YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 9
+    },
+    "categories": [
+      {
+        "id": "CATALOG-421-01",
+        "title": "Cell chemistry",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-421-001",
+            "title": "LFP versus nickel-rich cathodes",
+            "question": "LFP versus nickel-rich cathodes: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Cell chemistry. Address LFP versus nickel-rich cathodes through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind LFP versus nickel-rich cathodes.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-002",
+            "title": "Silicon anode tradeoffs",
+            "question": "Silicon anode tradeoffs: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Cell chemistry. Address Silicon anode tradeoffs through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Silicon anode tradeoffs.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-003",
+            "title": "Solid-state interface challenges",
+            "question": "Solid-state interface challenges: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Cell chemistry. Address Solid-state interface challenges through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Solid-state interface challenges.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-421-02",
+        "title": "Pack engineering",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-421-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-421-004",
+            "title": "Cell balancing",
+            "question": "Cell balancing: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Pack engineering. Address Cell balancing through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Cell balancing.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-005",
+            "title": "Thermal propagation barriers",
+            "question": "Thermal propagation barriers: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Pack engineering. Address Thermal propagation barriers through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Thermal propagation barriers.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-006",
+            "title": "State-of-health estimation",
+            "question": "State-of-health estimation: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: EV Battery Technology; branch: Pack engineering. Address State-of-health estimation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind State-of-health estimation.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-421-03",
+        "title": "Lifecycle",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-421-01"
+        ],
+        "research_profile": "science",
+        "topics": [
+          {
+            "id": "BANK-421-007",
+            "title": "Fast-charge degradation",
+            "question": "Fast-charge degradation: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: EV Battery Technology; branch: Lifecycle. Address Fast-charge degradation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Fast-charge degradation precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-008",
+            "title": "Second-life use",
+            "question": "Second-life use: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: EV Battery Technology; branch: Lifecycle. Address Second-life use through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Second-life use precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-421-009",
+            "title": "Recycling economics",
+            "question": "Recycling economics: what mechanisms and measurements support the explanation?",
+            "coverage": "Primary context: EV Battery Technology; branch: Lifecycle. Address Recycling economics through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Define Recycling economics precisely and identify the scale, system or population being studied.",
+              "Explain the proposed mechanism with an observable example; distinguish model from direct observation.",
+              "Inspect how the key quantity is measured and which controls or comparison conditions matter.",
+              "Discuss uncertainty, alternative explanations and a result that would challenge the account."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "science": {
+        "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+        "source_leads": [
+          "original research reports and data",
+          "research-institution observation records",
+          "methods papers and current scientific reference works"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "022",
+        "title": "Cars / Automotive Stories",
+        "directory": "022_cars_automotive_stories",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "045",
+        "title": "Racing",
+        "directory": "045_racing",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "139",
+        "title": "Motorcycles",
+        "directory": "139_motorcycles",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "418",
+        "title": "Automotive Engineering",
+        "directory": "418_automotive_engineering",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "419",
+        "title": "Supercars",
+        "directory": "419_supercars",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "420",
+        "title": "Electric Vehicles",
+        "directory": "420_electric_vehicles",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "fixed_topic_target": null,
+    "topic_cap": null,
+    "source_verification": "not_performed",
+    "exhaustive_coverage_claimed": false
+  },
+  "local_roadmap_adoptions": [],
+  "archived_local_frameworks": [
+    {
+      "title": "The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road",
+      "question": "Which tested advantage let a cell chemistry enter a named vehicle?",
+      "coverage": "Trace dated cell, pack, and production evidence. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 1,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-010",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A Battery Pack Examined",
+      "question": "What does a well-documented pack show about architecture and performance?",
+      "coverage": "State model year, cell chemistry, and configuration. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 2,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-011",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Supply Chain behind a Cell",
+      "question": "Whose extraction, processing, or assembly work is absent from the story?",
+      "coverage": "Use traceable supplier and labor records. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 3,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-012",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Cell, Module, and Pack",
+      "question": "Which functions and protections are added at each level?",
+      "coverage": "Follow one documented vehicle design. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 4,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-013",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: The Degradation Problem",
+      "question": "How do time, temperature, and cycling interact in a tested battery?",
+      "coverage": "Use capacity definitions and comparable cohorts. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 5,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-014",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: An Unexplained Pack Failure",
+      "question": "What evidence distinguishes cell, cooling, control, and external damage?",
+      "coverage": "Use teardown and diagnostic records. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 6,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-015",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A New Cell Design",
+      "question": "Which benefit survives pack-level and life-cycle testing?",
+      "coverage": "Compare matched conditions and production status. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 7,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-016",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Battery Development Team",
+      "question": "Who made one documented design choice and why?",
+      "coverage": "Credit materials, integration, and test teams. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 8,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-017",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A Battery Recall",
+      "question": "Which packs were affected and how was the defect bounded?",
+      "coverage": "Read official notice, remedy, and follow-up. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 9,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-018",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Charge through a Pack",
+      "question": "How do cells, sensors, controls, and cooling shape charge power?",
+      "coverage": "Trace measurements across one session. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 10,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-019",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A Cell Chemistry Replaced",
+      "question": "Which durability, cost, supply, or safety evidence drove change?",
+      "coverage": "Compare versions and production dates. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 11,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-020",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Two Pack Generations",
+      "question": "What changed in usable energy, mass, charging, and serviceability?",
+      "coverage": "Use aligned metrics and test cycles. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 12,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-021",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A Proposed Battery Breakthrough",
+      "question": "What production-scale evidence would confirm the claim?",
+      "coverage": "Require durability, safety, cost, and yield data. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 13,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-022",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Capacity Is Not Range",
+      "question": "When does nominal pack capacity fail to predict vehicle range?",
+      "coverage": "Include usable window, efficiency, and conditions. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 14,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-023",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: One Battery's Lifecycle",
+      "question": "What records follow cells from materials to reuse or recycling?",
+      "coverage": "Trace custody and measured recovery. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 15,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-024",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Where Is Battery Performance Measured?",
+      "question": "Does a figure describe cell, module, pack, or vehicle?",
+      "coverage": "Define energy, mass, and test temperature. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 16,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-025",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Power into Stored Energy",
+      "question": "Where does energy go during a measured charge?",
+      "coverage": "Compare meter, pack, thermal, and auxiliary data. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 17,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-026",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Energy, Power, and Lifetime",
+      "question": "What is gained and lost by changing cell or pack design?",
+      "coverage": "Use controlled tests and vehicle use case. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 18,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-027",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: A Battery Fault Chain",
+      "question": "Which initiating event and safeguards are documented?",
+      "coverage": "Use qualified incident and lab evidence. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 19,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-028",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    },
+    {
+      "title": "EV Battery Technology: Accelerated Aging Limits",
+      "question": "Which lab stress fails to represent years of road use?",
+      "coverage": "Compare protocol and observed field degradation. Evidence base: DOE battery test guidance, cell and pack measurements, official recalls, service records, supply-chain documents, and peer-reviewed lifecycle analyses.",
+      "origin": "repository_roadmap",
+      "legacy_source_id": 20,
+      "framing_note": "Original proposal wording preserved. Investigate its premises; no factual verification or current trend assessment is implied.",
+      "id": "BANK-421-029",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": []
+    }
+  ],
+  "rendered_view_hashes": {
+    "IN_DEPTH_TOPIC_BANK.md": "4942a8ed01b34f0fb076ee575abda3753fd5d1da3ddaf4dfe67fa2a8906af81e",
+    "TOPIC_BANK_RECONCILIATION.md": "12b940b92a622ff02761e7ce272beabeb4399cb5c3f1ebbf4c31985d34409fd2",
+    "TOPICS_COVERED_REPORT.md": "dd942c4e867a6f79df7c975114c8ffa07262e9d0a4e85ad033d8c93cf1776637",
+    "421_EV_BATTERY_TECHNOLOGY_CHANNEL_TOPIC_ROADMAP.md": "e2f087146047eedfb52a4db4faecee1d2a40767e6739a249fda638b19d421744"
+  },
+  "starter_concept_crosswalk": {
+    "BANK-421-004": [
+      "BANK-421-032"
+    ],
+    "BANK-421-001": [
+      "BANK-421-036"
+    ],
+    "BANK-421-005": [
+      "BANK-421-038"
+    ],
+    "BANK-421-009": [
+      "BANK-421-046"
+    ],
+    "BANK-421-002": [
+      "BANK-421-037"
+    ],
+    "BANK-421-003": [
+      "BANK-421-037"
+    ],
+    "BANK-421-006": [
+      "BANK-421-040"
+    ],
+    "BANK-421-008": [
+      "BANK-158-039"
+    ],
+    "BANK-421-007": [
+      "BANK-421-041"
+    ]
+  },
+  "open_coverage": [
+    {
+      "area": "Concrete case selection for Electrolyte stability",
+      "next_step": "Explain interfaces and operating-envelope tradeoffs conceptually. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Pack disassembly economics",
+      "next_step": "Map labor, safe professional handling and material separation. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Diagnostic uncertainty",
+      "next_step": "Compare models, test conditions and available history. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Comparative aging datasets",
+      "next_step": "Include temperature, cycling, storage and endpoint definitions. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    },
+    {
+      "area": "Concrete case selection for Recycling economics",
+      "next_step": "Separate feedstock mix, collection cost, commodity prices and required product purity without reuse or processing procedures. Select the actual case, documents or original demonstration before research; the proposal itself is scoped here."
+    }
+  ],
+  "editorial_review": {
+    "date": "2026-10-23",
+    "status": "catalog_scope_reviewed_factual_verification_not_performed",
+    "audit": "../../Scripts/editorial_review_368_550.json",
+    "starter_mapping_repairs": 1,
+    "scope_note": "Reviewed existing proposal scopes, repaired misleading starter referrals, expanded saved subject gaps, and recorded overlap recommendations. Actual research/case selection and further substantive expansion remain possible."
+  },
+  "retired_duplicate_proposals": [
+    {
+      "question": "How can battery recycling routes recover different materials with different burdens?",
+      "coverage": "Map mechanical, thermal and chemical stages conceptually.",
+      "id": "BANK-421-035",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-421-009"
+      ],
+      "duplicate_of": "BANK-158-040",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Compare collection, sorting, processing, outputs and yield definitions at a systems level. / Map mechanical, thermal and chemical stages conceptually. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-421-R03"
+    },
+    {
+      "question": "When can a degraded EV battery be useful in a second-life application?",
+      "coverage": "Compare testing, remaining capability and recycling alternatives.",
+      "id": "BANK-421-039",
+      "angle": null,
+      "status": "proposed",
+      "verified_sources": [],
+      "covers_starter_ids": [
+        "BANK-421-008"
+      ],
+      "duplicate_of": "BANK-158-039",
+      "retirement_reason": "The individual scopes describe substantially the same episode: Discuss assessment, matching, controls, liability and remaining-life uncertainty without reuse procedures. / Compare testing, remaining capability and recycling alternatives. Retain one primary question and preserve the other full record inactive with a referral.",
+      "editorial_retirement_pass": "second_scope_review_2026_10_23",
+      "original_subcategory_id": "CATALOG-421-R07"
+    }
+  ],
+  "legacy_topic_crosswalk": {
+    "pending_topics/0": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-036"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 0 (original ID 1, title ?The Architecture of EV Battery Technology: A Battery Chemistry Reaches the Road?) to: How do LFP and nickel-rich cathodes trade different material and performance properties? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/1": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-030"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 1 (original ID 2, title ?EV Battery Technology: A Battery Pack Examined?) to: Why are cell energy density and pack energy density different? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-036"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 2 (original ID 3, title ?EV Battery Technology: Supply Chain behind a Cell?) to: How do LFP and nickel-rich cathodes trade different material and performance properties? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/3": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-030"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 3 (original ID 4, title ?EV Battery Technology: Cell, Module, and Pack?) to: Why are cell energy density and pack energy density different? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/4": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-033"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 4 (original ID 5, title ?EV Battery Technology: The Degradation Problem?) to: How can battery aging include both calendar time and cycling? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/5": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-421-047"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 5 (original ID 6, title ?EV Battery Technology: An Unexplained Pack Failure?) to: What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-034"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 6 (original ID 7, title ?EV Battery Technology: A New Cell Design?) to: What must be reported before a new cell chemistry claim can be assessed? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/7": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-034"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 7 (original ID 8, title ?EV Battery Technology: Battery Development Team?) to: What must be reported before a new cell chemistry claim can be assessed? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/8": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-421-047"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 8 (original ID 9, title ?EV Battery Technology: A Battery Recall?) to: What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/9": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-032"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 9 (original ID 10, title ?EV Battery Technology: Charge through a Pack?) to: Why can one weak cell limit an entire battery pack? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/10": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-036"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 10 (original ID 11, title ?EV Battery Technology: A Cell Chemistry Replaced?) to: How do LFP and nickel-rich cathodes trade different material and performance properties? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/11": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-043"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 11 (original ID 12, title ?EV Battery Technology: Two Pack Generations?) to: How do pack connections and adhesives change recovery and repair economics? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/12": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-034"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 12 (original ID 13, title ?EV Battery Technology: A Proposed Battery Breakthrough?) to: What must be reported before a new cell chemistry claim can be assessed? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/13": {
+      "decision": "refer_neighbor",
+      "bank_ids": [
+        "BANK-420-030"
+      ],
+      "reason": "Neighboring bank scope routes archived pending_topics position 13 (original ID 14, title ?EV Battery Technology: Capacity Is Not Range?) to: Why can two EVs with equal battery capacity have different range? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/14": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-033"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 14 (original ID 15, title ?EV Battery Technology: One Battery's Lifecycle?) to: How can battery aging include both calendar time and cycling? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/15": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-030"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 15 (original ID 16, title ?EV Battery Technology: Where Is Battery Performance Measured??) to: Why are cell energy density and pack energy density different? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/16": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-041"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 16 (original ID 17, title ?EV Battery Technology: Power into Stored Energy?) to: Why can repeated fast charging affect battery aging differently under different conditions? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/17": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-031"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 17 (original ID 18, title ?EV Battery Technology: Energy, Power, and Lifetime?) to: How does electrode loading trade energy capacity against power performance? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/18": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-421-047"
+      ],
+      "reason": "Named primary-source case routes archived pending_topics position 18 (original ID 19, title ?EV Battery Technology: A Battery Fault Chain?) to: What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "pending_topics/19": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-045"
+      ],
+      "reason": "Existing scoped proposal routes archived pending_topics position 19 (original ID 20, title ?EV Battery Technology: Accelerated Aging Limits?) to: What must an aging dataset record before cells can be compared fairly? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/0": {
+      "decision": "reject_unsubstantiated_superlative",
+      "bank_ids": [],
+      "reason": "Archived trending_topics position 0 (original ID 21, title ?EV Battery Technology: Record Extremes & Superlatives?) lacks a defined measure, comparison set, date and source for a record claim. Original record remains preserved; no active proposal adopts the superlative."
+    },
+    "trending_topics/1": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-421-047"
+      ],
+      "reason": "Named primary-source case routes archived trending_topics position 1 (original ID 22, title ?EV Battery Technology: An Unexplained Pack Failure?) to: What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/2": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-034"
+      ],
+      "reason": "Existing scoped proposal routes archived trending_topics position 2 (original ID 23, title ?EV Battery Technology: A New Cell Design?) to: What must be reported before a new cell chemistry claim can be assessed? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/3": {
+      "decision": "refer_neighbor",
+      "bank_ids": [
+        "BANK-420-030"
+      ],
+      "reason": "Neighboring bank scope routes archived trending_topics position 3 (original ID 24, title ?EV Battery Technology: Capacity Is Not Range?) to: Why can two EVs with equal battery capacity have different range? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/4": {
+      "decision": "new_case",
+      "bank_ids": [
+        "BANK-421-047"
+      ],
+      "reason": "Named primary-source case routes archived trending_topics position 4 (original ID 25, title ?EV Battery Technology: A Battery Recall?) to: What does GM?s Bolt EV recall filing establish about a battery-cell defect and the limits of its remedy claims? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/5": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-036"
+      ],
+      "reason": "Existing scoped proposal routes archived trending_topics position 5 (original ID 26, title ?EV Battery Technology: Supply Chain behind a Cell?) to: How do LFP and nickel-rich cathodes trade different material and performance properties? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    },
+    "trending_topics/6": {
+      "decision": "merge_existing",
+      "bank_ids": [
+        "BANK-421-033"
+      ],
+      "reason": "Existing scoped proposal routes archived trending_topics position 6 (original ID 27, title ?EV Battery Technology: One Battery's Lifecycle?) to: How can battery aging include both calendar time and cycling? Original archive wording/status remain preserved; this route does not establish current specifications, safety status, impacts or IDEA readiness."
+    }
+  },
+  "research_followups": [
+    {
+      "topic_id": "BANK-421-047",
+      "note_file": "421_EV_BATTERY_TECHNOLOGY_SOURCE_NOTE.md",
+      "status": "bounded_source_access_note"
+    }
+  ],
+  "editorial_cross_references": [
+    {
+      "topic_id": "BANK-421-047",
+      "related_id": "BANK-421-038",
+      "boundary": "One recall?s submitted cell-defect account versus general pack propagation and monitoring."
+    },
+    {
+      "topic_id": "BANK-421-047",
+      "related_id": "BANK-421-040",
+      "boundary": "Recall-specific diagnostic remedy claims versus general state-of-health estimation."
+    },
+    {
+      "topic_id": "BANK-421-047",
+      "related_id": "BANK-420-039",
+      "boundary": "Battery-defect filing and dated remedy scope versus vehicle ownership and warranty assumptions."
+    },
+    {
+      "topic_id": "BANK-421-047",
+      "related_id": "BANK-418-034",
+      "boundary": "A particular battery recall record versus general bench-to-road component failure."
+    }
+  ]
+}

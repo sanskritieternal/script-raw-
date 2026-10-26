@@ -1,0 +1,1661 @@
+{
+  "schema_version": "1.2",
+  "bank_type": "detailed_expansion",
+  "niche_id": "001",
+  "slug": "ai_technology_explainers",
+  "name": "AI + Technology Explainers",
+  "primary_category": "Robotics_AI",
+  "updated": "2026-10-22",
+  "status": "proposed",
+  "editorial_depth": "detailed_authored_draft",
+  "purpose": "Individually authored episode questions and coverage boundaries for AI + Technology Explainers. The subject progression is organized by concrete content rather than a topic-by-angle multiplication.",
+  "counts": {
+    "categories": 23,
+    "proposed_topics": 121
+  },
+  "categories": [
+    {
+      "title": "Representations and tokenization",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can the same sentence require different token counts in two models?",
+          "coverage": "Compare vocabulary, normalization, byte handling and a fixed multilingual sample; separate tokens from words.",
+          "id": "BANK-001-013",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do subword vocabularies handle rare names and spelling mistakes?",
+          "coverage": "Trace segmentation of controlled examples and examine the tradeoff between vocabulary size and sequence length.",
+          "id": "BANK-001-014",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when text, images and audio share one model interface?",
+          "coverage": "Separate modality encoders, representations, alignment and output tasks; avoid implying identical internal processing.",
+          "id": "BANK-001-015",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does numerical reasoning remain difficult for a text predictor?",
+          "coverage": "Compare number representation, training examples, exact computation and tool-assisted answers on reproducible arithmetic tasks.",
+          "id": "BANK-001-016",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does positional information let a transformer distinguish word order?",
+          "coverage": "Explain an identified positional scheme with short examples; compare training context with longer inputs.",
+          "id": "BANK-001-017",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D01",
+      "prerequisites": []
+    },
+    {
+      "title": "Training and learning",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does next-token training teach beyond memorizing sentences?",
+          "coverage": "Distinguish the prediction objective, learned statistical structure, generalization tests and examples that expose memorization.",
+          "id": "BANK-001-018",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why are training, validation and test data kept separate?",
+          "coverage": "Trace a small experiment and show how leakage changes the apparent performance estimate.",
+          "id": "BANK-001-019",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What happens during gradient descent in a language-model training step?",
+          "coverage": "Follow loss, gradients, parameter updates and learning rate in a toy network rather than claiming access to proprietary training.",
+          "id": "BANK-001-020",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do supervised instruction tuning and preference optimization differ?",
+          "coverage": "Compare datasets, objectives, human judgments and evaluation; do not equate preference with factual accuracy.",
+          "id": "BANK-001-021",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can additional training data make an evaluation less trustworthy?",
+          "coverage": "Examine benchmark overlap, near duplicates and the difference between legitimate learning and contaminated measurement.",
+          "id": "BANK-001-022",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D02",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Inference and generation",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a model choose the next token from its output scores?",
+          "coverage": "Work through logits, probabilities and selection using a small hypothetical vocabulary with explicitly illustrative numbers.",
+          "id": "BANK-001-023",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do temperature and top-p produce different kinds of variation?",
+          "coverage": "Compare repeated generations from the same distribution while controlling prompt, model version and sampling settings.",
+          "id": "BANK-001-024",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a key-value cache store during text generation?",
+          "coverage": "Trace repeated attention work, cache growth and memory use; distinguish stored activations from permanent model knowledge.",
+          "id": "BANK-001-025",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does generating the first token often take longer than later tokens?",
+          "coverage": "Separate prompt processing, decoding, batching and network delay using a measured serving trace.",
+          "id": "BANK-001-026",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Can a model give different answers when sampling is disabled?",
+          "coverage": "Investigate hardware kernels, server settings, version changes and numerical nondeterminism before assigning one cause.",
+          "id": "BANK-001-027",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D03",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Context and external knowledge",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can information in a long context still be overlooked?",
+          "coverage": "Test information placement, distractors, retrieval tasks and answer scoring; distinguish advertised length from effective use.",
+          "id": "BANK-001-028",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When should an application retrieve documents instead of fine-tuning a model?",
+          "coverage": "Compare update frequency, task adaptation, provenance, privacy and measured answer quality on the same use case.",
+          "id": "BANK-001-029",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do document chunk boundaries change retrieval results?",
+          "coverage": "Compare headings, tables, overlap and chunk length against a fixed question set with source-grounded scoring.",
+          "id": "BANK-001-030",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a retrieved passage relevant but insufficient for an answer?",
+          "coverage": "Separate topical similarity, entailment, missing qualifiers and conflicting sources using annotated examples.",
+          "id": "BANK-001-031",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should a system answer when its retrieved documents disagree?",
+          "coverage": "Preserve dates, authority and exact claims; compare abstention and attributed disagreement instead of silently merging answers.",
+          "id": "BANK-001-032",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D04",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Hardware and serving",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Where does GPU memory go when a model is loaded and used?",
+          "coverage": "Separate weights, activations, caches and runtime overhead; measure one version and workload rather than quoting a universal requirement.",
+          "id": "BANK-001-033",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does quantization trade memory savings against output quality?",
+          "coverage": "Compare bit widths, calibration assumptions, tasks and hardware support with matched evaluation conditions.",
+          "id": "BANK-001-034",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a smaller local model respond faster than a larger remote model?",
+          "coverage": "Measure compute, memory bandwidth, prompt length, network latency and batching instead of attributing speed to parameter count alone.",
+          "id": "BANK-001-035",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does batching improve throughput while worsening an individual request's latency?",
+          "coverage": "Use a queueing example and distinguish tokens per second, time to first token and end-to-end completion time.",
+          "id": "BANK-001-036",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do speculative decoding and ordinary decoding differ operationally?",
+          "coverage": "Explain draft verification and acceptance behavior; inspect a published implementation without assuming every workload benefits.",
+          "id": "BANK-001-037",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D05",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Reliability and evaluation",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "How can an answer sound certain while lacking supporting evidence?",
+          "coverage": "Compare fluency, confidence wording and source support on a labeled set; do not infer internal certainty from tone.",
+          "id": "BANK-001-038",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a useful hallucination evaluation need to count?",
+          "coverage": "Define unsupported claims, contradicted claims, omissions and abstentions; use source-level adjudication and report disagreements.",
+          "id": "BANK-001-039",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can two benchmarks rank the same models differently?",
+          "coverage": "Compare task composition, prompts, scoring, contamination and uncertainty before treating one aggregate as universal capability.",
+          "id": "BANK-001-040",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a model's refusal rate hide both safety gains and usability failures?",
+          "coverage": "Distinguish correctly refused harmful tasks, benign refusals and unsafe completions in an explicitly authorized evaluation.",
+          "id": "BANK-001-041",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does calibration mean when a model reports a probability?",
+          "coverage": "Compare claimed likelihood with observed correctness across bins; separate token probabilities from answer-level confidence.",
+          "id": "BANK-001-042",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D06",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Human use and boundaries",
+      "level": "advanced",
+      "research_profile": "civic",
+      "topics": [
+        {
+          "question": "How should an AI interface distinguish a suggestion from an executed action?",
+          "coverage": "Trace preview, authorization, execution and confirmation in a reversible example; record failures without claiming success.",
+          "id": "BANK-001-043",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What information should accompany an AI-generated citation?",
+          "coverage": "Check source existence, passage location, relevance, quotation accuracy and access date on actual examples.",
+          "id": "BANK-001-044",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do AI applications leak sensitive information through ordinary logging?",
+          "coverage": "Map prompts, tool results, traces and retention policies in a documented architecture without exposing real private data.",
+          "id": "BANK-001-045",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is prompt injection a system-boundary problem rather than only a wording problem?",
+          "coverage": "Use benign authorized demonstrations to distinguish trusted instructions, untrusted documents, tool permissions and human review.",
+          "id": "BANK-001-046",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a team compare AI productivity gains without measuring only output volume?",
+          "coverage": "Evaluate task correctness, review effort, rework, costs and participant differences against a defined baseline.",
+          "id": "BANK-001-047",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D07",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Economics and public claims",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "What belongs in the cost of an AI answer beyond token pricing?",
+          "coverage": "Include retrieval, infrastructure, failed requests, review and maintenance using a clearly labeled workload model.",
+          "id": "BANK-001-048",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How should energy comparisons separate training from serving?",
+          "coverage": "State hardware, utilization, geography, measurement boundaries and workload; avoid assigning one universal footprint per query.",
+          "id": "BANK-001-049",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "When does an impressive AI demonstration fail to establish reliable autonomy?",
+          "coverage": "Inspect hidden assistance, resets, task selection, failure disclosure and repeated trials rather than extrapolating from one edited clip.",
+          "id": "BANK-001-050",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence would justify calling an AI system open source?",
+          "coverage": "Compare actual licenses and released components; distinguish access to weights, data, training code and modification rights.",
+          "id": "BANK-001-051",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a model comparison remain useful after product versions change?",
+          "coverage": "Publish exact versions, dates, prompts, settings and raw outcomes; define what must be rerun after an update.",
+          "id": "BANK-001-052",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-D08",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Classical machine learning and data problems",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "When does a decision tree suit a problem better than a language model?",
+          "coverage": "Compare structured inputs, explainability and task-specific validation; do not generalize from one dataset.",
+          "id": "BANK-001-053",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does linear regression differ from predicting a category?",
+          "coverage": "Trace targets, loss functions and assumptions using labeled illustrative data.",
+          "id": "BANK-001-054",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a dataset imbalanced rather than merely small?",
+          "coverage": "Compare class frequencies, error costs and evaluation choices in a bounded classification task.",
+          "id": "BANK-001-055",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can missing values change a machine-learning result?",
+          "coverage": "Inspect missingness patterns, preprocessing and leakage using a reproducible synthetic example.",
+          "id": "BANK-001-056",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a model fail after deployment even when its original test score was strong?",
+          "coverage": "Distinguish distribution shift, label changes and implementation defects through documented measurements.",
+          "id": "BANK-001-057",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does clustering reveal without supplying verified real-world categories?",
+          "coverage": "Compare distance choices, scaling and interpretation; avoid treating algorithmic groups as natural social identities.",
+          "id": "BANK-001-058",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a recommendation system learn from feedback that its own rankings helped create?",
+          "coverage": "Trace exposure, interaction and evaluation bias using original recommender research.",
+          "id": "BANK-001-059",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E01",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Computer vision",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do image classification, detection and segmentation answer different questions?",
+          "coverage": "Compare outputs and annotation requirements on rights-cleared images.",
+          "id": "BANK-001-060",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can an image classifier learn a background instead of the intended object?",
+          "coverage": "Investigate spurious correlations with controlled image changes and held-out environments.",
+          "id": "BANK-001-061",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes optical character recognition harder for tables than for plain paragraphs?",
+          "coverage": "Separate recognition, reading order, cell structure and evaluation against source documents.",
+          "id": "BANK-001-062",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does an image embedding support similarity search without understanding every visual relationship?",
+          "coverage": "Compare retrieval tasks, training objectives and documented failure cases.",
+          "id": "BANK-001-063",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can depth estimation from one image remain ambiguous?",
+          "coverage": "Inspect geometric assumptions, learned priors and ground-truth comparisons.",
+          "id": "BANK-001-064",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do video models represent change across time rather than only a sequence of pictures?",
+          "coverage": "Compare temporal sampling, motion information and bounded benchmark tasks.",
+          "id": "BANK-001-065",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E02",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Speech and audio intelligence",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How do speech recognition and speaker identification use different evidence?",
+          "coverage": "Compare targets, enrollment and evaluation; exclude identification of unconsenting people.",
+          "id": "BANK-001-066",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does separating overlapping voices remain difficult?",
+          "coverage": "Inspect source overlap, recording conditions and task-specific separation metrics.",
+          "id": "BANK-001-067",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an automatic transcript preserve code-switching between Hindi and English?",
+          "coverage": "Evaluate aligned reference transcripts, language switches and named entities; report model version.",
+          "id": "BANK-001-068",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a speech model's word-error rate hide about practical transcription quality?",
+          "coverage": "Compare punctuation, speaker turns, names and meaning-changing errors.",
+          "id": "BANK-001-069",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can emotion recognition from speech confuse recording conditions with emotion?",
+          "coverage": "Review primary validation studies, labels and population limits; avoid personal psychological inference.",
+          "id": "BANK-001-070",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E03",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Robotics and embodied systems",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a robot turn sensor readings into an estimate of its location?",
+          "coverage": "Explain a documented localization pipeline and uncertainty without providing hazardous deployment instructions.",
+          "id": "BANK-001-071",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What distinguishes a robot's planned path from its actual movement?",
+          "coverage": "Compare sensing, dynamics, control and obstacle uncertainty in a safe simulation.",
+          "id": "BANK-001-072",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why is grasping an unfamiliar object difficult even when recognition is accurate?",
+          "coverage": "Separate shape, contact, friction and action feedback using published robotics experiments.",
+          "id": "BANK-001-073",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can simulation help robot training while introducing a reality gap?",
+          "coverage": "Compare modeled physics, variation and measured transfer performance.",
+          "id": "BANK-001-074",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does shared control mean when a person and a robot both influence an action?",
+          "coverage": "Inspect role allocation, overrides and user-study evidence in a defined application.",
+          "id": "BANK-001-075",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do warehouse robots differ from general-purpose household robots in task requirements?",
+          "coverage": "Compare environments, objects, human presence and failure recovery; avoid universal autonomy rankings.",
+          "id": "BANK-001-076",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a robot demonstration require evidence about resets and human assistance?",
+          "coverage": "Record interventions, retries, conditions and actual success definitions.",
+          "id": "BANK-001-077",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E04",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Agents, tools and action systems",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does a tool-calling model obtain information that is absent from its context?",
+          "coverage": "Trace schemas, arguments, execution and returned evidence in an original harmless task.",
+          "id": "BANK-001-078",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What separates an agent's plan from a verified completed action?",
+          "coverage": "Compare intended steps, tool outcomes and persistent state checks.",
+          "id": "BANK-001-079",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a tool failure propagate into an agent's later decisions?",
+          "coverage": "Use a sandboxed missing-file example; inspect retries, stale assumptions and stop conditions.",
+          "id": "BANK-001-080",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does a long-running agent need checkpoints outside its conversational memory?",
+          "coverage": "Compare recovery, progress records and duplicate-action prevention.",
+          "id": "BANK-001-081",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can permissions be narrowed to the task an AI agent actually needs?",
+          "coverage": "Map read, write and external-action privileges using placeholder resources.",
+          "id": "BANK-001-082",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a human approval useful at an agent's decision boundary?",
+          "coverage": "Compare reviewable evidence, scope and reversibility; avoid asking users to approve unspecified future actions.",
+          "id": "BANK-001-083",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an agent recover after another process changes the same file?",
+          "coverage": "Explain version guards, conflict detection and preservation using disposable local records.",
+          "id": "BANK-001-084",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E05",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "AI systems beyond neural text generation",
+      "level": "intermediate",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does a knowledge graph represent differently from a text embedding?",
+          "coverage": "Compare entities, relations, provenance and query behavior on an original small dataset.",
+          "id": "BANK-001-085",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a rule engine outperform a learned model on a tightly specified task?",
+          "coverage": "Compare coverage, maintenance, uncertainty and explicit exceptions.",
+          "id": "BANK-001-086",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What do constraint solvers contribute to planning problems?",
+          "coverage": "Model an illustrative timetable with declared constraints; distinguish feasibility from optimality.",
+          "id": "BANK-001-087",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does reinforcement learning define feedback differently from supervised labels?",
+          "coverage": "Trace state, action, reward and evaluation in a safe toy environment.",
+          "id": "BANK-001-088",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a reward function encourage behavior its designer did not intend?",
+          "coverage": "Compare objective specification and observed behavior in published or simulated examples.",
+          "id": "BANK-001-089",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does a digital twin differ from a visually accurate 3D model?",
+          "coverage": "Inspect data connections, update rules, validation and the intended decision.",
+          "id": "BANK-001-090",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E06",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Infrastructure and distributed computing",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "Why can network communication limit distributed model training?",
+          "coverage": "Compare compute, synchronization, bandwidth and documented workload measurements.",
+          "id": "BANK-001-091",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do edge and cloud inference divide latency, privacy and maintenance responsibilities?",
+          "coverage": "Map actual data flows and update mechanisms for a bounded application.",
+          "id": "BANK-001-092",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does an accelerator's advertised operation count omit about usable AI speed?",
+          "coverage": "Compare precision, memory movement, software and realistic measured tasks.",
+          "id": "BANK-001-093",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do checkpoint formats affect moving a model between runtimes?",
+          "coverage": "Inspect documented architectures, tensor formats, tokenizer dependencies and compatibility limits.",
+          "id": "BANK-001-094",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can serving many model versions become an operational problem?",
+          "coverage": "Trace routing, reproducibility, rollback and monitoring in an illustrative deployment.",
+          "id": "BANK-001-095",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E07",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Security, privacy and governance",
+      "level": "advanced",
+      "research_profile": "digital",
+      "topics": [
+        {
+          "question": "How can training-data membership be studied without claiming access to a model's full dataset?",
+          "coverage": "Review original privacy research and limits; exclude targeting private individuals.",
+          "id": "BANK-001-096",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does federated learning keep local and what can still be disclosed?",
+          "coverage": "Trace parameters, updates, aggregation and documented threat assumptions.",
+          "id": "BANK-001-097",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How does differential privacy define a protection differently from removing names?",
+          "coverage": "Use primary definitions and clearly illustrative examples; do not certify a real dataset.",
+          "id": "BANK-001-098",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can red-team findings fail to establish the overall safety of a system?",
+          "coverage": "Inspect attack coverage, sampling, reproducibility and untested conditions.",
+          "id": "BANK-001-099",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a model card disclose that marketing often leaves implicit?",
+          "coverage": "Compare intended uses, training disclosures, evaluations and limitations in an actual versioned card.",
+          "id": "BANK-001-100",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an organization trace responsibility when an AI component is supplied by another company?",
+          "coverage": "Map contracts, controls, monitoring and applicable official requirements; avoid legal conclusions about a specific deployment.",
+          "id": "BANK-001-101",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E08",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Data labor, language and access",
+      "level": "advanced",
+      "research_profile": "community",
+      "topics": [
+        {
+          "question": "How do annotation instructions shape what a dataset calls correct?",
+          "coverage": "Compare guidelines, disagreement and adjudication using consented or public research records.",
+          "id": "BANK-001-102",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why do low-resource languages need evaluation beyond translating an English benchmark?",
+          "coverage": "Inspect dialect, script, tasks, cultural context and qualified reference judgments.",
+          "id": "BANK-001-103",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an AI dataset document permission without implying every ethical question is settled?",
+          "coverage": "Trace licenses, consent scope, provenance and withdrawal limits.",
+          "id": "BANK-001-104",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does accessibility testing reveal that a general AI benchmark can miss?",
+          "coverage": "Use consented assistive tasks, error consequences and actual user requirements.",
+          "id": "BANK-001-105",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can annotation work be described without erasing annotators' expertise?",
+          "coverage": "Use attributed accounts of decisions, working conditions and compensation where documented.",
+          "id": "BANK-001-106",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E09",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Emerging technology and claim testing",
+      "level": "advanced",
+      "research_profile": "synthesis",
+      "topics": [
+        {
+          "question": "How can quantum-computing claims separate a demonstration from a useful application?",
+          "coverage": "Compare problem, baseline, error conditions and primary experimental evidence.",
+          "id": "BANK-001-107",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a brain-computer-interface demonstration actually establish about communication?",
+          "coverage": "Inspect population, hardware, calibration and independently measured outcomes; exclude medical promises.",
+          "id": "BANK-001-108",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an augmented-reality system align digital objects with a moving environment?",
+          "coverage": "Compare tracking, mapping, latency and documented failure conditions.",
+          "id": "BANK-001-109",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a synthetic dataset reproduce biases from its generating system?",
+          "coverage": "Inspect generation assumptions, diversity checks and downstream evaluation.",
+          "id": "BANK-001-110",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence distinguishes genuine on-device AI from a cloud-backed interface?",
+          "coverage": "Use official architecture, permissions and controlled offline tests without inferring unseen backend behavior.",
+          "id": "BANK-001-111",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E10",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Causal questions and identification",
+      "level": "foundation",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "How does intervening on a variable differ from observing it in a causal model?",
+          "coverage": "Build a synthetic three-variable graph and compare conditioning with a defined intervention; consult original causal-model formulations and keep the illustration separate from a real causal finding.",
+          "id": "BANK-001-112",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can adjusting for an extra variable introduce bias rather than remove it?",
+          "coverage": "Contrast a common cause with a collider in two explicit causal diagrams; show which paths are opened under stated assumptions rather than recommending adjustment by correlation strength.",
+          "id": "BANK-001-113",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What makes a causal effect identifiable from the available data?",
+          "coverage": "Use two causal explanations compatible with one observational distribution and specify what intervention or assumption would distinguish them; exclude the claim that more samples always resolve identification.",
+          "id": "BANK-001-114",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a causal-discovery algorithm produce several equally compatible graphs?",
+          "coverage": "Inspect equivalence classes, conditional-independence tests and hidden-variable assumptions using an original paper and synthetic data; separate graph recovery under assumptions from discovery of real-world mechanisms.",
+          "id": "BANK-001-115",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What must be assumed before answering a counterfactual about one individual?",
+          "coverage": "Contrast population intervention effects with an individual counterfactual in a structural model; expose unobservable assumptions and avoid personal medical or legal predictions.",
+          "id": "BANK-001-116",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E11",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Interpreting model internals and testing explanations",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does a feature-attribution map explain when two input features encode the same information?",
+          "coverage": "Compare correlated synthetic features, background distributions and attribution choices; distinguish allocation of predictive credit from causal importance in the world.",
+          "id": "BANK-001-117",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a saliency map be tested for dependence on the model it claims to explain?",
+          "coverage": "Plan parameter- and label-randomization controls from original interpretability research; assess changes in the explanation rather than judging only whether a picture looks plausible.",
+          "id": "BANK-001-118",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What evidence is needed before calling a model component a circuit for a behavior?",
+          "coverage": "Trace activation observations, intervention tests, controls and generalization across inputs in a published mechanistic study; distinguish a useful local hypothesis from a complete algorithmic account.",
+          "id": "BANK-001-119",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can probing a hidden representation fail to show that the model uses the decoded information?",
+          "coverage": "Compare probe capacity, baselines and causal intervention on a bounded representation task; do not equate decodability with functional reliance.",
+          "id": "BANK-001-120",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an explanation remain stable while a model's decision changes?",
+          "coverage": "Specify input perturbations, prediction differences and explanation similarity in a reproducible evaluation; separate explanation robustness from prediction correctness or user satisfaction.",
+          "id": "BANK-001-121",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E12",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Compilers, kernels and measured inference",
+      "level": "advanced",
+      "research_profile": "technical",
+      "topics": [
+        {
+          "question": "What does kernel fusion remove from an AI inference workload?",
+          "coverage": "Trace intermediate tensors, memory transfers and launch overhead in a documented small computation; benchmark matched precision and shapes without promising universal acceleration.",
+          "id": "BANK-001-122",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a faster attention implementation leave end-to-end response time almost unchanged?",
+          "coverage": "Separate attention time, other operators, queueing and networking in a measured profile; apply an explicit bottleneck calculation rather than attributing all latency to one kernel.",
+          "id": "BANK-001-123",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How do static and dynamic tensor shapes change compilation choices?",
+          "coverage": "Compare tracing, recompilation, padding and graph specialization for a versioned runtime; distinguish compile time from steady-state execution and include irregular workloads.",
+          "id": "BANK-001-124",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What does a roofline model reveal about a memory-bound inference operation?",
+          "coverage": "Relate arithmetic intensity, measured bandwidth and attainable compute using an illustrative operator; document hardware and precision rather than treating peak specifications as observed performance.",
+          "id": "BANK-001-125",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can changing numerical precision alter both speed and reproducibility?",
+          "coverage": "Compare tolerances, accumulation, supported operators and task outputs under controlled settings; exclude declaring numerical agreement proof of equal downstream quality.",
+          "id": "BANK-001-126",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E13",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Scientific models and domain-specific evaluation",
+      "level": "advanced",
+      "research_profile": "science",
+      "topics": [
+        {
+          "question": "What does a protein-structure prediction fail to establish about a protein's biological function?",
+          "coverage": "Plan comparison of coordinates, confidence, conformations, interactions and experimental assays using original structure papers; exclude inferring drug efficacy from an attractive model.",
+          "id": "BANK-001-127",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can a learned weather forecast be evaluated when extreme events are rare?",
+          "coverage": "Inspect hindcast separation, lead times, spatial scales and tail-event metrics in original evaluations; distinguish average skill from reliable local emergency guidance.",
+          "id": "BANK-001-128",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why can a scientific surrogate model violate a conservation law despite a small average error?",
+          "coverage": "Compare pointwise fit with mass or energy balance in a documented simulation task; test out-of-domain inputs without claiming the surrogate replaces all physical validation.",
+          "id": "BANK-001-129",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "What changes when an AI system proposes a molecule rather than demonstrating that it can be made?",
+          "coverage": "Trace generation, synthesis feasibility, actual laboratory validation and selection bias from original reports; exclude chemical synthesis instructions or medical benefit claims.",
+          "id": "BANK-001-130",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E14",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    },
+    {
+      "title": "Assistive systems and clinical evaluation boundaries",
+      "level": "advanced",
+      "research_profile": "health",
+      "topics": [
+        {
+          "question": "How should a screen-description model be evaluated with blind users rather than image-caption scores alone?",
+          "coverage": "Define task completion, navigation, dangerous omissions and consented user feedback; use original assistive-technology studies and avoid treating sighted reviewers as substitutes for intended users.",
+          "id": "BANK-001-131",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "Why does retrospective medical-image accuracy not establish improved patient outcomes?",
+          "coverage": "Separate dataset selection, external validation, prospective workflow, clinician behavior and clinical endpoints using original studies; exclude diagnostic advice or a deployment endorsement.",
+          "id": "BANK-001-132",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        },
+        {
+          "question": "How can an assistive speech interface accommodate people whose speech differs from its training sample?",
+          "coverage": "Specify speaker-consented evaluation, personalization data, error recovery and task-level success; do not infer a person's competence or medical condition from recognition errors.",
+          "id": "BANK-001-133",
+          "angle": null,
+          "status": "proposed",
+          "verified_sources": []
+        }
+      ],
+      "id": "CATALOG-001-E15",
+      "prerequisites": [
+        "CATALOG-001-D01"
+      ]
+    }
+  ],
+  "research_profiles": {
+    "science": {
+      "requirements": "Use original observations or experiments, an appropriate scientific reference and the actual measurement method. Distinguish mechanisms, correlations, model assumptions, uncertainty and limits of generalization.",
+      "source_leads": [
+        "original research reports and data",
+        "research-institution observation records",
+        "methods papers and current scientific reference works"
+      ]
+    },
+    "civic": {
+      "requirements": "Use the current official legal text, policy, procedure or public dataset for a specific jurisdiction and date. Distinguish written rules, implementation and lived access; give no personal legal or financial conclusion.",
+      "source_leads": [
+        "official laws, rules and administrative guidance",
+        "audits, judgments and public service records",
+        "consented accounts from affected people and qualified specialists"
+      ]
+    },
+    "synthesis": {
+      "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+      "source_leads": [
+        "the original sources behind the compared claims",
+        "explicit definitions and measurement methods",
+        "independent critiques with traceable evidence"
+      ]
+    },
+    "technical": {
+      "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+      "source_leads": [
+        "original engineering papers",
+        "official versioned product or standards documentation",
+        "test reports and drawings with clear provenance"
+      ]
+    },
+    "digital": {
+      "requirements": "Inspect the actual product version, official documentation, terms and privacy policies. Test claims under stated conditions and distinguish account permissions, data retention, measured functionality and marketing.",
+      "source_leads": [
+        "official versioned documentation and release notes",
+        "dated privacy policies and service terms",
+        "reproducible product tests and original validation reports"
+      ]
+    },
+    "community": {
+      "requirements": "Use consented participant accounts, local records and the community's own descriptions. Include differences of position, access and power; testimony is not a representative survey or clinical proof.",
+      "source_leads": [
+        "consented interviews and oral histories",
+        "community publications and local records",
+        "field notes with method and consent documented"
+      ]
+    },
+    "health": {
+      "requirements": "Inspect current professional guidance and original studies for the exact population, intervention or measurement. Report comparators, absolute outcomes, uncertainty, harms and limits. Do not diagnose, prescribe or imply that education replaces professional care.",
+      "source_leads": [
+        "current official clinical or public-health guidance",
+        "original trials, cohort studies or diagnostic-validation reports",
+        "study registrations, protocols and adverse-event records"
+      ]
+    }
+  },
+  "suggested_series": [],
+  "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+  "neighboring_niches": [
+    {
+      "id": "007",
+      "title": "AI Tools / AI Tutorials",
+      "directory": "007_ai_tools_ai_tutorials",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "337",
+      "title": "AI Research",
+      "directory": "337_ai_research",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "338",
+      "title": "Developer AI",
+      "directory": "338_developer_ai",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "531",
+      "title": "AI Software Agents",
+      "directory": "531_ai_software_agents",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    },
+    {
+      "id": "532",
+      "title": "Large Language Model Systems",
+      "directory": "532_large_language_model_systems",
+      "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+    }
+  ],
+  "handoff": [
+    "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+    "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+    "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+    "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+    "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+  ],
+  "coverage_limits": "This is an expanded topic-bank draft, not exhaustive scholarship or a researched episode package. Each question has an individually written boundary. Source access, claim verification, current angle-scope review and publication approval remain pending. Add new branches and cases when they fill a real gap; no numeric topic cap applies.",
+  "prior_initial_map": {
+    "schema_version": "1.1",
+    "bank_type": "subject_map",
+    "niche_id": "001",
+    "slug": "ai_technology_explainers",
+    "name": "AI + Technology Explainers",
+    "primary_category": "Robotics_AI",
+    "updated": "2026-10-22",
+    "status": "proposed",
+    "editorial_depth": "initial_subject_map",
+    "purpose": "A starting subject map for a AI + Technology Explainers YouTube channel. Categories organize concrete subtopics; each entry supplies an episode question, a research outline and a boundary for case selection. Counts follow the authored coverage, with no imposed topic maximum.",
+    "counts": {
+      "categories": 3,
+      "proposed_topics": 12
+    },
+    "categories": [
+      {
+        "id": "CATALOG-001-01",
+        "title": "AI mechanisms",
+        "level": "foundation",
+        "prerequisites": [],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-001-001",
+            "title": "Tokenization and vocabulary design",
+            "question": "Tokenization and vocabulary design: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: AI mechanisms. Address Tokenization and vocabulary design through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Tokenization and vocabulary design.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-002",
+            "title": "Training versus inference",
+            "question": "Training versus inference: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: AI mechanisms. Address Training versus inference through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Training versus inference.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-003",
+            "title": "Attention and context windows",
+            "question": "Attention and context windows: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: AI mechanisms. Address Attention and context windows through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Attention and context windows.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-004",
+            "title": "Sampling and decoding",
+            "question": "Sampling and decoding: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: AI mechanisms. Address Sampling and decoding through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Sampling and decoding.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-001-02",
+        "title": "Systems",
+        "level": "intermediate",
+        "prerequisites": [
+          "CATALOG-001-01"
+        ],
+        "research_profile": "technical",
+        "topics": [
+          {
+            "id": "BANK-001-005",
+            "title": "GPU memory and model size",
+            "question": "GPU memory and model size: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Systems. Address GPU memory and model size through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind GPU memory and model size.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-006",
+            "title": "Retrieval versus fine-tuning",
+            "question": "Retrieval versus fine-tuning: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Systems. Address Retrieval versus fine-tuning through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Retrieval versus fine-tuning.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-007",
+            "title": "Latency and batching",
+            "question": "Latency and batching: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Systems. Address Latency and batching through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind Latency and batching.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-008",
+            "title": "On-device inference",
+            "question": "On-device inference: how does it work, and where do its design assumptions fail?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Systems. Address On-device inference through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "Map the components and operating conditions behind On-device inference.",
+              "Trace a worked example using a diagram, calculation or observed system; state all numerical assumptions.",
+              "Compare an alternative design against the same requirements; include cost, reliability and accessibility where relevant.",
+              "Examine a failure mode, measurement error or edge case and show what evidence would change the explanation."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      },
+      {
+        "id": "CATALOG-001-03",
+        "title": "Evaluation",
+        "level": "advanced",
+        "prerequisites": [
+          "CATALOG-001-01"
+        ],
+        "research_profile": "synthesis",
+        "topics": [
+          {
+            "id": "BANK-001-009",
+            "title": "Hallucination evaluation",
+            "question": "Hallucination evaluation: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Evaluation. Address Hallucination evaluation through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Hallucination evaluation and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-010",
+            "title": "Benchmark contamination",
+            "question": "Benchmark contamination: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Evaluation. Address Benchmark contamination through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Benchmark contamination and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-011",
+            "title": "Multimodal grounding",
+            "question": "Multimodal grounding: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Evaluation. Address Multimodal grounding through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind Multimodal grounding and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          },
+          {
+            "id": "BANK-001-012",
+            "title": "AI energy accounting",
+            "question": "AI energy accounting: which distinctions and evidence change the conclusion?",
+            "coverage": "Primary context: AI + Technology Explainers; branch: Evaluation. Address AI energy accounting through one bounded case, source set or experiment. Exclude an all-purpose survey of the whole niche; distinguish the case's findings from broader claims.",
+            "research_outline": [
+              "State the exact question behind AI energy accounting and identify any terms that different sources use differently.",
+              "Build a claim-by-claim comparison rather than contrasting slogans.",
+              "Identify a concrete example that distinguishes the explanations and inspect its evidence.",
+              "Explain what remains undecidable, what evidence is missing and what would justify revising the conclusion."
+            ],
+            "next_action": "Select and inspect a concrete case and traceable sources; record unresolved questions before choosing a registered angle and promoting an episode idea.",
+            "angle": null,
+            "status": "proposed",
+            "verified_sources": []
+          }
+        ]
+      }
+    ],
+    "research_profiles": {
+      "technical": {
+        "requirements": "Use the actual system documentation, a worked implementation and measurements. Identify inputs, outputs, constraints, tolerances, failure conditions and the limits of the example. Do not provide hazardous construction or unauthorized access procedures.",
+        "source_leads": [
+          "original engineering papers",
+          "official versioned product or standards documentation",
+          "test reports and drawings with clear provenance"
+        ]
+      },
+      "synthesis": {
+        "requirements": "Define the rival claims and their evidence standards. Compare sources on equal terms, separate empirical findings from values or interpretations and do not imply that all positions have equal evidential support.",
+        "source_leads": [
+          "the original sources behind the compared claims",
+          "explicit definitions and measurement methods",
+          "independent critiques with traceable evidence"
+        ]
+      }
+    },
+    "suggested_series": [],
+    "overlap_policy": "The following homes have deliberately related subject matter. They are navigation leads, not proof that the same question belongs in every bank. Choose one primary home for an actual episode and link it elsewhere. Where a subject appears in more than one context, retain the distinct case, population, system or interpretive question.",
+    "neighboring_niches": [
+      {
+        "id": "007",
+        "title": "AI Tools / AI Tutorials",
+        "directory": "007_ai_tools_ai_tutorials",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "337",
+        "title": "AI Research",
+        "directory": "337_ai_research",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "338",
+        "title": "Developer AI",
+        "directory": "338_developer_ai",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "531",
+        "title": "AI Software Agents",
+        "directory": "531_ai_software_agents",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      },
+      {
+        "id": "532",
+        "title": "Large Language Model Systems",
+        "directory": "532_large_language_model_systems",
+        "reason": "Related coverage cluster; inspect both scopes before creating a separate episode."
+      }
+    ],
+    "handoff": [
+      "Keep the BANK ID in notes. Refine the research question with an exact text edition, jurisdiction, population, product version, place, time range or clearly labeled fictional premise.",
+      "Inspect actual sources; no source was verified by generating this map. Apply the existing registry planning and idea readiness process before project creation.",
+      "Choose a current registered angle only after reading its niche-specific scope. This initial map has not checked or assigned angle plans for these entries.",
+      "Keep Q1-Q42, CAT defaults, project snapshots, output locations and production gates unchanged. Catalog counts are not production or publication counts.",
+      "Review neighboring banks for semantic overlap and follow the existing Phase 1 claim-ledger requirements. Add qualified review when required by the production contract."
+    ],
+    "coverage_limits": "This initial map does not exhaust the niche, its regions, time periods, named case studies, texts, technical variants or disputed questions. It has not performed source-feasibility checks, semantic duplicate review of every pair, trend analysis, claim verification or episode production. Expand any category freely after identifying a real coverage gap; add categories where the subject requires them. Preserve existing IDs when refining wording and allocate new IDs only for genuinely new proposals."
+  },
+  "applied_depth_batches": [
+    "detailed_expansion_batch_01"
+  ],
+  "depth_review": {
+    "status": "authored_draft_prepared",
+    "basis": "Individually authored questions and scopes; category organization, wording, case specificity and exclusions reviewed during drafting.",
+    "source_verification": "not_performed",
+    "independent_peer_review": "not_performed",
+    "structural_review": "run separately; does not certify editorial completeness",
+    "overall_all_niche_request": "still_in_progress"
+  },
+  "applied_extension_batches": [
+    "first_ten_depth_extension_01",
+    "first_ten_depth_extension_02"
+  ],
+  "coverage_review": {
+    "status": "open_for_further_substantive_expansion",
+    "topic_cap": null,
+    "completion_basis": "Coverage of real subject branches, never a uniform topic count.",
+    "exhaustive_coverage_claimed": false,
+    "source_verification": "not_performed",
+    "latest_extension": "first_ten_depth_extension_02"
+  }
+}

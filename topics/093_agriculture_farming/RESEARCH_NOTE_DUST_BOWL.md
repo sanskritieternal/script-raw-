@@ -1,0 +1,7 @@
+# Bounded source note: Dust Bowl and soil conservation
+
+Accessed 2026-10-24. Primary agency history: USDA Natural Resources Conservation Service, [NRCS History](https://www.nrcs.usda.gov/about/history/brief-history-nrcs), especially “1920s–1930s – Hugh Hammond Bennett and the Dust Bowl.” Related agency account: [Hugh Hammond Bennett and the Creation of the Soil Erosion Service](https://www.nrcs.usda.gov/resources/data-and-reports/hugh-hammond-bennett-and-the-creation-of-the-soil-erosion-service).
+
+NRCS identifies persistent Great Plains drought beginning in 1932, exposed soil and wind erosion, dust reaching Washington, D.C. in 1934 and 1935, the 1933 Soil Erosion Service demonstration projects, and the April 27, 1935 Soil Conservation Act establishing the permanent Soil Conservation Service. This supports a named history of how field conditions and public evidence changed federal conservation policy. It does not establish that plowing alone caused the Dust Bowl, that one conservation practice would have prevented it, or that current no-till yields or carbon outcomes can be inferred from the 1930s.
+
+Production follow-up: compare place-specific drought and land-use records with contemporary SCS demonstration results, separate historical erosion control from modern no-till performance, and verify each quoted storm date against the primary record. This selected source-access note is not full episode verification.
